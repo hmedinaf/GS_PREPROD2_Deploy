@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Solicitud de Terreno</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Solicitudes de Terreno</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Anterior - Formato Pagos</layout>
+        <sections>
+            <label><!-- Información de Aprobación --></label>
+            <section>Información de Aprobación</section>
+        </sections>
+        <sections>
+            <label><!-- Relación de Gastos --></label>
+            <section>Relación de Gastos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Adquisiciones</layout>
+        <sections>
+            <label><!-- Análisis de Rentabilidad --></label>
+            <section>Análisis de Rentabilidad</section>
+        </sections>
+        <sections>
+            <label><!-- Información de Aprobación --></label>
+            <section>Información de Aprobación</section>
+        </sections>
+        <sections>
+            <label><!-- Mezcla --></label>
+            <section>Mezcla</section>
+        </sections>
+        <sections>
+            <label><!-- Valor de Operaciones y Condiciones de Pago --></label>
+            <section>Valor de Operaciones y Condiciones de Pago</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Pagos (descontinuado)</layout>
+        <sections>
+            <label><!-- Información de Aprobación --></label>
+            <section>Información de Aprobación</section>
+        </sections>
+        <sections>
+            <label><!-- Relación de Gastos --></label>
+            <section>Relación de Gastos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Solicitud de Terreno</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pagos</layout>
+        <sections>
+            <label><!-- Información de Aprobación --></label>
+            <section>Información de Aprobación</section>
+        </sections>
+        <sections>
+            <label><!-- Relación de Gastos --></label>
+            <section>Relación de Gastos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Adquisiciones --></label>
+        <name>Adquisiciones</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Anterior - Pagos --></label>
+        <name>AnteriorPagos</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tipo de registro para anticipos a terrenos, pagos a terrenos, honorarios y pagos a fideicomisos. --></description>
+        <label><!-- Pagos --></label>
+        <name>Pagos</name>
+    </recordTypes>
+</CustomObjectTranslation>

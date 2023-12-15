@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Nombre__c</field>
+        <field>Owner</field>
+        <field>Asesor__c</field>
+        <field>Fraccionamiento_cta__c</field>
+        <field>Fecha_Asignacion_Asesor__c</field>
+        <field>Fecha_Vencimiento_Asesor__c</field>
+        <field>Name</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Gerente_Ventas__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Extensión Vigencia Asesor</label>
+        <name>Extension_Vigencia_Asesor</name>
+    </approvalStep>
+    <description>Aprobación de la extensión de la vigencia del Asesor 15 días más cuando ya está por vencer su vigencia</description>
+    <emailTemplate>Cuentas/Proximo_Vencimiento_Asesor</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Account.Asesor__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Extension_Vencimiento_Asesor</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Próximo Vencimiento Asesor</label>
+    <processOrder>1</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

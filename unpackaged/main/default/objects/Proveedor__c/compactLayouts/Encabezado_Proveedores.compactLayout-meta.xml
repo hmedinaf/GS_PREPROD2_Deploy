@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Encabezado_Proveedores</fullName>
+    <fields>Name</fields>
+    <fields>Nombre__c</fields>
+    <fields>Nombre_Comercial__c</fields>
+    <label>Encabezado Proveedores</label>
+</CompactLayout>

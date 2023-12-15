@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Este campo se utiliza para las rutas de aprobacion en los casos en los que la plaza cuente con más de un grupo de aprobadores --></help>
+        <label><!-- UEN Sub --></label>
+        <name>UEN_Sub__c</name>
+    </CustomFieldTranslation>

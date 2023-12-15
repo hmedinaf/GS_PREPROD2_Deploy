@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ABC CAPITAL</fullName>
+        <default>false</default>
+        <label>ABC CAPITAL</label>
+    </customValue>
+    <customValue>
+        <fullName>ALRA DEL SUR ASESRORIA HIP</fullName>
+        <default>false</default>
+        <label>ALRA DEL SUR ASESRORIA HIP</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOFINCASA</fullName>
+        <default>false</default>
+        <label>AUTOFINCASA</label>
+    </customValue>
+    <customValue>
+        <fullName>BANAMEX</fullName>
+        <default>false</default>
+        <label>BANAMEX</label>
+    </customValue>
+    <customValue>
+        <fullName>BANCA AFIRME SA</fullName>
+        <default>false</default>
+        <label>BANCA AFIRME SA</label>
+    </customValue>
+    <customValue>
+        <fullName>BANCO AZTECA</fullName>
+        <default>false</default>
+        <label>BANCO AZTECA</label>
+    </customValue>
+    <customValue>
+        <fullName>BANCO BX+</fullName>
+        <default>false</default>
+        <label>BANCO BX+</label>
+    </customValue>
+    <customValue>
+        <fullName>BANCO DEL BAJIO SA</fullName>
+        <default>false</default>
+        <label>BANCO DEL BAJIO SA</label>
+    </customValue>
+    <customValue>
+        <fullName>BANCO INMOBILIARIO MEXICANO</fullName>
+        <default>false</default>
+        <label>BANCO INMOBILIARIO MEXICANO</label>
+    </customValue>
+    <customValue>
+        <fullName>BANCO SANTANDER SERFIN SA</fullName>
+        <default>false</default>
+        <label>BANCO SANTANDER SERFIN SA</label>
+    </customValue>
+    <customValue>
+        <fullName>BANJERCITO</fullName>
+        <default>false</default>
+        <label>BANJERCITO</label>
+    </customValue>
+    <customValue>
+        <fullName>BANORTE SA</fullName>
+        <default>false</default>
+        <label>BANORTE SA</label>
+    </customValue>
+    <customValue>
+        <fullName>BANREGIO</fullName>
+        <default>false</default>
+        <label>BANREGIO</label>
+    </customValue>
+    <customValue>
+        <fullName>BANSEFI</fullName>
+        <default>false</default>
+        <label>BANSEFI</label>
+    </customValue>
+    <customValue>
+        <fullName>BBVA BANCOMER SA DE CV</fullName>
+        <default>false</default>
+        <label>BBVA BANCOMER SA DE CV</label>
+    </customValue>
+    <customValue>
+        <fullName>BRADA HIPOTECARIA SA DE CV SOF</fullName>
+        <default>false</default>
+        <label>BRADA HIPOTECARIA SA DE CV SOF</label>
+    </customValue>
+    <customValue>
+        <fullName>CAJA BUENOS AIRES SC AP RLCV</fullName>
+        <default>false</default>
+        <label>CAJA BUENOS AIRES SC AP RLCV</label>
+    </customValue>
+    <customValue>
+        <fullName>CAJA FLORENCIO ROSAS</fullName>
+        <default>false</default>
+        <label>CAJA FLORENCIO ROSAS</label>
+    </customValue>
+    <customValue>
+        <fullName>CAJA POPULAR CRISTOBAL COLON</fullName>
+        <default>false</default>
+        <label>CAJA POPULAR CRISTOBAL COLON</label>
+    </customValue>
+    <customValue>
+        <fullName>CAJA POPULAR MEXICANA</fullName>
+        <default>false</default>
+        <label>CAJA POPULAR MEXICANA</label>
+    </customValue>
+    <customValue>
+        <fullName>CAJA POPULAR SAN RAFAEL S.C. D</fullName>
+        <default>false</default>
+        <label>CAJA POPULAR SAN RAFAEL S.C. D</label>
+    </customValue>
+    <customValue>
+        <fullName>CAJA SAN NICOLAS</fullName>
+        <default>false</default>
+        <label>CAJA SAN NICOLAS</label>
+    </customValue>
+    <customValue>
+        <fullName>CFE</fullName>
+        <default>false</default>
+        <label>CFE</label>
+    </customValue>
+    <customValue>
+        <fullName>CITY HOME DEL CENTRO SA</fullName>
+        <default>false</default>
+        <label>CITY HOME DEL CENTRO SA</label>
+    </customValue>
+    <customValue>
+        <fullName>CONSUMER &amp; BUSINESS LOAN</fullName>
+        <default>false</default>
+        <label>CONSUMER &amp; BUSINESS LOAN</label>
+    </customValue>
+    <customValue>
+        <fullName>CONTINGENCIA</fullName>
+        <default>false</default>
+        <label>CONTINGENCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>CREDITO PARA TI SA DE CV SOFOM</fullName>
+        <default>false</default>
+        <label>CREDITO PARA TI SA DE CV SOFOM</label>
+    </customValue>
+    <customValue>
+        <fullName>DAE HIPOTECARIA SA DE CV SOFOM</fullName>
+        <default>false</default>
+        <label>DAE HIPOTECARIA SA DE CV SOFOM</label>
+    </customValue>
+    <customValue>
+        <fullName>DIRECCION PENSIONES ESTADO JAL</fullName>
+        <default>false</default>
+        <label>DIRECCION PENSIONES ESTADO JAL</label>
+    </customValue>
+    <customValue>
+        <fullName>FOVISSSTE</fullName>
+        <default>false</default>
+        <label>FOVISSSTE</label>
+    </customValue>
+    <customValue>
+        <fullName>HIPOTECARIA LI FINANCIERA</fullName>
+        <default>false</default>
+        <label>HIPOTECARIA LI FINANCIERA</label>
+    </customValue>
+    <customValue>
+        <fullName>HIPOTECARIA CASA MEXICANA SA</fullName>
+        <default>false</default>
+        <label>HIPOTECARIA CASA MEXICANA SA</label>
+    </customValue>
+    <customValue>
+        <fullName>HIPOTECARIA CREA MAS</fullName>
+        <default>false</default>
+        <label>HIPOTECARIA CREA MAS</label>
+    </customValue>
+    <customValue>
+        <fullName>HIPOTECARIA CREDITO INMOBILIAR</fullName>
+        <default>false</default>
+        <label>HIPOTECARIA CREDITO INMOBILIAR</label>
+    </customValue>
+    <customValue>
+        <fullName>HIPOTECARIA CREDITO Y CASA SA</fullName>
+        <default>false</default>
+        <label>HIPOTECARIA CREDITO Y CASA SA</label>
+    </customValue>
+    <customValue>
+        <fullName>HIPOTECARIA NACIONAL SA</fullName>
+        <default>false</default>
+        <label>HIPOTECARIA NACIONAL SA</label>
+    </customValue>
+    <customValue>
+        <fullName>HIPOTECARIA VERTICE</fullName>
+        <default>false</default>
+        <label>HIPOTECARIA VERTICE</label>
+    </customValue>
+    <customValue>
+        <fullName>HIR CASA</fullName>
+        <default>false</default>
+        <label>HIR CASA</label>
+    </customValue>
+    <customValue>
+        <fullName>HIRCASA BIENES PROGRAMADOS SA</fullName>
+        <default>false</default>
+        <label>HIRCASA BIENES PROGRAMADOS SA</label>
+    </customValue>
+    <customValue>
+        <fullName>HSBC MEXICO SA</fullName>
+        <default>false</default>
+        <label>HSBC MEXICO SA</label>
+    </customValue>
+    <customValue>
+        <fullName>IMSS</fullName>
+        <default>false</default>
+        <label>IMSS</label>
+    </customValue>
+    <customValue>
+        <fullName>INFONAVIT</fullName>
+        <default>false</default>
+        <label>INFONAVIT</label>
+    </customValue>
+    <customValue>
+        <fullName>ING HIPOTECARIA SA</fullName>
+        <default>false</default>
+        <label>ING HIPOTECARIA SA</label>
+    </customValue>
+    <customValue>
+        <fullName>ISSFAM</fullName>
+        <default>false</default>
+        <label>ISSFAM</label>
+    </customValue>
+    <customValue>
+        <fullName>ISSSTELEON</fullName>
+        <default>false</default>
+        <label>ISSSTELEON</label>
+    </customValue>
+    <customValue>
+        <fullName>METROFINANCIERA SA DE CV</fullName>
+        <default>false</default>
+        <label>METROFINANCIERA SA DE CV</label>
+    </customValue>
+    <customValue>
+        <fullName>MI BANCO</fullName>
+        <default>false</default>
+        <label>MI BANCO</label>
+    </customValue>
+    <customValue>
+        <fullName>PATRIMONIO SA DE CV</fullName>
+        <default>false</default>
+        <label>PATRIMONIO SA DE CV</label>
+    </customValue>
+    <customValue>
+        <fullName>PEMEX</fullName>
+        <default>false</default>
+        <label>PEMEX</label>
+    </customValue>
+    <customValue>
+        <fullName>SCOTIABANK INVERLAT SA DE CV</fullName>
+        <default>false</default>
+        <label>SCOTIABANK INVERLAT SA DE CV</label>
+    </customValue>
+    <customValue>
+        <fullName>SOC. FINANCIERA EQUIPATE SA CV</fullName>
+        <default>false</default>
+        <label>SOC. FINANCIERA EQUIPATE SA CV</label>
+    </customValue>
+    <customValue>
+        <fullName>SOL. EMPRENDEDORAS DEL NORTE</fullName>
+        <default>false</default>
+        <label>SOL. EMPRENDEDORAS DEL NORTE</label>
+    </customValue>
+    <customValue>
+        <fullName>TENMAS SA DE CV SOFOM ENR</fullName>
+        <default>false</default>
+        <label>TENMAS SA DE CV SOFOM ENR</label>
+    </customValue>
+    <customValue>
+        <fullName>NO APLICA</fullName>
+        <default>false</default>
+        <label>NO APLICA</label>
+    </customValue>
+    <customValue>
+        <fullName>CARGA INICIAL</fullName>
+        <default>false</default>
+        <label>CARGA INICIAL</label>
+    </customValue>
+    <masterLabel>Financiera</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

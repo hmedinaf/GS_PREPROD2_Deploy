@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_mayor_de_edad</fullName>
+    <active>true</active>
+    <description>No se puede crear si la persona es menor de edad.</description>
+    <errorConditionFormula>AND(
+Edad__c &lt; 18
+)</errorConditionFormula>
+    <errorDisplayField>Fecha_de_Nacimiento__c</errorDisplayField>
+    <errorMessage>No se puede crear si la persona es menor de edad.</errorMessage>
+</ValidationRule>

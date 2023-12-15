@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Direccion__c</fullName>
+    <externalId>false</externalId>
+    <formula>Inventario__r.Direccionoficial__c +&quot; &quot;+  Inventario__r.Unidad_privativa__c +&quot; &quot; + Inventario__r.Fracc__r.Name + &quot; MLI: &quot; +  Inventario__r.MLI__c</formula>
+    <label>Dirección</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

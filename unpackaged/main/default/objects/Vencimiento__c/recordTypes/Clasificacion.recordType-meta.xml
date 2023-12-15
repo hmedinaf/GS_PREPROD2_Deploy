@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clasificacion</fullName>
+    <active>true</active>
+    <label>Clasificación</label>
+    <picklistValues>
+        <picklist>Clasificacion__c</picklist>
+        <values>
+            <fullName>A1%2E Corto circuito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A10%2E Filtración por Ductos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A11%2E Ducto tapado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A12%2E Otro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A2%2E Obstrucción</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A3%2E Falta cableado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A4%2E Falta Accesorio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A5%2E Falta guía CFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A6%2E Falta Guía TV-Cable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A7%2E Accesorio Dañado y%2Fo Sin Energia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A8%2E Accesorio mal instalado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A9%2E Variacion de Voltaje</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E Instalación Tapada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2%2E Falta de conexión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B3%2E Fugas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B4%2E Mala Instalacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B5%2E Dañado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B6%2E Faltante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B7%2E Humedad en Muro %2F Losa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B8%2E Humedad en Pluvial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B9%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C1%2E Tapado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C2%2E Falta de Conexión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3%2E Fuga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C4%2E Mala Instalacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C5%2E Dañado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C6%2E Faltante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C7%2E Falta de Presion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C8%2E Falta de Suministro Agua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C9%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D1%2E Instalación Tapada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D2%2E Falta de conexión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D3%2E Fugas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D4%2E Falta de Presion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D5%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E Bardas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E2%2E Estructura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E3%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F1%2E Yeso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F10%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F2%2E Pasta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F3%2E Instalación Azulejo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F4%2E Instalación Piso%2F Zoclo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F5%2E Instalación Sardinel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F6%2E Pintura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F7%2E Fisuras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F8%2E Instalacion de Boquilla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F9%2E Pulido en Piso %2F Firme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G1%2E Banqueta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G2%2E Molduras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G3%2E Fisuras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G4%2E Pintura Exterior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G5%2E Cantera %2F Recubrimiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G6%2E Pasto y%2Fo Estuco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G7%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H1%2E Ventanas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H2%2E Puerta Corrediza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H3%2E Filtracion y%2Fo Humedad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H4%2E Sello Ventanas y%2Fo Puertas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H5%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I1%2E Puertas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I2%2E Marco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I3%2E Chapas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I4%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>J1%2E Presencia de humedad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K1%2E Barandales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K2%2E Protectores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L1%2E Tomas Hidráulicas principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L10%2E Falta Guia CFE %2F Reventada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L11%2E Falta Guia TV Cable %2F Reventada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L12%2E Ductos Tapados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L13%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L2%2E Tomas Sanitarias principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L3%2E Tomas de Gas principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L4%2E Calles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L5%2E Cajetes-ARRIATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L6%2E Barda Perimetral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L7%2E Bancas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L8%2E Machuelos-Cordon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L9%2E Banqueta Municipal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M1%2E Luminarias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M2%2E Tapas CFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M3%2E Boca de Tormenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M4%2E Tapas Servicio Cable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M5%2E Nomenclaturas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M6%2E Señalamientos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M7%2E Postes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M8%2E Registros Red Eléctrica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M9%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N1%2E Mosquiteros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N10%2E Filtro purificador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N11%2E Tinaco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N12%2E Tallador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N13%2E Coladera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N14%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N2%2E Tapas de registro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N3%2E Focos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N4%2E Accesorios de Baño</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N5%2E Botes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N6%2E Calentador de paso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N7%2E Calentador Solar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N8%2E Tarja %2F Llaves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N9%2E Llaves de Jardin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O1%2E Sin conexión CFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O10%2E Alta INTERNET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O11%2E No contrato INTERNET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O12%2E Falla Servicio INTERNET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O13%2E No hay Servicio BASURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O14%2E Frencuencia BASURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O15%2E BASURA en Parques y vialidades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O16%2E No hay ESCUELA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O17%2E Falta cupo ESCUELA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O18%2E Mal estado ESCUELA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O19%2E No hay TRANSPORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O2%2E No contrato CFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O20%2E Poca frecuencia TRANSPORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O21%2E Mal estado TRANSPORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O22%2E No hay ALUMBRADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O23%2E Falla ALUMBRADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O24%2E Mal estado ALUMBRADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O25%2E No hay SEGURIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O26%2E Reporte de Robo SEGURIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O27%2E Ineficiencia SEGURIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O28%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O29%2E Aclaracion HIPOTECA CON SERVICIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O3%2E Falla Luz CFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O30%2E Solicita realizar ASOCIACION CIVIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O31%2E Aclaracion ADMINISTRADORA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O32%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O4%2E Sin conexión AGUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O5%2E No contrato AGUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O6%2E Falta AGUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O7%2E Sin conexión GAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O8%2E No contrato GAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O9%2E Falta GAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q1%2E Informacion Compra de Casa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q2%2E Queja Asesor de Ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q3%2E Queja Promesa de Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R1%2E Entrega Documentos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R2%2E Aclaracion Recomienda y Gana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R3%2E Aclaracion Monedero Electronico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R4%2E Aclaración Promoción de Venta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R5%2E Aclaración Reembolso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S1%2E Solicitud Fecha Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S2%2E Re-programar Fecha Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S3%2E Cancelar Cita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T1%2E No habia personal para Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T2%2E Mal Servicio Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T3%2E Vivienda no terminada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T4%2E Casa Vandalizada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U1%2E Aclaracion Pagos aplicados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U2%2E Aclarar Saldo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U3%2E Aclarar Referencias Bancarias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U4%2E Solicitud Carta No Adeudo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U5%2E Aclaracion Numero de Cuenta Pagos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V1%2E Falla Portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V2%2E Aclaraciones%2FCorrección Datos Portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3%2E Sollicitud de Factura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>W1%2E Otros</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

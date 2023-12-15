@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estatus del Pago --></label>
+        <name>Estatus_del_Pago__c</name>
+        <picklistValues>
+            <masterLabel>Abierto</masterLabel>
+            <translation><!-- Abierto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelado</masterLabel>
+            <translation><!-- Cancelado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cerrado</masterLabel>
+            <translation><!-- Cerrado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En Tránsito</masterLabel>
+            <translation><!-- En Tránsito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fallo en AR</masterLabel>
+            <translation><!-- Fallo en AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parcial</masterLabel>
+            <translation><!-- Parcial --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

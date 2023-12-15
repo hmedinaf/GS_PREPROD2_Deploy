@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- Datos de Lead --></label>
+            <section>Datos de Lead</section>
+        </sections>
+        <sections>
+            <label><!-- Información MAS Comercial --></label>
+            <section>Información MAS Comercial</section>
+        </sections>
+        <sections>
+            <label><!-- Información crediticia --></label>
+            <section>Información crediticia</section>
+        </sections>
+        <sections>
+            <label><!-- Ubicación de Interés --></label>
+            <section>Ubicación de Interés</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Layout Admin</layout>
+        <sections>
+            <label><!-- Datos de Lead --></label>
+            <section>Datos de Lead</section>
+        </sections>
+        <sections>
+            <label><!-- Información MAS Comercial --></label>
+            <section>Información MAS Comercial</section>
+        </sections>
+        <sections>
+            <label><!-- Información crediticia --></label>
+            <section>Información crediticia</section>
+        </sections>
+        <sections>
+            <label><!-- Ubicación de Interés --></label>
+            <section>Ubicación de Interés</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Prospecto</layout>
+        <sections>
+            <label><!-- Datos Baja/Incubadora --></label>
+            <section>Datos Baja/Incubadora</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Fiscales --></label>
+            <section>Datos Fiscales</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Generales --></label>
+            <section>Datos Generales</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Marketing --></label>
+            <section>Datos Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Contacto --></label>
+            <section>Datos de Contacto</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de la Cuenta --></label>
+            <section>Datos de la Cuenta</section>
+        </sections>
+        <sections>
+            <label><!-- Datos del Crédito --></label>
+            <section>Datos del Crédito</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Validar Datos --></label>
+        <name>JMC_ValidarSiebel</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- No se admiten más de 18 caracteres. --></errorMessage>
+        <name>CURP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campos requeridos para conversión. [Nombre Completo, Etapa de prospección, Análisis interno, Estatus Lead, Sexo, Fraccionamiento, Canal Venta, SubCanal Venta,
+Teléfono celular ó  Teléfono,
+Si Tipo de Crédito =  INFONAVIT entonces NSS Obligatorio] --></errorMessage>
+        <name>Conversion_Leads</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Obligatorio el campo &apos;Fecha liberación de crédito YY&apos; --></errorMessage>
+        <name>Fecha_LiberacionCreditoYY</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sólo se permiten 11 caracteres. --></errorMessage>
+        <name>NSS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se solicita como obligatorio el picklist &apos;Mensaje error Infonavit&apos; --></errorMessage>
+        <name>Obligatorio_Mensaje_error_Infonavit</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Consulta_CURP --></label>
+        <name>Consulta_CURP</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Credito_FOVISSSTE --></label>
+        <name>Credito_FOVISSSTE</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Precalificacion_Infonavit --></label>
+        <name>Precalificacion_Infonavit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- WhatsApp --></label>
+        <name>WhatsApp</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

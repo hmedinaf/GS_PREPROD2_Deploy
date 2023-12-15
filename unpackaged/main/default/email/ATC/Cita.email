@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial"><span style="font-size: 12pt;">Se le ha agregado una nueva cita MLI&nbsp;</span>{!Visita__c.MLI__c}</font><div><span style="font-size: 12pt;"><br></span></div><div><span style="font-size: 12pt;">Dirección Oficial:&nbsp;{!Visita__c.Direccion__c}</span></div><div><div style="font-size: 12pt;"><br></div><div style="font-size: 12pt;"><div>Fecha:&nbsp;{!Visita__c.Fechaprogramadadevisita__c}</div><div><br></div><div>Hora:&nbsp;{!Visita__c.Horaprogramadadevisita__c}</div></div><div style="font-size: 12pt;"><br></div><div style="font-size: 12pt;">Estatus:&nbsp;{!Visita__c.Estatus__c}</div><div style="font-size: 12pt;"><br></div><div style="font-size: 12pt;">Entrega:&nbsp;{!Visita__c.Entrega__c}</div><div style="font-size: 12pt;"><br></div><div style="font-size: 12pt;">Creado por:&nbsp;{!Visita__c.CreatedBy}</div><div style="font-size: 12pt;"><br><div style="font-size: 12pt;">Liga de acceso: {!Visita__c.Link}</div></div></div>]]></td>
+</tr>
+</table>

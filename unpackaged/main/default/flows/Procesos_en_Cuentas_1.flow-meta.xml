@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <decisions>
+        <name>myRule_1</name>
+        <label>Teléfono Casa Invalido</label>
+        <locationX>182</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>myRule_3</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Teléfono Casa Invalido</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_TRUE_myRule_1</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>TRUE_Teléfono Casa Invalido</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_3</name>
+        <label>CAPS en Nombre</label>
+        <locationX>182</locationX>
+        <locationY>623</locationY>
+        <defaultConnector>
+            <targetReference>myRule_8</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_CAPS en Nombre</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_TRUE_myRule_3</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_3_A1</targetReference>
+            </connector>
+            <label>TRUE_CAPS en Nombre</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_8</name>
+        <label>Formato en Nombre Completo</label>
+        <locationX>182</locationX>
+        <locationY>1139</locationY>
+        <defaultConnectorLabel>FALSE_Formato en Nombre Completo</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_8</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_TRUE_myRule_8</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_8_A1</targetReference>
+            </connector>
+            <label>TRUE_Formato en Nombre Completo</label>
+        </rules>
+    </decisions>
+    <description>Migrated from the Procesos en Cuentas process using multiple criteria.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>formula_1_myRule_3_A3_2141330981</name>
+        <dataType>String</dataType>
+        <expression>UPPER(TRIM({!$Record.Nombre_cta__c}))</expression>
+    </formulas>
+    <formulas>
+        <name>formula_2_myRule_3_A2_1449444315</name>
+        <dataType>String</dataType>
+        <expression>UPPER(TRIM({!$Record.Apellidopaterno_cta__c}))</expression>
+    </formulas>
+    <formulas>
+        <name>formula_3_myRule_3_A1_3417703681</name>
+        <dataType>String</dataType>
+        <expression>TRIM(UPPER({!$Record.Apellidomaterno_cta__c} ))</expression>
+    </formulas>
+    <formulas>
+        <name>formula_4_myRule_8_A1_7225418154</name>
+        <dataType>String</dataType>
+        <expression>UPPER(TRIM({!$Record.Nombre_cta__c}) + &quot; &quot; + TRIM({!$Record.Apellidopaterno_cta__c}) + &quot; &quot; +
+TRIM({!$Record.Apellidomaterno_cta__c}))</expression>
+    </formulas>
+    <formulas>
+        <name>formula_TRUE_myRule_1</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW() &amp;&amp; 
+!ISBLANK(TEXT({!$Record.PersonLeadSource})) &amp;&amp; 
+(LEN({!$Record.Phone}) &gt; 13 || NOT(BEGINS({!$Record.Phone} , &#39;+52&#39;)))</expression>
+    </formulas>
+    <formulas>
+        <name>formula_TRUE_myRule_3</name>
+        <dataType>Boolean</dataType>
+        <expression>{!$Record.RecordType.Name==&quot;Clientes} ATC&quot; &amp;&amp; 
+!ISBLANK({!$Record.Nombre_cta__c}) &amp;&amp; 
+!ISBLANK({!$Record.Apellidopaterno_cta__c}) &amp;&amp; !ISBLANK({!$Record.Apellidomaterno_cta__c}) &amp;&amp;
+OR(
+ISNEW(),
+ISCHANGED({!$Record.Name}),
+ISCHANGED({!$Record.Nombre_cta__c}),
+ISCHANGED({!$Record.Apellidopaterno_cta__c}),
+ISCHANGED({!$Record.Apellidomaterno_cta__c})
+)</expression>
+    </formulas>
+    <formulas>
+        <name>formula_TRUE_myRule_8</name>
+        <dataType>Boolean</dataType>
+        <expression>{!$Record.RecordType.Name==&quot;Clientes} ATC&quot; &amp;&amp; 
+!ISBLANK({!$Record.Nombre_cta__c}) &amp;&amp; 
+!ISBLANK({!$Record.Apellidopaterno_cta__c}) &amp;&amp; !ISBLANK({!$Record.Apellidomaterno_cta__c}) &amp;&amp;
+OR(
+ISNEW(),
+ISCHANGED({!$Record.Name}),
+ISCHANGED({!$Record.Nombre_cta__c}),
+ISCHANGED({!$Record.Apellidopaterno_cta__c}),
+ISCHANGED({!$Record.Apellidomaterno_cta__c})
+)</expression>
+    </formulas>
+    <label>Procesos en Cuentas_1</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>myRule_1_A1</name>
+        <label>Remover Telefeno</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <connector>
+            <targetReference>myRule_3</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>PersonHomePhone</field>
+            <value>
+                <stringValue>+52</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_3_A1</name>
+        <label>Apellido Materno in CAPS</label>
+        <locationX>50</locationX>
+        <locationY>731</locationY>
+        <connector>
+            <targetReference>myRule_3_A2</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Apellidomaterno_cta__c</field>
+            <value>
+                <elementReference>formula_3_myRule_3_A1_3417703681</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_3_A2</name>
+        <label>Apellido Paterno in CAPS</label>
+        <locationX>50</locationX>
+        <locationY>839</locationY>
+        <connector>
+            <targetReference>myRule_3_A3</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Apellidopaterno_cta__c</field>
+            <value>
+                <elementReference>formula_2_myRule_3_A2_1449444315</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_3_A3</name>
+        <label>Primer Nombre</label>
+        <locationX>50</locationX>
+        <locationY>947</locationY>
+        <connector>
+            <targetReference>myRule_8</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Nombre_cta__c</field>
+            <value>
+                <elementReference>formula_1_myRule_3_A3_2141330981</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_8_A1</name>
+        <label>Concatenar Nombre</label>
+        <locationX>50</locationX>
+        <locationY>1247</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IsPersonAccount</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>formula_4_myRule_8_A1_7225418154</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>myRule_1</targetReference>
+        </connector>
+        <object>Account</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

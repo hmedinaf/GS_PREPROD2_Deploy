@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cerrar_Tarea</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF($RecordType.Name = &quot;Talkdesk&quot; &amp;&amp; ISCHANGED( Status ) &amp;&amp;  ISPICKVAL(Status , &#39;Completed&#39;) &amp;&amp; ISBLANK(Solucion__c ) , true, false)</errorConditionFormula>
+    <errorDisplayField>Solucion__c</errorDisplayField>
+    <errorMessage>Se debe especificar una solución para cerrar la tarea</errorMessage>
+</ValidationRule>

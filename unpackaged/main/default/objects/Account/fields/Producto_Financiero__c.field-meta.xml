@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Producto_Financiero__c</fullName>
+    <externalId>false</externalId>
+    <label>Producto Financiero</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipo_Credito__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Producto_Financiero</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>BANJERCITO</controllingFieldValue>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>BANJERCITO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANJERCITO</controllingFieldValue>
+            <valueName>BANJERCITO C/SUBSIDIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANSEFI</controllingFieldValue>
+            <valueName>BANSEFI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COFINAVIT</controllingFieldValue>
+            <valueName>COFI INGRESOS ADICIONALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COFINAVIT</controllingFieldValue>
+            <valueName>COFINAVIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COFINAVIT</controllingFieldValue>
+            <valueName>COFINAVIT CONYUGAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COFINAVIT</controllingFieldValue>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>SOFOL C/SUBSIDIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTADO</controllingFieldValue>
+            <valueName>CONTADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTADO</controllingFieldValue>
+            <valueName>FONDO DE GARANTIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOVISSSTE</controllingFieldValue>
+            <valueName>ALIA2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOVISSSTE</controllingFieldValue>
+            <valueName>COFIFOVISSSTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOVISSSTE</controllingFieldValue>
+            <valueName>CON SUBSIDIO 2.6 VSM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOVISSSTE</controllingFieldValue>
+            <valueName>CON SUBSIDIO 5 VSM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOVISSSTE</controllingFieldValue>
+            <valueName>FOVISSSTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOVISSSTE</controllingFieldValue>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>FOVISSSTE PARA TODOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOVISSSTE</controllingFieldValue>
+            <valueName>INFONAVIT-FOVISSSTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOVISSSTE</controllingFieldValue>
+            <valueName>PENSIONA2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>BAJOS INGRESOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>BAJOS INGRESOS C/SUBSIDIO 2.6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>BAJOS INGRESOS C/SUBSIDIO 5 VS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>BANSEFI C/SUBSIDIO 2.6 VSM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>BANSEFI C/SUBSIDIO 5 VSM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>CON BANSEFI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>CONYUGAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>CONYUGAL C/SUBSIDIO 2.6 VSM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>CONYUGAL C/SUBSIDIO 5 VSM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>ECONOMICO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>ECONOMICO C/SUBSIDIO 2.6 VSM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>ECONOMICO C/SUBSIDIO 5 VSM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>ROC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>SEGUNDO CREDITO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>SUBSIDIO IVSOP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>TOTAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>TRADICIONAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>UNAMOS CREDITOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISSFAM</controllingFieldValue>
+            <valueName>ISSFAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISSSTELEON</controllingFieldValue>
+            <valueName>ISSSTELEON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PENSIONES</controllingFieldValue>
+            <valueName>PENSIONES DEL ESTADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>AUTOFIN CASA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>BANCARIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>CAJA FLORENCIO ROSAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>CAJA POPULAR MEXICANA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>CAJA POPULAR SAN PABLO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>CAPREPOL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>CFE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>FHSSTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>IMSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>ISSSSPEA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>PEMEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SHF/BANCO</controllingFieldValue>
+            <valueName>SOFOL</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

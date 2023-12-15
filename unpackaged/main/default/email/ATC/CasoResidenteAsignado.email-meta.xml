@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Demo</letterhead>
+    <name>Caso Residente Asignado</name>
+    <style>freeForm</style>
+    <subject>{!Casos_Residente__c.Name} {!Casos_Residente__c.RecordType} {!Casos_Residente__c.Fracc__c}</subject>
+    <textOnly>Se le ha asignado un caso con el numero: {!Casos_Residente__c.Name} del Fraccionamiento: {!Casos_Residente__c.Fracc__c} con la siguiente información:
+
+Nombre del Cliente: {!Casos_Residente__c.Cuenta__c}
+
+MLI: {!Casos_Residente__c.MLI__c}
+
+Tipo del registro: {!Casos_Residente__c.RecordType}
+
+Tipo: {!Casos_Residente__c.Tipo__c}
+
+Clasificación: {!Casos_Residente__c.Clasificacion__c}
+
+Zona: {!Casos_Residente__c.Zona__c}
+
+Detalle del reporte: {!Casos_Residente__c.Detalledelreporte__c}
+
+Comentarios: {!Casos_Residente__c.Comentarios__c}
+
+Descripción: {!Casos_Residente__c.Description__c}
+
+Para mas información consulte la siguiente liga:
+
+{!Casos_Residente__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

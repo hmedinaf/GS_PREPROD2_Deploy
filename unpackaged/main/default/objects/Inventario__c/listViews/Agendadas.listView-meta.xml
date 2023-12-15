@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agendadas</fullName>
+    <columns>NAME</columns>
+    <columns>Cuenta__c</columns>
+    <columns>Fracc__c</columns>
+    <columns>MLI__c</columns>
+    <columns>Direccionoficial__c</columns>
+    <columns>FechaEscritura__c</columns>
+    <columns>DiasAntiguedad__c</columns>
+    <columns>Cumplimiento__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Entregada__c</field>
+        <operation>equals</operation>
+        <value>Agendada</value>
+    </filters>
+    <label>Agendadas</label>
+</ListView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XML_No_tiene_Encabezado</fullName>
+    <columns>NAME</columns>
+    <columns>Causa__c</columns>
+    <columns>StackTrace__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Causa__c</field>
+        <operation>contains</operation>
+        <value>encabezado</value>
+    </filters>
+    <label>XML No tiene Encabezado</label>
+</ListView>

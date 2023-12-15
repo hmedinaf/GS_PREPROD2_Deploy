@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Registro del Plan de Venta --></label>
+        <name>Registro_del_Plan_de_Venta__c</name>
+        <relationshipLabel><!-- Update Statging Tables --></relationshipLabel>
+    </CustomFieldTranslation>

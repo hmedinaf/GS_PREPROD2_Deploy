@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Ya Capturo Referencia Familiar? --></label>
+        <name>Ya_Capturo_Referencia_Familiar__c</name>
+    </CustomFieldTranslation>

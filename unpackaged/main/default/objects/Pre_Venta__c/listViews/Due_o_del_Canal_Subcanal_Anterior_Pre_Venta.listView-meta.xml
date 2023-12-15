@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_o_del_Canal_Subcanal_Anterior_Pre_Venta</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Dueño del Canal/Subcanal Anterior</label>
+    <queue>Due_o_del_Canal_Subcanal_Anterior</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

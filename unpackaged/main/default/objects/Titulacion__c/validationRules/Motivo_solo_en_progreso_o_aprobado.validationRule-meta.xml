@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_solo_en_progreso_o_aprobado</fullName>
+    <active>true</active>
+    <description>No se puede modificar este campo si el sub estado no está en progreso o aprobado</description>
+    <errorConditionFormula>AND(isChanged( Motivo__c  ), 
+NOT ISPICKVAL( Sub_Estatus_del_Proceso__c , &#39;Aprobado&#39;) ,
+OR(NOT ISPICKVAL(Sub_Estatus_del_Proceso__c , &#39;En Progreso&#39;) ))</errorConditionFormula>
+    <errorDisplayField>Motivo__c</errorDisplayField>
+    <errorMessage>No se puede modificar este campo si el sub estado no está en progreso o aprobado</errorMessage>
+</ValidationRule>

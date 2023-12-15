@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Información Representante Legal Tercero</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Información Representante Legal Tercero</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Info laboral del representante legal</layout>
+        <sections>
+            <label><!-- Generales del representante legal del tercero --></label>
+            <section>Generales del representante legal del tercero</section>
+        </sections>
+        <sections>
+            <label><!-- Información laboral del representante legal del tercero --></label>
+            <section>Información laboral del representante legal del tercero</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- CURP requerido --></errorMessage>
+        <name>Tercero_CURP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Calle requerido --></errorMessage>
+        <name>Tercero_Calle</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- RFC Requerido --></errorMessage>
+        <name>Tercero_RFC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- RFC Empresa requerido --></errorMessage>
+        <name>Tercero_RFC_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Actividad/Profesión/Ocupacion requerido. --></errorMessage>
+        <name>Tercero_actividad_profesion_ocupacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Apellido Materno requerido --></errorMessage>
+        <name>Tercero_apellido_materno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Apellido Paterno requerido --></errorMessage>
+        <name>Tercero_apellido_paterno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo requerido --></errorMessage>
+        <name>Tercero_autoridad_emite_identificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Municipio requerido --></errorMessage>
+        <name>Tercero_ciudad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Código Postal requerido. --></errorMessage>
+        <name>Tercero_codigo_postal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Colonia requerido --></errorMessage>
+        <name>Tercero_colonia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Correo Electrónico requerido --></errorMessage>
+        <name>Tercero_correo_electronico</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Calle Empresa requerido --></errorMessage>
+        <name>Tercero_domicilio_del_trabajo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Escritura, Póliza o Acta requerido --></errorMessage>
+        <name>Tercero_escritura</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Estado requerido --></errorMessage>
+        <name>Tercero_estado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Estado Empresa requerido --></errorMessage>
+        <name>Tercero_estado_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Extensión requerido --></errorMessage>
+        <name>Tercero_extension</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fecha de nacimiento requerido --></errorMessage>
+        <name>Tercero_fecha_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fecha de escritura del poder requerido --></errorMessage>
+        <name>Tercero_fecha_escritura_de_poder</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Municipio Empresa requerido --></errorMessage>
+        <name>Tercero_municipio_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No. Identificación requerido --></errorMessage>
+        <name>Tercero_no_identificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Nombre de la Empresa requerido --></errorMessage>
+        <name>Tercero_nombre_de_la_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Notario/Corredor del Poder requerido --></errorMessage>
+        <name>Tercero_notario_corredor_del_poder</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Número Exterior requerido --></errorMessage>
+        <name>Tercero_numero_exterior</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Número Interior requerido --></errorMessage>
+        <name>Tercero_numero_interior</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- País requerido --></errorMessage>
+        <name>Tercero_pais</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pais de Nacimiento requerido --></errorMessage>
+        <name>Tercero_pais_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pais Empresa requerido --></errorMessage>
+        <name>Tercero_pais_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Régimen Fiscal requerido --></errorMessage>
+        <name>Tercero_regimen_fiscal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Teléfono celular requerido --></errorMessage>
+        <name>Tercero_telefono_celular</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Teléfono Domicilio requerido --></errorMessage>
+        <name>Tercero_telefono_domicilio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Tipo Identificación requerido --></errorMessage>
+        <name>Tercero_tipo_identificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CURP requerido --></errorMessage>
+        <name>Titular_CURP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo Calle requerido --></errorMessage>
+        <name>Titular_Calle</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- RFC requerido --></errorMessage>
+        <name>Titular_RFC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- RFC Empresa requerido --></errorMessage>
+        <name>Titular_RFC_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Actividad Profesión Ocupación requerido --></errorMessage>
+        <name>Titular_actividad_profesion_ocupacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Apellido Materno requerido --></errorMessage>
+        <name>Titular_apellido_materno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Apellido Paterno requerido --></errorMessage>
+        <name>Titular_apellido_paterno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo Autoridad Emite Identificación requerido --></errorMessage>
+        <name>Titular_autoridad_emite_identificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo Municipio requerido --></errorMessage>
+        <name>Titular_ciudad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo Código Postal requerido --></errorMessage>
+        <name>Titular_codigo_postal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo Colonia requerido --></errorMessage>
+        <name>Titular_colonia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo Correo Electrónico requerido --></errorMessage>
+        <name>Titular_correo_electronico</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Calle Empresa requerido --></errorMessage>
+        <name>Titular_domicilio_del_trabajo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Escritura Póliza o Acta requerido --></errorMessage>
+        <name>Titular_escritura_poliza_o_acta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Estado requerido --></errorMessage>
+        <name>Titular_estado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Estado Empresa requerido --></errorMessage>
+        <name>Titular_estado_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Extensión requerido --></errorMessage>
+        <name>Titular_extension</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fecha de Escritura del Poder requerido --></errorMessage>
+        <name>Titular_fecha_de_escritura_del_poder</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fecha de Nacimiento requerido --></errorMessage>
+        <name>Titular_fecha_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Municipio Empresa requerido --></errorMessage>
+        <name>Titular_municipio_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No. Identificación requerido --></errorMessage>
+        <name>Titular_no_identificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Nombre de la Empresa requerido --></errorMessage>
+        <name>Titular_nombre_de_la_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Notario Corredor del Poder requerido --></errorMessage>
+        <name>Titular_notario_corredor_del_poder</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Número Exterior requerido --></errorMessage>
+        <name>Titular_numero_exterior</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Número Interior requerido --></errorMessage>
+        <name>Titular_numero_interior</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pais requerido --></errorMessage>
+        <name>Titular_pais</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- País de Nacimiento requerido --></errorMessage>
+        <name>Titular_pais_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- País Empresa requerido --></errorMessage>
+        <name>Titular_pais_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Régimen Fiscal requerido --></errorMessage>
+        <name>Titular_regimen_fiscal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Teléfono Celular requerido --></errorMessage>
+        <name>Titular_telefono_celular</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Teléfono Domicilio requerido --></errorMessage>
+        <name>Titular_telefono_domicilio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Tipo Identificación requerido --></errorMessage>
+        <name>Titular_tipo_identificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_estatus</name>
+    </validationRules>
+</CustomObjectTranslation>

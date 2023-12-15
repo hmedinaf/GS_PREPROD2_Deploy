@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FechaVisita_MayorIgual_a_FechaAfluencia</fullName>
+    <active>true</active>
+    <description>La fecha de Visita debe ser mayor o igual a la fecha de afluencia del Fraccionamiento. La fecha de Afluencia es la fecha de primera visita al fraccionamiento.</description>
+    <errorConditionFormula>!IsVRBypassed__c  &amp;&amp; 
+(JMC_Fecha_Visita__c &lt; Fecha_de_Afluencia__c)</errorConditionFormula>
+    <errorDisplayField>JMC_Fecha_Visita__c</errorDisplayField>
+    <errorMessage>La fecha de visita debe ser mayor o igual a la fecha de afluencia del fraccionamiento actual.</errorMessage>
+</ValidationRule>

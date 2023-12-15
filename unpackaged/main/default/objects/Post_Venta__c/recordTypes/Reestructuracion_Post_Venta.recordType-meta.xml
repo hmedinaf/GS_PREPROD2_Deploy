@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reestructuracion_Post_Venta</fullName>
+    <active>true</active>
+    <description>Reestructuración Post Venta</description>
+    <label>Reestructuracion Post Venta</label>
+</RecordType>

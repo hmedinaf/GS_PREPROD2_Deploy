@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Dirección Jurídica</name>
+    <queueSobject>
+        <sobjectType>Plan_de_Venta__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Planning__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Post_Venta__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Pre_Venta__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Venta__c</sobjectType>
+    </queueSobject>
+</Queue>

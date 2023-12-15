@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_domino_no_igual_a_javer</fullName>
+    <active>true</active>
+    <errorConditionFormula>!$User.is_Data_Migration_User__c &amp;&amp;
+!IsVRBypassed__c &amp;&amp;
+CONTAINS(CorreoElectronico__c , &quot;@javer.com&quot;)</errorConditionFormula>
+    <errorDisplayField>CorreoElectronico__c</errorDisplayField>
+    <errorMessage>Los dominios relacionados a Javer no son aceptados como parte de la información de los prospectos, afluentes o clientes.</errorMessage>
+</ValidationRule>

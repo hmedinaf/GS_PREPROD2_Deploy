@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UEN_PLAZA__c</fullName>
+    <externalId>false</externalId>
+    <label>UEN - PLAZA</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>UEN1 - NUEVO LEON</fullName>
+                <default>false</default>
+                <label>UEN1 - NUEVO LEON</label>
+            </value>
+            <value>
+                <fullName>UEN2 - NUEVO LEON</fullName>
+                <default>false</default>
+                <label>UEN2 - NUEVO LEON</label>
+            </value>
+            <value>
+                <fullName>UEN3 - JALISCO</fullName>
+                <default>false</default>
+                <label>UEN3 - JALISCO</label>
+            </value>
+            <value>
+                <fullName>UEN4 - AGUASCALIENTES</fullName>
+                <default>false</default>
+                <label>UEN4 - AGUASCALIENTES</label>
+            </value>
+            <value>
+                <fullName>UEN4 - DISTRITO FEDERAL</fullName>
+                <default>false</default>
+                <label>UEN4 - DISTRITO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>UEN4 - ESTADO DE MEXICO</fullName>
+                <default>false</default>
+                <label>UEN4 - ESTADO DE MEXICO</label>
+            </value>
+            <value>
+                <fullName>UEN4 - GUANAJUATO</fullName>
+                <default>false</default>
+                <label>UEN4 - GUANAJUATO</label>
+            </value>
+            <value>
+                <fullName>UEN4 - QUERETARO</fullName>
+                <default>false</default>
+                <label>UEN4 - QUERETARO</label>
+            </value>
+            <value>
+                <fullName>UEN4 - QUINTANA ROO</fullName>
+                <default>false</default>
+                <label>UEN4 - QUINTANA ROO</label>
+            </value>
+            <value>
+                <fullName>UEN4 - TAMAULIPAS</fullName>
+                <default>false</default>
+                <label>UEN4 - TAMAULIPAS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

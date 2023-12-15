@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo de Fondo de Reserva --></label>
+        <name>Tipo_de_Fondo_de_Reserva__c</name>
+        <picklistValues>
+            <masterLabel>Por cuota fija</masterLabel>
+            <translation><!-- Por cuota fija --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Por metro cuadrado de superficie de construcción</masterLabel>
+            <translation><!-- Por metro cuadrado de superficie de construcción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Por porcentaje de indiviso</masterLabel>
+            <translation><!-- Por porcentaje de indiviso --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

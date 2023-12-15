@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CURP</fullName>
+    <active>true</active>
+    <description>Regla para validar que solo se ingresen 18 caracteres en el campo curp.</description>
+    <errorConditionFormula>AND (NOT(ISBLANK(JMC_CURP__c)),
+
+LEN(  JMC_CURP__c ) &gt; 18)</errorConditionFormula>
+    <errorDisplayField>JMC_CURP__c</errorDisplayField>
+    <errorMessage>No se admiten más de 18 caracteres.</errorMessage>
+</ValidationRule>

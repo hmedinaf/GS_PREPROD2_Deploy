@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Alerta__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Alerta</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>100	Sin alerta.</fullName>
+                <default>false</default>
+                <label>100	Sin alerta.</label>
+            </value>
+            <value>
+                <fullName>3101	El cliente se rehúsa a proporcionar documentos personales que lo identifiquen.</fullName>
+                <default>false</default>
+                <label>3101	El cliente se rehúsa a proporcionar documentos personales que lo identifiquen.</label>
+            </value>
+            <value>
+                <fullName>3102	El pago por el inmueble es realizado por un tercero sin relación aparente con el cliente.</fullName>
+                <default>false</default>
+                <label>3102	El pago por el inmueble es realizado por un tercero sin relación aparente con el cliente.</label>
+            </value>
+            <value>
+                <fullName>3103	El cliente o personas relacionadas con él realizan múltiples operaciones en un periodo muy corto sin razón aparente.</fullName>
+                <default>false</default>
+                <label>3103	El cliente o personas relacionadas con él realizan múltiples operaciones en un periodo muy corto sin razón aparente.</label>
+            </value>
+            <value>
+                <fullName>3104	Al cliente parece no importarle pagar precios superiores a los del mercado con la finalidad de que la operación se realice fuera de los parámetros establecidos.</fullName>
+                <default>false</default>
+                <label>3104	Al cliente parece no importarle pagar precios superiores a los del mercado con la finalidad de que la operación se realice fuera de los parámetros establecidos.</label>
+            </value>
+            <value>
+                <fullName>3105	De acuerdo con medios informativos u otras fuentes de información pública, se tiene conocimiento o sospecha de que el cliente, un familiar o persona relacionada, está vinculado con actividades ilícitas o se encuentra bajo proceso de investigación.</fullName>
+                <default>false</default>
+                <label>3105	De acuerdo con medios informativos u otras fuentes de información pública, se tiene conocimiento o sospecha de que el cliente, un familiar o persona relacionada, está vinculado con actividades ilícitas o se encuentra bajo proceso de investigación.</label>
+            </value>
+            <value>
+                <fullName>3106	El cliente no quiere ser relacionado con la compra del inmueble.</fullName>
+                <default>false</default>
+                <label>3106	El cliente no quiere ser relacionado con la compra del inmueble.</label>
+            </value>
+            <value>
+                <fullName>3107	La operación no es acorde con la actividad económica o giro mercantil declarado por el cliente.</fullName>
+                <default>false</default>
+                <label>3107	La operación no es acorde con la actividad económica o giro mercantil declarado por el cliente.</label>
+            </value>
+            <value>
+                <fullName>3108	El cliente solicita que se realice la operación por medio de un contrato privado, donde no hay intención de registrarlo ante notario, o cuando esta intención se expresa, no se lleva a cabo finalmente.</fullName>
+                <default>false</default>
+                <label>3108	El cliente solicita que se realice la operación por medio de un contrato privado, donde no hay intención de registrarlo ante notario, o cuando esta intención se expresa, no se lleva a cabo finalmente.</label>
+            </value>
+            <value>
+                <fullName>3109	Transacciones sucesivas de compra y venta de la misma propiedad en un periodo corto de tiempo, con cambios injustificados del valor de la misma</fullName>
+                <default>false</default>
+                <label>3109	Transacciones sucesivas de compra y venta de la misma propiedad en un periodo corto de tiempo, con cambios injustificados del valor de la misma</label>
+            </value>
+            <value>
+                <fullName>3110	La operación se lleva acabo a un valor de venta o compra significativamente diferente (mucho mayor o mucho menor) a partir del valor real de la propiedad o a los valores de mercado.</fullName>
+                <default>false</default>
+                <label>3110	La operación se lleva acabo a un valor de venta o compra significativamente diferente (mucho mayor o mucho menor) a partir del valor real de la propiedad o a los valores de mercado.</label>
+            </value>
+            <value>
+                <fullName>3111	Hay indicios, o certeza, que las partes no están actuando en nombre propio y están tratando de ocultar la identidad del cliente real.</fullName>
+                <default>false</default>
+                <label>3111	Hay indicios, o certeza, que las partes no están actuando en nombre propio y están tratando de ocultar la identidad del cliente real.</label>
+            </value>
+            <value>
+                <fullName>3112	Uso de divisas en efectivo sin justificación alguna.</fullName>
+                <default>false</default>
+                <label>3112	Uso de divisas en efectivo sin justificación alguna.</label>
+            </value>
+            <value>
+                <fullName>3113	El cliente liquida la operación por medio de una transferencia proveniente de un país extranjero.</fullName>
+                <default>false</default>
+                <label>3113	El cliente liquida la operación por medio de una transferencia proveniente de un país extranjero.</label>
+            </value>
+            <value>
+                <fullName>3114	El cliente insiste en liquidar o pagar la operación en efectivo rebasando el umbral permitido en la Ley.</fullName>
+                <default>false</default>
+                <label>3114	El cliente insiste en liquidar o pagar la operación en efectivo rebasando el umbral permitido en la Ley.</label>
+            </value>
+            <value>
+                <fullName>3115	El cliente intenta sobornar, extorsionar o amenaza al vendedor con el fin de realizar la operación fuera de los parámetros establecidos, o con la finalidad de evitar el envío del Aviso.</fullName>
+                <default>false</default>
+                <label>3115	El cliente intenta sobornar, extorsionar o amenaza al vendedor con el fin de realizar la operación fuera de los parámetros establecidos, o con la finalidad de evitar el envío del Aviso.</label>
+            </value>
+            <value>
+                <fullName>3116	La información y documentación presentada por el cliente es inconsistente o de difícil verificación por parte del Sujeto Obligado.</fullName>
+                <default>false</default>
+                <label>3116	La información y documentación presentada por el cliente es inconsistente o de difícil verificación por parte del Sujeto Obligado.</label>
+            </value>
+            <value>
+                <fullName>3117	Se tiene sospecha de que algunos intermediarios dentro del sistema financiero están coludidos con el cliente.</fullName>
+                <default>false</default>
+                <label>3117	Se tiene sospecha de que algunos intermediarios dentro del sistema financiero están coludidos con el cliente.</label>
+            </value>
+            <value>
+                <fullName>3118	El cliente es un Fideicomiso y se niega a proporcionar información sobre el beneficiario controlador.</fullName>
+                <default>false</default>
+                <label>3118	El cliente es un Fideicomiso y se niega a proporcionar información sobre el beneficiario controlador.</label>
+            </value>
+            <value>
+                <fullName>3119	El cliente opera en grupos sin que exista algún parentesco o relación entre ellos.</fullName>
+                <default>false</default>
+                <label>3119	El cliente opera en grupos sin que exista algún parentesco o relación entre ellos.</label>
+            </value>
+            <value>
+                <fullName>3120	El cliente pretende pagar o liquidar la operación con monedas virtuales.</fullName>
+                <default>false</default>
+                <label>3120	El cliente pretende pagar o liquidar la operación con monedas virtuales.</label>
+            </value>
+            <value>
+                <fullName>9999	Otra alerta.</fullName>
+                <default>false</default>
+                <label>9999	Otra alerta.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

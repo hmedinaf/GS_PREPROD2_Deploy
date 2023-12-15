@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cancelación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cancelaciones</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Cancelación</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- El monto ingresado no puede ser mayor a Saldo a Cuenta --></errorMessage>
+        <name>GAstos_operativos_menor_a_saldo_cuenta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El Gasto Operativo no puede ser mayor que Saldo a Cuenta --></errorMessage>
+        <name>Valida_gasto_operativo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede editar la razón de rechazo cuando el estatus de la cancelación es &quot;Por Aprobar&quot; o &quot;Aprobado&quot; --></errorMessage>
+        <name>Validacion_estatus_cancelacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede editar la cantidad de gastos operativos cuando el estatus de la cancelación es &quot;Por Aprobar&quot; o &quot;Aprobado&quot; --></errorMessage>
+        <name>Validacion_gastos_operativos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede seleccionar la opción de Resolicitud cuando el estatus del proceso de venta es diferente a &quot;Escriturado&quot; o &quot;Entregado&quot;. --></errorMessage>
+        <name>Validacion_resolicitud_check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede seleccionar la opción de Resolicitud cuando el valor de Estatus Cancelación sea  &quot;Por Aprobar&quot; o &quot;Aprobado&quot; --></errorMessage>
+        <name>Validacion_resolicitud_check_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el motivo de cierre cuando el estatus de cancelación es &quot;Por Aprobar&quot; o &quot;Aprobado&quot; --></errorMessage>
+        <name>validacion_motivi_cierre</name>
+    </validationRules>
+</CustomObjectTranslation>

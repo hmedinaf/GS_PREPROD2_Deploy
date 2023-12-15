@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Planning</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plannings</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Planning - Aprobación Listas Financiamiento</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Planning - Aprobación Listas de Bonificaciones</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Planning - Aprobación Listas de Precios</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Planning - Aprobación Listas de Precios Batch</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Planning - Bonificaciones Batch</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Planning - Lista de Precios Batch Prods</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Planning - Periodo de Venta</layout>
+        <sections>
+            <label><!-- Extensión --></label>
+            <section>Extensión</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Aprobación Listas de Bonificaciones --></description>
+        <label><!-- Aprobacion Listas de Bonificaciones --></label>
+        <name>Aprobacion_Listas_de_Bonificaciones</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Aprobación Listas de Financiamiento --></description>
+        <label><!-- Aprobacion Listas de Financiamiento --></label>
+        <name>Aprobacion_Listas_de_Financiamiento</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Aprobación Listas de Precios --></description>
+        <label><!-- Aprobacion Listas de Precios --></label>
+        <name>Aprobacion_Listas_de_Precios</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Aprobacion Listas de Precios Batch --></description>
+        <label><!-- Aprobacion Listas de Precios Batch --></label>
+        <name>Aprobacion_Listas_de_Precios_Batch</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Aprobación Listas de Precios Batch Prods --></description>
+        <label><!-- Aprobacion Listas de Precios Batch Prods --></label>
+        <name>Aprobacion_Listas_de_Precios_Batch_Prods</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Bonificaciones Batch --></description>
+        <label><!-- Bonificaciones Batch --></label>
+        <name>Bonificaciones_Batch</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Periodo de Venta --></description>
+        <label><!-- Periodo de Venta --></label>
+        <name>Periodo_de_Venta</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Reenviar_Respuesta --></label>
+        <name>Reenviar_Respuesta</name>
+    </webLinks>
+</CustomObjectTranslation>

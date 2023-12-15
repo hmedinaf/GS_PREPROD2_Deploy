@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plaza__c</fullName>
+    <externalId>false</externalId>
+    <label>Plaza</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Aguascalientes</fullName>
+                <default>false</default>
+                <label>AGUASCALIENTES</label>
+            </value>
+            <value>
+                <fullName>Distrito Federal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Distrito Federal</label>
+            </value>
+            <value>
+                <fullName>Estado de Mexico</fullName>
+                <default>false</default>
+                <label>ESTADO DE MEXICO</label>
+            </value>
+            <value>
+                <fullName>Guanajuato</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Guanajuato</label>
+            </value>
+            <value>
+                <fullName>Jalisco</fullName>
+                <default>false</default>
+                <label>JALISCO</label>
+            </value>
+            <value>
+                <fullName>Nuevo Leon</fullName>
+                <default>false</default>
+                <label>NUEVO LEON</label>
+            </value>
+            <value>
+                <fullName>Queretaro</fullName>
+                <default>false</default>
+                <label>QUERETARO</label>
+            </value>
+            <value>
+                <fullName>Quintana Roo</fullName>
+                <default>false</default>
+                <label>QUINTANA ROO</label>
+            </value>
+            <value>
+                <fullName>San Luis Potosi</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>San Luis Potosi</label>
+            </value>
+            <value>
+                <fullName>Tamaulipas</fullName>
+                <default>false</default>
+                <label>TAMAULIPAS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

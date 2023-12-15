@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Notificacion3</name>
+    <style>none</style>
+    <subject>LE REQUERIMOS ACTUALIZAR SU SALDO</subject>
+    <textOnly>COBRANZA CORPORATIVA POSTVENTA es el departamento jurídico que se encarga de la recuperación de cartera vencida de nuestra empresa, {!Inventario__c.Compania__c} El cual ha turnado su expediente a nuestro departamento para cobrar el remanente que usted presenta y que no ha liquidado por situaciones fuera de lo establecido en la firma de sus pagarés, en los cuales se estipula, “SU OBLIGACIÓN A PAGAR EN TIEMPO Y FORMA TODA VEZ QUE ASI SE LE EXIJA”
+
+
+Por consecuencia le extendemos los siguientes puntos:
+
+Cuando una persona incumple los términos del pagaré, se hace exigible el 100% de la deuda y los pagos parciales que se efectúen no detienen cualquier proceso originado por éste.
+El no cumplir con las fechas estipuladas da origen al cobro de intereses moratorios y esto
+dependerá de la situación de su adeudo para fines que nuestro cliente {!Inventario__c.Compania__c} decida y determine.
+Derivado de la falta de pago y no liquidar el saldo a regularizar, se solicitarán los pagarés firmados por el titular y se exigirá el pago de estos por la cantidad TOTAL.
+
+Recuerde que estamos a sus órdenes y en la mejor disposición para orientarle con cualquier problema relativo a su adeudo.
+
+ATENTAMENTE
+
+
+Lic. Hipólito Gloria C.
+
+DEPARTAMENTO DE COBRANZA CORPORATIVA Y
+
+PROCEDIMIENTOS JUDICIALES JAVER.
+
+
+TEL: (81) 51 02 50 50 Ext: 102
+Email: hgloria@javer.com.mx
+
+
+REALICE SUS DEPOSITOS EN BANCO SANTANDER CON LA CLAVE: 51908142657 Y SU REFERENCIA BANCARIA {!Inventario__c.Referencia_Bancaria_Cliente__c}.
+
+
+NO ENTREGUES DINERO, NINGUN ASESOR TE DEBE SOLICITAR DINERO. LOS PAGOS SOLO SE DEBEN EFECTUAR EN LOS BANCOS PERMITIDOS.
+
+
+QUEJAS O ACLARACIONES:
+
+Ma. de Lourdes Ochoa de La Garza
+
+TEL. (81) 11 33 66 99 Ext. 6957
+
+Email: mdochoa@javer.com.mx
+
+Casas Javer, S.A. de C.V, con domicilio en 16 de septiembre #301, entre Hidalgo y Corregidora, Colonia, Centro, San Pedro Garza García, N.L. C.P. 66230, es responsable del uso, tratamiento y protección de los datos personales que recabe de usted o de aquellos a los que tuviere acceso por cualquier medio para brindarle algún servicio, dichos datos podrán ser utilizados para fines de identificación, cobro, prospección comercial y mercadológicos y/o cualquier otro fin previsto en el Aviso de Privacidad integral disponible para su consulta en www.javer.com.mx ; de igual forma dichos datos podrán ser transferidos a subsidiarias del mismo grupo, y a terceros en los que Javer se apoye para su operación.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

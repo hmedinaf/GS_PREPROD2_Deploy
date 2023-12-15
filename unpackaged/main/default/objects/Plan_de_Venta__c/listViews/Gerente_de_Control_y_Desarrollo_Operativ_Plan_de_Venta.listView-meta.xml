@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gerente_de_Control_y_Desarrollo_Operativ_Plan_de_Venta</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Gerente CyD Oper AGS</label>
+    <queue>Gerente_CyD_Oper_AGS</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

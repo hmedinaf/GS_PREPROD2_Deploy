@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus_Integracion__c</fullName>
+    <externalId>false</externalId>
+    <label>Estatus Integración</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nuevo</fullName>
+                <default>false</default>
+                <label>Nuevo</label>
+            </value>
+            <value>
+                <fullName>Enviado</fullName>
+                <default>false</default>
+                <label>Enviado</label>
+            </value>
+            <value>
+                <fullName>Integrado</fullName>
+                <default>false</default>
+                <label>Integrado</label>
+            </value>
+            <value>
+                <fullName>Error</fullName>
+                <default>false</default>
+                <label>Error</label>
+            </value>
+            <value>
+                <fullName>Reintentar</fullName>
+                <default>false</default>
+                <label>Reintentar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

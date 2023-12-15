@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reactivacion_No_validos_sin_Baja_o_Incub</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+    OR(
+        ISPICKVAL(Estatus_Cliente__c , &#39;Asignado&#39;),
+        ISPICKVAL(Estatus_Cliente__c , &#39;POR ASIGNAR&#39;),
+        ISPICKVAL(Estatus_Cliente__c , &#39;POR REASIGNAR&#39;)
+      ),
+    ISPICKVAL(Baja_Incubadora__c , &#39;Reactivación&#39;)
+   )</errorConditionFormula>
+    <errorDisplayField>Baja_Incubadora__c</errorDisplayField>
+    <errorMessage>No se puede seleccionar Reactivación en un registro que no esta en estatus de Baja o Incubadora</errorMessage>
+</ValidationRule>

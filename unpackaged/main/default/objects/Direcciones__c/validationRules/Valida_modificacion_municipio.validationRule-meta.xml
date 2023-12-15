@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_modificacion_municipio</fullName>
+    <active>true</active>
+    <description>No se puede modificar el campo municipio si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado</description>
+    <errorConditionFormula>IF( TEXT(Tipo__c) = &quot;Dirección Afluencia&quot;, FALSE,AND(
+
+ISCHANGED(Municipio__c),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Validación&#39;),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Reservado&#39;),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Formalizado&#39;)
+
+))</errorConditionFormula>
+    <errorMessage>No se puede modificar el campo hijos si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado.</errorMessage>
+</ValidationRule>

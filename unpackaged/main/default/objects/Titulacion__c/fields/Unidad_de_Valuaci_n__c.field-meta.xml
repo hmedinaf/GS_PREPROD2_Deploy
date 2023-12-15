@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unidad_de_Valuaci_n__c</fullName>
+    <externalId>false</externalId>
+    <label>Unidad de Valuación</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A1 AVALUOS Y UNIDAD DE VALUACION, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>A1 AVALUOS Y UNIDAD DE VALUACION, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>ABC APPRAISERS DE MÉXICO, S. A. DE C. V.</fullName>
+                <default>false</default>
+                <label>ABC APPRAISERS DE MÉXICO, S. A. DE C. V.</label>
+            </value>
+            <value>
+                <fullName>AVALUOS GLISON, S.A. DE C.V</fullName>
+                <default>false</default>
+                <label>AVALUOS GLISON, S.A. DE C.V</label>
+            </value>
+            <value>
+                <fullName>AVALUOS INTEGRALES DEL NORTE, S.A DE C.V.</fullName>
+                <default>false</default>
+                <label>AVALUOS INTEGRALES DEL NORTE, S.A DE C.V.</label>
+            </value>
+            <value>
+                <fullName>AVALUOS Y ASOCIADOS, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>AVALUOS Y ASOCIADOS, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>AVALUOS Y SUPERVISIONES CABELLO FLORES, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>AVALUOS Y SUPERVISIONES CABELLO FLORES, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>BUFETE DE AVALUOS, S.A.</fullName>
+                <default>false</default>
+                <label>BUFETE DE AVALUOS, S.A.</label>
+            </value>
+            <value>
+                <fullName>CONSULTORIA EN VALUACION INTEGRAL, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>CONSULTORIA EN VALUACION INTEGRAL, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>ECO AVALUOS, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>ECO AVALUOS, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>INTEGRADORA Y SOLUCIONES CARRERA, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>INTEGRADORA Y SOLUCIONES CARRERA, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>NO APLICA</fullName>
+                <default>false</default>
+                <label>NO APLICA</label>
+            </value>
+            <value>
+                <fullName>TASACIONES Y AVALUOS, S.A.P.I. DE C.V.</fullName>
+                <default>false</default>
+                <label>TASACIONES Y AVALUOS, S.A.P.I. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>TERA AVALUOS, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>TERA AVALUOS, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>UVA UNIDAD DE VALUACIÓN ABALKAN S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>UVA UNIDAD DE VALUACIÓN ABALKAN S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>VALOR COMERCIAL AVALUOS, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>VALOR COMERCIAL AVALUOS, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>VIASC GRUPO INMOBILIARIO S.A.DE C.V.</fullName>
+                <default>false</default>
+                <label>VIASC GRUPO INMOBILIARIO S.A.DE C.V.</label>
+            </value>
+            <value>
+                <fullName>BANORTE</fullName>
+                <default>false</default>
+                <label>BANORTE</label>
+            </value>
+            <value>
+                <fullName>EGP EVALUACION Y GESTION DE PROYECTOS, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>EGP EVALUACION Y GESTION DE PROYECTOS, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>UNIDAD DE VALUACION GLOBAL, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>UNIDAD DE VALUACION GLOBAL, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>VALORES Y SUPERFICIES INMOBILIARIAS, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>VALORES Y SUPERFICIES INMOBILIARIAS, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>VALUACION PROFESIONAL MEXICANA, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>VALUACION PROFESIONAL MEXICANA, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>AVALUOS AAA, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>AVALUOS AAA, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>CAJA POPULAR MEXICANA</fullName>
+                <default>false</default>
+                <label>CAJA POPULAR MEXICANA</label>
+            </value>
+            <value>
+                <fullName>CONSOLIDADO ALAMEDA, S.A.P.I DE C.V.</fullName>
+                <default>false</default>
+                <label>CONSOLIDADO ALAMEDA, S.A.P.I DE C.V.</label>
+            </value>
+            <value>
+                <fullName>CORPORACION MEXICANA DE VALUACION, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>CORPORACION MEXICANA DE VALUACION, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>VALUACION DE PROYECTOS VAPROY, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>VALUACION DE PROYECTOS VAPROY, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>AVALUOS Y CONSULTORIA TECNICAS, SA DE CV</fullName>
+                <default>false</default>
+                <label>AVALUOS Y CONSULTORIA TECNICAS, SA DE CV</label>
+            </value>
+            <value>
+                <fullName>ESTELA MALDONADO</fullName>
+                <default>false</default>
+                <label>ESTELA MALDONADO</label>
+            </value>
+            <value>
+                <fullName>INGENIERIA INTEGRAL DE VALUACION, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>INGENIERIA INTEGRAL DE VALUACION, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>NOTARIA 1</fullName>
+                <default>false</default>
+                <label>NOTARIA 1</label>
+            </value>
+            <value>
+                <fullName>TASACIONES INMOBILIARIAS DE MÉXICO, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>TASACIONES INMOBILIARIAS DE MÉXICO, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>SOL GLO VAL, S.A DE C.V.</fullName>
+                <default>false</default>
+                <label>SOL GLO VAL, S.A DE C.V.</label>
+            </value>
+            <value>
+                <fullName>GMS AVALUOS, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>GMS AVALUOS, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>ASESORIA VALUACION Y ESTUDIOS UNIDAD DE VALUACION, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>ASESORIA VALUACION Y ESTUDIOS UNIDAD DE VALUACION, S.A. DE C.V.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus_Aprobaci_n__c</fullName>
+    <externalId>false</externalId>
+    <label>Estatus Aprobación</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nueva</fullName>
+                <default>false</default>
+                <label>Nueva</label>
+            </value>
+            <value>
+                <fullName>En Progreso</fullName>
+                <default>false</default>
+                <label>En Progreso</label>
+            </value>
+            <value>
+                <fullName>Por Aprobar</fullName>
+                <default>true</default>
+                <label>Por Aprobar</label>
+            </value>
+            <value>
+                <fullName>ALP - Jefe Compras</fullName>
+                <default>false</default>
+                <label>ALP - Jefe Compras</label>
+            </value>
+            <value>
+                <fullName>ALP - Gerente Marketing</fullName>
+                <default>false</default>
+                <label>ALP - Gerente Marketing</label>
+            </value>
+            <value>
+                <fullName>ALP - Gerente Comercial</fullName>
+                <default>false</default>
+                <label>ALP - Gerente Comercial</label>
+            </value>
+            <value>
+                <fullName>ALP - Gerente Control &amp; Desarrollo</fullName>
+                <default>false</default>
+                <label>ALP - Gerente Control &amp; Desarrollo</label>
+            </value>
+            <value>
+                <fullName>ALP - AEC</fullName>
+                <default>false</default>
+                <label>ALP - AEC</label>
+            </value>
+            <value>
+                <fullName>ALP - Dirección Comercial</fullName>
+                <default>false</default>
+                <label>ALP - Dirección Comercial</label>
+            </value>
+            <value>
+                <fullName>Aprobado</fullName>
+                <default>false</default>
+                <label>Aprobado</label>
+            </value>
+            <value>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+                <label>Rechazado</label>
+            </value>
+            <value>
+                <fullName>Duplicada</fullName>
+                <default>false</default>
+                <label>Duplicada</label>
+            </value>
+            <value>
+                <fullName>Ok</fullName>
+                <default>false</default>
+                <label>Ok</label>
+            </value>
+            <value>
+                <fullName>Ya se Puede Usar</fullName>
+                <default>false</default>
+                <label>Ya se Puede Usar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

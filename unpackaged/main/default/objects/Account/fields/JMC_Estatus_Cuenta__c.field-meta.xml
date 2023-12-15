@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JMC_Estatus_Cuenta__c</fullName>
+    <externalId>false</externalId>
+    <label>Estatus Cuenta</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Baja</fullName>
+                <default>false</default>
+                <label>Baja</label>
+            </value>
+            <value>
+                <fullName>Por asignar</fullName>
+                <default>false</default>
+                <label>Por asignar</label>
+            </value>
+            <value>
+                <fullName>Asignado</fullName>
+                <default>false</default>
+                <label>Asignado</label>
+            </value>
+            <value>
+                <fullName>Por reasginar</fullName>
+                <default>false</default>
+                <label>Por reasginar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

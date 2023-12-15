@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NSS</fullName>
+    <active>false</active>
+    <description>Regla para solo permitir 11 caracteres en el campo del NSS</description>
+    <errorConditionFormula>AND (NOT(ISBLANK(JMC_NSS__c)),
+
+LEN( JMC_NSS__c) != 11)</errorConditionFormula>
+    <errorDisplayField>JMC_NSS__c</errorDisplayField>
+    <errorMessage>Sólo se permiten 11 caracteres.</errorMessage>
+</ValidationRule>

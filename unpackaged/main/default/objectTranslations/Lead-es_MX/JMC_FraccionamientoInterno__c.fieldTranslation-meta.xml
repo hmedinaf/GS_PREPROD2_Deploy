@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- FraccionamientoInterno --></label>
+        <name>JMC_FraccionamientoInterno__c</name>
+        <picklistValues>
+            <masterLabel>ACACIAS</masterLabel>
+            <translation><!-- ACACIAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBERI RESIDENCIAL</masterLabel>
+            <translation><!-- ALBERI RESIDENCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBORETO RESIDENCIAL</masterLabel>
+            <translation><!-- ALBORETO RESIDENCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALVENTO</masterLabel>
+            <translation><!-- ALVENTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARBOLADA</masterLabel>
+            <translation><!-- ARBOLADA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARCOS 7</masterLabel>
+            <translation><!-- ARCOS 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARCOS DEL SOL</masterLabel>
+            <translation><!-- ARCOS DEL SOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARCOS DEL SOL SECTOR ELITE</masterLabel>
+            <translation><!-- ARCOS DEL SOL SECTOR ELITE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARRAYANES HABITAT II</masterLabel>
+            <translation><!-- ARRAYANES HABITAT II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BARRIO ESTRELLA</masterLabel>
+            <translation><!-- BARRIO ESTRELLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BELCANTO</masterLabel>
+            <translation><!-- BELCANTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BELCANTO II</masterLabel>
+            <translation><!-- BELCANTO II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BELLA VISTA 2º SECTOR FOMERREY</masterLabel>
+            <translation><!-- BELLA VISTA 2º SECTOR FOMERREY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BELLA VISTA 3ER SECTOR</masterLabel>
+            <translation><!-- BELLA VISTA 3ER SECTOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BELLATERRA</masterLabel>
+            <translation><!-- BELLATERRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BELLO AMANECER RESIDENCIAL</masterLabel>
+            <translation><!-- BELLO AMANECER RESIDENCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUE BOREAL</masterLabel>
+            <translation><!-- BOSQUE BOREAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUE DE LOS NOGALES</masterLabel>
+            <translation><!-- BOSQUE DE LOS NOGALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUE REAL</masterLabel>
+            <translation><!-- BOSQUE REAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUES DE CASTILLA</masterLabel>
+            <translation><!-- BOSQUES DE CASTILLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUES DE LERMA</masterLabel>
+            <translation><!-- BOSQUES DE LERMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUES DE SAN JUAN</masterLabel>
+            <translation><!-- BOSQUES DE SAN JUAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUES DE SAN JUAN 2</masterLabel>
+            <translation><!-- BOSQUES DE SAN JUAN 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUES DE SAN JUAN 3</masterLabel>
+            <translation><!-- BOSQUES DE SAN JUAN 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUES DE SAN JUAN IV</masterLabel>
+            <translation><!-- BOSQUES DE SAN JUAN IV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUES DE SAN JUAN V</masterLabel>
+            <translation><!-- BOSQUES DE SAN JUAN V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUES DEL NEVADO</masterLabel>
+            <translation><!-- BOSQUES DEL NEVADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUES LA HUASTECA</masterLabel>
+            <translation><!-- BOSQUES LA HUASTECA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BULGARIA 533 WELT</masterLabel>
+            <translation><!-- BULGARIA 533 WELT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAMPANARIO</masterLabel>
+            <translation><!-- CAMPANARIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIMA SERENA</masterLabel>
+            <translation><!-- CIMA SERENA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIMA SERENA II</masterLabel>
+            <translation><!-- CIMA SERENA II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIMA SERENA III</masterLabel>
+            <translation><!-- CIMA SERENA III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUMBRE ALTA</masterLabel>
+            <translation><!-- CUMBRE ALTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUMBRES ALLEGRO</masterLabel>
+            <translation><!-- CUMBRES ALLEGRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUMBRES ALLEGRO DPTOS</masterLabel>
+            <translation><!-- CUMBRES ALLEGRO DPTOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUMBRES ANDARA</masterLabel>
+            <translation><!-- CUMBRES ANDARA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUMBRES BRITANIA</masterLabel>
+            <translation><!-- CUMBRES BRITANIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUMBRES PLATINO</masterLabel>
+            <translation><!-- CUMBRES PLATINO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDUARDO LOARCA CASTILLO IV ETAPA</masterLabel>
+            <translation><!-- EDUARDO LOARCA CASTILLO IV ETAPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EL MANANTIAL</masterLabel>
+            <translation><!-- EL MANANTIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESTRELLA ELITE</masterLabel>
+            <translation><!-- ESTRELLA ELITE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUENTES DE BALVANERA</masterLabel>
+            <translation><!-- FUENTES DE BALVANERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GENERICO RD</masterLabel>
+            <translation><!-- GENERICO RD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HACIENDA DEL BOSQUE</masterLabel>
+            <translation><!-- HACIENDA DEL BOSQUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HACIENDA EL PALMAR</masterLabel>
+            <translation><!-- HACIENDA EL PALMAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HACIENDA MOMPANI</masterLabel>
+            <translation><!-- HACIENDA MOMPANI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HACIENDA MONTEBELLO</masterLabel>
+            <translation><!-- HACIENDA MONTEBELLO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIMALAYA</masterLabel>
+            <translation><!-- HIMALAYA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JARDINES DE ALEJANDRIA</masterLabel>
+            <translation><!-- JARDINES DE ALEJANDRIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JARDINES DE BUGAMBILIAS</masterLabel>
+            <translation><!-- JARDINES DE BUGAMBILIAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JARDINES DE CASTALIAS</masterLabel>
+            <translation><!-- JARDINES DE CASTALIAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JARDINES DE GIRASOLES</masterLabel>
+            <translation><!-- JARDINES DE GIRASOLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JARDINES DE MAGNOLIAS</masterLabel>
+            <translation><!-- JARDINES DE MAGNOLIAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JARDINES DE MAGNOLIAS II</masterLabel>
+            <translation><!-- JARDINES DE MAGNOLIAS II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JOLLAS DE ANAHUAC</masterLabel>
+            <translation><!-- JOLLAS DE ANAHUAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAS AGUILAS</masterLabel>
+            <translation><!-- LAS AGUILAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAS HADAS</masterLabel>
+            <translation><!-- LAS HADAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAS LUCES</masterLabel>
+            <translation><!-- LAS LUCES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAS QUINTAS</masterLabel>
+            <translation><!-- LAS QUINTAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOMA REAL</masterLabel>
+            <translation><!-- LOMA REAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOMBARDIA RESIDENCIAL</masterLabel>
+            <translation><!-- LOMBARDIA RESIDENCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOS ABEDULES</masterLabel>
+            <translation><!-- LOS ABEDULES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOS ALAMOS</masterLabel>
+            <translation><!-- LOS ALAMOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOS CANTAROS</masterLabel>
+            <translation><!-- LOS CANTAROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOS CANTAROS MTY</masterLabel>
+            <translation><!-- LOS CANTAROS MTY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOS CARACOLES</masterLabel>
+            <translation><!-- LOS CARACOLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOS COMETAS</masterLabel>
+            <translation><!-- LOS COMETAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOS ENCINOS</masterLabel>
+            <translation><!-- LOS ENCINOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOS MOLINOS</masterLabel>
+            <translation><!-- LOS MOLINOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAGNOLIAS III</masterLabel>
+            <translation><!-- MAGNOLIAS III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAGNOLIAS IV</masterLabel>
+            <translation><!-- MAGNOLIAS IV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MASSARO</masterLabel>
+            <translation><!-- MASSARO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MILA RESIDENCIAL</masterLabel>
+            <translation><!-- MILA RESIDENCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MILENIUM RESIDENCIAL</masterLabel>
+            <translation><!-- MILENIUM RESIDENCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIRAFLORES</masterLabel>
+            <translation><!-- MIRAFLORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIRASOL RESIDENCIAL</masterLabel>
+            <translation><!-- MIRASOL RESIDENCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MISION DE LOS ANGELES 1ER SECTOR ARCANGELES</masterLabel>
+            <translation><!-- MISION DE LOS ANGELES 1ER SECTOR ARCANGELES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MONTE BEISTEGUI</masterLabel>
+            <translation><!-- MONTE BEISTEGUI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MURIEL RESIDENCIAL</masterLabel>
+            <translation><!-- MURIEL RESIDENCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEXXUS CRISTAL</masterLabel>
+            <translation><!-- NEXXUS CRISTAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEXXUS DIAMANTE</masterLabel>
+            <translation><!-- NEXXUS DIAMANTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEXXUS PLATINO</masterLabel>
+            <translation><!-- NEXXUS PLATINO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PASEO COTO TONALA</masterLabel>
+            <translation><!-- PASEO COTO TONALA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PASEO DE GUADALUPE</masterLabel>
+            <translation><!-- PASEO DE GUADALUPE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PASEO DE LOS NOGALES</masterLabel>
+            <translation><!-- PASEO DE LOS NOGALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PASEO KUSAMIL</masterLabel>
+            <translation><!-- PASEO KUSAMIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PASEO NIKTE</masterLabel>
+            <translation><!-- PASEO NIKTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PASEO SAN JUNIPERO</masterLabel>
+            <translation><!-- PASEO SAN JUNIPERO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PASEOS DEL SUR</masterLabel>
+            <translation><!-- PASEOS DEL SUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEDREGAL DEL RIO</masterLabel>
+            <translation><!-- PEDREGAL DEL RIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PIRAMIDES</masterLabel>
+            <translation><!-- PIRAMIDES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PORTAREAL</masterLabel>
+            <translation><!-- PORTAREAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PORTO SECTOR FLORENCIA</masterLabel>
+            <translation><!-- PORTO SECTOR FLORENCIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PORTOALTO</masterLabel>
+            <translation><!-- PORTOALTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIV CANADA SEC VANCOUVER</masterLabel>
+            <translation><!-- PRIV CANADA SEC VANCOUVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADA ALTUS</masterLabel>
+            <translation><!-- PRIVADA ALTUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADA ALTUS II</masterLabel>
+            <translation><!-- PRIVADA ALTUS II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADA BELTERRA</masterLabel>
+            <translation><!-- PRIVADA BELTERRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADA CEREZO</masterLabel>
+            <translation><!-- PRIVADA CEREZO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADA LOS PRADOS</masterLabel>
+            <translation><!-- PRIVADA LOS PRADOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADA MONTEJO</masterLabel>
+            <translation><!-- PRIVADA MONTEJO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADA RIVIERA</masterLabel>
+            <translation><!-- PRIVADA RIVIERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADA SANTA ANITA</masterLabel>
+            <translation><!-- PRIVADA SANTA ANITA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADA VIA SIETE</masterLabel>
+            <translation><!-- PRIVADA VIA SIETE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS BORNEO</masterLabel>
+            <translation><!-- PRIVADAS BORNEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS CARANDAY</masterLabel>
+            <translation><!-- PRIVADAS CARANDAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS CUMBRES DIAMANTE</masterLabel>
+            <translation><!-- PRIVADAS CUMBRES DIAMANTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS DE ANAHUAC INGLÉS</masterLabel>
+            <translation><!-- PRIVADAS DE ANAHUAC INGLÉS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS DE ANAHUAC SEC. FRANCES</masterLabel>
+            <translation><!-- PRIVADAS DE ANAHUAC SEC. FRANCES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS DE ANAHUAC SECTOR IRLANDES</masterLabel>
+            <translation><!-- PRIVADAS DE ANAHUAC SECTOR IRLANDES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS DE LA MONTAÑA</masterLabel>
+            <translation><!-- PRIVADAS DE LA MONTAÑA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS DE LA REYNA</masterLabel>
+            <translation><!-- PRIVADAS DE LA REYNA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS DE LINCOLN</masterLabel>
+            <translation><!-- PRIVADAS DE LINCOLN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS DE SAN MIGUEL</masterLabel>
+            <translation><!-- PRIVADAS DE SAN MIGUEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS DEL ANGEL</masterLabel>
+            <translation><!-- PRIVADAS DEL ANGEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS DEL CANADA</masterLabel>
+            <translation><!-- PRIVADAS DEL CANADA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS DEL CONTRY</masterLabel>
+            <translation><!-- PRIVADAS DEL CONTRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS DEL PONIENTE</masterLabel>
+            <translation><!-- PRIVADAS DEL PONIENTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS DIAMANTE</masterLabel>
+            <translation><!-- PRIVADAS DIAMANTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS MASÁI</masterLabel>
+            <translation><!-- PRIVADAS MASÁI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS OCANIA</masterLabel>
+            <translation><!-- PRIVADAS OCANIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVALIA AMBIENTA</masterLabel>
+            <translation><!-- PRIVALIA AMBIENTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUNTA CASTILLA</masterLabel>
+            <translation><!-- PUNTA CASTILLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUNTA ESTRELLA</masterLabel>
+            <translation><!-- PUNTA ESTRELLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUINTA VERSALLES</masterLabel>
+            <translation><!-- QUINTA VERSALLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REAL DE LA LOMA</masterLabel>
+            <translation><!-- REAL DE LA LOMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REAL DE PALMAS</masterLabel>
+            <translation><!-- REAL DE PALMAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REAL DEL SOL</masterLabel>
+            <translation><!-- REAL DEL SOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REAL DEL SOL ADJUDICADO</masterLabel>
+            <translation><!-- REAL DEL SOL ADJUDICADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RESIDENCIAL APODACA</masterLabel>
+            <translation><!-- RESIDENCIAL APODACA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RESIDENCIAL PRIVADA LAS PLAZAS</masterLabel>
+            <translation><!-- RESIDENCIAL PRIVADA LAS PLAZAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RESIDENCIAL VALLE AZUL</masterLabel>
+            <translation><!-- RESIDENCIAL VALLE AZUL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RESIDENZA III</masterLabel>
+            <translation><!-- RESIDENZA III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RESIDENZA PRIVADAS</masterLabel>
+            <translation><!-- RESIDENZA PRIVADAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RINCONADA DE SAN ANTONIO II</masterLabel>
+            <translation><!-- RINCONADA DE SAN ANTONIO II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RINCONADA LAGO DE GUADALUPE</masterLabel>
+            <translation><!-- RINCONADA LAGO DE GUADALUPE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RINCONADAS DEL SOL</masterLabel>
+            <translation><!-- RINCONADAS DEL SOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RUISEÑORES</masterLabel>
+            <translation><!-- RUISEÑORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RUISEÑORES 2</masterLabel>
+            <translation><!-- RUISEÑORES 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAN MIGUELITO 2º SECTOR</masterLabel>
+            <translation><!-- SAN MIGUELITO 2º SECTOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SANDARA RESIDENCIAL</masterLabel>
+            <translation><!-- SANDARA RESIDENCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TORRE LUNA</masterLabel>
+            <translation><!-- TORRE LUNA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TORRE LUNA 2</masterLabel>
+            <translation><!-- TORRE LUNA 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TREBOLES</masterLabel>
+            <translation><!-- TREBOLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE CONDESA SECTOR BRITANIA</masterLabel>
+            <translation><!-- VALLE CONDESA SECTOR BRITANIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LA SILLA</masterLabel>
+            <translation><!-- VALLE DE LA SILLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LINCOLN</masterLabel>
+            <translation><!-- VALLE DE LINCOLN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LINCOLN 4TA ET 2DA Y 3A</masterLabel>
+            <translation><!-- VALLE DE LINCOLN 4TA ET 2DA Y 3A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LINCOLN ADJUDICADO</masterLabel>
+            <translation><!-- VALLE DE LINCOLN ADJUDICADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LINCOLN SEC ELITE</masterLabel>
+            <translation><!-- VALLE DE LINCOLN SEC ELITE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LINCOLN SEC SAN AGUSTIN</masterLabel>
+            <translation><!-- VALLE DE LINCOLN SEC SAN AGUSTIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LINCOLN SEC SAN JOSE</masterLabel>
+            <translation><!-- VALLE DE LINCOLN SEC SAN JOSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LINCOLN SEC SANTA LUCIA</masterLabel>
+            <translation><!-- VALLE DE LINCOLN SEC SANTA LUCIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LINCOLN SECTOR MINAS</masterLabel>
+            <translation><!-- VALLE DE LINCOLN SECTOR MINAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LINCOLN SECTOR SAN JOSE 2DA ETAPA</masterLabel>
+            <translation><!-- VALLE DE LINCOLN SECTOR SAN JOSE 2DA ETAPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LOS ENCINOS</masterLabel>
+            <translation><!-- VALLE DE LOS ENCINOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LOS ENCINOS II</masterLabel>
+            <translation><!-- VALLE DE LOS ENCINOS II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LOS LIRIOS</masterLabel>
+            <translation><!-- VALLE DE LOS LIRIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LOS MOLINOS</masterLabel>
+            <translation><!-- VALLE DE LOS MOLINOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE SAN BLAS</masterLabel>
+            <translation><!-- VALLE DE SAN BLAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE SANTA ELENA</masterLabel>
+            <translation><!-- VALLE DE SANTA ELENA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE SANTA MARIA</masterLabel>
+            <translation><!-- VALLE DE SANTA MARIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE SANTA MARIA ADJUDICADO</masterLabel>
+            <translation><!-- VALLE DE SANTA MARIA ADJUDICADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE SANTIAGO</masterLabel>
+            <translation><!-- VALLE DE SANTIAGO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE SANTIAGO III</masterLabel>
+            <translation><!-- VALLE DE SANTIAGO III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE SANTIAGO SECTOR II</masterLabel>
+            <translation><!-- VALLE DE SANTIAGO SECTOR II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE TEJEDA II</masterLabel>
+            <translation><!-- VALLE DE TEJEDA II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE TEJEDA III</masterLabel>
+            <translation><!-- VALLE DE TEJEDA III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE TONANTZIN</masterLabel>
+            <translation><!-- VALLE DE TONANTZIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE TONANTZIN II</masterLabel>
+            <translation><!-- VALLE DE TONANTZIN II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE TONANTZIN III</masterLabel>
+            <translation><!-- VALLE DE TONANTZIN III --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DEL NORTE</masterLabel>
+            <translation><!-- VALLE DEL NORTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DEL NORTE ADJUDICADO</masterLabel>
+            <translation><!-- VALLE DEL NORTE ADJUDICADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DEL NORTE SECTOR JARDIN</masterLabel>
+            <translation><!-- VALLE DEL NORTE SECTOR JARDIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DEL NORTE SECTOR MONTAÑA</masterLabel>
+            <translation><!-- VALLE DEL NORTE SECTOR MONTAÑA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DEL ROBLE</masterLabel>
+            <translation><!-- VALLE DEL ROBLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DEL SOL</masterLabel>
+            <translation><!-- VALLE DEL SOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE SANTA ISABEL</masterLabel>
+            <translation><!-- VALLE SANTA ISABEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILLA MONTAÑA</masterLabel>
+            <translation><!-- VILLA MONTAÑA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILLA MONTAÑA ETAPA IV</masterLabel>
+            <translation><!-- VILLA MONTAÑA ETAPA IV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILLALTA</masterLabel>
+            <translation><!-- VILLALTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILLALTA MTY</masterLabel>
+            <translation><!-- VILLALTA MTY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILLAS DE ANAHUAC ALPES</masterLabel>
+            <translation><!-- VILLAS DE ANAHUAC ALPES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILLAS DE LORETO II</masterLabel>
+            <translation><!-- VILLAS DE LORETO II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILLAS DEL JARAL</masterLabel>
+            <translation><!-- VILLAS DEL JARAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILLAS DEL PUERTECITO</masterLabel>
+            <translation><!-- VILLAS DEL PUERTECITO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILLAS DEL RIO</masterLabel>
+            <translation><!-- VILLAS DEL RIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILLAS LA PIEDAD</masterLabel>
+            <translation><!-- VILLAS LA PIEDAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VISTA HERMOSA</masterLabel>
+            <translation><!-- VISTA HERMOSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VISTA MAGNA</masterLabel>
+            <translation><!-- VISTA MAGNA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VISTA MONTAÑA</masterLabel>
+            <translation><!-- VISTA MONTAÑA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VISTA REINA</masterLabel>
+            <translation><!-- VISTA REINA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIÑEDOS</masterLabel>
+            <translation><!-- VIÑEDOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIÑEDOS DEL SUR</masterLabel>
+            <translation><!-- VIÑEDOS DEL SUR --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

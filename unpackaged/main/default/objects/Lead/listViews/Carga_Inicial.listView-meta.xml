@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Carga_Inicial</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>JMC_Fraccionamiento__c</columns>
+    <columns>JMC_Estado__c</columns>
+    <columns>JMC_UEN__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>JCM_Carga_inicial__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Carga Inicial</label>
+</ListView>

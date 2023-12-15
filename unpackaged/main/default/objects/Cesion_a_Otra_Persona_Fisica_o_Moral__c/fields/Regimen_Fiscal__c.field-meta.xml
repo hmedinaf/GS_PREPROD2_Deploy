@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regimen_Fiscal__c</fullName>
+    <externalId>false</externalId>
+    <label>Régimen Fiscal Cesión</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General de Ley Personas Morales</fullName>
+                <default>false</default>
+                <label>General de Ley Personas Morales</label>
+            </value>
+            <value>
+                <fullName>Personas Morales con Fines no Lucrativos</fullName>
+                <default>false</default>
+                <label>Personas Morales con Fines no Lucrativos</label>
+            </value>
+            <value>
+                <fullName>Sueldos y Salarios e Ingresos Asimilados a Salarios</fullName>
+                <default>false</default>
+                <label>Sueldos y Salarios e Ingresos Asimilados a Salarios</label>
+            </value>
+            <value>
+                <fullName>Arrendamiento</fullName>
+                <default>false</default>
+                <label>Arrendamiento</label>
+            </value>
+            <value>
+                <fullName>Régimen de Enajenación o Adquisición de Bienes</fullName>
+                <default>false</default>
+                <label>Régimen de Enajenación o Adquisición de Bienes</label>
+            </value>
+            <value>
+                <fullName>Demás ingresos</fullName>
+                <default>false</default>
+                <label>Demás ingresos</label>
+            </value>
+            <value>
+                <fullName>Residentes en el Extranjero sin Establecimiento Permanente en México</fullName>
+                <default>false</default>
+                <label>Residentes en el Extranjero sin Establecimiento Permanente en México</label>
+            </value>
+            <value>
+                <fullName>Ingresos por Dividendos (socios y accionistas)</fullName>
+                <default>false</default>
+                <label>Ingresos por Dividendos (socios y accionistas)</label>
+            </value>
+            <value>
+                <fullName>Personas Físicas con Actividades Empresariales y Profesionales</fullName>
+                <default>false</default>
+                <label>Personas Físicas con Actividades Empresariales y Profesionales</label>
+            </value>
+            <value>
+                <fullName>Ingresos por intereses</fullName>
+                <default>false</default>
+                <label>Ingresos por intereses</label>
+            </value>
+            <value>
+                <fullName>Régimen de los ingresos por obtención de premios</fullName>
+                <default>false</default>
+                <label>Régimen de los ingresos por obtención de premios</label>
+            </value>
+            <value>
+                <fullName>Sin obligaciones fiscales</fullName>
+                <default>false</default>
+                <label>Sin obligaciones fiscales</label>
+            </value>
+            <value>
+                <fullName>Sociedades Cooperativas de Producción que optan por diferir sus ingresos</fullName>
+                <default>false</default>
+                <label>Sociedades Cooperativas de Producción que optan por diferir sus ingresos</label>
+            </value>
+            <value>
+                <fullName>Incorporación Fiscal</fullName>
+                <default>false</default>
+                <label>Incorporación Fiscal</label>
+            </value>
+            <value>
+                <fullName>Actividades Agrícolas, Ganaderas, Silvícolas y Pesqueras</fullName>
+                <default>false</default>
+                <label>Actividades Agrícolas, Ganaderas, Silvícolas y Pesqueras</label>
+            </value>
+            <value>
+                <fullName>Opcional para Grupos de Sociedades</fullName>
+                <default>false</default>
+                <label>Opcional para Grupos de Sociedades</label>
+            </value>
+            <value>
+                <fullName>Coordinados</fullName>
+                <default>false</default>
+                <label>Coordinados</label>
+            </value>
+            <value>
+                <fullName>Régimen de las Actividades Empresariales con ingresos a través de Plataformas Tecnológicas</fullName>
+                <default>false</default>
+                <label>Régimen de las Actividades Empresariales con ingresos a través de Plataformas Tecnológicas</label>
+            </value>
+            <value>
+                <fullName>Régimen Simplificado de Confianza</fullName>
+                <default>false</default>
+                <label>Régimen Simplificado de Confianza</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

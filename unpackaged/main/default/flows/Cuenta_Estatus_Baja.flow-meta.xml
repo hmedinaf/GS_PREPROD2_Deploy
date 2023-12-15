@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Enviar_Notificacion</name>
+        <label>Enviar notificación</label>
+        <locationX>791</locationX>
+        <locationY>1687</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>CuerpoNotificacion</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>Obtener_id_de_notificacion_personalizada.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>idsDestinatarios</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>Cuenta Estatus Baja</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <name>Agregar_Asesor_Variable_IdsDestinatarios</name>
+        <label>Agregar Asesor a variable idsDestinatarios</label>
+        <locationX>1073</locationX>
+        <locationY>420</locationY>
+        <assignmentItems>
+            <assignToReference>idsDestinatarios</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Asesor__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Cuenta_Tiene_Prospectador_Asignado</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Agregar_Gerente_Ventas_Variable_IdsDestinatarios</name>
+        <label>Agregar Gerente de Ventas a variable idsDestinatarios</label>
+        <locationX>1081</locationX>
+        <locationY>1105</locationY>
+        <assignmentItems>
+            <assignToReference>idsDestinatarios</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Gerente_Ventas__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Existen_Destinatarios</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Agregar_Lead_Profiler_Variable_IdsDestinatarios</name>
+        <label>Agregar Lead Profiler a variable idsDestinatarios</label>
+        <locationX>1080</locationX>
+        <locationY>879</locationY>
+        <assignmentItems>
+            <assignToReference>idsDestinatarios</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Lead_Profiler__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Cuenta_Tiene_Gerente_Ventas</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Agregar_Prospectador_Variable_IdsDestinatarios</name>
+        <label>Agregar Prospectador a variable idsDestinatarios</label>
+        <locationX>1075</locationX>
+        <locationY>654</locationY>
+        <assignmentItems>
+            <assignToReference>idsDestinatarios</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Prospectador__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Cuenta_Tiene_Lead_Profiler_Asignado</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Cuenta_Tiene_Asesor_Asignado</name>
+        <label>Cuenta tiene Asesor asignado</label>
+        <locationX>768</locationX>
+        <locationY>413</locationY>
+        <defaultConnector>
+            <targetReference>Cuenta_Tiene_Prospectador_Asignado</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Resultado predeterminado</defaultConnectorLabel>
+        <rules>
+            <name>Cuenta_Tiene_Asesor_Asignado_Resultado</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Asesor__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Agregar_Asesor_Variable_IdsDestinatarios</targetReference>
+            </connector>
+            <label>Cuenta tiene Asesor asignado resultado</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Cuenta_Tiene_Gerente_Ventas</name>
+        <label>Cuenta tiene Gerente de Ventas</label>
+        <locationX>772</locationX>
+        <locationY>1092</locationY>
+        <defaultConnector>
+            <targetReference>Existen_Destinatarios</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Resultado predeterminado</defaultConnectorLabel>
+        <rules>
+            <name>Cuenta_Tiene_Gerente_Ventas_Resultado</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Gerente_Ventas__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Agregar_Gerente_Ventas_Variable_IdsDestinatarios</targetReference>
+            </connector>
+            <label>Cuenta tiene Gerente de Ventas resultado</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Cuenta_Tiene_Lead_Profiler_Asignado</name>
+        <label>Cuenta tiene Lead Profiler asignado</label>
+        <locationX>770</locationX>
+        <locationY>862</locationY>
+        <defaultConnector>
+            <targetReference>Cuenta_Tiene_Gerente_Ventas</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Resultado predeterminado</defaultConnectorLabel>
+        <rules>
+            <name>Cuenta_Tiene_Lead_Profiler_Asignado_Resultado</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Lead_Profiler__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Agregar_Lead_Profiler_Variable_IdsDestinatarios</targetReference>
+            </connector>
+            <label>Cuenta tiene Lead Profiler asignado resultado</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Cuenta_Tiene_Prospectador_Asignado</name>
+        <label>Cuenta tiene Prospectador asignado</label>
+        <locationX>769</locationX>
+        <locationY>636</locationY>
+        <defaultConnector>
+            <targetReference>Cuenta_Tiene_Lead_Profiler_Asignado</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Resultado predeterminado</defaultConnectorLabel>
+        <rules>
+            <name>Cuenta_Tiene_Prospectador_Asignado_Resultado</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Prospectador__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Agregar_Prospectador_Variable_IdsDestinatarios</targetReference>
+            </connector>
+            <label>Cuenta tiene Prospectador asignado resultado</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Existen_Destinatarios</name>
+        <label>Existen destinatarios</label>
+        <locationX>773</locationX>
+        <locationY>1304</locationY>
+        <defaultConnectorLabel>Resultado predeterminado</defaultConnectorLabel>
+        <rules>
+            <name>Existen_Destinatarios_Resultado</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>idsDestinatarios</leftValueReference>
+                <operator>NotEqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Obtener_id_de_notificacion_personalizada</targetReference>
+            </connector>
+            <label>Existen destinatarios resultado</label>
+        </rules>
+    </decisions>
+    <description>Flujo que envía una notificación personalizada a los roles de venta asignados a una cuenta cuando ésta ha pasado a estatus Baja</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>CuerpoNotificacion</name>
+        <dataType>String</dataType>
+        <expression>IF(
+  OR
+  (
+   {!$Record.RecordType.DeveloperName} = &#39;Prospecto_Persona_Fisica&#39;,
+   {!$Record.RecordType.DeveloperName} = &#39;Afluente_Persona_Fisica&#39;,
+   {!$Record.RecordType.DeveloperName} = &#39;Cliente_Persona_Fisica&#39;
+  ),
+&#39;La cuenta &#39; + {!$Record.FirstName} + &#39; &#39; +  {!$Record.LastName}  + &#39; &#39; + {!$Record.Apellidomaterno_cta__c}  + &#39; ha pasado a estatus BAJA&#39;,
+&#39;La cuenta &#39; + {!$Record.Name} + &#39; ha pasado a estatus BAJA&#39;
+)</expression>
+    </formulas>
+    <interviewLabel>Cuenta Estatus Baja {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Cuenta Estatus Baja</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Obtener_id_de_notificacion_personalizada</name>
+        <label>Obtener id de notificación personalizada</label>
+        <locationX>783</locationX>
+        <locationY>1481</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Enviar_Notificacion</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Cuenta_Estatus_Baja</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>CustomNotificationType</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>650</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Cuenta_Tiene_Asesor_Asignado</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Estatus_Cliente__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>BAJA</stringValue>
+            </value>
+        </filters>
+        <object>Account</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <variables>
+        <name>idsDestinatarios</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

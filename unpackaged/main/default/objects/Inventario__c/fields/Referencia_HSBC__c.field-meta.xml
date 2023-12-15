@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referencia_HSBC__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Compania__c , 
+&#39;CASAS JAVER S.A. DE C.V.&#39;, &#39;4062753744&#39;, 
+&#39;CASAS JAVER DE MÉXICO, S.A. DE C.V&#39;, &#39;4062753579&#39;, 
+&#39;CASAS JAVER DE QUERÉTARO S.A. DE C.V.&#39;, &#39;4062754445&#39;, 
+&#39;INMUEBLES PARA TI SA DE CV&#39;, &#39;4062753793&#39;, 
+&#39;SERVICIOS CORPORATIVOS JAVER SAB DE CV&#39;, &#39;4062752381&#39;,
+					&#39;&#39;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Referencia HSBC</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

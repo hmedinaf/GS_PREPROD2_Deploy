@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Lista_de_Documentos_Fisica__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( AND( CHK_CURP__c, 
+	        CHK_Alta_SHCP__c, 
+	        CHK_Comprobante_de_Domicilio__c, 
+	        CHK_Recibos_de_Nomina__c,
+								 CHK_Identificacion_Oficial__c
+								),
+			 FALSE,
+			 TRUE
+		)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Check Lista de Documentos P Física</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

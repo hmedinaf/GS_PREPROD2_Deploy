@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A. Instalación eléctrica</fullName>
+                <default>false</default>
+                <label>A. Instalación eléctrica</label>
+            </value>
+            <value>
+                <fullName>B. Instalacion sanitaria</fullName>
+                <default>false</default>
+                <label>B. Instalacion sanitaria</label>
+            </value>
+            <value>
+                <fullName>C. Instalacion hidráulica</fullName>
+                <default>false</default>
+                <label>C. Instalacion hidráulica</label>
+            </value>
+            <value>
+                <fullName>D. Instalacion gas</fullName>
+                <default>false</default>
+                <label>D. Instalacion gas</label>
+            </value>
+            <value>
+                <fullName>E. Albañileria</fullName>
+                <default>false</default>
+                <label>E. Albañileria</label>
+            </value>
+            <value>
+                <fullName>F. Acabados Interior</fullName>
+                <default>false</default>
+                <label>F. Acabados Interior</label>
+            </value>
+            <value>
+                <fullName>G. Acabado Exterior</fullName>
+                <default>false</default>
+                <label>G. Acabado Exterior</label>
+            </value>
+            <value>
+                <fullName>H. Aluminio</fullName>
+                <default>false</default>
+                <label>H. Aluminio</label>
+            </value>
+            <value>
+                <fullName>I. Puertas</fullName>
+                <default>false</default>
+                <label>I. Puertas</label>
+            </value>
+            <value>
+                <fullName>J. Impermeabilizacion</fullName>
+                <default>false</default>
+                <label>J. Impermeabilizacion</label>
+            </value>
+            <value>
+                <fullName>K. Herreria</fullName>
+                <default>false</default>
+                <label>K. Herreria</label>
+            </value>
+            <value>
+                <fullName>L. Urbanizacion</fullName>
+                <default>false</default>
+                <label>L. Urbanizacion</label>
+            </value>
+            <value>
+                <fullName>M. Infraestructura</fullName>
+                <default>false</default>
+                <label>M. Infraestructura</label>
+            </value>
+            <value>
+                <fullName>N. Accesorios</fullName>
+                <default>false</default>
+                <label>N. Accesorios</label>
+            </value>
+            <value>
+                <fullName>O. Servicios</fullName>
+                <default>false</default>
+                <label>O. Servicios</label>
+            </value>
+            <value>
+                <fullName>P. Organizacion Vecinal</fullName>
+                <default>false</default>
+                <label>P. Organizacion Vecinal</label>
+            </value>
+            <value>
+                <fullName>Q. Ventas</fullName>
+                <default>false</default>
+                <label>Q. Ventas</label>
+            </value>
+            <value>
+                <fullName>R. Seguimiento de Ventas</fullName>
+                <default>false</default>
+                <label>R. Seguimiento de Ventas</label>
+            </value>
+            <value>
+                <fullName>S. Fechas</fullName>
+                <default>false</default>
+                <label>S. Fechas</label>
+            </value>
+            <value>
+                <fullName>T. Quejas</fullName>
+                <default>false</default>
+                <label>T. Quejas</label>
+            </value>
+            <value>
+                <fullName>U. Cobranza Post.Venta</fullName>
+                <default>false</default>
+                <label>U. Cobranza Post.Venta</label>
+            </value>
+            <value>
+                <fullName>V. Solicitudes</fullName>
+                <default>false</default>
+                <label>V. Solicitudes</label>
+            </value>
+            <value>
+                <fullName>W. Otros</fullName>
+                <default>false</default>
+                <label>W. Otros</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

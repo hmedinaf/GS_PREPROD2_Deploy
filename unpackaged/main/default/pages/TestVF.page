@@ -1,0 +1,3 @@
+<apex:page >
+    <wave:Dashboard dashboardId="01Z2g0000003MTXEA2" />
+</apex:page>

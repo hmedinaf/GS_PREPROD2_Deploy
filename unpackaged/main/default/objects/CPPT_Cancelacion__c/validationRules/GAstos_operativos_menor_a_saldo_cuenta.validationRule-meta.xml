@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GAstos_operativos_menor_a_saldo_cuenta</fullName>
+    <active>true</active>
+    <errorConditionFormula>CPPTS_Gastos_Operativos__c &gt;  CPPTS_Saldo_a_Cuenta__c</errorConditionFormula>
+    <errorDisplayField>CPPTS_Gastos_Operativos__c</errorDisplayField>
+    <errorMessage>El monto ingresado no puede ser mayor a Saldo a Cuenta</errorMessage>
+</ValidationRule>

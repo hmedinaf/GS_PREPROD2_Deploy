@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_periodo_inicio_y_fin</fullName>
+    <active>true</active>
+    <description>Validamos que vigente desde sea menor a vigente hasta</description>
+    <errorConditionFormula>IF( RecordType.Name = &quot;Producto Genérico&quot;, FALSE, 
+    IF(Vigente_Desde__c &lt; Vigente_Hasta__c , False, True))</errorConditionFormula>
+    <errorDisplayField>Vigente_Desde__c</errorDisplayField>
+    <errorMessage>Valida que la Vigencia Desde sea siempre menor a la Vigencia Hasta</errorMessage>
+</ValidationRule>

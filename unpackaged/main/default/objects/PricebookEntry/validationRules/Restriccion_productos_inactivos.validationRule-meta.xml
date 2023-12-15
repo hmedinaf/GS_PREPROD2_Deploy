@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restriccion_productos_inactivos</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(Product2.IsActive, false, true)</errorConditionFormula>
+    <errorMessage>No se pueden añadir productos inactivos a una lista de precios</errorMessage>
+</ValidationRule>

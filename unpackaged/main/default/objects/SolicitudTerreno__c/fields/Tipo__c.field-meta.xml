@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adquisición</fullName>
+                <default>false</default>
+                <label>Adquisición</label>
+            </value>
+            <value>
+                <fullName>Anticipos a Terrenos</fullName>
+                <default>false</default>
+                <label>Anticipos a Terrenos</label>
+            </value>
+            <value>
+                <fullName>Pagos Parciales a Terrenos</fullName>
+                <default>false</default>
+                <label>Pagos Parciales a Terrenos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

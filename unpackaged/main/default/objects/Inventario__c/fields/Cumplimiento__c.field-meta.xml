@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cumplimiento__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL( Entregada__c , &quot;Entregado&quot;) , IF( FechaEntrega__c - FechaEscritura__c  &lt;= 30, &quot;Verde&quot;,  IF(FechaEntrega__c - FechaEscritura__c   &gt;= 31  &amp;&amp; FechaEntrega__c - FechaEscritura__c  &lt;= 60, &quot;Amarillo&quot;,  IF(FechaEntrega__c - FechaEscritura__c    &gt;= 61, &quot;Rojo&quot;, null) ) )
+,IF( TODAY() - FechaEscritura__c  &lt;= 30, &quot;Verde&quot;,  IF(TODAY() - FechaEscritura__c   &gt;= 31  &amp;&amp; TODAY() - FechaEscritura__c  &lt;= 60, &quot;Amarillo&quot;,  IF(TODAY() - FechaEscritura__c    &gt;= 61, &quot;Rojo&quot;, null) ) ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>1 -30 Verde
+31 - 60 Amarillo
++61 Rojo</inlineHelpText>
+    <label>Cumplimiento</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

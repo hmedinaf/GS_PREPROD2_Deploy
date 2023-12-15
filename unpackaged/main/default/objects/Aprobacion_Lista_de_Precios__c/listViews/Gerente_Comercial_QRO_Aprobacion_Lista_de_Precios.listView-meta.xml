@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gerente_Comercial_QRO_Aprobacion_Lista_de_Precios</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Gerente Comercial QRO</label>
+    <queue>Gerente_Comercial_QRO</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

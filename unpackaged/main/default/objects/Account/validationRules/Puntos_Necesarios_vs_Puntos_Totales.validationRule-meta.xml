@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Puntos_Necesarios_vs_Puntos_Totales</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(ISBLANK(Punnec_cta__c)) &amp;&amp; 
+ISBLANK(Puntot_cta__c)</errorConditionFormula>
+    <errorDisplayField>Puntot_cta__c</errorDisplayField>
+    <errorMessage>Debe capturar los Puntos Totales</errorMessage>
+</ValidationRule>

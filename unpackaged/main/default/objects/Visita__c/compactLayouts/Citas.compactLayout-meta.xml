@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Citas</fullName>
+    <fields>RecordTypeId</fields>
+    <fields>MLI__c</fields>
+    <fields>Fechaprogramadadevisita__c</fields>
+    <fields>Horaprogramadadevisita__c</fields>
+    <fields>Inventario__c</fields>
+    <label>Citas</label>
+</CompactLayout>

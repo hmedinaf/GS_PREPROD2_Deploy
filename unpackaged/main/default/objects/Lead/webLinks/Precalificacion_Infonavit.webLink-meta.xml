@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Precalificacion_Infonavit</fullName>
+    <availability>online</availability>
+    <description>URL para Precalificación Infonavit.</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Precalificación Infonavit</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <url>https://precalificaciones.infonavit.org.mx/Precalificacion/precalif.xhtml</url>
+</WebLink>

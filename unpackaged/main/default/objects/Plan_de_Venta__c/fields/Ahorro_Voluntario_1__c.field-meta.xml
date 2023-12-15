@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ahorro_Voluntario_1__c</fullName>
+    <description>El usuario registrará el monto de ahorro voluntario de acuerdo a la precalificación del cliente.</description>
+    <externalId>false</externalId>
+    <label>Ahorro Voluntario 1</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

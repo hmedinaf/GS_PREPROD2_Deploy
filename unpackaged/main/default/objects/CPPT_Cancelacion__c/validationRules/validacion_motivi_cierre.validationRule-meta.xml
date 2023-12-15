@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validacion_motivi_cierre</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ ISCHANGED(  CPPTS_Motivo_Cierre__c ),
+OR(
+ TEXT(CPPTS_Estatus_Cancelacion__c) = &#39;Por Aprobar&#39;,
+ TEXT(CPPTS_Estatus_Cancelacion__c) = &#39;Aprobado&#39;
+)
+)</errorConditionFormula>
+    <errorMessage>No se puede modificar el motivo de cierre cuando el estatus de cancelación es &quot;Por Aprobar&quot; o &quot;Aprobado&quot;</errorMessage>
+</ValidationRule>

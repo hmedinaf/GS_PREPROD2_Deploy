@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Observaciones en pruebas eléctricas realizadas --></help>
+        <label><!-- Observaciones prueba eléctrica realizada --></label>
+        <name>ObservacionesPrEleRea__c</name>
+    </CustomFieldTranslation>

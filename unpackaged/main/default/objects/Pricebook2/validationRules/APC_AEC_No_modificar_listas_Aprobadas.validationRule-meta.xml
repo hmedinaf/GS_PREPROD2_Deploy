@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>APC_AEC_No_modificar_listas_Aprobadas</fullName>
+    <active>true</active>
+    <description>No permite al Perfil APC modificar las listas de percios con Estatus Aprobado</description>
+    <errorConditionFormula>AND(
+OR($Profile.Name = &quot;APC&quot;,
+		 $Profile.Name = &quot;AEC&quot;
+		),
+OR($RecordType.Name = &#39;Bonificación&#39;,
+			$RecordType.Name = &#39;Financiamiento&#39;,
+			$RecordType.Name = &#39;Paquete&#39;,
+			$RecordType.Name = &#39;Producto Genérico&#39;,
+			$RecordType.Name = &#39;Promoción Venta&#39;,
+			$RecordType.Name = &#39;Promoción Precio&#39;,
+			$RecordType.Name = &#39;Regalo MKT&#39;,
+			$RecordType.Name = &#39;Vivienda&#39;
+		),
+ISPICKVAL(Estatus__c , &#39;Aprobado&#39;),
+OR( 
+     ISCHANGED(Name),
+     ISCHANGED(Solicitar_Aprobaci_n__c),
+     ISCHANGED(Fraccionamiento__c),
+     ISCHANGED(Prototipo__c),
+     ISCHANGED(Tipo_de_Producto__c),
+     ISCHANGED(Tipo_de_Financiamiento__c),
+     ISCHANGED(Tipo_de_Bonificacion__c),
+     ISCHANGED(Clase_de_Financiamiento__c),
+     ISCHANGED(Clase_de_Bonificacion__c),
+     ISCHANGED(Importe_Financiamiento__c),
+     ISCHANGED(Monto_Bonificacion__c),
+     ISCHANGED(Porcentaje_Fianciamiento__c),
+     ISCHANGED(Porcentaje_Bonificacion__c),
+     ISCHANGED(Plazos__c),
+     ISCHANGED(Description),
+     ISCHANGED(Precio_Lista__c),
+     ISCHANGED(Precio_Instalaciones__c),
+     ISCHANGED(Precio_esquina__c),
+     ISCHANGED(Precio_frente_area_municipal__c),
+     ISCHANGED(Precio_frente_a_praque__c),
+     ISCHANGED(Precio_lado_sol__c),
+     ISCHANGED(Precio_lado_sombra__c),
+     ISCHANGED(Precio_sobre_avenida__c),
+     ISCHANGED(Precio_superficie_excedente__c),
+     ISCHANGED(Porcentaje_Precio_instalaciones__c),
+     ISCHANGED(Porcentaje_Precio_esquina__c),
+     ISCHANGED(Prcentaje_Precio_frente_area_municipal__c),
+     ISCHANGED(Precio_frente_a_parque__c),
+     ISCHANGED(Procentaje_Precio_lado_sol__c),
+     ISCHANGED(Porcentaje_Precio_lado_sombra__c),
+     ISCHANGED(Porcentaje_Precio_sobre_avenida__c),
+     ISCHANGED(Porcentaje_Precio_Superficie_Excedente__c),
+     ISCHANGED(Estatus_Proceso_de_Venta__c),
+     ISCHANGED(Precio_Min_Solicitado__c),
+     ISCHANGED(Ilimitado__c),
+     ISCHANGED(Cantidad__c),
+     ISCHANGED(Precio_Min_Autorizado__c)
+)
+)</errorConditionFormula>
+    <errorMessage>No es posible modificar una lista de precios aprobada.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- recordSP --></label>
+        <name>recordSP_Buscar__c</name>
+        <relationshipLabel><!-- fieldsSP --></relationshipLabel>
+    </CustomFieldTranslation>

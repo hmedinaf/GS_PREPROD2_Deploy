@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JMC_RangoSalarial__c</fullName>
+    <description>Catálogo con diferentes rangos de ingresos economicos del cliente</description>
+    <externalId>false</externalId>
+    <label>Rango Salarial</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0 - 3,999</fullName>
+                <default>false</default>
+                <label>0 - 3,999</label>
+            </value>
+            <value>
+                <fullName>4,000 - 7,999</fullName>
+                <default>false</default>
+                <label>4,000 - 7,999</label>
+            </value>
+            <value>
+                <fullName>8,000 - 12,999</fullName>
+                <default>false</default>
+                <label>8,000 - 12,999</label>
+            </value>
+            <value>
+                <fullName>13,000 - 15,999</fullName>
+                <default>false</default>
+                <label>13,000 - 15,999</label>
+            </value>
+            <value>
+                <fullName>16,000 - 19,999</fullName>
+                <default>false</default>
+                <label>16,000 - 19,999</label>
+            </value>
+            <value>
+                <fullName>20,000 - 24,999</fullName>
+                <default>false</default>
+                <label>20,000 - 24,999</label>
+            </value>
+            <value>
+                <fullName>25,000 - 34,999</fullName>
+                <default>false</default>
+                <label>25,000 - 34,999</label>
+            </value>
+            <value>
+                <fullName>35,000 - 54,999</fullName>
+                <default>false</default>
+                <label>35,000 - 54,999</label>
+            </value>
+            <value>
+                <fullName>55,000 - 84,999</fullName>
+                <default>false</default>
+                <label>55,000 - 84,999</label>
+            </value>
+            <value>
+                <fullName>85,000 - Más</fullName>
+                <default>false</default>
+                <label>85,000 - Más</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

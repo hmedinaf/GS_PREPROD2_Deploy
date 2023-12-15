@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revision_de_Vivienda</fullName>
+    <active>false</active>
+    <description>Se debe llenar el campo de Revision de Vivienda en el inventario</description>
+    <errorConditionFormula>AND( 
+$RecordType.Name = &quot;Cita&quot;, 
+OR(
+ISPICKVAL(Inventario__r.Revisiones_en_Vivienda__c, &quot;0&quot;),
+ISBLANK(TEXT(Inventario__r.Revisiones_en_Vivienda__c)))
+)</errorConditionFormula>
+    <errorDisplayField>Inventario__c</errorDisplayField>
+    <errorMessage>Se debe llenar el campo de Revisión de Vivienda en el inventario</errorMessage>
+</ValidationRule>

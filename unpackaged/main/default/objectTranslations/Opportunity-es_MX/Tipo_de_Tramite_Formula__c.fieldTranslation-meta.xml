@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Para modificar este valor, es necesario seleccionar el Producto Financiero correcto y el tipo de tr´mite se ajustará auromáticamente. --></help>
+        <label><!-- Tipo de Trámite --></label>
+        <name>Tipo_de_Tramite_Formula__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Prototipo --></label>
+        <lookupFilter>
+            <errorMessage><!-- El valor ingresado no coincide con los prototipos disponibles para el fraccionamiento --></errorMessage>
+        </lookupFilter>
+        <name>Prototipo_lookup__c</name>
+        <relationshipLabel><!-- Cuentas --></relationshipLabel>
+    </CustomFieldTranslation>

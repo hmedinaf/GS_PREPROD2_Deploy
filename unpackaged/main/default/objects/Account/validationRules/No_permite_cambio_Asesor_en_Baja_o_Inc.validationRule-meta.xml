@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_permite_cambio_Asesor_en_Baja_o_Inc</fullName>
+    <active>true</active>
+    <errorConditionFormula>!IsVRBypassed__c &amp;&amp;
+(TEXT(Estatus_Cliente__c)=&#39;BAJA&#39; || TEXT(Estatus_Cliente__c)=&#39;INCUBADORA&#39;)&amp;&amp;
+ISCHANGED(Asesor__c)</errorConditionFormula>
+    <errorDisplayField>Asesor__c</errorDisplayField>
+    <errorMessage>No se permite asignar o cambiar al Asesor cuando el estatus Cliente es BAJA o INCUBADORA</errorMessage>
+</ValidationRule>

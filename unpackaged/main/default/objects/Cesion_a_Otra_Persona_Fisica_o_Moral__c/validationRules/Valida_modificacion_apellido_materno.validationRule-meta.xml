@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_modificacion_apellido_materno</fullName>
+    <active>true</active>
+    <description>No se puede modificar el campo Apellido Materno si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado</description>
+    <errorConditionFormula>AND(
+
+ISCHANGED(Apellido_Materno__c),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Validación&#39;),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Reservado&#39;),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Formalizado&#39;)
+
+)</errorConditionFormula>
+    <errorDisplayField>Apellido_Materno__c</errorDisplayField>
+    <errorMessage>No se puede modificar el campo Apellido Materno si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado</errorMessage>
+</ValidationRule>

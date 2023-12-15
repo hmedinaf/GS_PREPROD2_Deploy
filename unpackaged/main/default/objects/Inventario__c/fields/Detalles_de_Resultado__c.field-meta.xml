@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Detalles_de_Resultado__c</fullName>
+    <externalId>false</externalId>
+    <label>Detalles de Resultado</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Resultado_de_Gestion__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pago No Aplicado</fullName>
+                <default>false</default>
+                <label>Pago No Aplicado</label>
+            </value>
+            <value>
+                <fullName>Solicita Carta Finiquito</fullName>
+                <default>false</default>
+                <label>Solicita Carta Finiquito</label>
+            </value>
+            <value>
+                <fullName>Recomienda y Gana</fullName>
+                <default>false</default>
+                <label>Recomienda y Gana</label>
+            </value>
+            <value>
+                <fullName>Gestion Retenida a Solicitud de Corporativo</fullName>
+                <default>false</default>
+                <label>Gestion Retenida a Solicitud de Corporativo</label>
+            </value>
+            <value>
+                <fullName>Fallecimiento de Titular</fullName>
+                <default>false</default>
+                <label>Fallecimiento de Titular</label>
+            </value>
+            <value>
+                <fullName>Asesor no informa del financiamiento a cliente</fullName>
+                <default>false</default>
+                <label>Asesor no informa del financiamiento a cliente</label>
+            </value>
+            <value>
+                <fullName>Asesor no proporciona cuentas y referencias de pago</fullName>
+                <default>false</default>
+                <label>Asesor no proporciona cuentas y referencias de pago</label>
+            </value>
+            <value>
+                <fullName>Asesor se comprometió a pagar adeudo financiado con cliente</fullName>
+                <default>false</default>
+                <label>Asesor se comprometió a pagar adeudo financiado con cliente</label>
+            </value>
+            <value>
+                <fullName>Asesor argumenta al cliente que no pague adeudo</fullName>
+                <default>false</default>
+                <label>Asesor argumenta al cliente que no pague adeudo</label>
+            </value>
+            <value>
+                <fullName>Asesor no respeta fechas de vencimiento</fullName>
+                <default>false</default>
+                <label>Asesor no respeta fechas de vencimiento</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Aclaración</controllingFieldValue>
+            <valueName>Pago No Aplicado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aclaración</controllingFieldValue>
+            <valueName>Solicita Carta Finiquito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aclaración</controllingFieldValue>
+            <valueName>Recomienda y Gana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aclaración</controllingFieldValue>
+            <valueName>Gestion Retenida a Solicitud de Corporativo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aclaración</controllingFieldValue>
+            <valueName>Fallecimiento de Titular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asesor Comercial</controllingFieldValue>
+            <valueName>Asesor no informa del financiamiento a cliente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asesor Comercial</controllingFieldValue>
+            <valueName>Asesor no proporciona cuentas y referencias de pago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asesor Comercial</controllingFieldValue>
+            <valueName>Asesor se comprometió a pagar adeudo financiado con cliente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asesor Comercial</controllingFieldValue>
+            <valueName>Asesor argumenta al cliente que no pague adeudo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asesor Comercial</controllingFieldValue>
+            <valueName>Asesor no respeta fechas de vencimiento</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

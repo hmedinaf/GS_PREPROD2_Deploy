@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Integración EBS Pagos</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Integraciones EBS Pagos</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Integración EBS Pagos Layout</layout>
+        <sections>
+            <label><!-- Campos de Control --></label>
+            <section>Campos de Control</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- JSONs --></label>
+            <section>JSONs</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

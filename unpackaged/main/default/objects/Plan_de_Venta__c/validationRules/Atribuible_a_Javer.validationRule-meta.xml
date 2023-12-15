@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Atribuible_a_Javer</fullName>
+    <active>true</active>
+    <description>Atribuible a Javer</description>
+    <errorConditionFormula>!ISNEW() &amp;&amp;
+ISCHANGED(Fecha_Proyeccion_escritura__c ) &amp;&amp;
+ISBLANK(TEXT(Atribuible_a_Javer__c))</errorConditionFormula>
+    <errorMessage>Campo Atribuible a Javer obligatorio en cambio de Fecha Proyección Escritura</errorMessage>
+</ValidationRule>

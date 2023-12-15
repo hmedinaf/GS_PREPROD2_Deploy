@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ATC</fullName>
+    <fields>Name</fields>
+    <fields>Phone</fields>
+    <fields>TelefonoCelular__c</fields>
+    <fields>TipoCredito__c</fields>
+    <fields>CorreoElectronico__c</fields>
+    <fields>TipoCliente__c</fields>
+    <label>ATC</label>
+</CompactLayout>

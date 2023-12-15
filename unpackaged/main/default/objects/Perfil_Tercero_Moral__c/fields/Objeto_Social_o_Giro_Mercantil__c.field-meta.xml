@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Objeto_Social_o_Giro_Mercantil__c</fullName>
+    <externalId>false</externalId>
+    <label>Objeto Social o Giro Mercantil Tercero M</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>8370023	ASOCIACIONES - ORGANIZACIONES CIVILES</fullName>
+                <default>false</default>
+                <label>8370023	ASOCIACIONES - ORGANIZACIONES CIVILES</label>
+            </value>
+            <value>
+                <fullName>8340023	ASOCIACIONES - ORGANIZACIONES DE ACTIVIDADES RECREATIVAS</fullName>
+                <default>false</default>
+                <label>8340023	ASOCIACIONES - ORGANIZACIONES DE ACTIVIDADES RECREATIVAS</label>
+            </value>
+            <value>
+                <fullName>8330023	ASOCIACIONES - ORGANIZACIONES DE PROFESIONISTAS</fullName>
+                <default>false</default>
+                <label>8330023	ASOCIACIONES - ORGANIZACIONES DE PROFESIONISTAS</label>
+            </value>
+            <value>
+                <fullName>8320023	ASOCIACIONES - ORGANIZACIONES LABORALES Y SINDICALES</fullName>
+                <default>false</default>
+                <label>8320023	ASOCIACIONES - ORGANIZACIONES LABORALES Y SINDICALES</label>
+            </value>
+            <value>
+                <fullName>8360023	ASOCIACIONES - ORGANIZACIONES POLITICAS</fullName>
+                <default>false</default>
+                <label>8360023	ASOCIACIONES - ORGANIZACIONES POLITICAS</label>
+            </value>
+            <value>
+                <fullName>8350023	ASOCIACIONES - ORGANIZACIONES RELIGIOSAS</fullName>
+                <default>false</default>
+                <label>8350023	ASOCIACIONES - ORGANIZACIONES RELIGIOSAS</label>
+            </value>
+            <value>
+                <fullName>8310023	ASOCIACIONES - ORGANIZACIONES Y CAMARAS DE PRODUCTORES, COMERCIANTES Y PRESTADORES DE SERVICIOS</fullName>
+                <default>false</default>
+                <label>8310023	ASOCIACIONES - ORGANIZACIONES Y CAMARAS DE PRODUCTORES, COMERCIANTES Y PRESTADORES DE SERVICIOS</label>
+            </value>
+            <value>
+                <fullName>4760006	COMERCIO - A TRAVES DE INTERNET, Y CATALOGOS IMPRESOS, TELEVISION Y SIMILARES</fullName>
+                <default>false</default>
+                <label>4760006	COMERCIO - A TRAVES DE INTERNET, Y CATALOGOS IMPRESOS, TELEVISION Y SIMILARES</label>
+            </value>
+            <value>
+                <fullName>4310006	COMERCIO - ABARROTES, ALIMENTOS, BEBIDAS, HIELO Y TABACO</fullName>
+                <default>false</default>
+                <label>4310006	COMERCIO - ABARROTES, ALIMENTOS, BEBIDAS, HIELO Y TABACO</label>
+            </value>
+            <value>
+                <fullName>4680006	COMERCIO - ANTIGÜEDADES Y OBRAS DE ARTE</fullName>
+                <default>false</default>
+                <label>4680006	COMERCIO - ANTIGÜEDADES Y OBRAS DE ARTE</label>
+            </value>
+            <value>
+                <fullName>4710006	COMERCIO - ARTICULOS DE FERRETERIA, TLAPALERIA Y VIDRIOS</fullName>
+                <default>false</default>
+                <label>4710006	COMERCIO - ARTICULOS DE FERRETERIA, TLAPALERIA Y VIDRIOS</label>
+            </value>
+            <value>
+                <fullName>4660026	COMERCIO - ARTICULOS DE JOYERIA Y RELOJES</fullName>
+                <default>false</default>
+                <label>4660026	COMERCIO - ARTICULOS DE JOYERIA Y RELOJES</label>
+            </value>
+            <value>
+                <fullName>4650006	COMERCIO - ARTICULOS DE PAPELERIA</fullName>
+                <default>false</default>
+                <label>4650006	COMERCIO - ARTICULOS DE PAPELERIA</label>
+            </value>
+            <value>
+                <fullName>4670006	COMERCIO - ARTICULOS PARA LA DECORACION DE INTERIORES</fullName>
+                <default>false</default>
+                <label>4670006	COMERCIO - ARTICULOS PARA LA DECORACION DE INTERIORES</label>
+            </value>
+            <value>
+                <fullName>4750006	COMERCIO - COMBUSTIBLES Y LUBRICANTES</fullName>
+                <default>false</default>
+                <label>4750006	COMERCIO - COMBUSTIBLES Y LUBRICANTES</label>
+            </value>
+            <value>
+                <fullName>4340006	COMERCIO - MAQUINARIA, EQUIPO DE COMPUTO Y MOBILIARIO DE USO GENERAL</fullName>
+                <default>false</default>
+                <label>4340006	COMERCIO - MAQUINARIA, EQUIPO DE COMPUTO Y MOBILIARIO DE USO GENERAL</label>
+            </value>
+            <value>
+                <fullName>4330006	COMERCIO - MATERIAS PRIMAS AGROPECUARIAS Y FORESTALES, PARA LA INDUSTRIA, Y MATERIALES DE DESECHO</fullName>
+                <default>false</default>
+                <label>4330006	COMERCIO - MATERIAS PRIMAS AGROPECUARIAS Y FORESTALES, PARA LA INDUSTRIA, Y MATERIALES DE DESECHO</label>
+            </value>
+            <value>
+                <fullName>4740006	COMERCIO - PARTES Y REFACCIONES PARA VEHICULOS</fullName>
+                <default>false</default>
+                <label>4740006	COMERCIO - PARTES Y REFACCIONES PARA VEHICULOS</label>
+            </value>
+            <value>
+                <fullName>4320006	COMERCIO - PRODUCTOS FARMACEUTICOS, DE PERFUMERIA, ARTICULOS PARA EL ESPARCIMIENTO, ELECTRODOMESTICOS Y APARATOS DE LINEA BLANCA</fullName>
+                <default>false</default>
+                <label>4320006	COMERCIO - PRODUCTOS FARMACEUTICOS, DE PERFUMERIA, ARTICULOS PARA EL ESPARCIMIENTO, ELECTRODOMESTICOS Y APARATOS DE LINEA BLANCA</label>
+            </value>
+            <value>
+                <fullName>4630006	COMERCIO - PRODUCTOS TEXTILES, BISUTERIA, ACCESORIOS DE VESTIR Y CALZADO</fullName>
+                <default>false</default>
+                <label>4630006	COMERCIO - PRODUCTOS TEXTILES, BISUTERIA, ACCESORIOS DE VESTIR Y CALZADO</label>
+            </value>
+            <value>
+                <fullName>4620006	COMERCIO - TIENDAS DE AUTOSERVICIO Y DEPARTAMENTALES</fullName>
+                <default>false</default>
+                <label>4620006	COMERCIO - TIENDAS DE AUTOSERVICIO Y DEPARTAMENTALES</label>
+            </value>
+            <value>
+                <fullName>4720006	COMERCIO - VEHICULOS NUEVOS</fullName>
+                <default>false</default>
+                <label>4720006	COMERCIO - VEHICULOS NUEVOS</label>
+            </value>
+            <value>
+                <fullName>4730006	COMERCIO - VEHICULOS USADOS</fullName>
+                <default>false</default>
+                <label>4730006	COMERCIO - VEHICULOS USADOS</label>
+            </value>
+            <value>
+                <fullName>2720004	CONSTRUCCION - EDIFICACION RESIDENCIAL Y NO RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>2720004	CONSTRUCCION - EDIFICACION RESIDENCIAL Y NO RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>2730004	CONSTRUCCION - OBRAS DE INGENIERIA CIVIL</fullName>
+                <default>false</default>
+                <label>2730004	CONSTRUCCION - OBRAS DE INGENIERIA CIVIL</label>
+            </value>
+            <value>
+                <fullName>2710004	CONSTRUCCION - OTRAS ACTIVIDADES RELACIONADAS CON LA CONSTRUCCION</fullName>
+                <default>false</default>
+                <label>2710004	CONSTRUCCION - OTRAS ACTIVIDADES RELACIONADAS CON LA CONSTRUCCION</label>
+            </value>
+            <value>
+                <fullName>2754004	CONSTRUCCION - SERVICIOS DE BLINDAJE PARCIAL O TOTAL DE INMUEBLES</fullName>
+                <default>false</default>
+                <label>2754004	CONSTRUCCION - SERVICIOS DE BLINDAJE PARCIAL O TOTAL DE INMUEBLES</label>
+            </value>
+            <value>
+                <fullName>2740004	CONSTRUCCION - TRABAJOS ESPECIALIZADOS PARA LA CONSTRUCCION</fullName>
+                <default>false</default>
+                <label>2740004	CONSTRUCCION - TRABAJOS ESPECIALIZADOS PARA LA CONSTRUCCION</label>
+            </value>
+            <value>
+                <fullName>2600003	GENERACION, TRANSMISION Y DISTRIBUCION DE ENERGIA ELECTRICA, SUMINISTRO DE AGUA Y DE GAS</fullName>
+                <default>false</default>
+                <label>2600003	GENERACION, TRANSMISION Y DISTRIBUCION DE ENERGIA ELECTRICA, SUMINISTRO DE AGUA Y DE GAS</label>
+            </value>
+            <value>
+                <fullName>3350005	INDUSTRIA - ACCESORIOS, APARATOS ELECTRICOS Y EQUIPO DE GENERACION DE ENERGIA ELECTRICA</fullName>
+                <default>false</default>
+                <label>3350005	INDUSTRIA - ACCESORIOS, APARATOS ELECTRICOS Y EQUIPO DE GENERACION DE ENERGIA ELECTRICA</label>
+            </value>
+            <value>
+                <fullName>3110005	INDUSTRIA - ALIMENTARIA</fullName>
+                <default>false</default>
+                <label>3110005	INDUSTRIA - ALIMENTARIA</label>
+            </value>
+            <value>
+                <fullName>3370005	INDUSTRIA - AUTOMOTRIZ</fullName>
+                <default>false</default>
+                <label>3370005	INDUSTRIA - AUTOMOTRIZ</label>
+            </value>
+            <value>
+                <fullName>3120005	INDUSTRIA - BEBIDAS Y DEL TABACO</fullName>
+                <default>false</default>
+                <label>3120005	INDUSTRIA - BEBIDAS Y DEL TABACO</label>
+            </value>
+            <value>
+                <fullName>3340005	INDUSTRIA - EQUIPO DE COMPUTACION, COMUNICACION, MEDICION Y DE OTROS EQUIPOS, COMPONENTES Y ACCESORIOS ELECTRONICOS</fullName>
+                <default>false</default>
+                <label>3340005	INDUSTRIA - EQUIPO DE COMPUTACION, COMUNICACION, MEDICION Y DE OTROS EQUIPOS, COMPONENTES Y ACCESORIOS ELECTRONICOS</label>
+            </value>
+            <value>
+                <fullName>3360005	INDUSTRIA - EQUIPO DE TRANSPORTE SIN MOTOR</fullName>
+                <default>false</default>
+                <label>3360005	INDUSTRIA - EQUIPO DE TRANSPORTE SIN MOTOR</label>
+            </value>
+            <value>
+                <fullName>3230005	INDUSTRIA - IMPRESION E INDUSTRIAS CONEXAS</fullName>
+                <default>false</default>
+                <label>3230005	INDUSTRIA - IMPRESION E INDUSTRIAS CONEXAS</label>
+            </value>
+            <value>
+                <fullName>3440005	INDUSTRIA - JOYERIA DE METALES Y PIEDRAS NO PRECIOSOS Y DE OTROS MATERIALES</fullName>
+                <default>false</default>
+                <label>3440005	INDUSTRIA - JOYERIA DE METALES Y PIEDRAS NO PRECIOSOS Y DE OTROS MATERIALES</label>
+            </value>
+            <value>
+                <fullName>3210005	INDUSTRIA - MADERA</fullName>
+                <default>false</default>
+                <label>3210005	INDUSTRIA - MADERA</label>
+            </value>
+            <value>
+                <fullName>3330005	INDUSTRIA - MAQUINARIA Y EQUIPO</fullName>
+                <default>false</default>
+                <label>3330005	INDUSTRIA - MAQUINARIA Y EQUIPO</label>
+            </value>
+            <value>
+                <fullName>3310005	INDUSTRIA - METALICAS BASICAS</fullName>
+                <default>false</default>
+                <label>3310005	INDUSTRIA - METALICAS BASICAS</label>
+            </value>
+            <value>
+                <fullName>3410005	INDUSTRIA - MUEBLES, COLCHONES Y PERSIANAS</fullName>
+                <default>false</default>
+                <label>3410005	INDUSTRIA - MUEBLES, COLCHONES Y PERSIANAS</label>
+            </value>
+            <value>
+                <fullName>3430005	INDUSTRIA - ORFEBRERIA Y JOYERIA DE METALES Y PIEDRAS PRECIOSOS</fullName>
+                <default>false</default>
+                <label>3430005	INDUSTRIA - ORFEBRERIA Y JOYERIA DE METALES Y PIEDRAS PRECIOSOS</label>
+            </value>
+            <value>
+                <fullName>3420005	INDUSTRIA - OTRAS INDUSTRIAS MANUFACTURERAS</fullName>
+                <default>false</default>
+                <label>3420005	INDUSTRIA - OTRAS INDUSTRIAS MANUFACTURERAS</label>
+            </value>
+            <value>
+                <fullName>3220005	INDUSTRIA - PAPEL</fullName>
+                <default>false</default>
+                <label>3220005	INDUSTRIA - PAPEL</label>
+            </value>
+            <value>
+                <fullName>3260005	INDUSTRIA - PLASTICO Y DEL HULE</fullName>
+                <default>false</default>
+                <label>3260005	INDUSTRIA - PLASTICO Y DEL HULE</label>
+            </value>
+            <value>
+                <fullName>3150005	INDUSTRIA - PRENDAS DE VESTIR</fullName>
+                <default>false</default>
+                <label>3150005	INDUSTRIA - PRENDAS DE VESTIR</label>
+            </value>
+            <value>
+                <fullName>3270005	INDUSTRIA - PRODUCTOS A BASE DE MINERALES NO METALICOS (ALFARERIA, PORCELANA, LOZA, VIDRIO, CEMENTO)</fullName>
+                <default>false</default>
+                <label>3270005	INDUSTRIA - PRODUCTOS A BASE DE MINERALES NO METALICOS (ALFARERIA, PORCELANA, LOZA, VIDRIO, CEMENTO)</label>
+            </value>
+            <value>
+                <fullName>3240005	INDUSTRIA - PRODUCTOS DERIVADOS DEL PETROLEO Y DEL CARBON</fullName>
+                <default>false</default>
+                <label>3240005	INDUSTRIA - PRODUCTOS DERIVADOS DEL PETROLEO Y DEL CARBON</label>
+            </value>
+            <value>
+                <fullName>3320005	INDUSTRIA - PRODUCTOS METALICOS (HERRAMIENTAS, UTENSILIOS, ESTRUCTURAS, PIEZAS)</fullName>
+                <default>false</default>
+                <label>3320005	INDUSTRIA - PRODUCTOS METALICOS (HERRAMIENTAS, UTENSILIOS, ESTRUCTURAS, PIEZAS)</label>
+            </value>
+            <value>
+                <fullName>3140005	INDUSTRIA - PRODUCTOS TEXTILES</fullName>
+                <default>false</default>
+                <label>3140005	INDUSTRIA - PRODUCTOS TEXTILES</label>
+            </value>
+            <value>
+                <fullName>3250005	INDUSTRIA - QUIMICA</fullName>
+                <default>false</default>
+                <label>3250005	INDUSTRIA - QUIMICA</label>
+            </value>
+            <value>
+                <fullName>3380005	INDUSTRIA - VEHICULOS BLINDADOS Y EQUIPO PARA EL BLINDAJE DE VEHICULOS</fullName>
+                <default>false</default>
+                <label>3380005	INDUSTRIA - VEHICULOS BLINDADOS Y EQUIPO PARA EL BLINDAJE DE VEHICULOS</label>
+            </value>
+            <value>
+                <fullName>5100011	INFORMACION EN MEDIOS MASIVOS</fullName>
+                <default>false</default>
+                <label>5100011	INFORMACION EN MEDIOS MASIVOS</label>
+            </value>
+            <value>
+                <fullName>2200002	MINERIA - ACTIVIDADES RELACIONADAS CON EL PETROLEO Y EL GAS</fullName>
+                <default>false</default>
+                <label>2200002	MINERIA - ACTIVIDADES RELACIONADAS CON EL PETROLEO Y EL GAS</label>
+            </value>
+            <value>
+                <fullName>2100002	MINERIA - MINERIA DE OTROS RECURSOS</fullName>
+                <default>false</default>
+                <label>2100002	MINERIA - MINERIA DE OTROS RECURSOS</label>
+            </value>
+            <value>
+                <fullName>2300003	MINERIA - ORO</fullName>
+                <default>false</default>
+                <label>2300003	MINERIA - ORO</label>
+            </value>
+            <value>
+                <fullName>2500002	MINERIA - PIEDRAS PRECIOSAS</fullName>
+                <default>false</default>
+                <label>2500002	MINERIA - PIEDRAS PRECIOSAS</label>
+            </value>
+            <value>
+                <fullName>2400002	MINERIA - PLATA</fullName>
+                <default>false</default>
+                <label>2400002	MINERIA - PLATA</label>
+            </value>
+            <value>
+                <fullName>1000000	NO APLICA</fullName>
+                <default>false</default>
+                <label>1000000	NO APLICA</label>
+            </value>
+            <value>
+                <fullName>9100025	ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</fullName>
+                <default>false</default>
+                <label>9100025	ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</label>
+            </value>
+            <value>
+                <fullName>5340013	OTRAS EMPRESAS DE INTERMEDIACION CREDITICIA NO FINANCIERAS</fullName>
+                <default>false</default>
+                <label>5340013	OTRAS EMPRESAS DE INTERMEDIACION CREDITICIA NO FINANCIERAS</label>
+            </value>
+            <value>
+                <fullName>5180012	PROCESAMIENTO ELECTRONICO DE INFORMACION Y OTROS SERVICIOS WEB</fullName>
+                <default>false</default>
+                <label>5180012	PROCESAMIENTO ELECTRONICO DE INFORMACION Y OTROS SERVICIOS WEB</label>
+            </value>
+            <value>
+                <fullName>1100001	SECTOR PRIMARIO - AGRICULTURA</fullName>
+                <default>false</default>
+                <label>1100001	SECTOR PRIMARIO - AGRICULTURA</label>
+            </value>
+            <value>
+                <fullName>1400002	SECTOR PRIMARIO - APROVECHAMIENTO FORESTAL</fullName>
+                <default>false</default>
+                <label>1400002	SECTOR PRIMARIO - APROVECHAMIENTO FORESTAL</label>
+            </value>
+            <value>
+                <fullName>1300001	SECTOR PRIMARIO - EXPLOTACION DE OTROS ANIMALES (AVICULTURA, APICULTURA, ETC.)</fullName>
+                <default>false</default>
+                <label>1300001	SECTOR PRIMARIO - EXPLOTACION DE OTROS ANIMALES (AVICULTURA, APICULTURA, ETC.)</label>
+            </value>
+            <value>
+                <fullName>1200001	SECTOR PRIMARIO - GANADERIA</fullName>
+                <default>false</default>
+                <label>1200001	SECTOR PRIMARIO - GANADERIA</label>
+            </value>
+            <value>
+                <fullName>1500001	SECTOR PRIMARIO - PESCA</fullName>
+                <default>false</default>
+                <label>1500001	SECTOR PRIMARIO - PESCA</label>
+            </value>
+            <value>
+                <fullName>9880024	SECTOR PUBLICO - ORGANOS AUTONOMOS Y ENTIDADES PARAESTATALES</fullName>
+                <default>false</default>
+                <label>9880024	SECTOR PUBLICO - ORGANOS AUTONOMOS Y ENTIDADES PARAESTATALES</label>
+            </value>
+            <value>
+                <fullName>9820024	SECTOR PUBLICO - PODER EJECUTIVO ESTATAL Y DEL DISTRITO FEDERAL</fullName>
+                <default>false</default>
+                <label>9820024	SECTOR PUBLICO - PODER EJECUTIVO ESTATAL Y DEL DISTRITO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>9810024	SECTOR PUBLICO - PODER EJECUTIVO FEDERAL</fullName>
+                <default>false</default>
+                <label>9810024	SECTOR PUBLICO - PODER EJECUTIVO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>9830024	SECTOR PUBLICO - PODER EJECUTIVO MUNICIPAL Y DELEGACIONAL</fullName>
+                <default>false</default>
+                <label>9830024	SECTOR PUBLICO - PODER EJECUTIVO MUNICIPAL Y DELEGACIONAL</label>
+            </value>
+            <value>
+                <fullName>9850024	SECTOR PUBLICO - PODER JUDICIAL ESTATAL Y DEL DISTRITO FEDERAL</fullName>
+                <default>false</default>
+                <label>9850024	SECTOR PUBLICO - PODER JUDICIAL ESTATAL Y DEL DISTRITO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>9840024	SECTOR PUBLICO - PODER JUDICIAL FEDERAL</fullName>
+                <default>false</default>
+                <label>9840024	SECTOR PUBLICO - PODER JUDICIAL FEDERAL</label>
+            </value>
+            <value>
+                <fullName>9870024	SECTOR PUBLICO - PODER LEGISLATIVO ESTATAL Y DEL DISTRITO FEDERAL</fullName>
+                <default>false</default>
+                <label>9870024	SECTOR PUBLICO - PODER LEGISLATIVO ESTATAL Y DEL DISTRITO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>9860024	SECTOR PUBLICO - PODER LEGISLATIVO FEDERAL</fullName>
+                <default>false</default>
+                <label>9860024	SECTOR PUBLICO - PODER LEGISLATIVO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>4930010	SERVICIOS DE ALMACENAMIENTO</fullName>
+                <default>false</default>
+                <label>4930010	SERVICIOS DE ALMACENAMIENTO</label>
+            </value>
+            <value>
+                <fullName>7200020	SERVICIOS DE ALOJAMIENTO TEMPORAL Y DE PREPARACION DE ALIMENTOS Y BEBIDAS</fullName>
+                <default>false</default>
+                <label>7200020	SERVICIOS DE ALOJAMIENTO TEMPORAL Y DE PREPARACION DE ALIMENTOS Y BEBIDAS</label>
+            </value>
+            <value>
+                <fullName>5720016	SERVICIOS DE APOYO A LOS NEGOCIOS - AGENCIAS DE COBRANZA, DESPACHOS DE INVESTIGACION</fullName>
+                <default>false</default>
+                <label>5720016	SERVICIOS DE APOYO A LOS NEGOCIOS - AGENCIAS DE COBRANZA, DESPACHOS DE INVESTIGACION</label>
+            </value>
+            <value>
+                <fullName>5750016	SERVICIOS DE APOYO A LOS NEGOCIOS - OTROS SERVICIOS</fullName>
+                <default>false</default>
+                <label>5750016	SERVICIOS DE APOYO A LOS NEGOCIOS - OTROS SERVICIOS</label>
+            </value>
+            <value>
+                <fullName>5710016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE ADMINISTRACION DE NEGOCIOS</fullName>
+                <default>false</default>
+                <label>5710016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE ADMINISTRACION DE NEGOCIOS</label>
+            </value>
+            <value>
+                <fullName>5740016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE LIMPIEZA Y MANTENIMIENTO</fullName>
+                <default>false</default>
+                <label>5740016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE LIMPIEZA Y MANTENIMIENTO</label>
+            </value>
+            <value>
+                <fullName>5730016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE PROTECCION Y SEGURIDAD</fullName>
+                <default>false</default>
+                <label>5730016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE PROTECCION Y SEGURIDAD</label>
+            </value>
+            <value>
+                <fullName>7130019	SERVICIOS DE ESPARCIMIENTO - CASAS DE JUEGOS ELECTRONICOS</fullName>
+                <default>false</default>
+                <label>7130019	SERVICIOS DE ESPARCIMIENTO - CASAS DE JUEGOS ELECTRONICOS</label>
+            </value>
+            <value>
+                <fullName>7140019	SERVICIOS DE ESPARCIMIENTO - CASINOS O CENTROS DE APUESTA</fullName>
+                <default>false</default>
+                <label>7140019	SERVICIOS DE ESPARCIMIENTO - CASINOS O CENTROS DE APUESTA</label>
+            </value>
+            <value>
+                <fullName>7120019	SERVICIOS DE ESPARCIMIENTO - MUSEOS, SITIOS HISTORICOS, ZOOLOGICOS Y SIMILARES</fullName>
+                <default>false</default>
+                <label>7120019	SERVICIOS DE ESPARCIMIENTO - MUSEOS, SITIOS HISTORICOS, ZOOLOGICOS Y SIMILARES</label>
+            </value>
+            <value>
+                <fullName>7150019	SERVICIOS DE ESPARCIMIENTO - VENTA DE BILLETES DE LOTERIA, PRONOSTICOS DEPORTIVOS U OTROS SORTEOS</fullName>
+                <default>false</default>
+                <label>7150019	SERVICIOS DE ESPARCIMIENTO - VENTA DE BILLETES DE LOTERIA, PRONOSTICOS DEPORTIVOS U OTROS SORTEOS</label>
+            </value>
+            <value>
+                <fullName>7110019	SERVICIOS DE ESPARCIMIENTO CULTURALES Y DEPORTIVOS, Y OTROS SERVICIOS RECREATIVOS</fullName>
+                <default>false</default>
+                <label>7110019	SERVICIOS DE ESPARCIMIENTO CULTURALES Y DEPORTIVOS, Y OTROS SERVICIOS RECREATIVOS</label>
+            </value>
+            <value>
+                <fullName>4920009	SERVICIOS DE MENSAJERIA Y PAQUETERIA</fullName>
+                <default>false</default>
+                <label>4920009	SERVICIOS DE MENSAJERIA Y PAQUETERIA</label>
+            </value>
+            <value>
+                <fullName>8100021	SERVICIOS DE REPARACION Y MANTENIMIENTO - EQUIPO INDUSTRIAL, COMERCIAL, SERVICIOS Y AUTOMOTRIZ</fullName>
+                <default>false</default>
+                <label>8100021	SERVICIOS DE REPARACION Y MANTENIMIENTO - EQUIPO INDUSTRIAL, COMERCIAL, SERVICIOS Y AUTOMOTRIZ</label>
+            </value>
+            <value>
+                <fullName>6200018	SERVICIOS DE SALUD Y DE ASISTENCIA SOCIAL</fullName>
+                <default>false</default>
+                <label>6200018	SERVICIOS DE SALUD Y DE ASISTENCIA SOCIAL</label>
+            </value>
+            <value>
+                <fullName>6100017	SERVICIOS EDUCATIVOS</fullName>
+                <default>false</default>
+                <label>6100017	SERVICIOS EDUCATIVOS</label>
+            </value>
+            <value>
+                <fullName>5440013	SERVICIOS FINANCIEROS - ADMINISTRACION DE FONDOS PARA EL RETIRO</fullName>
+                <default>false</default>
+                <label>5440013	SERVICIOS FINANCIEROS - ADMINISTRACION DE FONDOS PARA EL RETIRO</label>
+            </value>
+            <value>
+                <fullName>5430013	SERVICIOS FINANCIEROS - AGENTES, AJUSTADORES Y GESTORES DE SEGUROS Y FIANZAS</fullName>
+                <default>false</default>
+                <label>5430013	SERVICIOS FINANCIEROS - AGENTES, AJUSTADORES Y GESTORES DE SEGUROS Y FIANZAS</label>
+            </value>
+            <value>
+                <fullName>5210013	SERVICIOS FINANCIEROS - BANCA CENTRAL</fullName>
+                <default>false</default>
+                <label>5210013	SERVICIOS FINANCIEROS - BANCA CENTRAL</label>
+            </value>
+            <value>
+                <fullName>5230013	SERVICIOS FINANCIEROS - BANCA DE DESARROLLO</fullName>
+                <default>false</default>
+                <label>5230013	SERVICIOS FINANCIEROS - BANCA DE DESARROLLO</label>
+            </value>
+            <value>
+                <fullName>5220013	SERVICIOS FINANCIEROS - BANCA MULTIPLE</fullName>
+                <default>false</default>
+                <label>5220013	SERVICIOS FINANCIEROS - BANCA MULTIPLE</label>
+            </value>
+            <value>
+                <fullName>5350013	SERVICIOS FINANCIEROS - CASAS DE BOLSA</fullName>
+                <default>false</default>
+                <label>5350013	SERVICIOS FINANCIEROS - CASAS DE BOLSA</label>
+            </value>
+            <value>
+                <fullName>5360013	SERVICIOS FINANCIEROS - CASAS DE CAMBIO Y CENTROS CAMBIARIOS</fullName>
+                <default>false</default>
+                <label>5360013	SERVICIOS FINANCIEROS - CASAS DE CAMBIO Y CENTROS CAMBIARIOS</label>
+            </value>
+            <value>
+                <fullName>5320013	SERVICIOS FINANCIEROS - CASAS DE EMPEÑO</fullName>
+                <default>false</default>
+                <label>5320013	SERVICIOS FINANCIEROS - CASAS DE EMPEÑO</label>
+            </value>
+            <value>
+                <fullName>5420013	SERVICIOS FINANCIEROS - COMPAÑIAS AFIANZADORAS</fullName>
+                <default>false</default>
+                <label>5420013	SERVICIOS FINANCIEROS - COMPAÑIAS AFIANZADORAS</label>
+            </value>
+            <value>
+                <fullName>5290013	SERVICIOS FINANCIEROS - COMPAÑIAS DE AUTOFINANCIAMIENTO</fullName>
+                <default>false</default>
+                <label>5290013	SERVICIOS FINANCIEROS - COMPAÑIAS DE AUTOFINANCIAMIENTO</label>
+            </value>
+            <value>
+                <fullName>5410013	SERVICIOS FINANCIEROS - COMPAÑIAS DE SEGUROS</fullName>
+                <default>false</default>
+                <label>5410013	SERVICIOS FINANCIEROS - COMPAÑIAS DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>5450013	SERVICIOS FINANCIEROS - EMISORA Y/O COMERCIALIZACION DE CHEQUES DE VIAJERO</fullName>
+                <default>false</default>
+                <label>5450013	SERVICIOS FINANCIEROS - EMISORA Y/O COMERCIALIZACION DE CHEQUES DE VIAJERO</label>
+            </value>
+            <value>
+                <fullName>5240013	SERVICIOS FINANCIEROS - FONDOS Y FIDEICOMISOS FINANCIEROS</fullName>
+                <default>false</default>
+                <label>5240013	SERVICIOS FINANCIEROS - FONDOS Y FIDEICOMISOS FINANCIEROS</label>
+            </value>
+            <value>
+                <fullName>5310013	SERVICIOS FINANCIEROS - MONTEPIOS</fullName>
+                <default>false</default>
+                <label>5310013	SERVICIOS FINANCIEROS - MONTEPIOS</label>
+            </value>
+            <value>
+                <fullName>5280013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE AHORRO Y PRESTAMO</fullName>
+                <default>false</default>
+                <label>5280013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE AHORRO Y PRESTAMO</label>
+            </value>
+            <value>
+                <fullName>5270013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE INTERMEDIACION CREDITICIA Y FINANCIERA NO BURSATIL (OPERACION Y PROMOCION DE TARJETAS DE CREDITO NO BANCARIAS,  FINANCIAMIENTO DE BIENES DURADEROS), SOCIEDADES FINANCIERAS DE OBJETO LIMITADO</fullName>
+                <default>false</default>
+                <label>5270013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE INTERMEDIACION CREDITICIA Y FINANCIERA NO BURSATIL (OPERACION Y PROMOCION DE TARJETAS DE CREDITO NO BANCARIAS,  FINANCIAMIENTO DE BIENES DURADEROS), SOCIEDADES FINANCIERAS DE OBJETO LIMITADO</label>
+            </value>
+            <value>
+                <fullName>5390013	SERVICIOS FINANCIEROS - OTROS SERVICIOS RELACIONADOS CON LA INTERMEDIACION BURSATIL</fullName>
+                <default>false</default>
+                <label>5390013	SERVICIOS FINANCIEROS - OTROS SERVICIOS RELACIONADOS CON LA INTERMEDIACION BURSATIL</label>
+            </value>
+            <value>
+                <fullName>5330013	SERVICIOS FINANCIEROS - SOCIEDADES FINANCIERAS DE OBJETO MULTIPLE</fullName>
+                <default>false</default>
+                <label>5330013	SERVICIOS FINANCIEROS - SOCIEDADES FINANCIERAS DE OBJETO MULTIPLE</label>
+            </value>
+            <value>
+                <fullName>5370013	SERVICIOS FINANCIEROS - TRANSMISORES DE DINERO</fullName>
+                <default>false</default>
+                <label>5370013	SERVICIOS FINANCIEROS - TRANSMISORES DE DINERO</label>
+            </value>
+            <value>
+                <fullName>5250013	SERVICIOS FINANCIEROS - UNIONES DE CREDITO</fullName>
+                <default>false</default>
+                <label>5250013	SERVICIOS FINANCIEROS - UNIONES DE CREDITO</label>
+            </value>
+            <value>
+                <fullName>5540014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER DE VEHICULOS</fullName>
+                <default>false</default>
+                <label>5540014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER DE VEHICULOS</label>
+            </value>
+            <value>
+                <fullName>5510014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER SIN INTERMEDIACION DE BIENES RAICES</fullName>
+                <default>false</default>
+                <label>5510014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER SIN INTERMEDIACION DE BIENES RAICES</label>
+            </value>
+            <value>
+                <fullName>5520014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - INMOBILIARIAS Y CORREDORES DE BIENES RAICES</fullName>
+                <default>false</default>
+                <label>5520014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - INMOBILIARIAS Y CORREDORES DE BIENES RAICES</label>
+            </value>
+            <value>
+                <fullName>5530014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE BIENES MUEBLES EXCEPTO VEHICULOS</fullName>
+                <default>false</default>
+                <label>5530014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE BIENES MUEBLES EXCEPTO VEHICULOS</label>
+            </value>
+            <value>
+                <fullName>5550014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE MARCAS REGISTRADAS, PATENTES Y FRANQUICIAS</fullName>
+                <default>false</default>
+                <label>5550014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE MARCAS REGISTRADAS, PATENTES Y FRANQUICIAS</label>
+            </value>
+            <value>
+                <fullName>8200022	SERVICIOS PERSONALES - LAVANDERIAS, SERVICIOS FUNERARIOS, BAÑOS PUBLICOS, SERVICIOS DE ESTACIONAMIENTO, REVELADO E IMPRESION DE FOTOGRAFIAS</fullName>
+                <default>false</default>
+                <label>8200022	SERVICIOS PERSONALES - LAVANDERIAS, SERVICIOS FUNERARIOS, BAÑOS PUBLICOS, SERVICIOS DE ESTACIONAMIENTO, REVELADO E IMPRESION DE FOTOGRAFIAS</label>
+            </value>
+            <value>
+                <fullName>4910008	SERVICIOS POSTALES</fullName>
+                <default>false</default>
+                <label>4910008	SERVICIOS POSTALES</label>
+            </value>
+            <value>
+                <fullName>5630015	SERVICIOS PROFESIONALES Y TECNICOS - ARQUITECTURA, INGENIERIA Y ACTIVIDADES RELACIONADAS</fullName>
+                <default>false</default>
+                <label>5630015	SERVICIOS PROFESIONALES Y TECNICOS - ARQUITECTURA, INGENIERIA Y ACTIVIDADES RELACIONADAS</label>
+            </value>
+            <value>
+                <fullName>5650015	SERVICIOS PROFESIONALES Y TECNICOS - CONSULTORIA ADMINISTRATIVA, CIENTIFICA Y TECNICA</fullName>
+                <default>false</default>
+                <label>5650015	SERVICIOS PROFESIONALES Y TECNICOS - CONSULTORIA ADMINISTRATIVA, CIENTIFICA Y TECNICA</label>
+            </value>
+            <value>
+                <fullName>5690015	SERVICIOS PROFESIONALES Y TECNICOS - CONTABILIDAD Y AUDITORIA</fullName>
+                <default>false</default>
+                <label>5690015	SERVICIOS PROFESIONALES Y TECNICOS - CONTABILIDAD Y AUDITORIA</label>
+            </value>
+            <value>
+                <fullName>5640015	SERVICIOS PROFESIONALES Y TECNICOS - DISEÑO DE SISTEMAS DE COMPUTO Y SERVICIOS RELACIONADOS</fullName>
+                <default>false</default>
+                <label>5640015	SERVICIOS PROFESIONALES Y TECNICOS - DISEÑO DE SISTEMAS DE COMPUTO Y SERVICIOS RELACIONADOS</label>
+            </value>
+            <value>
+                <fullName>5660015	SERVICIOS PROFESIONALES Y TECNICOS - INVESTIGACION CIENTIFICA Y DESARROLLO</fullName>
+                <default>false</default>
+                <label>5660015	SERVICIOS PROFESIONALES Y TECNICOS - INVESTIGACION CIENTIFICA Y DESARROLLO</label>
+            </value>
+            <value>
+                <fullName>5620015	SERVICIOS PROFESIONALES Y TECNICOS - NOTARIA Y CORREDURIA PUBLICA</fullName>
+                <default>false</default>
+                <label>5620015	SERVICIOS PROFESIONALES Y TECNICOS - NOTARIA Y CORREDURIA PUBLICA</label>
+            </value>
+            <value>
+                <fullName>5680015	SERVICIOS PROFESIONALES Y TECNICOS - OTROS SERVICIOS DE OUTSOURCING</fullName>
+                <default>false</default>
+                <label>5680015	SERVICIOS PROFESIONALES Y TECNICOS - OTROS SERVICIOS DE OUTSOURCING</label>
+            </value>
+            <value>
+                <fullName>5670015	SERVICIOS PROFESIONALES Y TECNICOS - PUBLICIDAD Y ACTIVIDADES RELACIONADAS</fullName>
+                <default>false</default>
+                <label>5670015	SERVICIOS PROFESIONALES Y TECNICOS - PUBLICIDAD Y ACTIVIDADES RELACIONADAS</label>
+            </value>
+            <value>
+                <fullName>5610015	SERVICIOS PROFESIONALES Y TECNICOS - SERVICIOS JURIDICOS</fullName>
+                <default>false</default>
+                <label>5610015	SERVICIOS PROFESIONALES Y TECNICOS - SERVICIOS JURIDICOS</label>
+            </value>
+            <value>
+                <fullName>5260013	SREVICIOS FINANCIEROS - CAJAS DE AHORRO POPULAR</fullName>
+                <default>false</default>
+                <label>5260013	SREVICIOS FINANCIEROS - CAJAS DE AHORRO POPULAR</label>
+            </value>
+            <value>
+                <fullName>4810007	TRANSPORTE - AEREO</fullName>
+                <default>false</default>
+                <label>4810007	TRANSPORTE - AEREO</label>
+            </value>
+            <value>
+                <fullName>4820007	TRANSPORTE - FERROVIARIO</fullName>
+                <default>false</default>
+                <label>4820007	TRANSPORTE - FERROVIARIO</label>
+            </value>
+            <value>
+                <fullName>4830007	TRANSPORTE - MARITIMO Y FLUVIAL</fullName>
+                <default>false</default>
+                <label>4830007	TRANSPORTE - MARITIMO Y FLUVIAL</label>
+            </value>
+            <value>
+                <fullName>4890007	TRANSPORTE - SERVICIOS DE AGENCIAS ADUANALES</fullName>
+                <default>false</default>
+                <label>4890007	TRANSPORTE - SERVICIOS DE AGENCIAS ADUANALES</label>
+            </value>
+            <value>
+                <fullName>4840007	TRANSPORTE - SERVICIOS DE TRANSPORTE Y/O CUSTODIA DE VALORES</fullName>
+                <default>false</default>
+                <label>4840007	TRANSPORTE - SERVICIOS DE TRANSPORTE Y/O CUSTODIA DE VALORES</label>
+            </value>
+            <value>
+                <fullName>4880007	TRANSPORTE - SERVICIOS RELACIONADOS CON EL TRANSPORTE</fullName>
+                <default>false</default>
+                <label>4880007	TRANSPORTE - SERVICIOS RELACIONADOS CON EL TRANSPORTE</label>
+            </value>
+            <value>
+                <fullName>4850007	TRANSPORTE - TERRESTRE</fullName>
+                <default>false</default>
+                <label>4850007	TRANSPORTE - TERRESTRE</label>
+            </value>
+            <value>
+                <fullName>4860007	TRANSPORTE - TRANSPORTACION Y DISTRIBUCION POR DUCTOS</fullName>
+                <default>false</default>
+                <label>4860007	TRANSPORTE - TRANSPORTACION Y DISTRIBUCION POR DUCTOS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

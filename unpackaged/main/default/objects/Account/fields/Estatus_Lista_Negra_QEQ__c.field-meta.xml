@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus_Lista_Negra_QEQ__c</fullName>
+    <externalId>false</externalId>
+    <label>Estatus Lista Negra</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SIN VALIDAR</fullName>
+                <default>true</default>
+                <label>SIN VALIDAR</label>
+            </value>
+            <value>
+                <fullName>LISTA NEGRA</fullName>
+                <default>false</default>
+                <label>LISTA NEGRA</label>
+            </value>
+            <value>
+                <fullName>LN CONFIRMADO</fullName>
+                <default>false</default>
+                <label>LN CONFIRMADO</label>
+            </value>
+            <value>
+                <fullName>VALIDADO</fullName>
+                <default>false</default>
+                <label>VALIDADO</label>
+            </value>
+            <value>
+                <fullName>PPE</fullName>
+                <default>false</default>
+                <label>PPE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

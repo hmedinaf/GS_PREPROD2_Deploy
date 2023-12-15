@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo --></label>
+        <name>Tipo__c</name>
+        <picklistValues>
+            <masterLabel>Dirección 3ro Domicilio Moral</masterLabel>
+            <translation><!-- Dirección 3ro Domicilio Moral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección 3ro Laboral Moral</masterLabel>
+            <translation><!-- Dirección 3ro Laboral Moral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección 3ro Moral Principal</masterLabel>
+            <translation><!-- Dirección 3ro Moral Principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Afluencia</masterLabel>
+            <translation><!-- Dirección Afluencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Cesión Laboral PF</masterLabel>
+            <translation><!-- Dirección Cesión Laboral PF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Cesión Laboral PM</masterLabel>
+            <translation><!-- Dirección Cesión Laboral PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Cesión Principal PF</masterLabel>
+            <translation><!-- Dirección Cesión Principal PF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Cesión Principal PM</masterLabel>
+            <translation><!-- Dirección Cesión Principal PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Empresa</masterLabel>
+            <translation><!-- Dirección Empresa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Laboral</masterLabel>
+            <translation><!-- Dirección Laboral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Laboral CO Acreditado</masterLabel>
+            <translation><!-- Dirección Laboral CO Acreditado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Principal</masterLabel>
+            <translation><!-- Dirección Principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Principal CO Acreditado</masterLabel>
+            <translation><!-- Dirección Principal CO Acreditado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Rep Legal / Apoderado</masterLabel>
+            <translation><!-- Dirección Rep Legal / Apoderado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Rep Legal Laboral</masterLabel>
+            <translation><!-- Dirección Rep Legal Laboral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Tercero Laboral Persona Física</masterLabel>
+            <translation><!-- Dirección Tercero Laboral Persona Física --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Tercero Persona Física</masterLabel>
+            <translation><!-- Dirección Tercero Persona Física --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

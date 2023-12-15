@@ -1,0 +1,13 @@
+<apex:page standardController="Opportunity" extensions="DictaminacionController" action="{!createDictaminacion}" contentType="text/html">
+    <apex:form >
+        
+        <apex:outputPanel rendered="{!showMessage}">
+            <p><strong>{!errorMessage}</strong></p>
+        </apex:outputPanel>
+    </apex:form>
+    <apex:outputPanel rendered="{!navigateToDictaminacion}">
+        <script>
+            window.top.location.href = '{!dictaminacionUrl}';
+        </script>
+    </apex:outputPanel>
+</apex:page>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resultado_de_Gestion__c</fullName>
+    <externalId>false</externalId>
+    <label>Resultado de Gestion</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Promesa</fullName>
+                <default>false</default>
+                <label>Promesa</label>
+            </value>
+            <value>
+                <fullName>Negativa</fullName>
+                <default>false</default>
+                <label>Negativa</label>
+            </value>
+            <value>
+                <fullName>Aclaración</fullName>
+                <default>false</default>
+                <label>Aclaración</label>
+            </value>
+            <value>
+                <fullName>Sin Resultado</fullName>
+                <default>false</default>
+                <label>Sin Resultado</label>
+            </value>
+            <value>
+                <fullName>Al Corriente</fullName>
+                <default>false</default>
+                <label>Al Corriente</label>
+            </value>
+            <value>
+                <fullName>Contingencia COVID19</fullName>
+                <default>false</default>
+                <label>Contingencia COVID19</label>
+            </value>
+            <value>
+                <fullName>Garantías/Desperfectos</fullName>
+                <default>false</default>
+                <label>Garantías/Desperfectos</label>
+            </value>
+            <value>
+                <fullName>Datos de Contacto Invalido</fullName>
+                <default>false</default>
+                <label>Datos de Contacto Invalido</label>
+            </value>
+            <value>
+                <fullName>Teléfono a Buzón</fullName>
+                <default>false</default>
+                <label>Teléfono a Buzón</label>
+            </value>
+            <value>
+                <fullName>Asesor Comercial</fullName>
+                <default>false</default>
+                <label>Asesor Comercial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

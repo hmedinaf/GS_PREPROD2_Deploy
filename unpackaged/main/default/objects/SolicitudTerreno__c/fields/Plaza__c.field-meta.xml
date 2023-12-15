@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plaza__c</fullName>
+    <externalId>false</externalId>
+    <label>Plaza</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A0-NL 1</fullName>
+                <default>false</default>
+                <label>A0-NL 1</label>
+            </value>
+            <value>
+                <fullName>B0-NL 2</fullName>
+                <default>false</default>
+                <label>B0-NL 2</label>
+            </value>
+            <value>
+                <fullName>C0-Jalisco</fullName>
+                <default>false</default>
+                <label>C0-Jalisco</label>
+            </value>
+            <value>
+                <fullName>D0-MEXICO</fullName>
+                <default>false</default>
+                <label>D0-MEXICO</label>
+            </value>
+            <value>
+                <fullName>E0-QUERETARO</fullName>
+                <default>false</default>
+                <label>E0-QUERETARO</label>
+            </value>
+            <value>
+                <fullName>F0-AGUASCALIENTES</fullName>
+                <default>false</default>
+                <label>F0-AGUASCALIENTES</label>
+            </value>
+            <value>
+                <fullName>G0-REYNOSA</fullName>
+                <default>false</default>
+                <label>G0-REYNOSA</label>
+            </value>
+            <value>
+                <fullName>H0-CANCUN</fullName>
+                <default>false</default>
+                <label>H0-CANCUN</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

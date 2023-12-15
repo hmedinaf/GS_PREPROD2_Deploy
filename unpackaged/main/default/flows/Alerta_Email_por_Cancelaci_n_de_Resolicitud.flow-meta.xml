@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Alerta_Cancelacion_por_Resolicitud</name>
+        <label>Alerta Cancelación por Resolicitud</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <actionName>CPPT_Cancelacion__c.Alerta_de_notificicacion_cancelacion_por_resolicitud</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <description>Al aprobarse la cancelación de escritura por resolicitud,  se detona un correo de notificación a los usuarios configurados en la pantalla &#39;adm-emails por documento&#39; que se mencionan en &#39;catálogos TI&#39;.</description>
+    <environments>Default</environments>
+    <interviewLabel>Alerta Email por Cancelación de Resolicitud {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Alerta Email por Cancelación de Resolicitud</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Alerta_Cancelacion_por_Resolicitud</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>CPPTS_Proceso_con_Resolicitud__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>CPPT_Cancelacion__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

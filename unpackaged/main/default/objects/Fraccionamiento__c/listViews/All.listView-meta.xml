@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Id_Fraccionamiento__c</columns>
+    <columns>Codigo_Fraccionamiento__c</columns>
+    <columns>Estado_fracc__c</columns>
+    <columns>Muni_fracc__c</columns>
+    <columns>UEN__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Plaza__c</columns>
+    <columns>Id_Mas_Comercial__c</columns>
+    <columns>Plaza_Relacionada__c</columns>
+    <columns>Compania_Asociada__c</columns>
+    <columns>Fecha_Vigencia__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>Todos</label>
+</ListView>

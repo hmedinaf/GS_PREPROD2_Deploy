@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Programas --></label>
+        <name>JMC_Programas__c</name>
+        <picklistValues>
+            <masterLabel>Carrusel</masterLabel>
+            <translation><!-- Carrusel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carrusel VM</masterLabel>
+            <translation><!-- Carrusel VM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collage</masterLabel>
+            <translation><!-- Collage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collage VM</masterLabel>
+            <translation><!-- Collage VM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOVISSSTE</masterLabel>
+            <translation><!-- FOVISSSTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRUEBAS</masterLabel>
+            <translation><!-- PRUEBAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRUEBA_EDOMEXICO</masterLabel>
+            <translation><!-- PRUEBA_EDOMEXICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRUEBA_PRIVALIA</masterLabel>
+            <translation><!-- PRUEBA_PRIVALIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video lead 1</masterLabel>
+            <translation><!-- Video lead 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video lead 2</masterLabel>
+            <translation><!-- Video lead 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video lead VM</masterLabel>
+            <translation><!-- Video lead VM --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

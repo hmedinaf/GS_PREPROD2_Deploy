@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Fecha Establecimiento en Territorio Nacional --></help>
+        <label><!-- Fecha Establecimiento en Territorio Nac --></label>
+        <name>Fecha_Establecimiento_en_Territorio_Nac__c</name>
+    </CustomFieldTranslation>

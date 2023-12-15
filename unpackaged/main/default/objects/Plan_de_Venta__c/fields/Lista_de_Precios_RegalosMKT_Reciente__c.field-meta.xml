@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lista_de_Precios_RegalosMKT_Reciente__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Lista de Precios RegalosMKT - Reciente</label>
+    <referenceTo>Pricebook2</referenceTo>
+    <relationshipLabel>Plan de Venta (Lista de Precios RegalosMKT - Reciente)</relationshipLabel>
+    <relationshipName>Plan_de_Venta4</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

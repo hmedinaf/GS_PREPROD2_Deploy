@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>NUEVO</fullName>
+        <default>false</default>
+        <label>NUEVO</label>
+    </customValue>
+    <customValue>
+        <fullName>REACTIVADO</fullName>
+        <default>false</default>
+        <label>REACTIVADO</label>
+    </customValue>
+    <masterLabel>Categoría</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

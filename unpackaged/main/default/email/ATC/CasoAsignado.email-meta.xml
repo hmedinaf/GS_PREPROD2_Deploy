@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Demo</letterhead>
+    <name>Caso Asignado</name>
+    <style>freeForm</style>
+    <subject>{!Case.CaseNumber} {!Case.Fracc__c} {!Case.RecordType}</subject>
+    <textOnly>Se ha creado un caso con el numero: {!Case.CaseNumber} , fraccionamiento: {!Case.Fracc__c}, categoría: {!Case.RecordType}, tipo: {!Case.Tipo__c}.
+
+Asignado: {!Case.OwnerFirstName}
+
+Cliente: {!Account.Name}
+
+Contacto: {!Account.Phone} {!Case.SuppliedEmail}
+
+Cita de valoración: {!Case.FechaCitaValoracion__c}
+
+Liga de acceso: {!Case.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

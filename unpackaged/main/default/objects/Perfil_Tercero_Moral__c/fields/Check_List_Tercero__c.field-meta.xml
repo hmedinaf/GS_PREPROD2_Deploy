@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_List_Tercero__c</fullName>
+    <externalId>false</externalId>
+    <label>Check List Tercero</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Comprobante de Domicilio del Representante Legal</fullName>
+                <default>false</default>
+                <label>Comprobante de Domicilio del Representante Legal</label>
+            </value>
+            <value>
+                <fullName>Comprobante de Domicilio de la persona moral</fullName>
+                <default>false</default>
+                <label>Comprobante de Domicilio de la persona moral</label>
+            </value>
+            <value>
+                <fullName>Identificación del Representante o Apoderado Legal</fullName>
+                <default>false</default>
+                <label>Identificación del Representante o Apoderado Legal</label>
+            </value>
+            <value>
+                <fullName>Cédula de Identificación Fiscal expedida por el SAT</fullName>
+                <default>false</default>
+                <label>Cédula de Identificación Fiscal expedida por el SAT</label>
+            </value>
+            <value>
+                <fullName>Documento mediante el cual se crea o constituye la personal moral</fullName>
+                <default>false</default>
+                <label>Documento mediante el cual se crea o constituye la personal moral</label>
+            </value>
+            <value>
+                <fullName>Poder del Representante o Apoderado Legal</fullName>
+                <default>false</default>
+                <label>Poder del Representante o Apoderado Legal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

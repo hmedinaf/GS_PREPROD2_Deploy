@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsTRBypassed__c</fullName>
+    <externalId>false</externalId>
+    <formula>$User.is_Data_Migration_User__c ||
+BLANKVALUE(Trigger_Override__c, $System.OriginDateTime) &gt; NOW() - 0.000173611 /* 15 Seconds */</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>IsTRBypassed</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

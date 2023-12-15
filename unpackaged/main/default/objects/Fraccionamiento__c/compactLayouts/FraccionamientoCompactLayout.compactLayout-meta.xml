@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FraccionamientoCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>Plaza_Relacionada__c</fields>
+    <fields>Muni_fracc__c</fields>
+    <fields>Activo_frac__c</fields>
+    <fields>Codigo_Fraccionamiento__c</fields>
+    <label>FraccionamientoCompactLayout</label>
+</CompactLayout>

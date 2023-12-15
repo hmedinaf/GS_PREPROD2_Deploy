@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vivienda</fullName>
+    <active>true</active>
+    <label>Vivienda</label>
+    <picklistValues>
+        <picklist>Clase_de_Bonificacion__c</picklist>
+        <values>
+            <fullName>Monto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Porcentaje</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Clase_de_Financiamiento__c</picklist>
+        <values>
+            <fullName>Importe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Porcentaje</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estatus_Proceso_de_Venta__c</picklist>
+        <values>
+            <fullName>Escriturado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formalizado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estatus_Promocion__c</picklist>
+        <values>
+            <fullName>Aprobado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Progreso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Por Aprobar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estatus__c</picklist>
+        <values>
+            <fullName>Aprobado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Progreso</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Por Aprobar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Periodo_Fin__c</picklist>
+        <values>
+            <fullName>2022-05-30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-06-30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-07-31</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-08-31</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-09-30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-10-31</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-11-30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-12-31</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ABRIL 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ABRIL 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGOSTO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGOSTO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DICIEMBRE 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DICIEMBRE 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENERO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENERO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FEBRERO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FEBRERO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JULIO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JULIO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JUNIO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JUNIO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARZO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARZO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAYO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAYO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOVIEMBRE 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOVIEMBRE 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OCTUBRE 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OCTUBRE 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEPTIEMBRE 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEPTIEMBRE 2025</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Periodo_Inicio__c</picklist>
+        <values>
+            <fullName>2023-05-01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-06-01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-07-01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-08-01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-09-01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-10-01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-11-01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023-12-01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ABRIL 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ABRIL 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGOSTO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGOSTO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DICIEMBRE 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DICIEMBRE 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENERO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENERO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FEBRERO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FEBRERO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JULIO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JULIO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JUNIO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JUNIO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARZO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARZO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAYO 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAYO 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOVIEMBRE 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOVIEMBRE 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OCTUBRE 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OCTUBRE 2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEPTIEMBRE 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEPTIEMBRE 2025</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plazos__c</picklist>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Bonificacion__c</picklist>
+        <values>
+            <fullName>Bonificación de contado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bonificación de mes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Financiamiento__c</picklist>
+        <values>
+            <fullName>Enganche</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Venta</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Producto__c</picklist>
+        <values>
+            <fullName>Vivienda</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

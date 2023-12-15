@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Estatus_del_Proceso__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Estatus Titulación</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>En Progreso</fullName>
+                <default>true</default>
+                <label>En Progreso</label>
+            </value>
+            <value>
+                <fullName>Por Aprobar</fullName>
+                <default>false</default>
+                <label>Por Aprobar</label>
+            </value>
+            <value>
+                <fullName>Aprobado</fullName>
+                <default>false</default>
+                <label>Aprobado</label>
+            </value>
+            <value>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+                <label>Rechazado</label>
+            </value>
+            <value>
+                <fullName>Cancelado</fullName>
+                <default>false</default>
+                <label>Cancelado</label>
+            </value>
+            <value>
+                <fullName>En Firmas</fullName>
+                <default>false</default>
+                <label>En Firmas</label>
+            </value>
+            <value>
+                <fullName>Por Entregar</fullName>
+                <default>false</default>
+                <label>Por Entregar</label>
+            </value>
+            <value>
+                <fullName>Entregado</fullName>
+                <default>false</default>
+                <label>Entregado</label>
+            </value>
+            <value>
+                <fullName>Reserva</fullName>
+                <default>false</default>
+                <label>Reserva</label>
+            </value>
+            <value>
+                <fullName>En aclaración</fullName>
+                <default>false</default>
+                <label>En Aclaración</label>
+            </value>
+            <value>
+                <fullName>Cancelado por Reubicación</fullName>
+                <default>false</default>
+                <label>Cancelado por Reubicación</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

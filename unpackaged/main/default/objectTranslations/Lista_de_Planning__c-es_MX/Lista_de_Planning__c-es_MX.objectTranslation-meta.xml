@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Lista de Planning</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Listas de Planning</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Lista de Bonificaciones</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lista de Precio</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lista de Precios Batch Prods</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Listas de Financiamiento</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Para registro master con RT &apos;Aprobación Listas de Precios Batch Prods&apos; --></description>
+        <label><!-- Lista de Precios Batch Prods --></label>
+        <name>Lista_de_Precios_Batch_Prods</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Listas de Bonificaciones --></description>
+        <label><!-- Listas de Bonificaciones --></label>
+        <name>Listas_de_Bonificaciones</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Listas de Financiamiento --></description>
+        <label><!-- Listas de Financiamiento --></label>
+        <name>Listas_de_Financiamiento</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Listas de Precios --></description>
+        <label><!-- Listas de Precios --></label>
+        <name>Listas_de_Precios</name>
+    </recordTypes>
+</CustomObjectTranslation>

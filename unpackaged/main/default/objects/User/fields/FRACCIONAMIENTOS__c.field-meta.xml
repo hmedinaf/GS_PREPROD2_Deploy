@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FRACCIONAMIENTOS__c</fullName>
+    <externalId>false</externalId>
+    <label>FRACCIONAMIENTOS</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ACACIAS</fullName>
+                <default>false</default>
+                <label>ACACIAS</label>
+            </value>
+            <value>
+                <fullName>ACACIAS II</fullName>
+                <default>false</default>
+                <label>ACACIAS II</label>
+            </value>
+            <value>
+                <fullName>ALBERI RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>ALBERI RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>ALVENTO</fullName>
+                <default>false</default>
+                <label>ALVENTO</label>
+            </value>
+            <value>
+                <fullName>ARBOLADA</fullName>
+                <default>false</default>
+                <label>ARBOLADA</label>
+            </value>
+            <value>
+                <fullName>BOSQUE REAL</fullName>
+                <default>false</default>
+                <label>BOSQUE REAL</label>
+            </value>
+            <value>
+                <fullName>BOSQUES DEL NEVADO</fullName>
+                <default>false</default>
+                <label>BOSQUES DEL NEVADO</label>
+            </value>
+            <value>
+                <fullName>MAGNOLIAS IV</fullName>
+                <default>false</default>
+                <label>MAGNOLIAS IV</label>
+            </value>
+            <value>
+                <fullName>MISION DE LOS ANGELES 1ER SECTOR ARCANGELES</fullName>
+                <default>false</default>
+                <label>MISION DE LOS ANGELES 1ER SECTOR ARCANGELES</label>
+            </value>
+            <value>
+                <fullName>MURIEL RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>MURIEL RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>PASEO SAN JUNIPERO</fullName>
+                <default>false</default>
+                <label>PASEO SAN JUNIPERO</label>
+            </value>
+            <value>
+                <fullName>PASEOS DEL SUR</fullName>
+                <default>false</default>
+                <label>PASEOS DEL SUR</label>
+            </value>
+            <value>
+                <fullName>PRIVADA BELTERRA</fullName>
+                <default>false</default>
+                <label>PRIVADA BELTERRA</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS CARANDAY</fullName>
+                <default>false</default>
+                <label>PRIVADAS CARANDAY</label>
+            </value>
+            <value>
+                <fullName>PRIVALIA AMBIENTA</fullName>
+                <default>false</default>
+                <label>PRIVALIA AMBIENTA</label>
+            </value>
+            <value>
+                <fullName>TODOS</fullName>
+                <default>false</default>
+                <label>TODOS</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LINCOLN SECTOR MINAS</fullName>
+                <default>false</default>
+                <label>VALLE DE LINCOLN SECTOR MINAS</label>
+            </value>
+            <value>
+                <fullName>VALLE DE SANTA ELENA</fullName>
+                <default>false</default>
+                <label>VALLE DE SANTA ELENA</label>
+            </value>
+            <value>
+                <fullName>VALLE DE TEJEDA II</fullName>
+                <default>false</default>
+                <label>VALLE DE TEJEDA II</label>
+            </value>
+            <value>
+                <fullName>VALLE SANTA ISABEL</fullName>
+                <default>false</default>
+                <label>VALLE SANTA ISABEL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

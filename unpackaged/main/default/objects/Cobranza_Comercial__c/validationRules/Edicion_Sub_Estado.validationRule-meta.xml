@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edicion_Sub_Estado</fullName>
+    <active>true</active>
+    <description>El Sub Estado solo puede ser modificado cuando el Sub Estatus del Proceso es en progreso, aprobado o cancelado</description>
+    <errorConditionFormula>AND(ISCHANGED(Sub_Estado__c),
+ NOT(ISPICKVAL(Sub_Estatus_Proceso__c, &#39;EN_PROGRESO&#39;)),
+ NOT(ISPICKVAL(Sub_Estatus_Proceso__c, &#39;APROBADO&#39;)),
+ NOT(ISPICKVAL(Sub_Estatus_Proceso__c, &#39;RECHAZADO&#39;))
+)</errorConditionFormula>
+    <errorDisplayField>Sub_Estado__c</errorDisplayField>
+    <errorMessage>El Sub Estado solo puede ser modificado cuando el Sub Estatus del Proceso es &quot;Aprobado&quot; o &quot;En Progreso&quot; o &quot;Rechazado&quot;</errorMessage>
+</ValidationRule>

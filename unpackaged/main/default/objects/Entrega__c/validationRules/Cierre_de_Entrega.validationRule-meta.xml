@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cierre_de_Entrega</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( (ISBLANK(Inventario__r.Fecha_Exigible_para_Cobro__c) &amp;&amp; ISBLANK( Inventario__r.FechaExigible__c )) &amp;&amp; ISCHANGED( Estatus__c ) &amp;&amp; TEXT(Estatus__c) == &#39;Entregado&#39; , true, false)</errorConditionFormula>
+    <errorMessage>Se debe agregar una fecha exigible de cobro o la fecha de cobro en la vivienda</errorMessage>
+</ValidationRule>

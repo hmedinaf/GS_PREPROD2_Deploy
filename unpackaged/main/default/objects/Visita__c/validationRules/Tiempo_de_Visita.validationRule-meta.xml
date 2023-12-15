@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tiempo_de_Visita</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+				ISNEW() ,
+				IF(Fechaprogramadadevisita__c  &lt;  TODAY(), true, 
+							IF(Fechaprogramadadevisita__c  ==  TODAY(),      
+										IF(Horaprogramadadevisita__c &gt;  TIMEVALUE(NOW() - 0.25), 
+													false, true) , false) )
+
+)</errorConditionFormula>
+    <errorMessage>No es posible crear Vistas para días anteriores</errorMessage>
+</ValidationRule>

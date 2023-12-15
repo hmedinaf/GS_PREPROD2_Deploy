@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Perfil Tercero Persona Moral</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Perfil Tercero Persona Moral</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Perfil Tercero Moral</layout>
+        <sections>
+            <label><!-- Domicilio del tercero --></label>
+            <section>Domicilio del tercero</section>
+        </sections>
+        <sections>
+            <label><!-- Generales del tercero --></label>
+            <section>Generales del tercero</section>
+        </sections>
+        <sections>
+            <label><!-- Información laboral del tercero --></label>
+            <section>Información laboral del tercero</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Monitor --></label>
+        <name>Monitor</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dirección Laboral --></label>
+        <name>Nueva_Direccion_Laboral</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dirección Principal --></label>
+        <name>Nueva_Direccion_Principal</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nuevo Representante legal Tercero --></label>
+        <name>Nuevo_Representante_legal_Tercero</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Perfil Tercero 1 Persona Moral --></label>
+        <name>Perfil_Tercero_1_Persona_Moral</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Perfil Tercero 2 Persona Moral --></label>
+        <name>Perfil_Tercero_2_Persona_Moral</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Perfil Tercero 3 Persona Moral --></label>
+        <name>Perfil_Tercero_3_Persona_Moral</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Por Favor Ingresar Unicamente Numeros y Letras --></errorMessage>
+        <name>Campos_Alfanumericos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Monto_total_aportar</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Porfavor Solo Ingresar Letras --></errorMessage>
+        <name>Solo_Aceptar_Letras</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Telefono_Domicilio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Telefono_Laboral</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Director General si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_Director_General</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar los campos Miembros del consejo si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_Miembros_del_Consejo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo País de nacionalidad si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_Pais</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Porcentaje accionistas si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_Porcentaje_Accionistas</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo RFC si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_RFC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_esta_de_acuerdo_en</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo nombre si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_nombre</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo régimen fiscal si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_regimen_fiscal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo sub tipo fiscal si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_sub_tipo_fiscal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Teléfono domicilio, Extensión, Teléfono celular o Correo electronico si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_tel_extension_cel_y_correo</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Ingreso Mensual CO Acreditado --></label>
+        <name>Ingreso_Mensual_CO_Acreditado__c</name>
+        <picklistValues>
+            <masterLabel>0 - 3,999</masterLabel>
+            <translation><!-- 0 - 3,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13,000 - 15,999</masterLabel>
+            <translation><!-- 13,000 - 15,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16,000 - 19,999</masterLabel>
+            <translation><!-- 16,000 - 19,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20,000 - 24,999</masterLabel>
+            <translation><!-- 20,000 - 24,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25,000 - 34,999</masterLabel>
+            <translation><!-- 25,000 - 34,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35,000 - 44,999</masterLabel>
+            <translation><!-- 35,000 - 44,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4,000 - 7,999</masterLabel>
+            <translation><!-- 4,000 - 7,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45,000 - 54,999</masterLabel>
+            <translation><!-- 45,000 - 54,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>55,000 - 64,999</masterLabel>
+            <translation><!-- 55,000 - 64,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>65,000 - 74,999</masterLabel>
+            <translation><!-- 65,000 - 74,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75,000 - Más</masterLabel>
+            <translation><!-- 75,000 - Más --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8,000 - 12,999</masterLabel>
+            <translation><!-- 8,000 - 12,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro Ingreso Mensual</masterLabel>
+            <translation><!-- Otro Ingreso Mensual --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>Prospectador_Vencido</name>
+        <label>Prospectador Vencido</label>
+        <locationX>769</locationX>
+        <locationY>567</locationY>
+        <defaultConnectorLabel>Resultado predeterminado</defaultConnectorLabel>
+        <rules>
+            <name>Prospectador_Vencido_Resultado</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ProspectadorVencido</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Actuailizacion_Cuenta</targetReference>
+            </connector>
+            <label>Prospectador Vencido Resultado</label>
+        </rules>
+    </decisions>
+    <description>Proceso que desasigna el Prospectador asignado a una cuenta cuando se ha cumplido su periodo de vigencia</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>ProspectadorVencido</name>
+        <dataType>Boolean</dataType>
+        <expression>( ( ( NOW() - {!$Record.Fecha_Hora_Prospeccion__c} ) * 24 * 60 * 60 ) + 1 ) 
+&gt;
+( {!Vencimiento_Asignacion_Prospectador.Dias__c} * 24 * 60 * 60 )</expression>
+    </formulas>
+    <interviewLabel>Cuenta Desasigna Prospectador {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Cuenta Desasigna Prospectador</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Vencimiento_Asignacion_Prospectador</name>
+        <label>Vencimiento Asignación Prospectador</label>
+        <locationX>776</locationX>
+        <locationY>408</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Prospectador_Vencido</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Prospectador</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Vencimiento_Asignacion__mdt</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Actuailizacion_Cuenta</name>
+        <label>Actualización Cuenta</label>
+        <locationX>778</locationX>
+        <locationY>755</locationY>
+        <inputAssignments>
+            <field>Desasignacion_Auto_Prospectador__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Prospectador__c</field>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>650</locationX>
+        <locationY>47</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Numero_de_Oportunidades__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Prospectador__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Account</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <name>X1_Dia_Despues_Asignacion_Prospectador</name>
+            <connector>
+                <targetReference>Vencimiento_Asignacion_Prospectador</targetReference>
+            </connector>
+            <label>1 Dia Después Asignación Prospectador</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>Fecha_Hora_Prospeccion__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

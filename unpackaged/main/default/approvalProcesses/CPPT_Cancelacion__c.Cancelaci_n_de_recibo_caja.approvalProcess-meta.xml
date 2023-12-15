@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>CPPTS_Cuenta__c</field>
+        <field>CPPTS_Oportunidad__c</field>
+        <field>CPPTS_Estatus_Aprobacion_Reembolso__c</field>
+        <field>CPPTS_Estatus_Cancelacion__c</field>
+        <field>CPPTS_Estatus_Proceso_de_Venta__c</field>
+        <field>CPPTS_Fraccionamiento__c</field>
+        <field>CPPTS_Fecha_Cancelacion__c</field>
+        <field>CPPTS_Motivo_Cierre__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>generico.enfoque@javer.com.mx</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Step 1</label>
+        <name>Step_1</name>
+    </approvalStep>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>CPPT_Cancelacion__c.Name</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Cancelación de recibo caja</label>
+    <processOrder>6</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

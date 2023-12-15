@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Catálogo de falla --></label>
+        <name>Catalagodefalla__c</name>
+        <picklistValues>
+            <masterLabel>A1.1.Contactos</masterLabel>
+            <translation><!-- A1.1.Contactos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.10.Falta de cable del 8</masterLabel>
+            <translation><!-- A1.10.Falta de cable del 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.11. Falta de cable 10</masterLabel>
+            <translation><!-- A1.11. Falta de cable 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.12.Falta de cable del 12</masterLabel>
+            <translation><!-- A1.12.Falta de cable del 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.13. Falta de cable del 14</masterLabel>
+            <translation><!-- A1.13. Falta de cable del 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.14. Falta de cable del 16</masterLabel>
+            <translation><!-- A1.14. Falta de cable del 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.15.Falta Quinta Terminal</masterLabel>
+            <translation><!-- A1.15.Falta Quinta Terminal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.2.Apagadores</masterLabel>
+            <translation><!-- A1.2.Apagadores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.3.Contacto TV-Cable</masterLabel>
+            <translation><!-- A1.3.Contacto TV-Cable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.4.Pastillas térmicas</masterLabel>
+            <translation><!-- A1.4.Pastillas térmicas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.5.Base de medición</masterLabel>
+            <translation><!-- A1.5.Base de medición --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.6.Extractor</masterLabel>
+            <translation><!-- A1.6.Extractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.7.Soquet</masterLabel>
+            <translation><!-- A1.7.Soquet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.8.Timbre</masterLabel>
+            <translation><!-- A1.8.Timbre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1.9.Centro de carga</masterLabel>
+            <translation><!-- A1.9.Centro de carga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.1.Bajante sanitario</masterLabel>
+            <translation><!-- B1.1.Bajante sanitario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.10.Patio</masterLabel>
+            <translation><!-- B1.10.Patio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.11.Areneros</masterLabel>
+            <translation><!-- B1.11.Areneros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.12.Descarga</masterLabel>
+            <translation><!-- B1.12.Descarga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.14.Charola de baño</masterLabel>
+            <translation><!-- B1.14.Charola de baño --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.16.Araña - Cuadro Principal</masterLabel>
+            <translation><!-- B1.16.Araña - Cuadro Principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.17.Registros</masterLabel>
+            <translation><!-- B1.17.Registros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.18.Coladera</masterLabel>
+            <translation><!-- B1.18.Coladera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.19.Fisura en mueble sanitario</masterLabel>
+            <translation><!-- B1.19.Fisura en mueble sanitario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.2.Registro sanitario</masterLabel>
+            <translation><!-- B1.2.Registro sanitario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.20.Daño en herrajes</masterLabel>
+            <translation><!-- B1.20.Daño en herrajes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.21.Deficiencia en valvula-llave de paso</masterLabel>
+            <translation><!-- B1.21.Deficiencia en valvula-llave de paso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.22.Deficiencia en trampa o cuello</masterLabel>
+            <translation><!-- B1.22.Deficiencia en trampa o cuello --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.3. Entronque</masterLabel>
+            <translation><!-- B1.3. Entronque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.4.Bajante de agua pluvial</masterLabel>
+            <translation><!-- B1.4.Bajante de agua pluvial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.5.Lavabo</masterLabel>
+            <translation><!-- B1.5.Lavabo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.6.Tarja</masterLabel>
+            <translation><!-- B1.6.Tarja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.7.WC</masterLabel>
+            <translation><!-- B1.7.WC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.8.Regadera</masterLabel>
+            <translation><!-- B1.8.Regadera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1.9.Lavadero</masterLabel>
+            <translation><!-- B1.9.Lavadero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1.1.Tarja</masterLabel>
+            <translation><!-- C1.1.Tarja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1.2.WC</masterLabel>
+            <translation><!-- C1.2.WC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1.3.Lavabo</masterLabel>
+            <translation><!-- C1.3.Lavabo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1.4.Regadera</masterLabel>
+            <translation><!-- C1.4.Regadera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1.5.Lavadero</masterLabel>
+            <translation><!-- C1.5.Lavadero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1.6.Calentador de paso</masterLabel>
+            <translation><!-- C1.6.Calentador de paso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1.7.Calentador solar</masterLabel>
+            <translation><!-- C1.7.Calentador solar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1.8.Cuadro principal</masterLabel>
+            <translation><!-- C1.8.Cuadro principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1.9.Disparo principal</masterLabel>
+            <translation><!-- C1.9.Disparo principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D1.1.Disparo principal</masterLabel>
+            <translation><!-- D1.1.Disparo principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D1.2.Disparo en calentador de paso</masterLabel>
+            <translation><!-- D1.2.Disparo en calentador de paso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D1.3.Disparo estufa</masterLabel>
+            <translation><!-- D1.3.Disparo estufa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D1.4.Disparo tanque estacionario</masterLabel>
+            <translation><!-- D1.4.Disparo tanque estacionario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E.1.13.Losa de cimentacion</masterLabel>
+            <translation><!-- E.1.13.Losa de cimentacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E.1.14.Muros</masterLabel>
+            <translation><!-- E.1.14.Muros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.1.Falta de colado</masterLabel>
+            <translation><!-- E1.1.Falta de colado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.10.Molduras</masterLabel>
+            <translation><!-- E1.10.Molduras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.11.Viga en Cimentacion</masterLabel>
+            <translation><!-- E1.11.Viga en Cimentacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.12.Firme</masterLabel>
+            <translation><!-- E1.12.Firme --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.16.Vigas en Muros</masterLabel>
+            <translation><!-- E1.16.Vigas en Muros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.17.Castillos</masterLabel>
+            <translation><!-- E1.17.Castillos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.18.Cerramientos</masterLabel>
+            <translation><!-- E1.18.Cerramientos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.2.Falta de varilla tec 60</masterLabel>
+            <translation><!-- E1.2.Falta de varilla tec 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.20.Losa azotea</masterLabel>
+            <translation><!-- E1.20.Losa azotea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.21.Base de tinaco</masterLabel>
+            <translation><!-- E1.21.Base de tinaco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.3.Falta de dala u</masterLabel>
+            <translation><!-- E1.3.Falta de dala u --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.4.Acuñar</masterLabel>
+            <translation><!-- E1.4.Acuñar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.5.Desplome</masterLabel>
+            <translation><!-- E1.5.Desplome --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.6.Mal forjado</masterLabel>
+            <translation><!-- E1.6.Mal forjado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.7.Desprendiemiento</masterLabel>
+            <translation><!-- E1.7.Desprendiemiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.8.Boquilla</masterLabel>
+            <translation><!-- E1.8.Boquilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.9.Escaleras</masterLabel>
+            <translation><!-- E1.9.Escaleras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.9.Losa de entrepiso</masterLabel>
+            <translation><!-- E1.9.Losa de entrepiso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.1.Botada</masterLabel>
+            <translation><!-- F1.1.Botada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.10.Daño estructura</masterLabel>
+            <translation><!-- F1.10.Daño estructura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.11. Boquilla</masterLabel>
+            <translation><!-- F1.11. Boquilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.2.Mal aplicada</masterLabel>
+            <translation><!-- F1.2.Mal aplicada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.3.Diferente color</masterLabel>
+            <translation><!-- F1.3.Diferente color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.7.Desplome</masterLabel>
+            <translation><!-- F1.7.Desplome --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.9. Fisura por temperatura</masterLabel>
+            <translation><!-- F1.9. Fisura por temperatura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.1.Falta de colado</masterLabel>
+            <translation><!-- G1.1.Falta de colado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.10. Daño Estructural</masterLabel>
+            <translation><!-- G1.10. Daño Estructural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.11. Fisura en muro</masterLabel>
+            <translation><!-- G1.11. Fisura en muro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.12. Fisura en pretil</masterLabel>
+            <translation><!-- G1.12. Fisura en pretil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.13. Falta de Sello en conexiones</masterLabel>
+            <translation><!-- G1.13. Falta de Sello en conexiones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.14. Fisura en junta constructiva</masterLabel>
+            <translation><!-- G1.14. Fisura en junta constructiva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.15. Encharcamiento</masterLabel>
+            <translation><!-- G1.15. Encharcamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.16. Filtración por boquilla</masterLabel>
+            <translation><!-- G1.16. Filtración por boquilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.2.Mala pendiente</masterLabel>
+            <translation><!-- G1.2.Mala pendiente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.3.Desprendimiento</masterLabel>
+            <translation><!-- G1.3.Desprendimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.4.Mal acabado</masterLabel>
+            <translation><!-- G1.4.Mal acabado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.5.Botado</masterLabel>
+            <translation><!-- G1.5.Botado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.6.Diferente Color</masterLabel>
+            <translation><!-- G1.6.Diferente Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.7.Falta pintura</masterLabel>
+            <translation><!-- G1.7.Falta pintura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.8.Mal aplicada</masterLabel>
+            <translation><!-- G1.8.Mal aplicada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1.9.Fisuras por temperatura</masterLabel>
+            <translation><!-- G1.9.Fisuras por temperatura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H1.1.Descuadradas</masterLabel>
+            <translation><!-- H1.1.Descuadradas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H1.10.Falla en corredizo</masterLabel>
+            <translation><!-- H1.10.Falla en corredizo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H1.11.Falla  riel</masterLabel>
+            <translation><!-- H1.11.Falla  riel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H1.12.Falla en manija / jaladera</masterLabel>
+            <translation><!-- H1.12.Falla en manija / jaladera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H1.13.Daño en mosquitero</masterLabel>
+            <translation><!-- H1.13.Daño en mosquitero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H1.2.Vidrio roto</masterLabel>
+            <translation><!-- H1.2.Vidrio roto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H1.3.Seguros</masterLabel>
+            <translation><!-- H1.3.Seguros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H1.4.Riel golpeado</masterLabel>
+            <translation><!-- H1.4.Riel golpeado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H1.5.Pijas</masterLabel>
+            <translation><!-- H1.5.Pijas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H1.5.Sello</masterLabel>
+            <translation><!-- H1.5.Sello --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H1.7.Aluminio golpeado</masterLabel>
+            <translation><!-- H1.7.Aluminio golpeado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I1.1. Faltante</masterLabel>
+            <translation><!-- I1.1. Faltante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I1.11.Marco desplomado</masterLabel>
+            <translation><!-- I1.11.Marco desplomado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I1.2. Mal funcionamiento</masterLabel>
+            <translation><!-- I1.2. Mal funcionamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I1.3. Golpeada (o)</masterLabel>
+            <translation><!-- I1.3. Golpeada (o) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I1.4. Descuadrada (o)</masterLabel>
+            <translation><!-- I1.4. Descuadrada (o) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I1.5. Diferente Color</masterLabel>
+            <translation><!-- I1.5. Diferente Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I1.6. Pijas</masterLabel>
+            <translation><!-- I1.6. Pijas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I1.7. Sello</masterLabel>
+            <translation><!-- I1.7. Sello --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I1.8.Daño en puertas - acabado</masterLabel>
+            <translation><!-- I1.8.Daño en puertas - acabado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J1.1.Faltante</masterLabel>
+            <translation><!-- J1.1.Faltante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J1.2.Encharcamiento</masterLabel>
+            <translation><!-- J1.2.Encharcamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J1.3.Mal acabado</masterLabel>
+            <translation><!-- J1.3.Mal acabado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J1.4. Fisura en losa</masterLabel>
+            <translation><!-- J1.4. Fisura en losa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J1.5. Impermeabilizante Dañado</masterLabel>
+            <translation><!-- J1.5. Impermeabilizante Dañado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J1.6. Fisura en impermeabilización</masterLabel>
+            <translation><!-- J1.6. Fisura en impermeabilización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K1.1.Golpeado</masterLabel>
+            <translation><!-- K1.1.Golpeado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K1.2.Faltante</masterLabel>
+            <translation><!-- K1.2.Faltante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K1.3.Quebrado</masterLabel>
+            <translation><!-- K1.3.Quebrado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L1.1.Humedad losa - plafon</masterLabel>
+            <translation><!-- L1.1.Humedad losa - plafon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L1.10 Inexistencia de pendientes para desague</masterLabel>
+            <translation><!-- L1.10 Inexistencia de pendientes para desague --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L1.2.Humedad muro</masterLabel>
+            <translation><!-- L1.2.Humedad muro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L1.3.Humedad volado</masterLabel>
+            <translation><!-- L1.3.Humedad volado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L1.5.Desprendimiento de membrana - malla</masterLabel>
+            <translation><!-- L1.5.Desprendimiento de membrana - malla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L1.6.Desprendimiento de prefabricado - chovatec</masterLabel>
+            <translation><!-- L1.6.Desprendimiento de prefabricado - chovatec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L1.7.Desgaste de acrilico - Impermeabilizacion</masterLabel>
+            <translation><!-- L1.7.Desgaste de acrilico - Impermeabilizacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L1.8.Falta de colocacion de colocacion de sello en salidas</masterLabel>
+            <translation><!-- L1.8.Falta de colocacion de colocacion de sello en salidas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L1.9.Inexistencia de traslapes</masterLabel>
+            <translation><!-- L1.9.Inexistencia de traslapes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M1.1.Golpeado</masterLabel>
+            <translation><!-- M1.1.Golpeado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M1.2.Faltante</masterLabel>
+            <translation><!-- M1.2.Faltante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M1.3.Quebrado</masterLabel>
+            <translation><!-- M1.3.Quebrado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M1.4.Falta pintura</masterLabel>
+            <translation><!-- M1.4.Falta pintura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M1.5.Diferente color</masterLabel>
+            <translation><!-- M1.5.Diferente color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M1.6.Mal acabado</masterLabel>
+            <translation><!-- M1.6.Mal acabado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M1.7.Descuadradas</masterLabel>
+            <translation><!-- M1.7.Descuadradas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M1.8.Mal funcionamiento</masterLabel>
+            <translation><!-- M1.8.Mal funcionamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N1.1.Golpeado</masterLabel>
+            <translation><!-- N1.1.Golpeado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N1.2.Faltante</masterLabel>
+            <translation><!-- N1.2.Faltante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N1.3.Quebrado</masterLabel>
+            <translation><!-- N1.3.Quebrado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N1.4.Falta pintura</masterLabel>
+            <translation><!-- N1.4.Falta pintura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N1.5.Diferente color</masterLabel>
+            <translation><!-- N1.5.Diferente color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N1.6.Mal acabado</masterLabel>
+            <translation><!-- N1.6.Mal acabado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N1.7.Descuadradas / Desplomado</masterLabel>
+            <translation><!-- N1.7.Descuadradas / Desplomado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N1.8.Mal funcionamiento</masterLabel>
+            <translation><!-- N1.8.Mal funcionamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.1.- No funciona</masterLabel>
+            <translation><!-- O.1.1.- No funciona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.2.- No recolecion</masterLabel>
+            <translation><!-- O.1.2.- No recolecion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.3.- Robo cable - accesorio</masterLabel>
+            <translation><!-- O.1.3.- Robo cable - accesorio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.4.- Comision de agua</masterLabel>
+            <translation><!-- O.1.4.- Comision de agua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.4.- Escombro clientes / vecinos</masterLabel>
+            <translation><!-- O.1.4.- Escombro clientes / vecinos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.4.- Escombro construccion</masterLabel>
+            <translation><!-- O.1.4.- Escombro construccion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.4.- Escombro servicios publicos</masterLabel>
+            <translation><!-- O.1.4.- Escombro servicios publicos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.4.- Falla en sistema de riego</masterLabel>
+            <translation><!-- O.1.4.- Falla en sistema de riego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.4.- Falla interna de agua</masterLabel>
+            <translation><!-- O.1.4.- Falla interna de agua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.4.- Mal servicio</masterLabel>
+            <translation><!-- O.1.4.- Mal servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.4.- Mantenimiento</masterLabel>
+            <translation><!-- O.1.4.- Mantenimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.4.- Perros callejeros</masterLabel>
+            <translation><!-- O.1.4.- Perros callejeros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.4.- Plagas</masterLabel>
+            <translation><!-- O.1.4.- Plagas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O.1.4.- Robo de fijos</masterLabel>
+            <translation><!-- O.1.4.- Robo de fijos --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

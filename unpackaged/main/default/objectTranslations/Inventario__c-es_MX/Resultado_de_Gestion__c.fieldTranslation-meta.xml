@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Resultado de Gestion --></label>
+        <name>Resultado_de_Gestion__c</name>
+        <picklistValues>
+            <masterLabel>Aclaración</masterLabel>
+            <translation><!-- Aclaración --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Al Corriente</masterLabel>
+            <translation><!-- Al Corriente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asesor Comercial</masterLabel>
+            <translation><!-- Asesor Comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contingencia COVID19</masterLabel>
+            <translation><!-- Contingencia COVID19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Datos de Contacto Invalido</masterLabel>
+            <translation><!-- Datos de Contacto Invalido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garantías/Desperfectos</masterLabel>
+            <translation><!-- Garantías/Desperfectos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negativa</masterLabel>
+            <translation><!-- Negativa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promesa</masterLabel>
+            <translation><!-- Promesa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin Resultado</masterLabel>
+            <translation><!-- Sin Resultado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teléfono a Buzón</masterLabel>
+            <translation><!-- Teléfono a Buzón --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

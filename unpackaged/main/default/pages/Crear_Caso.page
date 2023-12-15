@@ -1,0 +1,44 @@
+<apex:page standardController="Casos_Residente__c" extensions="CrearCasoController">
+    <apex:sectionHeader title="Caso"/>
+    <apex:pageMessages ></apex:pageMessages>
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockSection collapsible="false" title="Información de Garantía" columns="2">
+                <apex:inputField value="{!caso.Cuenta__c}"/>
+                <apex:inputField rendered="true" value="{!caso.RecordTypeId}"/>
+                <apex:inputField value="{!caso.Status__c}"/>
+                <apex:inputField required="true" value="{!caso.Tipo__c}"/>
+                <apex:inputField value="{!caso.Priority__c}"/>
+                <apex:inputField required="true" value="{!caso.Clasificacion__c}"/>
+                <apex:inputField value="{!caso.Origin__c}"/>
+                <apex:inputField required="true" value="{!caso.Zona__c}"/>
+                <apex:inputField value="{!caso.Subject__c}"/>
+                <apex:inputField value="{!caso.Catalagodefalla__c}"/>
+                <apex:inputField value="{!caso.Description__c}"/>
+                <apex:inputField value="{!caso.Origendegarantia__c}"/>
+                <apex:inputField value="{!caso.Vivienda__c}"/>
+                <apex:inputField value="{!caso.NumeroGarantiaMasComercial__c}"/>
+
+                <apex:inputField required="true" value="{!caso.Detalledelreporte__c}" style="height: 100px; width: 200%;"/>
+                <div>
+                </div>
+                <apex:outputField value="{!entrega.FechaEntrega__c}"/>
+                <apex:outputField value="{!caso.OwnerID}"/>      
+            </apex:pageBlockSection>
+            <apex:pageBlockSection collapsible="false" title="Valoración" columns="2">
+                <apex:inputField value="{!caso.Atendidopor__c}"/>
+                <apex:inputField value="{!caso.Clasificaciondegarantia__c}"/>
+                <apex:inputField value="{!caso.Procede__c}"/>
+                <apex:inputField value="{!caso.Motivodenoatencion__c}"/>
+                <apex:inputField value="{!caso.Comentarios__c}"/>
+                <apex:inputField value="{!caso.Viviendahabitada__c}"/>
+                <apex:inputField value="{!caso.Correoelectronicoalterno__c}"/>
+                <apex:inputField value="{!caso.Garantiavencida__c}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons rendered="{!showButtons}"> 
+                <apex:commandButton action="{!guardar}" value="Guardar"/>   
+                <apex:commandButton action="{!Cancel}" value="Cancelar"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

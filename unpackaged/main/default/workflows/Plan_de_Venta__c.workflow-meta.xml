@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>ADEJ_Check_True</fullName>
+        <field>Chk_Aprob_Decuento_Empleado_JAVER__c</field>
+        <literalValue>1</literalValue>
+        <name>ADEJ - Check True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>AEEMPL_Aprobacion</fullName>
+        <field>Chk_Aprob_Excepcion_Desc_Empleado_JAVER__c</field>
+        <literalValue>1</literalValue>
+        <name>AEEMPL - Aprobacion</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>AEPV_CHEK_TRUE</fullName>
+        <field>Chk_Aprob_Excepcion_Bonif_Plan_Venta__c</field>
+        <literalValue>1</literalValue>
+        <name>AEPV CHEK TRUE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>APPDUP_Aprobado</fullName>
+        <field>Chk_Aprob_Paq_Promo_Venta_Duplicadas__c</field>
+        <literalValue>1</literalValue>
+        <name>APPDUP Aprobado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>APROBACION_PBMPMV</fullName>
+        <field>Chk_Aprob_Prod_Bonif_Menor_P_Min_Venta__c</field>
+        <literalValue>1</literalValue>
+        <name>APROBACION PBMPMV</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>AREUBICA_Aprobacion</fullName>
+        <field>Chk_Aprob_Reubiciacion__c</field>
+        <literalValue>1</literalValue>
+        <name>AREUBICA Aprobación</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>AVOMPMV_Aprobado</fullName>
+        <field>Chk_Aprob_VO_menor_P_Min_Venta__c</field>
+        <literalValue>1</literalValue>
+        <name>AVOMPMV Aprobado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>A_1REGMKT_Aprobacion</fullName>
+        <field>Chk_Aprob_1_Regalos_MKT__c</field>
+        <literalValue>1</literalValue>
+        <name>A+1REGMKT Aprobación</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_En_Aprobacion_Plan_Venta_False</fullName>
+        <field>En_aprobacion__c</field>
+        <literalValue>0</literalValue>
+        <name>Actualiza_En_Aprobacion_Plan_Venta_False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_En_Aprobacion_Plan_Venta_True</fullName>
+        <field>En_aprobacion__c</field>
+        <literalValue>1</literalValue>
+        <name>Actualiza_En_Aprobacion_Plan_Venta_True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Aprobacion_Excepcion_Fondo_Garantia</fullName>
+        <field>Chk_Aprob_Excepcion_Fondo_Garntia__c</field>
+        <literalValue>1</literalValue>
+        <name>Aprobacion Excepcion Fondo Garantia</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Aprobacion_Financiamiento_Enganche</fullName>
+        <field>Chk_Aprob_Financiamiento_Enganche__c</field>
+        <literalValue>1</literalValue>
+        <name>Aprobación Financiamiento Enganche</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Aprobacion_Fondo_de_Garantia</fullName>
+        <field>Chk_Aprob_Fondo_Garantia__c</field>
+        <literalValue>1</literalValue>
+        <name>Aprobacion Fondo de Garantia</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Aprueba_Fondo_de_Garantia</fullName>
+        <field>Exepcion_Fondo_de_Garantia_Aprobado__c</field>
+        <literalValue>1</literalValue>
+        <name>Aprueba Fondo de Garantia</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Debug</fullName>
+        <field>Debug__c</field>
+        <formula>&quot;Si Entro a Bonificacion&quot;</formula>
+        <name>Debug</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Estatus_PdV_Rechazado</fullName>
+        <field>Estatus_Plan_de_venta__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>Estatus PdV Rechazado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Limpia_Check_Descuento_Empleado</fullName>
+        <field>Casilla_Descuento_Empleado_Javer__c</field>
+        <literalValue>0</literalValue>
+        <name>Limpia Check Descuento Empleado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Plan_de_Venta_Aprobado</fullName>
+        <field>Estatus_Plan_de_venta__c</field>
+        <literalValue>Aprobado</literalValue>
+        <name>Plan de Venta Aprobado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Plan_de_Venta_En_Progreso</fullName>
+        <field>Estatus_Plan_de_venta__c</field>
+        <literalValue>En Progreso</literalValue>
+        <name>Plan de Venta En Progreso</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Plan_de_Venta_Por_Aprobar</fullName>
+        <field>Estatus_Plan_de_venta__c</field>
+        <literalValue>Por Aprobar</literalValue>
+        <name>Plan de Venta Por Aprobar</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Plan_de_Venta_Rechazado</fullName>
+        <field>Estatus_Plan_de_venta__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>Plan de Venta Rechazado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rechazado</fullName>
+        <field>Estatus_Plan_de_venta__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>Rechazado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Reset_En_Aprobaci_n</fullName>
+        <field>En_aprobacion__c</field>
+        <literalValue>0</literalValue>
+        <name>Reset En Aprobación</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Step_1</fullName>
+        <field>Estatus_Plan_de_venta__c</field>
+        <literalValue>Aprobado</literalValue>
+        <name>Step 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>X1a_Ejecucion</fullName>
+        <field>Se_Ejecuto_la_1a_Aprobacion__c</field>
+        <literalValue>1</literalValue>
+        <name>1a Ejecución</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

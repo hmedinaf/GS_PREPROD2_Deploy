@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JMC_TipoSolicitudFovissste__c</fullName>
+    <description>Indica la forma en que solicitan el crédito</description>
+    <externalId>false</externalId>
+    <label>Tipo solicitud FOVISSSTE</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>Mancomunado</fullName>
+                <default>false</default>
+                <label>Mancomunado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

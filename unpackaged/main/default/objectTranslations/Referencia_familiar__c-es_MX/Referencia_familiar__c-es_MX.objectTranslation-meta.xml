@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Referencia Familiar</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Referencias Familiares</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Relación familiar</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo apellido materno si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_modificacion_apellido_materno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo apellido paterno si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_modificacion_apellido_paterno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo correo eletrónico 1 si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_modificacion_correo_electrenico_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo correo eletrónico 2 si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_modificacion_correo_electrenico_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo correo eletrónico 3 si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_modificacion_correo_electrenico_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo teléfono 1 si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_modificacion_telefono_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo teléfono 2 si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_modificacion_telefono_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo teléfono 3 si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_modificacion_telefono_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo nombre si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_notificacion_nombre</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Validacion_telefono_dos_solo_numeros</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Validacion_telefono_tres_solo_numeros</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Validacion_telefono_uno_solo_numeros</name>
+    </validationRules>
+</CustomObjectTranslation>

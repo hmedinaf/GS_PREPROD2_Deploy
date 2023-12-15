@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escritura_tercero_conoce_a_la_persona</fullName>
+    <active>true</active>
+    <description>Si escritura a favor de un tercero es igual a SI debe llenarse el campo ¿Conoce a la persona?.</description>
+    <errorConditionFormula>AND
+(
+Escritura_a_favor_de_un_Tercero__c == &quot;SI&quot;,
+OR(
+ISNULL(TEXT(Conoce_a_la_persona__c)),
+ISBLANK(TEXT(Conoce_a_la_persona__c))
+)
+)</errorConditionFormula>
+    <errorDisplayField>Conoce_a_la_persona__c</errorDisplayField>
+    <errorMessage>El campo escritura a favor de un tercero = SI por lo que el campo ¿Conoce a la persona? debe llenarse.</errorMessage>
+</ValidationRule>

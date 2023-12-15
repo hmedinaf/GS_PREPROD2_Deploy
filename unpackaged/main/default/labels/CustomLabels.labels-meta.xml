@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Assessor</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Asesor</shortDescription>
+        <value>Asesor</value>
+    </labels>
+    <labels>
+        <fullName>Collaborator</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Colaborador</shortDescription>
+        <value>Colaborador</value>
+    </labels>
+    <labels>
+        <fullName>Endpoint_ManageProspecto</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Endpoint_ManageProspecto</shortDescription>
+        <value>https://qesb.javer.com.mx:11962/services/ManageProspecto/soap11</value>
+    </labels>
+    <labels>
+        <fullName>JAVER_GENERICO_User</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JAVER_GENERICO_User</shortDescription>
+        <value>00523000004om8ZAAQ</value>
+    </labels>
+    <labels>
+        <fullName>JaverAccount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account used for System Admin</shortDescription>
+        <value>0012300000lK52qAAC</value>
+    </labels>
+    <labels>
+        <fullName>Logout</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LogoutUrl</shortDescription>
+        <value>https://javer--preprod.sandbox.my.site.com/</value>
+    </labels>
+    <labels>
+        <fullName>Media_Endpoint</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Media Endpoint</shortDescription>
+        <value>https://graph.facebook.com/v16.0</value>
+    </labels>
+    <labels>
+        <fullName>PROVEEDOR_JAVER</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PROVEEDOR JAVER</shortDescription>
+        <value>PROVEEDOR JAVER</value>
+    </labels>
+    <labels>
+        <fullName>Privacy_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Privacy Message</shortDescription>
+        <value>Javer Corporate Services, SAB de CV.(&quot;Javer&quot;), with address at  Date  #301, between Hidalgo and Corregidora, Colonia, Centro, San Pedro Garza Garcia, N.L CP 66230, is responsible for the use, treatment and protection of personal data received from you or those to which you have access for any madio to provide you with some service give us data They may be used for marketing purposes and/or any other purpose set forth in the comprehensive privacy notice available for consultation at www.over.com me; Similarly, these darta may be transferred and subsidiaries of Tomognuto, to tarcans in which their operation was stopped and to those housing managers who will offer you their services.</value>
+    </labels>
+    <labels>
+        <fullName>Prospect_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Prospect_Message</shortDescription>
+        <value>Javer Corporate Services, SAB de CV.(&quot;Javer&quot;), with address at Date #301, between Hidalgo and Corregidora, Colonia, Centro, San Pedro Garza Garcia, N.L CP 66230, is responsible for the use, treatment and protection of personal data received from you or those to which you have access for any madio to provide you with some service give us data They may be used for marketing purposes and/or any other purpose set forth in the comprehensive privacy notice available for consultation at www.over.com me; Similarly, these darta may be transferred and subsidiaries of Tomognuto, to tarcans in which their operation was stopped and to those housing managers who will offer you their services.</value>
+    </labels>
+    <labels>
+        <fullName>Prospectator</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Prospectador</shortDescription>
+        <value>Prospectador</value>
+    </labels>
+    <labels>
+        <fullName>QEQ_Endpoint</fullName>
+        <language>es_MX</language>
+        <protected>false</protected>
+        <shortDescription>Endpoint servicio Lista negra Quien es Quién</shortDescription>
+        <value>https://qesb.javer.com.mx:11962/services/SalesForce/ListaNegraQEQSalesforce/rest</value>
+    </labels>
+    <labels>
+        <fullName>Support_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Support Email</shortDescription>
+        <value>gponce@javer.com.mx</value>
+    </labels>
+    <labels>
+        <fullName>UsuarioGenerico</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UsuarioGenerico</shortDescription>
+        <value>00523000004om8ZAAQ</value>
+    </labels>
+    <labels>
+        <fullName>WhatsappToken</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WhatsappToken</shortDescription>
+        <value>EAAMHNgZBrS64BOx5MvgBogFpmpgsaLToCTqXuPO099XWP8hg0ZBdW8KcKjjQ2c8gRBzfFZAc4dvZC8cZAqXukuRfOkX084VsQfcTIEk6AV1F2bTSFoZCUrkXON4S30Dhp3l0vZBTWQYRrWT8cvCo0WtK3CDfKSOcht8kZAIpPIPiiZB8r8odzn9exs2FScVZCBiDwX9ZB9qPGJiu3SzwxEZD</value>
+    </labels>
+    <labels>
+        <fullName>Whatsapp_Endpoint</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Whatsapp Endpoint</shortDescription>
+        <value>https://graph.facebook.com/v16.0/112424535188889/messages</value>
+    </labels>
+    <labels>
+        <fullName>Whatsapp_Template</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Whatsapp Template</shortDescription>
+        <value>welcome</value>
+    </labels>
+</CustomLabels>

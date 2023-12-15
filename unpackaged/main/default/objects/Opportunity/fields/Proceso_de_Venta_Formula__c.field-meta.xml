@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proceso_de_Venta_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;/lightning/r/Opportunity/&quot; &amp; Id &amp;&quot;/view&quot;, 
+										Numero_Proceso_de_Venta__c &amp; &quot; - &quot; &amp; 
+										Fraccionamiento__r.Name &amp; &quot; - &quot; &amp;
+										 Prototipo__r.Nombre_Prototipo__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Proceso de Venta</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

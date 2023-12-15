@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edicion_FHabitabilidad</fullName>
+    <active>true</active>
+    <description>No permite la edición de la fecha de habitabilidad sí estatus = entregado</description>
+    <errorConditionFormula>AND(
+$User.FirstName != &#39;ADMIN&#39;,
+NOT(ISBLANK( FechadeHabitabilidad__c )),
+ISCHANGED( FechadeHabitabilidad__c ),
+ISPICKVAL( Entregada__c , &quot;Entregado&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>FechadeHabitabilidad__c</errorDisplayField>
+    <errorMessage>La fecha de habitabilidad no puede ser modificada si la vivienda ya ha sido entregada.</errorMessage>
+</ValidationRule>

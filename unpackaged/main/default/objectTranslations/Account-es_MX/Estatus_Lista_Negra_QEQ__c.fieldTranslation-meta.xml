@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estatus Lista Negra --></label>
+        <name>Estatus_Lista_Negra_QEQ__c</name>
+        <picklistValues>
+            <masterLabel>LISTA NEGRA</masterLabel>
+            <translation><!-- LISTA NEGRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LN CONFIRMADO</masterLabel>
+            <translation><!-- LN CONFIRMADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PPE</masterLabel>
+            <translation><!-- PPE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIN VALIDAR</masterLabel>
+            <translation><!-- SIN VALIDAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALIDADO</masterLabel>
+            <translation><!-- VALIDADO --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo de Pago --></label>
+        <name>Tipo_de_Pago__c</name>
+        <picklistValues>
+            <masterLabel>BANCOS BANORTE</masterLabel>
+            <translation><!-- BANCOS BANORTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS FAMSA</masterLabel>
+            <translation><!-- BANCOS FAMSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS SANTANDER</masterLabel>
+            <translation><!-- BANCOS SANTANDER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS VIRTUAL</masterLabel>
+            <translation><!-- BANCOS VIRTUAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHEQUE</masterLabel>
+            <translation><!-- CHEQUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHEQUE SBC</masterLabel>
+            <translation><!-- CHEQUE SBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFECTIVO</masterLabel>
+            <translation><!-- EFECTIVO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOTA CREDITO</masterLabel>
+            <translation><!-- NOTA CREDITO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOVACION</masterLabel>
+            <translation><!-- NOVACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGO CON TARJETA</masterLabel>
+            <translation><!-- PAGO CON TARJETA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAYMENT</masterLabel>
+            <translation><!-- PAYMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TARJETA</masterLabel>
+            <translation><!-- TARJETA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFERENCIA</masterLabel>
+            <translation><!-- TRANSFERENCIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIRTUAL</masterLabel>
+            <translation><!-- VIRTUAL --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

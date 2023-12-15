@@ -1,0 +1,42 @@
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  font-color: white !important;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} 
+.button2 {background-color: red;} 
+</style>
+</head>
+<div style="width:100%;font-family:arial;">
+   <img src="https://javer--preprod.sandbox.my.salesforce.com/servlet/servlet.ImageServer?id=01523000001ZUVX&oid=00D2300000092X5" />
+
+<p style="margin-top:20px;font-size:12pt; ">Se solicita su aprobación para la siguiente lista de precios de Regalos MKT:</p>
+<div style="margin-top:20px;font-size:11pt">
+<p style="margin:0;">Nombre Objeto: {!Aprobacion_Lista_de_Precios__c.Lista_de_precios__c}</p>
+<p style="margin:0;">Solicitante: {!ApprovalRequest.Process_Approver}</p>
+<p style="margin:0;">Prototipo: {!Aprobacion_Lista_de_Precios__c.Prototipo__c}</p>
+<p style="margin:0;">Producto: {!Aprobacion_Lista_de_Precios__c.Producto__c}</p>
+<p style="margin:0;">Precio de Compra: {!Aprobacion_Lista_de_Precios__c.Precio_de_Compra__c}</p>
+<p style="margin:0;">% IVA: {!Aprobacion_Lista_de_Precios__c.IVA__c}</p>
+<p style="margin:0;">Precio Total: {!Aprobacion_Lista_de_Precios__c.Precio_Total__c}</p>
+<p style="margin:0;">Precio de Venta: {!Aprobacion_Lista_de_Precios__c.Precio_de_Venta__c}</p>
+<p style="font-size:12pt">Selecciona tu respuesta utilizando los botones:</p>
+<p style="font-size:12pt">  </p>
+
+</div>
+<div style="margin-top:20px;">
+    <a class="button button1" style="color:white;border-radius:5px;" href="https://javer--preprod.sandbox.my.salesforce-sites.com/public/apex/ApproveRequestHandler?id={!Aprobacion_Lista_de_Precios__c.Id}&action=approve">Aprobar</a>
+<a class="button button2" style="color:white;border-radius:5px;" href="https://javer--preprod.sandbox.my.salesforce-sites.com/public/apex/ApproveRequestHandler?id={!Aprobacion_Lista_de_Precios__c.Id}&action=reject">Rechazar</a>
+</div>
+</div>
+</html>

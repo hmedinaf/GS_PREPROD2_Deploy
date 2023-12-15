@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Editar_Pagare</fullName>
+    <active>false</active>
+    <description>No se puede editar el pagaré si el estatus del plan de venta es difernete a En Progreso o Rechazado</description>
+    <errorConditionFormula>IF( (Se_puede_Borrar_o_Editar__c  ||  TEXT(Plan_de_Venta__r.Estatus_Plan_de_venta__c) = &quot;Cancelado&quot;), False,
+	    IF( OR( ISCHANGED(Fecha_de_Pago__c), 
+	            ISCHANGED(Fecha_de_Vencimiento__c ),
+ 	           ISCHANGED(Importe__c ),
+	           	ISCHANGED(Tipo_Documento__c), 
+	           	ISCHANGED(Tipo_Pagare__c ),
+	           	ISCHANGED(Estatus_Pagare__c)
+												), 
+								 True, False
+								)
+				)</errorConditionFormula>
+    <errorMessage>No es posible editar el Pagaré Preventa.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Contastar si es cliente, conyuge y/o algún familiar directo desmepeña un puesto gubernamental como: Jefe de Estado o deGobierno, Líder politico, Funcionario gubernamental, judicial o militar de alta jerarquía, Alto ejecutivo de empresas gubernamentales o funcionario o miembro dimportante de partidos politicos. --></help>
+        <label><!-- Persona Politicamente Expuesta --></label>
+        <name>Persona_Politicamente_Expuesta__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

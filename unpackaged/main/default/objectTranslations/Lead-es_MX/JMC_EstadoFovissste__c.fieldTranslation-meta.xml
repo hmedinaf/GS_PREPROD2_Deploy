@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estado (plaza) FOVISSSTE --></label>
+        <name>JMC_EstadoFovissste__c</name>
+        <picklistValues>
+            <masterLabel>Aguascalientes</masterLabel>
+            <translation><!-- Aguascalientes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estado de México</masterLabel>
+            <translation><!-- Estado de México --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jalisco</masterLabel>
+            <translation><!-- Jalisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevo León</masterLabel>
+            <translation><!-- Nuevo León --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro</masterLabel>
+            <translation><!-- Otro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Querétaro</masterLabel>
+            <translation><!-- Querétaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quintana Roo</masterLabel>
+            <translation><!-- Quintana Roo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tamaulipas</masterLabel>
+            <translation><!-- Tamaulipas --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

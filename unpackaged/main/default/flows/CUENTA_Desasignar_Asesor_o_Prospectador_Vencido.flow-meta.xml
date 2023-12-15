@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <name>Variable_Error</name>
+        <label>Variable Error</label>
+        <locationX>314</locationX>
+        <locationY>492</locationY>
+        <assignmentItems>
+            <assignToReference>varError</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>No se pudo actualizar el registro</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Variable_Error2</name>
+        <label>Variable Error2</label>
+        <locationX>1106</locationX>
+        <locationY>492</locationY>
+        <assignmentItems>
+            <assignToReference>varError</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>No se pudo actualizar el registro</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <constants>
+        <name>cFechaVacia</name>
+        <dataType>Date</dataType>
+    </constants>
+    <decisions>
+        <name>Fecha_ColaboradorQM</name>
+        <label>Fecha Colaborador?</label>
+        <locationX>1766</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Fecha_Colaborador</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Fecha_Vencimiento_Colaborador_Javer__c</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <elementReference>$Flow.CurrentDate</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Desasignar_Colaborador</targetReference>
+            </connector>
+            <label>Fecha Vencimiento&gt;Hoy?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Fecha_Prospectador_Vigente</name>
+        <label>Fecha Prospectador Vigente</label>
+        <locationX>1106</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Fecha_Vigente_Prospectador</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Fecha_Vencimiento_Prospectador__c</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <elementReference>$Flow.CurrentDate</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Desasignar_Prospectador</targetReference>
+            </connector>
+            <label>Fecha Vigente?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Fecha_Vigente</name>
+        <label>Fecha Vigente</label>
+        <locationX>314</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Fecha_Vencida</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Fecha_Vencimiento_Asesor__c</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <elementReference>$Flow.CurrentDate</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Desasignar_Asesor</targetReference>
+            </connector>
+            <label>Fecha Vencida?</label>
+        </rules>
+    </decisions>
+    <description>Valida fechas, si la fecha esta vencida del Asesor o Prospectador, los marca como &quot;SIN ASIGNAR&quot;</description>
+    <environments>Default</environments>
+    <interviewLabel>CUENTA-Desasignar Asesor o Prospectador Vencido {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CUENTA-Desasignar Asesor o Prospectador Vencido</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Desasignar_Asesor</name>
+        <label>Desasignar Asesor</label>
+        <locationX>50</locationX>
+        <locationY>384</locationY>
+        <faultConnector>
+            <targetReference>Variable_Error</targetReference>
+        </faultConnector>
+        <inputAssignments>
+            <field>Asesor__c</field>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Estatus_Asesor__c</field>
+            <value>
+                <stringValue>POR ASIGNAR</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Estatus_Cliente__c</field>
+            <value>
+                <stringValue>POR ASIGNAR</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Fecha_Asignacion_Asesor__c</field>
+            <value>
+                <elementReference>cFechaVacia</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ValidationBypassDateTime__c</field>
+            <value>
+                <elementReference>$System.OriginDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Desasignar_Colaborador</name>
+        <label>Desasignar Colaborador</label>
+        <locationX>1634</locationX>
+        <locationY>384</locationY>
+        <inputAssignments>
+            <field>Colaborador_Javer__c</field>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Estatus_Colaborador_Javer__c</field>
+            <value>
+                <stringValue>POR ASIGNAR</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Fecha_Colaborador_Javer__c</field>
+            <value>
+                <elementReference>cFechaVacia</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ValidationBypassDateTime__c</field>
+            <value>
+                <elementReference>$System.OriginDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Desasignar_Prospectador</name>
+        <label>Desasignar Prospectador</label>
+        <locationX>842</locationX>
+        <locationY>384</locationY>
+        <faultConnector>
+            <targetReference>Variable_Error2</targetReference>
+        </faultConnector>
+        <inputAssignments>
+            <field>Estatus_Prospectador__c</field>
+            <value>
+                <stringValue>POR ASIGNAR</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Fecha_de_Prospeccion__c</field>
+            <value>
+                <elementReference>cFechaVacia</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Prospectador__c</field>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ValidationBypassDateTime__c</field>
+            <value>
+                <elementReference>$System.OriginDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>518</locationX>
+        <locationY>0</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>MANAGEAPPROVALS__Active__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Yes</stringValue>
+            </value>
+        </filters>
+        <object>Account</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <pathType>AsyncAfterCommit</pathType>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>Revisar_Fecha_Status_Asesor</name>
+            <connector>
+                <targetReference>Fecha_Vigente</targetReference>
+            </connector>
+            <label>Revisar Fecha Status Asesor</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <recordField>Fecha_Estatus_Asesor__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>Revisar_Fecha_Status_Prospectador</name>
+            <connector>
+                <targetReference>Fecha_Prospectador_Vigente</targetReference>
+            </connector>
+            <label>Revisar Fecha Status Prospectador</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <recordField>Fecha_Estatus_Prospectador__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>Revisar_Fecha_Colaborador</name>
+            <connector>
+                <targetReference>Fecha_ColaboradorQM</targetReference>
+            </connector>
+            <label>Revisar Fecha Colaborador</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <recordField>Fecha_Estatus_Colaborador_Javer__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+    <variables>
+        <name>varError</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancelaciones_Layout</fullName>
+    <fields>Name</fields>
+    <fields>CPPTS_Cuenta__c</fields>
+    <fields>Tipo_de_Cancelaci_n__c</fields>
+    <fields>CPPTS_Estatus_Proceso_de_Venta__c</fields>
+    <fields>CPPTS_Fecha_Cancelacion__c</fields>
+    <label>Cancelaciones Layout</label>
+</CompactLayout>

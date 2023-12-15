@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Nombre Filtro --></label>
+        <name>Nombre_Filtro__c</name>
+        <picklistValues>
+            <masterLabel>Aguascalientes</masterLabel>
+            <translation><!-- Aguascalientes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distrito Federal</masterLabel>
+            <translation><!-- Distrito Federal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estado de México</masterLabel>
+            <translation><!-- Estado de México --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guanajuato</masterLabel>
+            <translation><!-- Guanajuato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jalisco</masterLabel>
+            <translation><!-- Jalisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevo León</masterLabel>
+            <translation><!-- Nuevo León --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Querétaro</masterLabel>
+            <translation><!-- Querétaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quintana Roo</masterLabel>
+            <translation><!-- Quintana Roo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Luis Potosi</masterLabel>
+            <translation><!-- San Luis Potosi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tamaulipas</masterLabel>
+            <translation><!-- Tamaulipas --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

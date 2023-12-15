@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asesor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Asesor</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR 3</booleanFilter>
+        <errorMessage>El usuario seleccionado no tiene asignado el fraccionamiento elegido.</errorMessage>
+        <filterItems>
+            <field>User.ProfileId</field>
+            <operation>equals</operation>
+            <value>00e23000000anFuAAI</value>
+        </filterItems>
+        <filterItems>
+            <field>User.FraccionamientoAutorizados__c</field>
+            <operation>contains</operation>
+            <valueField>$Source.Nombre_Fraccionamiento__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>User.ProfileId</field>
+            <operation>equals</operation>
+            <value>00e23000000anG0AAI</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Cuentas</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

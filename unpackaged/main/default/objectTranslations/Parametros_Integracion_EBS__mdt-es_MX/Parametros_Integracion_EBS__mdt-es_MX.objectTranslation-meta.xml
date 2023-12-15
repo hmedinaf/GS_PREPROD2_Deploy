@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Parámetros Integración EBS</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Parámetros Integración EBS</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Parámetros Integración EBS Layout</layout>
+        <sections>
+            <label><!-- Clientes --></label>
+            <section>Clientes</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Facturas --></label>
+            <section>Facturas</section>
+        </sections>
+        <sections>
+            <label><!-- Fraccionamientos --></label>
+            <section>Fraccionamientos</section>
+        </sections>
+        <sections>
+            <label><!-- Pagos --></label>
+            <section>Pagos</section>
+        </sections>
+        <sections>
+            <label><!-- Viviendas --></label>
+            <section>Viviendas</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

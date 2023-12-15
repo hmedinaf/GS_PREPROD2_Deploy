@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gerente_de_Recursos_Humanos_Post_Venta</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Director de Recursos Humanos</label>
+    <queue>Director_de_Recursos_Humanos</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

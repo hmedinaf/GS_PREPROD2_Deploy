@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Proceso ATC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ProcesosATC</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Inventario</layout>
+        <sections>
+            <label><!-- Detalle de Cobro --></label>
+            <section>Detalle de Cobro</section>
+        </sections>
+        <sections>
+            <label><!-- Detalle de Entrega --></label>
+            <section>Detalle de Entrega</section>
+        </sections>
+        <sections>
+            <label><!-- Detalle de Financiamiento Post Venta --></label>
+            <section>Detalle de Financiamiento Post Venta</section>
+        </sections>
+        <sections>
+            <label><!-- Detalle de Vivienda --></label>
+            <section>Detalle de Vivienda</section>
+        </sections>
+        <sections>
+            <label><!-- Información MAS Comercial --></label>
+            <section>Información MAS Comercial</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Inventario GCPV</layout>
+        <sections>
+            <label><!-- Detalle de Cobro --></label>
+            <section>Detalle de Cobro</section>
+        </sections>
+        <sections>
+            <label><!-- Detalle de Entrega --></label>
+            <section>Detalle de Entrega</section>
+        </sections>
+        <sections>
+            <label><!-- Detalle de Financiamiento Post Venta --></label>
+            <section>Detalle de Financiamiento Post Venta</section>
+        </sections>
+        <sections>
+            <label><!-- Detalle de Vivienda --></label>
+            <section>Detalle de Vivienda</section>
+        </sections>
+        <sections>
+            <label><!-- Gestión de Cobranza --></label>
+            <section>Gestión de Cobranza</section>
+        </sections>
+        <sections>
+            <label><!-- Información MAS Comercial --></label>
+            <section>Información MAS Comercial</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Proceso ATC</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Acta Especial --></label>
+        <name>Acta_Especial</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>Email_Seguimiento</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- La fecha de actas no puede ser modificada si la vivienda ya ha sido entregada. --></errorMessage>
+        <name>Edicion_FActas</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha de habitabilidad no puede ser modificada si la vivienda ya ha sido entregada. --></errorMessage>
+        <name>Edicion_FHabitabilidad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha de habitabilidad no puede ser mayor a 48 horas a partir de hoy. --></errorMessage>
+        <name>Edicion_FHabitabilidad_Futura</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No es posible modificar el Id Vivienda --></errorMessage>
+        <name>No_modificar_el_IDVivienda</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Actas --></label>
+        <name>Actas</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Carta_de_No_Adeudo --></label>
+        <name>Carta_de_No_Adeudo</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Crear_caso --></label>
+        <name>Crear_caso</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Crear_visita --></label>
+        <name>Crear_visita</name>
+    </webLinks>
+</CustomObjectTranslation>

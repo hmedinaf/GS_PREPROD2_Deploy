@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Asunto --></label>
+        <name>JMC_Asunto__c</name>
+        <picklistValues>
+            <masterLabel>Bolsa de trabajo</masterLabel>
+            <translation><!-- Bolsa de trabajo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CampañaATC</masterLabel>
+            <translation><!-- CampañaATC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entrega de Vivienda</masterLabel>
+            <translation><!-- Entrega de Vivienda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garantía</masterLabel>
+            <translation><!-- Garantía --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Información</masterLabel>
+            <translation><!-- Información --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicio al Cliente</masterLabel>
+            <translation><!-- Servicio al Cliente --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChoicePicklist__c</fullName>
+    <externalId>false</externalId>
+    <label>Caja-ChoicePicklist</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cliente</fullName>
+                <default>false</default>
+                <label>Cliente</label>
+            </value>
+            <value>
+                <fullName>Proceso de Venta</fullName>
+                <default>false</default>
+                <label>Proceso de Venta</label>
+            </value>
+            <value>
+                <fullName>Ubicación</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ubicación</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

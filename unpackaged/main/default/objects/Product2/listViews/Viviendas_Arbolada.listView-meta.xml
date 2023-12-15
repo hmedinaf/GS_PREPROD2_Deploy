@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Viviendas_Arbolada</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>PRODUCT2.RECORD_TYPE</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Activo__c</columns>
+    <columns>PRODUCT2.CREATED_DATE</columns>
+    <columns>PRODUCT2.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>equals</operation>
+        <value>Product2.Vivienda</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.NAME</field>
+        <operation>startsWith</operation>
+        <value>21548F02</value>
+    </filters>
+    <label>Viviendas - Arbolada</label>
+</ListView>

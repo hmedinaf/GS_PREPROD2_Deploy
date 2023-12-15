@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>ALP_PAQ_Actaliza_Estatus_Aprobado</fullName>
+        <field>Estatus_Aprobaci_n__c</field>
+        <literalValue>Aprobado</literalValue>
+        <name>ALP PAQ - Actaliza Estatus Aprobado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ALP_PAQ_Actaliza_Estatus_Rechazado</fullName>
+        <field>Estatus_Aprobaci_n__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>ALP PAQ - Actaliza Estatus Rechazado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ALP_PAQ_Actaliza_Estatus_Stage1</fullName>
+        <field>Estatus_Aprobaci_n__c</field>
+        <literalValue>ALP - Jefe Compras</literalValue>
+        <name>ALP PAQ - Actaliza Estatus Stage1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ALP_PAQ_Actaliza_Estatus_Stage2</fullName>
+        <field>Estatus_Aprobaci_n__c</field>
+        <literalValue>ALP - Gerente Comercial</literalValue>
+        <name>ALP PAQ - Actaliza Estatus Stage2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ALP_PAQ_Actaliza_Estatus_Stage3</fullName>
+        <field>Estatus_Aprobaci_n__c</field>
+        <literalValue>ALP - Gerente Control &amp; Desarrollo</literalValue>
+        <name>ALP PAQ - Actaliza Estatus Stage3</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ALP_PAQ_Actaliza_Estatus_Stage4</fullName>
+        <field>Estatus_Aprobaci_n__c</field>
+        <literalValue>ALP - AEC</literalValue>
+        <name>ALP PAQ - Actaliza Estatus Stage4</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ALP_PAQ_Actaliza_Estatus_Stage5</fullName>
+        <field>Estatus_Aprobaci_n__c</field>
+        <literalValue>ALP - Dirección Comercial</literalValue>
+        <name>ALP PAQ - Actaliza Estatus Stage5</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ALP_PROM_VTA_Actaliza_Estatus_Stage1</fullName>
+        <field>Estatus_Aprobaci_n__c</field>
+        <literalValue>ALP - Gerente Marketing</literalValue>
+        <name>ALP PROM VTA - Actaliza Estatus Stage1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Aprueba_Lista_de_Vivienda</fullName>
+        <field>Estatus_Aprobaci_n__c</field>
+        <literalValue>ALP - Gerente Comercial</literalValue>
+        <name>Aprueba Lista de Vivienda</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PROM_VTA_Actualiza_Status_Stage_1</fullName>
+        <field>Estatus_Aprobaci_n__c</field>
+        <literalValue>ALP - Gerente Marketing</literalValue>
+        <name>PROM VTA - Actualiza Status Stage 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rechaza_Lista_Vivienda</fullName>
+        <field>Estatus_Aprobaci_n__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>Rechaza Lista Vivienda</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

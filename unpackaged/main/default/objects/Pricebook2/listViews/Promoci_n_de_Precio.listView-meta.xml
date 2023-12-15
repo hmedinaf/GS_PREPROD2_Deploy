@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Promoci_n_de_Precio</fullName>
+    <columns>PRICEBOOK2.NAME</columns>
+    <columns>Tipo_de_Producto__c</columns>
+    <columns>Fraccionamiento__c</columns>
+    <columns>Prototipo__c</columns>
+    <columns>Estatus__c</columns>
+    <columns>Vigente_Desde__c</columns>
+    <columns>Vigente_Hasta__c</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>PRICEBOOK2.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Tipo_de_Producto__c</field>
+        <operation>equals</operation>
+        <value>Promoción de Precio</value>
+    </filters>
+    <label>Promoción de Precio</label>
+</ListView>

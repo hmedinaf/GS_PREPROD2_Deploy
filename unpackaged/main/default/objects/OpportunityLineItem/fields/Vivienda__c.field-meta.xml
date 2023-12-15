@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vivienda__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Vivienda</label>
+    <referenceTo>Vivienda__c</referenceTo>
+    <relationshipLabel>Producto de oportunidad</relationshipLabel>
+    <relationshipName>Producto_de_oportunidad</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

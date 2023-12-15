@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>https://sts.windows.net/b0140305-600c-48b6-a8c0-aa435399d9f2/</issuer>
+    <loginUrl>https://login.microsoftonline.com/b0140305-600c-48b6-a8c0-aa435399d9f2/saml2</loginUrl>
+    <name>Javer SSO</name>
+    <oauthTokenEndpoint>https://javer--preprod2.sandbox.my.salesforce.com/services/oauth2/token?so=00DEa000002mMUv</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P123000000p90N</requestSigningCertId>
+    <salesforceLoginUrl>https://javer--preprod2.sandbox.my.salesforce.com?so=00DEa000002mMUv</salesforceLoginUrl>
+    <samlEntityId>https://javer--preprod.sandbox.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>true</useConfigRequestMethod>
+    <useSameDigestAlgoForSigning>true</useSameDigestAlgoForSigning>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIC8DCCAdigAwIBAgIQOv3XlsF4kYxOmgKNJ7SeKDANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMzA1MjQyMzEwMjNaFw0yNjA1MjQyMzEwMjNaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsTq6N3gVkNCIja3DAYYLEDkvD65ZuWWMUN1FyHw0eND1NuzhmSLkXY7tzWL9AaaOdS2xpMuVErW2fImAM2mptHmCYEbNm+LzSgYiOnaNKCCPlp3MCsMfTqx4ZWB1oFNAVEGNxCtpj5cPpCCWBT01nm3QHFuYlDKv/XhWCtpt4qU40sAqV1ntbUlQdz9yfp3g/9+Z3kxPaUI3pVT4GzW5yU6smjJM85CnQ/x8yr+7hBiGHdeRg2fX8tXvOfzu0RliUMDKtD2b+kQA8lBP65Dw+bL/CIniBOMN0DyqYcllfAHVgm1PIHd+gIHTzAJGd4wmKDu7PBAMUgiVQFclt7W3yQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBy2K1wP4BAeE6lDomPRW3d7/p4xG4fBYnpqoHCbF6fJzLULtn1arwSj70Aw+m4N4gSU+fP5KB25IYv07k1y04NiB6U19n/FAWRJbsTg46wMugNEfzRnJghvserCfqwfk5nr9f/1rfmG3Fk0AFmIjak0jcUcKbNp96e951zZ/PsQjHyAoooAJHWneF9b4LUg9stki79OGkKw6bKLN4WDl/5YI0eM1VsYzwUIE+XrXfCBgAHe9DhU7+pxtkELABfXpRIco+rrvYjUarLWoeNDFCqcYq0y2kAgZhmQUKgTdYIlZJoj/SJDSzcXb07CDPhHp9sw6kNPZZs3LAgj9CM/Mpg</validationCert>
+</SamlSsoConfig>

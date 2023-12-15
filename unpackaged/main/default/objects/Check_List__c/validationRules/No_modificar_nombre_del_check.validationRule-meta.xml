@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_modificar_nombre_del_check</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF($Profile.Id &lt;&gt; &quot;00eo0000000vwpl&quot;&amp;&amp; NOT(ISBLANK( Name )), (ISCHANGED(Name)) ,null)</errorConditionFormula>
+    <errorMessage>No puede modificar el Nombre del Checklist.</errorMessage>
+</ValidationRule>

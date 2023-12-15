@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Log_PagaresWS</fullName>
+        <ccEmails>mmartinez@blixtconsulting.com.mx</ccEmails>
+        <ccEmails>mchichitz@javer.com.mx</ccEmails>
+        <ccEmails>jsanchezl@javer.com.mx</ccEmails>
+        <ccEmails>pcantu@javer.com.mx</ccEmails>
+        <description>Log PagaresWS</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>Cobranza/PagaresWSLog</template>
+    </alerts>
+    <alerts>
+        <fullName>Mensaje_de_entregas</fullName>
+        <ccEmails>jbautista@javer.com.mx</ccEmails>
+        <ccEmails>ygonzalez@javer.com.mx</ccEmails>
+        <ccEmails>pcantu@javer.com.mx</ccEmails>
+        <ccEmails>rtellez@javer.com.mx</ccEmails>
+        <description>Mensaje de entregas LOG</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@javer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>ATC/Mensjae</template>
+    </alerts>
+    <rules>
+        <fullName>LogATC</fullName>
+        <actions>
+            <name>Mensaje_de_entregas</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>LogATC__c.Metodo__c</field>
+            <operation>equals</operation>
+            <value>ImportarEntregaWS</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>LogPagaresWS</fullName>
+        <actions>
+            <name>Log_PagaresWS</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>LogATC__c.Metodo__c</field>
+            <operation>equals</operation>
+            <value>GCPV_PagaresWS</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

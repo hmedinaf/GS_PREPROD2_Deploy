@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CanalVenta__c</fullName>
+    <externalId>false</externalId>
+    <label>Canal de Venta1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>AccountSource</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prospección</fullName>
+                <default>true</default>
+                <label>Prospección</label>
+            </value>
+            <value>
+                <fullName>Llamada Call Center</fullName>
+                <default>false</default>
+                <label>Llamada Call Center</label>
+            </value>
+            <value>
+                <fullName>Medio Publicitario</fullName>
+                <default>false</default>
+                <label>Medio Publicitario</label>
+            </value>
+            <value>
+                <fullName>Medios Digitales</fullName>
+                <default>false</default>
+                <label>Medios Digitales</label>
+            </value>
+            <value>
+                <fullName>Programas Institucionales</fullName>
+                <default>false</default>
+                <label>Programas Institucionales</label>
+            </value>
+            <value>
+                <fullName>Referidos</fullName>
+                <default>false</default>
+                <label>Referidos</label>
+            </value>
+            <value>
+                <fullName>Prospecto Asesor</fullName>
+                <default>false</default>
+                <label>Prospecto Asesor</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Afluencia</controllingFieldValue>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <controllingFieldValue>Prospecto Asesor</controllingFieldValue>
+            <controllingFieldValue>Colaborador JAVER</controllingFieldValue>
+            <controllingFieldValue>Contacto Telefónico</controllingFieldValue>
+            <controllingFieldValue>Mercadotecnia</controllingFieldValue>
+            <valueName>Prospección</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Afluencia</controllingFieldValue>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <controllingFieldValue>Prospecto Asesor</controllingFieldValue>
+            <controllingFieldValue>Contacto Telefónico</controllingFieldValue>
+            <controllingFieldValue>Mercadotecnia</controllingFieldValue>
+            <valueName>Medio Publicitario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Afluencia</controllingFieldValue>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <controllingFieldValue>Prospecto Asesor</controllingFieldValue>
+            <controllingFieldValue>Colaborador JAVER</controllingFieldValue>
+            <controllingFieldValue>Contacto Telefónico</controllingFieldValue>
+            <controllingFieldValue>Mercadotecnia</controllingFieldValue>
+            <valueName>Medios Digitales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Afluencia</controllingFieldValue>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <controllingFieldValue>Prospecto Asesor</controllingFieldValue>
+            <controllingFieldValue>Colaborador JAVER</controllingFieldValue>
+            <controllingFieldValue>Mercadotecnia</controllingFieldValue>
+            <valueName>Programas Institucionales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Afluencia</controllingFieldValue>
+            <controllingFieldValue>Contacto Telefónico</controllingFieldValue>
+            <controllingFieldValue>Mercadotecnia</controllingFieldValue>
+            <valueName>Referidos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contacto Telefónico</controllingFieldValue>
+            <valueName>Llamada Call Center</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

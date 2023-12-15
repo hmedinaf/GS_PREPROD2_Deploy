@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bonificacion_Fuera_de_Lista</fullName>
+    <active>true</active>
+    <description>Bonificación Fuera de Lista</description>
+    <label>Bonificacion Fuera de Lista</label>
+</RecordType>

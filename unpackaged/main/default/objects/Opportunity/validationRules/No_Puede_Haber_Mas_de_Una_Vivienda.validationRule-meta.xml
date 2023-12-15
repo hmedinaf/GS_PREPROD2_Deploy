@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Puede_Haber_Mas_de_Una_Vivienda</fullName>
+    <active>true</active>
+    <errorConditionFormula>Tiene_Vivienda__c &gt; 1</errorConditionFormula>
+    <errorMessage>No puede haber más de una vivienda por proceso de venta.</errorMessage>
+</ValidationRule>

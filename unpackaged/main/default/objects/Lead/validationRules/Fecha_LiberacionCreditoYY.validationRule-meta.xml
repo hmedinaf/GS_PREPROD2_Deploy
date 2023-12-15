@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_LiberacionCreditoYY</fullName>
+    <active>true</active>
+    <description>Solicitar como obligatorio el campo fecha liberación de crédito YY cuando se asigne el análisis interno Aumento de crédito.</description>
+    <errorConditionFormula>AND (
+ISPICKVAL(JMC_Analisisinterno__c , &#39;Aumento de crédito&#39;),
+ISBLANK(JMC_FechaLibCredYY__c)
+)</errorConditionFormula>
+    <errorDisplayField>JMC_FechaLibCredYY__c</errorDisplayField>
+    <errorMessage>Obligatorio el campo &#39;Fecha liberación de crédito YY&#39;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_estar_vacio_los_comentarios</fullName>
+    <active>false</active>
+    <description>No cerrar Garantia hasta registrar Comentarios del Caso</description>
+    <errorConditionFormula>IF(RecordType.Name == &quot;Garantías&quot; &amp;&amp; ISPICKVAL( Status__c , &quot;Cerrado&quot;) , ISBLANK(  Comentarios__c  ) , null)</errorConditionFormula>
+    <errorDisplayField>Comentarios__c</errorDisplayField>
+    <errorMessage>Debe capturar los comentarios de la garantia</errorMessage>
+</ValidationRule>

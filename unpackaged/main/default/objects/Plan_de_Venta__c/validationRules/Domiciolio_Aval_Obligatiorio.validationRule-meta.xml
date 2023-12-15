@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domiciolio_Aval_Obligatiorio</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(Domicilio_Aval__c) &amp;&amp;
+(
+   Estatus_Proceso_de_Venta__c = &#39;Entregado&#39; ||
+   Estatus_Proceso_de_Venta__c = &#39;Cancelado&#39; ||
+   Estatus_Proceso_de_Venta__c = &#39;Escriturado&#39;
+)</errorConditionFormula>
+    <errorDisplayField>Domicilio_Aval__c</errorDisplayField>
+    <errorMessage>El domicio Aval solo es editable cuando el proceso de venta se encuentra en:  Reserva, Formalización y Validación.</errorMessage>
+</ValidationRule>

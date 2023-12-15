@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pagaré Preventa</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pagarés Preventa</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Pagaré Preventa</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Eliminar Pagarés2 --></label>
+        <name>Eliminar_Pagares2</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el Fecha de vencimiento si el estatus del Proceso de venta es igual a Formalizado, Exigible, Entregado, Escriturado ó el estatus del Plan de Venta es igual a Por Aprobar, Aprobado. --></errorMessage>
+        <name>Fecha_de_vencimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el Importe si el estatus del Proceso de venta es igual a Formalizado, Validación, Entregado, Escriturado, Cancelado ó el estatus del Plan de Venta es igual a Por Aprobar, Aprobado. --></errorMessage>
+        <name>Importe</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No es posible editar el Pagaré Preventa. --></errorMessage>
+        <name>No_Editar_Pagare</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La Fecha de Vencimiento debe igual ó mayor a la fecha actual. --></errorMessage>
+        <name>Valida_Fecha_Vencimiento</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Eliminar_Pagares --></label>
+        <name>Eliminar_Pagares</name>
+    </webLinks>
+</CustomObjectTranslation>

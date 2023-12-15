@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JMC_FraccionamientoInterno__c</fullName>
+    <externalId>false</externalId>
+    <label>FraccionamientoInterno</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACACIAS</fullName>
+                <default>false</default>
+                <label>ACACIAS</label>
+            </value>
+            <value>
+                <fullName>ALBERI RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>ALBERI RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>ALBORETO RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>ALBORETO RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>ALVENTO</fullName>
+                <default>false</default>
+                <label>ALVENTO</label>
+            </value>
+            <value>
+                <fullName>ARBOLADA</fullName>
+                <default>false</default>
+                <label>ARBOLADA</label>
+            </value>
+            <value>
+                <fullName>ARCOS 7</fullName>
+                <default>false</default>
+                <label>ARCOS 7</label>
+            </value>
+            <value>
+                <fullName>ARCOS DEL SOL</fullName>
+                <default>false</default>
+                <label>ARCOS DEL SOL</label>
+            </value>
+            <value>
+                <fullName>ARCOS DEL SOL SECTOR ELITE</fullName>
+                <default>false</default>
+                <label>ARCOS DEL SOL SECTOR ELITE</label>
+            </value>
+            <value>
+                <fullName>ARRAYANES HABITAT II</fullName>
+                <default>false</default>
+                <label>ARRAYANES HABITAT II</label>
+            </value>
+            <value>
+                <fullName>BARRIO ESTRELLA</fullName>
+                <default>false</default>
+                <label>BARRIO ESTRELLA</label>
+            </value>
+            <value>
+                <fullName>BELCANTO</fullName>
+                <default>false</default>
+                <label>BELCANTO</label>
+            </value>
+            <value>
+                <fullName>BELCANTO II</fullName>
+                <default>false</default>
+                <label>BELCANTO II</label>
+            </value>
+            <value>
+                <fullName>BELLATERRA</fullName>
+                <default>false</default>
+                <label>BELLATERRA</label>
+            </value>
+            <value>
+                <fullName>BELLA VISTA 2º SECTOR FOMERREY</fullName>
+                <default>false</default>
+                <label>BELLA VISTA 2º SECTOR FOMERREY</label>
+            </value>
+            <value>
+                <fullName>BELLA VISTA 3ER SECTOR</fullName>
+                <default>false</default>
+                <label>BELLA VISTA 3ER SECTOR</label>
+            </value>
+            <value>
+                <fullName>BELLO AMANECER RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>BELLO AMANECER RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>BOSQUE BOREAL</fullName>
+                <default>false</default>
+                <label>BOSQUE BOREAL</label>
+            </value>
+            <value>
+                <fullName>BOSQUE DE LOS NOGALES</fullName>
+                <default>false</default>
+                <label>BOSQUE DE LOS NOGALES</label>
+            </value>
+            <value>
+                <fullName>BOSQUE REAL</fullName>
+                <default>false</default>
+                <label>BOSQUE REAL</label>
+            </value>
+            <value>
+                <fullName>BOSQUES DE CASTILLA</fullName>
+                <default>false</default>
+                <label>BOSQUES DE CASTILLA</label>
+            </value>
+            <value>
+                <fullName>BOSQUES DE LERMA</fullName>
+                <default>false</default>
+                <label>BOSQUES DE LERMA</label>
+            </value>
+            <value>
+                <fullName>BOSQUES DEL NEVADO</fullName>
+                <default>false</default>
+                <label>BOSQUES DEL NEVADO</label>
+            </value>
+            <value>
+                <fullName>BOSQUES DE SAN JUAN</fullName>
+                <default>false</default>
+                <label>BOSQUES DE SAN JUAN</label>
+            </value>
+            <value>
+                <fullName>BOSQUES DE SAN JUAN 2</fullName>
+                <default>false</default>
+                <label>BOSQUES DE SAN JUAN 2</label>
+            </value>
+            <value>
+                <fullName>BOSQUES DE SAN JUAN 3</fullName>
+                <default>false</default>
+                <label>BOSQUES DE SAN JUAN 3</label>
+            </value>
+            <value>
+                <fullName>BOSQUES DE SAN JUAN IV</fullName>
+                <default>false</default>
+                <label>BOSQUES DE SAN JUAN IV</label>
+            </value>
+            <value>
+                <fullName>BOSQUES DE SAN JUAN V</fullName>
+                <default>false</default>
+                <label>BOSQUES DE SAN JUAN V</label>
+            </value>
+            <value>
+                <fullName>BOSQUES LA HUASTECA</fullName>
+                <default>false</default>
+                <label>BOSQUES LA HUASTECA</label>
+            </value>
+            <value>
+                <fullName>BULGARIA 533 WELT</fullName>
+                <default>false</default>
+                <label>BULGARIA 533 WELT</label>
+            </value>
+            <value>
+                <fullName>CAMPANARIO</fullName>
+                <default>false</default>
+                <label>CAMPANARIO</label>
+            </value>
+            <value>
+                <fullName>CIMA SERENA</fullName>
+                <default>false</default>
+                <label>CIMA SERENA</label>
+            </value>
+            <value>
+                <fullName>CIMA SERENA II</fullName>
+                <default>false</default>
+                <label>CIMA SERENA II</label>
+            </value>
+            <value>
+                <fullName>CUMBRE ALTA</fullName>
+                <default>false</default>
+                <label>CUMBRE ALTA</label>
+            </value>
+            <value>
+                <fullName>CUMBRES ALLEGRO</fullName>
+                <default>false</default>
+                <label>CUMBRES ALLEGRO</label>
+            </value>
+            <value>
+                <fullName>CUMBRES ALLEGRO DPTOS</fullName>
+                <default>false</default>
+                <label>CUMBRES ALLEGRO DPTOS</label>
+            </value>
+            <value>
+                <fullName>CUMBRES ANDARA</fullName>
+                <default>false</default>
+                <label>CUMBRES ANDARA</label>
+            </value>
+            <value>
+                <fullName>CUMBRES BRITANIA</fullName>
+                <default>false</default>
+                <label>CUMBRES BRITANIA</label>
+            </value>
+            <value>
+                <fullName>CUMBRES PLATINO</fullName>
+                <default>false</default>
+                <label>CUMBRES PLATINO</label>
+            </value>
+            <value>
+                <fullName>EDUARDO LOARCA CASTILLO IV ETAPA</fullName>
+                <default>false</default>
+                <label>EDUARDO LOARCA CASTILLO IV ETAPA</label>
+            </value>
+            <value>
+                <fullName>EL MANANTIAL</fullName>
+                <default>false</default>
+                <label>EL MANANTIAL</label>
+            </value>
+            <value>
+                <fullName>ESTRELLA ELITE</fullName>
+                <default>false</default>
+                <label>ESTRELLA ELITE</label>
+            </value>
+            <value>
+                <fullName>FUENTES DE BALVANERA</fullName>
+                <default>false</default>
+                <label>FUENTES DE BALVANERA</label>
+            </value>
+            <value>
+                <fullName>GENERICO RD</fullName>
+                <default>false</default>
+                <label>GENERICO RD</label>
+            </value>
+            <value>
+                <fullName>HACIENDA DEL BOSQUE</fullName>
+                <default>false</default>
+                <label>HACIENDA DEL BOSQUE</label>
+            </value>
+            <value>
+                <fullName>HACIENDA EL PALMAR</fullName>
+                <default>false</default>
+                <label>HACIENDA EL PALMAR</label>
+            </value>
+            <value>
+                <fullName>HACIENDA MOMPANI</fullName>
+                <default>false</default>
+                <label>HACIENDA MOMPANI</label>
+            </value>
+            <value>
+                <fullName>HACIENDA MONTEBELLO</fullName>
+                <default>false</default>
+                <label>HACIENDA MONTEBELLO</label>
+            </value>
+            <value>
+                <fullName>HIMALAYA</fullName>
+                <default>false</default>
+                <label>HIMALAYA</label>
+            </value>
+            <value>
+                <fullName>JARDINES DE ALEJANDRIA</fullName>
+                <default>false</default>
+                <label>JARDINES DE ALEJANDRIA</label>
+            </value>
+            <value>
+                <fullName>JARDINES DE BUGAMBILIAS</fullName>
+                <default>false</default>
+                <label>JARDINES DE BUGAMBILIAS</label>
+            </value>
+            <value>
+                <fullName>JARDINES DE CASTALIAS</fullName>
+                <default>false</default>
+                <label>JARDINES DE CASTALIAS</label>
+            </value>
+            <value>
+                <fullName>JARDINES DE GIRASOLES</fullName>
+                <default>false</default>
+                <label>JARDINES DE GIRASOLES</label>
+            </value>
+            <value>
+                <fullName>JARDINES DE MAGNOLIAS</fullName>
+                <default>false</default>
+                <label>JARDINES DE MAGNOLIAS</label>
+            </value>
+            <value>
+                <fullName>JARDINES DE MAGNOLIAS II</fullName>
+                <default>false</default>
+                <label>JARDINES DE MAGNOLIAS II</label>
+            </value>
+            <value>
+                <fullName>JOLLAS DE ANAHUAC</fullName>
+                <default>false</default>
+                <label>JOLLAS DE ANAHUAC</label>
+            </value>
+            <value>
+                <fullName>LAS AGUILAS</fullName>
+                <default>false</default>
+                <label>LAS AGUILAS</label>
+            </value>
+            <value>
+                <fullName>LAS HADAS</fullName>
+                <default>false</default>
+                <label>LAS HADAS</label>
+            </value>
+            <value>
+                <fullName>LAS LUCES</fullName>
+                <default>false</default>
+                <label>LAS LUCES</label>
+            </value>
+            <value>
+                <fullName>LAS QUINTAS</fullName>
+                <default>false</default>
+                <label>LAS QUINTAS</label>
+            </value>
+            <value>
+                <fullName>LOMA REAL</fullName>
+                <default>false</default>
+                <label>LOMA REAL</label>
+            </value>
+            <value>
+                <fullName>LOMBARDIA RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>LOMBARDIA RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>LOS ABEDULES</fullName>
+                <default>false</default>
+                <label>LOS ABEDULES</label>
+            </value>
+            <value>
+                <fullName>LOS ALAMOS</fullName>
+                <default>false</default>
+                <label>LOS ALAMOS</label>
+            </value>
+            <value>
+                <fullName>LOS CANTAROS</fullName>
+                <default>false</default>
+                <label>LOS CANTAROS</label>
+            </value>
+            <value>
+                <fullName>LOS CANTAROS MTY</fullName>
+                <default>false</default>
+                <label>LOS CANTAROS MTY</label>
+            </value>
+            <value>
+                <fullName>LOS CARACOLES</fullName>
+                <default>false</default>
+                <label>LOS CARACOLES</label>
+            </value>
+            <value>
+                <fullName>LOS COMETAS</fullName>
+                <default>false</default>
+                <label>LOS COMETAS</label>
+            </value>
+            <value>
+                <fullName>LOS ENCINOS</fullName>
+                <default>false</default>
+                <label>LOS ENCINOS</label>
+            </value>
+            <value>
+                <fullName>LOS MOLINOS</fullName>
+                <default>false</default>
+                <label>LOS MOLINOS</label>
+            </value>
+            <value>
+                <fullName>MAGNOLIAS III</fullName>
+                <default>false</default>
+                <label>MAGNOLIAS III</label>
+            </value>
+            <value>
+                <fullName>MASSARO</fullName>
+                <default>false</default>
+                <label>MASSARO</label>
+            </value>
+            <value>
+                <fullName>MILA RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>MILA RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>MILENIUM RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>MILENIUM RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>MIRAFLORES</fullName>
+                <default>false</default>
+                <label>MIRAFLORES</label>
+            </value>
+            <value>
+                <fullName>MIRASOL RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>MIRASOL RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>MONTE BEISTEGUI</fullName>
+                <default>false</default>
+                <label>MONTE BEISTEGUI</label>
+            </value>
+            <value>
+                <fullName>MURIEL RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>MURIEL RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>NEXXUS CRISTAL</fullName>
+                <default>false</default>
+                <label>NEXXUS CRISTAL</label>
+            </value>
+            <value>
+                <fullName>NEXXUS DIAMANTE</fullName>
+                <default>false</default>
+                <label>NEXXUS DIAMANTE</label>
+            </value>
+            <value>
+                <fullName>NEXXUS PLATINO</fullName>
+                <default>false</default>
+                <label>NEXXUS PLATINO</label>
+            </value>
+            <value>
+                <fullName>PASEO COTO TONALA</fullName>
+                <default>false</default>
+                <label>PASEO COTO TONALA</label>
+            </value>
+            <value>
+                <fullName>PASEO DE GUADALUPE</fullName>
+                <default>false</default>
+                <label>PASEO DE GUADALUPE</label>
+            </value>
+            <value>
+                <fullName>PASEO DE LOS NOGALES</fullName>
+                <default>false</default>
+                <label>PASEO DE LOS NOGALES</label>
+            </value>
+            <value>
+                <fullName>PASEO KUSAMIL</fullName>
+                <default>false</default>
+                <label>PASEO KUSAMIL</label>
+            </value>
+            <value>
+                <fullName>PASEO NIKTE</fullName>
+                <default>false</default>
+                <label>PASEO NIKTE</label>
+            </value>
+            <value>
+                <fullName>PASEO SAN JUNIPERO</fullName>
+                <default>false</default>
+                <label>PASEO SAN JUNIPERO</label>
+            </value>
+            <value>
+                <fullName>PASEOS DEL SUR</fullName>
+                <default>false</default>
+                <label>PASEOS DEL SUR</label>
+            </value>
+            <value>
+                <fullName>PEDREGAL DEL RIO</fullName>
+                <default>false</default>
+                <label>PEDREGAL DEL RIO</label>
+            </value>
+            <value>
+                <fullName>PIRAMIDES</fullName>
+                <default>false</default>
+                <label>PIRAMIDES</label>
+            </value>
+            <value>
+                <fullName>PORTAREAL</fullName>
+                <default>false</default>
+                <label>PORTAREAL</label>
+            </value>
+            <value>
+                <fullName>PORTOALTO</fullName>
+                <default>false</default>
+                <label>PORTOALTO</label>
+            </value>
+            <value>
+                <fullName>PORTO SECTOR FLORENCIA</fullName>
+                <default>false</default>
+                <label>PORTO SECTOR FLORENCIA</label>
+            </value>
+            <value>
+                <fullName>PRIVADA ALTUS</fullName>
+                <default>false</default>
+                <label>PRIVADA ALTUS</label>
+            </value>
+            <value>
+                <fullName>PRIVADA ALTUS II</fullName>
+                <default>false</default>
+                <label>PRIVADA ALTUS II</label>
+            </value>
+            <value>
+                <fullName>PRIVADA CEREZO</fullName>
+                <default>false</default>
+                <label>PRIVADA CEREZO</label>
+            </value>
+            <value>
+                <fullName>PRIVADA LOS PRADOS</fullName>
+                <default>false</default>
+                <label>PRIVADA LOS PRADOS</label>
+            </value>
+            <value>
+                <fullName>PRIVADA MONTEJO</fullName>
+                <default>false</default>
+                <label>PRIVADA MONTEJO</label>
+            </value>
+            <value>
+                <fullName>PRIVADA RIVIERA</fullName>
+                <default>false</default>
+                <label>PRIVADA RIVIERA</label>
+            </value>
+            <value>
+                <fullName>PRIVADA SANTA ANITA</fullName>
+                <default>false</default>
+                <label>PRIVADA SANTA ANITA</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS BORNEO</fullName>
+                <default>false</default>
+                <label>PRIVADAS BORNEO</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS CARANDAY</fullName>
+                <default>false</default>
+                <label>PRIVADAS CARANDAY</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS CUMBRES DIAMANTE</fullName>
+                <default>false</default>
+                <label>PRIVADAS CUMBRES DIAMANTE</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS DE ANAHUAC INGLÉS</fullName>
+                <default>false</default>
+                <label>PRIVADAS DE ANAHUAC INGLÉS</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS DE ANAHUAC SEC. FRANCES</fullName>
+                <default>false</default>
+                <label>PRIVADAS DE ANAHUAC SEC. FRANCES</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS DE ANAHUAC SECTOR IRLANDES</fullName>
+                <default>false</default>
+                <label>PRIVADAS DE ANAHUAC SECTOR IRLANDES</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS DE LA MONTAÑA</fullName>
+                <default>false</default>
+                <label>PRIVADAS DE LA MONTAÑA</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS DEL ANGEL</fullName>
+                <default>false</default>
+                <label>PRIVADAS DEL ANGEL</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS DE LA REYNA</fullName>
+                <default>false</default>
+                <label>PRIVADAS DE LA REYNA</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS DEL CANADA</fullName>
+                <default>false</default>
+                <label>PRIVADAS DEL CANADA</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS DEL CONTRY</fullName>
+                <default>false</default>
+                <label>PRIVADAS DEL CONTRY</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS DE LINCOLN</fullName>
+                <default>false</default>
+                <label>PRIVADAS DE LINCOLN</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS DEL PONIENTE</fullName>
+                <default>false</default>
+                <label>PRIVADAS DEL PONIENTE</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS DE SAN MIGUEL</fullName>
+                <default>false</default>
+                <label>PRIVADAS DE SAN MIGUEL</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS DIAMANTE</fullName>
+                <default>false</default>
+                <label>PRIVADAS DIAMANTE</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS MASÁI</fullName>
+                <default>false</default>
+                <label>PRIVADAS MASÁI</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS OCANIA</fullName>
+                <default>false</default>
+                <label>PRIVADAS OCANIA</label>
+            </value>
+            <value>
+                <fullName>PRIVADA VIA SIETE</fullName>
+                <default>false</default>
+                <label>PRIVADA VIA SIETE</label>
+            </value>
+            <value>
+                <fullName>PRIVALIA AMBIENTA</fullName>
+                <default>false</default>
+                <label>PRIVALIA AMBIENTA</label>
+            </value>
+            <value>
+                <fullName>PRIV CANADA SEC VANCOUVER</fullName>
+                <default>false</default>
+                <label>PRIV CANADA SEC VANCOUVER</label>
+            </value>
+            <value>
+                <fullName>PUNTA CASTILLA</fullName>
+                <default>false</default>
+                <label>PUNTA CASTILLA</label>
+            </value>
+            <value>
+                <fullName>PUNTA ESTRELLA</fullName>
+                <default>false</default>
+                <label>PUNTA ESTRELLA</label>
+            </value>
+            <value>
+                <fullName>QUINTA VERSALLES</fullName>
+                <default>false</default>
+                <label>QUINTA VERSALLES</label>
+            </value>
+            <value>
+                <fullName>REAL DE LA LOMA</fullName>
+                <default>false</default>
+                <label>REAL DE LA LOMA</label>
+            </value>
+            <value>
+                <fullName>REAL DEL SOL</fullName>
+                <default>false</default>
+                <label>REAL DEL SOL</label>
+            </value>
+            <value>
+                <fullName>REAL DEL SOL ADJUDICADO</fullName>
+                <default>false</default>
+                <label>REAL DEL SOL ADJUDICADO</label>
+            </value>
+            <value>
+                <fullName>REAL DE PALMAS</fullName>
+                <default>false</default>
+                <label>REAL DE PALMAS</label>
+            </value>
+            <value>
+                <fullName>RESIDENCIAL APODACA</fullName>
+                <default>false</default>
+                <label>RESIDENCIAL APODACA</label>
+            </value>
+            <value>
+                <fullName>RESIDENCIAL PRIVADA LAS PLAZAS</fullName>
+                <default>false</default>
+                <label>RESIDENCIAL PRIVADA LAS PLAZAS</label>
+            </value>
+            <value>
+                <fullName>RESIDENCIAL VALLE AZUL</fullName>
+                <default>false</default>
+                <label>RESIDENCIAL VALLE AZUL</label>
+            </value>
+            <value>
+                <fullName>RESIDENZA III</fullName>
+                <default>false</default>
+                <label>RESIDENZA III</label>
+            </value>
+            <value>
+                <fullName>RESIDENZA PRIVADAS</fullName>
+                <default>false</default>
+                <label>RESIDENZA PRIVADAS</label>
+            </value>
+            <value>
+                <fullName>RINCONADA DE SAN ANTONIO II</fullName>
+                <default>false</default>
+                <label>RINCONADA DE SAN ANTONIO II</label>
+            </value>
+            <value>
+                <fullName>RINCONADA LAGO DE GUADALUPE</fullName>
+                <default>false</default>
+                <label>RINCONADA LAGO DE GUADALUPE</label>
+            </value>
+            <value>
+                <fullName>RINCONADAS DEL SOL</fullName>
+                <default>false</default>
+                <label>RINCONADAS DEL SOL</label>
+            </value>
+            <value>
+                <fullName>RUISEÑORES</fullName>
+                <default>false</default>
+                <label>RUISEÑORES</label>
+            </value>
+            <value>
+                <fullName>RUISEÑORES 2</fullName>
+                <default>false</default>
+                <label>RUISEÑORES 2</label>
+            </value>
+            <value>
+                <fullName>SANDARA RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>SANDARA RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>SAN MIGUELITO 2º SECTOR</fullName>
+                <default>false</default>
+                <label>SAN MIGUELITO 2º SECTOR</label>
+            </value>
+            <value>
+                <fullName>TORRE LUNA</fullName>
+                <default>false</default>
+                <label>TORRE LUNA</label>
+            </value>
+            <value>
+                <fullName>TREBOLES</fullName>
+                <default>false</default>
+                <label>TREBOLES</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LA SILLA</fullName>
+                <default>false</default>
+                <label>VALLE DE LA SILLA</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LINCOLN</fullName>
+                <default>false</default>
+                <label>VALLE DE LINCOLN</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LINCOLN 4TA ET 2DA Y 3A</fullName>
+                <default>false</default>
+                <label>VALLE DE LINCOLN 4TA ET 2DA Y 3A</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LINCOLN ADJUDICADO</fullName>
+                <default>false</default>
+                <label>VALLE DE LINCOLN ADJUDICADO</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LINCOLN SEC ELITE</fullName>
+                <default>false</default>
+                <label>VALLE DE LINCOLN SEC ELITE</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LINCOLN SEC SAN AGUSTIN</fullName>
+                <default>false</default>
+                <label>VALLE DE LINCOLN SEC SAN AGUSTIN</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LINCOLN SEC SAN JOSE</fullName>
+                <default>false</default>
+                <label>VALLE DE LINCOLN SEC SAN JOSE</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LINCOLN SEC SANTA LUCIA</fullName>
+                <default>false</default>
+                <label>VALLE DE LINCOLN SEC SANTA LUCIA</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LINCOLN SECTOR MINAS</fullName>
+                <default>false</default>
+                <label>VALLE DE LINCOLN SECTOR MINAS</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LINCOLN SECTOR SAN JOSE 2DA ETAPA</fullName>
+                <default>false</default>
+                <label>VALLE DE LINCOLN SECTOR SAN JOSE 2DA ETAPA</label>
+            </value>
+            <value>
+                <fullName>VALLE DEL NORTE</fullName>
+                <default>false</default>
+                <label>VALLE DEL NORTE</label>
+            </value>
+            <value>
+                <fullName>VALLE DEL NORTE ADJUDICADO</fullName>
+                <default>false</default>
+                <label>VALLE DEL NORTE ADJUDICADO</label>
+            </value>
+            <value>
+                <fullName>VALLE DEL NORTE SECTOR JARDIN</fullName>
+                <default>false</default>
+                <label>VALLE DEL NORTE SECTOR JARDIN</label>
+            </value>
+            <value>
+                <fullName>VALLE DEL NORTE SECTOR MONTAÑA</fullName>
+                <default>false</default>
+                <label>VALLE DEL NORTE SECTOR MONTAÑA</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LOS ENCINOS</fullName>
+                <default>false</default>
+                <label>VALLE DE LOS ENCINOS</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LOS ENCINOS II</fullName>
+                <default>false</default>
+                <label>VALLE DE LOS ENCINOS II</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LOS LIRIOS</fullName>
+                <default>false</default>
+                <label>VALLE DE LOS LIRIOS</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LOS MOLINOS</fullName>
+                <default>false</default>
+                <label>VALLE DE LOS MOLINOS</label>
+            </value>
+            <value>
+                <fullName>VALLE DEL ROBLE</fullName>
+                <default>false</default>
+                <label>VALLE DEL ROBLE</label>
+            </value>
+            <value>
+                <fullName>VALLE DEL SOL</fullName>
+                <default>false</default>
+                <label>VALLE DEL SOL</label>
+            </value>
+            <value>
+                <fullName>VALLE DE SAN BLAS</fullName>
+                <default>false</default>
+                <label>VALLE DE SAN BLAS</label>
+            </value>
+            <value>
+                <fullName>VALLE DE SANTA ELENA</fullName>
+                <default>false</default>
+                <label>VALLE DE SANTA ELENA</label>
+            </value>
+            <value>
+                <fullName>VALLE DE SANTA MARIA</fullName>
+                <default>false</default>
+                <label>VALLE DE SANTA MARIA</label>
+            </value>
+            <value>
+                <fullName>VALLE DE SANTA MARIA ADJUDICADO</fullName>
+                <default>false</default>
+                <label>VALLE DE SANTA MARIA ADJUDICADO</label>
+            </value>
+            <value>
+                <fullName>VALLE DE SANTIAGO</fullName>
+                <default>false</default>
+                <label>VALLE DE SANTIAGO</label>
+            </value>
+            <value>
+                <fullName>VALLE DE SANTIAGO III</fullName>
+                <default>false</default>
+                <label>VALLE DE SANTIAGO III</label>
+            </value>
+            <value>
+                <fullName>VALLE DE SANTIAGO SECTOR II</fullName>
+                <default>false</default>
+                <label>VALLE DE SANTIAGO SECTOR II</label>
+            </value>
+            <value>
+                <fullName>VALLE DE TEJEDA II</fullName>
+                <default>false</default>
+                <label>VALLE DE TEJEDA II</label>
+            </value>
+            <value>
+                <fullName>VALLE DE TEJEDA III</fullName>
+                <default>false</default>
+                <label>VALLE DE TEJEDA III</label>
+            </value>
+            <value>
+                <fullName>VALLE DE TONANTZIN</fullName>
+                <default>false</default>
+                <label>VALLE DE TONANTZIN</label>
+            </value>
+            <value>
+                <fullName>VALLE DE TONANTZIN II</fullName>
+                <default>false</default>
+                <label>VALLE DE TONANTZIN II</label>
+            </value>
+            <value>
+                <fullName>VALLE DE TONANTZIN III</fullName>
+                <default>false</default>
+                <label>VALLE DE TONANTZIN III</label>
+            </value>
+            <value>
+                <fullName>VALLE SANTA ISABEL</fullName>
+                <default>false</default>
+                <label>VALLE SANTA ISABEL</label>
+            </value>
+            <value>
+                <fullName>VILLALTA</fullName>
+                <default>false</default>
+                <label>VILLALTA</label>
+            </value>
+            <value>
+                <fullName>VILLALTA MTY</fullName>
+                <default>false</default>
+                <label>VILLALTA MTY</label>
+            </value>
+            <value>
+                <fullName>VILLA MONTAÑA</fullName>
+                <default>false</default>
+                <label>VILLA MONTAÑA</label>
+            </value>
+            <value>
+                <fullName>VILLA MONTAÑA ETAPA IV</fullName>
+                <default>false</default>
+                <label>VILLA MONTAÑA ETAPA IV</label>
+            </value>
+            <value>
+                <fullName>VILLAS DE ANAHUAC ALPES</fullName>
+                <default>false</default>
+                <label>VILLAS DE ANAHUAC ALPES</label>
+            </value>
+            <value>
+                <fullName>VILLAS DEL JARAL</fullName>
+                <default>false</default>
+                <label>VILLAS DEL JARAL</label>
+            </value>
+            <value>
+                <fullName>VILLAS DE LORETO II</fullName>
+                <default>false</default>
+                <label>VILLAS DE LORETO II</label>
+            </value>
+            <value>
+                <fullName>VILLAS DEL PUERTECITO</fullName>
+                <default>false</default>
+                <label>VILLAS DEL PUERTECITO</label>
+            </value>
+            <value>
+                <fullName>VILLAS DEL RIO</fullName>
+                <default>false</default>
+                <label>VILLAS DEL RIO</label>
+            </value>
+            <value>
+                <fullName>VILLAS LA PIEDAD</fullName>
+                <default>false</default>
+                <label>VILLAS LA PIEDAD</label>
+            </value>
+            <value>
+                <fullName>VIÑEDOS</fullName>
+                <default>false</default>
+                <label>VIÑEDOS</label>
+            </value>
+            <value>
+                <fullName>VIÑEDOS DEL SUR</fullName>
+                <default>false</default>
+                <label>VIÑEDOS DEL SUR</label>
+            </value>
+            <value>
+                <fullName>VISTA HERMOSA</fullName>
+                <default>false</default>
+                <label>VISTA HERMOSA</label>
+            </value>
+            <value>
+                <fullName>VISTA MAGNA</fullName>
+                <default>false</default>
+                <label>VISTA MAGNA</label>
+            </value>
+            <value>
+                <fullName>MAGNOLIAS IV</fullName>
+                <default>false</default>
+                <label>MAGNOLIAS IV</label>
+            </value>
+            <value>
+                <fullName>VISTA REINA</fullName>
+                <default>false</default>
+                <label>VISTA REINA</label>
+            </value>
+            <value>
+                <fullName>CIMA SERENA III</fullName>
+                <default>false</default>
+                <label>CIMA SERENA III</label>
+            </value>
+            <value>
+                <fullName>TORRE LUNA 2</fullName>
+                <default>false</default>
+                <label>TORRE LUNA 2</label>
+            </value>
+            <value>
+                <fullName>VISTA MONTAÑA</fullName>
+                <default>false</default>
+                <label>VISTA MONTAÑA</label>
+            </value>
+            <value>
+                <fullName>PRIVADA BELTERRA</fullName>
+                <default>false</default>
+                <label>PRIVADA BELTERRA</label>
+            </value>
+            <value>
+                <fullName>VALLE CONDESA SECTOR BRITANIA</fullName>
+                <default>false</default>
+                <label>VALLE CONDESA SECTOR BRITANIA</label>
+            </value>
+            <value>
+                <fullName>MISION DE LOS ANGELES 1ER SECTOR ARCANGELES</fullName>
+                <default>false</default>
+                <label>MISION DE LOS ANGELES 1ER SECTOR ARCANGELES</label>
+            </value>
+            <value>
+                <fullName>ALBERÍ RESIDENCIAL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ALBERÍ RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>ARRAYANES</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ARRAYANES</label>
+            </value>
+            <value>
+                <fullName>BOSQUES DEL NEVADO II</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BOSQUES DEL NEVADO II</label>
+            </value>
+            <value>
+                <fullName>CARANDAY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CARANDAY</label>
+            </value>
+            <value>
+                <fullName>CIMA SERENA 3</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CIMA SERENA 3</label>
+            </value>
+            <value>
+                <fullName>CUMBRE ALTA II</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CUMBRE ALTA II</label>
+            </value>
+            <value>
+                <fullName>CUMBRES</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CUMBRES</label>
+            </value>
+            <value>
+                <fullName>JARDINES DE MAGNOLIAS 3</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>JARDINES DE MAGNOLIAS 3</label>
+            </value>
+            <value>
+                <fullName>MAGNOLIAS 3</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MAGNOLIAS 3</label>
+            </value>
+            <value>
+                <fullName>MASSARO RESIDENCIAL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MASSARO RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>PASEO NIKTÉ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PASEO NIKTÉ</label>
+            </value>
+            <value>
+                <fullName>PASEO SAN JUNÍPERO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PASEO SAN JUNÍPERO</label>
+            </value>
+            <value>
+                <fullName>PIRÁMIDES</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PIRÁMIDES</label>
+            </value>
+            <value>
+                <fullName>PORTO CUMBRES</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PORTO CUMBRES</label>
+            </value>
+            <value>
+                <fullName>PRIVADAS MASAI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PRIVADAS MASAI</label>
+            </value>
+            <value>
+                <fullName>RECIDENCIAL JARDINES</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RECIDENCIAL JARDINES</label>
+            </value>
+            <value>
+                <fullName>VALLE DE LOS ENCINOS PLUS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VALLE DE LOS ENCINOS PLUS</label>
+            </value>
+            <value>
+                <fullName>VALLE DE TEJEDA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VALLE DE TEJEDA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

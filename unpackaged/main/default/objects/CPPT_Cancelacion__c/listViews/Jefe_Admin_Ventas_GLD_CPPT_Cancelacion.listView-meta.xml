@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jefe_Admin_Ventas_GLD_CPPT_Cancelacion</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Jefe Admin Ventas GLD</label>
+    <queue>Jefe_Admin_Ventas_GLD</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

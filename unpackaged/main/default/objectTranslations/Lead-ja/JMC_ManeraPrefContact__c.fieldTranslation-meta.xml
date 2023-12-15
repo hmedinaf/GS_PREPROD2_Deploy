@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Manera preferida de contacto --></label>
+        <name>JMC_ManeraPrefContact__c</name>
+        <picklistValues>
+            <masterLabel>Llamada</masterLabel>
+            <translation><!-- Llamada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation><!-- Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mensaje de texto</masterLabel>
+            <translation><!-- Mensaje de texto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whatsapp</masterLabel>
+            <translation><!-- Whatsapp --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

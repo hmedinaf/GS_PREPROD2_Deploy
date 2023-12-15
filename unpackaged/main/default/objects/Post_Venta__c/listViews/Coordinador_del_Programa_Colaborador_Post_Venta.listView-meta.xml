@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Coordinador_del_Programa_Colaborador_Post_Venta</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Coordinador del Programa Colaborador</label>
+    <queue>Coordinador_del_Programa_Colaborador</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

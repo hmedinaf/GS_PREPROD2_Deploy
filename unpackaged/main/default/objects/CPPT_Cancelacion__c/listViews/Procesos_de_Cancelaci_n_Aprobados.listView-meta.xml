@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Procesos_de_Cancelaci_n_Aprobados</fullName>
+    <columns>NAME</columns>
+    <columns>CPPTS_Estatus_Cancelacion__c</columns>
+    <columns>Aplican_Cargos__c</columns>
+    <columns>CPPTS_Gastos_Operativos_Propuestos__c</columns>
+    <columns>CPPTS_Gastos_Operativos__c</columns>
+    <columns>CPPTS_Cuenta__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CPPTS_Estatus_Cancelacion__c</field>
+        <operation>equals</operation>
+        <value>Aprobado</value>
+    </filters>
+    <label>Procesos de Cancelación Aprobados</label>
+</ListView>

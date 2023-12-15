@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aceptar_aviso_de_privacidad_Entrega</fullName>
+    <active>true</active>
+    <description>Deberá seleccionar el check de &quot;Acepto aviso de privacidad&quot; para poder confirmar una entrega</description>
+    <errorConditionFormula>ISPICKVAL(Estatus__c, &quot;Entregado&quot;) 
+&amp;&amp; 
+Acepto_aviso_de_privacidad__c = FALSE 
+&amp;&amp; 
+FechaEntrega__c &gt;= TODAY()</errorConditionFormula>
+    <errorMessage>Es necesario aceptar el aviso de privacidad para confirmar la entrega</errorMessage>
+</ValidationRule>

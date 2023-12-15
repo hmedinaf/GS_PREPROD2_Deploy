@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edicion_Etapa_Seguimiento</fullName>
+    <active>true</active>
+    <description>La etapa de seguimiento solo puede ser modificada cuando el estatus del cliente es por asignar, asignado o por reasignar</description>
+    <errorConditionFormula>AND($User.is_Data_Migration_User__c = false,
+	ISCHANGED(Etapa_Seguimiento__c),
+ NOT(ISPICKVAL(Estatus_Cliente__c, &#39;POR ASIGNAR&#39;)),
+ NOT(ISPICKVAL(Estatus_Cliente__c, &#39;ASIGNADO&#39;)),
+ NOT(ISPICKVAL(Estatus_Cliente__c, &#39;POR REASIGNAR&#39;))
+)</errorConditionFormula>
+    <errorDisplayField>Etapa_Seguimiento__c</errorDisplayField>
+    <errorMessage>La Etapa de Seguimiento solo puede ser modificada cuando el estatus del cliente es POR ASIGNAR, ASIGNADO o POR REASIGNAR</errorMessage>
+</ValidationRule>

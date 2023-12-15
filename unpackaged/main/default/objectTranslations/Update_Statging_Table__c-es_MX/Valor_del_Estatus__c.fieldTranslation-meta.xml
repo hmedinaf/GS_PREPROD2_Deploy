@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Valor del Estatus --></label>
+        <name>Valor_del_Estatus__c</name>
+        <picklistValues>
+            <masterLabel>Cancelado</masterLabel>
+            <translation><!-- Cancelado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entregado</masterLabel>
+            <translation><!-- Entregado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escriturado</masterLabel>
+            <translation><!-- Escriturado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formalizado</masterLabel>
+            <translation><!-- Formalizado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reservado</masterLabel>
+            <translation><!-- Reservado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validación</masterLabel>
+            <translation><!-- Validación --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

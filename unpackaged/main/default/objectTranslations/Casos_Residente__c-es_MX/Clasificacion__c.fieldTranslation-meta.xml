@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Clasificación --></label>
+        <name>Clasificacion__c</name>
+        <picklistValues>
+            <masterLabel>A1. Corto circuito</masterLabel>
+            <translation><!-- A1. Corto circuito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A10. Filtración por Ductos</masterLabel>
+            <translation><!-- A10. Filtración por Ductos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A11. Ducto tapado</masterLabel>
+            <translation><!-- A11. Ducto tapado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A12. Otro</masterLabel>
+            <translation><!-- A12. Otro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A13.Falta de guía de minisplit</masterLabel>
+            <translation><!-- A13.Falta de guía de minisplit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A2. Obstrucción</masterLabel>
+            <translation><!-- A2. Obstrucción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A3. Falta cableado</masterLabel>
+            <translation><!-- A3. Falta cableado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A4. Falta Accesorio</masterLabel>
+            <translation><!-- A4. Falta Accesorio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A5. Falta guía CFE</masterLabel>
+            <translation><!-- A5. Falta guía CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A6. Falta Guía TV-Cable</masterLabel>
+            <translation><!-- A6. Falta Guía TV-Cable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A7. Accesorio Dañado y/o Sin Energia</masterLabel>
+            <translation><!-- A7. Accesorio Dañado y/o Sin Energia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A8. Accesorio mal instalado</masterLabel>
+            <translation><!-- A8. Accesorio mal instalado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A9. Variacion de Voltaje</masterLabel>
+            <translation><!-- A9. Variacion de Voltaje --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1. Instalación Tapada</masterLabel>
+            <translation><!-- B1. Instalación Tapada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B10. Instalación sanitaria</masterLabel>
+            <translation><!-- B10. Instalación sanitaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2. Falta de conexión</masterLabel>
+            <translation><!-- B2. Falta de conexión --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B3. Fugas</masterLabel>
+            <translation><!-- B3. Fugas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B4. Mala Instalacion</masterLabel>
+            <translation><!-- B4. Mala Instalacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B5. Dañado</masterLabel>
+            <translation><!-- B5. Dañado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B6. Faltante</masterLabel>
+            <translation><!-- B6. Faltante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B7. Humedad en Muro / Losa</masterLabel>
+            <translation><!-- B7. Humedad en Muro / Losa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B8. Humedad en Pluvial</masterLabel>
+            <translation><!-- B8. Humedad en Pluvial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B9. Otros</masterLabel>
+            <translation><!-- B9. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1. Tapado</masterLabel>
+            <translation><!-- C1. Tapado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C2. Falta de Conexión</masterLabel>
+            <translation><!-- C2. Falta de Conexión --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C3. Fuga</masterLabel>
+            <translation><!-- C3. Fuga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C4. Mala Instalacion</masterLabel>
+            <translation><!-- C4. Mala Instalacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C5. Dañado</masterLabel>
+            <translation><!-- C5. Dañado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C6. Faltante</masterLabel>
+            <translation><!-- C6. Faltante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C7. Falta de Presion</masterLabel>
+            <translation><!-- C7. Falta de Presion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C8. Falta de Suministro Agua</masterLabel>
+            <translation><!-- C8. Falta de Suministro Agua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C9. Otros</masterLabel>
+            <translation><!-- C9. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D1. Instalación Tapada</masterLabel>
+            <translation><!-- D1. Instalación Tapada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D2. Falta de conexión</masterLabel>
+            <translation><!-- D2. Falta de conexión --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D3. Fugas</masterLabel>
+            <translation><!-- D3. Fugas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D4. Falta de Presion</masterLabel>
+            <translation><!-- D4. Falta de Presion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D5. Otros</masterLabel>
+            <translation><!-- D5. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1. Bardas</masterLabel>
+            <translation><!-- E1. Bardas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E2. Estructura</masterLabel>
+            <translation><!-- E2. Estructura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E3. Otros</masterLabel>
+            <translation><!-- E3. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1. Yeso</masterLabel>
+            <translation><!-- F1. Yeso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F10. Otros</masterLabel>
+            <translation><!-- F10. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F2. Pasta</masterLabel>
+            <translation><!-- F2. Pasta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F3. Instalación Azulejo</masterLabel>
+            <translation><!-- F3. Instalación Azulejo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F4. Instalación Piso/ Zoclo</masterLabel>
+            <translation><!-- F4. Instalación Piso/ Zoclo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F5. Instalación Sardinel</masterLabel>
+            <translation><!-- F5. Instalación Sardinel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F6. Pintura</masterLabel>
+            <translation><!-- F6. Pintura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F7. Fisuras</masterLabel>
+            <translation><!-- F7. Fisuras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F8. Instalacion de Boquilla</masterLabel>
+            <translation><!-- F8. Instalacion de Boquilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F9. Pulido en Piso / Firme</masterLabel>
+            <translation><!-- F9. Pulido en Piso / Firme --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G1. Banqueta</masterLabel>
+            <translation><!-- G1. Banqueta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G2. Molduras</masterLabel>
+            <translation><!-- G2. Molduras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G3. Fisuras</masterLabel>
+            <translation><!-- G3. Fisuras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G4. Pintura Exterior</masterLabel>
+            <translation><!-- G4. Pintura Exterior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5. Cantera / Recubrimiento</masterLabel>
+            <translation><!-- G5. Cantera / Recubrimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G6. Pasta y/o Estuco</masterLabel>
+            <translation><!-- G6. Pasta y/o Estuco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G7. Humedad</masterLabel>
+            <translation><!-- G7. Humedad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G8. Otros</masterLabel>
+            <translation><!-- G8. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H1. Ventanas</masterLabel>
+            <translation><!-- H1. Ventanas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H2. Puerta Corrediza</masterLabel>
+            <translation><!-- H2. Puerta Corrediza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H3. Filtracion y/o Humedad</masterLabel>
+            <translation><!-- H3. Filtracion y/o Humedad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H4. Sello Ventanas y/o Puertas</masterLabel>
+            <translation><!-- H4. Sello Ventanas y/o Puertas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H5. Otros</masterLabel>
+            <translation><!-- H5. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H6.Aluminio</masterLabel>
+            <translation><!-- H6.Aluminio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I1. Puertas</masterLabel>
+            <translation><!-- I1. Puertas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I2. Marco</masterLabel>
+            <translation><!-- I2. Marco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I3. Chapas</masterLabel>
+            <translation><!-- I3. Chapas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I4. Otros</masterLabel>
+            <translation><!-- I4. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J1. Presencia de humedad</masterLabel>
+            <translation><!-- J1. Presencia de humedad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K1. Barandales</masterLabel>
+            <translation><!-- K1. Barandales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K2. Protectores</masterLabel>
+            <translation><!-- K2. Protectores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K3. Tendederos</masterLabel>
+            <translation><!-- K3. Tendederos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K4. Otros</masterLabel>
+            <translation><!-- K4. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L1. Tomas Hidráulicas principal</masterLabel>
+            <translation><!-- L1. Tomas Hidráulicas principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L10. Falta Guia CFE / Reventada</masterLabel>
+            <translation><!-- L10. Falta Guia CFE / Reventada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L11. Falta Guia TV Cable / Reventada</masterLabel>
+            <translation><!-- L11. Falta Guia TV Cable / Reventada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L12. Ductos Tapados</masterLabel>
+            <translation><!-- L12. Ductos Tapados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L13. Otros</masterLabel>
+            <translation><!-- L13. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L2. Tomas Sanitarias principal</masterLabel>
+            <translation><!-- L2. Tomas Sanitarias principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L3. Tomas de Gas principal</masterLabel>
+            <translation><!-- L3. Tomas de Gas principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L4. Calles</masterLabel>
+            <translation><!-- L4. Calles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L5. Cajetes-ARRIATE</masterLabel>
+            <translation><!-- L5. Cajetes-ARRIATE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L6. Barda Perimetral</masterLabel>
+            <translation><!-- L6. Barda Perimetral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L7. Bancas</masterLabel>
+            <translation><!-- L7. Bancas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L8. Machuelos-Cordon</masterLabel>
+            <translation><!-- L8. Machuelos-Cordon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L9. Banqueta Municipal</masterLabel>
+            <translation><!-- L9. Banqueta Municipal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M1. Luminarias</masterLabel>
+            <translation><!-- M1. Luminarias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M2. Tapas CFE</masterLabel>
+            <translation><!-- M2. Tapas CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M3. Boca de Tormenta</masterLabel>
+            <translation><!-- M3. Boca de Tormenta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M4. Tapas Servicio Cable</masterLabel>
+            <translation><!-- M4. Tapas Servicio Cable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M5. Nomenclaturas</masterLabel>
+            <translation><!-- M5. Nomenclaturas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M6. Señalamientos</masterLabel>
+            <translation><!-- M6. Señalamientos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M7. Postes</masterLabel>
+            <translation><!-- M7. Postes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M8. Registros Red Eléctrica</masterLabel>
+            <translation><!-- M8. Registros Red Eléctrica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M9. Otros</masterLabel>
+            <translation><!-- M9. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N1. Mosquiteros</masterLabel>
+            <translation><!-- N1. Mosquiteros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N10. Filtro purificador</masterLabel>
+            <translation><!-- N10. Filtro purificador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N11. Tinaco</masterLabel>
+            <translation><!-- N11. Tinaco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N12. Tallador</masterLabel>
+            <translation><!-- N12. Tallador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N13. Coladera</masterLabel>
+            <translation><!-- N13. Coladera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N14. Otros</masterLabel>
+            <translation><!-- N14. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N2. Tapas de registro</masterLabel>
+            <translation><!-- N2. Tapas de registro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N3. Focos</masterLabel>
+            <translation><!-- N3. Focos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N4. Accesorios de Baño</masterLabel>
+            <translation><!-- N4. Accesorios de Baño --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N5. Botes</masterLabel>
+            <translation><!-- N5. Botes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N6. Calentador de paso</masterLabel>
+            <translation><!-- N6. Calentador de paso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N7. Calentador Solar</masterLabel>
+            <translation><!-- N7. Calentador Solar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N8. Tarja / Llaves</masterLabel>
+            <translation><!-- N8. Tarja / Llaves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N9. Llaves de Jardin</masterLabel>
+            <translation><!-- N9. Llaves de Jardin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O1. Sin conexión CFE</masterLabel>
+            <translation><!-- O1. Sin conexión CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O10. Alta INTERNET</masterLabel>
+            <translation><!-- O10. Alta INTERNET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O11. No contrato INTERNET</masterLabel>
+            <translation><!-- O11. No contrato INTERNET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O12. Falla Servicio INTERNET</masterLabel>
+            <translation><!-- O12. Falla Servicio INTERNET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O13. No hay Servicio BASURA</masterLabel>
+            <translation><!-- O13. No hay Servicio BASURA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O14. Frecuencia BASURA</masterLabel>
+            <translation><!-- O14. Frecuencia BASURA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O15. BASURA en Parques y vialidades</masterLabel>
+            <translation><!-- O15. BASURA en Parques y vialidades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O16. No hay ESCUELA</masterLabel>
+            <translation><!-- O16. No hay ESCUELA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O17. Falta cupo ESCUELA</masterLabel>
+            <translation><!-- O17. Falta cupo ESCUELA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O18. Mal estado ESCUELA</masterLabel>
+            <translation><!-- O18. Mal estado ESCUELA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O19. No hay TRANSPORTE</masterLabel>
+            <translation><!-- O19. No hay TRANSPORTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O2. No contrato CFE</masterLabel>
+            <translation><!-- O2. No contrato CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O20. Poca frecuencia TRANSPORTE</masterLabel>
+            <translation><!-- O20. Poca frecuencia TRANSPORTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O21. Mal estado TRANSPORTE</masterLabel>
+            <translation><!-- O21. Mal estado TRANSPORTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O22. No hay ALUMBRADO</masterLabel>
+            <translation><!-- O22. No hay ALUMBRADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O23. Falla ALUMBRADO</masterLabel>
+            <translation><!-- O23. Falla ALUMBRADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O24. Mal estado ALUMBRADO</masterLabel>
+            <translation><!-- O24. Mal estado ALUMBRADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O25. No hay SEGURIDAD</masterLabel>
+            <translation><!-- O25. No hay SEGURIDAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O26. Reporte de Robo SEGURIDAD</masterLabel>
+            <translation><!-- O26. Reporte de Robo SEGURIDAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O27. Ineficiencia SEGURIDAD</masterLabel>
+            <translation><!-- O27. Ineficiencia SEGURIDAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O28. Otros</masterLabel>
+            <translation><!-- O28. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O3. Falla Luz CFE</masterLabel>
+            <translation><!-- O3. Falla Luz CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O4. Sin conexión AGUA</masterLabel>
+            <translation><!-- O4. Sin conexión AGUA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O5. No contrato AGUA</masterLabel>
+            <translation><!-- O5. No contrato AGUA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O6. Falta AGUA</masterLabel>
+            <translation><!-- O6. Falta AGUA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O7. Sin conexión GAS</masterLabel>
+            <translation><!-- O7. Sin conexión GAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O8. No contrato GAS</masterLabel>
+            <translation><!-- O8. No contrato GAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O9. Falta GAS</masterLabel>
+            <translation><!-- O9. Falta GAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P29. Aclaracion HIPOTECA CON SERVICIOS</masterLabel>
+            <translation><!-- P29. Aclaracion HIPOTECA CON SERVICIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P30. Solicita realizar ASOCIACION CIVIL</masterLabel>
+            <translation><!-- P30. Solicita realizar ASOCIACION CIVIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P31. Aclaracion ADMINISTRADORA</masterLabel>
+            <translation><!-- P31. Aclaracion ADMINISTRADORA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P32. Otros</masterLabel>
+            <translation><!-- P32. Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q1. Informacion Compra de Casa</masterLabel>
+            <translation><!-- Q1. Informacion Compra de Casa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q2. Queja Asesor de Ventas</masterLabel>
+            <translation><!-- Q2. Queja Asesor de Ventas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q3. Queja Promesa de Entrega</masterLabel>
+            <translation><!-- Q3. Queja Promesa de Entrega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R1. Entrega Documentos</masterLabel>
+            <translation><!-- R1. Entrega Documentos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R2. Aclaracion Recomienda y Gana</masterLabel>
+            <translation><!-- R2. Aclaracion Recomienda y Gana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R3. Aclaracion Monedero Electronico</masterLabel>
+            <translation><!-- R3. Aclaracion Monedero Electronico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R4. Aclaración Promoción de Venta</masterLabel>
+            <translation><!-- R4. Aclaración Promoción de Venta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R5. Aclaración Reembolso</masterLabel>
+            <translation><!-- R5. Aclaración Reembolso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S1. Solicitud Fecha Entrega</masterLabel>
+            <translation><!-- S1. Solicitud Fecha Entrega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S2. Re-programar Fecha Entrega</masterLabel>
+            <translation><!-- S2. Re-programar Fecha Entrega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S3. Cancelar Cita</masterLabel>
+            <translation><!-- S3. Cancelar Cita --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1. No habia personal para Entrega</masterLabel>
+            <translation><!-- T1. No habia personal para Entrega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T2. Mal Servicio Entrega</masterLabel>
+            <translation><!-- T2. Mal Servicio Entrega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T3. Vivienda no terminada</masterLabel>
+            <translation><!-- T3. Vivienda no terminada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T4. Casa Vandalizada</masterLabel>
+            <translation><!-- T4. Casa Vandalizada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U1. Aclaracion Pagos aplicados</masterLabel>
+            <translation><!-- U1. Aclaracion Pagos aplicados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U2. Aclarar Saldo</masterLabel>
+            <translation><!-- U2. Aclarar Saldo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U3. Aclarar Referencias Bancarias</masterLabel>
+            <translation><!-- U3. Aclarar Referencias Bancarias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U4. Solicitud Carta No Adeudo</masterLabel>
+            <translation><!-- U4. Solicitud Carta No Adeudo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U5. Aclaracion Numero de Cuenta Pagos</masterLabel>
+            <translation><!-- U5. Aclaracion Numero de Cuenta Pagos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V1. Falla Portal</masterLabel>
+            <translation><!-- V1. Falla Portal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V2. Aclaraciones/Corrección Datos Portal</masterLabel>
+            <translation><!-- V2. Aclaraciones/Corrección Datos Portal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V3. Solicitud de Factura</masterLabel>
+            <translation><!-- V3. Solicitud de Factura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V4. Renovación de Cartas Vencidas</masterLabel>
+            <translation><!-- V4. Renovación de Cartas Vencidas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V5. Entrega de Certificado IZZI</masterLabel>
+            <translation><!-- V5. Entrega de Certificado IZZI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V6. Entrega de Plano Oficial</masterLabel>
+            <translation><!-- V6. Entrega de Plano Oficial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W1. Otros</masterLabel>
+            <translation><!-- W1. Otros --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

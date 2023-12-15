@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Origin__c</fullName>
+    <externalId>false</externalId>
+    <label>Medio de contacto</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Correo</label>
+            </value>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Telefono</label>
+            </value>
+            <value>
+                <fullName>Web</fullName>
+                <default>false</default>
+                <label>Pagina</label>
+            </value>
+            <value>
+                <fullName>Redes Sociales</fullName>
+                <default>false</default>
+                <label>Redes Sociales</label>
+            </value>
+            <value>
+                <fullName>Fraccionamiento</fullName>
+                <default>false</default>
+                <label>Fraccionamiento</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

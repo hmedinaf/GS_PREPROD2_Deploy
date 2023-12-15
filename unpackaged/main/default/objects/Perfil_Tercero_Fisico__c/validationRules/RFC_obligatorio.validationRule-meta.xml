@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFC_obligatorio</fullName>
+    <active>false</active>
+    <description>Si ¿Es usted el titular de recursos? = NO, será obligatorio el campo RFC.</description>
+    <errorConditionFormula>AND
+(
+Es_usted_el_titular_de_recursos__c == &quot;NO&quot;,
+OR(
+ISNULL(RFC__c),
+ISBLANK(RFC__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>RFC__c</errorDisplayField>
+    <errorMessage>El campo ¿Es usted el titular de recursos? = NO por lo que el campo ¿Está de acuerdo en aportar los recursos? debe llenarse.</errorMessage>
+</ValidationRule>

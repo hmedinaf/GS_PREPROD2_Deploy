@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>INTERESA OTRO FRACCIONAMIENTO</fullName>
+        <default>false</default>
+        <label>INTERESA OTRO FRACCIONAMIENTO</label>
+    </customValue>
+    <customValue>
+        <fullName>NUEVA PROPUESTA</fullName>
+        <default>false</default>
+        <label>NUEVA PROPUESTA</label>
+    </customValue>
+    <customValue>
+        <fullName>SIGUE INTERESADO</fullName>
+        <default>false</default>
+        <label>SIGUE INTERESADO</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS</fullName>
+        <default>false</default>
+        <label>SMS</label>
+    </customValue>
+    <customValue>
+        <fullName>YA PERFILA</fullName>
+        <default>false</default>
+        <label>YA PERFILA</label>
+    </customValue>
+    <masterLabel>Motivo Reactivación</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

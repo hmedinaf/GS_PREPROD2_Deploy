@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estado --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Asignado</masterLabel>
+            <translation><!-- Asignado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelado</masterLabel>
+            <translation><!-- Cancelado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cerrado</masterLabel>
+            <translation><!-- Cerrado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En proceso</masterLabel>
+            <translation><!-- En proceso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No procede</masterLabel>
+            <translation><!-- No procede --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

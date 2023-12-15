@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Motivo de Cancelación --></label>
+        <name>Motivo_de_Cancelaci_n__c</name>
+        <picklistValues>
+            <masterLabel>Cancelación</masterLabel>
+            <translation><!-- Cancelación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro</masterLabel>
+            <translation><!-- Otro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia de Saldo</masterLabel>
+            <translation><!-- Transferencia de Saldo --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

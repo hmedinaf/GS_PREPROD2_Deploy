@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Este precio calcula el &quot;Precio de Lista&quot; - Monto Descuento  + Atributos + Monto m² Excedente --></help>
+        <label><!-- Precio Total Vivenda --></label>
+        <name>Precio_Total_Vivenda__c</name>
+    </CustomFieldTranslation>

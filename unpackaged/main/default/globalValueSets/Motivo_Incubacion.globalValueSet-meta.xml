@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ALTA MENSUALIDAD DE ACUERDO A SUS INGRESOS</fullName>
+        <default>false</default>
+        <label>ALTA MENSUALIDAD DE ACUERDO A SUS INGRESOS</label>
+    </customValue>
+    <customValue>
+        <fullName>DIFERENCIA EN EL SALDO DE LA SUBCUENTA O MONTO DE CREDITO BAJO (CUANDO NO HAY SUBSIDIO)</fullName>
+        <default>false</default>
+        <label>DIFERENCIA EN EL SALDO DE LA SUBCUENTA O MONTO DE CREDITO BAJO (CUANDO NO HAY SUBSIDIO)</label>
+    </customValue>
+    <customValue>
+        <fullName>ERROR EN DOCUMENTOS (RFC, ACTA DE NACIMIENTO, ACTA DE MATRIMONIO, ETC)</fullName>
+        <default>false</default>
+        <label>ERROR EN DOCUMENTOS (RFC, ACTA DE NACIMIENTO, ACTA DE MATRIMONIO, ETC)</label>
+    </customValue>
+    <customValue>
+        <fullName>ERROR EN INFONAVIT</fullName>
+        <default>false</default>
+        <label>ERROR EN INFONAVIT</label>
+    </customValue>
+    <customValue>
+        <fullName>FECHA DE NACIMIENTO INVALIDA O RFC INCORRECTO (NO TIENE PRECALIFICACION)</fullName>
+        <default>false</default>
+        <label>FECHA DE NACIMIENTO INVALIDA O RFC INCORRECTO (NO TIENE PRECALIFICACION)</label>
+    </customValue>
+    <customValue>
+        <fullName>HOMONIMIA</fullName>
+        <default>false</default>
+        <label>HOMONIMIA</label>
+    </customValue>
+    <customValue>
+        <fullName>NO TIENE INE</fullName>
+        <default>false</default>
+        <label>NO TIENE INE</label>
+    </customValue>
+    <customValue>
+        <fullName>NO TIENE LA PUNTUACION NECESARIA</fullName>
+        <default>false</default>
+        <label>NO TIENE LA PUNTUACION NECESARIA</label>
+    </customValue>
+    <customValue>
+        <fullName>NO TIENE LAS ULTIMAS APORTACIONES</fullName>
+        <default>false</default>
+        <label>NO TIENE LAS ULTIMAS APORTACIONES</label>
+    </customValue>
+    <customValue>
+        <fullName>PATRON NO ACTUALIZADO</fullName>
+        <default>false</default>
+        <label>PATRON NO ACTUALIZADO</label>
+    </customValue>
+    <customValue>
+        <fullName>PUNTOS POSTERIORES</fullName>
+        <default>false</default>
+        <label>PUNTOS POSTERIORES</label>
+    </customValue>
+    <customValue>
+        <fullName>SE QUIERE ESPERAR</fullName>
+        <default>false</default>
+        <label>SE QUIERE ESPERAR</label>
+    </customValue>
+    <customValue>
+        <fullName>SIN RELACION LABORAL VIGENTE</fullName>
+        <default>false</default>
+        <label>SIN RELACION LABORAL VIGENTE</label>
+    </customValue>
+    <masterLabel>Motivo de Incubación</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>CasoAsignado</fullName>
+        <description>Caso Asignado</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Correoelectronicoalterno__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ATC/CasoResidenteAsignado</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Actualizar_Estatus</fullName>
+        <field>Status__c</field>
+        <literalValue>Cerrado</literalValue>
+        <name>Actualizar Estatus</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualizar_Estatus2</fullName>
+        <field>Status__c</field>
+        <literalValue>No procede</literalValue>
+        <name>Actualizar Estatus</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualizar_estatus_de_aprobaci_n</fullName>
+        <field>AprobacionGarantia__c</field>
+        <literalValue>Aprobado</literalValue>
+        <name>Actualizar estatus de aprobación</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualizar_estatus_de_aprobacio</fullName>
+        <field>AprobacionGarantia__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>Actualizar estatus de aprobación</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualizar_fecha_de_cierre</fullName>
+        <field>ClosedDate__c</field>
+        <formula>NOW()</formula>
+        <name>Actualizar fecha de cierre</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Fracc</fullName>
+        <field>Fracc__c</field>
+        <formula>ViviendaProceso__r.Fracc__r.Name</formula>
+        <name>Fracc</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>fecha_de_cierre</fullName>
+        <field>ClosedDate__c</field>
+        <formula>NOW()</formula>
+        <name>fecha de cierre</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>por_aprobar</fullName>
+        <field>AprobacionGarantia__c</field>
+        <literalValue>En Aprobación</literalValue>
+        <name>por aprobar</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Asignación de Caso</fullName>
+        <actions>
+            <name>CasoAsignado</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>Owner:User.FirstName &lt;&gt; CreatedBy.FirstName</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cierre de caso</fullName>
+        <actions>
+            <name>Actualizar_fecha_de_cierre</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Casos_Residente__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Cerrado</value>
+        </criteriaItems>
+        <description>cambiar fecha del cierre del caso</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Creación de Caso</fullName>
+        <actions>
+            <name>CasoAsignado</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Casos_Residente__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Asignado,No procede,Cancelado</value>
+        </criteriaItems>
+        <description>Envía notificación al propietario del caso al momento de crear un nuevo caso</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Fracc</fullName>
+        <actions>
+            <name>Fracc</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Casos_Residente__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Asignado,En proceso,Cerrado,No procede,Cancelado</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>caso cerrado</fullName>
+        <actions>
+            <name>fecha_de_cierre</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Casos_Residente__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Cerrado</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

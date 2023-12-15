@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>prueba_nueva_cita</letterhead>
+    <name>Notificación de cita cliente</name>
+    <style>freeForm</style>
+    <subject>Cita de entrega de vivienda</subject>
+    <textOnly>Buen día Sr(a) {!Visita__c.Cuenta__c}
+Gracias por ser parte de la familia JAVER
+
+Le confirmamos que su cita de entrega de vivienda será el día:
+{!Visita__c.Fechaprogramadadevisita__c} {!Visita__c.Horaprogramadadevisita__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

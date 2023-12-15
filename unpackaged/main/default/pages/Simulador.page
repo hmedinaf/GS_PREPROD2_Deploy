@@ -1,0 +1,79 @@
+<apex:page standardController="Simulador_N__c" extensions="SimuladorController" >
+        <apex:stylesheet value="{!URLFOR($Resource.OneStarter,'onestarter-master/icons.css')}"/>
+<apex:stylesheet value="{!URLFOR($Resource.OneStarter,'onestarter-master/styles.css')}"/>
+<apex:stylesheet value="{!URLFOR($Resource.OneStarter,'onestarter-master/OneStarter.css')}"/>
+
+<!-- JavaScript files -->
+<apex:includeScript value="{!URLFOR($Resource.JQuery)}"/>
+    <apex:includeScript value="{!URLFOR($Resource.TouchSwipe,'TouchSwipe-Jquery-Plugin-master/jquery.touchSwipe.min.js')}"/>
+<apex:includeScript value="{!URLFOR($Resource.OneStarter,'onestarter-master/jquery.onestarter.js')}"/>
+<apex:includeScript value="/canvas/sdk/js/publisher.js"/>
+<style>
+    
+    </style>
+    <div id="{!muestro}" class="extraDiv">
+    <apex:form >
+    <apex:pageblock >
+        <h1>Simulador</h1>
+    <section>
+        <div style="">
+        <label class="field-label">Fraccionamiento</label><apex:selectList value="{!simulador.Fraccionamiento__c}" multiselect="false" size="1">
+                    <apex:selectOptions value="{!fraccs}"/>
+        </apex:selectList>
+        <label class="field-label">Capacidad de compra</label><apex:inputField value="{!simulador.CapacidadCompra__c}"/><br></br>
+        </div>
+        <apex:commandButton action="{!consultar}" value="Simulador de Venta" id="consultar"/>
+        
+        </section>
+        </apex:pageblock>
+    </apex:form>        
+    <apex:pageMessages ></apex:pageMessages><br></br>
+        <apex:pageBlock title="Prototipos">
+          <apex:pageBlockTable value="{!prototipos}" var="proto">
+             <apex:column >
+                 {!proto.Name}<br></br><br></br>
+                 <a target="_blank" href="{!proto.Imagen_01__c}"><apex:image value="{!proto.Imagen_01__c}" width="100%" alt="Imagen 1"/></a>
+             </apex:column>
+              <apex:column > &nbsp;</apex:column>
+              <apex:column > &nbsp;</apex:column>
+             <apex:column rendered="{!proto.Tour_360__c != null}">    
+                 <a class="btn btn-default" target="_blank" href="{!proto.Tour_360__c}">Tour</a>
+                 <a target="_blank" href="{!proto.Imagen_02__c}"><apex:image value="{!proto.Imagen_02__c}" width="100%" alt="Imagen 2"/></a>
+             </apex:column>
+            <apex:column rendered="{!proto.Tour_360__c == null}">
+                &nbsp;<br></br><br></br>
+                <a target="_blank" href="{!proto.Imagen_02__c}"><apex:image value="{!proto.Imagen_02__c}" width="100%" alt="Imagen 3"/></a>
+             </apex:column>
+          </apex:pageBlockTable>
+       </apex:pageBlock>
+</div>
+    <script>
+    var s1 = {};
+    $(document).ready(function() {
+        s1 = $('div#one-app').oneStarter('record-action');
+        $('td.dataCell').css('text-align', 'center');
+        $('img').css('height', '220px;');
+        
+        if($('div#one-app').length != 0){
+            $('input[type="text"]').css('height', '10px');
+            $('input[type="text"]').css('font-size', '12px');
+            
+            $('select').css('font-size', '12px');
+            $('select').css('padding', '0px;');
+            $('select').css('height', '30px;');
+            
+            $('img[alt="Imagen 2"]').css('margin-top', '8px');
+         }else{
+             $('div.extraDiv').oneStarter('record-action');
+             $('input[type="text"]').css('height', '10px');
+             $('input[type="text"]').css('width', '50%');
+            $('input[type="text"]').css('font-size', '12px');
+             
+            $('select').css('width', '50%'); 
+            $('select').css('font-size', '12px');
+            $('select').css('padding', '0px;');
+             $('select').css('height', '30px;');
+             }
+       });
+    </script>
+</apex:page>

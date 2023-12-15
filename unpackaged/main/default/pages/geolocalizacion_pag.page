@@ -1,0 +1,133 @@
+<apex:page standardController="Account" extensions="geolocalizacion_ctr" standardStylesheets="false" showheader="false" sidebar="false" applyHtmlTag="false" docType="html-5.0" >
+<html allow="geolocation; microphone; camera"> 
+<head> 
+    <title>Hacer Check</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+    <!-- jQuery Mobile -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <apex:stylesheet value="{!URLFOR($Resource.Bootstrap, 'bootstrap-3.3.7-dist/css/bootstrap.min.css')}"/>
+
+    <!-- Salesforce1 -->
+    <script type="text/javascript" src="/canvas/sdk/js/publisher.js"></script>
+
+    <!-- Mapa -->
+    <apex:includeScript id="gmpas" value="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_jm7pabj-yuSk45vuzZFh_IEaPpaqbIY&v=3.exp&language=es"/>
+
+    <!-- My own scripts -->
+    <script>
+        
+        $(document).ready(function() {
+             // HTML5 geolocation
+            var userLatitude = 25;
+            var userLongitude = -100;
+            
+            if(navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(lapos, function(error){
+                    handleNoGeolocation(true);
+                });
+            } else {
+                handleNoGeolocation(false);
+            }
+            
+            
+            function lapos(position) {
+                    userLatitude = position.coords.latitude;
+                    userLongitude = position.coords.longitude;
+                    guardarCoordenadasUsuario(userLatitude,userLongitude);
+
+                }
+            
+            // Disable submit button
+            Sfdc.canvas.publisher.subscribe({
+                name: "publisher.showPanel",
+                onData:function(e) {
+                    Sfdc.canvas.publisher.publish({name:"publisher.setValidForSubmit", payload:"false"});
+            }});
+                       
+           
+        });
+        
+        function handleNoGeolocation(errorFlag) {
+            if (errorFlag) {
+                var content = 'Error: La Geolocalización falló, por favor sal de la pantalla y recarga Salesforce.';
+                console.log("handleNoGeolocation: " + content);
+                alert(content);
+            } else {
+                var content = 'Error: Tu navegador no soporta Geolocalización';
+                console.log("handleNoGeolocation: " + content);
+                alert(content);
+            }
+        }
+        
+        function closePublisher() {
+            //Sfdc.canvas.publisher.publish({name: "publisher.close", payload:{refresh:"true"}});
+        }
+                
+    </script>
+    <style type="text/css">
+        h7 {font-size: 9.5px; font-family:Arial,Helvetica,sans-serif;}
+        #panel-general {
+            height: 500px;
+            float: center;
+            overflow: auto;
+        }
+        .btn-checkin, .btn-checkout {
+            width: 90%;
+        }
+    </style>
+</head> 
+<body bgcolor="white">
+    <center>
+        <div class="app-wrapper" id="panel-general">
+            <!-- MAPA -->
+            <apex:outputPanel id="PanelMapa">
+                <apex:map id="defaultMap" rendered="{!showMapBln}" width="100%" height="400px" zoomLevel="15" mapType="roadmap" scrollBasedZooming="false" >        
+                    <apex:mapMarker id="marker" title="Tu Ubicación" position="{latitude: {!latitude}, longitude: {!longitude}}" />                
+                </apex:map>
+                <apex:outputPanel rendered="{!enableMensajeBln}">
+                    <br/>
+                    <div class="alert alert-info" role="alert">
+                        {!mensaje}
+                    </div>
+                </apex:outputPanel>
+            </apex:outputPanel>
+            <br/>
+            <!-- MENSAJE DE ERROR -->
+            <apex:pageMessages id="idMensajeApex"/>
+                
+            <!-- BOTONES -->
+            <apex:form id="theForm">
+                <!-- FUNCIÓN JAVASCRIPT QUE GUARDA VARIABLES -->
+                <apex:actionFunction name="guardarCoordenadasUsuario" action="{!guardarCoordenadasUsuario}" reRender="idMensajeApex, PanelMapa, PanelIn, PanelOut" status="status">
+                    <apex:param name="firstParam" assignTo="{!latitude}" value="" />
+                    <apex:param name="secondParam" assignTo="{!longitude}" value="" />
+                </apex:actionFunction>
+                
+                <!-- LOADING -->
+                <apex:actionStatus id="status">
+                    <apex:facet name="start">
+                        <div style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.75; z-index: 1000; background-color: white;">
+                            &nbsp;
+                        </div>
+                        <div style="position: fixed; top: 40%; left: 50%; margin: -35px 0px 0px -35px; z-index: 1001;">
+                          <img src="{!URLFOR($Resource.LoadingLightning)}" width="70px" height="70px"/>
+                       </div>
+                    </apex:facet>
+                </apex:actionStatus>
+                
+                <apex:outputPanel id="PanelIn">
+                    <apex:commandButton value="Obtener Ubicación" reRender="idMensajeApex" status="status" action="{!hacerCheck}" styleClass="btn btn-lg btn-primary btn-checkin">
+                        <apex:param name="tipoCheck" assignTo="{!tipoCheck}" value="IN" />
+                    </apex:commandButton>
+                </apex:outputPanel>
+            </apex:form>
+        </div>
+    </center>
+    <br/><br/><br/>
+</body>
+</html>
+</apex:page>

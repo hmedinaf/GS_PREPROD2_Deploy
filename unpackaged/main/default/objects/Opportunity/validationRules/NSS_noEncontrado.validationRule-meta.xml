@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NSS_noEncontrado</fullName>
+    <active>true</active>
+    <description>Si el  Tipo de Crédito es igual a: COFINAVIT o INFONAVIT, el NSS no debe estar vacío</description>
+    <errorConditionFormula>AND(
+   OR(
+      ISPICKVAL(Tipo_de_Credito__c, &#39;COFINAVIT&#39;),
+      ISPICKVAL(Tipo_de_Credito__c, &#39;INFONAVIT&#39;)
+   ),
+   ISBLANK(Account.NSS__c)
+)</errorConditionFormula>
+    <errorMessage>El Tipo de Crédito requerido necesita tener el NSS en la Cuenta</errorMessage>
+</ValidationRule>

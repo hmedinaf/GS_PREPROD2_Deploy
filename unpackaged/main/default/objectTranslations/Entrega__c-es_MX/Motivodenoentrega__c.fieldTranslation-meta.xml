@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Motivo de no entrega --></label>
+        <name>Motivodenoentrega__c</name>
+        <picklistValues>
+            <masterLabel>Cambio fecha y hora</masterLabel>
+            <translation><!-- Cambio fecha y hora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Detalles de calidad</masterLabel>
+            <translation><!-- Detalles de calidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Está de viaje</masterLabel>
+            <translation><!-- Está de viaje --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta documento</masterLabel>
+            <translation><!-- Falta documento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No asistió</masterLabel>
+            <translation><!-- No asistió --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No es la ubicación</masterLabel>
+            <translation><!-- No es la ubicación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No es lo que ofrecieron</masterLabel>
+            <translation><!-- No es lo que ofrecieron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No quiere la casa</masterLabel>
+            <translation><!-- No quiere la casa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No se localiza</masterLabel>
+            <translation><!-- No se localiza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notario</masterLabel>
+            <translation><!-- Notario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro</masterLabel>
+            <translation><!-- Otro --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

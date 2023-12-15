@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_NSS_Obligatorio</fullName>
+    <active>true</active>
+    <description>El NSS es obligatorio si el tipo de crédito es INFONAVIT o COFINAVIT</description>
+    <errorConditionFormula>$User.is_Data_Migration_User__c = false &amp;&amp;
+IF (ISPICKVAL(Tipo_Credito__c, &#39;INFONAVIT&#39;) || ISPICKVAL(Tipo_Credito__c, &#39;COFINAVIT&#39;),
+  ISBLANK(NSS__c),
+		FALSE)</errorConditionFormula>
+    <errorDisplayField>NSS__c</errorDisplayField>
+    <errorMessage>Debe ingresar el NSS</errorMessage>
+</ValidationRule>

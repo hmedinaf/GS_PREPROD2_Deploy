@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Producto__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Complementos</fullName>
+                <default>false</default>
+                <label>Complementos</label>
+            </value>
+            <value>
+                <fullName>Otos gastos</fullName>
+                <default>false</default>
+                <label>Otos gastos</label>
+            </value>
+            <value>
+                <fullName>Casa muestra</fullName>
+                <default>false</default>
+                <label>Casa muestra</label>
+            </value>
+            <value>
+                <fullName>Promoción de Venta</fullName>
+                <default>false</default>
+                <label>Promoción de Venta</label>
+            </value>
+            <value>
+                <fullName>Bonificación</fullName>
+                <default>false</default>
+                <label>Bonificación</label>
+            </value>
+            <value>
+                <fullName>Financiamiento</fullName>
+                <default>false</default>
+                <label>Financiamiento</label>
+            </value>
+            <value>
+                <fullName>Paquete</fullName>
+                <default>false</default>
+                <label>Paquete</label>
+            </value>
+            <value>
+                <fullName>Promoción de Precio</fullName>
+                <default>false</default>
+                <label>Promoción de Precio</label>
+            </value>
+            <value>
+                <fullName>Regalo de Marketing</fullName>
+                <default>false</default>
+                <label>Regalo de Marketing</label>
+            </value>
+            <value>
+                <fullName>Vivienda</fullName>
+                <default>false</default>
+                <label>Vivienda</label>
+            </value>
+            <value>
+                <fullName>Productos Genéricos</fullName>
+                <default>false</default>
+                <label>Productos Genéricos</label>
+            </value>
+            <value>
+                <fullName>Otros Gastos</fullName>
+                <default>false</default>
+                <label>Otros Gastos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

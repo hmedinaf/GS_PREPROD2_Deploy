@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Esta_de_acuerdo_en_aportar_los_recursos</fullName>
+    <active>false</active>
+    <description>Si ¿Es usted el titular de recursos? = NO, será obligatorio el campo ¿Está de acuerdo en aportar los recursos?</description>
+    <errorConditionFormula>AND
+(
+Es_usted_el_titular_de_recursos__c	 == &quot;NO&quot;,
+OR(
+ISNULL(TEXT(Est_de_acuerdo_en_aportar_los_recursos__c)),
+ISBLANK(TEXT(Est_de_acuerdo_en_aportar_los_recursos__c))
+)
+)</errorConditionFormula>
+    <errorDisplayField>Est_de_acuerdo_en_aportar_los_recursos__c</errorDisplayField>
+    <errorMessage>El campo ¿Es usted el titular de recursos? = NO por lo que el campo ¿Está de acuerdo en aportar los recursos? debe llenarse.</errorMessage>
+</ValidationRule>

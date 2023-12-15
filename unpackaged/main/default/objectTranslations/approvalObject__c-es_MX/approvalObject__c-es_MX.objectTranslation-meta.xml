@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>approvalObject</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>approvalObjects</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato approvalObject</layout>
+        <sections>
+            <label><!-- Aprobación Creada --></label>
+            <section>Aprobación Creada</section>
+        </sections>
+        <sections>
+            <label><!-- Detalles --></label>
+            <section>Detalles</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

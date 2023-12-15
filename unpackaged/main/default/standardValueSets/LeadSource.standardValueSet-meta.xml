@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Prospección</fullName>
+        <default>true</default>
+        <label>Prospección</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Afluencia</fullName>
+        <default>false</default>
+        <label>Afluencia</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospecto Asesor</fullName>
+        <default>false</default>
+        <label>Prospecto Asesor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Colaborador JAVER</fullName>
+        <default>false</default>
+        <label>Colaborador JAVER</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contacto Telefónico</fullName>
+        <default>false</default>
+        <label>Contacto Telefónico</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mercadotecnia</fullName>
+        <default>false</default>
+        <label>Mercadotecnia</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SMS</fullName>
+        <default>false</default>
+        <label>SMS</label>
+    </standardValue>
+</StandardValueSet>

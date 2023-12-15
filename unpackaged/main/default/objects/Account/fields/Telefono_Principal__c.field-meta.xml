@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Telefono_Principal__c</fullName>
+    <externalId>false</externalId>
+    <label>Teléfono Principal</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TELEFONO CASA</fullName>
+                <default>false</default>
+                <label>TELEFONO CASA</label>
+            </value>
+            <value>
+                <fullName>TELEFONO CELULAR</fullName>
+                <default>false</default>
+                <label>TELEFONO CELULAR</label>
+            </value>
+            <value>
+                <fullName>OTRO TELEFONO</fullName>
+                <default>false</default>
+                <label>OTRO TELEFONO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ABIERTO</fullName>
+        <default>false</default>
+        <label>ABIERTO</label>
+    </customValue>
+    <customValue>
+        <fullName>CANCELADO</fullName>
+        <default>false</default>
+        <label>CANCELADO</label>
+    </customValue>
+    <customValue>
+        <fullName>CERRADO</fullName>
+        <default>false</default>
+        <label>CERRADO</label>
+    </customValue>
+    <customValue>
+        <fullName>EN_TRANSITO</fullName>
+        <default>false</default>
+        <label>EN TRÁNSITO</label>
+    </customValue>
+    <customValue>
+        <fullName>FALLO_EN_AR</fullName>
+        <default>false</default>
+        <label>FALLO EN AR</label>
+    </customValue>
+    <customValue>
+        <fullName>PARCIAL</fullName>
+        <default>false</default>
+        <label>PARCIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>RECHAZADO</fullName>
+        <default>false</default>
+        <label>RECHAZADO</label>
+    </customValue>
+    <masterLabel>Estatus Pagaré</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

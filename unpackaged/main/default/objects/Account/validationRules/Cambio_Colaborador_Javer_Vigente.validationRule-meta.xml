@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cambio_Colaborador_Javer_Vigente</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND($User.is_Data_Migration_User__c = false,
+!IsVRBypassed__c,
+PRIORVALUE(Colaborador_Javer__c) &lt;&gt; &#39;&#39;,
+ISCHANGED(Colaborador_Javer__c),
+Fecha_Vencimiento_Colaborador_Javer__c &gt;= TODAY(),
+Desasignacion_Auto_Asesor__c = false
+)</errorConditionFormula>
+    <errorDisplayField>Colaborador_Javer_Asignado__c</errorDisplayField>
+    <errorMessage>No se puede modificar el Colaborador Javer, pues aún no termina su periodo de vigencia.</errorMessage>
+</ValidationRule>

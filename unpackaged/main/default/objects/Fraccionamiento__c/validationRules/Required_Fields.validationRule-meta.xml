@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Fields</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF( OR(ISBLANK( Programadora_de_Vivienda__c ),ISBLANK( Jefe_Atencion_Clientes__c),ISBLANK( Residente1__c )) , true, false)</errorConditionFormula>
+    <errorMessage>Se debe asignar un Jefe de ATC, una Programadora y Residente 1</errorMessage>
+</ValidationRule>

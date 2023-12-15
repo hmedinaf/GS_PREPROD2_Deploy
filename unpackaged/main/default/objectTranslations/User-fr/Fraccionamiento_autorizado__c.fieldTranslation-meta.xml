@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Al poner la Palabra TODOS 
+lo que dará acceso a cualquier fracc. --></help>
+        <label><!-- Fraccionamiento autorizado --></label>
+        <name>Fraccionamiento_autorizado__c</name>
+    </CustomFieldTranslation>

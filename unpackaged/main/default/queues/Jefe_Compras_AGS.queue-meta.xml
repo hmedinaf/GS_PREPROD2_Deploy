@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Jefe Compras AGS</name>
+    <queueMembers>
+        <users>
+            <user>lmendez@javer.com.mx</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Aprobacion_Lista_de_Precios__c</sobjectType>
+    </queueSobject>
+</Queue>

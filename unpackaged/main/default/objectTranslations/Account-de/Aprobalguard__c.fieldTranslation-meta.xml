@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Al estar seleccionado y modificar el tipo de crédito envía en automático el proceso de aprobación --></help>
+        <label><!-- Aprobación al Guardar --></label>
+        <name>Aprobalguard__c</name>
+    </CustomFieldTranslation>

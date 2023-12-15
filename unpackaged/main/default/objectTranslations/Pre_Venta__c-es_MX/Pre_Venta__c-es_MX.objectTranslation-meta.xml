@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pre Venta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pre Ventas</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Pre Venta</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>VO. Menor a Presupuesto</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- VO. Menor a Presupuesto --></description>
+        <label><!-- VO. Menor a Presupuesto --></label>
+        <name>VO_Menor_a_Presupuesto</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Reenviar_Respuesta --></label>
+        <name>Reenviar_Respuesta</name>
+    </webLinks>
+</CustomObjectTranslation>

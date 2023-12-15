@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_MotivoAsignacion_SiAsesor</fullName>
+    <active>true</active>
+    <description>Si se selecciona un asesor, el campo motivo de asignación debe ser obligatorio</description>
+    <errorConditionFormula>AND(
+	$User.is_Data_Migration_User__c = false,
+	ISBLANK(Asesor__c) = true,ISBLANK(TEXT(Motivo_Asignacion__c)) = false)</errorConditionFormula>
+    <errorDisplayField>Motivo_Asignacion__c</errorDisplayField>
+    <errorMessage>No se ha capturado un Asesor</errorMessage>
+</ValidationRule>

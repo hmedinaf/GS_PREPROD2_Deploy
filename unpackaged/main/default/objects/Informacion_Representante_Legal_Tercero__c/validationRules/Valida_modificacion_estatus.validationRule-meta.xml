@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_modificacion_estatus</fullName>
+    <active>true</active>
+    <description>Editable, únicamente en los estatus Validado, Reserva, Formalización.</description>
+    <errorConditionFormula>IF( OR(Estatus_Proceso_de_Venta_Oportunidad__c = &#39;Validación&#39;,
+       Estatus_Proceso_de_Venta_Oportunidad__c = &#39;Reservado&#39;,
+       Estatus_Proceso_de_Venta_Oportunidad__c = &#39;Formalizado&#39;), 
+			   FALSE,
+       OR(ISCHANGED(Actividad_Profesion_Ocupacion__c),
+       ISCHANGED(Apellido_materno__c),
+       ISCHANGED(Apellido_paterno__c),
+       ISCHANGED(Autoridad_emite_identificacion__c),
+       ISCHANGED(Calle__c),ISCHANGED(Municipio__c),
+       ISCHANGED(Colonia__c),
+       ISCHANGED(Correo_electronico__c),
+       ISCHANGED(CURP__c),
+       ISCHANGED(Codigo_Postal__c),
+       ISCHANGED(Domicilio_del_trabajo__c),
+       ISCHANGED(Escritura_poliza_o_acta__c),
+       ISCHANGED(Estado__c),
+       ISCHANGED(Estado_Empresa__c),
+       ISCHANGED(Extension__c),
+       ISCHANGED(Fecha_de_escritura_del_poder__c),
+       ISCHANGED(Fecha_de_nacimiento__c),
+       ISCHANGED(Municipio_Empresa__c),
+       ISCHANGED(No_Identificacion__c),
+       ISCHANGED(Nombre_de_la_empresa__c),
+       ISCHANGED(Name),
+       ISCHANGED(Notario_corredor_del_poder__c),
+       ISCHANGED(Numero_exterior__c),
+       ISCHANGED(Numero_interior__c),
+       ISCHANGED(Pais__c),
+       ISCHANGED(Pais_Empresa__c),
+       ISCHANGED(RFC__c),
+       ISCHANGED(RFC_empresa__c),
+       ISCHANGED(Regimen_fiscal__c),
+       ISCHANGED(Telefono_Celular__c),
+       ISCHANGED(Telefono_domicilio__c),
+       ISCHANGED(Tipo_identificacion__c)
+      )
+)</errorConditionFormula>
+    <errorMessage>Editable, únicamente en los estatus Validado, Reserva, Formalización.</errorMessage>
+</ValidationRule>

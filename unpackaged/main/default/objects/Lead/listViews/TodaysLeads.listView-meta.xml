@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TodaysLeads</fullName>
+    <booleanFilter>(1 OR 2) AND 3 AND 4</booleanFilter>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>JMC_Fuente__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>JMC_Analisisinterno__c</columns>
+    <columns>JMC_Fraccionamiento__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>utm_campaign__c</columns>
+    <columns>utm_medium__c</columns>
+    <columns>utm_source__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>contains</operation>
+        <value>ADMIN</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>contains</operation>
+        <value>BRANDON</value>
+    </filters>
+    <filters>
+        <field>JCM_Carga_inicial__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>4/1/2021 12:00 AM</value>
+    </filters>
+    <label>Leads del día</label>
+</ListView>

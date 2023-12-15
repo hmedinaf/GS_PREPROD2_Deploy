@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- FRACCIONAMIENTOS --></label>
+        <name>FRACCIONAMIENTOS__c</name>
+        <picklistValues>
+            <masterLabel>ACACIAS</masterLabel>
+            <translation><!-- ACACIAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACACIAS II</masterLabel>
+            <translation><!-- ACACIAS II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALBERI RESIDENCIAL</masterLabel>
+            <translation><!-- ALBERI RESIDENCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALVENTO</masterLabel>
+            <translation><!-- ALVENTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARBOLADA</masterLabel>
+            <translation><!-- ARBOLADA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUE REAL</masterLabel>
+            <translation><!-- BOSQUE REAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOSQUES DEL NEVADO</masterLabel>
+            <translation><!-- BOSQUES DEL NEVADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAGNOLIAS IV</masterLabel>
+            <translation><!-- MAGNOLIAS IV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MISION DE LOS ANGELES 1ER SECTOR ARCANGELES</masterLabel>
+            <translation><!-- MISION DE LOS ANGELES 1ER SECTOR ARCANGELES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MURIEL RESIDENCIAL</masterLabel>
+            <translation><!-- MURIEL RESIDENCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PASEO SAN JUNIPERO</masterLabel>
+            <translation><!-- PASEO SAN JUNIPERO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PASEOS DEL SUR</masterLabel>
+            <translation><!-- PASEOS DEL SUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADA BELTERRA</masterLabel>
+            <translation><!-- PRIVADA BELTERRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVADAS CARANDAY</masterLabel>
+            <translation><!-- PRIVADAS CARANDAY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRIVALIA AMBIENTA</masterLabel>
+            <translation><!-- PRIVALIA AMBIENTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TODOS</masterLabel>
+            <translation><!-- TODOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE LINCOLN SECTOR MINAS</masterLabel>
+            <translation><!-- VALLE DE LINCOLN SECTOR MINAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE SANTA ELENA</masterLabel>
+            <translation><!-- VALLE DE SANTA ELENA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE DE TEJEDA II</masterLabel>
+            <translation><!-- VALLE DE TEJEDA II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALLE SANTA ISABEL</masterLabel>
+            <translation><!-- VALLE SANTA ISABEL --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

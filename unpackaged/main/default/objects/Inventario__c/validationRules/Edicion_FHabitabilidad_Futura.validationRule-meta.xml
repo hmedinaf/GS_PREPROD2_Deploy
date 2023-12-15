@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edicion_FHabitabilidad_Futura</fullName>
+    <active>true</active>
+    <description>No es posible establecer la fecha de habitabilidad después de pasado mañana</description>
+    <errorConditionFormula>IF($User.FirstName != &#39;ADMIN&#39; &amp;&amp; FechadeHabitabilidad__c &gt; (TODAY() + 2), true, false)</errorConditionFormula>
+    <errorDisplayField>FechadeHabitabilidad__c</errorDisplayField>
+    <errorMessage>La fecha de habitabilidad no puede ser mayor a 48 horas a partir de hoy.</errorMessage>
+</ValidationRule>

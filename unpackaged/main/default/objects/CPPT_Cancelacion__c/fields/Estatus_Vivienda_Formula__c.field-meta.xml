@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus_Vivienda_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Estatus_Vivienda__c,
+						&quot;17&quot;,&quot;Disponible&quot;,
+      &quot;11&quot;,&quot;Reservado&quot;,
+      &quot;13&quot;,&quot;Formalizado&quot;,
+      &quot;14&quot;,&quot;Escriturado&quot;,
+      &quot;15&quot;,&quot;Entregado&quot;,
+      &quot;20&quot;,&quot;No Disponible&quot;,
+      &quot;21&quot;,&quot;Migración / Disponible&quot;,
+						&quot;ERR - No hay un valor disponible&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Estatus Vivienda</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

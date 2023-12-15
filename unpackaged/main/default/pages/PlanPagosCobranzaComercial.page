@@ -1,0 +1,20 @@
+<apex:page id="PlanPagosCobranzaComercial" standardController="Cobranza_Comercial__c" extensions="CONTROL_PlanPagosCobranzaComercial" lightningStyleSheets="true" showHeader="true">
+
+<apex:form id="F_PlanPagosCobranzaComercial">
+
+    <apex:pageBlock id="PB_PlanPagosCobranzaComercial" title="Plan de Pagos">
+
+        <!-- Begin Default Content REMOVE THIS -->
+        <h1>Congratulations</h1>
+        This is your new Page
+        <!-- End Default Content REMOVE THIS -->
+
+        <apex:pageBlockButtons location="bottom">
+            <apex:commandButton value="Cancelar" action="{!cancelar}" immediate="true"/>
+        </apex:pageBlockButtons>
+
+    </apex:pageBlock>
+
+</apex:form>
+
+</apex:page>

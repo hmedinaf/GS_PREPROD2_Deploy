@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restriccion_producto</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF( Producto__r.Name !=  Relacion_Producto_Plaza_Fraccionamiento__r.Producto__r.Name , true, false)</errorConditionFormula>
+    <errorMessage>El registro de Plaza Relacionada, no corresponde al producto que estás modificando</errorMessage>
+</ValidationRule>

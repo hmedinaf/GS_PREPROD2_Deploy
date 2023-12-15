@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Titular_autoridad_emite_identificacion</fullName>
+    <active>true</active>
+    <description>Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo.</description>
+    <errorConditionFormula>AND
+(
+Es_usted_el_titular_de_recursos__c == &quot;NO&quot;,
+OR(
+ISNULL(Autoridad_emite_identificacion__c),
+ISBLANK(Autoridad_emite_identificacion__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Autoridad_emite_identificacion__c</errorDisplayField>
+    <errorMessage>Campo Autoridad Emite Identificación requerido</errorMessage>
+</ValidationRule>

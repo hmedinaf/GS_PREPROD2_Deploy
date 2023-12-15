@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowDefinition>COBRANZA_COMERCIAL_Asigna_Lista_de_Promoci_n_de_Precio</flowDefinition>
+    <label>Asigna Lista Promoción de Precio</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

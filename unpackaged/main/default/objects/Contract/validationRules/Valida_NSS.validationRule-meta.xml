@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_NSS</fullName>
+    <active>false</active>
+    <description>Valida el número se de seguridad social si el campo tipo de crédito es infonavit o cofinavit</description>
+    <errorConditionFormula>AND(
+  OR(
+    ISPICKVAL(Tipo_de_Credito__c,&#39;INFONAVIT&#39; ),
+    ISPICKVAL(Tipo_de_Credito__c,&#39;COFINAVIT&#39; )
+  ),
+    ISBLANK( Account.NSS__c )
+)</errorConditionFormula>
+    <errorMessage>El NSS es obligatorio si el tipo de crédito es Infonavit o Cofinavit</errorMessage>
+</ValidationRule>

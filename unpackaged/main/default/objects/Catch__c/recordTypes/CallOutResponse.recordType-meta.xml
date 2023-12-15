@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CallOutResponse</fullName>
+    <active>true</active>
+    <description>Respuesta de Webservices no importa si son respuestas positivas o negativas CallOut</description>
+    <label>CallOutResponse</label>
+</RecordType>

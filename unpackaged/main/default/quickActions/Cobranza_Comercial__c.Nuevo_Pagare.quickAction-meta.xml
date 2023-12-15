@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldOverrides>
+        <field>Cobranza_Comercial_Lookup__c</field>
+        <formula>Cobranza_Comercial__c.Id</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Estatus__c</field>
+        <literalValue>ABIERTO</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Titulacion__c</field>
+        <formula>Cobranza_Comercial__c.Titulacion__c</formula>
+    </fieldOverrides>
+    <label>Nuevo Pagaré</label>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Cobranza_Comercial_Lookup__c</field>
+                <uiBehavior>Readonly</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Tipo__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Estatus__c</field>
+                <uiBehavior>Readonly</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Fecha_Vencimiento__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Importe__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+    </quickActionLayout>
+    <successMessage>El Pagaré se Creó con Éxito</successMessage>
+    <targetObject>Documento__c</targetObject>
+    <targetParentField>Cobranza_Comercial__c</targetParentField>
+    <targetRecordType>Documento__c.Pagare</targetRecordType>
+    <type>Create</type>
+</QuickAction>

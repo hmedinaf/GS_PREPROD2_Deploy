@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estatus Lead --></label>
+        <name>JMC_EstatusLead__c</name>
+        <picklistValues>
+            <masterLabel>Ilocalizable</masterLabel>
+            <translation><!-- Ilocalizable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incubadora</masterLabel>
+            <translation><!-- Incubadora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Interesado</masterLabel>
+            <translation><!-- No Interesado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No validado</masterLabel>
+            <translation><!-- No validado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perfilado</masterLabel>
+            <translation><!-- Perfilado --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

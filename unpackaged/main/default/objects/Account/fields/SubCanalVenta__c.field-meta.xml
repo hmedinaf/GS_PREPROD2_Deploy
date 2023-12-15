@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubCanalVenta__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Canal de Venta 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CanalVenta__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Activación/Evento</fullName>
+                <default>false</default>
+                <label>Activación/Evento</label>
+            </value>
+            <value>
+                <fullName>Activación/Evento/Periferia</fullName>
+                <default>false</default>
+                <label>Activación/Evento/Periferia</label>
+            </value>
+            <value>
+                <fullName>AGS Feria CANADEVI</fullName>
+                <default>false</default>
+                <label>AGS Feria CANADEVI</label>
+            </value>
+            <value>
+                <fullName>AGS Moctezuma</fullName>
+                <default>false</default>
+                <label>AGS Moctezuma</label>
+            </value>
+            <value>
+                <fullName>AGS Plaza Universidad</fullName>
+                <default>false</default>
+                <label>AGS Plaza Universidad</label>
+            </value>
+            <value>
+                <fullName>AGS San Diego</fullName>
+                <default>false</default>
+                <label>AGS San Diego</label>
+            </value>
+            <value>
+                <fullName>Ags Villa Asunción</fullName>
+                <default>false</default>
+                <label>Ags Villa Asunción</label>
+            </value>
+            <value>
+                <fullName>Blogger/Tania Rendón</fullName>
+                <default>false</default>
+                <label>Blogger/Tania Rendón</label>
+            </value>
+            <value>
+                <fullName>Call Center / Telemarketing</fullName>
+                <default>false</default>
+                <label>Call Center / Telemarketing</label>
+            </value>
+            <value>
+                <fullName>Cambaceo</fullName>
+                <default>false</default>
+                <label>Cambaceo</label>
+            </value>
+            <value>
+                <fullName>Cartelera Móvil</fullName>
+                <default>false</default>
+                <label>Cartelera Móvil</label>
+            </value>
+            <value>
+                <fullName>CETRAM Rosario</fullName>
+                <default>false</default>
+                <label>CETRAM Rosario</label>
+            </value>
+            <value>
+                <fullName>Cita Asesor</fullName>
+                <default>false</default>
+                <label>Cita Asesor</label>
+            </value>
+            <value>
+                <fullName>Colaborador Javer</fullName>
+                <default>false</default>
+                <label>Colaborador Javer</label>
+            </value>
+            <value>
+                <fullName>Compañero de Trabajo</fullName>
+                <default>false</default>
+                <label>Compañero de Trabajo</label>
+            </value>
+            <value>
+                <fullName>Contacto Telefónico</fullName>
+                <default>false</default>
+                <label>Contacto Telefónico</label>
+            </value>
+            <value>
+                <fullName>Convenio Femsa</fullName>
+                <default>false</default>
+                <label>Convenio Femsa</label>
+            </value>
+            <value>
+                <fullName>Convenio Pabellon M</fullName>
+                <default>false</default>
+                <label>Convenio Pabellon M</label>
+            </value>
+            <value>
+                <fullName>Correo</fullName>
+                <default>false</default>
+                <label>Correo</label>
+            </value>
+            <value>
+                <fullName>Correo Directo/Carta</fullName>
+                <default>false</default>
+                <label>Correo Directo/Carta</label>
+            </value>
+            <value>
+                <fullName>Edomex Expo Tu Casa Total WTC</fullName>
+                <default>false</default>
+                <label>Edomex Expo Tu Casa Total WTC</label>
+            </value>
+            <value>
+                <fullName>Edomex Feria Canadevi Tlanepantla</fullName>
+                <default>false</default>
+                <label>Edomex Feria Canadevi Tlanepantla</label>
+            </value>
+            <value>
+                <fullName>Edo Mex Galerias Perinorte</fullName>
+                <default>false</default>
+                <label>Edo Mex Galerias Perinorte</label>
+            </value>
+            <value>
+                <fullName>Edomex Plaza Juarez</fullName>
+                <default>false</default>
+                <label>Edomex Plaza Juarez</label>
+            </value>
+            <value>
+                <fullName>En Calle</fullName>
+                <default>false</default>
+                <label>En Calle</label>
+            </value>
+            <value>
+                <fullName>En Empresa (Venta Empresarial)</fullName>
+                <default>false</default>
+                <label>En Empresa (Venta Empresarial)</label>
+            </value>
+            <value>
+                <fullName>Espectacular/Cartelera</fullName>
+                <default>false</default>
+                <label>Espectacular/Cartelera</label>
+            </value>
+            <value>
+                <fullName>Eventos (Macroventa, Súpervta)</fullName>
+                <default>false</default>
+                <label>Eventos (Macroventa, Súpervta)</label>
+            </value>
+            <value>
+                <fullName>Expo/Feria</fullName>
+                <default>false</default>
+                <label>Expo/Feria</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Facebook Inbox</fullName>
+                <default>false</default>
+                <label>Facebook Inbox</label>
+            </value>
+            <value>
+                <fullName>Familiar</fullName>
+                <default>false</default>
+                <label>Familiar</label>
+            </value>
+            <value>
+                <fullName>Feria Revolución CDMX</fullName>
+                <default>false</default>
+                <label>Feria Revolución CDMX</label>
+            </value>
+            <value>
+                <fullName>Feria Zocalo D.F.</fullName>
+                <default>false</default>
+                <label>Feria Zocalo D.F.</label>
+            </value>
+            <value>
+                <fullName>Flyer/Volante</fullName>
+                <default>false</default>
+                <label>Flyer/Volante</label>
+            </value>
+            <value>
+                <fullName>Inbound</fullName>
+                <default>false</default>
+                <label>Inbound</label>
+            </value>
+            <value>
+                <fullName>Instagram</fullName>
+                <default>false</default>
+                <label>Instagram</label>
+            </value>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>Internet / Página Web</fullName>
+                <default>false</default>
+                <label>Internet / Página Web</label>
+            </value>
+            <value>
+                <fullName>Invitación del Asesor</fullName>
+                <default>false</default>
+                <label>Invitación del Asesor</label>
+            </value>
+            <value>
+                <fullName>JAL Cinepolis Centro Sur</fullName>
+                <default>false</default>
+                <label>JAL Cinepolis Centro Sur</label>
+            </value>
+            <value>
+                <fullName>JAL Cinepolis Gran Plaza</fullName>
+                <default>false</default>
+                <label>JAL Cinepolis Gran Plaza</label>
+            </value>
+            <value>
+                <fullName>JAL Mega Mercado Galerías</fullName>
+                <default>false</default>
+                <label>JAL Mega Mercado Galerías</label>
+            </value>
+            <value>
+                <fullName>JAL Plaza Alameda</fullName>
+                <default>false</default>
+                <label>JAL Plaza Alameda</label>
+            </value>
+            <value>
+                <fullName>JAL Plaza Belenes</fullName>
+                <default>false</default>
+                <label>JAL Plaza Belenes</label>
+            </value>
+            <value>
+                <fullName>JAL Plaza la Cima</fullName>
+                <default>false</default>
+                <label>JAL Plaza la Cima</label>
+            </value>
+            <value>
+                <fullName>Javermóvil</fullName>
+                <default>false</default>
+                <label>Javermóvil</label>
+            </value>
+            <value>
+                <fullName>Las Torres</fullName>
+                <default>false</default>
+                <label>Las Torres</label>
+            </value>
+            <value>
+                <fullName>Llamada callcenter</fullName>
+                <default>false</default>
+                <label>Llamada callcenter</label>
+            </value>
+            <value>
+                <fullName>Mailing</fullName>
+                <default>false</default>
+                <label>Mailing</label>
+            </value>
+            <value>
+                <fullName>Mega Mercado</fullName>
+                <default>false</default>
+                <label>Mega Mercado</label>
+            </value>
+            <value>
+                <fullName>Mex CETRAM Toreo</fullName>
+                <default>false</default>
+                <label>Mex CETRAM Toreo</label>
+            </value>
+            <value>
+                <fullName>Mexipuerto</fullName>
+                <default>false</default>
+                <label>Mexipuerto</label>
+            </value>
+            <value>
+                <fullName>Micrositios</fullName>
+                <default>false</default>
+                <label>Micrositios</label>
+            </value>
+            <value>
+                <fullName>Módulo en Punto Estratégico</fullName>
+                <default>false</default>
+                <label>Módulo en Punto Estratégico</label>
+            </value>
+            <value>
+                <fullName>Módulo pagado en Punto Estraté</fullName>
+                <default>false</default>
+                <label>Módulo pagado en Punto Estraté</label>
+            </value>
+            <value>
+                <fullName>NL Isla Comercial Paseo La Fé</fullName>
+                <default>false</default>
+                <label>NL Isla Comercial Paseo La Fé</label>
+            </value>
+            <value>
+                <fullName>NL Local Centro Apodaca</fullName>
+                <default>false</default>
+                <label>NL Local Centro Apodaca</label>
+            </value>
+            <value>
+                <fullName>NL Oficina Valle del Norte</fullName>
+                <default>false</default>
+                <label>NL Oficina Valle del Norte</label>
+            </value>
+            <value>
+                <fullName>NL Módulo Sendero Lincoln</fullName>
+                <default>false</default>
+                <label>NL Módulo Sendero Lincoln</label>
+            </value>
+            <value>
+                <fullName>Pagina web Javer</fullName>
+                <default>false</default>
+                <label>Pagina web Javer</label>
+            </value>
+            <value>
+                <fullName>Pasaba por aquí</fullName>
+                <default>false</default>
+                <label>Pasaba por aquí</label>
+            </value>
+            <value>
+                <fullName>Periferia</fullName>
+                <default>false</default>
+                <label>Periferia</label>
+            </value>
+            <value>
+                <fullName>Periódico</fullName>
+                <default>false</default>
+                <label>Periódico</label>
+            </value>
+            <value>
+                <fullName>Plaza Patria</fullName>
+                <default>false</default>
+                <label>Plaza Patria</label>
+            </value>
+            <value>
+                <fullName>Plaza Sendero Toluca</fullName>
+                <default>false</default>
+                <label>Plaza Sendero Toluca</label>
+            </value>
+            <value>
+                <fullName>Portales Inmobiliarios</fullName>
+                <default>false</default>
+                <label>Portales Inmobiliarios</label>
+            </value>
+            <value>
+                <fullName>Póster</fullName>
+                <default>false</default>
+                <label>Póster</label>
+            </value>
+            <value>
+                <fullName>Power Center Tecamac</fullName>
+                <default>false</default>
+                <label>Power Center Tecamac</label>
+            </value>
+            <value>
+                <fullName>Prensa</fullName>
+                <default>false</default>
+                <label>Prensa</label>
+            </value>
+            <value>
+                <fullName>Prensa/Revista</fullName>
+                <default>false</default>
+                <label>Prensa/Revista</label>
+            </value>
+            <value>
+                <fullName>Promotor Externo</fullName>
+                <default>false</default>
+                <label>Promotor Externo</label>
+            </value>
+            <value>
+                <fullName>Prospección</fullName>
+                <default>false</default>
+                <label>Prospección</label>
+            </value>
+            <value>
+                <fullName>Publicidad en Autobuses</fullName>
+                <default>false</default>
+                <label>Publicidad en Autobuses</label>
+            </value>
+            <value>
+                <fullName>QIR Bodega Aurrera</fullName>
+                <default>false</default>
+                <label>QIR Bodega Aurrera</label>
+            </value>
+            <value>
+                <fullName>QIR Chedraui</fullName>
+                <default>false</default>
+                <label>QIR Chedraui</label>
+            </value>
+            <value>
+                <fullName>QIR Croc</fullName>
+                <default>false</default>
+                <label>QIR Croc</label>
+            </value>
+            <value>
+                <fullName>QIR Gran Plaza</fullName>
+                <default>false</default>
+                <label>QIR Gran Plaza</label>
+            </value>
+            <value>
+                <fullName>QIR Mis Heroes</fullName>
+                <default>false</default>
+                <label>QIR Mis Heroes</label>
+            </value>
+            <value>
+                <fullName>QIR Municipio</fullName>
+                <default>false</default>
+                <label>QIR Municipio</label>
+            </value>
+            <value>
+                <fullName>QIR Plaza Cancun Mall</fullName>
+                <default>false</default>
+                <label>QIR Plaza Cancun Mall</label>
+            </value>
+            <value>
+                <fullName>QIR Plaza Galerías</fullName>
+                <default>false</default>
+                <label>QIR Plaza Galerías</label>
+            </value>
+            <value>
+                <fullName>QIR Plaza las Americas</fullName>
+                <default>false</default>
+                <label>QIR Plaza las Americas</label>
+            </value>
+            <value>
+                <fullName>QIR Plaza Las Tiendas</fullName>
+                <default>false</default>
+                <label>QIR Plaza Las Tiendas</label>
+            </value>
+            <value>
+                <fullName>QIR Tianguis</fullName>
+                <default>false</default>
+                <label>QIR Tianguis</label>
+            </value>
+            <value>
+                <fullName>Qro Local Alvaro Obregón</fullName>
+                <default>false</default>
+                <label>Qro Local Alvaro Obregón</label>
+            </value>
+            <value>
+                <fullName>Qro Módulo Las Américas</fullName>
+                <default>false</default>
+                <label>Qro Módulo Las Américas</label>
+            </value>
+            <value>
+                <fullName>Radio</fullName>
+                <default>false</default>
+                <label>Radio</label>
+            </value>
+            <value>
+                <fullName>Recomienda y Gana</fullName>
+                <default>false</default>
+                <label>Recomienda y Gana</label>
+            </value>
+            <value>
+                <fullName>Referido</fullName>
+                <default>false</default>
+                <label>Referido</label>
+            </value>
+            <value>
+                <fullName>Referido/Recomendación</fullName>
+                <default>false</default>
+                <label>Referido/Recomendación</label>
+            </value>
+            <value>
+                <fullName>Rey Módulo Tienda Guajardo</fullName>
+                <default>false</default>
+                <label>Rey Módulo Tienda Guajardo</label>
+            </value>
+            <value>
+                <fullName>Señalizacion</fullName>
+                <default>false</default>
+                <label>Señalizacion</label>
+            </value>
+            <value>
+                <fullName>Soriana Plaza del Sol</fullName>
+                <default>false</default>
+                <label>Soriana Plaza del Sol</label>
+            </value>
+            <value>
+                <fullName>Soriana Solidaridad</fullName>
+                <default>false</default>
+                <label>Soriana Solidaridad</label>
+            </value>
+            <value>
+                <fullName>Telemarketing</fullName>
+                <default>false</default>
+                <label>Telemarketing</label>
+            </value>
+            <value>
+                <fullName>Televisión</fullName>
+                <default>false</default>
+                <label>Televisión</label>
+            </value>
+            <value>
+                <fullName>Twitter</fullName>
+                <default>false</default>
+                <label>Twitter</label>
+            </value>
+            <value>
+                <fullName>Vecino</fullName>
+                <default>false</default>
+                <label>Vecino</label>
+            </value>
+            <value>
+                <fullName>Velaria Mall</fullName>
+                <default>false</default>
+                <label>Velaria Mall</label>
+            </value>
+            <value>
+                <fullName>Volante</fullName>
+                <default>false</default>
+                <label>Volante</label>
+            </value>
+            <value>
+                <fullName>Walmart Buenavista</fullName>
+                <default>false</default>
+                <label>Walmart Buenavista</label>
+            </value>
+            <value>
+                <fullName>Walmart Metepec</fullName>
+                <default>false</default>
+                <label>Walmart Metepec</label>
+            </value>
+            <value>
+                <fullName>Whatsapp</fullName>
+                <default>false</default>
+                <label>Whatsapp</label>
+            </value>
+            <value>
+                <fullName>Youtube</fullName>
+                <default>false</default>
+                <label>Youtube</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <controllingFieldValue>Medio Publicitario</controllingFieldValue>
+            <valueName>Activación/Evento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <valueName>Activación/Evento/Periferia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>AGS Feria CANADEVI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>AGS Moctezuma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>AGS Plaza Universidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>AGS San Diego</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Ags Villa Asunción</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Cambaceo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <controllingFieldValue>Medio Publicitario</controllingFieldValue>
+            <valueName>Cartelera Móvil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>CETRAM Rosario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Contacto Telefónico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <controllingFieldValue>Medio Publicitario</controllingFieldValue>
+            <valueName>Correo Directo/Carta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Edomex Expo Tu Casa Total WTC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Edo Mex Galerias Perinorte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Edomex Plaza Juarez</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>En Calle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>En Empresa (Venta Empresarial)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <controllingFieldValue>Medio Publicitario</controllingFieldValue>
+            <valueName>Expo/Feria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Feria Revolución CDMX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Feria Zocalo D.F.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>JAL Cinepolis Centro Sur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>JAL Cinepolis Gran Plaza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>JAL Mega Mercado Galerías</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>JAL Plaza Alameda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>JAL Plaza Belenes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>JAL Plaza la Cima</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Javermóvil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Las Torres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Mega Mercado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Mex CETRAM Toreo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Mexipuerto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Módulo en Punto Estratégico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <controllingFieldValue>Medio Publicitario</controllingFieldValue>
+            <valueName>Módulo pagado en Punto Estraté</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>NL Isla Comercial Paseo La Fé</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>NL Local Centro Apodaca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>NL Oficina Valle del Norte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>NL Módulo Sendero Lincoln</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Plaza Patria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Plaza Sendero Toluca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Power Center Tecamac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Promotor Externo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>QIR Bodega Aurrera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>QIR Chedraui</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>QIR Croc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>QIR Gran Plaza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>QIR Mis Heroes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>QIR Municipio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>QIR Plaza Cancun Mall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>QIR Plaza Galerías</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>QIR Plaza las Americas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>QIR Plaza Las Tiendas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>QIR Tianguis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Qro Local Alvaro Obregón</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Qro Módulo Las Américas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Referido/Recomendación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Rey Módulo Tienda Guajardo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Soriana Plaza del Sol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Soriana Solidaridad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Velaria Mall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <controllingFieldValue>Medio Publicitario</controllingFieldValue>
+            <valueName>Volante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Walmart Buenavista</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospección</controllingFieldValue>
+            <valueName>Walmart Metepec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <controllingFieldValue>Medio Publicitario</controllingFieldValue>
+            <valueName>Call Center / Telemarketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <valueName>Cita Asesor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <controllingFieldValue>Medios Digitales</controllingFieldValue>
+            <valueName>Facebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <controllingFieldValue>Medios Digitales</controllingFieldValue>
+            <valueName>Micrositios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <controllingFieldValue>Medios Digitales</controllingFieldValue>
+            <valueName>Pagina web Javer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <controllingFieldValue>Medios Digitales</controllingFieldValue>
+            <valueName>Portales Inmobiliarios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <valueName>Prensa/Revista</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <valueName>Prospección</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <controllingFieldValue>Medio Publicitario</controllingFieldValue>
+            <valueName>Radio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <controllingFieldValue>Medio Publicitario</controllingFieldValue>
+            <valueName>Señalizacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Llamada Call Center</controllingFieldValue>
+            <controllingFieldValue>Medio Publicitario</controllingFieldValue>
+            <valueName>Televisión</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medio Publicitario</controllingFieldValue>
+            <valueName>Espectacular/Cartelera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medio Publicitario</controllingFieldValue>
+            <valueName>Prensa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medio Publicitario</controllingFieldValue>
+            <valueName>Publicidad en Autobuses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios Digitales</controllingFieldValue>
+            <valueName>Blogger/Tania Rendón</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios Digitales</controllingFieldValue>
+            <valueName>Facebook Inbox</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios Digitales</controllingFieldValue>
+            <valueName>Inbound</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios Digitales</controllingFieldValue>
+            <valueName>Instagram</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios Digitales</controllingFieldValue>
+            <valueName>Internet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios Digitales</controllingFieldValue>
+            <valueName>Internet / Página Web</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios Digitales</controllingFieldValue>
+            <valueName>Twitter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios Digitales</controllingFieldValue>
+            <valueName>Whatsapp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medios Digitales</controllingFieldValue>
+            <valueName>Youtube</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programas Institucionales</controllingFieldValue>
+            <valueName>Colaborador Javer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programas Institucionales</controllingFieldValue>
+            <valueName>Convenio Femsa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programas Institucionales</controllingFieldValue>
+            <valueName>Convenio Pabellon M</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programas Institucionales</controllingFieldValue>
+            <valueName>Eventos (Macroventa, Súpervta)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Programas Institucionales</controllingFieldValue>
+            <valueName>Recomienda y Gana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Referidos</controllingFieldValue>
+            <valueName>Compañero de Trabajo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Referidos</controllingFieldValue>
+            <valueName>Familiar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Referidos</controllingFieldValue>
+            <valueName>Vecino</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

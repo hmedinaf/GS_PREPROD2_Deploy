@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Vigencia_Asesor</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND($User.is_Data_Migration_User__c = false,
+ !IsVRBypassed__c,
+	PRIORVALUE(Asesor__c) &lt;&gt; &#39;&#39;,
+ ISCHANGED(Asesor__c),
+ Fecha_Vencimiento_Asesor__c &gt;= TODAY(),
+ Desasignacion_Auto_Asesor__c = false
+)</errorConditionFormula>
+    <errorDisplayField>Asesor__c</errorDisplayField>
+    <errorMessage>No se puede modificar el Asesor pues aún no termina su periodo de vigencia.</errorMessage>
+</ValidationRule>

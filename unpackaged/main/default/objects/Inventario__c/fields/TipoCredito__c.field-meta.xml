@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TipoCredito__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de crédito</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BANCO - SOFOL</fullName>
+                <default>false</default>
+                <label>BANCO - SOFOL</label>
+            </value>
+            <value>
+                <fullName>BANJERCITO</fullName>
+                <default>false</default>
+                <label>BANJERCITO</label>
+            </value>
+            <value>
+                <fullName>CAJA FLORENCIO ROSAS</fullName>
+                <default>false</default>
+                <label>CAJA FLORENCIO ROSAS</label>
+            </value>
+            <value>
+                <fullName>CONTADO</fullName>
+                <default>false</default>
+                <label>CONTADO</label>
+            </value>
+            <value>
+                <fullName>CONTINGENCIA</fullName>
+                <default>false</default>
+                <label>CONTINGENCIA</label>
+            </value>
+            <value>
+                <fullName>FOVISSSTE</fullName>
+                <default>false</default>
+                <label>FOVISSSTE</label>
+            </value>
+            <value>
+                <fullName>INFONAVIT</fullName>
+                <default>false</default>
+                <label>INFONAVIT</label>
+            </value>
+            <value>
+                <fullName>ISSFAM</fullName>
+                <default>false</default>
+                <label>ISSFAM</label>
+            </value>
+            <value>
+                <fullName>ISSSTELEON</fullName>
+                <default>false</default>
+                <label>ISSSTELEON</label>
+            </value>
+            <value>
+                <fullName>SHF/BANCO</fullName>
+                <default>false</default>
+                <label>SHF/BANCO</label>
+            </value>
+            <value>
+                <fullName>PENSIONES</fullName>
+                <default>false</default>
+                <label>PENSIONES</label>
+            </value>
+            <value>
+                <fullName>COFINAVIT</fullName>
+                <default>false</default>
+                <label>COFINAVIT</label>
+            </value>
+            <value>
+                <fullName>BANSEFI</fullName>
+                <default>false</default>
+                <label>BANSEFI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

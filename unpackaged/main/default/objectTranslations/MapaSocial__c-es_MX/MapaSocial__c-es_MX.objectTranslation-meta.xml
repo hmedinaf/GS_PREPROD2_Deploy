@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mapa Social</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Mapa Social</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Mapa Social</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- AguaDrenajeMonterrey --></label>
+        <name>AguaDrenajeMonterrey</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CasasJaver --></label>
+        <name>CasasJaver</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CoberturaCalidad --></label>
+        <name>CoberturaCalidad</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ComisionFederalElectricidad --></label>
+        <name>ComisionFederalElectricidad</name>
+    </webLinks>
+</CustomObjectTranslation>

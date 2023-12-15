@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Todos_los_Registros_Pendientes</fullName>
+    <columns>NAME</columns>
+    <columns>Estatus_UST__c</columns>
+    <columns>Estatus_UST_Formula__c</columns>
+    <columns>Opportunity_Id__c</columns>
+    <columns>Link_Proceso_de_Venta__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Id_Proceso_AR__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Estatus_UST__c</field>
+        <operation>equals</operation>
+        <value>Nuevo,En Proceso,Falló</value>
+    </filters>
+    <label>Todos los Registros Pendientes</label>
+</ListView>

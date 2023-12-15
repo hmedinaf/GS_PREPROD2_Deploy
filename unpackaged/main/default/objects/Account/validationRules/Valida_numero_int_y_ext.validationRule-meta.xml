@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_numero_int_y_ext</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(NOT(ISPICKVAL(TipoCredito__c, &quot;&quot;)) &amp;&amp; RecordType.Name=&quot;Contacto&quot;, 
+ISBLANK(NumeroInterior__c) &amp;&amp; ISBLANK(NumeroExterior__c), null)</errorConditionFormula>
+    <errorDisplayField>NumeroExterior__c</errorDisplayField>
+    <errorMessage>Debe capturar al menos un numero Interior o exterior</errorMessage>
+</ValidationRule>

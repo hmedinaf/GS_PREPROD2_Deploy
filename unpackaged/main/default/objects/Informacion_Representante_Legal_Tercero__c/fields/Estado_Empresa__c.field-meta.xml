@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estado_Empresa__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Estado Empresa</label>
+    <referenceTo>Estado__c</referenceTo>
+    <relationshipLabel>Informacion_Representante_Legal_Tercero (Estado Empresa)</relationshipLabel>
+    <relationshipName>Informacion_Representante_Legal_Tercero1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

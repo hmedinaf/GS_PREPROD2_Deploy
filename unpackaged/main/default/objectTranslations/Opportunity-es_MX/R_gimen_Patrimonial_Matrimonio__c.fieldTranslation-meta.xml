@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Régimen Patrimonial Matrimonio --></label>
+        <name>R_gimen_Patrimonial_Matrimonio__c</name>
+        <picklistValues>
+            <masterLabel>No Aplica</masterLabel>
+            <translation><!-- No Aplica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Separación de Bienes</masterLabel>
+            <translation><!-- Separación de Bienes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sociedad Conyugal</masterLabel>
+            <translation><!-- Sociedad Conyugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sociedad Legal</masterLabel>
+            <translation><!-- Sociedad Legal --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

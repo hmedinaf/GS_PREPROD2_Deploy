@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Check List</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Check List</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Planta 1</layout>
+        <sections>
+            <label><!-- Azotea --></label>
+            <section>Azotea</section>
+        </sections>
+        <sections>
+            <label><!-- Exterior --></label>
+            <section>Exterior</section>
+        </sections>
+        <sections>
+            <label><!-- Informacion del Check List --></label>
+            <section>Informacion del Check List</section>
+        </sections>
+        <sections>
+            <label><!-- Kit Ecológico --></label>
+            <section>Kit Ecológico</section>
+        </sections>
+        <sections>
+            <label><!-- Otros --></label>
+            <section>Otros</section>
+        </sections>
+        <sections>
+            <label><!-- Planta Baja --></label>
+            <section>Planta Baja</section>
+        </sections>
+        <sections>
+            <label><!-- Pruebas de servicio --></label>
+            <section>Pruebas de servicio</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Planta 2</layout>
+        <sections>
+            <label><!-- Azotea --></label>
+            <section>Azotea</section>
+        </sections>
+        <sections>
+            <label><!-- Exterior --></label>
+            <section>Exterior</section>
+        </sections>
+        <sections>
+            <label><!-- Información del Check List --></label>
+            <section>Información del Check List</section>
+        </sections>
+        <sections>
+            <label><!-- Kit ecológico --></label>
+            <section>Kit ecológico</section>
+        </sections>
+        <sections>
+            <label><!-- Otros --></label>
+            <section>Otros</section>
+        </sections>
+        <sections>
+            <label><!-- Patio / Lavandería --></label>
+            <section>Patio / Lavandería</section>
+        </sections>
+        <sections>
+            <label><!-- Planta alta --></label>
+            <section>Planta alta</section>
+        </sections>
+        <sections>
+            <label><!-- Planta baja --></label>
+            <section>Planta baja</section>
+        </sections>
+        <sections>
+            <label><!-- Pruebas de servicio --></label>
+            <section>Pruebas de servicio</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Planta 3</layout>
+        <sections>
+            <label><!-- 3 Nivel / sótano --></label>
+            <section>3 Nivel / sótano</section>
+        </sections>
+        <sections>
+            <label><!-- Azotea --></label>
+            <section>Azotea</section>
+        </sections>
+        <sections>
+            <label><!-- Exterior --></label>
+            <section>Exterior</section>
+        </sections>
+        <sections>
+            <label><!-- Información del Check List --></label>
+            <section>Información del Check List</section>
+        </sections>
+        <sections>
+            <label><!-- Kit ecológico --></label>
+            <section>Kit ecológico</section>
+        </sections>
+        <sections>
+            <label><!-- Observaciones --></label>
+            <section>Observaciones</section>
+        </sections>
+        <sections>
+            <label><!-- Patio / Lavandería --></label>
+            <section>Patio / Lavandería</section>
+        </sections>
+        <sections>
+            <label><!-- Planta alta --></label>
+            <section>Planta alta</section>
+        </sections>
+        <sections>
+            <label><!-- Planta baja --></label>
+            <section>Planta baja</section>
+        </sections>
+        <sections>
+            <label><!-- Pruebas de servicio --></label>
+            <section>Pruebas de servicio</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Planta 1 --></label>
+        <name>Planta_1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Planta 2 --></label>
+        <name>Planta_2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Planta 3 --></label>
+        <name>Planta_3</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- No puedes cerrar este Checklist hasta cumplir con el 91% --></errorMessage>
+        <name>CheckListCompletado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar los valores del CheckList 
+Favor de duplicar la versión --></errorMessage>
+        <name>Checklist_planta1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede modificar el Nombre del Checklist. --></errorMessage>
+        <name>No_modificar_nombre_del_check</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- EnviarCheckList --></label>
+        <name>EnviarCheckList</name>
+    </webLinks>
+</CustomObjectTranslation>

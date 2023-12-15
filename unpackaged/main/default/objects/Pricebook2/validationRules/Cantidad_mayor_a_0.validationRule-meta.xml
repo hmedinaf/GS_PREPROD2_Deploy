@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cantidad_mayor_a_0</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$RecordType.Name = &#39;Promoción Precio&#39;,
+NOT(ISNULL( Cantidad__c )),
+Ilimitado__c
+)</errorConditionFormula>
+    <errorDisplayField>Cantidad__c</errorDisplayField>
+    <errorMessage>Si la casilla de &quot;Ilimitado&quot; esta llena, el campo de cantidad debe estar en blanco.</errorMessage>
+</ValidationRule>

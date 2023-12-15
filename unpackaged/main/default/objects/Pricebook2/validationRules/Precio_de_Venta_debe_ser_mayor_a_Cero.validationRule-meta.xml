@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Precio_de_Venta_debe_ser_mayor_a_Cero</fullName>
+    <active>true</active>
+    <description>Se valida que el Precio de Venta sea mayor a Cero</description>
+    <errorConditionFormula>Precio_de_Venta__c  &lt;=   0</errorConditionFormula>
+    <errorDisplayField>Precio_de_Venta__c</errorDisplayField>
+    <errorMessage>El Precio de Venta debe ser mayor a cero.</errorMessage>
+</ValidationRule>

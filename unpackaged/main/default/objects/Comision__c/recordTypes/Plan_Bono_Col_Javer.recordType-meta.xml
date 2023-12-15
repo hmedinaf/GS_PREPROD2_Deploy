@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Bono_Col_Javer</fullName>
+    <active>true</active>
+    <description>Plan Bono Col. Javer</description>
+    <label>Plan Bono Col. Javer</label>
+    <picklistValues>
+        <picklist>Estatus__c</picklist>
+        <values>
+            <fullName>Aprobada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Proceso de Aprobación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

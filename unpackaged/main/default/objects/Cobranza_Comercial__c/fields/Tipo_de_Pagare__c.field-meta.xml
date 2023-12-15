@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Pagare__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Pagaré</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PAGARÉ AHORRO VOLUNTARIO</fullName>
+                <default>false</default>
+                <label>PAGARÉ AHORRO VOLUNTARIO</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ CANCELACIÓN DE NC GN</fullName>
+                <default>false</default>
+                <label>PAGARÉ CANCELACIÓN DE NC GN</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ DEVOLUCIÓN NO APLICA</fullName>
+                <default>false</default>
+                <label>PAGARÉ DEVOLUCIÓN NO APLICA</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ ENGANCHE</fullName>
+                <default>false</default>
+                <label>PAGARÉ ENGANCHE</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ FINANCIERA</fullName>
+                <default>false</default>
+                <label>PAGARÉ FINANCIERA</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ FONDO DE GARANTÍA</fullName>
+                <default>false</default>
+                <label>PAGARÉ FONDO DE GARANTÍA</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ GASTO AVALÚO</fullName>
+                <default>false</default>
+                <label>PAGARÉ GASTO AVALÚO</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ GASTO CRÉDITO DIRECTO</fullName>
+                <default>false</default>
+                <label>PAGARÉ GASTO CRÉDITO DIRECTO</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ GASTOS NOTARIALES</fullName>
+                <default>false</default>
+                <label>PAGARÉ GASTOS NOTARIALES</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ GASTOS OPERATIVOS</fullName>
+                <default>false</default>
+                <label>PAGARÉ GASTOS OPERATIVOS</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ POSTVENTA</fullName>
+                <default>false</default>
+                <label>PAGARÉ POSTVENTA</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ POSTVENTA REESTRUCTURA FINANCIERA</fullName>
+                <default>false</default>
+                <label>PAGARÉ POSTVENTA REESTRUCTURA FINANCIERA</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ PREVENTA</fullName>
+                <default>false</default>
+                <label>PAGARÉ PREVENTA</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ REEMBOLSO CANCELACIÓN</fullName>
+                <default>false</default>
+                <label>PAGARÉ REEMBOLSO CANCELACIÓN</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ REEMBOLSO ESCRITURA</fullName>
+                <default>false</default>
+                <label>PAGARÉ REEMBOLSO ESCRITURA</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ REESTRUCTURA POST VENTA</fullName>
+                <default>false</default>
+                <label>PAGARÉ REESTRUCTURA POST VENTA</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ REVERSA BONIFICACIÓN</fullName>
+                <default>false</default>
+                <label>PAGARÉ REVERSA BONIFICACIÓN</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ SEGURO FINANCIERA</fullName>
+                <default>false</default>
+                <label>PAGARÉ SEGURO FINANCIERA</label>
+            </value>
+            <value>
+                <fullName>PAGARÉ SUBSIDIO</fullName>
+                <default>false</default>
+                <label>PAGARÉ SUBSIDIO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

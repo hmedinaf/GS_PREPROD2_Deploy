@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Presupuesto de compra --></label>
+        <name>JMC_PresupuestoCompra__c</name>
+        <picklistValues>
+            <masterLabel>$1,000,001 a $2,000,000</masterLabel>
+            <translation><!-- $1,000,001 a $2,000,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$500,001 a $700,000</masterLabel>
+            <translation><!-- $500,001 a $700,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$700,001 a $1,000,000</masterLabel>
+            <translation><!-- $700,001 a $1,000,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2,000,001 o más</masterLabel>
+            <translation><!-- 2,000,001 o más --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menos de $500,000</masterLabel>
+            <translation><!-- Menos de $500,000 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

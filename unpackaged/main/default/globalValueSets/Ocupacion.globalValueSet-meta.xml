@@ -1,0 +1,1520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>8240100</fullName>
+        <default>false</default>
+        <label>8240100 ADMINISTRACION - ASISTENTES ADMINISTRATIVOS</label>
+    </customValue>
+    <customValue>
+        <fullName>8220400</fullName>
+        <default>false</default>
+        <label>8220400 ADMINISTRACION - CAPTURISTA Y OPERADORES DE TELEFONO</label>
+    </customValue>
+    <customValue>
+        <fullName>8250100</fullName>
+        <default>false</default>
+        <label>8250100 ADMINISTRACION - CONSULTORES</label>
+    </customValue>
+    <customValue>
+        <fullName>8240200</fullName>
+        <default>false</default>
+        <label>8240200 ADMINISTRACION - CONTADORES Y AUDITORES</label>
+    </customValue>
+    <customValue>
+        <fullName>8230300</fullName>
+        <default>false</default>
+        <label>8230300 ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE COMPRAS, FINANZAS, RECURSOS HUMANOS Y SERVICIOS ADMINISTRATIVOS</label>
+    </customValue>
+    <customValue>
+        <fullName>8250800</fullName>
+        <default>false</default>
+        <label>8250800 ADMINISTRACION - DIRECTORES, GERENTES Y EMPELADOS ADMINISTRATIVOS</label>
+    </customValue>
+    <customValue>
+        <fullName>8250200</fullName>
+        <default>false</default>
+        <label>8250200 ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE COMERCIALIZACION</label>
+    </customValue>
+    <customValue>
+        <fullName>8240600</fullName>
+        <default>false</default>
+        <label>8240600 ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE PRODUCCION</label>
+    </customValue>
+    <customValue>
+        <fullName>8240700</fullName>
+        <default>false</default>
+        <label>8240700 ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE SERVICIOS DE TRANSPORTE</label>
+    </customValue>
+    <customValue>
+        <fullName>8220600</fullName>
+        <default>false</default>
+        <label>8220600 ADMINISTRACION - PAGADORES Y COBRADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>8210100</fullName>
+        <default>false</default>
+        <label>8210100 ADMINISTRACION - TRABAJADORES DE ARCHIVO, ALMACEN DE INVENTARIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>1110100</fullName>
+        <default>false</default>
+        <label>1110100 AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES AGRICOLAS</label>
+    </customValue>
+    <customValue>
+        <fullName>1110400</fullName>
+        <default>false</default>
+        <label>1110400 AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES SILVICOLAS Y FORESTALES</label>
+    </customValue>
+    <customValue>
+        <fullName>7230200</fullName>
+        <default>false</default>
+        <label>7230200 ALIMENTACION Y HOSPEDAJE - JEFES DE COCINA, RESTAURANTE Y/O BAR</label>
+    </customValue>
+    <customValue>
+        <fullName>7210100</fullName>
+        <default>false</default>
+        <label>7210100 ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIO DE ALIMENTOS Y BEBIDAS</label>
+    </customValue>
+    <customValue>
+        <fullName>7240200</fullName>
+        <default>false</default>
+        <label>7240200 ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIOS DE ALOJAMIENTO</label>
+    </customValue>
+    <customValue>
+        <fullName>5310700</fullName>
+        <default>false</default>
+        <label>5310700 ALIMENTOS Y BEBIDAS - TRABAJADORES EN LA ELABORACION Y PROCESAMIENTO DE ALIMENTOS, BEBIDAS Y TABACO</label>
+    </customValue>
+    <customValue>
+        <fullName>8140100</fullName>
+        <default>false</default>
+        <label>8140100 BOLSA, BANCA Y SEGUROS - AGENTES DE VALORES, PROMOTORES Y CORREDORES DE INVERSION</label>
+    </customValue>
+    <customValue>
+        <fullName>8120100</fullName>
+        <default>false</default>
+        <label>8120100 BOLSA, BANCA Y SEGUROS - GERENTES O TRABAJADORES DE SERVICIOS Y PRODUCTOS FINANCIEROS</label>
+    </customValue>
+    <customValue>
+        <fullName>8130500</fullName>
+        <default>false</default>
+        <label>8130500 BOLSA, BANCA Y SEGUROS - VALUADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>7120100</fullName>
+        <default>false</default>
+        <label>7120100 COMERCIO - CAJEROS REGISTRADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>7110200</fullName>
+        <default>false</default>
+        <label>7110200 COMERCIO - DESPACHADORES DE GASOLINERA</label>
+    </customValue>
+    <customValue>
+        <fullName>7110300</fullName>
+        <default>false</default>
+        <label>7110300 COMERCIO - EMPACADORES DE MERCANCIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>7140200</fullName>
+        <default>false</default>
+        <label>7140200 COMERCIO - GERENTES O EMPLEADOS DE VENTAS</label>
+    </customValue>
+    <customValue>
+        <fullName>7140100</fullName>
+        <default>false</default>
+        <label>7140100 COMERCIO - GERENTES O SUPERVISOR DE ESTABLECIMIENTO COMERCIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>7130200</fullName>
+        <default>false</default>
+        <label>7130200 COMERCIO - REPRESENTANTES DE VENTAS POR TELEFONO O POR TELEVISION</label>
+    </customValue>
+    <customValue>
+        <fullName>7110500</fullName>
+        <default>false</default>
+        <label>7110500 COMERCIO - TAQUILLEROS</label>
+    </customValue>
+    <customValue>
+        <fullName>7110600</fullName>
+        <default>false</default>
+        <label>7110600 COMERCIO - VENDEDORES AMBULANTES</label>
+    </customValue>
+    <customValue>
+        <fullName>7130400</fullName>
+        <default>false</default>
+        <label>7130400 COMERCIO - VENDEDORES ESPECIALIZADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>3130300</fullName>
+        <default>false</default>
+        <label>3130300 CONSTRUCCION - INGENIEROS, TECNICOS Y OPERADORES DE LA CONSTRUCCION</label>
+    </customValue>
+    <customValue>
+        <fullName>3420200</fullName>
+        <default>false</default>
+        <label>3420200 CONSTRUCCION - ARQUITECTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>3310300</fullName>
+        <default>false</default>
+        <label>3310300 CONSTRUCCION - COLOCADORES DE PRODUCTOS PREFABRICADOS EN INMUEBLES</label>
+    </customValue>
+    <customValue>
+        <fullName>3130100</fullName>
+        <default>false</default>
+        <label>3130100 CONSTRUCCION - DECORADORES DE INTERIORES</label>
+    </customValue>
+    <customValue>
+        <fullName>3310400</fullName>
+        <default>false</default>
+        <label>3310400 CONSTRUCCION - PINTORES</label>
+    </customValue>
+    <customValue>
+        <fullName>3420100</fullName>
+        <default>false</default>
+        <label>3420100 CONSTRUCCION - PLOMEROS E INSTALADORES DE TUBERIA</label>
+    </customValue>
+    <customValue>
+        <fullName>3410200</fullName>
+        <default>false</default>
+        <label>3410200 CONSTRUCCION - REPARADORES DE VIAS DE COMUNICACION</label>
+    </customValue>
+    <customValue>
+        <fullName>3310600</fullName>
+        <default>false</default>
+        <label>3310600 CONSTRUCCION - VIDRIEROS</label>
+    </customValue>
+    <customValue>
+        <fullName>7430100</fullName>
+        <default>false</default>
+        <label>7430100 DEPORTE Y ESPARCIMIENTO - ANIMADORES RECREATIVOS</label>
+    </customValue>
+    <customValue>
+        <fullName>7430200</fullName>
+        <default>false</default>
+        <label>7430200 DEPORTE Y ESPARCIMIENTO - ATLETAS, ENTRENADORES O INSTRUCTORES EN DEPORTE Y RECREACION</label>
+    </customValue>
+    <customValue>
+        <fullName>7430400</fullName>
+        <default>false</default>
+        <label>7430400 DEPORTE Y ESPARCIMIENTO - OFICIALES, JUECES Y ARBITROS DEPORTIVOS</label>
+    </customValue>
+    <customValue>
+        <fullName>1133010</fullName>
+        <default>false</default>
+        <label>1133010 DIFUSION CULTURAL - PROMOTORES DE DIFUSION CULTURAL</label>
+    </customValue>
+    <customValue>
+        <fullName>1134010</fullName>
+        <default>false</default>
+        <label>1134010 DIFUSION CULTURAL - TRABAJADORES DE BIBLIOTECA, ARCHIVO, MUSEO Y GALERIA DE ARTE</label>
+    </customValue>
+    <customValue>
+        <fullName>4230200</fullName>
+        <default>false</default>
+        <label>4230200 ELECTRICIDAD - INGENIEROS O TECNICOS ELECTRICISTAS</label>
+    </customValue>
+    <customValue>
+        <fullName>4230500</fullName>
+        <default>false</default>
+        <label>4230500 ELECTRICIDAD - TECNICOS EN REFRIGERACION, AIRE ACONDICIONADO Y CALEFACCION</label>
+    </customValue>
+    <customValue>
+        <fullName>4330200</fullName>
+        <default>false</default>
+        <label>4330200 ELECTRONICA - INGENIERO O TECNICOS EN ELECTRONICA</label>
+    </customValue>
+    <customValue>
+        <fullName>4330100</fullName>
+        <default>false</default>
+        <label>4330100 ELECTRONICA - MECANICOS DE INSTRUMENTOS INDUSTRIALES</label>
+    </customValue>
+    <customValue>
+        <fullName>1123020</fullName>
+        <default>false</default>
+        <label>1123020 ENSEÑANZA - CAPACITADORES E INSTRUCTORES</label>
+    </customValue>
+    <customValue>
+        <fullName>1125010</fullName>
+        <default>false</default>
+        <label>1125010 ENSEÑANZA - DIRECTORES GENERALES DE EDUCACION</label>
+    </customValue>
+    <customValue>
+        <fullName>1124070</fullName>
+        <default>false</default>
+        <label>1124070 ENSEÑANZA - PROFESORES O DOCENTES</label>
+    </customValue>
+    <customValue>
+        <fullName>1220200</fullName>
+        <default>false</default>
+        <label>1220200 GANADERIA - ADMINISTRADORES, CRIADORES O SUPERVISORES AVICOLAS Y GANADEROS</label>
+    </customValue>
+    <customValue>
+        <fullName>1220100</fullName>
+        <default>false</default>
+        <label>1220100 GANADERIA - APICULTORES</label>
+    </customValue>
+    <customValue>
+        <fullName>4430200</fullName>
+        <default>false</default>
+        <label>4430200 INFORMATICA - INGENIERO O TECNICOS PROGRAMADORES EN INFORMATICA</label>
+    </customValue>
+    <customValue>
+        <fullName>4440100</fullName>
+        <default>false</default>
+        <label>4440100 INFORMATICA - PROFESIONISTAS O TECNICOS DE SISTEMAS DE INFORMACION Y PROCESAMIENTO DE DATOS</label>
+    </customValue>
+    <customValue>
+        <fullName>9230100</fullName>
+        <default>false</default>
+        <label>9230100 INSPECCION - INSPECTORES DE SALUD AMBIENTAL, SANIDAD Y DEL TRABAJO</label>
+    </customValue>
+    <customValue>
+        <fullName>9230200</fullName>
+        <default>false</default>
+        <label>9230200 INSPECCION - INSPECTORES DE TRANSPORTE DE CARGA Y DE PASAJEROS</label>
+    </customValue>
+    <customValue>
+        <fullName>9230300</fullName>
+        <default>false</default>
+        <label>9230300 INSPECCION - INSPECTORES FISCALES Y DE PRECIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>9230400</fullName>
+        <default>false</default>
+        <label>9230400 INSPECCION - INSPECTORES SANITARIOS Y DE CONTROL DE CALIDAD DE PRODUCTOS CARNICOS, PESQUEROS Y AGRICOLAS</label>
+    </customValue>
+    <customValue>
+        <fullName>1033010</fullName>
+        <default>false</default>
+        <label>1033010 INTERPRETACION ARTISTICA - ACTORES, BAILARINES, MUSICOS, ESCRITORES</label>
+    </customValue>
+    <customValue>
+        <fullName>1033020</fullName>
+        <default>false</default>
+        <label>1033020 INTERPRETACION ARTISTICA - ARTESANOS</label>
+    </customValue>
+    <customValue>
+        <fullName>1034010</fullName>
+        <default>false</default>
+        <label>1034010 INTERPRETACION ARTISTICA - ARTISTAS PLASTICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>1033040</fullName>
+        <default>false</default>
+        <label>1033040 INTERPRETACION ARTISTICA - FOTOGRAFOS</label>
+    </customValue>
+    <customValue>
+        <fullName>1113010</fullName>
+        <default>false</default>
+        <label>1113010 INVESTIGACION - ASISTENTES DE INVESTIGADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>1114010</fullName>
+        <default>false</default>
+        <label>1114010 INVESTIGACION - BIOLOGOS Y CIENTIFICOS RELACIONADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>1114020</fullName>
+        <default>false</default>
+        <label>1114020 INVESTIGACION - ECONOMISTAS Y POLITOLOGOS (NO FUNCIONARIOS PUBLICOS)</label>
+    </customValue>
+    <customValue>
+        <fullName>1112010</fullName>
+        <default>false</default>
+        <label>1112010 INVESTIGACION - ENCUESTADORES Y CODIFICADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>1114030</fullName>
+        <default>false</default>
+        <label>1114030 INVESTIGACION - FISICOS ASTRONOMOS</label>
+    </customValue>
+    <customValue>
+        <fullName>1114040</fullName>
+        <default>false</default>
+        <label>1114040 INVESTIGACION - GEOLOGOS, GEOQUIMICOS, GEOFISICOS Y GEOGRAFOS</label>
+    </customValue>
+    <customValue>
+        <fullName>1114050</fullName>
+        <default>false</default>
+        <label>1114050 INVESTIGACION - INVESTIGADORES Y CONSULTORES EN MERCADOTECNIA</label>
+    </customValue>
+    <customValue>
+        <fullName>1114060</fullName>
+        <default>false</default>
+        <label>1114060 INVESTIGACION - MATEMATICOS, ESTADISTICOS Y ACTUARIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>1114070</fullName>
+        <default>false</default>
+        <label>1114070 INVESTIGACION - METEOROLOGOS</label>
+    </customValue>
+    <customValue>
+        <fullName>1113020</fullName>
+        <default>false</default>
+        <label>1113020 INVESTIGACION - QUIMICOS Y/O TECNICOS EN QUIMICA</label>
+    </customValue>
+    <customValue>
+        <fullName>1114090</fullName>
+        <default>false</default>
+        <label>1114090 INVESTIGACION - SOCIOLOGOS, ANTROPOLOGOS E HISTORIADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>7720300</fullName>
+        <default>false</default>
+        <label>7720300 LIMPIEZA - FUMIGADORES DE PLAGAS</label>
+    </customValue>
+    <customValue>
+        <fullName>7720100</fullName>
+        <default>false</default>
+        <label>7720100 LIMPIEZA - SERVICIOS DE CAMARISTAS Y ASEADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>7720200</fullName>
+        <default>false</default>
+        <label>7720200 LIMPIEZA - TRABAJADORES DE TINTORERIA Y LAVANDERIA</label>
+    </customValue>
+    <customValue>
+        <fullName>5510100</fullName>
+        <default>false</default>
+        <label>5510100 MADERA, PAPEL, Y PIEL - TRABAJADORES EN LA FABRICACION DE MUEBLES O PRODUCTOS DE MADERA Y/O PIEL</label>
+    </customValue>
+    <customValue>
+        <fullName>4130500</fullName>
+        <default>false</default>
+        <label>4130500 MECANICA - INGENIERO O MECANICOS INSTALADORES DE MAQUINARIA INDUSTRIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>4131000</fullName>
+        <default>false</default>
+        <label>4131000 MECANICA - INGENIERO O TECNICO EN MECANICA DE VEHICULOS TERRESTRES, AEREOS Y ACUATICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>4130300</fullName>
+        <default>false</default>
+        <label>4130300 MECANICA - MECANICOS DE EQUIPO PESADO</label>
+    </customValue>
+    <customValue>
+        <fullName>5210100</fullName>
+        <default>false</default>
+        <label>5210100 METALES - SUPERVISORES U OPERADORES DE PROCESAMIENTO Y FUNDICION DE METALES</label>
+    </customValue>
+    <customValue>
+        <fullName>5121300</fullName>
+        <default>false</default>
+        <label>5121300 MINERALES NO METALICOS - OPERADORES DE MAQUINAS PROCESADORAS DE MINERALES NO METALICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5110100</fullName>
+        <default>false</default>
+        <label>5110100 MINERALES NO METALICOS - OPERADORES O TRABAJADORES DE VIDRIO Y CONCRETO</label>
+    </customValue>
+    <customValue>
+        <fullName>2210100</fullName>
+        <default>false</default>
+        <label>2210100 MINERIA, EXTRACCION Y SUMINISTRO - AYUDANTES EN LA PERFORACION DE POZOS DE PETROLEO Y GAS NATURAL</label>
+    </customValue>
+    <customValue>
+        <fullName>2530100</fullName>
+        <default>false</default>
+        <label>2530100 MINERIA, EXTRACCION Y SUMINISTRO - GERENTE, SUPERVISOR U OPERADORES DE TRATAMIENTO Y POTABILIZACION, ABASTECIMIENTO Y RECOLECCION DE AGUA</label>
+    </customValue>
+    <customValue>
+        <fullName>2240200</fullName>
+        <default>false</default>
+        <label>2240200 MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS PETROLEROS</label>
+    </customValue>
+    <customValue>
+        <fullName>2140100</fullName>
+        <default>false</default>
+        <label>2140100 MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS, OPERADORES O AYUDANTES EN LA EXTRACCION Y REFINACION MINERA</label>
+    </customValue>
+    <customValue>
+        <fullName>2420100</fullName>
+        <default>false</default>
+        <label>2420100 MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE CENTRALES O SISTEMAS DE ENERGIA ELECTRICAS</label>
+    </customValue>
+    <customValue>
+        <fullName>2420200</fullName>
+        <default>false</default>
+        <label>2420200 MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE MAQUINAS DE VAPOR</label>
+    </customValue>
+    <customValue>
+        <fullName>2130100</fullName>
+        <default>false</default>
+        <label>2130100 MINERIA, EXTRACCION Y SUMINISTRO - TECNICOS GEOLOGICOS Y DE MINERALES</label>
+    </customValue>
+    <customValue>
+        <fullName>1136080</fullName>
+        <default>false</default>
+        <label>1136080 ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES - EMPLEADOS DE ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</label>
+    </customValue>
+    <customValue>
+        <fullName>1135070</fullName>
+        <default>false</default>
+        <label>1135070 OTRAS OCUPACIONES - AGENTE ADUANAL</label>
+    </customValue>
+    <customValue>
+        <fullName>1135050</fullName>
+        <default>false</default>
+        <label>1135050 OTRAS OCUPACIONES - AMA DE CASA O QUEHACERES DEL HOGAR</label>
+    </customValue>
+    <customValue>
+        <fullName>1135020</fullName>
+        <default>false</default>
+        <label>1135020 OTRAS OCUPACIONES - DESEMPLEADO</label>
+    </customValue>
+    <customValue>
+        <fullName>1135010</fullName>
+        <default>false</default>
+        <label>1135010 OTRAS OCUPACIONES - ESTUDIANTE O MENOR DE EDAD SIN OCUPACION</label>
+    </customValue>
+    <customValue>
+        <fullName>1135030</fullName>
+        <default>false</default>
+        <label>1135030 OTRAS OCUPACIONES - JUBILADO O PENSIONADO</label>
+    </customValue>
+    <customValue>
+        <fullName>1135060</fullName>
+        <default>false</default>
+        <label>1135060 OTRAS OCUPACIONES - MINISTROS DE CULTO RELIGIOSO (SACERDOTE, PASTOR, MONJA, ETC)</label>
+    </customValue>
+    <customValue>
+        <fullName>1135080</fullName>
+        <default>false</default>
+        <label>1135080 OTRAS OCUPACIONES - PROPIETARIO, ACCIONISTA O SOCIO</label>
+    </customValue>
+    <customValue>
+        <fullName>1330200</fullName>
+        <default>false</default>
+        <label>1330200 PESCA Y ACUACULTURA - PESCADORES Y TRABAJADORES EN LA CRIA Y CULTIVO DE ESPECIES MARINAS</label>
+    </customValue>
+    <customValue>
+        <fullName>4630100</fullName>
+        <default>false</default>
+        <label>4630100 PROCESOS INDUSTRIALES - INGENIERO O TECNICOS INDUSTRIAL Y DE PRODUCCION</label>
+    </customValue>
+    <customValue>
+        <fullName>4640300</fullName>
+        <default>false</default>
+        <label>4640300 PROCESOS INDUSTRIALES - INGENIEROS METALURGICOS Y DE MATERIALES</label>
+    </customValue>
+    <customValue>
+        <fullName>5810200</fullName>
+        <default>false</default>
+        <label>5810200 PRODUCTOS ELECTRICOS Y ELECTRONICOS - TRABAJADORES EN LA FABRICACION DE PRODUCTOS ELECTRICOS Y ELECTRONICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5910400</fullName>
+        <default>false</default>
+        <label>5910400 PRODUCTOS IMPRESOS - TRABAJADORES EN LA ELABORACION DE PRODUCTOS IMPRESOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5720800</fullName>
+        <default>false</default>
+        <label>5720800 PRODUCTOS METALICOS Y DE HULE Y PLASTICO - ENSAMBLADORES Y ACABADORES DE PRODUCTOS DE PLASTICO</label>
+    </customValue>
+    <customValue>
+        <fullName>5720900</fullName>
+        <default>false</default>
+        <label>5720900 PRODUCTOS METALICOS Y DE HULE Y PLASTICO - FABRICANTES DE HERRAMIENTAS Y TROQUELES</label>
+    </customValue>
+    <customValue>
+        <fullName>5721000</fullName>
+        <default>false</default>
+        <label>5721000 PRODUCTOS METALICOS Y DE HULE Y PLASTICO - HERREROS Y FORJADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>5721100</fullName>
+        <default>false</default>
+        <label>5721100 PRODUCTOS METALICOS Y DE HULE Y PLASTICO - JOYEROS Y ORFEBRES</label>
+    </customValue>
+    <customValue>
+        <fullName>5722900</fullName>
+        <default>false</default>
+        <label>5722900 PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SOLDADORES Y OXICORTADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>5731100</fullName>
+        <default>false</default>
+        <label>5731100 PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SUPERVISORES EN LA FABRICACION Y MONTAJE DE ARTICULOS DEPORTIVOS, DE JUGUETES Y SIMILARES</label>
+    </customValue>
+    <customValue>
+        <fullName>5710200</fullName>
+        <default>false</default>
+        <label>5710200 PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES EN LA FABRICACION DE PRODUCTOS METALICOS, DE HULE Y PLASTICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5730600</fullName>
+        <default>false</default>
+        <label>5730600 PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES EN EL ENSAMBLADO DE VEHICULOS, MOLDEADO, LAMINADO Y MONTAJE DE PIEZAS METALICAS, HULE O PLASTICO</label>
+    </customValue>
+    <customValue>
+        <fullName>5610200</fullName>
+        <default>false</default>
+        <label>5610200 PRODUCTOS QUIMICOS - TRABAJADORES EN EL PROCESAMIENTO Y FABRICACION DE PRODUCTOS QUIMICOS Y FARMACOQUIMICAS</label>
+    </customValue>
+    <customValue>
+        <fullName>9420100</fullName>
+        <default>false</default>
+        <label>9420100 PROTECCION DE BIENES Y/O PERSONAS - BOMBEROS</label>
+    </customValue>
+    <customValue>
+        <fullName>9430100</fullName>
+        <default>false</default>
+        <label>9430100 PROTECCION DE BIENES Y/O PERSONAS - DETECTIVES PRIVADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>9420300</fullName>
+        <default>false</default>
+        <label>9420300 PROTECCION DE BIENES Y/O PERSONAS - GUARDIAS DE SEGURIDAD</label>
+    </customValue>
+    <customValue>
+        <fullName>1054010</fullName>
+        <default>false</default>
+        <label>1054010 PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - DIRECTORES, GERENTES Y EMPLEADOS DE PUBLICIDAD</label>
+    </customValue>
+    <customValue>
+        <fullName>1052010</fullName>
+        <default>false</default>
+        <label>1052010 PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - MODELOS Y EDECANES</label>
+    </customValue>
+    <customValue>
+        <fullName>1023010</fullName>
+        <default>false</default>
+        <label>1023010 RADIO, CINE, TELEVISION Y TEATRO - ASISTENTES Y/U OPERADORES DE PRODUCCION DE CINE, RADIO Y TELEVISION</label>
+    </customValue>
+    <customValue>
+        <fullName>1014010</fullName>
+        <default>false</default>
+        <label>1014010 RADIO, CINE, TELEVISION Y TEATRO - DISEÑADORES GRAFICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>1014030</fullName>
+        <default>false</default>
+        <label>1014030 RADIO, CINE, TELEVISION Y TEATRO - EDITORES, PERIODISTAS, REPORTEROS Y REDACTORES</label>
+    </customValue>
+    <customValue>
+        <fullName>1023070</fullName>
+        <default>false</default>
+        <label>1023070 RADIO, CINE, TELEVISION Y TEATRO - LOCUTORES, COMENTARISTAS Y CRONISTAS DE RADIO Y TELEVISION</label>
+    </customValue>
+    <customValue>
+        <fullName>1024020</fullName>
+        <default>false</default>
+        <label>1024020 RADIO, CINE, TELEVISION Y TEATRO - PRODUCTORES Y DIRECTORES DE CINE, TELEVISION Y TEATRO</label>
+    </customValue>
+    <customValue>
+        <fullName>7620100</fullName>
+        <default>false</default>
+        <label>7620100 REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - CERRAJEROS</label>
+    </customValue>
+    <customValue>
+        <fullName>7630100</fullName>
+        <default>false</default>
+        <label>7630100 REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - RELOJEROS Y REPARADORES DE RELOJES</label>
+    </customValue>
+    <customValue>
+        <fullName>7630200</fullName>
+        <default>false</default>
+        <label>7630200 REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE APARATOS ELECTRICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>7620200</fullName>
+        <default>false</default>
+        <label>7620200 REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE ARTICULOS DE HULE</label>
+    </customValue>
+    <customValue>
+        <fullName>1136090</fullName>
+        <default>false</default>
+        <label>1136090 SECTOR PUBLICO - EJERCITO, ARMADA Y FUERZA AEREA</label>
+    </customValue>
+    <customValue>
+        <fullName>1136010</fullName>
+        <default>false</default>
+        <label>1136010 SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO FEDERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>1136030</fullName>
+        <default>false</default>
+        <label>1136030 SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO MUNICIPAL O DELEGACIONAL</label>
+    </customValue>
+    <customValue>
+        <fullName>1136070</fullName>
+        <default>false</default>
+        <label>1136070 SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL ESTATAL O DEL DISTRITO FEDERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>1136040</fullName>
+        <default>false</default>
+        <label>1136040 SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL FEDERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>1136060</fullName>
+        <default>false</default>
+        <label>1136060 SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO ESTATAL O DEL DISTRITO FEDERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>1136050</fullName>
+        <default>false</default>
+        <label>1136050 SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO FEDERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>1136020</fullName>
+        <default>false</default>
+        <label>1136020 SECTOR PUBLICO - EMPLEADO PODER EJECUTIVO ESTATAL O DEL DISTRITO FEDERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>9330100</fullName>
+        <default>false</default>
+        <label>9330100 SEGURIDAD SOCIAL - CONSEJEROS DE EMPLEO</label>
+    </customValue>
+    <customValue>
+        <fullName>9330300</fullName>
+        <default>false</default>
+        <label>9330300 SEGURIDAD SOCIAL - TRABAJADORES DE SERVICIO SOCIAL Y DE LA COMUNIDAD</label>
+    </customValue>
+    <customValue>
+        <fullName>7810200</fullName>
+        <default>false</default>
+        <label>7810200 SERVICIO POSTAL Y MENSAJERIA - EMPLEADOS DE SERVICIOS DE MENSAJERIA</label>
+    </customValue>
+    <customValue>
+        <fullName>8340100</fullName>
+        <default>false</default>
+        <label>8340100 SERVICIOS LEGALES - ABOGADOS Y ASESORES LEGALES</label>
+    </customValue>
+    <customValue>
+        <fullName>8340300</fullName>
+        <default>false</default>
+        <label>8340300 SERVICIOS LEGALES - NOTARIOS Y CORREDORES PUBLICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>9130300</fullName>
+        <default>false</default>
+        <label>9130300 SERVICIOS MEDICOS - DIETISTAS Y NUTRIOLOGOS</label>
+    </customValue>
+    <customValue>
+        <fullName>9140200</fullName>
+        <default>false</default>
+        <label>9140200 SERVICIOS MEDICOS - DIRECTORES DE INSTITUCIONES EN EL CUIDADO DE LA SALUD</label>
+    </customValue>
+    <customValue>
+        <fullName>9120700</fullName>
+        <default>false</default>
+        <label>9120700 SERVICIOS MEDICOS - ENFERMERAS Y/O PARAMEDICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>9140400</fullName>
+        <default>false</default>
+        <label>9140400 SERVICIOS MEDICOS - FARMACEUTICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>9140500</fullName>
+        <default>false</default>
+        <label>9140500 SERVICIOS MEDICOS - FISIOTERAPEUTAS Y QUIROPRACTICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>9140700</fullName>
+        <default>false</default>
+        <label>9140700 SERVICIOS MEDICOS - MEDICOS ESPECIALISTAS</label>
+    </customValue>
+    <customValue>
+        <fullName>9140800</fullName>
+        <default>false</default>
+        <label>9140800 SERVICIOS MEDICOS - MEDICOS GENERALES Y FAMILIARES</label>
+    </customValue>
+    <customValue>
+        <fullName>9131200</fullName>
+        <default>false</default>
+        <label>9131200 SERVICIOS MEDICOS - TECNICOS DE LABORATORIO MEDICO</label>
+    </customValue>
+    <customValue>
+        <fullName>7530100</fullName>
+        <default>false</default>
+        <label>7530100 SERVICIOS PERSONALES - ESTILISTAS, ESTETICISTAS Y MASAJISTAS</label>
+    </customValue>
+    <customValue>
+        <fullName>7540100</fullName>
+        <default>false</default>
+        <label>7540100 SERVICIOS PERSONALES - TRBAJADORES DE SERVICIOS FUNERARIOS O CEMENTERIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>4530200</fullName>
+        <default>false</default>
+        <label>4530200 TELECOMUNICACIONES - INGENIERO, INSTALADORES Y REPARADORES DE EQUIPOS Y ACCESORIOS DE TELECOMUNICACIONES</label>
+    </customValue>
+    <customValue>
+        <fullName>4530500</fullName>
+        <default>false</default>
+        <label>4530500 TELECOMUNICACIONES - TELEGRAFISTAS Y RADIO-OPERADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>5420700</fullName>
+        <default>false</default>
+        <label>5420700 TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES DE REPARACION DE PRENDAS DE VESTIR Y CALZADO</label>
+    </customValue>
+    <customValue>
+        <fullName>5410100</fullName>
+        <default>false</default>
+        <label>5410100 TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES EN LA PRODUCCION DE TEXTILES, PRENDAS DE VESTIR Y CALZADO</label>
+    </customValue>
+    <customValue>
+        <fullName>1044010</fullName>
+        <default>false</default>
+        <label>1044010 TRADUCCION E INTERPRETACION LINGüISTICA - INTERPRETES Y/O TRADUCTORES</label>
+    </customValue>
+    <customValue>
+        <fullName>6330100</fullName>
+        <default>false</default>
+        <label>6330100 TRANSPORTE AEREO - COORDINADORES Y SUPERVISORES EN SERVICIOS DE TRANSPORTE AEREO</label>
+    </customValue>
+    <customValue>
+        <fullName>6330200</fullName>
+        <default>false</default>
+        <label>6330200 TRANSPORTE AEREO - DESPACHADORES DE VUELO Y ESPECIALISTAS EN SERVICIOS AEREOS</label>
+    </customValue>
+    <customValue>
+        <fullName>6330500</fullName>
+        <default>false</default>
+        <label>6330500 TRANSPORTE AEREO - PILOTOS DE AVIACION E INSTRUCTORES DE VUELO</label>
+    </customValue>
+    <customValue>
+        <fullName>6330600</fullName>
+        <default>false</default>
+        <label>6330600 TRANSPORTE AEREO - SOBRECARGOS</label>
+    </customValue>
+    <customValue>
+        <fullName>6330400</fullName>
+        <default>false</default>
+        <label>6330400 TRANSPORTE AEREO - SUPERVISORES DE SISTEMAS DE COMUNICACION PARA LA AERONAVEGACION</label>
+    </customValue>
+    <customValue>
+        <fullName>6120100</fullName>
+        <default>false</default>
+        <label>6120100 TRANSPORTE FERROVIARIO - CONDUCTORES Y OPERADORES DE TREN SUBTERRANEO Y DE TREN LIGERO</label>
+    </customValue>
+    <customValue>
+        <fullName>6120200</fullName>
+        <default>false</default>
+        <label>6120200 TRANSPORTE FERROVIARIO - TRABAJADORES DE FERROCARRILES</label>
+    </customValue>
+    <customValue>
+        <fullName>6420100</fullName>
+        <default>false</default>
+        <label>6420100 TRANSPORTE MARITIMO Y FLUVIAL - CONDUCTORES DE EMBARCACIONES</label>
+    </customValue>
+    <customValue>
+        <fullName>6430100</fullName>
+        <default>false</default>
+        <label>6430100 TRANSPORTE MARITIMO Y FLUVIAL - JEFES Y CONTROLADORES DE TRAFICO MARITIMO</label>
+    </customValue>
+    <customValue>
+        <fullName>6430300</fullName>
+        <default>false</default>
+        <label>6430300 TRANSPORTE MARITIMO Y FLUVIAL - PILOTOS, CAPITANES DE PUERTOS Y OFICIALES DE CUBIERTA</label>
+    </customValue>
+    <customValue>
+        <fullName>6220100</fullName>
+        <default>false</default>
+        <label>6220100 TRANSPORTE TERRESTRE - CONDUCTORES DE VEHICULOS DE TRANSPORTE, SERVICIOS DE CARGA Y/O REPARTO</label>
+    </customValue>
+    <customValue>
+        <fullName>7330200</fullName>
+        <default>false</default>
+        <label>7330200 TURISMO - COORDINADORES DE OPERACIONES EN AGENCIAS DE VIAJES</label>
+    </customValue>
+    <customValue>
+        <fullName>7330300</fullName>
+        <default>false</default>
+        <label>7330300 TURISMO - GUIAS DE EXCURSIONES O ECOTURISTICO</label>
+    </customValue>
+    <customValue>
+        <fullName>8370023</fullName>
+        <default>false</default>
+        <label>8370023 ASOCIACIONES - ORGANIZACIONES CIVILES</label>
+    </customValue>
+    <customValue>
+        <fullName>8340023</fullName>
+        <default>false</default>
+        <label>8340023 ASOCIACIONES - ORGANIZACIONES DE ACTIVIDADES RECREATIVAS</label>
+    </customValue>
+    <customValue>
+        <fullName>8330023</fullName>
+        <default>false</default>
+        <label>8330023 ASOCIACIONES - ORGANIZACIONES DE PROFESIONISTAS</label>
+    </customValue>
+    <customValue>
+        <fullName>8320023</fullName>
+        <default>false</default>
+        <label>8320023 ASOCIACIONES - ORGANIZACIONES LABORALES Y SINDICALES</label>
+    </customValue>
+    <customValue>
+        <fullName>8360023</fullName>
+        <default>false</default>
+        <label>8360023 ASOCIACIONES - ORGANIZACIONES POLITICAS</label>
+    </customValue>
+    <customValue>
+        <fullName>8350023</fullName>
+        <default>false</default>
+        <label>8350023 ASOCIACIONES - ORGANIZACIONES RELIGIOSAS</label>
+    </customValue>
+    <customValue>
+        <fullName>8310023</fullName>
+        <default>false</default>
+        <label>8310023 ASOCIACIONES - ORGANIZACIONES Y CAMARAS DE PRODUCTORES, COMERCIANTES Y PRESTADORES DE SERVICIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>4760006</fullName>
+        <default>false</default>
+        <label>4760006 COMERCIO - A TRAVES DE INTERNET, Y CATALOGOS IMPRESOS, TELEVISION Y SIMILARES</label>
+    </customValue>
+    <customValue>
+        <fullName>4310006</fullName>
+        <default>false</default>
+        <label>4310006 COMERCIO - ABARROTES, ALIMENTOS, BEBIDAS, HIELO Y TABACO</label>
+    </customValue>
+    <customValue>
+        <fullName>4680006</fullName>
+        <default>false</default>
+        <label>4680006 COMERCIO - ANTIGÜEDADES Y OBRAS DE ARTE</label>
+    </customValue>
+    <customValue>
+        <fullName>4710006</fullName>
+        <default>false</default>
+        <label>4710006 COMERCIO - ARTICULOS DE FERRETERIA, TLAPALERIA Y VIDRIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>4660026</fullName>
+        <default>false</default>
+        <label>4660026 COMERCIO - ARTICULOS DE JOYERIA Y RELOJES</label>
+    </customValue>
+    <customValue>
+        <fullName>4650006</fullName>
+        <default>false</default>
+        <label>4650006 COMERCIO - ARTICULOS DE PAPELERIA</label>
+    </customValue>
+    <customValue>
+        <fullName>4670006</fullName>
+        <default>false</default>
+        <label>4670006 COMERCIO - ARTICULOS PARA LA DECORACION DE INTERIORES</label>
+    </customValue>
+    <customValue>
+        <fullName>4750006</fullName>
+        <default>false</default>
+        <label>4750006 COMERCIO - COMBUSTIBLES Y LUBRICANTES</label>
+    </customValue>
+    <customValue>
+        <fullName>4340006</fullName>
+        <default>false</default>
+        <label>4340006 COMERCIO - MAQUINARIA, EQUIPO DE COMPUTO Y MOBILIARIO DE USO GENERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>4330006</fullName>
+        <default>false</default>
+        <label>4330006 COMERCIO - MATERIAS PRIMAS AGROPECUARIAS Y FORESTALES, PARA LA INDUSTRIA, Y MATERIALES DE DESECHO</label>
+    </customValue>
+    <customValue>
+        <fullName>4740006</fullName>
+        <default>false</default>
+        <label>4740006 COMERCIO - PARTES Y REFACCIONES PARA VEHICULOS</label>
+    </customValue>
+    <customValue>
+        <fullName>4320006</fullName>
+        <default>false</default>
+        <label>4320006 COMERCIO - PRODUCTOS FARMACEUTICOS, DE PERFUMERIA, ARTICULOS PARA EL ESPARCIMIENTO, ELECTRODOMESTICOS Y APARATOS DE LINEA BLANCA</label>
+    </customValue>
+    <customValue>
+        <fullName>4630006</fullName>
+        <default>false</default>
+        <label>4630006 COMERCIO - PRODUCTOS TEXTILES, BISUTERIA, ACCESORIOS DE VESTIR Y CALZADO</label>
+    </customValue>
+    <customValue>
+        <fullName>4620006</fullName>
+        <default>false</default>
+        <label>4620006 COMERCIO - TIENDAS DE AUTOSERVICIO Y DEPARTAMENTALES</label>
+    </customValue>
+    <customValue>
+        <fullName>4720006</fullName>
+        <default>false</default>
+        <label>4720006 COMERCIO - VEHICULOS NUEVOS</label>
+    </customValue>
+    <customValue>
+        <fullName>4730006</fullName>
+        <default>false</default>
+        <label>4730006 COMERCIO - VEHICULOS USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>2720004</fullName>
+        <default>false</default>
+        <label>2720004 CONSTRUCCION - EDIFICACION RESIDENCIAL Y NO RESIDENCIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>2730004</fullName>
+        <default>false</default>
+        <label>2730004 CONSTRUCCION - OBRAS DE INGENIERIA CIVIL</label>
+    </customValue>
+    <customValue>
+        <fullName>2710004</fullName>
+        <default>false</default>
+        <label>2710004 CONSTRUCCION - OTRAS ACTIVIDADES RELACIONADAS CON LA CONSTRUCCION</label>
+    </customValue>
+    <customValue>
+        <fullName>2754004</fullName>
+        <default>false</default>
+        <label>2754004 CONSTRUCCION - SERVICIOS DE BLINDAJE PARCIAL O TOTAL DE INMUEBLES</label>
+    </customValue>
+    <customValue>
+        <fullName>2740004</fullName>
+        <default>false</default>
+        <label>2740004 CONSTRUCCION - TRABAJOS ESPECIALIZADOS PARA LA CONSTRUCCION</label>
+    </customValue>
+    <customValue>
+        <fullName>2600003</fullName>
+        <default>false</default>
+        <label>2600003 GENERACION, TRANSMISION Y DISTRIBUCION DE ENERGIA ELECTRICA, SUMINISTRO DE AGUA Y DE GAS</label>
+    </customValue>
+    <customValue>
+        <fullName>3350005</fullName>
+        <default>false</default>
+        <label>3350005 INDUSTRIA - ACCESORIOS, APARATOS ELECTRICOS Y EQUIPO DE GENERACION DE ENERGIA ELECTRICA</label>
+    </customValue>
+    <customValue>
+        <fullName>3110005</fullName>
+        <default>false</default>
+        <label>3110005 INDUSTRIA - ALIMENTARIA</label>
+    </customValue>
+    <customValue>
+        <fullName>3370005</fullName>
+        <default>false</default>
+        <label>3370005 INDUSTRIA - AUTOMOTRIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>3120005</fullName>
+        <default>false</default>
+        <label>3120005 INDUSTRIA - BEBIDAS Y DEL TABACO</label>
+    </customValue>
+    <customValue>
+        <fullName>3340005</fullName>
+        <default>false</default>
+        <label>3340005 INDUSTRIA - EQUIPO DE COMPUTACION, COMUNICACION, MEDICION Y DE OTROS EQUIPOS, COMPONENTES Y ACCESORIOS ELECTRONICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>3360005</fullName>
+        <default>false</default>
+        <label>3360005 INDUSTRIA - EQUIPO DE TRANSPORTE SIN MOTOR</label>
+    </customValue>
+    <customValue>
+        <fullName>3230005</fullName>
+        <default>false</default>
+        <label>3230005 INDUSTRIA - IMPRESION E INDUSTRIAS CONEXAS</label>
+    </customValue>
+    <customValue>
+        <fullName>3440005</fullName>
+        <default>false</default>
+        <label>3440005 INDUSTRIA - JOYERIA DE METALES Y PIEDRAS NO PRECIOSOS Y DE OTROS MATERIALES</label>
+    </customValue>
+    <customValue>
+        <fullName>3210005</fullName>
+        <default>false</default>
+        <label>3210005 INDUSTRIA - MADERA</label>
+    </customValue>
+    <customValue>
+        <fullName>3330005</fullName>
+        <default>false</default>
+        <label>3330005 INDUSTRIA - MAQUINARIA Y EQUIPO</label>
+    </customValue>
+    <customValue>
+        <fullName>3310005</fullName>
+        <default>false</default>
+        <label>3310005 INDUSTRIA - METALICAS BASICAS</label>
+    </customValue>
+    <customValue>
+        <fullName>3410005</fullName>
+        <default>false</default>
+        <label>3410005 INDUSTRIA - MUEBLES, COLCHONES Y PERSIANAS</label>
+    </customValue>
+    <customValue>
+        <fullName>3430005</fullName>
+        <default>false</default>
+        <label>3430005 INDUSTRIA - ORFEBRERIA Y JOYERIA DE METALES Y PIEDRAS PRECIOSOS</label>
+    </customValue>
+    <customValue>
+        <fullName>3420005</fullName>
+        <default>false</default>
+        <label>3420005 INDUSTRIA - OTRAS INDUSTRIAS MANUFACTURERAS</label>
+    </customValue>
+    <customValue>
+        <fullName>3220005</fullName>
+        <default>false</default>
+        <label>3220005 INDUSTRIA - PAPEL</label>
+    </customValue>
+    <customValue>
+        <fullName>3260005</fullName>
+        <default>false</default>
+        <label>3260005 INDUSTRIA - PLASTICO Y DEL HULE</label>
+    </customValue>
+    <customValue>
+        <fullName>3150005</fullName>
+        <default>false</default>
+        <label>3150005 INDUSTRIA - PRENDAS DE VESTIR</label>
+    </customValue>
+    <customValue>
+        <fullName>3270005</fullName>
+        <default>false</default>
+        <label>3270005 INDUSTRIA - PRODUCTOS A BASE DE MINERALES NO METALICOS (ALFARERIA, PORCELANA, LOZA, VIDRIO, CEMENTO)</label>
+    </customValue>
+    <customValue>
+        <fullName>3240005</fullName>
+        <default>false</default>
+        <label>3240005 INDUSTRIA - PRODUCTOS DERIVADOS DEL PETROLEO Y DEL CARBON</label>
+    </customValue>
+    <customValue>
+        <fullName>3320005</fullName>
+        <default>false</default>
+        <label>3320005 INDUSTRIA - PRODUCTOS METALICOS (HERRAMIENTAS, UTENSILIOS, ESTRUCTURAS, PIEZAS)</label>
+    </customValue>
+    <customValue>
+        <fullName>3140005</fullName>
+        <default>false</default>
+        <label>3140005 INDUSTRIA - PRODUCTOS TEXTILES</label>
+    </customValue>
+    <customValue>
+        <fullName>3250005</fullName>
+        <default>false</default>
+        <label>3250005 INDUSTRIA - QUIMICA</label>
+    </customValue>
+    <customValue>
+        <fullName>3380005</fullName>
+        <default>false</default>
+        <label>3380005 INDUSTRIA - VEHICULOS BLINDADOS Y EQUIPO PARA EL BLINDAJE DE VEHICULOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5100011</fullName>
+        <default>false</default>
+        <label>5100011 INFORMACION EN MEDIOS MASIVOS</label>
+    </customValue>
+    <customValue>
+        <fullName>2200002</fullName>
+        <default>false</default>
+        <label>2200002 MINERIA - ACTIVIDADES RELACIONADAS CON EL PETROLEO Y EL GAS</label>
+    </customValue>
+    <customValue>
+        <fullName>2100002</fullName>
+        <default>false</default>
+        <label>2100002 MINERIA - MINERIA DE OTROS RECURSOS</label>
+    </customValue>
+    <customValue>
+        <fullName>2300003</fullName>
+        <default>false</default>
+        <label>2300003 MINERIA - ORO</label>
+    </customValue>
+    <customValue>
+        <fullName>2500002</fullName>
+        <default>false</default>
+        <label>2500002 MINERIA - PIEDRAS PRECIOSAS</label>
+    </customValue>
+    <customValue>
+        <fullName>2400002</fullName>
+        <default>false</default>
+        <label>2400002 MINERIA - PLATA</label>
+    </customValue>
+    <customValue>
+        <fullName>9100025</fullName>
+        <default>false</default>
+        <label>9100025 ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</label>
+    </customValue>
+    <customValue>
+        <fullName>5340013</fullName>
+        <default>false</default>
+        <label>5340013 OTRAS EMPRESAS DE INTERMEDIACION CREDITICIA NO FINANCIERAS</label>
+    </customValue>
+    <customValue>
+        <fullName>5180012</fullName>
+        <default>false</default>
+        <label>5180012 PROCESAMIENTO ELECTRONICO DE INFORMACION Y OTROS SERVICIOS WEB</label>
+    </customValue>
+    <customValue>
+        <fullName>1100001</fullName>
+        <default>false</default>
+        <label>1100001 SECTOR PRIMARIO - AGRICULTURA</label>
+    </customValue>
+    <customValue>
+        <fullName>1400002</fullName>
+        <default>false</default>
+        <label>1400002 SECTOR PRIMARIO - APROVECHAMIENTO FORESTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>1300001</fullName>
+        <default>false</default>
+        <label>1300001 SECTOR PRIMARIO - EXPLOTACION DE OTROS ANIMALES (AVICULTURA, APICULTURA, ETC.)</label>
+    </customValue>
+    <customValue>
+        <fullName>1200001</fullName>
+        <default>false</default>
+        <label>1200001 SECTOR PRIMARIO - GANADERIA</label>
+    </customValue>
+    <customValue>
+        <fullName>1500001</fullName>
+        <default>false</default>
+        <label>1500001 SECTOR PRIMARIO - PESCA</label>
+    </customValue>
+    <customValue>
+        <fullName>9880024</fullName>
+        <default>false</default>
+        <label>9880024 SECTOR PUBLICO - ORGANOS AUTONOMOS Y ENTIDADES PARAESTATALES</label>
+    </customValue>
+    <customValue>
+        <fullName>9820024</fullName>
+        <default>false</default>
+        <label>9820024 SECTOR PUBLICO - PODER EJECUTIVO ESTATAL Y DEL DISTRITO FEDERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>9810024</fullName>
+        <default>false</default>
+        <label>9810024 SECTOR PUBLICO - PODER EJECUTIVO FEDERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>9830024</fullName>
+        <default>false</default>
+        <label>9830024 SECTOR PUBLICO - PODER EJECUTIVO MUNICIPAL Y DELEGACIONAL</label>
+    </customValue>
+    <customValue>
+        <fullName>9850024</fullName>
+        <default>false</default>
+        <label>9850024 SECTOR PUBLICO - PODER JUDICIAL ESTATAL Y DEL DISTRITO FEDERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>9840024</fullName>
+        <default>false</default>
+        <label>9840024 SECTOR PUBLICO - PODER JUDICIAL FEDERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>9870024</fullName>
+        <default>false</default>
+        <label>9870024 SECTOR PUBLICO - PODER LEGISLATIVO ESTATAL Y DEL DISTRITO FEDERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>9860024</fullName>
+        <default>false</default>
+        <label>9860024 SECTOR PUBLICO - PODER LEGISLATIVO FEDERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>4930010</fullName>
+        <default>false</default>
+        <label>4930010 SERVICIOS DE ALMACENAMIENTO</label>
+    </customValue>
+    <customValue>
+        <fullName>7200020</fullName>
+        <default>false</default>
+        <label>7200020 SERVICIOS DE ALOJAMIENTO TEMPORAL Y DE PREPARACION DE ALIMENTOS Y BEBIDAS</label>
+    </customValue>
+    <customValue>
+        <fullName>5720016</fullName>
+        <default>false</default>
+        <label>5720016 SERVICIOS DE APOYO A LOS NEGOCIOS - AGENCIAS DE COBRANZA, DESPACHOS DE INVESTIGACION</label>
+    </customValue>
+    <customValue>
+        <fullName>5750016</fullName>
+        <default>false</default>
+        <label>5750016 SERVICIOS DE APOYO A LOS NEGOCIOS - OTROS SERVICIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5710016</fullName>
+        <default>false</default>
+        <label>5710016 SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE ADMINISTRACION DE NEGOCIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5740016</fullName>
+        <default>false</default>
+        <label>5740016 SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE LIMPIEZA Y MANTENIMIENTO</label>
+    </customValue>
+    <customValue>
+        <fullName>5730016</fullName>
+        <default>false</default>
+        <label>5730016 SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE PROTECCION Y SEGURIDAD</label>
+    </customValue>
+    <customValue>
+        <fullName>7130019</fullName>
+        <default>false</default>
+        <label>7130019 SERVICIOS DE ESPARCIMIENTO - CASAS DE JUEGOS ELECTRONICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>7140019</fullName>
+        <default>false</default>
+        <label>7140019 SERVICIOS DE ESPARCIMIENTO - CASINOS O CENTROS DE APUESTA</label>
+    </customValue>
+    <customValue>
+        <fullName>7120019</fullName>
+        <default>false</default>
+        <label>7120019 SERVICIOS DE ESPARCIMIENTO - MUSEOS, SITIOS HISTORICOS, ZOOLOGICOS Y SIMILARES</label>
+    </customValue>
+    <customValue>
+        <fullName>7150019</fullName>
+        <default>false</default>
+        <label>7150019 SERVICIOS DE ESPARCIMIENTO - VENTA DE BILLETES DE LOTERIA, PRONOSTICOS DEPORTIVOS U OTROS SORTEOS</label>
+    </customValue>
+    <customValue>
+        <fullName>7110019</fullName>
+        <default>false</default>
+        <label>7110019 SERVICIOS DE ESPARCIMIENTO CULTURALES Y DEPORTIVOS, Y OTROS SERVICIOS RECREATIVOS</label>
+    </customValue>
+    <customValue>
+        <fullName>4920009</fullName>
+        <default>false</default>
+        <label>4920009 SERVICIOS DE MENSAJERIA Y PAQUETERIA</label>
+    </customValue>
+    <customValue>
+        <fullName>8100021</fullName>
+        <default>false</default>
+        <label>8100021 SERVICIOS DE REPARACION Y MANTENIMIENTO - EQUIPO INDUSTRIAL, COMERCIAL, SERVICIOS Y AUTOMOTRIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>6200018</fullName>
+        <default>false</default>
+        <label>6200018 SERVICIOS DE SALUD Y DE ASISTENCIA SOCIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>6100017</fullName>
+        <default>false</default>
+        <label>6100017 SERVICIOS EDUCATIVOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5440013</fullName>
+        <default>false</default>
+        <label>5440013 SERVICIOS FINANCIEROS - ADMINISTRACION DE FONDOS PARA EL RETIRO</label>
+    </customValue>
+    <customValue>
+        <fullName>5430013</fullName>
+        <default>false</default>
+        <label>5430013 SERVICIOS FINANCIEROS - AGENTES, AJUSTADORES Y GESTORES DE SEGUROS Y FIANZAS</label>
+    </customValue>
+    <customValue>
+        <fullName>5210013</fullName>
+        <default>false</default>
+        <label>5210013 SERVICIOS FINANCIEROS - BANCA CENTRAL</label>
+    </customValue>
+    <customValue>
+        <fullName>5230013</fullName>
+        <default>false</default>
+        <label>5230013 SERVICIOS FINANCIEROS - BANCA DE DESARROLLO</label>
+    </customValue>
+    <customValue>
+        <fullName>5220013</fullName>
+        <default>false</default>
+        <label>5220013 SERVICIOS FINANCIEROS - BANCA MULTIPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>5350013</fullName>
+        <default>false</default>
+        <label>5350013 SERVICIOS FINANCIEROS - CASAS DE BOLSA</label>
+    </customValue>
+    <customValue>
+        <fullName>5360013</fullName>
+        <default>false</default>
+        <label>5360013 SERVICIOS FINANCIEROS - CASAS DE CAMBIO Y CENTROS CAMBIARIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5320013</fullName>
+        <default>false</default>
+        <label>5320013 SERVICIOS FINANCIEROS - CASAS DE EMPEÑO</label>
+    </customValue>
+    <customValue>
+        <fullName>5420013</fullName>
+        <default>false</default>
+        <label>5420013 SERVICIOS FINANCIEROS - COMPAÑIAS AFIANZADORAS</label>
+    </customValue>
+    <customValue>
+        <fullName>5290013</fullName>
+        <default>false</default>
+        <label>5290013 SERVICIOS FINANCIEROS - COMPAÑIAS DE AUTOFINANCIAMIENTO</label>
+    </customValue>
+    <customValue>
+        <fullName>5410013</fullName>
+        <default>false</default>
+        <label>5410013 SERVICIOS FINANCIEROS - COMPAÑIAS DE SEGUROS</label>
+    </customValue>
+    <customValue>
+        <fullName>5450013</fullName>
+        <default>false</default>
+        <label>5450013 SERVICIOS FINANCIEROS - EMISORA Y/O COMERCIALIZACION DE CHEQUES DE VIAJERO</label>
+    </customValue>
+    <customValue>
+        <fullName>5240013</fullName>
+        <default>false</default>
+        <label>5240013 SERVICIOS FINANCIEROS - FONDOS Y FIDEICOMISOS FINANCIEROS</label>
+    </customValue>
+    <customValue>
+        <fullName>5310013</fullName>
+        <default>false</default>
+        <label>5310013 SERVICIOS FINANCIEROS - MONTEPIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5280013</fullName>
+        <default>false</default>
+        <label>5280013 SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE AHORRO Y PRESTAMO</label>
+    </customValue>
+    <customValue>
+        <fullName>5270013</fullName>
+        <default>false</default>
+        <label>5270013 SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE INTERMEDIACION CREDITICIA Y FINANCIERA NO BURSATIL (OPERACION Y PROMOCION DE TARJETAS DE CREDITO NO BANCARIAS, FINANCIAMIENTO DE BIENES DURADEROS), SOCIEDADES FINANCIERAS DE OBJETO LIMITADO</label>
+    </customValue>
+    <customValue>
+        <fullName>5390013</fullName>
+        <default>false</default>
+        <label>5390013 SERVICIOS FINANCIEROS - OTROS SERVICIOS RELACIONADOS CON LA INTERMEDIACION BURSATIL</label>
+    </customValue>
+    <customValue>
+        <fullName>5330013</fullName>
+        <default>false</default>
+        <label>5330013 SERVICIOS FINANCIEROS - SOCIEDADES FINANCIERAS DE OBJETO MULTIPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>5370013</fullName>
+        <default>false</default>
+        <label>5370013 SERVICIOS FINANCIEROS - TRANSMISORES DE DINERO</label>
+    </customValue>
+    <customValue>
+        <fullName>5250013</fullName>
+        <default>false</default>
+        <label>5250013 SERVICIOS FINANCIEROS - UNIONES DE CREDITO</label>
+    </customValue>
+    <customValue>
+        <fullName>5540014</fullName>
+        <default>false</default>
+        <label>5540014 SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER DE VEHICULOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5510014</fullName>
+        <default>false</default>
+        <label>5510014 SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER SIN INTERMEDIACION DE BIENES RAICES</label>
+    </customValue>
+    <customValue>
+        <fullName>5520014</fullName>
+        <default>false</default>
+        <label>5520014 SERVICIOS INMOBILIARIOS Y DE ALQUILER - INMOBILIARIAS Y CORREDORES DE BIENES RAICES</label>
+    </customValue>
+    <customValue>
+        <fullName>5530014</fullName>
+        <default>false</default>
+        <label>5530014 SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE BIENES MUEBLES EXCEPTO VEHICULOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5550014</fullName>
+        <default>false</default>
+        <label>5550014 SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE MARCAS REGISTRADAS, PATENTES Y FRANQUICIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>8200022</fullName>
+        <default>false</default>
+        <label>8200022 SERVICIOS PERSONALES - LAVANDERIAS, SERVICIOS FUNERARIOS, BAÑOS PUBLICOS, SERVICIOS DE ESTACIONAMIENTO, REVELADO E IMPRESION DE FOTOGRAFIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>4910008</fullName>
+        <default>false</default>
+        <label>4910008 SERVICIOS POSTALES</label>
+    </customValue>
+    <customValue>
+        <fullName>5630015</fullName>
+        <default>false</default>
+        <label>5630015 SERVICIOS PROFESIONALES Y TECNICOS - ARQUITECTURA, INGENIERIA Y ACTIVIDADES RELACIONADAS</label>
+    </customValue>
+    <customValue>
+        <fullName>5650015</fullName>
+        <default>false</default>
+        <label>5650015 SERVICIOS PROFESIONALES Y TECNICOS - CONSULTORIA ADMINISTRATIVA, CIENTIFICA Y TECNICA</label>
+    </customValue>
+    <customValue>
+        <fullName>5690015</fullName>
+        <default>false</default>
+        <label>5690015 SERVICIOS PROFESIONALES Y TECNICOS - CONTABILIDAD Y AUDITORIA</label>
+    </customValue>
+    <customValue>
+        <fullName>5640015</fullName>
+        <default>false</default>
+        <label>5640015 SERVICIOS PROFESIONALES Y TECNICOS - DISEÑO DE SISTEMAS DE COMPUTO Y SERVICIOS RELACIONADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5660015</fullName>
+        <default>false</default>
+        <label>5660015 SERVICIOS PROFESIONALES Y TECNICOS - INVESTIGACION CIENTIFICA Y DESARROLLO</label>
+    </customValue>
+    <customValue>
+        <fullName>5620015</fullName>
+        <default>false</default>
+        <label>5620015 SERVICIOS PROFESIONALES Y TECNICOS - NOTARIA Y CORREDURIA PUBLICA</label>
+    </customValue>
+    <customValue>
+        <fullName>5680015</fullName>
+        <default>false</default>
+        <label>5680015 SERVICIOS PROFESIONALES Y TECNICOS - OTROS SERVICIOS DE OUTSOURCING</label>
+    </customValue>
+    <customValue>
+        <fullName>5670015</fullName>
+        <default>false</default>
+        <label>5670015 SERVICIOS PROFESIONALES Y TECNICOS - PUBLICIDAD Y ACTIVIDADES RELACIONADAS</label>
+    </customValue>
+    <customValue>
+        <fullName>5610015</fullName>
+        <default>false</default>
+        <label>5610015 SERVICIOS PROFESIONALES Y TECNICOS - SERVICIOS JURIDICOS</label>
+    </customValue>
+    <customValue>
+        <fullName>5260013</fullName>
+        <default>false</default>
+        <label>5260013 SREVICIOS FINANCIEROS - CAJAS DE AHORRO POPULAR</label>
+    </customValue>
+    <customValue>
+        <fullName>4810007</fullName>
+        <default>false</default>
+        <label>4810007 TRANSPORTE - AEREO</label>
+    </customValue>
+    <customValue>
+        <fullName>4820007</fullName>
+        <default>false</default>
+        <label>4820007 TRANSPORTE - FERROVIARIO</label>
+    </customValue>
+    <customValue>
+        <fullName>4830007</fullName>
+        <default>false</default>
+        <label>4830007 TRANSPORTE - MARITIMO Y FLUVIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>4890007</fullName>
+        <default>false</default>
+        <label>4890007 TRANSPORTE - SERVICIOS DE AGENCIAS ADUANALES</label>
+    </customValue>
+    <customValue>
+        <fullName>4840007</fullName>
+        <default>false</default>
+        <label>4840007 TRANSPORTE - SERVICIOS DE TRANSPORTE Y/O CUSTODIA DE VALORES</label>
+    </customValue>
+    <customValue>
+        <fullName>4880007</fullName>
+        <default>false</default>
+        <label>4880007 TRANSPORTE - SERVICIOS RELACIONADOS CON EL TRANSPORTE</label>
+    </customValue>
+    <customValue>
+        <fullName>4850007</fullName>
+        <default>false</default>
+        <label>4850007 TRANSPORTE - TERRESTRE</label>
+    </customValue>
+    <customValue>
+        <fullName>4860007</fullName>
+        <default>false</default>
+        <label>4860007 TRANSPORTE - TRANSPORTACION Y DISTRIBUCION POR DUCTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>1000000</fullName>
+        <default>false</default>
+        <label>1000000 NO APLICA</label>
+    </customValue>
+    <customValue>
+        <fullName>CARGA INICIAL</fullName>
+        <default>false</default>
+        <label>CARGA INICIAL</label>
+    </customValue>
+    <masterLabel>Ocupación</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

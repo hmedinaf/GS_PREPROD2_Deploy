@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- No borrar es LOGIN de mas comercial --></help>
+        <label><!-- User Mas Comercial --></label>
+        <name>User_Mas_Comercial__c</name>
+    </CustomFieldTranslation>

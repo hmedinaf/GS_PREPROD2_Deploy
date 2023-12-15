@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plaza_Cobranza__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Plaza__c, 
+           &quot;UEN1 - NUEVO LEON&quot;,      &quot;NUEVO LEON&quot;,
+           &quot;UEN2 - NUEVO LEON&quot;,      &quot;NUEVO LEON&quot;,
+					&quot;UEN3 - JALISCO&quot;,     &quot;JALISCO&quot;,
+           &quot;UEN3 - GUADALAJARA&quot;,     &quot;JALISCO&quot;,
+					&quot;UEN4 - AGUASCALIENTES&quot;,     &quot;AGUASCALIENTES&quot;,
+					&quot;UEN4 - GUANAJUATO&quot;,     &quot;QUERETARO&quot;,
+					&quot;UEN4 - ESTADO DE MEXICO&quot;,     &quot;MEXICO&quot;,
+					&quot;UEN4 - DISTRITO FEDERAL&quot;,     &quot;MEXICO&quot;,
+					&quot;UEN4 - QUERETARO&quot;,     &quot;QUERETARO&quot;,
+					&quot;UEN4 - QUINTANA ROO&quot;,     &quot;CANCUN&quot;,
+					&quot;UEN4 - TAMAULIPAS&quot;,     &quot;REYNOSA&quot;,
+            Plaza__c
+        )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Plaza (Cobranza)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

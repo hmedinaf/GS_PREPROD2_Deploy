@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPPTS_Razon_Rechazo__c</fullName>
+    <externalId>false</externalId>
+    <label>Razón Rechazo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aviso de Retención no firmado</fullName>
+                <default>false</default>
+                <label>Aviso de Retención no firmado</label>
+            </value>
+            <value>
+                <fullName>Cambio de Ciudad</fullName>
+                <default>false</default>
+                <label>Cambio de Ciudad</label>
+            </value>
+            <value>
+                <fullName>Cambio de Empleo</fullName>
+                <default>false</default>
+                <label>Cambio de Empleo</label>
+            </value>
+            <value>
+                <fullName>Cancelación Con Financiera</fullName>
+                <default>false</default>
+                <label>Cancelación Con Financiera</label>
+            </value>
+            <value>
+                <fullName>Crédito Denegado</fullName>
+                <default>false</default>
+                <label>Crédito Denegado</label>
+            </value>
+            <value>
+                <fullName>Desempleo</fullName>
+                <default>false</default>
+                <label>Desempleo</label>
+            </value>
+            <value>
+                <fullName>Excepción APC</fullName>
+                <default>false</default>
+                <label>Excepción APC</label>
+            </value>
+            <value>
+                <fullName>Ilocalizable</fullName>
+                <default>false</default>
+                <label>Ilocalizable</label>
+            </value>
+            <value>
+                <fullName>Error de RFC</fullName>
+                <default>false</default>
+                <label>Error de RFC</label>
+            </value>
+            <value>
+                <fullName>Falta de Aportaciones</fullName>
+                <default>false</default>
+                <label>Falta de Aportaciones</label>
+            </value>
+            <value>
+                <fullName>Falta de Papelería</fullName>
+                <default>false</default>
+                <label>Falta de Papelería</label>
+            </value>
+            <value>
+                <fullName>Homonimia</fullName>
+                <default>false</default>
+                <label>Homonimia</label>
+            </value>
+            <value>
+                <fullName>Motivos Personales</fullName>
+                <default>false</default>
+                <label>Motivos Personales</label>
+            </value>
+            <value>
+                <fullName>Otra opción de compra</fullName>
+                <default>false</default>
+                <label>Otra opción de compra</label>
+            </value>
+            <value>
+                <fullName>Por error en captura</fullName>
+                <default>false</default>
+                <label>Por error en captura</label>
+            </value>
+            <value>
+                <fullName>Temas Económicos</fullName>
+                <default>false</default>
+                <label>Temas Económicos</label>
+            </value>
+            <value>
+                <fullName>Problemas en la Construcción</fullName>
+                <default>false</default>
+                <label>Problemas en la Construcción</label>
+            </value>
+            <value>
+                <fullName>Recurso Vencido YY</fullName>
+                <default>false</default>
+                <label>Recurso Vencido YY</label>
+            </value>
+            <value>
+                <fullName>Sin relación laboral</fullName>
+                <default>false</default>
+                <label>Sin relación laboral</label>
+            </value>
+            <value>
+                <fullName>Tiempo de Entrega</fullName>
+                <default>false</default>
+                <label>Tiempo de Entrega</label>
+            </value>
+            <value>
+                <fullName>Ya cuenta con Subsidio</fullName>
+                <default>false</default>
+                <label>Ya cuenta con Subsidio</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

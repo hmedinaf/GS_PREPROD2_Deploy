@@ -1,0 +1,6 @@
+TaskId: {!Task.Folio__c}
+Asunto: {!Task.Subject}
+Prioridad: {!Task.Priority}
+
+Si desea más información, haga click en el siguiente vínculo:
+{!Task.Link}

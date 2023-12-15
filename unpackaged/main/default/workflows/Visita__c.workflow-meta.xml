@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Cancelacion_de_Cita</fullName>
+        <description>Cancelación de Cita</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Correo__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ATC/Cancelacion_de_Cita</template>
+    </alerts>
+    <alerts>
+        <fullName>Cita_Confirmacion</fullName>
+        <description>Cita - Confirmacion</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Correo__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ATC/Cita_Confirmacion_2021</template>
+    </alerts>
+    <alerts>
+        <fullName>Cita_Recordatorio</fullName>
+        <description>Cita - Recordatorio</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Correo__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ATC/Cita_Recordatorio_2021</template>
+    </alerts>
+    <alerts>
+        <fullName>Notificacion_a_cliente_de_Cita_programada</fullName>
+        <description>Notificación a cliente de Cita programada</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Correo__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ATC/Notificacion_de_cita_cliente</template>
+    </alerts>
+    <alerts>
+        <fullName>Notificacion_cliente_de_visita</fullName>
+        <description>Notificación cliente de visita</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Correo__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ATC/Notificacion_cliente_de_visita</template>
+    </alerts>
+    <alerts>
+        <fullName>Recordatorio_un_dia_antes</fullName>
+        <description>Recordatorio un día antes</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Correo__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ATC/Recordatorio_de_Cita</template>
+    </alerts>
+    <alerts>
+        <fullName>Visita_Confirmacion</fullName>
+        <description>Visita - Confirmacion</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Correo__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ATC/Visita_Confirmacion_2021</template>
+    </alerts>
+    <alerts>
+        <fullName>cita</fullName>
+        <description>cita</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ATC/Cita</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Correo_del_cliente</fullName>
+        <description>Copia correo de cliente</description>
+        <field>Correo__c</field>
+        <formula>Correo_de_Cliente__c</formula>
+        <name>Correo del cliente</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Reagendada</fullName>
+        <field>Estatus__c</field>
+        <literalValue>Reprogramada</literalValue>
+        <name>Reagendada</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Alerta cita agendada</fullName>
+        <actions>
+            <name>cita</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Visita__c.Estatus__c</field>
+            <operation>equals</operation>
+            <value>Planeada,Programada,Realizada,Cancelada,Reprogramada</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cancelación de Cita</fullName>
+        <actions>
+            <name>Cancelacion_de_Cita</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Visita__c.Estatus__c</field>
+            <operation>equals</operation>
+            <value>Reprogramada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Visita__c.MotivoNoEntrega__c</field>
+            <operation>equals</operation>
+            <value>Cambio fecha y hora,No asistió,Demanda detalles de calidad,Está de viaje,Falta documento,No es la ubicación,No es lo que ofrecieron,No quiere la casa,No se localiza,Notario,Otro</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cita - Confirmacion %2F Recordatorio</fullName>
+        <actions>
+            <name>Cita_Confirmacion</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Visita__c.Estatus__c</field>
+            <operation>equals</operation>
+            <value>Programada</value>
+        </criteriaItems>
+        <description>Notifica al cliente cuando se le genera una cita en estatus &quot;Programada&quot;</description>
+        <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Cita_Recordatorio</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Visita__c.Fechaprogramadadevisita__c</offsetFromField>
+            <timeLength>-1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Copiar correo de cliente</fullName>
+        <actions>
+            <name>Correo_del_cliente</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Visita__c.Estatus__c</field>
+            <operation>equals</operation>
+            <value>Programada,Planeada,Realizada,Reprogramada</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Enviar correo a cliente para Cita</fullName>
+        <actions>
+            <name>Notificacion_a_cliente_de_Cita_programada</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Visita__c.Estatus__c</field>
+            <operation>equals</operation>
+            <value>Programada</value>
+        </criteriaItems>
+        <description>Notifica al cliente cuando se le genera una cita en estatus &quot;Programada&quot;</description>
+        <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Recordatorio_un_dia_antes</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Visita__c.Fechaprogramadadevisita__c</offsetFromField>
+            <timeLength>-1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Notificación cliente de visita</fullName>
+        <actions>
+            <name>Notificacion_cliente_de_visita</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Visita__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Visita</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Visita__c.Fechaprogramadadevisita__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Reagendada</fullName>
+        <actions>
+            <name>Reagendada</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Visita__c.MotivoNoEntrega__c</field>
+            <operation>equals</operation>
+            <value>Cambio fecha y hora,No asistió,Demanda detalles de calidad,Está de viaje,Falta documento,No es la ubicación,No es lo que ofrecieron,No quiere la casa,No se localiza,Notario,Otro</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Visita - Confirmacion</fullName>
+        <actions>
+            <name>Visita_Confirmacion</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED( Casos_Relacionados__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

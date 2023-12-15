@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo Asentamiento --></label>
+        <name>Tipo_Asentamiento__c</name>
+        <picklistValues>
+            <masterLabel>Aeropuerto</masterLabel>
+            <translation><!-- Aeropuerto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ampliación</masterLabel>
+            <translation><!-- Ampliación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barrio</masterLabel>
+            <translation><!-- Barrio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campamento</masterLabel>
+            <translation><!-- Campamento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ciudad</masterLabel>
+            <translation><!-- Ciudad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Club de golf</masterLabel>
+            <translation><!-- Club de golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colonia</masterLabel>
+            <translation><!-- Colonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Condominio</masterLabel>
+            <translation><!-- Condominio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congregación</masterLabel>
+            <translation><!-- Congregación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conjunto habitacional</masterLabel>
+            <translation><!-- Conjunto habitacional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ejido</masterLabel>
+            <translation><!-- Ejido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipamiento</masterLabel>
+            <translation><!-- Equipamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estación</masterLabel>
+            <translation><!-- Estación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exhacienda</masterLabel>
+            <translation><!-- Exhacienda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finca</masterLabel>
+            <translation><!-- Finca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fraccionamiento</masterLabel>
+            <translation><!-- Fraccionamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gran usuario</masterLabel>
+            <translation><!-- Gran usuario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Granja</masterLabel>
+            <translation><!-- Granja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hacienda</masterLabel>
+            <translation><!-- Hacienda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingenio</masterLabel>
+            <translation><!-- Ingenio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paraje</masterLabel>
+            <translation><!-- Paraje --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parque industrial</masterLabel>
+            <translation><!-- Parque industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poblado comunal</masterLabel>
+            <translation><!-- Poblado comunal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pueblo</masterLabel>
+            <translation><!-- Pueblo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto</masterLabel>
+            <translation><!-- Puerto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ranchería</masterLabel>
+            <translation><!-- Ranchería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rancho</masterLabel>
+            <translation><!-- Rancho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencial</masterLabel>
+            <translation><!-- Residencial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unidad habitacional</masterLabel>
+            <translation><!-- Unidad habitacional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Villa</masterLabel>
+            <translation><!-- Villa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zona comercial</masterLabel>
+            <translation><!-- Zona comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zona federal</masterLabel>
+            <translation><!-- Zona federal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zona industrial</masterLabel>
+            <translation><!-- Zona industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zona militar</masterLabel>
+            <translation><!-- Zona militar --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

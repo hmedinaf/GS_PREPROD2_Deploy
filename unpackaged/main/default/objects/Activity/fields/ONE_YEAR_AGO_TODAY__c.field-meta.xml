@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ONE_YEAR_AGO_TODAY__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF((DATE(YEAR(TODAY()) - 1,MONTH(TODAY()),DAY(TODAY())) == DATEVALUE(CreatedDate)), true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ONE YEAR AGO TODAY</label>
+    <type>Checkbox</type>
+</CustomField>

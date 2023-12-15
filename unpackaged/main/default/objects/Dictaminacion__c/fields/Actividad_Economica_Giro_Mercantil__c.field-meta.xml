@@ -1,0 +1,2702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actividad_Economica_Giro_Mercantil__c</fullName>
+    <externalId>false</externalId>
+    <label>Actividad Económica / Giro Mercantil</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sub_Tipo_Fiscal_Picklist__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>8250100	ADMINISTRACION - CONSULTORES</fullName>
+                <default>false</default>
+                <label>8250100	ADMINISTRACION - CONSULTORES</label>
+            </value>
+            <value>
+                <fullName>8240200	ADMINISTRACION - CONTADORES Y AUDITORES</fullName>
+                <default>false</default>
+                <label>8240200	ADMINISTRACION - CONTADORES Y AUDITORES</label>
+            </value>
+            <value>
+                <fullName>8230300	ADMINISTRACION - DIRECTORES, GERENTES  Y EMPLEADOS DE COMPRAS, FINANZAS, RECURSOS HUMANOS Y SERVICIOS ADMINISTRATIVOS</fullName>
+                <default>false</default>
+                <label>8230300	ADMINISTRACION - DIRECTORES, GERENTES  Y EMPLEADOS DE COMPRAS, FINANZAS, RECURSOS HUMANOS Y SERVICIOS ADMINISTRATIVOS</label>
+            </value>
+            <value>
+                <fullName>8250800	ADMINISTRACION - DIRECTORES, GERENTES Y EMPELADOS ADMINISTRATIVOS</fullName>
+                <default>false</default>
+                <label>8250800	ADMINISTRACION - DIRECTORES, GERENTES Y EMPELADOS ADMINISTRATIVOS</label>
+            </value>
+            <value>
+                <fullName>8250200	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE COMERCIALIZACION</fullName>
+                <default>false</default>
+                <label>8250200	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE COMERCIALIZACION</label>
+            </value>
+            <value>
+                <fullName>8240600	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE PRODUCCION</fullName>
+                <default>false</default>
+                <label>8240600	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE PRODUCCION</label>
+            </value>
+            <value>
+                <fullName>8240700	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE SERVICIOS DE TRANSPORTE</fullName>
+                <default>false</default>
+                <label>8240700	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE SERVICIOS DE TRANSPORTE</label>
+            </value>
+            <value>
+                <fullName>8220600	ADMINISTRACION - PAGADORES Y COBRADORES</fullName>
+                <default>false</default>
+                <label>8220600	ADMINISTRACION - PAGADORES Y COBRADORES</label>
+            </value>
+            <value>
+                <fullName>8210100	ADMINISTRACION - TRABAJADORES DE ARCHIVO, ALMACEN DE INVENTARIOS</fullName>
+                <default>false</default>
+                <label>8210100	ADMINISTRACION - TRABAJADORES DE ARCHIVO, ALMACEN DE INVENTARIOS</label>
+            </value>
+            <value>
+                <fullName>1110100	AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES AGRICOLAS</fullName>
+                <default>false</default>
+                <label>1110100	AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES AGRICOLAS</label>
+            </value>
+            <value>
+                <fullName>1110400	AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES SILVICOLAS Y FORESTALES</fullName>
+                <default>false</default>
+                <label>1110400	AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES SILVICOLAS Y FORESTALES</label>
+            </value>
+            <value>
+                <fullName>7230200	ALIMENTACION Y HOSPEDAJE - JEFES DE COCINA, RESTAURANTE Y/O BAR</fullName>
+                <default>false</default>
+                <label>7230200	ALIMENTACION Y HOSPEDAJE - JEFES DE COCINA, RESTAURANTE Y/O BAR</label>
+            </value>
+            <value>
+                <fullName>7210100	ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIO DE ALIMENTOS Y BEBIDAS</fullName>
+                <default>false</default>
+                <label>7210100	ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIO DE ALIMENTOS Y BEBIDAS</label>
+            </value>
+            <value>
+                <fullName>7240200	ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIOS DE ALOJAMIENTO</fullName>
+                <default>false</default>
+                <label>7240200	ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIOS DE ALOJAMIENTO</label>
+            </value>
+            <value>
+                <fullName>5310700	ALIMENTOS Y BEBIDAS - TRABAJADORES EN LA ELABORACION  Y PROCESAMIENTO DE ALIMENTOS, BEBIDAS Y TABACO</fullName>
+                <default>false</default>
+                <label>5310700	ALIMENTOS Y BEBIDAS - TRABAJADORES EN LA ELABORACION  Y PROCESAMIENTO DE ALIMENTOS, BEBIDAS Y TABACO</label>
+            </value>
+            <value>
+                <fullName>8140100	BOLSA, BANCA Y SEGUROS - AGENTES DE VALORES, PROMOTORES Y CORREDORES DE INVERSION</fullName>
+                <default>false</default>
+                <label>8140100	BOLSA, BANCA Y SEGUROS - AGENTES DE VALORES, PROMOTORES Y CORREDORES DE INVERSION</label>
+            </value>
+            <value>
+                <fullName>8120100	BOLSA, BANCA Y SEGUROS - GERENTES O TRABAJADORES DE SERVICIOS Y PRODUCTOS FINANCIEROS</fullName>
+                <default>false</default>
+                <label>8120100	BOLSA, BANCA Y SEGUROS - GERENTES O TRABAJADORES DE SERVICIOS Y PRODUCTOS FINANCIEROS</label>
+            </value>
+            <value>
+                <fullName>8130500	BOLSA, BANCA Y SEGUROS - VALUADORES</fullName>
+                <default>false</default>
+                <label>8130500	BOLSA, BANCA Y SEGUROS - VALUADORES</label>
+            </value>
+            <value>
+                <fullName>7120100	COMERCIO - CAJEROS REGISTRADORES</fullName>
+                <default>false</default>
+                <label>7120100	COMERCIO - CAJEROS REGISTRADORES</label>
+            </value>
+            <value>
+                <fullName>7110200	COMERCIO - DESPACHADORES DE GASOLINERA</fullName>
+                <default>false</default>
+                <label>7110200	COMERCIO - DESPACHADORES DE GASOLINERA</label>
+            </value>
+            <value>
+                <fullName>7110300	COMERCIO - EMPACADORES DE MERCANCIAS</fullName>
+                <default>false</default>
+                <label>7110300	COMERCIO - EMPACADORES DE MERCANCIAS</label>
+            </value>
+            <value>
+                <fullName>7140200	COMERCIO - GERENTES O EMPLEADOS DE VENTAS</fullName>
+                <default>false</default>
+                <label>7140200	COMERCIO - GERENTES O EMPLEADOS DE VENTAS</label>
+            </value>
+            <value>
+                <fullName>7140100	COMERCIO - GERENTES O SUPERVISOR DE ESTABLECIMIENTO COMERCIAL</fullName>
+                <default>false</default>
+                <label>7140100	COMERCIO - GERENTES O SUPERVISOR DE ESTABLECIMIENTO COMERCIAL</label>
+            </value>
+            <value>
+                <fullName>7130200	COMERCIO - REPRESENTANTES DE VENTAS POR TELEFONO O POR TELEVISION</fullName>
+                <default>false</default>
+                <label>7130200	COMERCIO - REPRESENTANTES DE VENTAS POR TELEFONO O POR TELEVISION</label>
+            </value>
+            <value>
+                <fullName>7110500	COMERCIO - TAQUILLEROS</fullName>
+                <default>false</default>
+                <label>7110500	COMERCIO - TAQUILLEROS</label>
+            </value>
+            <value>
+                <fullName>7110600	COMERCIO - VENDEDORES AMBULANTES</fullName>
+                <default>false</default>
+                <label>7110600	COMERCIO - VENDEDORES AMBULANTES</label>
+            </value>
+            <value>
+                <fullName>7130400	COMERCIO - VENDEDORES ESPECIALIZADOS</fullName>
+                <default>false</default>
+                <label>7130400	COMERCIO - VENDEDORES ESPECIALIZADOS</label>
+            </value>
+            <value>
+                <fullName>3130300	CONSTRUCCION -  INGENIEROS, TECNICOS Y OPERADORES DE LA CONSTRUCCION</fullName>
+                <default>false</default>
+                <label>3130300	CONSTRUCCION -  INGENIEROS, TECNICOS Y OPERADORES DE LA CONSTRUCCION</label>
+            </value>
+            <value>
+                <fullName>3420200	CONSTRUCCION - ARQUITECTOS</fullName>
+                <default>false</default>
+                <label>3420200	CONSTRUCCION - ARQUITECTOS</label>
+            </value>
+            <value>
+                <fullName>3310300	CONSTRUCCION - COLOCADORES DE PRODUCTOS PREFABRICADOS EN INMUEBLES</fullName>
+                <default>false</default>
+                <label>3310300	CONSTRUCCION - COLOCADORES DE PRODUCTOS PREFABRICADOS EN INMUEBLES</label>
+            </value>
+            <value>
+                <fullName>3130100	CONSTRUCCION - DECORADORES DE INTERIORES</fullName>
+                <default>false</default>
+                <label>3130100	CONSTRUCCION - DECORADORES DE INTERIORES</label>
+            </value>
+            <value>
+                <fullName>3310400	CONSTRUCCION - PINTORES</fullName>
+                <default>false</default>
+                <label>3310400	CONSTRUCCION - PINTORES</label>
+            </value>
+            <value>
+                <fullName>3420100	CONSTRUCCION - PLOMEROS E INSTALADORES DE TUBERIA</fullName>
+                <default>false</default>
+                <label>3420100	CONSTRUCCION - PLOMEROS E INSTALADORES DE TUBERIA</label>
+            </value>
+            <value>
+                <fullName>3410200	CONSTRUCCION - REPARADORES DE VIAS DE COMUNICACION</fullName>
+                <default>false</default>
+                <label>3410200	CONSTRUCCION - REPARADORES DE VIAS DE COMUNICACION</label>
+            </value>
+            <value>
+                <fullName>3310600	CONSTRUCCION - VIDRIEROS</fullName>
+                <default>false</default>
+                <label>3310600	CONSTRUCCION - VIDRIEROS</label>
+            </value>
+            <value>
+                <fullName>7430100	DEPORTE Y ESPARCIMIENTO - ANIMADORES RECREATIVOS</fullName>
+                <default>false</default>
+                <label>7430100	DEPORTE Y ESPARCIMIENTO - ANIMADORES RECREATIVOS</label>
+            </value>
+            <value>
+                <fullName>7430200	DEPORTE Y ESPARCIMIENTO - ATLETAS, ENTRENADORES O INSTRUCTORES EN DEPORTE Y RECREACION</fullName>
+                <default>false</default>
+                <label>7430200	DEPORTE Y ESPARCIMIENTO - ATLETAS, ENTRENADORES O INSTRUCTORES EN DEPORTE Y RECREACION</label>
+            </value>
+            <value>
+                <fullName>7430400	DEPORTE Y ESPARCIMIENTO - OFICIALES, JUECES Y ARBITROS DEPORTIVOS</fullName>
+                <default>false</default>
+                <label>7430400	DEPORTE Y ESPARCIMIENTO - OFICIALES, JUECES Y ARBITROS DEPORTIVOS</label>
+            </value>
+            <value>
+                <fullName>1133010	DIFUSION CULTURAL - PROMOTORES DE DIFUSION CULTURAL</fullName>
+                <default>false</default>
+                <label>1133010	DIFUSION CULTURAL - PROMOTORES DE DIFUSION CULTURAL</label>
+            </value>
+            <value>
+                <fullName>1134010	DIFUSION CULTURAL - TRABAJADORES DE BIBLIOTECA, ARCHIVO, MUSEO Y GALERIA DE ARTE</fullName>
+                <default>false</default>
+                <label>1134010	DIFUSION CULTURAL - TRABAJADORES DE BIBLIOTECA, ARCHIVO, MUSEO Y GALERIA DE ARTE</label>
+            </value>
+            <value>
+                <fullName>4230200	ELECTRICIDAD - INGENIEROS O TECNICOS ELECTRICISTAS</fullName>
+                <default>false</default>
+                <label>4230200	ELECTRICIDAD - INGENIEROS O TECNICOS ELECTRICISTAS</label>
+            </value>
+            <value>
+                <fullName>4230500	ELECTRICIDAD - TECNICOS EN REFRIGERACION, AIRE ACONDICIONADO Y CALEFACCION</fullName>
+                <default>false</default>
+                <label>4230500	ELECTRICIDAD - TECNICOS EN REFRIGERACION, AIRE ACONDICIONADO Y CALEFACCION</label>
+            </value>
+            <value>
+                <fullName>4330200	ELECTRONICA - INGENIERO O TECNICOS EN  ELECTRONICA</fullName>
+                <default>false</default>
+                <label>4330200	ELECTRONICA - INGENIERO O TECNICOS EN  ELECTRONICA</label>
+            </value>
+            <value>
+                <fullName>4330100	ELECTRONICA - MECANICOS DE INSTRUMENTOS INDUSTRIALES</fullName>
+                <default>false</default>
+                <label>4330100	ELECTRONICA - MECANICOS DE INSTRUMENTOS INDUSTRIALES</label>
+            </value>
+            <value>
+                <fullName>1123020	ENSEÑANZA - CAPACITADORES E INSTRUCTORES</fullName>
+                <default>false</default>
+                <label>1123020	ENSEÑANZA - CAPACITADORES E INSTRUCTORES</label>
+            </value>
+            <value>
+                <fullName>1125010	ENSEÑANZA - DIRECTORES GENERALES DE EDUCACION</fullName>
+                <default>false</default>
+                <label>1125010	ENSEÑANZA - DIRECTORES GENERALES DE EDUCACION</label>
+            </value>
+            <value>
+                <fullName>1124070	ENSEÑANZA - PROFESORES O DOCENTES</fullName>
+                <default>false</default>
+                <label>1124070	ENSEÑANZA - PROFESORES O DOCENTES</label>
+            </value>
+            <value>
+                <fullName>1220200	GANADERIA - ADMINISTRADORES, CRIADORES O SUPERVISORES AVICOLAS Y GANADEROS</fullName>
+                <default>false</default>
+                <label>1220200	GANADERIA - ADMINISTRADORES, CRIADORES O SUPERVISORES AVICOLAS Y GANADEROS</label>
+            </value>
+            <value>
+                <fullName>1220100	GANADERIA - APICULTORES</fullName>
+                <default>false</default>
+                <label>1220100	GANADERIA - APICULTORES</label>
+            </value>
+            <value>
+                <fullName>4430200	INFORMATICA - INGENIERO O TECNICOS PROGRAMADORES EN INFORMATICA</fullName>
+                <default>false</default>
+                <label>4430200	INFORMATICA - INGENIERO O TECNICOS PROGRAMADORES EN INFORMATICA</label>
+            </value>
+            <value>
+                <fullName>4440100	INFORMATICA - PROFESIONISTAS O TECNICOS DE SISTEMAS DE INFORMACION Y PROCESAMIENTO DE DATOS</fullName>
+                <default>false</default>
+                <label>4440100	INFORMATICA - PROFESIONISTAS O TECNICOS DE SISTEMAS DE INFORMACION Y PROCESAMIENTO DE DATOS</label>
+            </value>
+            <value>
+                <fullName>9230100	INSPECCION - INSPECTORES DE SALUD AMBIENTAL, SANIDAD Y DEL TRABAJO</fullName>
+                <default>false</default>
+                <label>9230100	INSPECCION - INSPECTORES DE SALUD AMBIENTAL, SANIDAD Y DEL TRABAJO</label>
+            </value>
+            <value>
+                <fullName>9230200	INSPECCION - INSPECTORES DE TRANSPORTE DE CARGA Y DE PASAJEROS</fullName>
+                <default>false</default>
+                <label>9230200	INSPECCION - INSPECTORES DE TRANSPORTE DE CARGA Y DE PASAJEROS</label>
+            </value>
+            <value>
+                <fullName>9230300	INSPECCION - INSPECTORES FISCALES Y DE PRECIOS</fullName>
+                <default>false</default>
+                <label>9230300	INSPECCION - INSPECTORES FISCALES Y DE PRECIOS</label>
+            </value>
+            <value>
+                <fullName>9230400	INSPECCION - INSPECTORES SANITARIOS Y DE CONTROL DE CALIDAD DE PRODUCTOS CARNICOS, PESQUEROS Y AGRICOLAS</fullName>
+                <default>false</default>
+                <label>9230400	INSPECCION - INSPECTORES SANITARIOS Y DE CONTROL DE CALIDAD DE PRODUCTOS CARNICOS, PESQUEROS Y AGRICOLAS</label>
+            </value>
+            <value>
+                <fullName>1033010	INTERPRETACION ARTISTICA - ACTORES, BAILARINES, MUSICOS, ESCRITORES</fullName>
+                <default>false</default>
+                <label>1033010	INTERPRETACION ARTISTICA - ACTORES, BAILARINES, MUSICOS, ESCRITORES</label>
+            </value>
+            <value>
+                <fullName>1033020	INTERPRETACION ARTISTICA - ARTESANOS</fullName>
+                <default>false</default>
+                <label>1033020	INTERPRETACION ARTISTICA - ARTESANOS</label>
+            </value>
+            <value>
+                <fullName>1034010	INTERPRETACION ARTISTICA - ARTISTAS PLASTICOS</fullName>
+                <default>false</default>
+                <label>1034010	INTERPRETACION ARTISTICA - ARTISTAS PLASTICOS</label>
+            </value>
+            <value>
+                <fullName>1033040	INTERPRETACION ARTISTICA - FOTOGRAFOS</fullName>
+                <default>false</default>
+                <label>1033040	INTERPRETACION ARTISTICA - FOTOGRAFOS</label>
+            </value>
+            <value>
+                <fullName>1113010	INVESTIGACION - ASISTENTES DE INVESTIGADORES</fullName>
+                <default>false</default>
+                <label>1113010	INVESTIGACION - ASISTENTES DE INVESTIGADORES</label>
+            </value>
+            <value>
+                <fullName>1114010	INVESTIGACION - BIOLOGOS Y CIENTIFICOS RELACIONADOS</fullName>
+                <default>false</default>
+                <label>1114010	INVESTIGACION - BIOLOGOS Y CIENTIFICOS RELACIONADOS</label>
+            </value>
+            <value>
+                <fullName>1114020	INVESTIGACION - ECONOMISTAS Y POLITOLOGOS (NO FUNCIONARIOS PUBLICOS)</fullName>
+                <default>false</default>
+                <label>1114020	INVESTIGACION - ECONOMISTAS Y POLITOLOGOS (NO FUNCIONARIOS PUBLICOS)</label>
+            </value>
+            <value>
+                <fullName>1112010	INVESTIGACION - ENCUESTADORES Y CODIFICADORES</fullName>
+                <default>false</default>
+                <label>1112010	INVESTIGACION - ENCUESTADORES Y CODIFICADORES</label>
+            </value>
+            <value>
+                <fullName>1114030	INVESTIGACION - FISICOS ASTRONOMOS</fullName>
+                <default>false</default>
+                <label>1114030	INVESTIGACION - FISICOS ASTRONOMOS</label>
+            </value>
+            <value>
+                <fullName>1114040	INVESTIGACION - GEOLOGOS, GEOQUIMICOS, GEOFISICOS Y GEOGRAFOS</fullName>
+                <default>false</default>
+                <label>1114040	INVESTIGACION - GEOLOGOS, GEOQUIMICOS, GEOFISICOS Y GEOGRAFOS</label>
+            </value>
+            <value>
+                <fullName>1114050	INVESTIGACION - INVESTIGADORES Y CONSULTORES EN MERCADOTECNIA</fullName>
+                <default>false</default>
+                <label>1114050	INVESTIGACION - INVESTIGADORES Y CONSULTORES EN MERCADOTECNIA</label>
+            </value>
+            <value>
+                <fullName>1114060	INVESTIGACION - MATEMATICOS, ESTADISTICOS Y ACTUARIOS</fullName>
+                <default>false</default>
+                <label>1114060	INVESTIGACION - MATEMATICOS, ESTADISTICOS Y ACTUARIOS</label>
+            </value>
+            <value>
+                <fullName>1114070	INVESTIGACION - METEOROLOGOS</fullName>
+                <default>false</default>
+                <label>1114070	INVESTIGACION - METEOROLOGOS</label>
+            </value>
+            <value>
+                <fullName>1113020	INVESTIGACION - QUIMICOS Y/O TECNICOS EN QUIMICA</fullName>
+                <default>false</default>
+                <label>1113020	INVESTIGACION - QUIMICOS Y/O TECNICOS EN QUIMICA</label>
+            </value>
+            <value>
+                <fullName>1114090	INVESTIGACION - SOCIOLOGOS, ANTROPOLOGOS E HISTORIADORES</fullName>
+                <default>false</default>
+                <label>1114090	INVESTIGACION - SOCIOLOGOS, ANTROPOLOGOS E HISTORIADORES</label>
+            </value>
+            <value>
+                <fullName>7720300	LIMPIEZA - FUMIGADORES DE PLAGAS</fullName>
+                <default>false</default>
+                <label>7720300	LIMPIEZA - FUMIGADORES DE PLAGAS</label>
+            </value>
+            <value>
+                <fullName>7720100	LIMPIEZA - SERVICIOS DE CAMARISTAS Y ASEADORES</fullName>
+                <default>false</default>
+                <label>7720100	LIMPIEZA - SERVICIOS DE CAMARISTAS Y ASEADORES</label>
+            </value>
+            <value>
+                <fullName>7720200	LIMPIEZA - TRABAJADORES DE TINTORERIA Y LAVANDERIA</fullName>
+                <default>false</default>
+                <label>7720200	LIMPIEZA - TRABAJADORES DE TINTORERIA Y LAVANDERIA</label>
+            </value>
+            <value>
+                <fullName>5510100	MADERA, PAPEL, Y PIEL - TRABAJADORES EN LA FABRICACION DE MUEBLES O PRODUCTOS DE MADERA Y/O PIEL</fullName>
+                <default>false</default>
+                <label>5510100	MADERA, PAPEL, Y PIEL - TRABAJADORES EN LA FABRICACION DE MUEBLES O PRODUCTOS DE MADERA Y/O PIEL</label>
+            </value>
+            <value>
+                <fullName>4130500	MECANICA - INGENIERO O MECANICOS INSTALADORES DE MAQUINARIA INDUSTRIAL</fullName>
+                <default>false</default>
+                <label>4130500	MECANICA - INGENIERO O MECANICOS INSTALADORES DE MAQUINARIA INDUSTRIAL</label>
+            </value>
+            <value>
+                <fullName>4131000	MECANICA - INGENIERO O TECNICO EN MECANICA DE VEHICULOS TERRESTRES, AEREOS Y ACUATICOS</fullName>
+                <default>false</default>
+                <label>4131000	MECANICA - INGENIERO O TECNICO EN MECANICA DE VEHICULOS TERRESTRES, AEREOS Y ACUATICOS</label>
+            </value>
+            <value>
+                <fullName>4130300	MECANICA - MECANICOS DE EQUIPO PESADO</fullName>
+                <default>false</default>
+                <label>4130300	MECANICA - MECANICOS DE EQUIPO PESADO</label>
+            </value>
+            <value>
+                <fullName>5210100	METALES - SUPERVISORES U OPERADORES DE PROCESAMIENTO Y FUNDICION DE METALES</fullName>
+                <default>false</default>
+                <label>5210100	METALES - SUPERVISORES U OPERADORES DE PROCESAMIENTO Y FUNDICION DE METALES</label>
+            </value>
+            <value>
+                <fullName>5121300	MINERALES NO METALICOS - OPERADORES DE MAQUINAS PROCESADORAS DE MINERALES NO METALICOS</fullName>
+                <default>false</default>
+                <label>5121300	MINERALES NO METALICOS - OPERADORES DE MAQUINAS PROCESADORAS DE MINERALES NO METALICOS</label>
+            </value>
+            <value>
+                <fullName>5110100	MINERALES NO METALICOS - OPERADORES O TRABAJADORES DE VIDRIO Y CONCRETO</fullName>
+                <default>false</default>
+                <label>5110100	MINERALES NO METALICOS - OPERADORES O TRABAJADORES DE VIDRIO Y CONCRETO</label>
+            </value>
+            <value>
+                <fullName>2210100	MINERIA, EXTRACCION Y SUMINISTRO - AYUDANTES EN LA PERFORACION DE POZOS DE PETROLEO Y GAS NATURAL</fullName>
+                <default>false</default>
+                <label>2210100	MINERIA, EXTRACCION Y SUMINISTRO - AYUDANTES EN LA PERFORACION DE POZOS DE PETROLEO Y GAS NATURAL</label>
+            </value>
+            <value>
+                <fullName>2530100	MINERIA, EXTRACCION Y SUMINISTRO - GERENTE, SUPERVISOR U OPERADORES DE  TRATAMIENTO Y POTABILIZACION, ABASTECIMIENTO Y RECOLECCION DE AGUA</fullName>
+                <default>false</default>
+                <label>2530100	MINERIA, EXTRACCION Y SUMINISTRO - GERENTE, SUPERVISOR U OPERADORES DE  TRATAMIENTO Y POTABILIZACION, ABASTECIMIENTO Y RECOLECCION DE AGUA</label>
+            </value>
+            <value>
+                <fullName>2240200	MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS PETROLEROS</fullName>
+                <default>false</default>
+                <label>2240200	MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS PETROLEROS</label>
+            </value>
+            <value>
+                <fullName>2140100	MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS, OPERADORES O AYUDANTES EN LA EXTRACCION Y REFINACION MINERA</fullName>
+                <default>false</default>
+                <label>2140100	MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS, OPERADORES O AYUDANTES EN LA EXTRACCION Y REFINACION MINERA</label>
+            </value>
+            <value>
+                <fullName>2420100	MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE CENTRALES O SISTEMAS  DE ENERGIA ELECTRICAS</fullName>
+                <default>false</default>
+                <label>2420100	MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE CENTRALES O SISTEMAS  DE ENERGIA ELECTRICAS</label>
+            </value>
+            <value>
+                <fullName>2420200	MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE MAQUINAS DE VAPOR</fullName>
+                <default>false</default>
+                <label>2420200	MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE MAQUINAS DE VAPOR</label>
+            </value>
+            <value>
+                <fullName>2130100	MINERIA, EXTRACCION Y SUMINISTRO - TECNICOS GEOLOGICOS Y DE MINERALES</fullName>
+                <default>false</default>
+                <label>2130100	MINERIA, EXTRACCION Y SUMINISTRO - TECNICOS GEOLOGICOS Y DE MINERALES</label>
+            </value>
+            <value>
+                <fullName>1000000	NO APLICA</fullName>
+                <default>false</default>
+                <label>1000000	NO APLICA</label>
+            </value>
+            <value>
+                <fullName>1136080	ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES - EMPLEADOS DE ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</fullName>
+                <default>false</default>
+                <label>1136080	ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES - EMPLEADOS DE ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</label>
+            </value>
+            <value>
+                <fullName>1135070	OTRAS OCUPACIONES - AGENTE ADUANAL</fullName>
+                <default>false</default>
+                <label>1135070	OTRAS OCUPACIONES - AGENTE ADUANAL</label>
+            </value>
+            <value>
+                <fullName>1135050	OTRAS OCUPACIONES - AMA DE CASA O QUEHACERES DEL HOGAR</fullName>
+                <default>false</default>
+                <label>1135050	OTRAS OCUPACIONES - AMA DE CASA O QUEHACERES DEL HOGAR</label>
+            </value>
+            <value>
+                <fullName>1135020	OTRAS OCUPACIONES - DESEMPLEADO</fullName>
+                <default>false</default>
+                <label>1135020	OTRAS OCUPACIONES - DESEMPLEADO</label>
+            </value>
+            <value>
+                <fullName>1135010	OTRAS OCUPACIONES - ESTUDIANTE O MENOR DE EDAD SIN OCUPACION</fullName>
+                <default>false</default>
+                <label>1135010	OTRAS OCUPACIONES - ESTUDIANTE O MENOR DE EDAD SIN OCUPACION</label>
+            </value>
+            <value>
+                <fullName>1135030	OTRAS OCUPACIONES - JUBILADO O PENSIONADO</fullName>
+                <default>false</default>
+                <label>1135030	OTRAS OCUPACIONES - JUBILADO O PENSIONADO</label>
+            </value>
+            <value>
+                <fullName>1135060	OTRAS OCUPACIONES - MINISTROS DE CULTO RELIGIOSO (SACERDOTE, PASTOR, MONJA, ETC)</fullName>
+                <default>false</default>
+                <label>1135060	OTRAS OCUPACIONES - MINISTROS DE CULTO RELIGIOSO (SACERDOTE, PASTOR, MONJA, ETC)</label>
+            </value>
+            <value>
+                <fullName>1135080	OTRAS OCUPACIONES - PROPIETARIO, ACCIONISTA O SOCIO</fullName>
+                <default>false</default>
+                <label>1135080	OTRAS OCUPACIONES - PROPIETARIO, ACCIONISTA O SOCIO</label>
+            </value>
+            <value>
+                <fullName>1330200	PESCA Y ACUACULTURA - PESCADORES Y TRABAJADORES EN LA CRIA Y CULTIVO DE ESPECIES MARINAS</fullName>
+                <default>false</default>
+                <label>1330200	PESCA Y ACUACULTURA - PESCADORES Y TRABAJADORES EN LA CRIA Y CULTIVO DE ESPECIES MARINAS</label>
+            </value>
+            <value>
+                <fullName>4630100	PROCESOS INDUSTRIALES - INGENIERO O TECNICOS INDUSTRIAL Y DE PRODUCCION</fullName>
+                <default>false</default>
+                <label>4630100	PROCESOS INDUSTRIALES - INGENIERO O TECNICOS INDUSTRIAL Y DE PRODUCCION</label>
+            </value>
+            <value>
+                <fullName>4640300	PROCESOS INDUSTRIALES - INGENIEROS METALURGICOS Y DE MATERIALES</fullName>
+                <default>false</default>
+                <label>4640300	PROCESOS INDUSTRIALES - INGENIEROS METALURGICOS Y DE MATERIALES</label>
+            </value>
+            <value>
+                <fullName>5810200	PRODUCTOS ELECTRICOS Y ELECTRONICOS - TRABAJADORES EN LA FABRICACION DE PRODUCTOS ELECTRICOS Y ELECTRONICOS</fullName>
+                <default>false</default>
+                <label>5810200	PRODUCTOS ELECTRICOS Y ELECTRONICOS - TRABAJADORES EN LA FABRICACION DE PRODUCTOS ELECTRICOS Y ELECTRONICOS</label>
+            </value>
+            <value>
+                <fullName>5910400	PRODUCTOS IMPRESOS - TRABAJADORES EN LA ELABORACION DE PRODUCTOS IMPRESOS</fullName>
+                <default>false</default>
+                <label>5910400	PRODUCTOS IMPRESOS - TRABAJADORES EN LA ELABORACION DE PRODUCTOS IMPRESOS</label>
+            </value>
+            <value>
+                <fullName>5720800	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - ENSAMBLADORES Y ACABADORES DE PRODUCTOS DE PLASTICO</fullName>
+                <default>false</default>
+                <label>5720800	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - ENSAMBLADORES Y ACABADORES DE PRODUCTOS DE PLASTICO</label>
+            </value>
+            <value>
+                <fullName>5720900	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - FABRICANTES DE HERRAMIENTAS Y TROQUELES</fullName>
+                <default>false</default>
+                <label>5720900	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - FABRICANTES DE HERRAMIENTAS Y TROQUELES</label>
+            </value>
+            <value>
+                <fullName>5721000	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - HERREROS Y FORJADORES</fullName>
+                <default>false</default>
+                <label>5721000	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - HERREROS Y FORJADORES</label>
+            </value>
+            <value>
+                <fullName>5721100	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - JOYEROS Y ORFEBRES</fullName>
+                <default>false</default>
+                <label>5721100	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - JOYEROS Y ORFEBRES</label>
+            </value>
+            <value>
+                <fullName>5722900	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SOLDADORES Y OXICORTADORES</fullName>
+                <default>false</default>
+                <label>5722900	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SOLDADORES Y OXICORTADORES</label>
+            </value>
+            <value>
+                <fullName>5731100	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SUPERVISORES EN LA FABRICACION Y MONTAJE DE ARTICULOS DEPORTIVOS, DE JUGUETES Y SIMILARES</fullName>
+                <default>false</default>
+                <label>5731100	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SUPERVISORES EN LA FABRICACION Y MONTAJE DE ARTICULOS DEPORTIVOS, DE JUGUETES Y SIMILARES</label>
+            </value>
+            <value>
+                <fullName>5710200	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES  EN LA FABRICACION DE PRODUCTOS METALICOS, DE HULE Y PLASTICOS</fullName>
+                <default>false</default>
+                <label>5710200	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES  EN LA FABRICACION DE PRODUCTOS METALICOS, DE HULE Y PLASTICOS</label>
+            </value>
+            <value>
+                <fullName>5730600	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES EN EL ENSAMBLADO DE VEHICULOS, MOLDEADO, LAMINADO Y MONTAJE DE PIEZAS METALICAS, HULE O PLASTICO</fullName>
+                <default>false</default>
+                <label>5730600	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES EN EL ENSAMBLADO DE VEHICULOS, MOLDEADO, LAMINADO Y MONTAJE DE PIEZAS METALICAS, HULE O PLASTICO</label>
+            </value>
+            <value>
+                <fullName>5610200	PRODUCTOS QUIMICOS - TRABAJADORES EN EL PROCESAMIENTO Y FABRICACION DE PRODUCTOS QUIMICOS Y FARMACOQUIMICAS</fullName>
+                <default>false</default>
+                <label>5610200	PRODUCTOS QUIMICOS - TRABAJADORES EN EL PROCESAMIENTO Y FABRICACION DE PRODUCTOS QUIMICOS Y FARMACOQUIMICAS</label>
+            </value>
+            <value>
+                <fullName>9420100	PROTECCION DE BIENES Y/O PERSONAS - BOMBEROS</fullName>
+                <default>false</default>
+                <label>9420100	PROTECCION DE BIENES Y/O PERSONAS - BOMBEROS</label>
+            </value>
+            <value>
+                <fullName>9430100	PROTECCION DE BIENES Y/O PERSONAS - DETECTIVES PRIVADOS</fullName>
+                <default>false</default>
+                <label>9430100	PROTECCION DE BIENES Y/O PERSONAS - DETECTIVES PRIVADOS</label>
+            </value>
+            <value>
+                <fullName>9420300	PROTECCION DE BIENES Y/O PERSONAS - GUARDIAS DE SEGURIDAD</fullName>
+                <default>false</default>
+                <label>9420300	PROTECCION DE BIENES Y/O PERSONAS - GUARDIAS DE SEGURIDAD</label>
+            </value>
+            <value>
+                <fullName>1054010	PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - DIRECTORES, GERENTES Y EMPLEADOS DE PUBLICIDAD</fullName>
+                <default>false</default>
+                <label>1054010	PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - DIRECTORES, GERENTES Y EMPLEADOS DE PUBLICIDAD</label>
+            </value>
+            <value>
+                <fullName>1052010	PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - MODELOS Y EDECANES</fullName>
+                <default>false</default>
+                <label>1052010	PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - MODELOS Y EDECANES</label>
+            </value>
+            <value>
+                <fullName>1023010	RADIO, CINE, TELEVISION Y TEATRO - ASISTENTES Y/U OPERADORES DE PRODUCCION DE CINE, RADIO Y TELEVISION</fullName>
+                <default>false</default>
+                <label>1023010	RADIO, CINE, TELEVISION Y TEATRO - ASISTENTES Y/U OPERADORES DE PRODUCCION DE CINE, RADIO Y TELEVISION</label>
+            </value>
+            <value>
+                <fullName>1014010	RADIO, CINE, TELEVISION Y TEATRO - DISEÑADORES GRAFICOS</fullName>
+                <default>false</default>
+                <label>1014010	RADIO, CINE, TELEVISION Y TEATRO - DISEÑADORES GRAFICOS</label>
+            </value>
+            <value>
+                <fullName>1014030	RADIO, CINE, TELEVISION Y TEATRO - EDITORES, PERIODISTAS, REPORTEROS Y REDACTORES</fullName>
+                <default>false</default>
+                <label>1014030	RADIO, CINE, TELEVISION Y TEATRO - EDITORES, PERIODISTAS, REPORTEROS Y REDACTORES</label>
+            </value>
+            <value>
+                <fullName>1023070	RADIO, CINE, TELEVISION Y TEATRO - LOCUTORES, COMENTARISTAS Y CRONISTAS DE RADIO Y TELEVISION</fullName>
+                <default>false</default>
+                <label>1023070	RADIO, CINE, TELEVISION Y TEATRO - LOCUTORES, COMENTARISTAS Y CRONISTAS DE RADIO Y TELEVISION</label>
+            </value>
+            <value>
+                <fullName>1024020	RADIO, CINE, TELEVISION Y TEATRO - PRODUCTORES Y DIRECTORES DE CINE, TELEVISION Y TEATRO</fullName>
+                <default>false</default>
+                <label>1024020	RADIO, CINE, TELEVISION Y TEATRO - PRODUCTORES Y DIRECTORES DE CINE, TELEVISION Y TEATRO</label>
+            </value>
+            <value>
+                <fullName>7620100	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - CERRAJEROS</fullName>
+                <default>false</default>
+                <label>7620100	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - CERRAJEROS</label>
+            </value>
+            <value>
+                <fullName>7630100	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - RELOJEROS Y REPARADORES DE RELOJES</fullName>
+                <default>false</default>
+                <label>7630100	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - RELOJEROS Y REPARADORES DE RELOJES</label>
+            </value>
+            <value>
+                <fullName>7630200	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE APARATOS ELECTRICOS</fullName>
+                <default>false</default>
+                <label>7630200	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE APARATOS ELECTRICOS</label>
+            </value>
+            <value>
+                <fullName>7620200	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE ARTICULOS DE HULE</fullName>
+                <default>false</default>
+                <label>7620200	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE ARTICULOS DE HULE</label>
+            </value>
+            <value>
+                <fullName>1136090	SECTOR PUBLICO - EJERCITO, ARMADA Y FUERZA AEREA</fullName>
+                <default>false</default>
+                <label>1136090	SECTOR PUBLICO - EJERCITO, ARMADA Y FUERZA AEREA</label>
+            </value>
+            <value>
+                <fullName>1136010	SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO FEDERAL</fullName>
+                <default>false</default>
+                <label>1136010	SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>1136030	SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO MUNICIPAL O DELEGACIONAL</fullName>
+                <default>false</default>
+                <label>1136030	SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO MUNICIPAL O DELEGACIONAL</label>
+            </value>
+            <value>
+                <fullName>1136070	SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL ESTATAL O DEL DISTRITO FEDERAL</fullName>
+                <default>false</default>
+                <label>1136070	SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL ESTATAL O DEL DISTRITO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>1136040	SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL FEDERAL</fullName>
+                <default>false</default>
+                <label>1136040	SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL FEDERAL</label>
+            </value>
+            <value>
+                <fullName>1136060	SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO ESTATAL O DEL DISTRITO FEDERAL</fullName>
+                <default>false</default>
+                <label>1136060	SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO ESTATAL O DEL DISTRITO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>1136050	SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO FEDERAL</fullName>
+                <default>false</default>
+                <label>1136050	SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>1136020	SECTOR PUBLICO - EMPLEADO PODER EJECUTIVO ESTATAL O DEL DISTRITO FEDERAL</fullName>
+                <default>false</default>
+                <label>1136020	SECTOR PUBLICO - EMPLEADO PODER EJECUTIVO ESTATAL O DEL DISTRITO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>9330100	SEGURIDAD SOCIAL - CONSEJEROS DE EMPLEO</fullName>
+                <default>false</default>
+                <label>9330100	SEGURIDAD SOCIAL - CONSEJEROS DE EMPLEO</label>
+            </value>
+            <value>
+                <fullName>9330300	SEGURIDAD SOCIAL - TRABAJADORES DE SERVICIO SOCIAL Y DE LA COMUNIDAD</fullName>
+                <default>false</default>
+                <label>9330300	SEGURIDAD SOCIAL - TRABAJADORES DE SERVICIO SOCIAL Y DE LA COMUNIDAD</label>
+            </value>
+            <value>
+                <fullName>7810200	SERVICIO POSTAL Y MENSAJERIA - EMPLEADOS DE SERVICIOS DE MENSAJERIA</fullName>
+                <default>false</default>
+                <label>7810200	SERVICIO POSTAL Y MENSAJERIA - EMPLEADOS DE SERVICIOS DE MENSAJERIA</label>
+            </value>
+            <value>
+                <fullName>8340100	SERVICIOS LEGALES - ABOGADOS Y ASESORES LEGALES</fullName>
+                <default>false</default>
+                <label>8340100	SERVICIOS LEGALES - ABOGADOS Y ASESORES LEGALES</label>
+            </value>
+            <value>
+                <fullName>8340300	SERVICIOS LEGALES - NOTARIOS Y CORREDORES PUBLICOS</fullName>
+                <default>false</default>
+                <label>8340300	SERVICIOS LEGALES - NOTARIOS Y CORREDORES PUBLICOS</label>
+            </value>
+            <value>
+                <fullName>9130300	SERVICIOS MEDICOS - DIETISTAS Y NUTRIOLOGOS</fullName>
+                <default>false</default>
+                <label>9130300	SERVICIOS MEDICOS - DIETISTAS Y NUTRIOLOGOS</label>
+            </value>
+            <value>
+                <fullName>9140200	SERVICIOS MEDICOS - DIRECTORES DE INSTITUCIONES EN EL CUIDADO DE LA SALUD</fullName>
+                <default>false</default>
+                <label>9140200	SERVICIOS MEDICOS - DIRECTORES DE INSTITUCIONES EN EL CUIDADO DE LA SALUD</label>
+            </value>
+            <value>
+                <fullName>9120700	SERVICIOS MEDICOS - ENFERMERAS Y/O PARAMEDICOS</fullName>
+                <default>false</default>
+                <label>9120700	SERVICIOS MEDICOS - ENFERMERAS Y/O PARAMEDICOS</label>
+            </value>
+            <value>
+                <fullName>9140400	SERVICIOS MEDICOS - FARMACEUTICOS</fullName>
+                <default>false</default>
+                <label>9140400	SERVICIOS MEDICOS - FARMACEUTICOS</label>
+            </value>
+            <value>
+                <fullName>9140500	SERVICIOS MEDICOS - FISIOTERAPEUTAS Y QUIROPRACTICOS</fullName>
+                <default>false</default>
+                <label>9140500	SERVICIOS MEDICOS - FISIOTERAPEUTAS Y QUIROPRACTICOS</label>
+            </value>
+            <value>
+                <fullName>9140700	SERVICIOS MEDICOS - MEDICOS ESPECIALISTAS</fullName>
+                <default>false</default>
+                <label>9140700	SERVICIOS MEDICOS - MEDICOS ESPECIALISTAS</label>
+            </value>
+            <value>
+                <fullName>9140800	SERVICIOS MEDICOS - MEDICOS GENERALES Y FAMILIARES</fullName>
+                <default>false</default>
+                <label>9140800	SERVICIOS MEDICOS - MEDICOS GENERALES Y FAMILIARES</label>
+            </value>
+            <value>
+                <fullName>9131200	SERVICIOS MEDICOS - TECNICOS DE LABORATORIO MEDICO</fullName>
+                <default>false</default>
+                <label>9131200	SERVICIOS MEDICOS - TECNICOS DE LABORATORIO MEDICO</label>
+            </value>
+            <value>
+                <fullName>7530100	SERVICIOS PERSONALES - ESTILISTAS, ESTETICISTAS Y MASAJISTAS</fullName>
+                <default>false</default>
+                <label>7530100	SERVICIOS PERSONALES - ESTILISTAS, ESTETICISTAS Y MASAJISTAS</label>
+            </value>
+            <value>
+                <fullName>7540100	SERVICIOS PERSONALES - TRBAJADORES DE SERVICIOS FUNERARIOS O CEMENTERIOS</fullName>
+                <default>false</default>
+                <label>7540100	SERVICIOS PERSONALES - TRBAJADORES DE SERVICIOS FUNERARIOS O CEMENTERIOS</label>
+            </value>
+            <value>
+                <fullName>4530200	TELECOMUNICACIONES - INGENIERO, INSTALADORES Y REPARADORES DE EQUIPOS Y ACCESORIOS DE TELECOMUNICACIONES</fullName>
+                <default>false</default>
+                <label>4530200	TELECOMUNICACIONES - INGENIERO, INSTALADORES Y REPARADORES DE EQUIPOS Y ACCESORIOS DE TELECOMUNICACIONES</label>
+            </value>
+            <value>
+                <fullName>4530500	TELECOMUNICACIONES - TELEGRAFISTAS Y RADIO-OPERADORES</fullName>
+                <default>false</default>
+                <label>4530500	TELECOMUNICACIONES - TELEGRAFISTAS Y RADIO-OPERADORES</label>
+            </value>
+            <value>
+                <fullName>5420700	TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES DE REPARACION DE PRENDAS DE VESTIR Y CALZADO</fullName>
+                <default>false</default>
+                <label>5420700	TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES DE REPARACION DE PRENDAS DE VESTIR Y CALZADO</label>
+            </value>
+            <value>
+                <fullName>5410100	TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES EN LA PRODUCCION DE TEXTILES, PRENDAS DE VESTIR Y CALZADO</fullName>
+                <default>false</default>
+                <label>5410100	TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES EN LA PRODUCCION DE TEXTILES, PRENDAS DE VESTIR Y CALZADO</label>
+            </value>
+            <value>
+                <fullName>1044010	TRADUCCION E INTERPRETACION LINGüISTICA - INTERPRETES Y/O TRADUCTORES</fullName>
+                <default>false</default>
+                <label>1044010	TRADUCCION E INTERPRETACION LINGüISTICA - INTERPRETES Y/O TRADUCTORES</label>
+            </value>
+            <value>
+                <fullName>6330100	TRANSPORTE AEREO - COORDINADORES Y SUPERVISORES EN SERVICIOS DE TRANSPORTE AEREO</fullName>
+                <default>false</default>
+                <label>6330100	TRANSPORTE AEREO - COORDINADORES Y SUPERVISORES EN SERVICIOS DE TRANSPORTE AEREO</label>
+            </value>
+            <value>
+                <fullName>6330200	TRANSPORTE AEREO - DESPACHADORES DE VUELO Y ESPECIALISTAS EN SERVICIOS AEREOS</fullName>
+                <default>false</default>
+                <label>6330200	TRANSPORTE AEREO - DESPACHADORES DE VUELO Y ESPECIALISTAS EN SERVICIOS AEREOS</label>
+            </value>
+            <value>
+                <fullName>6330500	TRANSPORTE AEREO - PILOTOS DE AVIACION E INSTRUCTORES DE VUELO</fullName>
+                <default>false</default>
+                <label>6330500	TRANSPORTE AEREO - PILOTOS DE AVIACION E INSTRUCTORES DE VUELO</label>
+            </value>
+            <value>
+                <fullName>6330600	TRANSPORTE AEREO - SOBRECARGOS</fullName>
+                <default>false</default>
+                <label>6330600	TRANSPORTE AEREO - SOBRECARGOS</label>
+            </value>
+            <value>
+                <fullName>6330400	TRANSPORTE AEREO - SUPERVISORES DE SISTEMAS DE COMUNICACION PARA LA AERONAVEGACION</fullName>
+                <default>false</default>
+                <label>6330400	TRANSPORTE AEREO - SUPERVISORES DE SISTEMAS DE COMUNICACION PARA LA AERONAVEGACION</label>
+            </value>
+            <value>
+                <fullName>6120100	TRANSPORTE FERROVIARIO - CONDUCTORES Y OPERADORES DE TREN SUBTERRANEO Y DE TREN LIGERO</fullName>
+                <default>false</default>
+                <label>6120100	TRANSPORTE FERROVIARIO - CONDUCTORES Y OPERADORES DE TREN SUBTERRANEO Y DE TREN LIGERO</label>
+            </value>
+            <value>
+                <fullName>6120200	TRANSPORTE FERROVIARIO - TRABAJADORES DE FERROCARRILES</fullName>
+                <default>false</default>
+                <label>6120200	TRANSPORTE FERROVIARIO - TRABAJADORES DE FERROCARRILES</label>
+            </value>
+            <value>
+                <fullName>6420100	TRANSPORTE MARITIMO Y FLUVIAL - CONDUCTORES DE EMBARCACIONES</fullName>
+                <default>false</default>
+                <label>6420100	TRANSPORTE MARITIMO Y FLUVIAL - CONDUCTORES DE EMBARCACIONES</label>
+            </value>
+            <value>
+                <fullName>6430100	TRANSPORTE MARITIMO Y FLUVIAL - JEFES Y CONTROLADORES DE TRAFICO MARITIMO</fullName>
+                <default>false</default>
+                <label>6430100	TRANSPORTE MARITIMO Y FLUVIAL - JEFES Y CONTROLADORES DE TRAFICO MARITIMO</label>
+            </value>
+            <value>
+                <fullName>6430300	TRANSPORTE MARITIMO Y FLUVIAL - PILOTOS, CAPITANES DE PUERTOS Y OFICIALES DE CUBIERTA</fullName>
+                <default>false</default>
+                <label>6430300	TRANSPORTE MARITIMO Y FLUVIAL - PILOTOS, CAPITANES DE PUERTOS Y OFICIALES DE CUBIERTA</label>
+            </value>
+            <value>
+                <fullName>6220100	TRANSPORTE TERRESTRE - CONDUCTORES DE VEHICULOS DE TRANSPORTE, SERVICIOS DE CARGA Y/O REPARTO</fullName>
+                <default>false</default>
+                <label>6220100	TRANSPORTE TERRESTRE - CONDUCTORES DE VEHICULOS DE TRANSPORTE, SERVICIOS DE CARGA Y/O REPARTO</label>
+            </value>
+            <value>
+                <fullName>7330200	TURISMO - COORDINADORES DE OPERACIONES EN AGENCIAS DE VIAJES</fullName>
+                <default>false</default>
+                <label>7330200	TURISMO - COORDINADORES DE OPERACIONES EN AGENCIAS DE VIAJES</label>
+            </value>
+            <value>
+                <fullName>7330300	TURISMO - GUIAS DE EXCURSIONES O ECOTURISTICO</fullName>
+                <default>false</default>
+                <label>7330300	TURISMO - GUIAS DE EXCURSIONES O ECOTURISTICO</label>
+            </value>
+            <value>
+                <fullName>8370023	ASOCIACIONES - ORGANIZACIONES CIVILES</fullName>
+                <default>false</default>
+                <label>8370023	ASOCIACIONES - ORGANIZACIONES CIVILES</label>
+            </value>
+            <value>
+                <fullName>8340023	ASOCIACIONES - ORGANIZACIONES DE ACTIVIDADES RECREATIVAS</fullName>
+                <default>false</default>
+                <label>8340023	ASOCIACIONES - ORGANIZACIONES DE ACTIVIDADES RECREATIVAS</label>
+            </value>
+            <value>
+                <fullName>8330023	ASOCIACIONES - ORGANIZACIONES DE PROFESIONISTAS</fullName>
+                <default>false</default>
+                <label>8330023	ASOCIACIONES - ORGANIZACIONES DE PROFESIONISTAS</label>
+            </value>
+            <value>
+                <fullName>8320023	ASOCIACIONES - ORGANIZACIONES LABORALES Y SINDICALES</fullName>
+                <default>false</default>
+                <label>8320023	ASOCIACIONES - ORGANIZACIONES LABORALES Y SINDICALES</label>
+            </value>
+            <value>
+                <fullName>8360023	ASOCIACIONES - ORGANIZACIONES POLITICAS</fullName>
+                <default>false</default>
+                <label>8360023	ASOCIACIONES - ORGANIZACIONES POLITICAS</label>
+            </value>
+            <value>
+                <fullName>8350023	ASOCIACIONES - ORGANIZACIONES RELIGIOSAS</fullName>
+                <default>false</default>
+                <label>8350023	ASOCIACIONES - ORGANIZACIONES RELIGIOSAS</label>
+            </value>
+            <value>
+                <fullName>8310023	ASOCIACIONES - ORGANIZACIONES Y CAMARAS DE PRODUCTORES, COMERCIANTES Y PRESTADORES DE SERVICIOS</fullName>
+                <default>false</default>
+                <label>8310023	ASOCIACIONES - ORGANIZACIONES Y CAMARAS DE PRODUCTORES, COMERCIANTES Y PRESTADORES DE SERVICIOS</label>
+            </value>
+            <value>
+                <fullName>4760006	COMERCIO - A TRAVES DE INTERNET, Y CATALOGOS IMPRESOS, TELEVISION Y SIMILARES</fullName>
+                <default>false</default>
+                <label>4760006	COMERCIO - A TRAVES DE INTERNET, Y CATALOGOS IMPRESOS, TELEVISION Y SIMILARES</label>
+            </value>
+            <value>
+                <fullName>4310006	COMERCIO - ABARROTES, ALIMENTOS, BEBIDAS, HIELO Y TABACO</fullName>
+                <default>false</default>
+                <label>4310006	COMERCIO - ABARROTES, ALIMENTOS, BEBIDAS, HIELO Y TABACO</label>
+            </value>
+            <value>
+                <fullName>4680006	COMERCIO - ANTIGÜEDADES Y OBRAS DE ARTE</fullName>
+                <default>false</default>
+                <label>4680006	COMERCIO - ANTIGÜEDADES Y OBRAS DE ARTE</label>
+            </value>
+            <value>
+                <fullName>4710006	COMERCIO - ARTICULOS DE FERRETERIA, TLAPALERIA Y VIDRIOS</fullName>
+                <default>false</default>
+                <label>4710006	COMERCIO - ARTICULOS DE FERRETERIA, TLAPALERIA Y VIDRIOS</label>
+            </value>
+            <value>
+                <fullName>4660026	COMERCIO - ARTICULOS DE JOYERIA Y RELOJES</fullName>
+                <default>false</default>
+                <label>4660026	COMERCIO - ARTICULOS DE JOYERIA Y RELOJES</label>
+            </value>
+            <value>
+                <fullName>4650006	COMERCIO - ARTICULOS DE PAPELERIA</fullName>
+                <default>false</default>
+                <label>4650006	COMERCIO - ARTICULOS DE PAPELERIA</label>
+            </value>
+            <value>
+                <fullName>4670006	COMERCIO - ARTICULOS PARA LA DECORACION DE INTERIORES</fullName>
+                <default>false</default>
+                <label>4670006	COMERCIO - ARTICULOS PARA LA DECORACION DE INTERIORES</label>
+            </value>
+            <value>
+                <fullName>4750006	COMERCIO - COMBUSTIBLES Y LUBRICANTES</fullName>
+                <default>false</default>
+                <label>4750006	COMERCIO - COMBUSTIBLES Y LUBRICANTES</label>
+            </value>
+            <value>
+                <fullName>4340006	COMERCIO - MAQUINARIA, EQUIPO DE COMPUTO Y MOBILIARIO DE USO GENERAL</fullName>
+                <default>false</default>
+                <label>4340006	COMERCIO - MAQUINARIA, EQUIPO DE COMPUTO Y MOBILIARIO DE USO GENERAL</label>
+            </value>
+            <value>
+                <fullName>4330006	COMERCIO - MATERIAS PRIMAS AGROPECUARIAS Y FORESTALES, PARA LA INDUSTRIA, Y MATERIALES DE DESECHO</fullName>
+                <default>false</default>
+                <label>4330006	COMERCIO - MATERIAS PRIMAS AGROPECUARIAS Y FORESTALES, PARA LA INDUSTRIA, Y MATERIALES DE DESECHO</label>
+            </value>
+            <value>
+                <fullName>4740006	COMERCIO - PARTES Y REFACCIONES PARA VEHICULOS</fullName>
+                <default>false</default>
+                <label>4740006	COMERCIO - PARTES Y REFACCIONES PARA VEHICULOS</label>
+            </value>
+            <value>
+                <fullName>4320006	COMERCIO - PRODUCTOS FARMACEUTICOS, DE PERFUMERIA, ARTICULOS PARA EL ESPARCIMIENTO, ELECTRODOMESTICOS Y APARATOS DE LINEA BLANCA</fullName>
+                <default>false</default>
+                <label>4320006	COMERCIO - PRODUCTOS FARMACEUTICOS, DE PERFUMERIA, ARTICULOS PARA EL ESPARCIMIENTO, ELECTRODOMESTICOS Y APARATOS DE LINEA BLANCA</label>
+            </value>
+            <value>
+                <fullName>4630006	COMERCIO - PRODUCTOS TEXTILES, BISUTERIA, ACCESORIOS DE VESTIR Y CALZADO</fullName>
+                <default>false</default>
+                <label>4630006	COMERCIO - PRODUCTOS TEXTILES, BISUTERIA, ACCESORIOS DE VESTIR Y CALZADO</label>
+            </value>
+            <value>
+                <fullName>4620006	COMERCIO - TIENDAS DE AUTOSERVICIO Y DEPARTAMENTALES</fullName>
+                <default>false</default>
+                <label>4620006	COMERCIO - TIENDAS DE AUTOSERVICIO Y DEPARTAMENTALES</label>
+            </value>
+            <value>
+                <fullName>4720006	COMERCIO - VEHICULOS NUEVOS</fullName>
+                <default>false</default>
+                <label>4720006	COMERCIO - VEHICULOS NUEVOS</label>
+            </value>
+            <value>
+                <fullName>4730006	COMERCIO - VEHICULOS USADOS</fullName>
+                <default>false</default>
+                <label>4730006	COMERCIO - VEHICULOS USADOS</label>
+            </value>
+            <value>
+                <fullName>2720004	CONSTRUCCION - EDIFICACION RESIDENCIAL Y NO RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>2720004	CONSTRUCCION - EDIFICACION RESIDENCIAL Y NO RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>2730004	CONSTRUCCION - OBRAS DE INGENIERIA CIVIL</fullName>
+                <default>false</default>
+                <label>2730004	CONSTRUCCION - OBRAS DE INGENIERIA CIVIL</label>
+            </value>
+            <value>
+                <fullName>2710004	CONSTRUCCION - OTRAS ACTIVIDADES RELACIONADAS CON LA CONSTRUCCION</fullName>
+                <default>false</default>
+                <label>2710004	CONSTRUCCION - OTRAS ACTIVIDADES RELACIONADAS CON LA CONSTRUCCION</label>
+            </value>
+            <value>
+                <fullName>2754004	CONSTRUCCION - SERVICIOS DE BLINDAJE PARCIAL O TOTAL DE INMUEBLES</fullName>
+                <default>false</default>
+                <label>2754004	CONSTRUCCION - SERVICIOS DE BLINDAJE PARCIAL O TOTAL DE INMUEBLES</label>
+            </value>
+            <value>
+                <fullName>2740004	CONSTRUCCION - TRABAJOS ESPECIALIZADOS PARA LA CONSTRUCCION</fullName>
+                <default>false</default>
+                <label>2740004	CONSTRUCCION - TRABAJOS ESPECIALIZADOS PARA LA CONSTRUCCION</label>
+            </value>
+            <value>
+                <fullName>2600003	GENERACION, TRANSMISION Y DISTRIBUCION DE ENERGIA ELECTRICA, SUMINISTRO DE AGUA Y DE GAS</fullName>
+                <default>false</default>
+                <label>2600003	GENERACION, TRANSMISION Y DISTRIBUCION DE ENERGIA ELECTRICA, SUMINISTRO DE AGUA Y DE GAS</label>
+            </value>
+            <value>
+                <fullName>3350005	INDUSTRIA - ACCESORIOS, APARATOS ELECTRICOS Y EQUIPO DE GENERACION DE ENERGIA ELECTRICA</fullName>
+                <default>false</default>
+                <label>3350005	INDUSTRIA - ACCESORIOS, APARATOS ELECTRICOS Y EQUIPO DE GENERACION DE ENERGIA ELECTRICA</label>
+            </value>
+            <value>
+                <fullName>3110005	INDUSTRIA - ALIMENTARIA</fullName>
+                <default>false</default>
+                <label>3110005	INDUSTRIA - ALIMENTARIA</label>
+            </value>
+            <value>
+                <fullName>3370005	INDUSTRIA - AUTOMOTRIZ</fullName>
+                <default>false</default>
+                <label>3370005	INDUSTRIA - AUTOMOTRIZ</label>
+            </value>
+            <value>
+                <fullName>3120005	INDUSTRIA - BEBIDAS Y DEL TABACO</fullName>
+                <default>false</default>
+                <label>3120005	INDUSTRIA - BEBIDAS Y DEL TABACO</label>
+            </value>
+            <value>
+                <fullName>3340005	INDUSTRIA - EQUIPO DE COMPUTACION, COMUNICACION, MEDICION Y DE OTROS EQUIPOS, COMPONENTES Y ACCESORIOS ELECTRONICOS</fullName>
+                <default>false</default>
+                <label>3340005	INDUSTRIA - EQUIPO DE COMPUTACION, COMUNICACION, MEDICION Y DE OTROS EQUIPOS, COMPONENTES Y ACCESORIOS ELECTRONICOS</label>
+            </value>
+            <value>
+                <fullName>3360005	INDUSTRIA - EQUIPO DE TRANSPORTE SIN MOTOR</fullName>
+                <default>false</default>
+                <label>3360005	INDUSTRIA - EQUIPO DE TRANSPORTE SIN MOTOR</label>
+            </value>
+            <value>
+                <fullName>3230005	INDUSTRIA - IMPRESION E INDUSTRIAS CONEXAS</fullName>
+                <default>false</default>
+                <label>3230005	INDUSTRIA - IMPRESION E INDUSTRIAS CONEXAS</label>
+            </value>
+            <value>
+                <fullName>3440005	INDUSTRIA - JOYERIA DE METALES Y PIEDRAS NO PRECIOSOS Y DE OTROS MATERIALES</fullName>
+                <default>false</default>
+                <label>3440005	INDUSTRIA - JOYERIA DE METALES Y PIEDRAS NO PRECIOSOS Y DE OTROS MATERIALES</label>
+            </value>
+            <value>
+                <fullName>3210005	INDUSTRIA - MADERA</fullName>
+                <default>false</default>
+                <label>3210005	INDUSTRIA - MADERA</label>
+            </value>
+            <value>
+                <fullName>3330005	INDUSTRIA - MAQUINARIA Y EQUIPO</fullName>
+                <default>false</default>
+                <label>3330005	INDUSTRIA - MAQUINARIA Y EQUIPO</label>
+            </value>
+            <value>
+                <fullName>3310005	INDUSTRIA - METALICAS BASICAS</fullName>
+                <default>false</default>
+                <label>3310005	INDUSTRIA - METALICAS BASICAS</label>
+            </value>
+            <value>
+                <fullName>3410005	INDUSTRIA - MUEBLES, COLCHONES Y PERSIANAS</fullName>
+                <default>false</default>
+                <label>3410005	INDUSTRIA - MUEBLES, COLCHONES Y PERSIANAS</label>
+            </value>
+            <value>
+                <fullName>3430005	INDUSTRIA - ORFEBRERIA Y JOYERIA DE METALES Y PIEDRAS PRECIOSOS</fullName>
+                <default>false</default>
+                <label>3430005	INDUSTRIA - ORFEBRERIA Y JOYERIA DE METALES Y PIEDRAS PRECIOSOS</label>
+            </value>
+            <value>
+                <fullName>3420005	INDUSTRIA - OTRAS INDUSTRIAS MANUFACTURERAS</fullName>
+                <default>false</default>
+                <label>3420005	INDUSTRIA - OTRAS INDUSTRIAS MANUFACTURERAS</label>
+            </value>
+            <value>
+                <fullName>3220005	INDUSTRIA - PAPEL</fullName>
+                <default>false</default>
+                <label>3220005	INDUSTRIA - PAPEL</label>
+            </value>
+            <value>
+                <fullName>3260005	INDUSTRIA - PLASTICO Y DEL HULE</fullName>
+                <default>false</default>
+                <label>3260005	INDUSTRIA - PLASTICO Y DEL HULE</label>
+            </value>
+            <value>
+                <fullName>3150005	INDUSTRIA - PRENDAS DE VESTIR</fullName>
+                <default>false</default>
+                <label>3150005	INDUSTRIA - PRENDAS DE VESTIR</label>
+            </value>
+            <value>
+                <fullName>3270005	INDUSTRIA - PRODUCTOS A BASE DE MINERALES NO METALICOS (ALFARERIA, PORCELANA, LOZA, VIDRIO, CEMENTO)</fullName>
+                <default>false</default>
+                <label>3270005	INDUSTRIA - PRODUCTOS A BASE DE MINERALES NO METALICOS (ALFARERIA, PORCELANA, LOZA, VIDRIO, CEMENTO)</label>
+            </value>
+            <value>
+                <fullName>3240005	INDUSTRIA - PRODUCTOS DERIVADOS DEL PETROLEO Y DEL CARBON</fullName>
+                <default>false</default>
+                <label>3240005	INDUSTRIA - PRODUCTOS DERIVADOS DEL PETROLEO Y DEL CARBON</label>
+            </value>
+            <value>
+                <fullName>3320005	INDUSTRIA - PRODUCTOS METALICOS (HERRAMIENTAS, UTENSILIOS, ESTRUCTURAS, PIEZAS)</fullName>
+                <default>false</default>
+                <label>3320005	INDUSTRIA - PRODUCTOS METALICOS (HERRAMIENTAS, UTENSILIOS, ESTRUCTURAS, PIEZAS)</label>
+            </value>
+            <value>
+                <fullName>3140005	INDUSTRIA - PRODUCTOS TEXTILES</fullName>
+                <default>false</default>
+                <label>3140005	INDUSTRIA - PRODUCTOS TEXTILES</label>
+            </value>
+            <value>
+                <fullName>3250005	INDUSTRIA - QUIMICA</fullName>
+                <default>false</default>
+                <label>3250005	INDUSTRIA - QUIMICA</label>
+            </value>
+            <value>
+                <fullName>3380005	INDUSTRIA - VEHICULOS BLINDADOS Y EQUIPO PARA EL BLINDAJE DE VEHICULOS</fullName>
+                <default>false</default>
+                <label>3380005	INDUSTRIA - VEHICULOS BLINDADOS Y EQUIPO PARA EL BLINDAJE DE VEHICULOS</label>
+            </value>
+            <value>
+                <fullName>5100011	INFORMACION EN MEDIOS MASIVOS</fullName>
+                <default>false</default>
+                <label>5100011	INFORMACION EN MEDIOS MASIVOS</label>
+            </value>
+            <value>
+                <fullName>2200002	MINERIA - ACTIVIDADES RELACIONADAS CON EL PETROLEO Y EL GAS</fullName>
+                <default>false</default>
+                <label>2200002	MINERIA - ACTIVIDADES RELACIONADAS CON EL PETROLEO Y EL GAS</label>
+            </value>
+            <value>
+                <fullName>2100002	MINERIA - MINERIA DE OTROS RECURSOS</fullName>
+                <default>false</default>
+                <label>2100002	MINERIA - MINERIA DE OTROS RECURSOS</label>
+            </value>
+            <value>
+                <fullName>2300003	MINERIA - ORO</fullName>
+                <default>false</default>
+                <label>2300003	MINERIA - ORO</label>
+            </value>
+            <value>
+                <fullName>2500002	MINERIA - PIEDRAS PRECIOSAS</fullName>
+                <default>false</default>
+                <label>2500002	MINERIA - PIEDRAS PRECIOSAS</label>
+            </value>
+            <value>
+                <fullName>2400002	MINERIA - PLATA</fullName>
+                <default>false</default>
+                <label>2400002	MINERIA - PLATA</label>
+            </value>
+            <value>
+                <fullName>1000000	NO APLICA.</fullName>
+                <default>false</default>
+                <label>1000000	NO APLICA.</label>
+            </value>
+            <value>
+                <fullName>9100025	ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</fullName>
+                <default>false</default>
+                <label>9100025	ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</label>
+            </value>
+            <value>
+                <fullName>5340013	OTRAS EMPRESAS DE INTERMEDIACION CREDITICIA NO FINANCIERAS</fullName>
+                <default>false</default>
+                <label>5340013	OTRAS EMPRESAS DE INTERMEDIACION CREDITICIA NO FINANCIERAS</label>
+            </value>
+            <value>
+                <fullName>5180012	PROCESAMIENTO ELECTRONICO DE INFORMACION Y OTROS SERVICIOS WEB</fullName>
+                <default>false</default>
+                <label>5180012	PROCESAMIENTO ELECTRONICO DE INFORMACION Y OTROS SERVICIOS WEB</label>
+            </value>
+            <value>
+                <fullName>1100001	SECTOR PRIMARIO - AGRICULTURA</fullName>
+                <default>false</default>
+                <label>1100001	SECTOR PRIMARIO - AGRICULTURA</label>
+            </value>
+            <value>
+                <fullName>1400002	SECTOR PRIMARIO - APROVECHAMIENTO FORESTAL</fullName>
+                <default>false</default>
+                <label>1400002	SECTOR PRIMARIO - APROVECHAMIENTO FORESTAL</label>
+            </value>
+            <value>
+                <fullName>1300001	SECTOR PRIMARIO - EXPLOTACION DE OTROS ANIMALES (AVICULTURA, APICULTURA, ETC.)</fullName>
+                <default>false</default>
+                <label>1300001	SECTOR PRIMARIO - EXPLOTACION DE OTROS ANIMALES (AVICULTURA, APICULTURA, ETC.)</label>
+            </value>
+            <value>
+                <fullName>1200001	SECTOR PRIMARIO - GANADERIA</fullName>
+                <default>false</default>
+                <label>1200001	SECTOR PRIMARIO - GANADERIA</label>
+            </value>
+            <value>
+                <fullName>1500001	SECTOR PRIMARIO - PESCA</fullName>
+                <default>false</default>
+                <label>1500001	SECTOR PRIMARIO - PESCA</label>
+            </value>
+            <value>
+                <fullName>9880024	SECTOR PUBLICO - ORGANOS AUTONOMOS Y ENTIDADES PARAESTATALES</fullName>
+                <default>false</default>
+                <label>9880024	SECTOR PUBLICO - ORGANOS AUTONOMOS Y ENTIDADES PARAESTATALES</label>
+            </value>
+            <value>
+                <fullName>9820024	SECTOR PUBLICO - PODER EJECUTIVO ESTATAL Y DEL DISTRITO FEDERAL</fullName>
+                <default>false</default>
+                <label>9820024	SECTOR PUBLICO - PODER EJECUTIVO ESTATAL Y DEL DISTRITO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>9810024	SECTOR PUBLICO - PODER EJECUTIVO FEDERAL</fullName>
+                <default>false</default>
+                <label>9810024	SECTOR PUBLICO - PODER EJECUTIVO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>9830024	SECTOR PUBLICO - PODER EJECUTIVO MUNICIPAL Y DELEGACIONAL</fullName>
+                <default>false</default>
+                <label>9830024	SECTOR PUBLICO - PODER EJECUTIVO MUNICIPAL Y DELEGACIONAL</label>
+            </value>
+            <value>
+                <fullName>9850024	SECTOR PUBLICO - PODER JUDICIAL ESTATAL Y DEL DISTRITO FEDERAL</fullName>
+                <default>false</default>
+                <label>9850024	SECTOR PUBLICO - PODER JUDICIAL ESTATAL Y DEL DISTRITO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>9840024	SECTOR PUBLICO - PODER JUDICIAL FEDERAL</fullName>
+                <default>false</default>
+                <label>9840024	SECTOR PUBLICO - PODER JUDICIAL FEDERAL</label>
+            </value>
+            <value>
+                <fullName>9870024	SECTOR PUBLICO - PODER LEGISLATIVO ESTATAL Y DEL DISTRITO FEDERAL</fullName>
+                <default>false</default>
+                <label>9870024	SECTOR PUBLICO - PODER LEGISLATIVO ESTATAL Y DEL DISTRITO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>9860024	SECTOR PUBLICO - PODER LEGISLATIVO FEDERAL</fullName>
+                <default>false</default>
+                <label>9860024	SECTOR PUBLICO - PODER LEGISLATIVO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>4930010	SERVICIOS DE ALMACENAMIENTO</fullName>
+                <default>false</default>
+                <label>4930010	SERVICIOS DE ALMACENAMIENTO</label>
+            </value>
+            <value>
+                <fullName>7200020	SERVICIOS DE ALOJAMIENTO TEMPORAL Y DE PREPARACION DE ALIMENTOS Y BEBIDAS</fullName>
+                <default>false</default>
+                <label>7200020	SERVICIOS DE ALOJAMIENTO TEMPORAL Y DE PREPARACION DE ALIMENTOS Y BEBIDAS</label>
+            </value>
+            <value>
+                <fullName>5720016	SERVICIOS DE APOYO A LOS NEGOCIOS - AGENCIAS DE COBRANZA, DESPACHOS DE INVESTIGACION</fullName>
+                <default>false</default>
+                <label>5720016	SERVICIOS DE APOYO A LOS NEGOCIOS - AGENCIAS DE COBRANZA, DESPACHOS DE INVESTIGACION</label>
+            </value>
+            <value>
+                <fullName>5750016	SERVICIOS DE APOYO A LOS NEGOCIOS - OTROS SERVICIOS</fullName>
+                <default>false</default>
+                <label>5750016	SERVICIOS DE APOYO A LOS NEGOCIOS - OTROS SERVICIOS</label>
+            </value>
+            <value>
+                <fullName>5710016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE ADMINISTRACION DE NEGOCIOS</fullName>
+                <default>false</default>
+                <label>5710016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE ADMINISTRACION DE NEGOCIOS</label>
+            </value>
+            <value>
+                <fullName>5740016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE LIMPIEZA Y MANTENIMIENTO</fullName>
+                <default>false</default>
+                <label>5740016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE LIMPIEZA Y MANTENIMIENTO</label>
+            </value>
+            <value>
+                <fullName>5730016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE PROTECCION Y SEGURIDAD</fullName>
+                <default>false</default>
+                <label>5730016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE PROTECCION Y SEGURIDAD</label>
+            </value>
+            <value>
+                <fullName>7130019	SERVICIOS DE ESPARCIMIENTO - CASAS DE JUEGOS ELECTRONICOS</fullName>
+                <default>false</default>
+                <label>7130019	SERVICIOS DE ESPARCIMIENTO - CASAS DE JUEGOS ELECTRONICOS</label>
+            </value>
+            <value>
+                <fullName>7140019	SERVICIOS DE ESPARCIMIENTO - CASINOS O CENTROS DE APUESTA</fullName>
+                <default>false</default>
+                <label>7140019	SERVICIOS DE ESPARCIMIENTO - CASINOS O CENTROS DE APUESTA</label>
+            </value>
+            <value>
+                <fullName>7120019	SERVICIOS DE ESPARCIMIENTO - MUSEOS, SITIOS HISTORICOS, ZOOLOGICOS Y SIMILARES</fullName>
+                <default>false</default>
+                <label>7120019	SERVICIOS DE ESPARCIMIENTO - MUSEOS, SITIOS HISTORICOS, ZOOLOGICOS Y SIMILARES</label>
+            </value>
+            <value>
+                <fullName>7150019	SERVICIOS DE ESPARCIMIENTO - VENTA DE BILLETES DE LOTERIA, PRONOSTICOS DEPORTIVOS U OTROS SORTEOS</fullName>
+                <default>false</default>
+                <label>7150019	SERVICIOS DE ESPARCIMIENTO - VENTA DE BILLETES DE LOTERIA, PRONOSTICOS DEPORTIVOS U OTROS SORTEOS</label>
+            </value>
+            <value>
+                <fullName>7110019	SERVICIOS DE ESPARCIMIENTO CULTURALES Y DEPORTIVOS, Y OTROS SERVICIOS RECREATIVOS</fullName>
+                <default>false</default>
+                <label>7110019	SERVICIOS DE ESPARCIMIENTO CULTURALES Y DEPORTIVOS, Y OTROS SERVICIOS RECREATIVOS</label>
+            </value>
+            <value>
+                <fullName>4920009	SERVICIOS DE MENSAJERIA Y PAQUETERIA</fullName>
+                <default>false</default>
+                <label>4920009	SERVICIOS DE MENSAJERIA Y PAQUETERIA</label>
+            </value>
+            <value>
+                <fullName>8100021	SERVICIOS DE REPARACION Y MANTENIMIENTO - EQUIPO INDUSTRIAL, COMERCIAL, SERVICIOS Y AUTOMOTRIZ</fullName>
+                <default>false</default>
+                <label>8100021	SERVICIOS DE REPARACION Y MANTENIMIENTO - EQUIPO INDUSTRIAL, COMERCIAL, SERVICIOS Y AUTOMOTRIZ</label>
+            </value>
+            <value>
+                <fullName>6200018	SERVICIOS DE SALUD Y DE ASISTENCIA SOCIAL</fullName>
+                <default>false</default>
+                <label>6200018	SERVICIOS DE SALUD Y DE ASISTENCIA SOCIAL</label>
+            </value>
+            <value>
+                <fullName>6100017	SERVICIOS EDUCATIVOS</fullName>
+                <default>false</default>
+                <label>6100017	SERVICIOS EDUCATIVOS</label>
+            </value>
+            <value>
+                <fullName>5440013	SERVICIOS FINANCIEROS - ADMINISTRACION DE FONDOS PARA EL RETIRO</fullName>
+                <default>false</default>
+                <label>5440013	SERVICIOS FINANCIEROS - ADMINISTRACION DE FONDOS PARA EL RETIRO</label>
+            </value>
+            <value>
+                <fullName>5430013	SERVICIOS FINANCIEROS - AGENTES, AJUSTADORES Y GESTORES DE SEGUROS Y FIANZAS</fullName>
+                <default>false</default>
+                <label>5430013	SERVICIOS FINANCIEROS - AGENTES, AJUSTADORES Y GESTORES DE SEGUROS Y FIANZAS</label>
+            </value>
+            <value>
+                <fullName>5210013	SERVICIOS FINANCIEROS - BANCA CENTRAL</fullName>
+                <default>false</default>
+                <label>5210013	SERVICIOS FINANCIEROS - BANCA CENTRAL</label>
+            </value>
+            <value>
+                <fullName>5230013	SERVICIOS FINANCIEROS - BANCA DE DESARROLLO</fullName>
+                <default>false</default>
+                <label>5230013	SERVICIOS FINANCIEROS - BANCA DE DESARROLLO</label>
+            </value>
+            <value>
+                <fullName>5220013	SERVICIOS FINANCIEROS - BANCA MULTIPLE</fullName>
+                <default>false</default>
+                <label>5220013	SERVICIOS FINANCIEROS - BANCA MULTIPLE</label>
+            </value>
+            <value>
+                <fullName>5350013	SERVICIOS FINANCIEROS - CASAS DE BOLSA</fullName>
+                <default>false</default>
+                <label>5350013	SERVICIOS FINANCIEROS - CASAS DE BOLSA</label>
+            </value>
+            <value>
+                <fullName>5360013	SERVICIOS FINANCIEROS - CASAS DE CAMBIO Y CENTROS CAMBIARIOS</fullName>
+                <default>false</default>
+                <label>5360013	SERVICIOS FINANCIEROS - CASAS DE CAMBIO Y CENTROS CAMBIARIOS</label>
+            </value>
+            <value>
+                <fullName>5320013	SERVICIOS FINANCIEROS - CASAS DE EMPEÑO</fullName>
+                <default>false</default>
+                <label>5320013	SERVICIOS FINANCIEROS - CASAS DE EMPEÑO</label>
+            </value>
+            <value>
+                <fullName>5420013	SERVICIOS FINANCIEROS - COMPAÑIAS AFIANZADORAS</fullName>
+                <default>false</default>
+                <label>5420013	SERVICIOS FINANCIEROS - COMPAÑIAS AFIANZADORAS</label>
+            </value>
+            <value>
+                <fullName>5290013	SERVICIOS FINANCIEROS - COMPAÑIAS DE AUTOFINANCIAMIENTO</fullName>
+                <default>false</default>
+                <label>5290013	SERVICIOS FINANCIEROS - COMPAÑIAS DE AUTOFINANCIAMIENTO</label>
+            </value>
+            <value>
+                <fullName>5410013	SERVICIOS FINANCIEROS - COMPAÑIAS DE SEGUROS</fullName>
+                <default>false</default>
+                <label>5410013	SERVICIOS FINANCIEROS - COMPAÑIAS DE SEGUROS</label>
+            </value>
+            <value>
+                <fullName>5450013	SERVICIOS FINANCIEROS - EMISORA Y/O COMERCIALIZACION DE CHEQUES DE VIAJERO</fullName>
+                <default>false</default>
+                <label>5450013	SERVICIOS FINANCIEROS - EMISORA Y/O COMERCIALIZACION DE CHEQUES DE VIAJERO</label>
+            </value>
+            <value>
+                <fullName>5240013	SERVICIOS FINANCIEROS - FONDOS Y FIDEICOMISOS FINANCIEROS</fullName>
+                <default>false</default>
+                <label>5240013	SERVICIOS FINANCIEROS - FONDOS Y FIDEICOMISOS FINANCIEROS</label>
+            </value>
+            <value>
+                <fullName>5310013	SERVICIOS FINANCIEROS - MONTEPIOS</fullName>
+                <default>false</default>
+                <label>5310013	SERVICIOS FINANCIEROS - MONTEPIOS</label>
+            </value>
+            <value>
+                <fullName>5280013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE AHORRO Y PRESTAMO</fullName>
+                <default>false</default>
+                <label>5280013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE AHORRO Y PRESTAMO</label>
+            </value>
+            <value>
+                <fullName>5270013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE INTERMEDIACION CREDITICIA Y FINANCIERA NO BURSATIL (OPERACION Y PROMOCION DE TARJETAS DE CREDITO NO BANCARIAS,  FINANCIAMIENTO DE BIENES DURADEROS), SOCIEDADES FINANCIERAS DE OBJETO LIMITADO</fullName>
+                <default>false</default>
+                <label>5270013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE INTERMEDIACION CREDITICIA Y FINANCIERA NO BURSATIL (OPERACION Y PROMOCION DE TARJETAS DE CREDITO NO BANCARIAS,  FINANCIAMIENTO DE BIENES DURADEROS), SOCIEDADES FINANCIERAS DE OBJETO LIMITADO</label>
+            </value>
+            <value>
+                <fullName>5390013	SERVICIOS FINANCIEROS - OTROS SERVICIOS RELACIONADOS CON LA INTERMEDIACION BURSATIL</fullName>
+                <default>false</default>
+                <label>5390013	SERVICIOS FINANCIEROS - OTROS SERVICIOS RELACIONADOS CON LA INTERMEDIACION BURSATIL</label>
+            </value>
+            <value>
+                <fullName>5330013	SERVICIOS FINANCIEROS - SOCIEDADES FINANCIERAS DE OBJETO MULTIPLE</fullName>
+                <default>false</default>
+                <label>5330013	SERVICIOS FINANCIEROS - SOCIEDADES FINANCIERAS DE OBJETO MULTIPLE</label>
+            </value>
+            <value>
+                <fullName>5370013	SERVICIOS FINANCIEROS - TRANSMISORES DE DINERO</fullName>
+                <default>false</default>
+                <label>5370013	SERVICIOS FINANCIEROS - TRANSMISORES DE DINERO</label>
+            </value>
+            <value>
+                <fullName>5250013	SERVICIOS FINANCIEROS - UNIONES DE CREDITO</fullName>
+                <default>false</default>
+                <label>5250013	SERVICIOS FINANCIEROS - UNIONES DE CREDITO</label>
+            </value>
+            <value>
+                <fullName>5540014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER DE VEHICULOS</fullName>
+                <default>false</default>
+                <label>5540014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER DE VEHICULOS</label>
+            </value>
+            <value>
+                <fullName>5510014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER SIN INTERMEDIACION DE BIENES RAICES</fullName>
+                <default>false</default>
+                <label>5510014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER SIN INTERMEDIACION DE BIENES RAICES</label>
+            </value>
+            <value>
+                <fullName>5520014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - INMOBILIARIAS Y CORREDORES DE BIENES RAICES</fullName>
+                <default>false</default>
+                <label>5520014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - INMOBILIARIAS Y CORREDORES DE BIENES RAICES</label>
+            </value>
+            <value>
+                <fullName>5530014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE BIENES MUEBLES EXCEPTO VEHICULOS</fullName>
+                <default>false</default>
+                <label>5530014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE BIENES MUEBLES EXCEPTO VEHICULOS</label>
+            </value>
+            <value>
+                <fullName>5550014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE MARCAS REGISTRADAS, PATENTES Y FRANQUICIAS</fullName>
+                <default>false</default>
+                <label>5550014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE MARCAS REGISTRADAS, PATENTES Y FRANQUICIAS</label>
+            </value>
+            <value>
+                <fullName>8200022	SERVICIOS PERSONALES - LAVANDERIAS, SERVICIOS FUNERARIOS, BAÑOS PUBLICOS, SERVICIOS DE ESTACIONAMIENTO, REVELADO E IMPRESION DE FOTOGRAFIAS</fullName>
+                <default>false</default>
+                <label>8200022	SERVICIOS PERSONALES - LAVANDERIAS, SERVICIOS FUNERARIOS, BAÑOS PUBLICOS, SERVICIOS DE ESTACIONAMIENTO, REVELADO E IMPRESION DE FOTOGRAFIAS</label>
+            </value>
+            <value>
+                <fullName>4910008	SERVICIOS POSTALES</fullName>
+                <default>false</default>
+                <label>4910008	SERVICIOS POSTALES</label>
+            </value>
+            <value>
+                <fullName>5630015	SERVICIOS PROFESIONALES Y TECNICOS - ARQUITECTURA, INGENIERIA Y ACTIVIDADES RELACIONADAS</fullName>
+                <default>false</default>
+                <label>5630015	SERVICIOS PROFESIONALES Y TECNICOS - ARQUITECTURA, INGENIERIA Y ACTIVIDADES RELACIONADAS</label>
+            </value>
+            <value>
+                <fullName>5650015	SERVICIOS PROFESIONALES Y TECNICOS - CONSULTORIA ADMINISTRATIVA, CIENTIFICA Y TECNICA</fullName>
+                <default>false</default>
+                <label>5650015	SERVICIOS PROFESIONALES Y TECNICOS - CONSULTORIA ADMINISTRATIVA, CIENTIFICA Y TECNICA</label>
+            </value>
+            <value>
+                <fullName>5690015	SERVICIOS PROFESIONALES Y TECNICOS - CONTABILIDAD Y AUDITORIA</fullName>
+                <default>false</default>
+                <label>5690015	SERVICIOS PROFESIONALES Y TECNICOS - CONTABILIDAD Y AUDITORIA</label>
+            </value>
+            <value>
+                <fullName>5640015	SERVICIOS PROFESIONALES Y TECNICOS - DISEÑO DE SISTEMAS DE COMPUTO Y SERVICIOS RELACIONADOS</fullName>
+                <default>false</default>
+                <label>5640015	SERVICIOS PROFESIONALES Y TECNICOS - DISEÑO DE SISTEMAS DE COMPUTO Y SERVICIOS RELACIONADOS</label>
+            </value>
+            <value>
+                <fullName>5660015	SERVICIOS PROFESIONALES Y TECNICOS - INVESTIGACION CIENTIFICA Y DESARROLLO</fullName>
+                <default>false</default>
+                <label>5660015	SERVICIOS PROFESIONALES Y TECNICOS - INVESTIGACION CIENTIFICA Y DESARROLLO</label>
+            </value>
+            <value>
+                <fullName>5620015	SERVICIOS PROFESIONALES Y TECNICOS - NOTARIA Y CORREDURIA PUBLICA</fullName>
+                <default>false</default>
+                <label>5620015	SERVICIOS PROFESIONALES Y TECNICOS - NOTARIA Y CORREDURIA PUBLICA</label>
+            </value>
+            <value>
+                <fullName>5680015	SERVICIOS PROFESIONALES Y TECNICOS - OTROS SERVICIOS DE OUTSOURCING</fullName>
+                <default>false</default>
+                <label>5680015	SERVICIOS PROFESIONALES Y TECNICOS - OTROS SERVICIOS DE OUTSOURCING</label>
+            </value>
+            <value>
+                <fullName>5670015	SERVICIOS PROFESIONALES Y TECNICOS - PUBLICIDAD Y ACTIVIDADES RELACIONADAS</fullName>
+                <default>false</default>
+                <label>5670015	SERVICIOS PROFESIONALES Y TECNICOS - PUBLICIDAD Y ACTIVIDADES RELACIONADAS</label>
+            </value>
+            <value>
+                <fullName>5610015	SERVICIOS PROFESIONALES Y TECNICOS - SERVICIOS JURIDICOS</fullName>
+                <default>false</default>
+                <label>5610015	SERVICIOS PROFESIONALES Y TECNICOS - SERVICIOS JURIDICOS</label>
+            </value>
+            <value>
+                <fullName>5260013	SREVICIOS FINANCIEROS - CAJAS DE AHORRO POPULAR</fullName>
+                <default>false</default>
+                <label>5260013	SREVICIOS FINANCIEROS - CAJAS DE AHORRO POPULAR</label>
+            </value>
+            <value>
+                <fullName>4810007	TRANSPORTE - AEREO</fullName>
+                <default>false</default>
+                <label>4810007	TRANSPORTE - AEREO</label>
+            </value>
+            <value>
+                <fullName>4820007	TRANSPORTE - FERROVIARIO</fullName>
+                <default>false</default>
+                <label>4820007	TRANSPORTE - FERROVIARIO</label>
+            </value>
+            <value>
+                <fullName>4830007	TRANSPORTE - MARITIMO Y FLUVIAL</fullName>
+                <default>false</default>
+                <label>4830007	TRANSPORTE - MARITIMO Y FLUVIAL</label>
+            </value>
+            <value>
+                <fullName>4890007	TRANSPORTE - SERVICIOS DE AGENCIAS ADUANALES</fullName>
+                <default>false</default>
+                <label>4890007	TRANSPORTE - SERVICIOS DE AGENCIAS ADUANALES</label>
+            </value>
+            <value>
+                <fullName>4840007	TRANSPORTE - SERVICIOS DE TRANSPORTE Y/O CUSTODIA DE VALORES</fullName>
+                <default>false</default>
+                <label>4840007	TRANSPORTE - SERVICIOS DE TRANSPORTE Y/O CUSTODIA DE VALORES</label>
+            </value>
+            <value>
+                <fullName>4880007	TRANSPORTE - SERVICIOS RELACIONADOS CON EL TRANSPORTE</fullName>
+                <default>false</default>
+                <label>4880007	TRANSPORTE - SERVICIOS RELACIONADOS CON EL TRANSPORTE</label>
+            </value>
+            <value>
+                <fullName>4850007	TRANSPORTE - TERRESTRE</fullName>
+                <default>false</default>
+                <label>4850007	TRANSPORTE - TERRESTRE</label>
+            </value>
+            <value>
+                <fullName>4860007	TRANSPORTE - TRANSPORTACION Y DISTRIBUCION POR DUCTOS</fullName>
+                <default>false</default>
+                <label>4860007	TRANSPORTE - TRANSPORTACION Y DISTRIBUCION POR DUCTOS</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8250100	ADMINISTRACION - CONSULTORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8240200	ADMINISTRACION - CONTADORES Y AUDITORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8230300	ADMINISTRACION - DIRECTORES, GERENTES  Y EMPLEADOS DE COMPRAS, FINANZAS, RECURSOS HUMANOS Y SERVICIOS ADMINISTRATIVOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8250800	ADMINISTRACION - DIRECTORES, GERENTES Y EMPELADOS ADMINISTRATIVOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8250200	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE COMERCIALIZACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8240600	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE PRODUCCION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8240700	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE SERVICIOS DE TRANSPORTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8220600	ADMINISTRACION - PAGADORES Y COBRADORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8210100	ADMINISTRACION - TRABAJADORES DE ARCHIVO, ALMACEN DE INVENTARIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1110100	AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES AGRICOLAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1110400	AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES SILVICOLAS Y FORESTALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7230200	ALIMENTACION Y HOSPEDAJE - JEFES DE COCINA, RESTAURANTE Y/O BAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7210100	ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIO DE ALIMENTOS Y BEBIDAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7240200	ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIOS DE ALOJAMIENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5310700	ALIMENTOS Y BEBIDAS - TRABAJADORES EN LA ELABORACION  Y PROCESAMIENTO DE ALIMENTOS, BEBIDAS Y TABACO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8140100	BOLSA, BANCA Y SEGUROS - AGENTES DE VALORES, PROMOTORES Y CORREDORES DE INVERSION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8120100	BOLSA, BANCA Y SEGUROS - GERENTES O TRABAJADORES DE SERVICIOS Y PRODUCTOS FINANCIEROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8130500	BOLSA, BANCA Y SEGUROS - VALUADORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7120100	COMERCIO - CAJEROS REGISTRADORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7110200	COMERCIO - DESPACHADORES DE GASOLINERA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7110300	COMERCIO - EMPACADORES DE MERCANCIAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7140200	COMERCIO - GERENTES O EMPLEADOS DE VENTAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7140100	COMERCIO - GERENTES O SUPERVISOR DE ESTABLECIMIENTO COMERCIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7130200	COMERCIO - REPRESENTANTES DE VENTAS POR TELEFONO O POR TELEVISION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7110500	COMERCIO - TAQUILLEROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7110600	COMERCIO - VENDEDORES AMBULANTES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7130400	COMERCIO - VENDEDORES ESPECIALIZADOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>3130300	CONSTRUCCION -  INGENIEROS, TECNICOS Y OPERADORES DE LA CONSTRUCCION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>3420200	CONSTRUCCION - ARQUITECTOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>3310300	CONSTRUCCION - COLOCADORES DE PRODUCTOS PREFABRICADOS EN INMUEBLES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>3130100	CONSTRUCCION - DECORADORES DE INTERIORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>3310400	CONSTRUCCION - PINTORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>3420100	CONSTRUCCION - PLOMEROS E INSTALADORES DE TUBERIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>3410200	CONSTRUCCION - REPARADORES DE VIAS DE COMUNICACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>3310600	CONSTRUCCION - VIDRIEROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7430100	DEPORTE Y ESPARCIMIENTO - ANIMADORES RECREATIVOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7430200	DEPORTE Y ESPARCIMIENTO - ATLETAS, ENTRENADORES O INSTRUCTORES EN DEPORTE Y RECREACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7430400	DEPORTE Y ESPARCIMIENTO - OFICIALES, JUECES Y ARBITROS DEPORTIVOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1133010	DIFUSION CULTURAL - PROMOTORES DE DIFUSION CULTURAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1134010	DIFUSION CULTURAL - TRABAJADORES DE BIBLIOTECA, ARCHIVO, MUSEO Y GALERIA DE ARTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>4230200	ELECTRICIDAD - INGENIEROS O TECNICOS ELECTRICISTAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>4230500	ELECTRICIDAD - TECNICOS EN REFRIGERACION, AIRE ACONDICIONADO Y CALEFACCION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>4330200	ELECTRONICA - INGENIERO O TECNICOS EN  ELECTRONICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>4330100	ELECTRONICA - MECANICOS DE INSTRUMENTOS INDUSTRIALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1123020	ENSEÑANZA - CAPACITADORES E INSTRUCTORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1125010	ENSEÑANZA - DIRECTORES GENERALES DE EDUCACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1124070	ENSEÑANZA - PROFESORES O DOCENTES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1220200	GANADERIA - ADMINISTRADORES, CRIADORES O SUPERVISORES AVICOLAS Y GANADEROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1220100	GANADERIA - APICULTORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>4430200	INFORMATICA - INGENIERO O TECNICOS PROGRAMADORES EN INFORMATICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>4440100	INFORMATICA - PROFESIONISTAS O TECNICOS DE SISTEMAS DE INFORMACION Y PROCESAMIENTO DE DATOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9230100	INSPECCION - INSPECTORES DE SALUD AMBIENTAL, SANIDAD Y DEL TRABAJO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9230200	INSPECCION - INSPECTORES DE TRANSPORTE DE CARGA Y DE PASAJEROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9230300	INSPECCION - INSPECTORES FISCALES Y DE PRECIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9230400	INSPECCION - INSPECTORES SANITARIOS Y DE CONTROL DE CALIDAD DE PRODUCTOS CARNICOS, PESQUEROS Y AGRICOLAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1033010	INTERPRETACION ARTISTICA - ACTORES, BAILARINES, MUSICOS, ESCRITORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1033020	INTERPRETACION ARTISTICA - ARTESANOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1034010	INTERPRETACION ARTISTICA - ARTISTAS PLASTICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1033040	INTERPRETACION ARTISTICA - FOTOGRAFOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1113010	INVESTIGACION - ASISTENTES DE INVESTIGADORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1114010	INVESTIGACION - BIOLOGOS Y CIENTIFICOS RELACIONADOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1114020	INVESTIGACION - ECONOMISTAS Y POLITOLOGOS (NO FUNCIONARIOS PUBLICOS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1112010	INVESTIGACION - ENCUESTADORES Y CODIFICADORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1114030	INVESTIGACION - FISICOS ASTRONOMOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1114040	INVESTIGACION - GEOLOGOS, GEOQUIMICOS, GEOFISICOS Y GEOGRAFOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1114050	INVESTIGACION - INVESTIGADORES Y CONSULTORES EN MERCADOTECNIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1114060	INVESTIGACION - MATEMATICOS, ESTADISTICOS Y ACTUARIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1114070	INVESTIGACION - METEOROLOGOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1113020	INVESTIGACION - QUIMICOS Y/O TECNICOS EN QUIMICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1114090	INVESTIGACION - SOCIOLOGOS, ANTROPOLOGOS E HISTORIADORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7720300	LIMPIEZA - FUMIGADORES DE PLAGAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7720100	LIMPIEZA - SERVICIOS DE CAMARISTAS Y ASEADORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7720200	LIMPIEZA - TRABAJADORES DE TINTORERIA Y LAVANDERIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5510100	MADERA, PAPEL, Y PIEL - TRABAJADORES EN LA FABRICACION DE MUEBLES O PRODUCTOS DE MADERA Y/O PIEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>4130500	MECANICA - INGENIERO O MECANICOS INSTALADORES DE MAQUINARIA INDUSTRIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>4131000	MECANICA - INGENIERO O TECNICO EN MECANICA DE VEHICULOS TERRESTRES, AEREOS Y ACUATICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>4130300	MECANICA - MECANICOS DE EQUIPO PESADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5210100	METALES - SUPERVISORES U OPERADORES DE PROCESAMIENTO Y FUNDICION DE METALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5121300	MINERALES NO METALICOS - OPERADORES DE MAQUINAS PROCESADORAS DE MINERALES NO METALICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5110100	MINERALES NO METALICOS - OPERADORES O TRABAJADORES DE VIDRIO Y CONCRETO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>2210100	MINERIA, EXTRACCION Y SUMINISTRO - AYUDANTES EN LA PERFORACION DE POZOS DE PETROLEO Y GAS NATURAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>2530100	MINERIA, EXTRACCION Y SUMINISTRO - GERENTE, SUPERVISOR U OPERADORES DE  TRATAMIENTO Y POTABILIZACION, ABASTECIMIENTO Y RECOLECCION DE AGUA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>2240200	MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS PETROLEROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>2140100	MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS, OPERADORES O AYUDANTES EN LA EXTRACCION Y REFINACION MINERA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>2420100	MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE CENTRALES O SISTEMAS  DE ENERGIA ELECTRICAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>2420200	MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE MAQUINAS DE VAPOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>2130100	MINERIA, EXTRACCION Y SUMINISTRO - TECNICOS GEOLOGICOS Y DE MINERALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1000000	NO APLICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1136080	ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES - EMPLEADOS DE ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1135070	OTRAS OCUPACIONES - AGENTE ADUANAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1135050	OTRAS OCUPACIONES - AMA DE CASA O QUEHACERES DEL HOGAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1135020	OTRAS OCUPACIONES - DESEMPLEADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1135010	OTRAS OCUPACIONES - ESTUDIANTE O MENOR DE EDAD SIN OCUPACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1135030	OTRAS OCUPACIONES - JUBILADO O PENSIONADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1135060	OTRAS OCUPACIONES - MINISTROS DE CULTO RELIGIOSO (SACERDOTE, PASTOR, MONJA, ETC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1135080	OTRAS OCUPACIONES - PROPIETARIO, ACCIONISTA O SOCIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1330200	PESCA Y ACUACULTURA - PESCADORES Y TRABAJADORES EN LA CRIA Y CULTIVO DE ESPECIES MARINAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>4630100	PROCESOS INDUSTRIALES - INGENIERO O TECNICOS INDUSTRIAL Y DE PRODUCCION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>4640300	PROCESOS INDUSTRIALES - INGENIEROS METALURGICOS Y DE MATERIALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5810200	PRODUCTOS ELECTRICOS Y ELECTRONICOS - TRABAJADORES EN LA FABRICACION DE PRODUCTOS ELECTRICOS Y ELECTRONICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5910400	PRODUCTOS IMPRESOS - TRABAJADORES EN LA ELABORACION DE PRODUCTOS IMPRESOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5720800	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - ENSAMBLADORES Y ACABADORES DE PRODUCTOS DE PLASTICO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5720900	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - FABRICANTES DE HERRAMIENTAS Y TROQUELES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5721000	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - HERREROS Y FORJADORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5721100	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - JOYEROS Y ORFEBRES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5722900	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SOLDADORES Y OXICORTADORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5731100	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SUPERVISORES EN LA FABRICACION Y MONTAJE DE ARTICULOS DEPORTIVOS, DE JUGUETES Y SIMILARES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5710200	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES  EN LA FABRICACION DE PRODUCTOS METALICOS, DE HULE Y PLASTICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5730600	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES EN EL ENSAMBLADO DE VEHICULOS, MOLDEADO, LAMINADO Y MONTAJE DE PIEZAS METALICAS, HULE O PLASTICO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5610200	PRODUCTOS QUIMICOS - TRABAJADORES EN EL PROCESAMIENTO Y FABRICACION DE PRODUCTOS QUIMICOS Y FARMACOQUIMICAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9420100	PROTECCION DE BIENES Y/O PERSONAS - BOMBEROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9430100	PROTECCION DE BIENES Y/O PERSONAS - DETECTIVES PRIVADOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9420300	PROTECCION DE BIENES Y/O PERSONAS - GUARDIAS DE SEGURIDAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1054010	PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - DIRECTORES, GERENTES Y EMPLEADOS DE PUBLICIDAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1052010	PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - MODELOS Y EDECANES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1023010	RADIO, CINE, TELEVISION Y TEATRO - ASISTENTES Y/U OPERADORES DE PRODUCCION DE CINE, RADIO Y TELEVISION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1014010	RADIO, CINE, TELEVISION Y TEATRO - DISEÑADORES GRAFICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1014030	RADIO, CINE, TELEVISION Y TEATRO - EDITORES, PERIODISTAS, REPORTEROS Y REDACTORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1023070	RADIO, CINE, TELEVISION Y TEATRO - LOCUTORES, COMENTARISTAS Y CRONISTAS DE RADIO Y TELEVISION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1024020	RADIO, CINE, TELEVISION Y TEATRO - PRODUCTORES Y DIRECTORES DE CINE, TELEVISION Y TEATRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7620100	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - CERRAJEROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7630100	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - RELOJEROS Y REPARADORES DE RELOJES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7630200	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE APARATOS ELECTRICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7620200	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE ARTICULOS DE HULE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1136090	SECTOR PUBLICO - EJERCITO, ARMADA Y FUERZA AEREA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1136010	SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO FEDERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1136030	SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO MUNICIPAL O DELEGACIONAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1136070	SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL ESTATAL O DEL DISTRITO FEDERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1136040	SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL FEDERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1136060	SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO ESTATAL O DEL DISTRITO FEDERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1136050	SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO FEDERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1136020	SECTOR PUBLICO - EMPLEADO PODER EJECUTIVO ESTATAL O DEL DISTRITO FEDERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9330100	SEGURIDAD SOCIAL - CONSEJEROS DE EMPLEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9330300	SEGURIDAD SOCIAL - TRABAJADORES DE SERVICIO SOCIAL Y DE LA COMUNIDAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7810200	SERVICIO POSTAL Y MENSAJERIA - EMPLEADOS DE SERVICIOS DE MENSAJERIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8340100	SERVICIOS LEGALES - ABOGADOS Y ASESORES LEGALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>8340300	SERVICIOS LEGALES - NOTARIOS Y CORREDORES PUBLICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9130300	SERVICIOS MEDICOS - DIETISTAS Y NUTRIOLOGOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9140200	SERVICIOS MEDICOS - DIRECTORES DE INSTITUCIONES EN EL CUIDADO DE LA SALUD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9120700	SERVICIOS MEDICOS - ENFERMERAS Y/O PARAMEDICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9140400	SERVICIOS MEDICOS - FARMACEUTICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9140500	SERVICIOS MEDICOS - FISIOTERAPEUTAS Y QUIROPRACTICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9140700	SERVICIOS MEDICOS - MEDICOS ESPECIALISTAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9140800	SERVICIOS MEDICOS - MEDICOS GENERALES Y FAMILIARES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>9131200	SERVICIOS MEDICOS - TECNICOS DE LABORATORIO MEDICO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7530100	SERVICIOS PERSONALES - ESTILISTAS, ESTETICISTAS Y MASAJISTAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7540100	SERVICIOS PERSONALES - TRBAJADORES DE SERVICIOS FUNERARIOS O CEMENTERIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>4530200	TELECOMUNICACIONES - INGENIERO, INSTALADORES Y REPARADORES DE EQUIPOS Y ACCESORIOS DE TELECOMUNICACIONES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>4530500	TELECOMUNICACIONES - TELEGRAFISTAS Y RADIO-OPERADORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5420700	TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES DE REPARACION DE PRENDAS DE VESTIR Y CALZADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>5410100	TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES EN LA PRODUCCION DE TEXTILES, PRENDAS DE VESTIR Y CALZADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>1044010	TRADUCCION E INTERPRETACION LINGüISTICA - INTERPRETES Y/O TRADUCTORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>6330100	TRANSPORTE AEREO - COORDINADORES Y SUPERVISORES EN SERVICIOS DE TRANSPORTE AEREO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>6330200	TRANSPORTE AEREO - DESPACHADORES DE VUELO Y ESPECIALISTAS EN SERVICIOS AEREOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>6330500	TRANSPORTE AEREO - PILOTOS DE AVIACION E INSTRUCTORES DE VUELO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>6330600	TRANSPORTE AEREO - SOBRECARGOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>6330400	TRANSPORTE AEREO - SUPERVISORES DE SISTEMAS DE COMUNICACION PARA LA AERONAVEGACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>6120100	TRANSPORTE FERROVIARIO - CONDUCTORES Y OPERADORES DE TREN SUBTERRANEO Y DE TREN LIGERO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>6120200	TRANSPORTE FERROVIARIO - TRABAJADORES DE FERROCARRILES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>6420100	TRANSPORTE MARITIMO Y FLUVIAL - CONDUCTORES DE EMBARCACIONES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>6430100	TRANSPORTE MARITIMO Y FLUVIAL - JEFES Y CONTROLADORES DE TRAFICO MARITIMO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>6430300	TRANSPORTE MARITIMO Y FLUVIAL - PILOTOS, CAPITANES DE PUERTOS Y OFICIALES DE CUBIERTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>6220100	TRANSPORTE TERRESTRE - CONDUCTORES DE VEHICULOS DE TRANSPORTE, SERVICIOS DE CARGA Y/O REPARTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7330200	TURISMO - COORDINADORES DE OPERACIONES EN AGENCIAS DE VIAJES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Física</controllingFieldValue>
+            <valueName>7330300	TURISMO - GUIAS DE EXCURSIONES O ECOTURISTICO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>8370023	ASOCIACIONES - ORGANIZACIONES CIVILES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>8340023	ASOCIACIONES - ORGANIZACIONES DE ACTIVIDADES RECREATIVAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>8330023	ASOCIACIONES - ORGANIZACIONES DE PROFESIONISTAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>8320023	ASOCIACIONES - ORGANIZACIONES LABORALES Y SINDICALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>8360023	ASOCIACIONES - ORGANIZACIONES POLITICAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>8350023	ASOCIACIONES - ORGANIZACIONES RELIGIOSAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>8310023	ASOCIACIONES - ORGANIZACIONES Y CAMARAS DE PRODUCTORES, COMERCIANTES Y PRESTADORES DE SERVICIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4760006	COMERCIO - A TRAVES DE INTERNET, Y CATALOGOS IMPRESOS, TELEVISION Y SIMILARES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4310006	COMERCIO - ABARROTES, ALIMENTOS, BEBIDAS, HIELO Y TABACO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4680006	COMERCIO - ANTIGÜEDADES Y OBRAS DE ARTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4710006	COMERCIO - ARTICULOS DE FERRETERIA, TLAPALERIA Y VIDRIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4660026	COMERCIO - ARTICULOS DE JOYERIA Y RELOJES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4650006	COMERCIO - ARTICULOS DE PAPELERIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4670006	COMERCIO - ARTICULOS PARA LA DECORACION DE INTERIORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4750006	COMERCIO - COMBUSTIBLES Y LUBRICANTES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4340006	COMERCIO - MAQUINARIA, EQUIPO DE COMPUTO Y MOBILIARIO DE USO GENERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4330006	COMERCIO - MATERIAS PRIMAS AGROPECUARIAS Y FORESTALES, PARA LA INDUSTRIA, Y MATERIALES DE DESECHO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4740006	COMERCIO - PARTES Y REFACCIONES PARA VEHICULOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4320006	COMERCIO - PRODUCTOS FARMACEUTICOS, DE PERFUMERIA, ARTICULOS PARA EL ESPARCIMIENTO, ELECTRODOMESTICOS Y APARATOS DE LINEA BLANCA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4630006	COMERCIO - PRODUCTOS TEXTILES, BISUTERIA, ACCESORIOS DE VESTIR Y CALZADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4620006	COMERCIO - TIENDAS DE AUTOSERVICIO Y DEPARTAMENTALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4720006	COMERCIO - VEHICULOS NUEVOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4730006	COMERCIO - VEHICULOS USADOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>2720004	CONSTRUCCION - EDIFICACION RESIDENCIAL Y NO RESIDENCIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>2730004	CONSTRUCCION - OBRAS DE INGENIERIA CIVIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>2710004	CONSTRUCCION - OTRAS ACTIVIDADES RELACIONADAS CON LA CONSTRUCCION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>2754004	CONSTRUCCION - SERVICIOS DE BLINDAJE PARCIAL O TOTAL DE INMUEBLES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>2740004	CONSTRUCCION - TRABAJOS ESPECIALIZADOS PARA LA CONSTRUCCION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>2600003	GENERACION, TRANSMISION Y DISTRIBUCION DE ENERGIA ELECTRICA, SUMINISTRO DE AGUA Y DE GAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3350005	INDUSTRIA - ACCESORIOS, APARATOS ELECTRICOS Y EQUIPO DE GENERACION DE ENERGIA ELECTRICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3110005	INDUSTRIA - ALIMENTARIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3370005	INDUSTRIA - AUTOMOTRIZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3120005	INDUSTRIA - BEBIDAS Y DEL TABACO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3340005	INDUSTRIA - EQUIPO DE COMPUTACION, COMUNICACION, MEDICION Y DE OTROS EQUIPOS, COMPONENTES Y ACCESORIOS ELECTRONICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3360005	INDUSTRIA - EQUIPO DE TRANSPORTE SIN MOTOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3230005	INDUSTRIA - IMPRESION E INDUSTRIAS CONEXAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3440005	INDUSTRIA - JOYERIA DE METALES Y PIEDRAS NO PRECIOSOS Y DE OTROS MATERIALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3210005	INDUSTRIA - MADERA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3330005	INDUSTRIA - MAQUINARIA Y EQUIPO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3310005	INDUSTRIA - METALICAS BASICAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3410005	INDUSTRIA - MUEBLES, COLCHONES Y PERSIANAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3430005	INDUSTRIA - ORFEBRERIA Y JOYERIA DE METALES Y PIEDRAS PRECIOSOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3420005	INDUSTRIA - OTRAS INDUSTRIAS MANUFACTURERAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3220005	INDUSTRIA - PAPEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3260005	INDUSTRIA - PLASTICO Y DEL HULE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3150005	INDUSTRIA - PRENDAS DE VESTIR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3270005	INDUSTRIA - PRODUCTOS A BASE DE MINERALES NO METALICOS (ALFARERIA, PORCELANA, LOZA, VIDRIO, CEMENTO)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3240005	INDUSTRIA - PRODUCTOS DERIVADOS DEL PETROLEO Y DEL CARBON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3320005	INDUSTRIA - PRODUCTOS METALICOS (HERRAMIENTAS, UTENSILIOS, ESTRUCTURAS, PIEZAS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3140005	INDUSTRIA - PRODUCTOS TEXTILES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3250005	INDUSTRIA - QUIMICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>3380005	INDUSTRIA - VEHICULOS BLINDADOS Y EQUIPO PARA EL BLINDAJE DE VEHICULOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5100011	INFORMACION EN MEDIOS MASIVOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>2200002	MINERIA - ACTIVIDADES RELACIONADAS CON EL PETROLEO Y EL GAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>2100002	MINERIA - MINERIA DE OTROS RECURSOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>2300003	MINERIA - ORO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>2500002	MINERIA - PIEDRAS PRECIOSAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>2400002	MINERIA - PLATA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>1000000	NO APLICA.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>9100025	ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5340013	OTRAS EMPRESAS DE INTERMEDIACION CREDITICIA NO FINANCIERAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5180012	PROCESAMIENTO ELECTRONICO DE INFORMACION Y OTROS SERVICIOS WEB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>1100001	SECTOR PRIMARIO - AGRICULTURA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>1400002	SECTOR PRIMARIO - APROVECHAMIENTO FORESTAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>1300001	SECTOR PRIMARIO - EXPLOTACION DE OTROS ANIMALES (AVICULTURA, APICULTURA, ETC.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>1200001	SECTOR PRIMARIO - GANADERIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>1500001	SECTOR PRIMARIO - PESCA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>9880024	SECTOR PUBLICO - ORGANOS AUTONOMOS Y ENTIDADES PARAESTATALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>9820024	SECTOR PUBLICO - PODER EJECUTIVO ESTATAL Y DEL DISTRITO FEDERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>9810024	SECTOR PUBLICO - PODER EJECUTIVO FEDERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>9830024	SECTOR PUBLICO - PODER EJECUTIVO MUNICIPAL Y DELEGACIONAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>9850024	SECTOR PUBLICO - PODER JUDICIAL ESTATAL Y DEL DISTRITO FEDERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>9840024	SECTOR PUBLICO - PODER JUDICIAL FEDERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>9870024	SECTOR PUBLICO - PODER LEGISLATIVO ESTATAL Y DEL DISTRITO FEDERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>9860024	SECTOR PUBLICO - PODER LEGISLATIVO FEDERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4930010	SERVICIOS DE ALMACENAMIENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>7200020	SERVICIOS DE ALOJAMIENTO TEMPORAL Y DE PREPARACION DE ALIMENTOS Y BEBIDAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5720016	SERVICIOS DE APOYO A LOS NEGOCIOS - AGENCIAS DE COBRANZA, DESPACHOS DE INVESTIGACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5750016	SERVICIOS DE APOYO A LOS NEGOCIOS - OTROS SERVICIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5710016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE ADMINISTRACION DE NEGOCIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5740016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE LIMPIEZA Y MANTENIMIENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5730016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE PROTECCION Y SEGURIDAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>7130019	SERVICIOS DE ESPARCIMIENTO - CASAS DE JUEGOS ELECTRONICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>7140019	SERVICIOS DE ESPARCIMIENTO - CASINOS O CENTROS DE APUESTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>7120019	SERVICIOS DE ESPARCIMIENTO - MUSEOS, SITIOS HISTORICOS, ZOOLOGICOS Y SIMILARES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>7150019	SERVICIOS DE ESPARCIMIENTO - VENTA DE BILLETES DE LOTERIA, PRONOSTICOS DEPORTIVOS U OTROS SORTEOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>7110019	SERVICIOS DE ESPARCIMIENTO CULTURALES Y DEPORTIVOS, Y OTROS SERVICIOS RECREATIVOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4920009	SERVICIOS DE MENSAJERIA Y PAQUETERIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>8100021	SERVICIOS DE REPARACION Y MANTENIMIENTO - EQUIPO INDUSTRIAL, COMERCIAL, SERVICIOS Y AUTOMOTRIZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>6200018	SERVICIOS DE SALUD Y DE ASISTENCIA SOCIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>6100017	SERVICIOS EDUCATIVOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5440013	SERVICIOS FINANCIEROS - ADMINISTRACION DE FONDOS PARA EL RETIRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5430013	SERVICIOS FINANCIEROS - AGENTES, AJUSTADORES Y GESTORES DE SEGUROS Y FIANZAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5210013	SERVICIOS FINANCIEROS - BANCA CENTRAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5230013	SERVICIOS FINANCIEROS - BANCA DE DESARROLLO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5220013	SERVICIOS FINANCIEROS - BANCA MULTIPLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5350013	SERVICIOS FINANCIEROS - CASAS DE BOLSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5360013	SERVICIOS FINANCIEROS - CASAS DE CAMBIO Y CENTROS CAMBIARIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5320013	SERVICIOS FINANCIEROS - CASAS DE EMPEÑO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5420013	SERVICIOS FINANCIEROS - COMPAÑIAS AFIANZADORAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5290013	SERVICIOS FINANCIEROS - COMPAÑIAS DE AUTOFINANCIAMIENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5410013	SERVICIOS FINANCIEROS - COMPAÑIAS DE SEGUROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5450013	SERVICIOS FINANCIEROS - EMISORA Y/O COMERCIALIZACION DE CHEQUES DE VIAJERO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5240013	SERVICIOS FINANCIEROS - FONDOS Y FIDEICOMISOS FINANCIEROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5310013	SERVICIOS FINANCIEROS - MONTEPIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5280013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE AHORRO Y PRESTAMO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5270013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE INTERMEDIACION CREDITICIA Y FINANCIERA NO BURSATIL (OPERACION Y PROMOCION DE TARJETAS DE CREDITO NO BANCARIAS,  FINANCIAMIENTO DE BIENES DURADEROS), SOCIEDADES FINANCIERAS DE OBJETO LIMITADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5390013	SERVICIOS FINANCIEROS - OTROS SERVICIOS RELACIONADOS CON LA INTERMEDIACION BURSATIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5330013	SERVICIOS FINANCIEROS - SOCIEDADES FINANCIERAS DE OBJETO MULTIPLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5370013	SERVICIOS FINANCIEROS - TRANSMISORES DE DINERO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5250013	SERVICIOS FINANCIEROS - UNIONES DE CREDITO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5540014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER DE VEHICULOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5510014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER SIN INTERMEDIACION DE BIENES RAICES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5520014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - INMOBILIARIAS Y CORREDORES DE BIENES RAICES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5530014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE BIENES MUEBLES EXCEPTO VEHICULOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5550014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE MARCAS REGISTRADAS, PATENTES Y FRANQUICIAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>8200022	SERVICIOS PERSONALES - LAVANDERIAS, SERVICIOS FUNERARIOS, BAÑOS PUBLICOS, SERVICIOS DE ESTACIONAMIENTO, REVELADO E IMPRESION DE FOTOGRAFIAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4910008	SERVICIOS POSTALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5630015	SERVICIOS PROFESIONALES Y TECNICOS - ARQUITECTURA, INGENIERIA Y ACTIVIDADES RELACIONADAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5650015	SERVICIOS PROFESIONALES Y TECNICOS - CONSULTORIA ADMINISTRATIVA, CIENTIFICA Y TECNICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5690015	SERVICIOS PROFESIONALES Y TECNICOS - CONTABILIDAD Y AUDITORIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5640015	SERVICIOS PROFESIONALES Y TECNICOS - DISEÑO DE SISTEMAS DE COMPUTO Y SERVICIOS RELACIONADOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5660015	SERVICIOS PROFESIONALES Y TECNICOS - INVESTIGACION CIENTIFICA Y DESARROLLO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5620015	SERVICIOS PROFESIONALES Y TECNICOS - NOTARIA Y CORREDURIA PUBLICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5680015	SERVICIOS PROFESIONALES Y TECNICOS - OTROS SERVICIOS DE OUTSOURCING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5670015	SERVICIOS PROFESIONALES Y TECNICOS - PUBLICIDAD Y ACTIVIDADES RELACIONADAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5610015	SERVICIOS PROFESIONALES Y TECNICOS - SERVICIOS JURIDICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>5260013	SREVICIOS FINANCIEROS - CAJAS DE AHORRO POPULAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4810007	TRANSPORTE - AEREO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Persona Moral</controllingFieldValue>
+            <valueName>4820007	TRANSPORTE - FERROVIARIO</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- SubTipo --></label>
+        <name>SubTipo__c</name>
+        <picklistValues>
+            <masterLabel>Bonif. Emp. de Plan de Venta</masterLabel>
+            <translation><!-- Bonif. Emp. de Plan de Venta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonificacion Saldo Post Venta</masterLabel>
+            <translation><!-- Bonificacion Saldo Post Venta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonificacion de Plan de Venta</masterLabel>
+            <translation><!-- Bonificacion de Plan de Venta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonificaciones Batch</masterLabel>
+            <translation><!-- Bonificaciones Batch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelacion Formalizacion</masterLabel>
+            <translation><!-- Cancelacion Formalizacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelacion de Escritura</masterLabel>
+            <translation><!-- Cancelacion de Escritura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cedula Asesor</masterLabel>
+            <translation><!-- Cedula Asesor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cedula Prospectador</masterLabel>
+            <translation><!-- Cedula Prospectador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excepcion Bonif. Emp. ColJaver</masterLabel>
+            <translation><!-- Excepcion Bonif. Emp. ColJaver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extension de Periodos</masterLabel>
+            <translation><!-- Extension de Periodos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finan PostVenta Col Javer</masterLabel>
+            <translation><!-- Finan PostVenta Col Javer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financiamiento Plan de Venta</masterLabel>
+            <translation><!-- Financiamiento Plan de Venta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financiamiento Post Venta</masterLabel>
+            <translation><!-- Financiamiento Post Venta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garantia</masterLabel>
+            <translation><!-- Garantia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gastos Admin</masterLabel>
+            <translation><!-- Gastos Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lista de Bonificaciones Batch</masterLabel>
+            <translation><!-- Lista de Bonificaciones Batch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lista de Financiamientos Batch</masterLabel>
+            <translation><!-- Lista de Financiamientos Batch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lista de Precios</masterLabel>
+            <translation><!-- Lista de Precios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lista de Precios Batch</masterLabel>
+            <translation><!-- Lista de Precios Batch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lista de Precios Batch Prods</masterLabel>
+            <translation><!-- Lista de Precios Batch Prods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paquetes de Plan de Venta</masterLabel>
+            <translation><!-- Paquetes de Plan de Venta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Bono Asesor</masterLabel>
+            <translation><!-- Plan Bono Asesor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Bono Col. Javer</masterLabel>
+            <translation><!-- Plan Bono Col. Javer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Bono Prospectador</masterLabel>
+            <translation><!-- Plan Bono Prospectador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Bono_Col. Javer</masterLabel>
+            <translation><!-- Plan Bono_Col. Javer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Comision Asesor</masterLabel>
+            <translation><!-- Plan Comision Asesor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Comision Prospectador</masterLabel>
+            <translation><!-- Plan Comision Prospectador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reestructuracion Post Venta</masterLabel>
+            <translation><!-- Reestructuracion Post Venta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidio</masterLabel>
+            <translation><!-- Subsidio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VO. Menor a Presupuesto</masterLabel>
+            <translation><!-- VO. Menor a Presupuesto --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

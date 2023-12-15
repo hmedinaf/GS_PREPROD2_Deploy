@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ASIGNADO</fullName>
+        <default>false</default>
+        <label>ASIGNADO</label>
+    </customValue>
+    <customValue>
+        <fullName>POR ASIGNAR</fullName>
+        <default>false</default>
+        <label>POR ASIGNAR</label>
+    </customValue>
+    <customValue>
+        <fullName>NO ASIGNADO</fullName>
+        <default>false</default>
+        <label>NO ASIGNADO</label>
+    </customValue>
+    <customValue>
+        <fullName>REASIGNADO</fullName>
+        <default>false</default>
+        <label>REASIGNADO</label>
+    </customValue>
+    <customValue>
+        <fullName>POR REASIGNAR</fullName>
+        <default>false</default>
+        <label>POR REASIGNAR</label>
+    </customValue>
+    <masterLabel>Estatus Asignación</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

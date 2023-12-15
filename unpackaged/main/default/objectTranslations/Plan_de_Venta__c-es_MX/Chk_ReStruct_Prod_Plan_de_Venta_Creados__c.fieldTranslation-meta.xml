@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Chk ReStruct- Prod Plan de Venta Creados --></label>
+        <name>Chk_ReStruct_Prod_Plan_de_Venta_Creados__c</name>
+    </CustomFieldTranslation>

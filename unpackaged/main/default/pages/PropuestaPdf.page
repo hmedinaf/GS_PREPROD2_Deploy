@@ -1,0 +1,239 @@
+<apex:page controller="PropuestaPdf" sidebar="false" showHeader="false" renderAs="pdf">
+    <html>
+        <style type="text/css">
+            body {
+            font-family: arial;
+            }
+            p {
+            font-family: arial;
+            }
+            b {
+            font-family: arial;
+            }
+            span {
+            font-family: arial;
+            }
+            table, th, td {
+            font-family: arial;
+            }
+            div {
+            font-family: arial;
+            }
+        </style> 
+        <body>
+            <apex:form >
+                <table  border="0" style="border-none;top:0px;" >
+                    <tr>
+                        <td style="">
+                            <table border="0" style="border-collapse:collapse;border-spacing:0px;" cellpadding="3" cellspacing="3">
+                                <tr><td style="color:white;background:#C10D19;font-size:13px;width:20%;border: 1px solid black;border-right:none;">Folio:</td>  
+                                    <td style=" width:80%;font-size:12px;border: 1px solid black;">{!Account.QUOTE_Folio_Cotizacion_Formula__c}</td></tr>
+                                <tr ><td style="color:white;background:#C10D19;font-size:13px;width:20%;border: 1px solid black;border-right:none;">Fecha:</td> 
+                                    <td style=" width:80%;font-size:12px;border: 1px solid black;"><apex:outputText value="{0,date,yyyy-MM-dd}"><apex:param value="{!Account.Fecha_Propuesta__c}" /></apex:outputText></td> </tr>
+                            </table>
+                        </td>
+                        <td style="padding-left: 350px;"><img src="{!$Resource.JaverHomeLogo}" style="width:60px;"/> <br/><b style="font-size:20px;">{!Account.QUOTE_Nombre_Fracc__c}</b></td>
+                    </tr>
+                </table>
+                <div style="font-size:12px;padding-top:0px;padding-bottom:0px;"><b>Nombre: </b>{!Account.Nombre__c}<br/> <b>Tipo de crédito: </b>{!Account.Tipo_Credito__c}<br/> <b>NSS: </b>{!Account.NSS__c}    </div> 
+                <table   style="border-none;padding-top: 7px;" >
+                    <tr>
+                        <td style="font-size:12px;"><b>Prototipo: </b>{!Account.Quote_Prototipo__c}<br/><b>Terreno: </b>{!Account.QUOTE_Lote_Tipo__c}<br/><b>Construcción: </b>{!Account.QUOTE_Construccion__c}  </td>
+                        <td style="padding-left: 160px;">
+                            <table  style="border-collapse:collapse;" cellpadding="2" cellspacing="2">
+                                <tr><td style="color:white;background:#C10D19;font-size:12px;border: 1px solid black;border-right:none;" >ATRIBUTO</td> 
+                                    <td style="color:white;background:#C10D19;font-size:12px;border: 1px solid black;">PAQUETE / PROMOCION DE VENTA</td>  </tr>
+                                <tr style="font-size:12px;">
+                                    <td Style="border: 1px solid black;border-right:none;">Terreno excedente:<apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Total_Terreno_Excedente__c), 0, Account.QUOTE_Total_Terreno_Excedente__c)}" /></apex:outputText> </td>
+                                    <td rowspan="3" style="text-align:top;border: 1px solid black;"> Paquete:  {!Account.QUOTE_Paquete_Descripcion__c}</td>
+                                </tr>
+                                <tr style="font-size:12px;border-right:none;"> <td  Style="border: 1px solid black;">Esquina:  <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Esquina__c), 0, Account.QUOTE_Esquina__c)}" /></apex:outputText>	</td> </tr>
+                                <tr style="font-size:12px;border-right:none;"><td  Style="border: 1px solid black;">Ubicación especial:  <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Ubicacion_Especial__c), 0, Account.QUOTE_Ubicacion_Especial__c)}" /></apex:outputText></td>  </tr>
+                                <tr style="font-size:12px;">
+                                    <td  Style="border: 1px solid black;border-right:none;">Otros:   <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Otros__c), 0, Account.QUOTE_Otros__c)}" /></apex:outputText></td>
+                                    <td  Style="border: 1px solid black;">Total paquete:  <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Total_Paquete__c), 0, Account.QUOTE_Total_Paquete__c)}" /></apex:outputText></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table  border="0" style="border-none;padding-top: 7px;" >
+                    <tr><td>
+                        <table  style="border-collapse:collapse;">
+                            <tr> <td style="font-size:13px;border: 1px solid black;"><b>PRECIO DE LISTA</b> </td></tr>  
+                            <tr><td  style="font-size:12px;border: 1px solid black;text-align:center;"><apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Precio_de_Lista__c), 0, Account.QUOTE_Precio_de_Lista__c)}" /></apex:outputText></td></tr>
+                        </table>
+                        </td>
+                        <td>+</td>
+                        <td>
+                            <table  style="border-collapse:collapse;">
+                                <tr> <td style="font-size:13px;border: 1px solid black;"><b>ATRIBUTO</b></td></tr>
+                                <tr> <td  style="font-size:12px;border: 1px solid black;text-align:center;"><apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Total_Atributos__c), 0, Account.QUOTE_Total_Atributos__c)}" /></apex:outputText></td></tr>
+                            </table>
+                        </td>
+                        <td>+</td>
+                        <td>
+                            <table  style="border-collapse:collapse;">
+                                <tr> <td style="font-size:13px;border: 1px solid black;"><b>PAQUETE/PROMOCION DE VENTA</b></td></tr>
+                                <tr> <td   style="font-size:12px;border: 1px solid black;text-align:center;"> <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Total_Paquete__c), 0, Account.QUOTE_Total_Paquete__c)}" /></apex:outputText></td></tr>
+                            </table>
+                        </td>
+                        <td>-</td>
+                        <td>
+                            <table  style="border-collapse:collapse;">
+                                <tr> <td style="font-size:13px;border: 1px solid black;"><b>Bonificacion</b> </td></tr> 
+                                <tr> <td  style="font-size:12px;border: 1px solid black;text-align:center;"> <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Bonificacion__c), 0, Account.QUOTE_Bonificacion__c)}" /></apex:outputText></td></tr>
+                            </table>
+                        </td>
+                        <td>=</td>
+                        <td>
+                            <table  style="border-collapse:collapse;">
+                                <tr> <td style="font-size:13px;color:white;background:#C10D19;border: 1px solid black;"><b>PRECIO DE LISTA</b> </td></tr> 
+                                <tr> <td  style="font-size:12px;border: 1px solid black;text-align:center;"><apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Precio__c), 0, Account.QUOTE_Precio__c)}" /></apex:outputText> </td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table  border="0" style="border-none;border-spacing:0px;padding-top: 7px;" >
+                    <tr><td>
+                        <table  style="border-collapse:collapse;border-spacing:0px;" cellpadding="2" cellspacing="2">
+                            <tr><td style="color:white;background:#C10D19;width:70%;font-size:13px;border: 1px solid black;">(+) GASTOS DE ORIGINACIÓN Y/O NOTARIALES </td>  </tr>
+                            <tr><td style="color:white;background:black;width:70%;font-size:13px;border: 1px solid black;">PRECIO TOTAL INCLUYENDO GASTOS</td>   </tr>
+                        </table>
+                        </td>
+                        <td style="padding-left:120px;">
+                            <table style="border-collapse:collapse;border-spacing:0px;" cellpadding="2" cellspacing="2">
+                                <tr><td  style="font-size:13px;border: 1px solid black;text-align:center;"><apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Gastos__c), 0, Account.QUOTE_Gastos__c)}" /></apex:outputText></td></tr>
+                                <tr><td  style="font-size:12px;border: 1px solid black;text-align:center;"> <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Precio_Total__c), 0, Account.QUOTE_Precio_Total__c)}" /></apex:outputText></td> </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table     style="border-none;border-spacing:0px;padding-top: 7px;" >
+                    <tr><td colspan="10" style="color:white;background:#C10D19;font-size:14px;text-align:center">ESQUEMA DE PAGO Y DESGLOSE DE MONTOS DE CRÉDITO</td></tr>
+                    <tr><td>
+                        <table  style="border-spacing:0px;border: 1px solid black;">
+                            <tr> <td style="font-size:13px;color:white;background:black;"><b> Tipo de crédito</b></td></tr> <tr> <td style="font-size:12px;">{!Account.Tipo_Credito__c} </td></tr>
+                        </table>
+                        </td>
+                        <td>
+                            <table style="border-spacing:0px;border: 1px solid black;">
+                                <tr> <td style="font-size:13px;color:white;background:black;"><b>Crédito Bancario </b></td></tr> 
+                                <tr> <td style="font-size:12px;text-align:center;"><apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Credito_Bancario__c), 0, Account.QUOTE_Credito_Bancario__c)}" /></apex:outputText></td></tr>
+                            </table>
+                        </td>
+                        <td>+</td>
+                        <td>
+                            <table style="border-spacing:0px;border: 1px solid black;" >
+                                <tr> <td style="font-size:13px;color:white;background:black;"><b>INFONAVIT/FOVISSSTE </b></td></tr> 
+                                <tr><td  style="font-size:12px;text-align:center;"><apex:outputText value="{0, number, currency}">
+                                    <apex:param value="{!IF(ISBLANK(Account.QUOTE_Credito_INFONAVIT__c), 0, Account.QUOTE_Credito_INFONAVIT__c)}" /></apex:outputText></td></tr>
+                            </table>
+                        </td>
+                        <td>+</td>
+                        <td>
+                            <table style="border-spacing:0px;border: 1px solid black;">
+                                <tr> <td style="font-size:13px;color:white;background:black;"><b>Subcuenta </b></td></tr>
+                                <tr> <td  style="font-size:12px;text-align:center;"> <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Subcuenta__c), 0, Account.QUOTE_Subcuenta__c)}" /></apex:outputText></td></tr>
+                            </table>
+                        </td>
+                        <td>-</td>
+                        <td>
+                            <table  style="border-spacing:0px;border: 1px solid black;">
+                                <tr> <td style="font-size:13px;color:white;background:black;"><b>Gastos</b></td></tr>
+                                <tr><td  style="font-size:12px;text-align:center;"> <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Gastos_Credito__c), 0, Account.QUOTE_Gastos_Credito__c)}" /></apex:outputText></td></tr>
+                            </table>
+                        </td>
+                        <td>=</td>
+                        <td>
+                            <table   style="border-spacing:0px;border: 1px solid black;">
+                                <tr> <td style="font-size:13px;color:white;background:black;"><b>Monto que recibirá JAVER</b></td></tr>
+                                <tr><td  style="font-size:12px;text-align:center;"> <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Monto_que_Recibira_JAVER__c), 0, Account.QUOTE_Monto_que_Recibira_JAVER__c)}" /></apex:outputText></td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table  border="0" style="border-none;padding-left:70px;padding-top: 7px;" >
+                    <tr><td><table   style="border-collapse:collapse;border-spacing:0px;">
+                        <tr> <td style="font-size:13px;color:white;background:#C10D19;border: 1px solid black;"><b>PRECIO TOTAL </b></td></tr> 
+                        <tr><td  style="font-size:12px;border: 1px solid black;text-align:center;"> <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Precio_Total__c), 0, Account.QUOTE_Precio_Total__c)}" /></apex:outputText></td></tr>
+                        </table>
+                        </td>
+                        <td>-</td>
+                        <td>
+                            <table   style="border-collapse:collapse;border-spacing:0px;">
+                                <tr> <td style="font-size:13px;color:white;background:#C10D19;border: 1px solid black;"><b>Monto que recibirá JAVER</b> </td></tr>
+                                <tr> <td  style="font-size:12px;border: 1px solid black;text-align:center;"> <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Monto_que_Recibira_JAVER__c), 0, Account.QUOTE_Monto_que_Recibira_JAVER__c)}" /></apex:outputText></td></tr>
+                            </table>
+                        </td>
+                        <td>=</td>
+                        <td>
+                            <table  style="border-collapse:collapse;border-spacing:0px;">
+                                <tr> <td style="font-size:13px;color:white;background:#C10D19;border: 1px solid black;"><b> ENGANCHE A PAGAR</b> </td></tr>
+                                <tr><td  style="font-size:12px;border: 1px solid black;text-align:center;"> <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Enganche_a_Pagar__c), 0, Account.QUOTE_Enganche_a_Pagar__c)}" /></apex:outputText></td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <table  border="0" style="border-none;padding-left:40px;padding-top: 7px;" >
+                    <tr><td><table style="border-collapse:collapse;border-spacing:0px;">
+                        <tr> <td style="font-size:13px;color:white;background:#C10D19;border: 1px solid black;"><b>MENSUALIDAD BANCO Estimada	 </b></td></tr>
+                        <tr><td  style="font-size:12px;border: 1px solid black;text-align:center;"><apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Mensualidad_Banco__c), 0, Account.QUOTE_Mensualidad_Banco__c)}" /></apex:outputText></td></tr>
+                        </table>
+                        </td>
+                       
+                        <td>
+                            <table  style="border-collapse:collapse;border-spacing:0px;">
+                                <tr> <td style="font-size:13px;color:white;background:#C10D19;border: 1px solid black;"><b>MENSUALIDAD INFONAVIT Estimada	</b> </td></tr> 
+                                <tr> <td  style="font-size:12px;border: 1px solid black;text-align:center;"><apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Mensualidad_INFONAVIT__c), 0, Account.QUOTE_Mensualidad_INFONAVIT__c)}" /></apex:outputText></td></tr>
+                            </table>
+                        </td>
+                       
+                        <td>
+                            <table   style="border-collapse:collapse;border-spacing:0px;">
+                                <tr> <td style="font-size:13px;color:white;background:#C10D19;border: 1px solid black;"><b>INGRESO SOLICITADO</b> </td></tr>
+                                <tr><td  style="font-size:12px;border: 1px solid black;text-align:center;"> <apex:outputText value="{0, number, currency}"> <apex:param value="{!IF(ISBLANK(Account.QUOTE_Ingreso_Solicitado__c), 0, Account.QUOTE_Ingreso_Solicitado__c)}" /></apex:outputText></td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <b style="font-size:11px;padding-top: 7px;padding-bottom: 7px;">
+                    Los precios y condiciones mencionados en este presupuesto podrán variar sin previo aviso.El crédito puede variar según criterio de cada institución hipotecaria.
+                    Los gastos de escrituración son aproximados y por cuenta del cliente, pueden variar dependiendo de las condiciones y monto de crédito que se le haya otorgado al cliente, según la institución de crédito hipotecario.</b><br/>
+                <b style="color:#C10D19;font-size:15px;">Consideraciones importantes </b>
+                <div Style="font-size:10px;padding-bottom: 7px;">1.	Para obtener los beneficios señalados, mantener el precio y las condiciones ofrecidas en la presente cotización el cliente deberá entregar los documentos señalados por su asesor de ventas en la fecha indicada,
+                    de lo contrario no se podrá mantener el precio y cualquier bonificación, promoción, descuento o beneficio JAVER quedará sin efecto.<br/>
+                    2.	El asesor integrará su expediente para trámite de CRÉDITO en la institución hipotecaria que mejor se adapte a su perfil y forma de comprobación de ingresos.<br/>
+                    3.	La institución de crédito es la única responsable de autorizar el monto solicitado por el cliente, JAVER es la intermediaria y lo acompañara durante el proceso de autorización y escrituración llevado a acabo entre el cliente, la institución hipotecaria y el notario.
+                </div>
+                <b style="color:#C10D19;font-size:15px;">CHECK LIST</b>
+                <div style="font-size:11px;padding-bottom: 7px;">
+                    <img src="{!$Resource.Box}"  style="width:16px;"/> Actas de nacimiento, matrimonio o divorcio en su caso (con antigüedad no mayor a 6 meses). <br/> 
+                    <img src="{!$Resource.Box}" style="width:16px;"/>  Copia de INE, copia de CURP, cédula o comunicado de RFC. <br/> 
+                    <img src="{!$Resource.Box}"  style="width:16px;"/> Comprobante de domicilio vigente. </div> 
+             <div>   <b style="color:black;font-size:15px;"> COMPROBACIÓN DE INGRESOS</b>
+               </div>
+                <b style="font-size:13px;">Asalariados: </b>
+                <div style="font-size:11px;padding-bottom: 7px;">
+                    <img src="{!$Resource.Box}"  style="width:16px;"/> Recibos de nómina de los últimos 3 meses. <br/> 
+                    <img src="{!$Resource.Box}"  style="width:16px;"/> Estados de cuenta de los últimos 3 meses donde se vea reflejado el depósito de nómina. <br/> 
+                    <img src="{!$Resource.Box}"  style="width:16px;"/> Carta laboral de la empresa, incluyendo nombre, RFC, CURP, NSS, antigüedad, ingresos y registro patronal.  </div>
+                <b style="color:black;font-size:15px;"> Independientes y/o Personas Físicas con Actividad Empresarial:</b>
+                <div style="font-size:11px;padding-bottom: 7px;"> 
+                    <img src="{!$Resource.Box}"  style="width:16px;"/> 6 meses de estado de cuenta. <br/> 
+                    <img src="{!$Resource.Box}"  style="width:16px;"/> Ultima declaración anual o constancia de situación fiscal (antigüedad no mayor a 6 meses). <br/> </div>
+                <div style="font-size:11px;"> Esperamos que tu experiencia JAVER haya sido placentera, de lo contrario escríbenos un correo a: 
+                    <span style="color:blue;">atencionaclientes@javer.com.mx</span>
+                </div>
+                <div style="margin-left: 250px;margin-top:10px;">
+                    <table  style="border-collapse:collapse;">
+                        <tr><td style="border: 1px solid black;"><img src="{!$Resource.VfpageLogo}" /></td>
+                            <td style="border: 1px solid black;"><b style="padding-left: 18px;font-size:14px;">{!Account.Nombre_del_Asesor__c}</b><br/>
+                                <span >  <img src="{!$Resource.MailIcon}" style="width: 14px;"/> {!Account.QUOTE_Correo_Asesor__c} </span><br/>
+                                <span >   <img src="{!$Resource.callIcon}"  style="width: 14px;"/> {!Account.QUOTE_Telefono_Asesor__c}</span></td></tr>
+                    </table>
+                </div>
+            </apex:form>
+        </body>
+    </html>
+</apex:page>

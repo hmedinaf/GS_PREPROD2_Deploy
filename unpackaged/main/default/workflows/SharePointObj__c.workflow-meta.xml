@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Establece_Fecha_Hora_de_Resolucion</fullName>
+        <description>Copia la Fecha Hora Actual al campo Fecha/Hora de Resolución.</description>
+        <field>FHR__c</field>
+        <formula>Now()</formula>
+        <name>Establece Fecha Hora de Resolución</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Act%2EFecha de Resolución</fullName>
+        <actions>
+            <name>Establece_Fecha_Hora_de_Resolucion</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>SharePointObj__c.Estatus__c</field>
+            <operation>equals</operation>
+            <value>Aprobada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SharePointObj__c.Estatus__c</field>
+            <operation>equals</operation>
+            <value>Rechazada</value>
+        </criteriaItems>
+        <description>Establece la fecha hora en la cual se realiza el cambio de Estatus.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

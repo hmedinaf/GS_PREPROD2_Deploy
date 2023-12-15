@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reenviar_Respuesta</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Reenviar Respuesta</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/29.0/apex.js&quot;)} 
+
+if (&quot;{!Insumo__c.Accion_Formula__c}&quot;==&#39;0&#39; || &quot;{!Insumo__c.Accion_Formula__c}&quot;==&#39;1&#39; ){ 
+sforce.apex.execute(&quot;Javer_ShPn_Util&quot;,&quot;WS_Envia_RespuestaSP&quot;, {strToken:&quot;{!Insumo__c.Name }&quot; 
+,strAccion:&quot;{!Insumo__c.Accion_Formula__c }&quot; 
+,strIDObjetoRespuesta:&quot;{!Insumo__c.Id }&quot; 
+}); 
+window.alert(&quot;Respuesta enviada.&quot; ); 
+} else alert(&#39;Este botón sólo actúa cuando existe una respuesta previa. Para generar una primer respuesta es necesario modificar el picklist de &quot;Estatus&quot; y elegir un valor.&#39;)</url>
+</WebLink>

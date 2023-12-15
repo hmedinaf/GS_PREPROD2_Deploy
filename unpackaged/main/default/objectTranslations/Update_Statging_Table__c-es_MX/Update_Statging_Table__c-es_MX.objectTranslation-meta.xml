@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Update Statging Table</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Update Statging Tables</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <quickActions>
+        <label><!-- Actualiza Registros de Plan de Venta --></label>
+        <name>Actualiza_Registros_de_Plan_de_Venta</name>
+    </quickActions>
+</CustomObjectTranslation>

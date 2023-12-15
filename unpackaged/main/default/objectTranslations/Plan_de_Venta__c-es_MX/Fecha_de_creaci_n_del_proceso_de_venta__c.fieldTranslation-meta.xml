@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fecha de creación del proceso de venta --></label>
+        <name>Fecha_de_creaci_n_del_proceso_de_venta__c</name>
+    </CustomFieldTranslation>

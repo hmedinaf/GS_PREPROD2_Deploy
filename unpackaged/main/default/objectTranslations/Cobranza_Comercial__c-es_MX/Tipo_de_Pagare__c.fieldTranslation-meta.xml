@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo de Pagaré --></label>
+        <name>Tipo_de_Pagare__c</name>
+        <picklistValues>
+            <masterLabel>PAGARÉ AHORRO VOLUNTARIO</masterLabel>
+            <translation><!-- PAGARÉ AHORRO VOLUNTARIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ CANCELACIÓN DE NC GN</masterLabel>
+            <translation><!-- PAGARÉ CANCELACIÓN DE NC GN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ DEVOLUCIÓN NO APLICA</masterLabel>
+            <translation><!-- PAGARÉ DEVOLUCIÓN NO APLICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ ENGANCHE</masterLabel>
+            <translation><!-- PAGARÉ ENGANCHE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ FINANCIERA</masterLabel>
+            <translation><!-- PAGARÉ FINANCIERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ FONDO DE GARANTÍA</masterLabel>
+            <translation><!-- PAGARÉ FONDO DE GARANTÍA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ GASTO AVALÚO</masterLabel>
+            <translation><!-- PAGARÉ GASTO AVALÚO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ GASTO CRÉDITO DIRECTO</masterLabel>
+            <translation><!-- PAGARÉ GASTO CRÉDITO DIRECTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ GASTOS NOTARIALES</masterLabel>
+            <translation><!-- PAGARÉ GASTOS NOTARIALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ GASTOS OPERATIVOS</masterLabel>
+            <translation><!-- PAGARÉ GASTOS OPERATIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ POSTVENTA</masterLabel>
+            <translation><!-- PAGARÉ POSTVENTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ POSTVENTA REESTRUCTURA FINANCIERA</masterLabel>
+            <translation><!-- PAGARÉ POSTVENTA REESTRUCTURA FINANCIERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ PREVENTA</masterLabel>
+            <translation><!-- PAGARÉ PREVENTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ REEMBOLSO CANCELACIÓN</masterLabel>
+            <translation><!-- PAGARÉ REEMBOLSO CANCELACIÓN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ REEMBOLSO ESCRITURA</masterLabel>
+            <translation><!-- PAGARÉ REEMBOLSO ESCRITURA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ REESTRUCTURA POST VENTA</masterLabel>
+            <translation><!-- PAGARÉ REESTRUCTURA POST VENTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ REVERSA BONIFICACIÓN</masterLabel>
+            <translation><!-- PAGARÉ REVERSA BONIFICACIÓN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ SEGURO FINANCIERA</masterLabel>
+            <translation><!-- PAGARÉ SEGURO FINANCIERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ SUBSIDIO</masterLabel>
+            <translation><!-- PAGARÉ SUBSIDIO --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

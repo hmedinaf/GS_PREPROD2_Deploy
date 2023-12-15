@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Prospectrador_SiCanalProspeccion</fullName>
+    <active>false</active>
+    <description>Si el canal es prospección, el campo prospectador debe ser obligatorio</description>
+    <errorConditionFormula>AND(
+ TEXT(Canal_de_Venta__c) = &#39;PROSPECCION&#39;,
+ OR(RecordType.DeveloperName = &#39;Prospecto_Persona_Moral&#39;,
+  RecordType.DeveloperName = &#39;Prospecto_Persona_Fisica&#39;
+ ),
+ ISBLANK(Prospectador__c)
+)</errorConditionFormula>
+    <errorDisplayField>Prospectador__c</errorDisplayField>
+    <errorMessage>Llene el campo</errorMessage>
+</ValidationRule>

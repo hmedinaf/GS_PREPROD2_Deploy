@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CONYUGE</fullName>
+        <default>false</default>
+        <label>CONYUGE</label>
+    </customValue>
+    <customValue>
+        <fullName>EMPLEADO</fullName>
+        <default>false</default>
+        <label>EMPLEADO</label>
+    </customValue>
+    <customValue>
+        <fullName>HERMANO</fullName>
+        <default>false</default>
+        <label>HERMANO</label>
+    </customValue>
+    <customValue>
+        <fullName>HIJO</fullName>
+        <default>false</default>
+        <label>HIJO</label>
+    </customValue>
+    <customValue>
+        <fullName>NINGUNO</fullName>
+        <default>false</default>
+        <label>NINGUNO</label>
+    </customValue>
+    <customValue>
+        <fullName>PADRES</fullName>
+        <default>false</default>
+        <label>PADRES</label>
+    </customValue>
+    <masterLabel>Parentesco</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

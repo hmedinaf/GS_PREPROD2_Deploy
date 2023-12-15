@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Venta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ventas</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Autorización Bonificaciones Empleados</layout>
+        <sections>
+            <label><!-- Bonificación --></label>
+            <section>Bonificación</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Autorización Financiamiento Pre Venta</layout>
+        <sections>
+            <label><!-- Detalle --></label>
+            <section>Detalle</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Bonificación Fuera de Lista</layout>
+        <sections>
+            <label><!-- Detalle --></label>
+            <section>Detalle</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cancelación de Escritura</layout>
+        <sections>
+            <label><!-- Detalle --></label>
+            <section>Detalle</section>
+        </sections>
+        <sections>
+            <label><!-- Unico / Fraccionamiento / UEN --></label>
+            <section>Unico / Fraccionamiento / UEN</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Excepcion Bonif. Emp. ColJaver</layout>
+        <sections>
+            <label><!-- Bonificación --></label>
+            <section>Bonificación</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Excepciones de Paquetes / Productos Vivienda</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Ventas</layout>
+        <sections>
+            <label><!-- Unico / Fraccionamiento / UEN --></label>
+            <section>Unico / Fraccionamiento / UEN</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Autorización Bonificaciones Empleados --></description>
+        <label><!-- Autorizacion Bonificaciones Empleados --></label>
+        <name>Autorizacion_Bonificaciones_Empleados</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Autorización Financiamiento Pre Venta --></description>
+        <label><!-- Autorizacion Financiamiento Pre Venta --></label>
+        <name>Autorizacion_Financiamiento_Pre_Venta</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Bonificación Fuera de Lista --></description>
+        <label><!-- Bonificacion Fuera de Lista --></label>
+        <name>Bonificacion_Fuera_de_Lista</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Cancelación de Escritura --></description>
+        <label><!-- Cancelacion de Escritura --></label>
+        <name>Cancelacion_de_Escritura</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Excepcion Bonif. Emp. ColJaver --></description>
+        <label><!-- Excepcion Bonif. Emp. ColJaver --></label>
+        <name>Excepcion_Bonif_Emp_ColJaver</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Excepción de Paquetes / Productos Vivienda --></description>
+        <label><!-- Excepcion de Paquetes / Productos Vivienda --></label>
+        <name>Excepcion_de_Paquetes_Productos_Vivienda</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Reenviar_Respuesta --></label>
+        <name>Reenviar_Respuesta</name>
+    </webLinks>
+</CustomObjectTranslation>

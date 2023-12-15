@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Excepción Nota de Crédito Bonificación --></label>
+        <name>Excepci_n_Nota_de_Cr_dito_Bonificaci_n__c</name>
+    </CustomFieldTranslation>

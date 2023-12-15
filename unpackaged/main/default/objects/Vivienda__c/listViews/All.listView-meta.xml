@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Estatus__c</columns>
+    <columns>Fraccionamiento__c</columns>
+    <columns>Prototipo__c</columns>
+    <columns>Num_Interno__c</columns>
+    <columns>Manzana__c</columns>
+    <columns>Lote__c</columns>
+    <columns>Unidad_Privativa__c</columns>
+    <columns>Num_Interior__c</columns>
+    <columns>M2_Superficie__c</columns>
+    <columns>Superficie_Excedente__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Inhabilitado_Venta__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Estatus__c</field>
+        <operation>equals</operation>
+        <value>17</value>
+    </filters>
+    <filters>
+        <field>Fraccionamiento__c</field>
+        <operation>equals</operation>
+        <value>MAGNOLIAS IV</value>
+    </filters>
+    <filters>
+        <field>Prototipo__c</field>
+        <operation>equals</operation>
+        <value>ANTARES PN</value>
+    </filters>
+    <label>Todos</label>
+</ListView>

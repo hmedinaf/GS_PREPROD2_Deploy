@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email de Aprobación para Listas de Precios de Lista de Financiamiento</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Aprobación Listas de Financiamiento</name>
+    <style>none</style>
+    <subject>Solicitud de Aprobación Lista de Precios de Financiamiento</subject>
+    <textOnly>Se solicita su aprobación para la siguiente lista de precios de financiamiento:
+
+Solicitante: {!ApprovalRequest.Process_Approver}
+
+Nombre Objeto: {!Aprobacion_Lista_de_Precios__c.Name} / {!Aprobacion_Lista_de_Precios__c.Lista_de_precios__c}
+
+Fraccionamiento: {!Aprobacion_Lista_de_Precios__c.Fraccionamiento__c}
+
+Periodo Inicio: {!Aprobacion_Lista_de_Precios__c.Periodo_Inicio__c}
+
+Periodo Fin: {!Aprobacion_Lista_de_Precios__c.Periodo_Fin__c}
+
+Vigente Desde: {!Aprobacion_Lista_de_Precios__c.Vigente_Desde__c}
+
+Vigente Hasta: {!Aprobacion_Lista_de_Precios__c.Vigente_Hasta__c}
+
+Prototipo: {!Aprobacion_Lista_de_Precios__c.Prototipo__c}
+
+Tipo: {!Aprobacion_Lista_de_Precios__c.Tipo__c}
+
+Clase de Bonificacion : {!Aprobacion_Lista_de_Precios__c.Clase_de_Bonificacion__c}
+
+Clase de Financiamiento : {!Aprobacion_Lista_de_Precios__c.Clase_de_Financiamiento__c}
+
+Monto / Porcentaje: {!Aprobacion_Lista_de_Precios__c.Monto_Porcentaje__c}
+
+Selecciona tu respuesta utilizando los botones:
+
+
+Aprobar Rechazar</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

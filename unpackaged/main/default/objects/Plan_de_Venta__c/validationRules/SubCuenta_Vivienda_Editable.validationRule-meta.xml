@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubCuenta_Vivienda_Editable</fullName>
+    <active>false</active>
+    <description>El campo Sub cuenta vivienda solo es editable en el estatus de: Reservado.</description>
+    <errorConditionFormula>OR(NOT(Estatus_Proceso_de_Venta__c=&#39;Reservado&#39;) &amp;&amp;
+			$Profile.Name &lt;&gt; &quot;Cobranza Comercial&quot; &amp;&amp;
+   ISCHANGED( Subcuenta_Vivienda_1__c),
+			
+  ISCHANGED( Subcuenta_Vivienda_1__c ) &amp;&amp;
+			$Profile.Name &lt;&gt; &quot;Cobranza Comercial&quot; &amp;&amp;
+  (TEXT(Estatus_Plan_de_venta__c) = &#39;Por Aprobar&#39; ||
+   TEXT(Estatus_Plan_de_venta__c) = &#39;Aprobado&#39;
+  )
+)</errorConditionFormula>
+    <errorDisplayField>Subcuenta_Vivienda_1__c</errorDisplayField>
+    <errorMessage>El campo Sub cuenta vivienda solo es editable en el estatus de: Reservado ó Plan de venta En Progreso o Rechazado.</errorMessage>
+</ValidationRule>

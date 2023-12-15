@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Producto__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Producto</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Vivienda</fullName>
+                <default>false</default>
+                <label>Vivienda</label>
+            </value>
+            <value>
+                <fullName>Paquetes</fullName>
+                <default>false</default>
+                <label>Paquetes</label>
+            </value>
+            <value>
+                <fullName>Promociones de Venta</fullName>
+                <default>false</default>
+                <label>Promociones de Venta</label>
+            </value>
+            <value>
+                <fullName>Regalos MKT</fullName>
+                <default>false</default>
+                <label>Regalos MKT</label>
+            </value>
+            <value>
+                <fullName>Complementos</fullName>
+                <default>false</default>
+                <label>Complementos</label>
+            </value>
+            <value>
+                <fullName>Otros Gastos</fullName>
+                <default>false</default>
+                <label>Otros Gastos</label>
+            </value>
+            <value>
+                <fullName>Casa Muestra</fullName>
+                <default>false</default>
+                <label>Casa Muestra</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

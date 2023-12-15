@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_Baja_Motivo_Baja</fullName>
+    <active>false</active>
+    <description>Si se selecciona un tipo de baja se debe seleccionar un motivo de baja</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(TEXT(Tipo_Baja__c))),
+ ISBLANK(TEXT(Motivo_Baja__c))
+)</errorConditionFormula>
+    <errorDisplayField>Motivo_Baja__c</errorDisplayField>
+    <errorMessage>Debe seleccionar un motivo de baja</errorMessage>
+</ValidationRule>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estatus --></label>
+        <name>Estatus__c</name>
+        <picklistValues>
+            <masterLabel>Asignado</masterLabel>
+            <translation><!-- Asignado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baja</masterLabel>
+            <translation><!-- Baja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incubadora</masterLabel>
+            <translation><!-- Incubadora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Por Asignar</masterLabel>
+            <translation><!-- Por Asignar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Por Reasignar</masterLabel>
+            <translation><!-- Por Reasignar --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

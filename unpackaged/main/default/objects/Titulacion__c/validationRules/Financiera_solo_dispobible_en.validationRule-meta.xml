@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financiera_solo_dispobible_en</fullName>
+    <active>true</active>
+    <description>No se puede modificar la financiera en este subestatus</description>
+    <errorConditionFormula>AND(ISCHANGED(  Financiera_2__c ), OR(ISPICKVAL( Sub_Estatus_del_Proceso__c , &#39;Por aprobar&#39;),
+	ISPICKVAL( Sub_Estatus_del_Proceso__c , &#39;Entregado&#39;),
+	ISPICKVAL( Sub_Estatus_del_Proceso__c , &#39;Cancelado&#39;)))</errorConditionFormula>
+    <errorDisplayField>Financiera_2__c</errorDisplayField>
+    <errorMessage>No se puede modificar la financiera en este subestatus</errorMessage>
+</ValidationRule>

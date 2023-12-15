@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Talkdesk</fullName>
+    <active>true</active>
+    <label>Talkdesk</label>
+    <picklistValues>
+        <picklist>Origen__c</picklist>
+        <values>
+            <fullName>Correo ATC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Llamada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portal Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voicemail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WhatsApp</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Asignada</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Completada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Cobranza - Consultar Saldo Post-Venta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cobranza - Otras Consultas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cobranza - Queja de seguimiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cobranza - Solicitar Carta de No Adeudo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contactar a un departamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrega - Otras Consultas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrega - Reportar Incidencia en Entrega VM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrega - Solicita Fecha de Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrega - Solicitar Eco-tecnologías</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrega - Solicitar Planos de Vivienda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantía - Asesoría Técnica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantía - Confirmar Cita de Garantía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantía - Otras Consultas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantía - Realizar Reporte de Garantía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio - Otras Consultas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio - Queja Administradora VM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio - Reporte Falla en Servicios VM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio - Solicitud Carta de Servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio - Solicitud de Escrituras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio - Solicitud de Factura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ventas - Información fraccionamientos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ventas - Otras Consultas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ventas - Seguimiento a Proceso de Escritura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ventas - Seguimientos a Promociones de Venta</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipificacion_nivel_1__c</picklist>
+        <values>
+            <fullName>Cobranza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contactar a un Departamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ventas</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipificacion_nivel_2__c</picklist>
+        <values>
+            <fullName>Asesoria Técnica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirmar Cita de Garantía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consultar Saldo Postventa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estructural</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hablar con un Agente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impermeabilizante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información de Fraccionamientos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queja Administradora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queja de Seguimiento de Cobranza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Realizar Reporte de Garantía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reportar Incidencia en Entrega de Vivienda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporte Falla en Servicios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Se Envía Llamada a Corporativo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguimiento a Proceso de Escritura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguimiento a Promociones de Venta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicita Fecha de Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitar Carta de No Adeudo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitar Eco-Tecnologías</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitar Planos de Vivienda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud Carta de Servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud de Escrituras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud de Factura</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Caso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solución Call Center</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gerardo_Tovar</fullName>
+    <columns>NAME</columns>
+    <columns>approvalObject__c</columns>
+    <columns>approverName__c</columns>
+    <columns>FHR__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>approverName__c</field>
+        <operation>contains</operation>
+        <value>TOVAR</value>
+    </filters>
+    <label>Gerardo_Tovar</label>
+</ListView>

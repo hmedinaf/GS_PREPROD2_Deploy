@@ -1,0 +1,6 @@
+<messaging:emailTemplate subject="Solicitud de Aprobación Lista de Precios de Paquetes" recipientType="User" relatedToType="Aprobacion_Lista_de_Precios__c" >
+<messaging:htmlEmailBody >
+
+<c:Aprobacion_Listas_De_Paquetes recordId="{!relatedTo.Id}"/>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

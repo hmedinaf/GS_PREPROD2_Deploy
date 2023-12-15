@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sub Estatus del Proceso --></label>
+        <name>Sub_Estatus_Proceso__c</name>
+        <picklistValues>
+            <masterLabel>APROBADO</masterLabel>
+            <translation><!-- APROBADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANCELADO</masterLabel>
+            <translation><!-- CANCELADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANCELADO POR REUBICACION</masterLabel>
+            <translation><!-- CANCELADO POR REUBICACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EN FIRMAS</masterLabel>
+            <translation><!-- EN FIRMAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EN PROGRESO</masterLabel>
+            <translation><!-- EN PROGRESO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENTREGADO</masterLabel>
+            <translation><!-- ENTREGADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POR APROBAR</masterLabel>
+            <translation><!-- POR APROBAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POR ENTREGAR</masterLabel>
+            <translation><!-- POR ENTREGAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RECHAZADO</masterLabel>
+            <translation><!-- RECHAZADO --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

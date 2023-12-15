@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FormatoInventario</fullName>
+    <fields>MLIU__c</fields>
+    <fields>Entregada__c</fields>
+    <fields>FechaEscritura__c</fields>
+    <fields>FechaEsperadaEntrega__c</fields>
+    <fields>FechaEntrega__c</fields>
+    <fields>Direccion__c</fields>
+    <fields>MunicipioFor__c</fields>
+    <fields>NumeroProceso__c</fields>
+    <label>FormatoInventario</label>
+</CompactLayout>

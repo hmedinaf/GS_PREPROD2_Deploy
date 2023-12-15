@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Titular_fecha_de_escritura_del_poder</fullName>
+    <active>true</active>
+    <description>Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo.</description>
+    <errorConditionFormula>AND
+(
+Es_usted_el_titular_de_recursos__c == &quot;NO&quot;,
+OR(
+ISNULL(Fecha_de_escritura_del_poder__c	),
+ISBLANK(Fecha_de_escritura_del_poder__c	)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Fecha_de_escritura_del_poder__c</errorDisplayField>
+    <errorMessage>Fecha de Escritura del Poder requerido</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Observaciones puertas, ventanas, chapas y marcos --></help>
+        <label><!-- Observaciones puertas, ventanas, chapas --></label>
+        <name>ObservacionesPueVenChMar__c</name>
+    </CustomFieldTranslation>

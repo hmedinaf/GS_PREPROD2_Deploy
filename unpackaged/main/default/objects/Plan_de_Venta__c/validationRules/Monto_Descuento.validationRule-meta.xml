@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monto_Descuento</fullName>
+    <active>false</active>
+    <description>Validación para no permitir edición del campo monto descuento en cierto valores</description>
+    <errorConditionFormula>OR(ISCHANGED(Monto_Descuento__c) &amp;&amp;  $Profile.Name != &#39;APC&#39; &amp;&amp;
+(
+Estatus_Proceso_de_Venta__c = &#39;Entregado&#39; ||
+Estatus_Proceso_de_Venta__c = &#39;Escriturado&#39;
+),
+			
+ISCHANGED(Monto_Descuento__c) &amp;&amp;  $Profile.Name != &#39;APC&#39; &amp;&amp;
+(
+TEXT(Estatus_Plan_de_venta__c) = &#39;Por Aprobar&#39; ||
+TEXT(Estatus_Plan_de_venta__c) = &#39;Aprobado&#39;
+)
+)</errorConditionFormula>
+    <errorMessage>No se puede modificar el monto de descuento cuando el proceso de venta esta en un estatus de Entregado / Escriturado ó el estatus del plan de venta esta en estatus de Por Aprobar / Aprobado.</errorMessage>
+</ValidationRule>

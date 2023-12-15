@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_bonificaciones_valores</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+IF( TEXT(Clase_de_Bonificacion__c) = &#39;Monto&#39; &amp;&amp; NOT(ISBLANK( Porcentaje_Bonificacion__c )), true, false),
+IF( TEXT(Clase_de_Bonificacion__c) = &#39;Porcentaje&#39; &amp;&amp; NOT(ISBLANK(Monto_Bonificacion__c )), true, false),
+AND(NOT(ISBLANK( Porcentaje_Bonificacion__c )),NOT(ISBLANK(Monto_Bonificacion__c )))
+)</errorConditionFormula>
+    <errorMessage>Se debe ingresar sólo un valor de Bonificación, de acuerdo a la clase de bonificación seleccionada</errorMessage>
+</ValidationRule>

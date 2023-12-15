@@ -1,0 +1,111 @@
+<apex:page standardController="ConsultaWS__c" extensions="CuentasByUserWS">
+    <apex:stylesheet value="{!URLFOR($Resource.OneStarter,'onestarter-master/icons.css')}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.OneStarter,'onestarter-master/styles.css')}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.OneStarter,'onestarter-master/OneStarter.css')}"/>
+    
+    
+    <apex:includeScript value="{!URLFOR($Resource.JQuery)}"/>
+    <apex:includeScript value="{!URLFOR($Resource.TouchSwipe,'TouchSwipe-Jquery-Plugin-master/jquery.touchSwipe.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.OneStarter,'onestarter-master/jquery.onestarter.js')}"/>
+    <apex:includeScript value="/canvas/sdk/js/publisher.js"/>
+    <div id="{!muestro}" class="extraDiv">
+        <apex:form >
+            <apex:pageblock >
+                <div id="form">
+                    
+                    <h1>Consulta de cuentas por usuario</h1>
+                    <apex:pageBlockSection >
+                        <apex:inputField value="{!resObj.Nombre__c}" label="Usuario"/><br></br>
+                    
+                        <apex:commandButton action="{!consultar}" value="Consultar" id="consultar" />
+                        <apex:pageMessages ></apex:pageMessages><br></br>
+            		</apex:pageBlockSection>
+                </div>
+            </apex:pageblock>
+        </apex:form>
+    </div>
+    <apex:form >
+        <apex:pageBlock title="Sincronizar Todo" id="sync">
+        	<apex:commandButton action="{!syncAll}" value="Sincronizar Todo" rendered="{!if(listaCuentas.size > 1,true,false)}" />
+    	</apex:pageBlock>
+    </apex:form>
+<apex:pageBlock title="Cuentas">
+    <apex:pageBlockTable value="{!listaCuentas}" var="cuenta">
+        <apex:column >
+            <a href="{!IF(cuenta.Cuenta_Id__c == null, '#', '/'+cuenta.Cuenta_Id__c)}">	{!cuenta.Nombre__c} {!cuenta.Apellido_Paterno__c} {!cuenta.Apellido_Materno__c}<br></br></a>
+    	</apex:column>
+    <apex:column >
+        <button class="{!IF(cuenta.Name = 'Salesforce', 'hidden', '')} Siebel" onclick="sincro('{!cuenta.Nombre__c}', '{!cuenta.Apellido_Paterno__c}','{!cuenta.Apellido_Materno__c}','{!cuenta.Fecha_Nacimiento__c}', '{!cuenta.NSS__c}', '{!cuenta.NumProceso__c}', '{!cuenta.EstatusProceso__c}', '{!cuenta.FechaReserva__c}', '{!cuenta.FechaFormalizacion__c}', '{!cuenta.FechaEscrituracion__c}', '{!cuenta.NumCliente__c}');">
+            Sincronizar
+        </button>    
+        <b class="{!IF(cuenta.Name != 'Salesforce', 'hidden', '')} {!cuenta.Name}">
+            SALESFORCE
+        </b>
+        <br></br>
+</apex:column>
+</apex:pageBlockTable>
+</apex:pageBlock>
+<div hidden="true">       
+    <apex:form styleClass="formes">
+        
+        <apex:inputText styleClass="no" id="no" value="{!nopam}"/>
+        <apex:inputText styleClass="ap" id="ap" value="{!appam}"/>
+        <apex:inputText styleClass="am" id="am" value="{!ampam}"/>
+        <apex:inputText styleClass="fn" id="fn" value="{!fnpam}"/>
+        <apex:inputText styleClass="nss" id="nss" value="{!nsspam}"/>
+        <apex:inputText styleClass="np" id="np" value="{!nppam}"/>
+        <apex:inputText styleClass="ep" id="ep" value="{!eppam}"/>
+        <apex:inputText styleClass="fr" id="fr" value="{!frpam}"/>
+        <apex:inputText styleClass="ff" id="ff" value="{!ffpam}"/>
+        <apex:inputText styleClass="fe" id="fe" value="{!fepam}"/>
+        <apex:inputText styleClass="nc" id="nc" value="{!ncpam}"/>
+        <apex:commandButton action="{!sincronizar}" value="Sincro" id="ssincro"/>
+    </apex:form>
+</div>
+<script>
+function sincro(no, ap, am, fn, nss, np, ep, fr, ff, fe, nc){
+    $(".no").val(no);
+    $(".ap").val(ap);
+    $(".am").val(am);
+    $(".fn").val(fn);
+    $(".nss").val(nss);
+    $(".np").val(np);
+    $(".ep").val(ep);
+    $(".fr").val(fr);
+    $(".ff").val(ff);
+    $(".fe").val(fe);
+    $(".nc").val(nc);
+    
+    $("input[value='Sincro']").click();
+}
+
+$(document).ready(function() {
+    s1 = $('div#one-app').oneStarter('record-action');
+    $('td.dataCell').css('text-align', 'center');
+    $('img').css('height', '220px;');
+    $(".hidden").each(function(){
+        $(this).remove();
+    });
+    if($('div#one-app').length != 0){
+        $('input[type="text"]').css('height', '10px');
+        $('input[type="text"]').css('font-size', '12px');
+        
+        $('select').css('font-size', '12px');
+        $('select').css('padding', '0px;');
+        $('select').css('height', '30px;');
+        
+        $('img[alt="Imagen 2"]').css('margin-top', '8px');
+    }else{
+        $('div.extraDiv').oneStarter('record-action');
+        $('input[type="text"]').css('height', '10px');
+        $('input[type="text"]').css('width', '50%');
+        $('input[type="text"]').css('font-size', '12px');
+        
+        $('select').css('width', '50%'); 
+        $('select').css('font-size', '12px');
+        $('select').css('padding', '0px;');
+        $('select').css('height', '30px;');
+    }
+});
+</script>
+</apex:page>

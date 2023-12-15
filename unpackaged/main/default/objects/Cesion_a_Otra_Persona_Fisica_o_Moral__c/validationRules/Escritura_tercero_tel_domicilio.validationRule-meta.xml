@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escritura_tercero_tel_domicilio</fullName>
+    <active>true</active>
+    <description>Si escritura a favor de un tercero es igual a SI debe llenarse el campo tel. domicilio.</description>
+    <errorConditionFormula>AND
+(
+Escritura_a_favor_de_un_Tercero__c == &quot;SI&quot;,
+OR(
+ISNULL(Tel_Domicilio__c),
+ISBLANK(Tel_Domicilio__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Tel_Domicilio__c</errorDisplayField>
+    <errorMessage>El campo escritura a favor de un tercero = SI por lo que el campo tel. domicilio debe llenarse.</errorMessage>
+</ValidationRule>

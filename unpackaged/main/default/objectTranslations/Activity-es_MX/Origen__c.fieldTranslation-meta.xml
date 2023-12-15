@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Origen --></label>
+        <name>Origen__c</name>
+        <picklistValues>
+            <masterLabel>Correo ATC</masterLabel>
+            <translation><!-- Correo ATC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada</masterLabel>
+            <translation><!-- Llamada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portal Web</masterLabel>
+            <translation><!-- Portal Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voicemail</masterLabel>
+            <translation><!-- Voicemail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WhatsApp</masterLabel>
+            <translation><!-- WhatsApp --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

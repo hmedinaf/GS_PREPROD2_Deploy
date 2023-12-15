@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audiencia_de_procedimiento__c</fullName>
+    <description>Use este campo para identificar quién sigue o ejecuta este procedimiento.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>¿Quien sigue este procedimiento?</inlineHelpText>
+    <label>Audiencia de procedimiento</label>
+    <length>32768</length>
+    <type>Html</type>
+    <visibleLines>20</visibleLines>
+</CustomField>

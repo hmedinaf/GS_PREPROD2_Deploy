@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Estatus_Proceso__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Estatus del Proceso</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EN_PROGRESO</fullName>
+                <default>false</default>
+                <label>EN PROGRESO</label>
+            </value>
+            <value>
+                <fullName>POR_APROBAR</fullName>
+                <default>false</default>
+                <label>POR APROBAR</label>
+            </value>
+            <value>
+                <fullName>APROBADO</fullName>
+                <default>false</default>
+                <label>APROBADO</label>
+            </value>
+            <value>
+                <fullName>RECHAZADO</fullName>
+                <default>false</default>
+                <label>RECHAZADO</label>
+            </value>
+            <value>
+                <fullName>CANCELADO</fullName>
+                <default>false</default>
+                <label>CANCELADO</label>
+            </value>
+            <value>
+                <fullName>EN_FIRMAS</fullName>
+                <default>false</default>
+                <label>EN FIRMAS</label>
+            </value>
+            <value>
+                <fullName>POR_ENTREGAR</fullName>
+                <default>false</default>
+                <label>POR ENTREGAR</label>
+            </value>
+            <value>
+                <fullName>ENTREGADO</fullName>
+                <default>false</default>
+                <label>ENTREGADO</label>
+            </value>
+            <value>
+                <fullName>CANCELADO POR REUBICACION</fullName>
+                <default>false</default>
+                <label>CANCELADO POR REUBICACION</label>
+            </value>
+            <value>
+                <fullName>RECHANULL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RECHANULL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

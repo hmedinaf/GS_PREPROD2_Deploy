@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escolaridad__c</fullName>
+    <externalId>false</externalId>
+    <label>Escolaridad</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Primaria</fullName>
+                <default>false</default>
+                <label>Primaria</label>
+            </value>
+            <value>
+                <fullName>Secundaria</fullName>
+                <default>false</default>
+                <label>Secundaria</label>
+            </value>
+            <value>
+                <fullName>Preparatoria</fullName>
+                <default>false</default>
+                <label>Preparatoria</label>
+            </value>
+            <value>
+                <fullName>Bachillerato/Técnica</fullName>
+                <default>false</default>
+                <label>Bachillerato/Técnica</label>
+            </value>
+            <value>
+                <fullName>Profesionista/Licenciatura</fullName>
+                <default>false</default>
+                <label>Profesionista/Licenciatura</label>
+            </value>
+            <value>
+                <fullName>Postgrado/Maestría</fullName>
+                <default>false</default>
+                <label>Postgrado/Maestría</label>
+            </value>
+            <value>
+                <fullName>Doctorado</fullName>
+                <default>false</default>
+                <label>Doctorado</label>
+            </value>
+            <value>
+                <fullName>Sin Estudios</fullName>
+                <default>false</default>
+                <label>Sin Estudios</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

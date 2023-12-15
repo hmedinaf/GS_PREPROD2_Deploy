@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Se ha escalado el siguiente caso:&nbsp;{!Casos_Residente__c.Nomenclatura__c}<div><br></div><div>Tipo de caso:&nbsp;{!Casos_Residente__c.RecordType}</div><div><br></div><div>Tipo:&nbsp;{!Casos_Residente__c.Tipo__c}</div><div><br></div><div>Clasificación:&nbsp;{!Casos_Residente__c.Clasificacion__c}</div><div><br></div><div>Origen:&nbsp;{!Casos_Residente__c.Origendegarantia__c}</div><div><br></div><div>Detalle del reporte:&nbsp;{!Casos_Residente__c.Detalledelreporte__c}</div><div><br></div><div>Con un estado:&nbsp;{!Casos_Residente__c.Status__c}</div><div><br></div><div>Liga de acceso:&nbsp;{!Casos_Residente__c.Link}</div>]]></td>
+</tr>
+</table>

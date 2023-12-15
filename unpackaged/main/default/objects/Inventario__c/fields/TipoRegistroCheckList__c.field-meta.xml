@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TipoRegistroCheckList__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Proto__r.Plantas__c= &quot;1&quot;,&quot;012q00000009S3o&quot;,  IF(Proto__r.Plantas__c= &quot;2&quot;,&quot;012q00000009S3t&quot;,   IF(Proto__r.Plantas__c= &quot;3&quot;, &quot;012q00000009S3y&quot;, Null) ) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TipoRegistroCheckList</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

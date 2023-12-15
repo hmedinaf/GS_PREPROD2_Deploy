@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>DIGITAL ASESOR</fullName>
+        <default>false</default>
+        <label>DIGITAL ASESOR</label>
+    </customValue>
+    <customValue>
+        <fullName>EVENTO</fullName>
+        <default>false</default>
+        <label>EVENTO</label>
+    </customValue>
+    <customValue>
+        <fullName>LLAMADA CALL CENTER</fullName>
+        <default>false</default>
+        <label>LLAMADA CALL CENTER</label>
+    </customValue>
+    <customValue>
+        <fullName>MACROVENTA</fullName>
+        <default>false</default>
+        <label>MACROVENTA</label>
+    </customValue>
+    <customValue>
+        <fullName>MACROVENTA 2015</fullName>
+        <default>false</default>
+        <label>MACROVENTA 2015</label>
+    </customValue>
+    <customValue>
+        <fullName>MEDIO PUBLICITARIO</fullName>
+        <default>false</default>
+        <label>MEDIO PUBLICITARIO</label>
+    </customValue>
+    <customValue>
+        <fullName>MEDIOS DIGITALES</fullName>
+        <default>false</default>
+        <label>MEDIOS DIGITALES</label>
+    </customValue>
+    <customValue>
+        <fullName>PROGRAMAS INSTITUCIONALES</fullName>
+        <default>false</default>
+        <label>PROGRAMAS INSTITUCIONALES</label>
+    </customValue>
+    <customValue>
+        <fullName>PROMOTOR EXTERNO</fullName>
+        <default>false</default>
+        <label>PROMOTOR EXTERNO</label>
+    </customValue>
+    <customValue>
+        <fullName>PROSPECCION</fullName>
+        <default>false</default>
+        <label>PROSPECCION</label>
+    </customValue>
+    <customValue>
+        <fullName>PROSPECTO ASESOR</fullName>
+        <default>false</default>
+        <label>PROSPECTO ASESOR</label>
+    </customValue>
+    <customValue>
+        <fullName>REFERIDOS</fullName>
+        <default>false</default>
+        <label>REFERIDOS</label>
+    </customValue>
+    <customValue>
+        <fullName>VENTA EMPRESARIAL</fullName>
+        <default>false</default>
+        <label>VENTA EMPRESARIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CARGA INICIAL</fullName>
+        <default>false</default>
+        <label>CARGA INICIAL</label>
+    </customValue>
+    <masterLabel>Canal de Venta</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

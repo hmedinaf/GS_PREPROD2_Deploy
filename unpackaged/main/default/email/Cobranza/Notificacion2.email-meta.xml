@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Notificacion2</name>
+    <style>none</style>
+    <subject>NOTIFICACION URGENTE: DE PROCESO JUDICIAL MERCANTIL</subject>
+    <textOnly>COBRANZA CORPORATIVA POST-VENTA manifestó a nuestra representada {!Inventario__c.Compania__c} como departamento jurídico encargado de la recuperación de cartera vencida de manera judicial y extrajudicial que realizará diligencia de CERTIFICADO PATRIMONIAL en su domicilio así como de los diferentes BIENES E INMUEBLES (AUTOS, TERRENOS, CASAS, ARTICULOS DEL HOGAR) mismos que serán señalados para la recuperación en virtud de garantía, cabe destacar que cuando una persona incumple los términos del pagaré, se le hace exigible el 100% del adeudo.
+
+
+Derivado de esto recomendamos enérgicamente contar con su presencia, con la finalidad de evitar rompimiento de chapas, cerraduras o que la acción se practique a cualquier persona distinta que se encuentre en el domicilio señalado, como consecuencia de su irresponsabilidad e incumplimiento de pago. Notificamos el INICIO FORMAL DE LAS ACCIONES LEGALES CORRESPONDIENTES VIA JUICIO PROCESAL MERCANTIL y le informamos que los BIENES A SEÑALAR DEBERÁN CUBRIR LA CANTIDAD DE LOS SALDOS AL DÍA, GASTOS JURÍDICOS DE COBRANZA E INTERESES ORDINARIOS Y MORATORIOS generados antes y durante el proceso de cobranza jurídica hasta la liquidación total del adeudo, así mismo se ha girado la instrucción de REGISTRO NEGATIVO ANTE BURO DE CRÉDITO señalando como persona NO RESPONSABLE.
+
+
+Le pedimos resuelva su situación actual liquidando o reestructurando su crédito de manera inmediata ya que de lo contrario nos veremos forzados a proceder en base a lo establecido en el pagaré que se firmó. Se notifica que tiene un LAPSO DE 72 HRS. Para evitar el proceso antes mencionado al liquidar es necesario reporte su pago.
+
+ATENTAMENTE
+
+
+Lic. Hipólito Gloria C.
+
+DEPARTAMENTO DE COBRANZA CORPORATIVA Y
+
+PROCEDIMIENTOS JUDICIALES JAVER.
+
+
+TEL: (81) 51 02 50 50 Ext: 102
+Email: hgloria@javer.com.mx
+
+
+REALICE SUS DEPOSITOS EN BANCO SANTANDER CON LA CLAVE: 51908142657 Y SU REFERENCIA BANCARIA {!Inventario__c.Referencia_Bancaria_Cliente__c}. PARA PAGO EN OXXO SOLICITE SUS CUPONES EN LAS OFICINAS DEL FRACCIONAMIENTO.
+
+NO ENTREGUES DINERO, NINGUN ASESOR TE DEBE SOLICITAR DINERO. LOS PAGOS SOLO SE DEBEN EFECTUAR EN LOS BANCOS PERMITIDOS.
+
+
+QUEJAS O ACLARACIONES:
+
+Ma. de Lourdes Ochoa de La Garza
+
+TEL. (81) 11 33 66 99 Ext. 6957
+
+Email: mdochoa@javer.com.mx
+
+Casas Javer, S.A. de C.V, con domicilio en 16 de septiembre #301, entre Hidalgo y Corregidora, Colonia, Centro, San Pedro Garza García, N.L. C.P. 66230, es responsable del uso, tratamiento y protección de los datos personales que recabe de usted o de aquellos a los que tuviere acceso por cualquier medio para brindarle algún servicio, dichos datos podrán ser utilizados para fines de identificación, cobro, prospección comercial y mercadológicos y/o cualquier otro fin previsto en el Aviso de Privacidad integral disponible para su consulta en www.javer.com.mx ; de igual forma dichos datos podrán ser transferidos a subsidiarias del mismo grupo, y a terceros en los que Javer se apoye para su operación.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

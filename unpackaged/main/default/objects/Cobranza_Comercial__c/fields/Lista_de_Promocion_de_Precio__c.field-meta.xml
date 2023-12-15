@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lista_de_Promocion_de_Precio__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Lista de Promoción de Precio</label>
+    <referenceTo>Pricebook2</referenceTo>
+    <relationshipLabel>Cobranza Comercial (Lista de Promoción de Precio)</relationshipLabel>
+    <relationshipName>Cobranza_Comercial1</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

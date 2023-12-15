@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Colaborador_Javer__c</field>
+        <field>CreatedBy</field>
+        <field>Cuenta__c</field>
+        <field>Fecha_Asignacion__c</field>
+        <field>Fecha_Hora_Asignacion__c</field>
+        <field>Fraccionamiento__c</field>
+        <field>LastModifiedBy</field>
+        <field>Llave__c</field>
+        <field>Rol_Venta__c</field>
+        <field>Usuario__c</field>
+        <field>Vencido__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>generico.enfoque@javer.com.mx</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Step 1</label>
+        <name>Step_1</name>
+    </approvalStep>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Rol_Venta__c.Rol_Venta__c</field>
+            <operation>equals</operation>
+            <value>LP</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Cambio Lead Profiler</label>
+    <processOrder>2</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

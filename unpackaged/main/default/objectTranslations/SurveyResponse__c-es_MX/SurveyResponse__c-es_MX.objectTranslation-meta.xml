@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Survey Response (ATC)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Survey Responses (ATC)</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Survey Response (ATC)</layout>
+        <sections>
+            <label><!-- Comentarios --></label>
+            <section>Comentarios</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- IRC --></label>
+            <section>IRC</section>
+        </sections>
+        <sections>
+            <label><!-- Proceso ATC --></label>
+            <section>Proceso ATC</section>
+        </sections>
+        <sections>
+            <label><!-- SA --></label>
+            <section>SA</section>
+        </sections>
+        <sections>
+            <label><!-- SP --></label>
+            <section>SP</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,78 @@
+@isTest
+public class WS_Pagos_Test {
+    static TestMethod void testMethod1() {
+        RestRequest req = new RestRequest();
+        RestResponse res = new RestResponse();
+        Account acc = new Account();
+        acc.FirstName= 'Lopez';
+        acc.LastName= 'test';
+        acc.RecordTypeId =Schema.sObjectType.Account.getRecordTypeInfosBydevelopername().get('Prospecto_Persona_Fisica').getRecordTypeId();
+        acc.CorreoElectronico__c = 'test@prospects.com';
+        acc.Apellidomaterno_cta__c = 'dahuoh';
+        acc.PersonBirthdate=date.today().addyears(-20);
+        acc.Phone = '+528119928819';
+        acc.Otro_Telefono__c = '+528119928819';
+        acc.TelefonoCelular__c='+525530303030'; 
+        acc.Canal_de_Venta__c = 'PROSPECTO ASESOR';
+        acc.Estatus_Lista_Negra_QEQ__c = 'VALIDADO';
+        insert acc;
+        Opportunity opp = new Opportunity(Name = 'Test Opportunity');
+        opp.StageName = 'Validación';
+        opp.CloseDate = Date.today().adddays(10);
+        insert opp;
+        opp.AccountId = acc.Id;
+        update opp;
+        Consumo_Servicios__c CS = new Consumo_Servicios__c();
+        CS.Cuenta__c = acc.id;
+        CS.Nombre_del_servicio__c = 'test ';
+        CS.Proceso_de_Venta__c = opp.id;
+        insert CS;
+        List<WS_Pagos.PaymentItem> paymentItems = new List<WS_Pagos.PaymentItem>();
+        WS_Pagos.PaymentItem paymentItem = new WS_Pagos.PaymentItem();
+        paymentItem.CONFLICT_ID = 'test';
+        paymentItem.CREATED =  system.today();
+        paymentItem.CREATED_BY	 = 'test';				
+        paymentItem.DB_LAST_UPD	 = system.today();					
+        paymentItem.DB_LAST_UPD_SRC	 = 'test';			
+        paymentItem.DESC_TIPO_DOCTO	 = 'test';			
+        paymentItem.FECHA_CONTABLE	 = system.today();				
+        paymentItem.FECHA_DEPOSITO	 = system.today();				
+        paymentItem.FECHA_RECIBO	 = system.today();				
+        paymentItem.ID_CLIENTE_AR	 = 100;			
+        paymentItem.ID_COBRANZA_MULTIPLE	 = 10;		
+        paymentItem.ID_ESTADO_VENTA	 = 10;			
+        paymentItem.ID_INTERFACE	 = 10;				
+        paymentItem.ID_INTERFACE_CRM = CS.Id;		
+        paymentItem.ID_MONEDA		 = 'test';				
+        paymentItem.ID_PROCESO_AR	 = 'test';				
+        paymentItem.ID_RECIBO_AR	 = 10;				
+        paymentItem.ID_RECIBO_CRM		 = 'test';			
+        paymentItem.ID_REESTRUCTURA	 = 10;			
+        paymentItem.ID_SECTOR		 = 10;			
+        paymentItem.ID_TIPO_DOCTO = 10;				
+        paymentItem.IMPORTE_RECIBO	 = 10;			
+        paymentItem.IND_ANTICIPO		 = 10;			
+        paymentItem.IND_REVERSA	 = 10;				
+        paymentItem.LAST_UPD	 = system.today();					
+        paymentItem.LAST_UPD_BY	 = 'test';				
+        paymentItem.MENSAJE_API	 = 'test';				
+        paymentItem.METODO		 = 'test';				
+        paymentItem.MODIFICATION_NUM	 = 10;			
+        paymentItem.NUM_RECIBO	 = 'test';				
+        paymentItem.REFERENCIA	 = 'test';				
+        paymentItem.REQUISICION_CRM	 = 'test';			
+        paymentItem.RESPUESTA_API	 = 'test';				
+        paymentItem.RETRY_COUNT		 = 10;			
+        paymentItem.ROW_ID			 = 'test';			
+        paymentItem.SESION_CAJA_ID	 = 'test';			
+        paymentItem.TIPO_PAGO	 = 'test';		
+        paymentItems.add(paymentItem);
+        WS_Pagos.RequestService request = new WS_Pagos.RequestService(paymentItems);
+        String body = '{"PaymentItem":{"CONFLICT_ID":"test","CREATED":"2023-06-15","CREATED_BY":"John Doe","DB_LAST_UPD":"2023-06-15","DB_LAST_UPD_SRC":"System","DESC_TIPO_DOCTO":"Invoice","FECHA_CONTABLE":"2023-06-15","FECHA_DEPOSITO":"2023-06-15","FECHA_RECIBO":"2023-06-15","ID_CLIENTE_AR":12345,"ID_COBRANZA_MULTIPLE":56789,"ID_ESTADO_VENTA":1,"ID_INTERFACE":1001,"ID_INTERFACE_CRM":"CRM001","ID_MONEDA":"USD","ID_PROCESO_AR":"Process1","ID_RECIBO_AR":98765,"ID_RECIBO_CRM":"CRM002","ID_REESTRUCTURA":123,"ID_SECTOR":2,"ID_TIPO_DOCTO":3,"IMPORTE_RECIBO":1000,"IND_ANTICIPO":0,"IND_REVERSA":1,"LAST_UPD":"2023-06-15","LAST_UPD_BY":"Jane Smith","MENSAJE_API":"Success","METODO":"POST","MODIFICATION_NUM":2,"NUM_RECIBO":"REC-001","REFERENCIA":"REF-001","REQUISICION_CRM":"REQ-001","RESPUESTA_API":"OK","RETRY_COUNT":3,"ROW_ID":"ROW-001","SESION_CAJA_ID":"SESION-001","TIPO_PAGO":"Credit Card"},"RequestService":{"PAGOS":null},"ResponseService":{"PAGOS":null,"MENSAJE_API":"Success","CODIGO_ERROR":0}}';
+        RestContext.request = req;
+        test.startTest();
+        WS_Pagos.upsertPagos(request);
+        test.stopTest();
+    }
+    
+}

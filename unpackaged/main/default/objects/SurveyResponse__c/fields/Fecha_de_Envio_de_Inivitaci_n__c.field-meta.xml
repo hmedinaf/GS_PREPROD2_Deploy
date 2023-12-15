@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_de_Envio_de_Inivitaci_n__c</fullName>
+    <externalId>false</externalId>
+    <formula>Survey_Invitation__r.Created_Date_GMT_5__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Fecha de Envio de Inivitación</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Formato_NombreVacio</fullName>
+    <active>true</active>
+    <description>El nombre de una cuenta no puedeestar vacio</description>
+    <errorConditionFormula>AND
+(
+ OR(
+  RecordType.DeveloperName = &#39;Prospecto_Persona_Fisica&#39;,
+  RecordType.DeveloperName = &#39;Afluente_Persona_Fisica&#39;,
+  RecordType.DeveloperName = &#39;Cliente_Persona_Fisica&#39;
+ ),
+  ISBLANK(FirstName)
+)</errorConditionFormula>
+    <errorDisplayField>FirstName</errorDisplayField>
+    <errorMessage>Rellene el campo</errorMessage>
+</ValidationRule>

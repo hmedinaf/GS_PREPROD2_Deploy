@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JMC_ManeraPrefContact__c</fullName>
+    <description>Identificar la manera preferida de contacto del cliente</description>
+    <externalId>false</externalId>
+    <label>Manera preferida de contacto</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mail</fullName>
+                <default>false</default>
+                <label>Mail</label>
+            </value>
+            <value>
+                <fullName>Llamada</fullName>
+                <default>false</default>
+                <label>Llamada</label>
+            </value>
+            <value>
+                <fullName>Whatsapp</fullName>
+                <default>false</default>
+                <label>Whatsapp</label>
+            </value>
+            <value>
+                <fullName>Mensaje de texto</fullName>
+                <default>false</default>
+                <label>Mensaje de texto</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

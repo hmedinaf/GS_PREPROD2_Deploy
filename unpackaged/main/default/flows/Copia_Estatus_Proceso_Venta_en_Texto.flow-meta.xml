@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <description>Copia Estatus Proceso Venta en Texto</description>
+    <environments>Default</environments>
+    <interviewLabel>Copia Estatus Proceso Venta en Texto {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Copia Estatus Proceso Venta en Texto</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Copia la variable de Estatus a Texto para evitar un salto tan largo de 4 objetos hasta Oportunidad y evitar errores</description>
+        <name>Estatus_en_Texto</name>
+        <label>Estatus en Texto</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <inputAssignments>
+            <field>Ciudad__c</field>
+            <value>
+                <stringValue>Si Ejecutó el Flow</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Estatus_Proceso_de_Venta_Dictaminacion2__c</field>
+            <value>
+                <elementReference>$Record.Estatus_Proceso_de_Venta_Oportunidad__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Estatus_en_Texto</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Estatus_Proceso_de_Venta_Oportunidad__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Perfil_Tercero_Moral__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

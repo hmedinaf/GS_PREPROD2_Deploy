@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email de Aprobación para Listas de Precios de Vivienda</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Template Aprobación Listas de Precios Vivienda</name>
+    <style>none</style>
+    <subject>Solicitud de Aprobación Lista de Precios de Vivienda</subject>
+    <textOnly>Se solicita su aprobación para la siguiente lista de precios de vivienda:
+
+Solicitante: {!ApprovalRequest.Process_Approver}
+
+Nombre Objeto: {!Aprobacion_Lista_de_Precios__c.Name} / {!Aprobacion_Lista_de_Precios__c.Lista_de_precios__c}
+
+Fraccionamiento: {!Aprobacion_Lista_de_Precios__c.Fraccionamiento__c}
+
+Periodo Inicio:
+
+Periodo Fin:
+
+{!Aprobacion_Lista_de_Precios__c.Vigente_Desde__c}
+
+{!Aprobacion_Lista_de_Precios__c.Vigente_Hasta__c}
+
+
+{!Aprobacion_Lista_de_Precios__c.Prototipo__c}
+
+Precio Presupuesto:
+
+Precio Sobre Avenida:
+
+% Sobre Avenida:
+
+% Instalaciones:
+
+Precio Esquina: {!Aprobacion_Lista_de_Precios__c.Porcentaje_Precio_esquina__c}
+
+% Esquina:
+
+Precio Lado Sol:
+
+% Lado Sol:
+
+Precio Lado Sombra:
+
+% Lado Sombra:
+
+Precio Frente a Parque:
+
+% Frente a Parque: {!Aprobacion_Lista_de_Precios__c.00N0r000002cvtM}
+
+Selecciona tu respuesta utilizando los botones:
+
+
+Aprobar Rechazar</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

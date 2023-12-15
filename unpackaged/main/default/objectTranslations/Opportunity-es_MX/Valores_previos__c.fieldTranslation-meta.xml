@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Unicamente para guardar los valores previos de los campos de lookup &quot;Asesor&quot; y &quot;Lead Profiler&quot; cuando se envia a aprobación y / o se rechaza la oportunidad
+Visible solo para el admin del sistema --></help>
+        <label><!-- Valores previos --></label>
+        <name>Valores_previos__c</name>
+    </CustomFieldTranslation>

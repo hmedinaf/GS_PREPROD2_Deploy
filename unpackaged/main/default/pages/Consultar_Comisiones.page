@@ -1,0 +1,18 @@
+<apex:page controller="ImportarComisionesWS">
+<apex:pageMessages ></apex:pageMessages><br></br>
+<apex:pageBlock title="Comisiones">
+    <apex:form >
+        <apex:commandButton action="{!consultar}" value="Consultar" id="consultar"/>
+    </apex:form>
+</apex:pageBlock>
+
+        <apex:pageBlock title="Sincronizar Comisiones">
+          <apex:pageBlockTable value="{!listaComisiones}" var="obj">
+             <apex:column value="{!obj.Name}"/>
+             <apex:column value="{!obj.Numplan_comi__c}"/>
+             <apex:column value="{!obj.Empleado__c}"/>
+             <apex:column value="{!obj.Periodopag_comi__c}"/>
+             <apex:column value="{!obj.Plancomi_comi__c}"/>
+          </apex:pageBlockTable>
+       </apex:pageBlock>
+</apex:page>

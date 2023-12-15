@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Privacy Message --></label>
+        <name>Privacy_Message__c</name>
+        <picklistValues>
+            <masterLabel>Aviso de Empresa</masterLabel>
+            <translation><!-- Aviso de Empresa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aviso de Inicio</masterLabel>
+            <translation><!-- Aviso de Inicio --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Medio de contacto Preferido --></label>
+        <name>Medio_de_contacto_Preferido__c</name>
+        <picklistValues>
+            <masterLabel>Correo</masterLabel>
+            <translation><!-- Correo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Social</masterLabel>
+            <translation><!-- Red Social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teléfono</masterLabel>
+            <translation><!-- Teléfono --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whatsapp</masterLabel>
+            <translation><!-- Whatsapp --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

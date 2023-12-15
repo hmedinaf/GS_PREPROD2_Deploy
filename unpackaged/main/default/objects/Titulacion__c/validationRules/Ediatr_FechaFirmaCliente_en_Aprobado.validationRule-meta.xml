@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ediatr_FechaFirmaCliente_en_Aprobado</fullName>
+    <active>false</active>
+    <description>Solo se permite la edición de la fecha cuando el Sub Estatus del Proceso esta en Aprobado.</description>
+    <errorConditionFormula>IF(NOT(ISCHANGED(Fecha_Firma_Cliente__c)), FALSE,
+  IF(OR( TEXT(Sub_Estatus_del_Proceso__c) = &quot;Aprobado&quot;, Es_nueva_Titulacion__c) , FALSE, TRUE))</errorConditionFormula>
+    <errorDisplayField>Fecha_Firma_Cliente__c</errorDisplayField>
+    <errorMessage>La fecha de firma del cliente solo se puede editar si el subestatus del proceso es &quot;Aprobado&quot;</errorMessage>
+</ValidationRule>

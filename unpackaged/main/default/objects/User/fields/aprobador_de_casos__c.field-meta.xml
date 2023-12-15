@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>aprobador_de_casos__c</fullName>
+    <externalId>false</externalId>
+    <label>Aprobador de casos</label>
+    <relationshipName>Usuarios1</relationshipName>
+    <restrictedAdminField>true</restrictedAdminField>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Hierarchy</type>
+</CustomField>

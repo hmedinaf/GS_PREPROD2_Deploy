@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Proyecto --></label>
+        <name>Proyecto__c</name>
+        <picklistValues>
+            <masterLabel>ENFOQUE - Fresh</masterLabel>
+            <translation><!-- ENFOQUE - Fresh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENFOQUE - Partial</masterLabel>
+            <translation><!-- ENFOQUE - Partial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENFOQUE - PreProd</masterLabel>
+            <translation><!-- ENFOQUE - PreProd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENLACE - Partial</masterLabel>
+            <translation><!-- ENLACE - Partial --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

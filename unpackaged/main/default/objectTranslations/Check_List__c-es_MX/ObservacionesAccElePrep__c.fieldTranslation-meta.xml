@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Observaciones en accesorios eléctricos  y preparación para minisplit giuada --></help>
+        <label><!-- Observaciones accesorios eléctricos prep --></label>
+        <name>ObservacionesAccElePrep__c</name>
+    </CustomFieldTranslation>

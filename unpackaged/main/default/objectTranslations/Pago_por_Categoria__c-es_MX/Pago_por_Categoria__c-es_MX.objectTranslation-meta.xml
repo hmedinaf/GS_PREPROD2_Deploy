@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>% Pago por Categoría</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>% Pagos por Categorías</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Bono por Categoria</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Para RT de Comisión &quot;Plan Bono Asesor&quot; --></description>
+        <label><!-- Categoria Bono --></label>
+        <name>Categoria_Bono</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Se usa con RT de &quot;Plan Comisión Asesor&quot; --></description>
+        <label><!-- Categoria Comision --></label>
+        <name>Categoria_Comision</name>
+    </recordTypes>
+</CustomObjectTranslation>

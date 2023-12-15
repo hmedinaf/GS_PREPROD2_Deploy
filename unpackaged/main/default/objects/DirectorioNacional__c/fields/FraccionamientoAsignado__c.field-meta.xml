@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FraccionamientoAsignado__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Fraccionamiento Asignado</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Fraccionamiento__c.Activo_frac__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Fraccionamiento__c</referenceTo>
+    <relationshipLabel>Directorios Nacional</relationshipLabel>
+    <relationshipName>Directorios_Nacional</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JMC_CanalVenta__c</fullName>
+    <description>Catálogo relacionado al canal de venta</description>
+    <externalId>false</externalId>
+    <label>Canal de Venta</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Digital Asesor</fullName>
+                <default>false</default>
+                <label>Digital Asesor</label>
+            </value>
+            <value>
+                <fullName>Evento</fullName>
+                <default>false</default>
+                <label>Evento</label>
+            </value>
+            <value>
+                <fullName>Llamada Call Center</fullName>
+                <default>false</default>
+                <label>Llamada Call Center</label>
+            </value>
+            <value>
+                <fullName>Macroventa</fullName>
+                <default>false</default>
+                <label>Macroventa</label>
+            </value>
+            <value>
+                <fullName>Medio Publicitario</fullName>
+                <default>false</default>
+                <label>Medio Publicitario</label>
+            </value>
+            <value>
+                <fullName>Medios Digitales</fullName>
+                <default>false</default>
+                <label>Medios Digitales</label>
+            </value>
+            <value>
+                <fullName>Programas Institucionales</fullName>
+                <default>false</default>
+                <label>Programas Institucionales</label>
+            </value>
+            <value>
+                <fullName>Promotor Externo</fullName>
+                <default>false</default>
+                <label>Promotor Externo</label>
+            </value>
+            <value>
+                <fullName>Prospección</fullName>
+                <default>false</default>
+                <label>Prospección</label>
+            </value>
+            <value>
+                <fullName>Referidos</fullName>
+                <default>false</default>
+                <label>Referidos</label>
+            </value>
+            <value>
+                <fullName>Venta Empresarial</fullName>
+                <default>false</default>
+                <label>Venta Empresarial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

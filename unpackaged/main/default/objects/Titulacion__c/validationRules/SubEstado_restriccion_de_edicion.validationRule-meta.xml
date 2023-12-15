@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubEstado_restriccion_de_edicion</fullName>
+    <active>true</active>
+    <description>Solo se puede editar el campo cuando se cumple:
+- No está condicionado a ninguna etapa.
+- Editable en procesos con estatus &quot;Formalizado&quot;  exeptuando SubEstadoDelProceso &quot;En firma&quot;</description>
+    <errorConditionFormula>OR(
+     AND(
+         ISCHANGED( Sub_Estado__c ) ,  
+         NOT(ISPICKVAL( Estatus_Proceso__c , &#39;Formalizado&#39;))
+     ),
+     AND( ISCHANGED( Sub_Estado__c ) ,  
+          ISPICKVAL( Estatus_Proceso__c , &#39;Formalizado&#39;), 
+          ISPICKVAL( Sub_Estatus_del_Proceso__c, &#39;En Firmas&#39;)
+     )
+)</errorConditionFormula>
+    <errorDisplayField>Sub_Estado__c</errorDisplayField>
+    <errorMessage>El Sub estado no se puede editar si el estatus no es &quot;Formalizado&quot; o si el Sub estatus del proceso es &#39;En Firmas&#39;</errorMessage>
+</ValidationRule>

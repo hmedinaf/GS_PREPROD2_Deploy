@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Objeto Social o Giro Mercantil Cesión --></label>
+        <name>Actividad_Profesion_Ocupacion__c</name>
+        <picklistValues>
+            <masterLabel>ADMINISTRACION - ASISTENTES ADMINISTRATIVOS</masterLabel>
+            <translation><!-- ADMINISTRACION - ASISTENTES ADMINISTRATIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADMINISTRACION - CAPTURISTA Y OPERADORES DE TELEFONO</masterLabel>
+            <translation><!-- ADMINISTRACION - CAPTURISTA Y OPERADORES DE TELEFONO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADMINISTRACION - CONSULTORES</masterLabel>
+            <translation><!-- ADMINISTRACION - CONSULTORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADMINISTRACION - CONTADORES Y AUDITORES</masterLabel>
+            <translation><!-- ADMINISTRACION - CONTADORES Y AUDITORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADMINISTRACION - DIRECTORES, GERENTES  Y EMPLEADOS DE COMPRAS, FINANZAS, RECURSOS HUMANOS Y SERVICIOS ADMINISTRATIVOS</masterLabel>
+            <translation><!-- ADMINISTRACION - DIRECTORES, GERENTES  Y EMPLEADOS DE COMPRAS, FINANZAS, RECURSOS HUMANOS Y SERVICIOS ADMINISTRATIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADMINISTRACION - DIRECTORES, GERENTES Y EMPELADOS ADMINISTRATIVOS</masterLabel>
+            <translation><!-- ADMINISTRACION - DIRECTORES, GERENTES Y EMPELADOS ADMINISTRATIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE COMERCIALIZACION</masterLabel>
+            <translation><!-- ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE COMERCIALIZACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE PRODUCCION</masterLabel>
+            <translation><!-- ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE PRODUCCION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE SERVICIOS DE TRANSPORTE</masterLabel>
+            <translation><!-- ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE SERVICIOS DE TRANSPORTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADMINISTRACION - PAGADORES Y COBRADORES</masterLabel>
+            <translation><!-- ADMINISTRACION - PAGADORES Y COBRADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADMINISTRACION - TRABAJADORES DE ARCHIVO, ALMACEN DE INVENTARIOS</masterLabel>
+            <translation><!-- ADMINISTRACION - TRABAJADORES DE ARCHIVO, ALMACEN DE INVENTARIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES AGRICOLAS</masterLabel>
+            <translation><!-- AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES AGRICOLAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES SILVICOLAS Y FORESTALES</masterLabel>
+            <translation><!-- AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES SILVICOLAS Y FORESTALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALIMENTACION Y HOSPEDAJE - JEFES DE COCINA, RESTAURANTE Y/O BAR</masterLabel>
+            <translation><!-- ALIMENTACION Y HOSPEDAJE - JEFES DE COCINA, RESTAURANTE Y/O BAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIO DE ALIMENTOS Y BEBIDAS</masterLabel>
+            <translation><!-- ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIO DE ALIMENTOS Y BEBIDAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIOS DE ALOJAMIENTO</masterLabel>
+            <translation><!-- ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIOS DE ALOJAMIENTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALIMENTOS Y BEBIDAS - TRABAJADORES EN LA ELABORACION  Y PROCESAMIENTO DE ALIMENTOS, BEBIDAS Y TABACO</masterLabel>
+            <translation><!-- ALIMENTOS Y BEBIDAS - TRABAJADORES EN LA ELABORACION  Y PROCESAMIENTO DE ALIMENTOS, BEBIDAS Y TABACO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOLSA, BANCA Y SEGUROS - AGENTES DE VALORES, PROMOTORES Y CORREDORES DE INVERSION</masterLabel>
+            <translation><!-- BOLSA, BANCA Y SEGUROS - AGENTES DE VALORES, PROMOTORES Y CORREDORES DE INVERSION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOLSA, BANCA Y SEGUROS - GERENTES O TRABAJADORES DE SERVICIOS Y PRODUCTOS FINANCIEROS</masterLabel>
+            <translation><!-- BOLSA, BANCA Y SEGUROS - GERENTES O TRABAJADORES DE SERVICIOS Y PRODUCTOS FINANCIEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOLSA, BANCA Y SEGUROS - VALUADORES</masterLabel>
+            <translation><!-- BOLSA, BANCA Y SEGUROS - VALUADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMERCIO - CAJEROS REGISTRADORES</masterLabel>
+            <translation><!-- COMERCIO - CAJEROS REGISTRADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMERCIO - DESPACHADORES DE GASOLINERA</masterLabel>
+            <translation><!-- COMERCIO - DESPACHADORES DE GASOLINERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMERCIO - EMPACADORES DE MERCANCIAS</masterLabel>
+            <translation><!-- COMERCIO - EMPACADORES DE MERCANCIAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMERCIO - GERENTES O EMPLEADOS DE VENTAS</masterLabel>
+            <translation><!-- COMERCIO - GERENTES O EMPLEADOS DE VENTAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMERCIO - GERENTES O SUPERVISOR DE ESTABLECIMIENTO COMERCIAL</masterLabel>
+            <translation><!-- COMERCIO - GERENTES O SUPERVISOR DE ESTABLECIMIENTO COMERCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMERCIO - REPRESENTANTES DE VENTAS POR TELEFONO O POR TELEVISION</masterLabel>
+            <translation><!-- COMERCIO - REPRESENTANTES DE VENTAS POR TELEFONO O POR TELEVISION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMERCIO - TAQUILLEROS</masterLabel>
+            <translation><!-- COMERCIO - TAQUILLEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMERCIO - VENDEDORES AMBULANTES</masterLabel>
+            <translation><!-- COMERCIO - VENDEDORES AMBULANTES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMERCIO - VENDEDORES ESPECIALIZADOS</masterLabel>
+            <translation><!-- COMERCIO - VENDEDORES ESPECIALIZADOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONSTRUCCION -  INGENIEROS, TECNICOS Y OPERADORES DE LA CONSTRUCCION</masterLabel>
+            <translation><!-- CONSTRUCCION -  INGENIEROS, TECNICOS Y OPERADORES DE LA CONSTRUCCION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONSTRUCCION - ARQUITECTOS</masterLabel>
+            <translation><!-- CONSTRUCCION - ARQUITECTOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONSTRUCCION - COLOCADORES DE PRODUCTOS PREFABRICADOS EN INMUEBLES</masterLabel>
+            <translation><!-- CONSTRUCCION - COLOCADORES DE PRODUCTOS PREFABRICADOS EN INMUEBLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONSTRUCCION - DECORADORES DE INTERIORES</masterLabel>
+            <translation><!-- CONSTRUCCION - DECORADORES DE INTERIORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONSTRUCCION - PINTORES</masterLabel>
+            <translation><!-- CONSTRUCCION - PINTORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONSTRUCCION - PLOMEROS E INSTALADORES DE TUBERIA</masterLabel>
+            <translation><!-- CONSTRUCCION - PLOMEROS E INSTALADORES DE TUBERIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONSTRUCCION - REPARADORES DE VIAS DE COMUNICACION</masterLabel>
+            <translation><!-- CONSTRUCCION - REPARADORES DE VIAS DE COMUNICACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONSTRUCCION - VIDRIEROS</masterLabel>
+            <translation><!-- CONSTRUCCION - VIDRIEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEPORTE Y ESPARCIMIENTO - ANIMADORES RECREATIVOS</masterLabel>
+            <translation><!-- DEPORTE Y ESPARCIMIENTO - ANIMADORES RECREATIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEPORTE Y ESPARCIMIENTO - ATLETAS, ENTRENADORES O INSTRUCTORES EN DEPORTE Y RECREACION</masterLabel>
+            <translation><!-- DEPORTE Y ESPARCIMIENTO - ATLETAS, ENTRENADORES O INSTRUCTORES EN DEPORTE Y RECREACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEPORTE Y ESPARCIMIENTO - OFICIALES, JUECES Y ARBITROS DEPORTIVOS</masterLabel>
+            <translation><!-- DEPORTE Y ESPARCIMIENTO - OFICIALES, JUECES Y ARBITROS DEPORTIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIFUSION CULTURAL - PROMOTORES DE DIFUSION CULTURAL</masterLabel>
+            <translation><!-- DIFUSION CULTURAL - PROMOTORES DE DIFUSION CULTURAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIFUSION CULTURAL - TRABAJADORES DE BIBLIOTECA, ARCHIVO, MUSEO Y GALERIA DE ARTE</masterLabel>
+            <translation><!-- DIFUSION CULTURAL - TRABAJADORES DE BIBLIOTECA, ARCHIVO, MUSEO Y GALERIA DE ARTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELECTRICIDAD - INGENIEROS O TECNICOS ELECTRICISTAS</masterLabel>
+            <translation><!-- ELECTRICIDAD - INGENIEROS O TECNICOS ELECTRICISTAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELECTRICIDAD - TECNICOS EN REFRIGERACION, AIRE ACONDICIONADO Y CALEFACCION</masterLabel>
+            <translation><!-- ELECTRICIDAD - TECNICOS EN REFRIGERACION, AIRE ACONDICIONADO Y CALEFACCION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELECTRONICA - INGENIERO O TECNICOS EN  ELECTRONICA</masterLabel>
+            <translation><!-- ELECTRONICA - INGENIERO O TECNICOS EN  ELECTRONICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELECTRONICA - MECANICOS DE INSTRUMENTOS INDUSTRIALES</masterLabel>
+            <translation><!-- ELECTRONICA - MECANICOS DE INSTRUMENTOS INDUSTRIALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENSEÑANZA - CAPACITADORES E INSTRUCTORES</masterLabel>
+            <translation><!-- ENSEÑANZA - CAPACITADORES E INSTRUCTORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENSEÑANZA - DIRECTORES GENERALES DE EDUCACION</masterLabel>
+            <translation><!-- ENSEÑANZA - DIRECTORES GENERALES DE EDUCACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENSEÑANZA - PROFESORES O DOCENTES</masterLabel>
+            <translation><!-- ENSEÑANZA - PROFESORES O DOCENTES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GANADERIA - ADMINISTRADORES, CRIADORES O SUPERVISORES AVICOLAS Y GANADEROS</masterLabel>
+            <translation><!-- GANADERIA - ADMINISTRADORES, CRIADORES O SUPERVISORES AVICOLAS Y GANADEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GANADERIA - APICULTORES</masterLabel>
+            <translation><!-- GANADERIA - APICULTORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INFORMATICA - INGENIERO O TECNICOS PROGRAMADORES EN INFORMATICA</masterLabel>
+            <translation><!-- INFORMATICA - INGENIERO O TECNICOS PROGRAMADORES EN INFORMATICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INFORMATICA - PROFESIONISTAS O TECNICOS DE SISTEMAS DE INFORMACION Y PROCESAMIENTO DE DATOS</masterLabel>
+            <translation><!-- INFORMATICA - PROFESIONISTAS O TECNICOS DE SISTEMAS DE INFORMACION Y PROCESAMIENTO DE DATOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INSPECCION - INSPECTORES DE SALUD AMBIENTAL, SANIDAD Y DEL TRABAJO</masterLabel>
+            <translation><!-- INSPECCION - INSPECTORES DE SALUD AMBIENTAL, SANIDAD Y DEL TRABAJO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INSPECCION - INSPECTORES DE TRANSPORTE DE CARGA Y DE PASAJEROS</masterLabel>
+            <translation><!-- INSPECCION - INSPECTORES DE TRANSPORTE DE CARGA Y DE PASAJEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INSPECCION - INSPECTORES FISCALES Y DE PRECIOS</masterLabel>
+            <translation><!-- INSPECCION - INSPECTORES FISCALES Y DE PRECIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INSPECCION - INSPECTORES SANITARIOS Y DE CONTROL DE CALIDAD DE PRODUCTOS CARNICOS, PESQUEROS Y AGRICOLAS</masterLabel>
+            <translation><!-- INSPECCION - INSPECTORES SANITARIOS Y DE CONTROL DE CALIDAD DE PRODUCTOS CARNICOS, PESQUEROS Y AGRICOLAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTERPRETACION ARTISTICA - ACTORES, BAILARINES, MUSICOS, ESCRITORES</masterLabel>
+            <translation><!-- INTERPRETACION ARTISTICA - ACTORES, BAILARINES, MUSICOS, ESCRITORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTERPRETACION ARTISTICA - ARTESANOS</masterLabel>
+            <translation><!-- INTERPRETACION ARTISTICA - ARTESANOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTERPRETACION ARTISTICA - ARTISTAS PLASTICOS</masterLabel>
+            <translation><!-- INTERPRETACION ARTISTICA - ARTISTAS PLASTICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTERPRETACION ARTISTICA - FOTOGRAFOS</masterLabel>
+            <translation><!-- INTERPRETACION ARTISTICA - FOTOGRAFOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INVESTIGACION - ASISTENTES DE INVESTIGADORES</masterLabel>
+            <translation><!-- INVESTIGACION - ASISTENTES DE INVESTIGADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INVESTIGACION - BIOLOGOS Y CIENTIFICOS RELACIONADOS</masterLabel>
+            <translation><!-- INVESTIGACION - BIOLOGOS Y CIENTIFICOS RELACIONADOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INVESTIGACION - ECONOMISTAS Y POLITOLOGOS (NO FUNCIONARIOS PUBLICOS)</masterLabel>
+            <translation><!-- INVESTIGACION - ECONOMISTAS Y POLITOLOGOS (NO FUNCIONARIOS PUBLICOS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INVESTIGACION - ENCUESTADORES Y CODIFICADORES</masterLabel>
+            <translation><!-- INVESTIGACION - ENCUESTADORES Y CODIFICADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INVESTIGACION - FISICOS ASTRONOMOS</masterLabel>
+            <translation><!-- INVESTIGACION - FISICOS ASTRONOMOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INVESTIGACION - GEOLOGOS, GEOQUIMICOS, GEOFISICOS Y GEOGRAFOS</masterLabel>
+            <translation><!-- INVESTIGACION - GEOLOGOS, GEOQUIMICOS, GEOFISICOS Y GEOGRAFOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INVESTIGACION - INVESTIGADORES Y CONSULTORES EN MERCADOTECNIA</masterLabel>
+            <translation><!-- INVESTIGACION - INVESTIGADORES Y CONSULTORES EN MERCADOTECNIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INVESTIGACION - MATEMATICOS, ESTADISTICOS Y ACTUARIOS</masterLabel>
+            <translation><!-- INVESTIGACION - MATEMATICOS, ESTADISTICOS Y ACTUARIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INVESTIGACION - METEOROLOGOS</masterLabel>
+            <translation><!-- INVESTIGACION - METEOROLOGOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INVESTIGACION - QUIMICOS Y/O TECNICOS EN QUIMICA</masterLabel>
+            <translation><!-- INVESTIGACION - QUIMICOS Y/O TECNICOS EN QUIMICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INVESTIGACION - SOCIOLOGOS, ANTROPOLOGOS E HISTORIADORES</masterLabel>
+            <translation><!-- INVESTIGACION - SOCIOLOGOS, ANTROPOLOGOS E HISTORIADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIMPIEZA - FUMIGADORES DE PLAGAS</masterLabel>
+            <translation><!-- LIMPIEZA - FUMIGADORES DE PLAGAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIMPIEZA - SERVICIOS DE CAMARISTAS Y ASEADORES</masterLabel>
+            <translation><!-- LIMPIEZA - SERVICIOS DE CAMARISTAS Y ASEADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIMPIEZA - TRABAJADORES DE TINTORERIA Y LAVANDERIA</masterLabel>
+            <translation><!-- LIMPIEZA - TRABAJADORES DE TINTORERIA Y LAVANDERIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MADERA, PAPEL, Y PIEL - TRABAJADORES EN LA FABRICACION DE MUEBLES O PRODUCTOS DE MADERA Y/O PIEL</masterLabel>
+            <translation><!-- MADERA, PAPEL, Y PIEL - TRABAJADORES EN LA FABRICACION DE MUEBLES O PRODUCTOS DE MADERA Y/O PIEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MECANICA - INGENIERO O MECANICOS INSTALADORES DE MAQUINARIA INDUSTRIAL</masterLabel>
+            <translation><!-- MECANICA - INGENIERO O MECANICOS INSTALADORES DE MAQUINARIA INDUSTRIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MECANICA - INGENIERO O TECNICO EN MECANICA DE VEHICULOS TERRESTRES, AEREOS Y ACUATICOS</masterLabel>
+            <translation><!-- MECANICA - INGENIERO O TECNICO EN MECANICA DE VEHICULOS TERRESTRES, AEREOS Y ACUATICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MECANICA - MECANICOS DE EQUIPO PESADO</masterLabel>
+            <translation><!-- MECANICA - MECANICOS DE EQUIPO PESADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>METALES - SUPERVISORES U OPERADORES DE PROCESAMIENTO Y FUNDICION DE METALES</masterLabel>
+            <translation><!-- METALES - SUPERVISORES U OPERADORES DE PROCESAMIENTO Y FUNDICION DE METALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINERALES NO METALICOS - OPERADORES DE MAQUINAS PROCESADORAS DE MINERALES NO METALICOS</masterLabel>
+            <translation><!-- MINERALES NO METALICOS - OPERADORES DE MAQUINAS PROCESADORAS DE MINERALES NO METALICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINERALES NO METALICOS - OPERADORES O TRABAJADORES DE VIDRIO Y CONCRETO</masterLabel>
+            <translation><!-- MINERALES NO METALICOS - OPERADORES O TRABAJADORES DE VIDRIO Y CONCRETO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINERIA, EXTRACCION Y SUMINISTRO - AYUDANTES EN LA PERFORACION DE POZOS DE PETROLEO Y GAS NATURAL</masterLabel>
+            <translation><!-- MINERIA, EXTRACCION Y SUMINISTRO - AYUDANTES EN LA PERFORACION DE POZOS DE PETROLEO Y GAS NATURAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINERIA, EXTRACCION Y SUMINISTRO - GERENTE, SUPERVISOR U OPERADORES DE  TRATAMIENTO Y POTABILIZACION, ABASTECIMIENTO Y RECOLECCION DE AGUA</masterLabel>
+            <translation><!-- MINERIA, EXTRACCION Y SUMINISTRO - GERENTE, SUPERVISOR U OPERADORES DE  TRATAMIENTO Y POTABILIZACION, ABASTECIMIENTO Y RECOLECCION DE AGUA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS PETROLEROS</masterLabel>
+            <translation><!-- MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS PETROLEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS, OPERADORES O AYUDANTES EN LA EXTRACCION Y REFINACION MINERA</masterLabel>
+            <translation><!-- MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS, OPERADORES O AYUDANTES EN LA EXTRACCION Y REFINACION MINERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE CENTRALES O SISTEMAS  DE ENERGIA ELECTRICAS</masterLabel>
+            <translation><!-- MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE CENTRALES O SISTEMAS  DE ENERGIA ELECTRICAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE MAQUINAS DE VAPOR</masterLabel>
+            <translation><!-- MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE MAQUINAS DE VAPOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINERIA, EXTRACCION Y SUMINISTRO - TECNICOS GEOLOGICOS Y DE MINERALES</masterLabel>
+            <translation><!-- MINERIA, EXTRACCION Y SUMINISTRO - TECNICOS GEOLOGICOS Y DE MINERALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO APLICA</masterLabel>
+            <translation><!-- NO APLICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES - EMPLEADOS DE ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</masterLabel>
+            <translation><!-- ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES - EMPLEADOS DE ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTRAS OCUPACIONES - AGENTE ADUANAL</masterLabel>
+            <translation><!-- OTRAS OCUPACIONES - AGENTE ADUANAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTRAS OCUPACIONES - AMA DE CASA O QUEHACERES DEL HOGAR</masterLabel>
+            <translation><!-- OTRAS OCUPACIONES - AMA DE CASA O QUEHACERES DEL HOGAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTRAS OCUPACIONES - DESEMPLEADO</masterLabel>
+            <translation><!-- OTRAS OCUPACIONES - DESEMPLEADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTRAS OCUPACIONES - ESTUDIANTE O MENOR DE EDAD SIN OCUPACION</masterLabel>
+            <translation><!-- OTRAS OCUPACIONES - ESTUDIANTE O MENOR DE EDAD SIN OCUPACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTRAS OCUPACIONES - JUBILADO O PENSIONADO</masterLabel>
+            <translation><!-- OTRAS OCUPACIONES - JUBILADO O PENSIONADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTRAS OCUPACIONES - MINISTROS DE CULTO RELIGIOSO (SACERDOTE, PASTOR, MONJA, ETC)</masterLabel>
+            <translation><!-- OTRAS OCUPACIONES - MINISTROS DE CULTO RELIGIOSO (SACERDOTE, PASTOR, MONJA, ETC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTRAS OCUPACIONES - PROPIETARIO, ACCIONISTA O SOCIO</masterLabel>
+            <translation><!-- OTRAS OCUPACIONES - PROPIETARIO, ACCIONISTA O SOCIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PESCA Y ACUACULTURA - PESCADORES Y TRABAJADORES EN LA CRIA Y CULTIVO DE ESPECIES MARINAS</masterLabel>
+            <translation><!-- PESCA Y ACUACULTURA - PESCADORES Y TRABAJADORES EN LA CRIA Y CULTIVO DE ESPECIES MARINAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROCESOS INDUSTRIALES - INGENIERO O TECNICOS INDUSTRIAL Y DE PRODUCCION</masterLabel>
+            <translation><!-- PROCESOS INDUSTRIALES - INGENIERO O TECNICOS INDUSTRIAL Y DE PRODUCCION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROCESOS INDUSTRIALES - INGENIEROS METALURGICOS Y DE MATERIALES</masterLabel>
+            <translation><!-- PROCESOS INDUSTRIALES - INGENIEROS METALURGICOS Y DE MATERIALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTOS ELECTRICOS Y ELECTRONICOS - TRABAJADORES EN LA FABRICACION DE PRODUCTOS ELECTRICOS Y ELECTRONICOS</masterLabel>
+            <translation><!-- PRODUCTOS ELECTRICOS Y ELECTRONICOS - TRABAJADORES EN LA FABRICACION DE PRODUCTOS ELECTRICOS Y ELECTRONICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTOS IMPRESOS - TRABAJADORES EN LA ELABORACION DE PRODUCTOS IMPRESOS</masterLabel>
+            <translation><!-- PRODUCTOS IMPRESOS - TRABAJADORES EN LA ELABORACION DE PRODUCTOS IMPRESOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - ENSAMBLADORES Y ACABADORES DE PRODUCTOS DE PLASTICO</masterLabel>
+            <translation><!-- PRODUCTOS METALICOS Y DE HULE Y PLASTICO - ENSAMBLADORES Y ACABADORES DE PRODUCTOS DE PLASTICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - FABRICANTES DE HERRAMIENTAS Y TROQUELES</masterLabel>
+            <translation><!-- PRODUCTOS METALICOS Y DE HULE Y PLASTICO - FABRICANTES DE HERRAMIENTAS Y TROQUELES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - HERREROS Y FORJADORES</masterLabel>
+            <translation><!-- PRODUCTOS METALICOS Y DE HULE Y PLASTICO - HERREROS Y FORJADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - JOYEROS Y ORFEBRES</masterLabel>
+            <translation><!-- PRODUCTOS METALICOS Y DE HULE Y PLASTICO - JOYEROS Y ORFEBRES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SOLDADORES Y OXICORTADORES</masterLabel>
+            <translation><!-- PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SOLDADORES Y OXICORTADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SUPERVISORES EN LA FABRICACION Y MONTAJE DE ARTICULOS DEPORTIVOS, DE JUGUETES Y SIMILARES</masterLabel>
+            <translation><!-- PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SUPERVISORES EN LA FABRICACION Y MONTAJE DE ARTICULOS DEPORTIVOS, DE JUGUETES Y SIMILARES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES  EN LA FABRICACION DE PRODUCTOS METALICOS, DE HULE Y PLASTICOS</masterLabel>
+            <translation><!-- PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES  EN LA FABRICACION DE PRODUCTOS METALICOS, DE HULE Y PLASTICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES EN EL ENSAMBLADO DE VEHICULOS, MOLDEADO, LAMINADO Y MONTAJE DE PIEZAS METALICAS, HULE O PLASTICO</masterLabel>
+            <translation><!-- PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES EN EL ENSAMBLADO DE VEHICULOS, MOLDEADO, LAMINADO Y MONTAJE DE PIEZAS METALICAS, HULE O PLASTICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTOS QUIMICOS - TRABAJADORES EN EL PROCESAMIENTO Y FABRICACION DE PRODUCTOS QUIMICOS Y FARMACOQUIMICAS</masterLabel>
+            <translation><!-- PRODUCTOS QUIMICOS - TRABAJADORES EN EL PROCESAMIENTO Y FABRICACION DE PRODUCTOS QUIMICOS Y FARMACOQUIMICAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROTECCION DE BIENES Y/O PERSONAS - BOMBEROS</masterLabel>
+            <translation><!-- PROTECCION DE BIENES Y/O PERSONAS - BOMBEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROTECCION DE BIENES Y/O PERSONAS - DETECTIVES PRIVADOS</masterLabel>
+            <translation><!-- PROTECCION DE BIENES Y/O PERSONAS - DETECTIVES PRIVADOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROTECCION DE BIENES Y/O PERSONAS - GUARDIAS DE SEGURIDAD</masterLabel>
+            <translation><!-- PROTECCION DE BIENES Y/O PERSONAS - GUARDIAS DE SEGURIDAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - DIRECTORES, GERENTES Y EMPLEADOS DE PUBLICIDAD</masterLabel>
+            <translation><!-- PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - DIRECTORES, GERENTES Y EMPLEADOS DE PUBLICIDAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - MODELOS Y EDECANES</masterLabel>
+            <translation><!-- PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - MODELOS Y EDECANES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RADIO, CINE, TELEVISION Y TEATRO - ASISTENTES Y/U OPERADORES DE PRODUCCION DE CINE, RADIO Y TELEVISION</masterLabel>
+            <translation><!-- RADIO, CINE, TELEVISION Y TEATRO - ASISTENTES Y/U OPERADORES DE PRODUCCION DE CINE, RADIO Y TELEVISION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RADIO, CINE, TELEVISION Y TEATRO - DISEÑADORES GRAFICOS</masterLabel>
+            <translation><!-- RADIO, CINE, TELEVISION Y TEATRO - DISEÑADORES GRAFICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RADIO, CINE, TELEVISION Y TEATRO - EDITORES, PERIODISTAS, REPORTEROS Y REDACTORES</masterLabel>
+            <translation><!-- RADIO, CINE, TELEVISION Y TEATRO - EDITORES, PERIODISTAS, REPORTEROS Y REDACTORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RADIO, CINE, TELEVISION Y TEATRO - LOCUTORES, COMENTARISTAS Y CRONISTAS DE RADIO Y TELEVISION</masterLabel>
+            <translation><!-- RADIO, CINE, TELEVISION Y TEATRO - LOCUTORES, COMENTARISTAS Y CRONISTAS DE RADIO Y TELEVISION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RADIO, CINE, TELEVISION Y TEATRO - PRODUCTORES Y DIRECTORES DE CINE, TELEVISION Y TEATRO</masterLabel>
+            <translation><!-- RADIO, CINE, TELEVISION Y TEATRO - PRODUCTORES Y DIRECTORES DE CINE, TELEVISION Y TEATRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - CERRAJEROS</masterLabel>
+            <translation><!-- REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - CERRAJEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - RELOJEROS Y REPARADORES DE RELOJES</masterLabel>
+            <translation><!-- REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - RELOJEROS Y REPARADORES DE RELOJES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE APARATOS ELECTRICOS</masterLabel>
+            <translation><!-- REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE APARATOS ELECTRICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE ARTICULOS DE HULE</masterLabel>
+            <translation><!-- REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE ARTICULOS DE HULE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SECTOR PUBLICO - EJERCITO, ARMADA Y FUERZA AEREA</masterLabel>
+            <translation><!-- SECTOR PUBLICO - EJERCITO, ARMADA Y FUERZA AEREA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO FEDERAL</masterLabel>
+            <translation><!-- SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO MUNICIPAL O DELEGACIONAL</masterLabel>
+            <translation><!-- SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO MUNICIPAL O DELEGACIONAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL ESTATAL O DEL DISTRITO FEDERAL</masterLabel>
+            <translation><!-- SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL ESTATAL O DEL DISTRITO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL FEDERAL</masterLabel>
+            <translation><!-- SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO ESTATAL O DEL DISTRITO FEDERAL</masterLabel>
+            <translation><!-- SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO ESTATAL O DEL DISTRITO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO FEDERAL</masterLabel>
+            <translation><!-- SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SECTOR PUBLICO - EMPLEADO PODER EJECUTIVO ESTATAL O DEL DISTRITO FEDERAL</masterLabel>
+            <translation><!-- SECTOR PUBLICO - EMPLEADO PODER EJECUTIVO ESTATAL O DEL DISTRITO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEGURIDAD SOCIAL - CONSEJEROS DE EMPLEO</masterLabel>
+            <translation><!-- SEGURIDAD SOCIAL - CONSEJEROS DE EMPLEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEGURIDAD SOCIAL - TRABAJADORES DE SERVICIO SOCIAL Y DE LA COMUNIDAD</masterLabel>
+            <translation><!-- SEGURIDAD SOCIAL - TRABAJADORES DE SERVICIO SOCIAL Y DE LA COMUNIDAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIO POSTAL Y MENSAJERIA - EMPLEADOS DE SERVICIOS DE MENSAJERIA</masterLabel>
+            <translation><!-- SERVICIO POSTAL Y MENSAJERIA - EMPLEADOS DE SERVICIOS DE MENSAJERIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIOS LEGALES - ABOGADOS Y ASESORES LEGALES</masterLabel>
+            <translation><!-- SERVICIOS LEGALES - ABOGADOS Y ASESORES LEGALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIOS LEGALES - NOTARIOS Y CORREDORES PUBLICOS</masterLabel>
+            <translation><!-- SERVICIOS LEGALES - NOTARIOS Y CORREDORES PUBLICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIOS MEDICOS - DIETISTAS Y NUTRIOLOGOS</masterLabel>
+            <translation><!-- SERVICIOS MEDICOS - DIETISTAS Y NUTRIOLOGOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIOS MEDICOS - DIRECTORES DE INSTITUCIONES EN EL CUIDADO DE LA SALUD</masterLabel>
+            <translation><!-- SERVICIOS MEDICOS - DIRECTORES DE INSTITUCIONES EN EL CUIDADO DE LA SALUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIOS MEDICOS - ENFERMERAS Y/O PARAMEDICOS</masterLabel>
+            <translation><!-- SERVICIOS MEDICOS - ENFERMERAS Y/O PARAMEDICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIOS MEDICOS - FARMACEUTICOS</masterLabel>
+            <translation><!-- SERVICIOS MEDICOS - FARMACEUTICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIOS MEDICOS - FISIOTERAPEUTAS Y QUIROPRACTICOS</masterLabel>
+            <translation><!-- SERVICIOS MEDICOS - FISIOTERAPEUTAS Y QUIROPRACTICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIOS MEDICOS - MEDICOS ESPECIALISTAS</masterLabel>
+            <translation><!-- SERVICIOS MEDICOS - MEDICOS ESPECIALISTAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIOS MEDICOS - MEDICOS GENERALES Y FAMILIARES</masterLabel>
+            <translation><!-- SERVICIOS MEDICOS - MEDICOS GENERALES Y FAMILIARES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIOS MEDICOS - TECNICOS DE LABORATORIO MEDICO</masterLabel>
+            <translation><!-- SERVICIOS MEDICOS - TECNICOS DE LABORATORIO MEDICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIOS PERSONALES - ESTILISTAS, ESTETICISTAS Y MASAJISTAS</masterLabel>
+            <translation><!-- SERVICIOS PERSONALES - ESTILISTAS, ESTETICISTAS Y MASAJISTAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICIOS PERSONALES - TRBAJADORES DE SERVICIOS FUNERARIOS O CEMENTERIOS</masterLabel>
+            <translation><!-- SERVICIOS PERSONALES - TRBAJADORES DE SERVICIOS FUNERARIOS O CEMENTERIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TELECOMUNICACIONES - INGENIERO, INSTALADORES Y REPARADORES DE EQUIPOS Y ACCESORIOS DE TELECOMUNICACIONES</masterLabel>
+            <translation><!-- TELECOMUNICACIONES - INGENIERO, INSTALADORES Y REPARADORES DE EQUIPOS Y ACCESORIOS DE TELECOMUNICACIONES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TELECOMUNICACIONES - TELEGRAFISTAS Y RADIO-OPERADORES</masterLabel>
+            <translation><!-- TELECOMUNICACIONES - TELEGRAFISTAS Y RADIO-OPERADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES DE REPARACION DE PRENDAS DE VESTIR Y CALZADO</masterLabel>
+            <translation><!-- TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES DE REPARACION DE PRENDAS DE VESTIR Y CALZADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES EN LA PRODUCCION DE TEXTILES, PRENDAS DE VESTIR Y CALZADO</masterLabel>
+            <translation><!-- TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES EN LA PRODUCCION DE TEXTILES, PRENDAS DE VESTIR Y CALZADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRADUCCION E INTERPRETACION LINGüISTICA - INTERPRETES Y/O TRADUCTORES</masterLabel>
+            <translation><!-- TRADUCCION E INTERPRETACION LINGüISTICA - INTERPRETES Y/O TRADUCTORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSPORTE AEREO - COORDINADORES Y SUPERVISORES EN SERVICIOS DE TRANSPORTE AEREO</masterLabel>
+            <translation><!-- TRANSPORTE AEREO - COORDINADORES Y SUPERVISORES EN SERVICIOS DE TRANSPORTE AEREO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSPORTE AEREO - DESPACHADORES DE VUELO Y ESPECIALISTAS EN SERVICIOS AEREOS</masterLabel>
+            <translation><!-- TRANSPORTE AEREO - DESPACHADORES DE VUELO Y ESPECIALISTAS EN SERVICIOS AEREOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSPORTE AEREO - PILOTOS DE AVIACION E INSTRUCTORES DE VUELO</masterLabel>
+            <translation><!-- TRANSPORTE AEREO - PILOTOS DE AVIACION E INSTRUCTORES DE VUELO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSPORTE AEREO - SOBRECARGOS</masterLabel>
+            <translation><!-- TRANSPORTE AEREO - SOBRECARGOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSPORTE AEREO - SUPERVISORES DE SISTEMAS DE COMUNICACION PARA LA AERONAVEGACION</masterLabel>
+            <translation><!-- TRANSPORTE AEREO - SUPERVISORES DE SISTEMAS DE COMUNICACION PARA LA AERONAVEGACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSPORTE FERROVIARIO - CONDUCTORES Y OPERADORES DE TREN SUBTERRANEO Y DE TREN LIGERO</masterLabel>
+            <translation><!-- TRANSPORTE FERROVIARIO - CONDUCTORES Y OPERADORES DE TREN SUBTERRANEO Y DE TREN LIGERO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSPORTE FERROVIARIO - TRABAJADORES DE FERROCARRILES</masterLabel>
+            <translation><!-- TRANSPORTE FERROVIARIO - TRABAJADORES DE FERROCARRILES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSPORTE MARITIMO Y FLUVIAL - CONDUCTORES DE EMBARCACIONES</masterLabel>
+            <translation><!-- TRANSPORTE MARITIMO Y FLUVIAL - CONDUCTORES DE EMBARCACIONES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSPORTE MARITIMO Y FLUVIAL - JEFES Y CONTROLADORES DE TRAFICO MARITIMO</masterLabel>
+            <translation><!-- TRANSPORTE MARITIMO Y FLUVIAL - JEFES Y CONTROLADORES DE TRAFICO MARITIMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSPORTE MARITIMO Y FLUVIAL - PILOTOS, CAPITANES DE PUERTOS Y OFICIALES DE CUBIERTA</masterLabel>
+            <translation><!-- TRANSPORTE MARITIMO Y FLUVIAL - PILOTOS, CAPITANES DE PUERTOS Y OFICIALES DE CUBIERTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSPORTE TERRESTRE - CONDUCTORES DE VEHICULOS DE TRANSPORTE, SERVICIOS DE CARGA Y/O REPARTO</masterLabel>
+            <translation><!-- TRANSPORTE TERRESTRE - CONDUCTORES DE VEHICULOS DE TRANSPORTE, SERVICIOS DE CARGA Y/O REPARTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TURISMO - COORDINADORES DE OPERACIONES EN AGENCIAS DE VIAJES</masterLabel>
+            <translation><!-- TURISMO - COORDINADORES DE OPERACIONES EN AGENCIAS DE VIAJES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TURISMO - GUIAS DE EXCURSIONES O ECOTURISTICO</masterLabel>
+            <translation><!-- TURISMO - GUIAS DE EXCURSIONES O ECOTURISTICO --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

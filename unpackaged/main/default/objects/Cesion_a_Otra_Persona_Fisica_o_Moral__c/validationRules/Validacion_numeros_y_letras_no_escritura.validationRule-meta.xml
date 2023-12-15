@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_numeros_y_letras_no_escritura</fullName>
+    <active>false</active>
+    <description>Sólo se aceptan números y letras en el campo no. escritura.</description>
+    <errorConditionFormula>NOT(
+OR(
+REGEX(No_Escritura__c, &quot;(\\D)+(\\d)+&quot;),
+REGEX(No_Escritura__c,&quot;[^%$#@&amp;!*()^+_-]&quot;),
+REGEX(No_Escritura__c,&quot;[^=,&lt;.&gt;/?~`]&quot;)
+)
+)</errorConditionFormula>
+    <errorDisplayField>No_Escritura__c</errorDisplayField>
+    <errorMessage>Sólo se aceptan números y letras en el campo no. escritura.</errorMessage>
+</ValidationRule>

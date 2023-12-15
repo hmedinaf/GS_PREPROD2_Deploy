@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Tramite__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Trámite</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Producto_financiero__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CONYUGAL</fullName>
+                <default>false</default>
+                <label>CONYUGAL</label>
+            </value>
+            <value>
+                <fullName>INDIVIDUAL</fullName>
+                <default>false</default>
+                <label>INDIVIDUAL</label>
+            </value>
+            <value>
+                <fullName>UNAMOS CRÉDITOS</fullName>
+                <default>false</default>
+                <label>UNAMOS CRÉDITOS</label>
+            </value>
+            <value>
+                <fullName>FOVISSSTE PARA TODOS</fullName>
+                <default>false</default>
+                <label>FOVISSSTE PARA TODOS</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>CFE</controllingFieldValue>
+            <controllingFieldValue>FHSSTE</controllingFieldValue>
+            <controllingFieldValue>IMSS</controllingFieldValue>
+            <controllingFieldValue>ISSSSPEA</controllingFieldValue>
+            <controllingFieldValue>PEMEX</controllingFieldValue>
+            <controllingFieldValue>SOFOL</controllingFieldValue>
+            <controllingFieldValue>SOFOL C/SUBSIDIO</controllingFieldValue>
+            <controllingFieldValue>COFIFOVISSSTE</controllingFieldValue>
+            <controllingFieldValue>CON SUBSIDIO 2.6 VSM</controllingFieldValue>
+            <controllingFieldValue>CON SUBSIDIO 5 VSM</controllingFieldValue>
+            <controllingFieldValue>FOVISSSTE</controllingFieldValue>
+            <controllingFieldValue>INFONAVIT-FOVISSSTE</controllingFieldValue>
+            <controllingFieldValue>PENSIONA2</controllingFieldValue>
+            <controllingFieldValue>BAJOS INGRESOS</controllingFieldValue>
+            <controllingFieldValue>BAJOS INGRESOS C/SUBSIDIO 2.6</controllingFieldValue>
+            <controllingFieldValue>BAJOS INGRESOS C/SUBSIDIO 5 VS</controllingFieldValue>
+            <controllingFieldValue>BANJERCITO</controllingFieldValue>
+            <controllingFieldValue>BANJERCITO C/SUBSIDIO</controllingFieldValue>
+            <controllingFieldValue>BANSEFI</controllingFieldValue>
+            <controllingFieldValue>COFI INGRESOS ADICIONALES</controllingFieldValue>
+            <controllingFieldValue>COFINAVIT</controllingFieldValue>
+            <controllingFieldValue>CONTADO</controllingFieldValue>
+            <controllingFieldValue>FONDO DE GARANTIA</controllingFieldValue>
+            <controllingFieldValue>ALIA2</controllingFieldValue>
+            <controllingFieldValue>BANSEFI C/SUBSIDIO 2.6 VSM</controllingFieldValue>
+            <controllingFieldValue>BANSEFI C/SUBSIDIO 5 VSM</controllingFieldValue>
+            <controllingFieldValue>CON BANSEFI</controllingFieldValue>
+            <controllingFieldValue>ECONOMICO</controllingFieldValue>
+            <controllingFieldValue>ECONOMICO C/SUBSIDIO 2.6 VSM</controllingFieldValue>
+            <controllingFieldValue>ECONOMICO C/SUBSIDIO 5 VSM</controllingFieldValue>
+            <controllingFieldValue>ROC</controllingFieldValue>
+            <controllingFieldValue>SEGUNDO CREDITO</controllingFieldValue>
+            <controllingFieldValue>SUBSIDIO IVSOP</controllingFieldValue>
+            <controllingFieldValue>TOTAL</controllingFieldValue>
+            <controllingFieldValue>TRADICIONAL</controllingFieldValue>
+            <controllingFieldValue>ISSFAM</controllingFieldValue>
+            <controllingFieldValue>ISSSTELEON</controllingFieldValue>
+            <controllingFieldValue>PENSIONES DEL ESTADO</controllingFieldValue>
+            <controllingFieldValue>AUTOFIN CASA</controllingFieldValue>
+            <controllingFieldValue>BANCARIO</controllingFieldValue>
+            <controllingFieldValue>CAJA FLORENCIO ROSAS</controllingFieldValue>
+            <controllingFieldValue>CAJA POPULAR MEXICANA</controllingFieldValue>
+            <controllingFieldValue>CAJA POPULAR SAN PABLO</controllingFieldValue>
+            <controllingFieldValue>CAPREPOL</controllingFieldValue>
+            <valueName>INDIVIDUAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOVISSSTE PARA TODOS</controllingFieldValue>
+            <valueName>FOVISSSTE PARA TODOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COFINAVIT CONYUGAL</controllingFieldValue>
+            <controllingFieldValue>CONYUGAL</controllingFieldValue>
+            <controllingFieldValue>CONYUGAL C/SUBSIDIO 2.6 VSM</controllingFieldValue>
+            <controllingFieldValue>CONYUGAL C/SUBSIDIO 5 VSM</controllingFieldValue>
+            <valueName>CONYUGAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UNAMOS CREDITOS</controllingFieldValue>
+            <valueName>UNAMOS CRÉDITOS</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

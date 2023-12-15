@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- El Registro Esta Totalmente Aprobado --></label>
+        <name>El_Registro_Esta_Totalmente_Aprobado__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cobranza_Postventa__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Cobranza Postventa</label>
+    <referenceTo>Cobranza_Postventa__c</referenceTo>
+    <relationshipLabel>Otras Relaciones Cobranza Comercial</relationshipLabel>
+    <relationshipName>Otras_Relaciones_Cobranza_Comercial</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

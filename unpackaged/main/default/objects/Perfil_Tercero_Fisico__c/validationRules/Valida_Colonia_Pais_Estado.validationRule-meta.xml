@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Colonia_Pais_Estado</fullName>
+    <active>false</active>
+    <description>No se puede modificar el campo Colonia, País o Estado si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado.</description>
+    <errorConditionFormula>AND(
+OR(ISCHANGED(Colonia__c),ISCHANGED(PaisTercero__c),ISCHANGED(EstadoTercero_del__c))
+,
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Validación&#39;),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Reservado&#39;),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Formalizado&#39;)
+)</errorConditionFormula>
+    <errorMessage>No se puede modificar el campo Colonia, País o Estado si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado.</errorMessage>
+</ValidationRule>

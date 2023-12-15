@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Cambio_Fraccionamiento</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(Fraccionamiento__c) &amp;&amp; ISBLANK(Motivo_cambio_reubicacion__c)</errorConditionFormula>
+    <errorMessage>Favor de poner motivo de cambio de reubicación</errorMessage>
+</ValidationRule>

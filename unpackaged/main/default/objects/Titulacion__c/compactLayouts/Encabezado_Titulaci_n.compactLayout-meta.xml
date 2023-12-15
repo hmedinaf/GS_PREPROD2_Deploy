@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Encabezado_Titulaci_n</fullName>
+    <fields>Name</fields>
+    <fields>Proceso_de_Venta__c</fields>
+    <fields>Nombre_Completo__c</fields>
+    <fields>Fraccionamiento__c</fields>
+    <fields>Prototipo__c</fields>
+    <fields>Estatus_del_Proceso_de_Venta__c</fields>
+    <fields>Sub_Estatus_del_Proceso__c</fields>
+    <label>Encabezado Titulación</label>
+</CompactLayout>

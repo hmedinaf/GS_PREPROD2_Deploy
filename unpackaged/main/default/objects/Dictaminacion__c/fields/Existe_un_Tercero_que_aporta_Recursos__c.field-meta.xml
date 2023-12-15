@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Existe_un_Tercero_que_aporta_Recursos__c</fullName>
+    <description>¿Existe un Tercero que aporta Recursos Total o Parcial?</description>
+    <externalId>false</externalId>
+    <label>¿Existe un Tercero que aporta Recursos?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Es_usted_el_Titular_de_Recursos__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SI</fullName>
+                <default>false</default>
+                <label>SI</label>
+            </value>
+            <value>
+                <fullName>NO</fullName>
+                <default>false</default>
+                <label>NO</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>NO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>SI</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Co Acreditado</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Co Acreditados</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Co Acreditado</layout>
+        <sections>
+            <label><!-- Datos fiscales --></label>
+            <section>Datos fiscales</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Monitor --></label>
+        <name>Monitor</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dirección Laboral Co Acreditado --></label>
+        <name>Nueva_Direcci_n_Laboral_Co_Acreditado</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dirección Principal Co Acreditado --></label>
+        <name>Nueva_Direccion_Principal_Co_Acreditado</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- El Proceso de Venta se encuentra Cancelado, No es posible cambiar los Datos de Nombre y Sexo. --></errorMessage>
+        <name>Cancelled_Status_Cannot_Edit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Por favor ingresar unicamente letras para Nombres y Apellidos --></errorMessage>
+        <name>Nombre_Only_Accept_Letters</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede crear por ser menor de edad. --></errorMessage>
+        <name>Valida_mayoria_de_edad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo apellido materno si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_apellido_materno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo apellido paterno si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_apellido_paterno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo correo electrónico si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_correo_electronico</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo empresa si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo fecha de nacimiento si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_fecha_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo ingreso mensual si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_ingresos_mensuales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo nacionalidad si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_nacionalidad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo nombre si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_nombre</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo registro patronal si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_registro_patronal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo RFC si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_rfc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo teléfono trabajo si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_telefono_trabajo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Validacion_telefono_co_acreditado</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,65 @@
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  font-color: white !important;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} 
+.button2 {background-color: red;} 
+</style>
+</head>
+<div style="width:100%;font-family:arial;">
+   <img src="https://javer--preprod.sandbox.my.salesforce.com/servlet/servlet.ImageServer?id=01523000001ZUVX&oid=00D2300000092X5" />
+
+<p style="margin-top:20px;font-size:12pt; ">Para el proceso "{!Plan_de_Venta__c.Name}", Se solicita su revisión y es su caso, la aprobación correspondiente:</p>
+<div style="margin-top:20px;font-size:11pt">
+<p style="margin:0;">Solicitante: {!ApprovalRequest.Process_Approver}</p>
+<p style="margin:0;">Cliente: {!Plan_de_Venta__c.Nombre_del_Cliente__c}</p>
+<p style="margin:0;">Fraccionamiento: {!Plan_de_Venta__c.Fraccionamiento__c}</p>
+<p style="margin:0;">Prototipo:  {!Plan_de_Venta__c.Prototipo__c}</p>
+<p style="margin:0;">Proceso de Venta: {!Plan_de_Venta__c.Oportunidad__c}</p>
+<p style="margin:0;">Fecha de Reserva: {!Plan_de_Venta__c.Fecha_Reserva__c}</p>
+<p style="margin:0;">Tipo de Crédito: {!Plan_de_Venta__c.Tipo_de_Credito_Formula__c}</p>
+<p style="margin:0;">Producto Financiero: {!Plan_de_Venta__c.Producto_Financiero__c}</p>
+<p style="margin:0;">Valor Operación: {!Plan_de_Venta__c.Valor_de_Operacion__c}</p>
+<p style="margin:0;">Ingreso Neto: </p>
+<p style="margin:0;">Precio Mínimo Autorizado:</p>
+<p style="margin:0;">Precio Presupuesto:</p>
+<p style="margin:0;">Precio Mínimo Autorizado:</p>
+<p style="margin:0;">Precio Unitario:{!Plan_de_Venta__c.Precio_Unitario__c}</p>
+<p style="margin:0;">Precio Promoción de Venta: {!Plan_de_Venta__c.Promocion_de_Precio__c}</p>
+<p style="margin:0;">Tipo de Precio Mínimo de Venta: {!Plan_de_Venta__c.Precio_Minimo_de_Venta__c}</p>
+<p style="margin:0;">Variación Precio Presupuesto: </p>
+<p style="margin:0;">Variación Precio Mínimo Autorizado:</p>
+<p style="margin:0;">Variación Precio Unitario:</p>
+<p style="margin:0;">Variación Precio Promoción:</p>
+<p><i>PAQUETES Y/O PROMOCIONES DE VENTA:</i></p>
+
+<p style="margin:0;">Producto </p>
+<p style="margin:0;">Tipo {!Plan_de_Venta__c.Tipo__c}</p>
+<p style="margin:0;">Total </p>
+<p><i>CONDICIONES ESPECIALES DE LA VIVIENDA:<p><i>
+
+P<p style="margin:0;">Precio Total mts2 excedentes </p>
+<p style="margin:0;">Mts2 excedentes {!Plan_de_Venta__c.M2_Excedentes__c}</p>		
+
+
+<p style="font-size:12pt">Selecciona tu respuesta utilizando los botones: :</p>
+<p style="font-size:12pt">  </p>
+
+</div>
+<div style="margin-top:20px;">
+    <a class="button button1" style="color:white;border-radius:5px;" href="https://javer--preprod.sandbox.my.salesforce-sites.com/public/apex/ApproveRequestHandler?id={!Plan_de_Venta__c.Id}&action=approve" target="_blank">Aprobar</a>
+<a class="button button2" style="color:white;border-radius:5px;" href="https://javer--preprod.sandbox.my.salesforce-sites.com/public/apex/ApproveRequestHandler?id={!Plan_de_Venta__c.Id}&action=reject" target="_blank">Rechazar</a>
+</div>
+</div>
+</html>

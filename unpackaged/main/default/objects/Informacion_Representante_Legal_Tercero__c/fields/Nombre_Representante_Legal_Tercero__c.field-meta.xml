@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nombre_Representante_Legal_Tercero__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;/lightning/r/Informacion_Representante_Legal_Tercero__c/&quot;&amp; Id &amp; &quot;/view&quot;,
+										     Name &amp; &quot; &quot; &amp;   Apellido_paterno__c &amp; &quot; &quot; &amp; Apellido_materno__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Nombre Representante Legal Tercero</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

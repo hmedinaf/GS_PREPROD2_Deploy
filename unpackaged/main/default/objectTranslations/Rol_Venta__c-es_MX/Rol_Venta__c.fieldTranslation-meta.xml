@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Rol de Venta --></label>
+        <name>Rol_Venta__c</name>
+        <picklistValues>
+            <masterLabel>Asesor</masterLabel>
+            <translation><!-- Asesor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colaborador Javer</masterLabel>
+            <translation><!-- Colaborador Javer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Profiler</masterLabel>
+            <translation><!-- Lead Profiler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospectador</masterLabel>
+            <translation><!-- Prospectador --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

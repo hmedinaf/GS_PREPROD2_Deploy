@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nombre_Only_Accept_Letters</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(REGEX( Nombre__c  ,&quot;^[a-z  A-Z ñ Ñ]*$&quot;)) || 
+
+NOT(REGEX( Apellido_Materno_CO_Acreditado__c  ,&quot;^[a-z  A-Z ñ Ñ]*$&quot;)) || 
+
+NOT(REGEX( Apellido_Paterno_CO_Acreditado__c  ,&quot;^[a-z  A-Z ñ Ñ]*$&quot;))</errorConditionFormula>
+    <errorMessage>Por favor ingresar unicamente letras para Nombres y Apellidos</errorMessage>
+</ValidationRule>

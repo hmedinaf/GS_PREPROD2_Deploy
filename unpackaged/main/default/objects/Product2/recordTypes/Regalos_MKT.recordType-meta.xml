@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regalos_MKT</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Cintilla_Superior</compactLayoutAssignment>
+    <label>Regalos MKT</label>
+    <picklistValues>
+        <picklist>Family</picklist>
+        <values>
+            <fullName>Promoción de Venta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promoción en Especie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regalos MKT</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plaza__c</picklist>
+        <values>
+            <fullName>Aguascalientes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distrito Federal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estado de Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guanajuato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jalisco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuevo Leon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queretaro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quintana Roo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Luis Potosi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tamaulipas</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QuantityUnitOfMeasure</picklist>
+        <values>
+            <fullName>Cada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Producto__c</picklist>
+        <values>
+            <fullName>Regalo de Marketing</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

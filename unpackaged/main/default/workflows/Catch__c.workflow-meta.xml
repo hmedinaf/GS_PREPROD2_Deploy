@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Aviso_de_creacion_de_nuevo_registro_de_Catch</fullName>
+        <ccEmails>procesosticomercial@javer.com.mx</ccEmails>
+        <description>Aviso de creacion de nuevo registro de Catch</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@javer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Excepcion_Creada</template>
+    </alerts>
+    <alerts>
+        <fullName>Aviso_de_creacion_de_nuevo_registro_de_Catch_SharePoint</fullName>
+        <ccEmails>procesosticomercial@javer.com.mx</ccEmails>
+        <ccEmails>rmaldonado@javer.com.mx</ccEmails>
+        <ccEmails>jescandon@javer.com.mx</ccEmails>
+        <description>Aviso de creacion de nuevo registro de Catch SharePoint</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@javer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Excepcion_Creada</template>
+    </alerts>
+    <rules>
+        <fullName>Nuevo registro Catch</fullName>
+        <actions>
+            <name>Aviso_de_creacion_de_nuevo_registro_de_Catch</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+        <criteriaItems>
+            <field>Catch__c.Name</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Catch__c.StackTrace__c</field>
+            <operation>contains</operation>
+            <value>Javer_Util</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Catch__c.Causa__c</field>
+            <operation>contains</operation>
+            <value>no es valido como aprobador</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Catch__c.Causa__c</field>
+            <operation>contains</operation>
+            <value>El XML no tiene encabezado</value>
+        </criteriaItems>
+        <description>Se activa al crearse un nuevo registro.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Nuevo registro Catch SharePoint</fullName>
+        <actions>
+            <name>Aviso_de_creacion_de_nuevo_registro_de_Catch_SharePoint</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Catch__c.Name</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Catch__c.StackTrace__c</field>
+            <operation>contains</operation>
+            <value>ShPn</value>
+        </criteriaItems>
+        <description>Se activa al crearse un nuevo registro catch generado por archivos de SharePoint.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

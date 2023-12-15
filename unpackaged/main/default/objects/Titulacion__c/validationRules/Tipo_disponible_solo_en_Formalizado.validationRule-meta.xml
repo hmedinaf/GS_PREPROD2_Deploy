@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_disponible_solo_en_Formalizado</fullName>
+    <active>true</active>
+    <description>Solo se puede modificar este campo en el estado &quot;Formalizado&quot;</description>
+    <errorConditionFormula>AND(isChanged(  Tipo__c ), NOT(ISPICKVAL(Estatus_Proceso__c , &#39;Formalizado&#39;)))</errorConditionFormula>
+    <errorDisplayField>Tipo__c</errorDisplayField>
+    <errorMessage>Solo se puede modificar este campo en el estado &quot;Formalizado&quot;</errorMessage>
+</ValidationRule>

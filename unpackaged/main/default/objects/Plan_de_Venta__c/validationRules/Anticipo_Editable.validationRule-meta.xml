@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Anticipo_Editable</fullName>
+    <active>true</active>
+    <description>El campo de Anticipo solo es editable en el estatus: Reservado.</description>
+    <errorConditionFormula>OR(NOT(Estatus_Proceso_de_Venta__c=&#39;Reservado&#39;) &amp;&amp;
+ISCHANGED( Anticipo__c),
+ISCHANGED( Anticipo__c ) &amp;&amp;
+(
+TEXT(Estatus_Plan_de_venta__c) = &#39;Por Aprobar&#39; ||
+TEXT(Estatus_Plan_de_venta__c) = &#39;Aprobado&#39;
+)
+)</errorConditionFormula>
+    <errorDisplayField>Anticipo__c</errorDisplayField>
+    <errorMessage>El campo de Anticipo solo es editable en el estatus: Reservado.</errorMessage>
+</ValidationRule>

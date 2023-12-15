@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Titular_no_identificacion</fullName>
+    <active>true</active>
+    <description>Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo.</description>
+    <errorConditionFormula>AND
+(
+Es_usted_el_titular_de_recursos__c == &quot;NO&quot;,
+OR(
+ISNULL(No_Identificacion__c),
+ISBLANK(No_Identificacion__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>No_Identificacion__c</errorDisplayField>
+    <errorMessage>No. Identificación requerido</errorMessage>
+</ValidationRule>

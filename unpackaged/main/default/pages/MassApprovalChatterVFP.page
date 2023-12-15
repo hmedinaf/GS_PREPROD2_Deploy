@@ -1,0 +1,21 @@
+<!--******* Author : Ajay Choudhary (ajay@wakencode.com, Wakencode Technologies)******
+ ******* Last Updated Date : 17th August 2023 ****************************************
+ ******* Info : Vf page to include MassApprovalChatter component to show chatter in LWCMassApproval component 
+ ******* Update 1 : ________________________________________ *************************
+ ************************************************************************************* -->
+<apex:page showHeader="false" sidebar="false">
+    <apex:includeLightning />
+    <apex:slds />
+    <div  id="compContainer" />
+    <script>
+    $Lightning.use("c:MassApprovalChatterApp", function() {
+        $Lightning.createComponent("c:MassApprovalChatter",
+                                   {recordId:'{!$CurrentPage.parameters.id}'},
+                                   "compContainer",
+                                   function(cmp) {
+                                       console.log("c:VFPageApp loaded successfully in VF page");
+                                   }
+                                  );
+    });
+    </script>
+</apex:page>

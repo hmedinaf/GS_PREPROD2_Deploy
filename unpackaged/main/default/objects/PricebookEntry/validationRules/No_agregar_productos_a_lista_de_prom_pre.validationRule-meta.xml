@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_agregar_productos_a_lista_de_prom_pre</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+IF(CONTAINS(Tipo_Lista_Validacion__c , &#39;PROM $&#39;), true, false),
+IF(CONTAINS(Tipo_Lista_Validacion__c , &#39;BON &#39;), true, false),
+IF(CONTAINS(Tipo_Lista_Validacion__c , &#39;FIN &#39;), true, false)
+)</errorConditionFormula>
+    <errorMessage>No se pueden añadir productos a esta lista de precios</errorMessage>
+</ValidationRule>

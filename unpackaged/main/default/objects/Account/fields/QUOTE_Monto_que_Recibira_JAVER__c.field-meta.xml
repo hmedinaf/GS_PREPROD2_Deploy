@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QUOTE_Monto_que_Recibira_JAVER__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Tipo_Credito__c,
+&quot;BANJERCITO&quot;, QUOTE_Credito_Bancario__c                                                   - QUOTE_Gastos_Credito__c, 
+&quot;BANSEFI&quot;,    QUOTE_Credito_Bancario__c                                                   - QUOTE_Gastos_Credito__c,
+&quot;ISSFAM&quot;,     QUOTE_Credito_Bancario__c                                                   - QUOTE_Gastos_Credito__c,
+&quot;ISSSTELEON&quot;, QUOTE_Credito_Bancario__c                                                   - QUOTE_Gastos_Credito__c,
+&quot;PENSIONES&quot;,  QUOTE_Credito_Bancario__c                                                   - QUOTE_Gastos_Credito__c,
+&quot;SHF/BANCO&quot;,  QUOTE_Credito_Bancario__c                                                   - QUOTE_Gastos_Credito__c,
+&quot;COFINAVIT&quot;,  QUOTE_Credito_Bancario__c + QUOTE_Credito_INFONAVIT__c + QUOTE_Subcuenta__c - QUOTE_Gastos_Credito__c,
+&quot;FOVISSSTE&quot;,                              QUOTE_Credito_INFONAVIT__c + QUOTE_Subcuenta__c - QUOTE_Gastos_Credito__c,
+&quot;INFONAVIT&quot;,                              QUOTE_Credito_INFONAVIT__c + QUOTE_Subcuenta__c - QUOTE_Gastos_Credito__c,
+&quot;CONTADO&quot;,    0.00, 
+0.00)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Monto que Recibirá JAVER</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

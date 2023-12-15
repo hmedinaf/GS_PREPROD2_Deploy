@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>Nombre_del_Cliente__c</field>
+        <field>Fraccionamiento__c</field>
+        <field>Prototipo__c</field>
+        <field>Oportunidad__c</field>
+        <field>Estatus_Proceso_de_Venta__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Due_o_del_Canal_Subcanal_Anterior</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Step 1</label>
+        <name>Step_1</name>
+    </approvalStep>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Plan_de_Venta__c.Estatus_Proceso_de_Venta__c</field>
+            <operation>equals</operation>
+            <value>Escriturado</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Plan_de_Venta__c.Estatus_Proceso_de_Venta__c</field>
+            <operation>equals</operation>
+            <value>Aprobada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Plan_de_Venta__c.Estatus_Proceso_de_Venta__c</field>
+            <operation>equals</operation>
+            <value>Cancelado</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Cambio Canal y/o Subcanal de Venta</label>
+    <processOrder>3</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

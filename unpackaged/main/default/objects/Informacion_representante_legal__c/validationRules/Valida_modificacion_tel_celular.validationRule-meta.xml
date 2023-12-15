@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_modificacion_tel_celular</fullName>
+    <active>true</active>
+    <description>No se puede modificar el campo Tel Celular si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado</description>
+    <errorConditionFormula>AND(
+
+ISCHANGED(Tel_Celular__c),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Validación&#39;),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Reservado&#39;),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Formalizado&#39;)
+
+)</errorConditionFormula>
+    <errorDisplayField>Tel_Celular__c</errorDisplayField>
+    <errorMessage>No se puede modificar el campo Tel Celular si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_incuba_vs_capacidad</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(ISPICKVAL(Motivoincub__c, &quot;&quot;))  &amp;&amp; 
+Capcomp_cta__c  &lt; 1</errorConditionFormula>
+    <errorDisplayField>Capcom_cta__c</errorDisplayField>
+    <errorMessage>Debe especificar la Capacidad de Compra</errorMessage>
+</ValidationRule>

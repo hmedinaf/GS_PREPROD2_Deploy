@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_Vewncimiento_Menor_o_Igual_a_30Dia</fullName>
+    <active>false</active>
+    <description>La fecha de Vencimiento debe ser mayor a 30 dias de la fecha de Hoy</description>
+    <errorConditionFormula>IF( Fecha_Vencimiento__c  &gt;  TODAY()+30, TRUE, FALSE)</errorConditionFormula>
+    <errorDisplayField>Fecha_Vencimiento__c</errorDisplayField>
+    <errorMessage>La fecha de vencimiento debe ser Máximo 30 dias posteriores a la fecha actual</errorMessage>
+</ValidationRule>

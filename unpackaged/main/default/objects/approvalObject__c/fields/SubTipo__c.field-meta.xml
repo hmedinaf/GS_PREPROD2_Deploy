@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubTipo__c</fullName>
+    <externalId>false</externalId>
+    <label>SubTipo</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cedula Asesor</fullName>
+                <default>false</default>
+                <label>Cedula Asesor</label>
+            </value>
+            <value>
+                <fullName>Cedula Prospectador</fullName>
+                <default>false</default>
+                <label>Cedula Prospectador</label>
+            </value>
+            <value>
+                <fullName>Plan Comision Asesor</fullName>
+                <default>false</default>
+                <label>Plan Comision Asesor</label>
+            </value>
+            <value>
+                <fullName>Plan Comision Prospectador</fullName>
+                <default>false</default>
+                <label>Plan Comision Prospectador</label>
+            </value>
+            <value>
+                <fullName>Plan Bono Asesor</fullName>
+                <default>false</default>
+                <label>Plan Bono Asesor</label>
+            </value>
+            <value>
+                <fullName>Plan Bono Col. Javer</fullName>
+                <default>false</default>
+                <label>Plan Bono Col. Javer</label>
+            </value>
+            <value>
+                <fullName>Plan Bono Prospectador</fullName>
+                <default>false</default>
+                <label>Plan Bono Prospectador</label>
+            </value>
+            <value>
+                <fullName>Plan Bono_Col. Javer</fullName>
+                <default>false</default>
+                <label>Plan Bono_Col. Javer</label>
+            </value>
+            <value>
+                <fullName>Extension de Periodos</fullName>
+                <default>false</default>
+                <label>Extension de Periodos</label>
+            </value>
+            <value>
+                <fullName>Bonificaciones Batch</fullName>
+                <default>false</default>
+                <label>Bonificaciones Batch</label>
+            </value>
+            <value>
+                <fullName>Lista de Bonificaciones Batch</fullName>
+                <default>false</default>
+                <label>Lista de Bonificaciones Batch</label>
+            </value>
+            <value>
+                <fullName>Lista de Financiamientos Batch</fullName>
+                <default>false</default>
+                <label>Lista de Financiamientos Batch</label>
+            </value>
+            <value>
+                <fullName>Lista de Precios Batch Prods</fullName>
+                <default>false</default>
+                <label>Lista de Precios Batch Prods</label>
+            </value>
+            <value>
+                <fullName>Lista de Precios Batch</fullName>
+                <default>false</default>
+                <label>Lista de Precios Batch</label>
+            </value>
+            <value>
+                <fullName>Lista de Precios</fullName>
+                <default>false</default>
+                <label>Lista de Precios</label>
+            </value>
+            <value>
+                <fullName>Bonif. Emp. de Plan de Venta</fullName>
+                <default>false</default>
+                <label>Bonif. Emp. de Plan de Venta</label>
+            </value>
+            <value>
+                <fullName>Excepcion Bonif. Emp. ColJaver</fullName>
+                <default>false</default>
+                <label>Excepcion Bonif. Emp. ColJaver</label>
+            </value>
+            <value>
+                <fullName>Bonificacion de Plan de Venta</fullName>
+                <default>false</default>
+                <label>Bonificacion de Plan de Venta</label>
+            </value>
+            <value>
+                <fullName>Financiamiento Plan de Venta</fullName>
+                <default>false</default>
+                <label>Financiamiento Plan de Venta</label>
+            </value>
+            <value>
+                <fullName>Paquetes de Plan de Venta</fullName>
+                <default>false</default>
+                <label>Paquetes de Plan de Venta</label>
+            </value>
+            <value>
+                <fullName>VO. Menor a Presupuesto</fullName>
+                <default>false</default>
+                <label>VO. Menor a Presupuesto</label>
+            </value>
+            <value>
+                <fullName>Financiamiento Post Venta</fullName>
+                <default>false</default>
+                <label>Financiamiento Post Venta</label>
+            </value>
+            <value>
+                <fullName>Finan PostVenta Col Javer</fullName>
+                <default>false</default>
+                <label>Finan PostVenta Col Javer</label>
+            </value>
+            <value>
+                <fullName>Bonificacion Saldo Post Venta</fullName>
+                <default>false</default>
+                <label>Bonificacion Saldo Post Venta</label>
+            </value>
+            <value>
+                <fullName>Reestructuracion Post Venta</fullName>
+                <default>false</default>
+                <label>Reestructuracion Post Venta</label>
+            </value>
+            <value>
+                <fullName>Subsidio</fullName>
+                <default>false</default>
+                <label>Subsidio</label>
+            </value>
+            <value>
+                <fullName>Garantia</fullName>
+                <default>false</default>
+                <label>Garantia</label>
+            </value>
+            <value>
+                <fullName>Cancelacion de Escritura</fullName>
+                <default>false</default>
+                <label>Cancelacion de Escritura</label>
+            </value>
+            <value>
+                <fullName>Cancelacion Formalizacion</fullName>
+                <default>false</default>
+                <label>Cancelacion Formalizacion</label>
+            </value>
+            <value>
+                <fullName>Gastos Admin</fullName>
+                <default>false</default>
+                <label>Gastos Admin</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

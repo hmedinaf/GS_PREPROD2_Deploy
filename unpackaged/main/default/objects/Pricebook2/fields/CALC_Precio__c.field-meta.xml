@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CALC_Precio__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Porcentaje_Precio_sobre_avenida__c &gt; 0,  
+   Porcentaje_Precio_sobre_avenida__c  * Precio_Lista__c,
+   Precio_sobre_avenida__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CALC Precio Sobre Avenida</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

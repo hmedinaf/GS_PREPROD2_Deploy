@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus_Cliente__c</fullName>
+    <externalId>false</externalId>
+    <label>Estatus Cliente</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>POR ASIGNAR</fullName>
+                <default>true</default>
+                <label>POR ASIGNAR</label>
+            </value>
+            <value>
+                <fullName>ASIGNADO</fullName>
+                <default>false</default>
+                <label>ASIGNADO</label>
+            </value>
+            <value>
+                <fullName>POR REASIGNAR</fullName>
+                <default>false</default>
+                <label>POR REASIGNAR</label>
+            </value>
+            <value>
+                <fullName>BAJA</fullName>
+                <default>false</default>
+                <label>BAJA</label>
+            </value>
+            <value>
+                <fullName>INCUBADORA</fullName>
+                <default>false</default>
+                <label>INCUBADORA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

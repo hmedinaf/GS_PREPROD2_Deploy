@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Encabezado_Dictaminacion</fullName>
+    <fields>Name</fields>
+    <fields>Nombre_Completo__c</fields>
+    <fields>Oportunidad__c</fields>
+    <fields>Estatus_Proceso_de_Venta_Oportunidad__c</fields>
+    <fields>Fraccionamiento__c</fields>
+    <fields>Estatus_LN__c</fields>
+    <label>Encabezado Dictaminación</label>
+</CompactLayout>

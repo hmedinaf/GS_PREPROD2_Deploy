@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipificación nivel 2 --></label>
+        <name>Tipificacion_nivel_2__c</name>
+        <picklistValues>
+            <masterLabel>Asesoria Técnica</masterLabel>
+            <translation><!-- Asesoria Técnica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmar Cita de Garantía</masterLabel>
+            <translation><!-- Confirmar Cita de Garantía --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultar Saldo Postventa</masterLabel>
+            <translation><!-- Consultar Saldo Postventa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estructural</masterLabel>
+            <translation><!-- Estructural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hablar con un Agente</masterLabel>
+            <translation><!-- Hablar con un Agente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Impermeabilizante</masterLabel>
+            <translation><!-- Impermeabilizante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Información de Fraccionamientos</masterLabel>
+            <translation><!-- Información de Fraccionamientos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queja Administradora</masterLabel>
+            <translation><!-- Queja Administradora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queja de Seguimiento de Cobranza</masterLabel>
+            <translation><!-- Queja de Seguimiento de Cobranza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Realizar Reporte de Garantía</masterLabel>
+            <translation><!-- Realizar Reporte de Garantía --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reportar Incidencia en Entrega de Vivienda</masterLabel>
+            <translation><!-- Reportar Incidencia en Entrega de Vivienda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporte Falla en Servicios</masterLabel>
+            <translation><!-- Reporte Falla en Servicios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Se Envía Llamada a Corporativo</masterLabel>
+            <translation><!-- Se Envía Llamada a Corporativo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguimiento a Proceso de Escritura</masterLabel>
+            <translation><!-- Seguimiento a Proceso de Escritura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguimiento a Promociones de Venta</masterLabel>
+            <translation><!-- Seguimiento a Promociones de Venta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicita Fecha de Entrega</masterLabel>
+            <translation><!-- Solicita Fecha de Entrega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitar Carta de No Adeudo</masterLabel>
+            <translation><!-- Solicitar Carta de No Adeudo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitar Eco-Tecnologías</masterLabel>
+            <translation><!-- Solicitar Eco-Tecnologías --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitar Planos de Vivienda</masterLabel>
+            <translation><!-- Solicitar Planos de Vivienda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitud Carta de Servicio</masterLabel>
+            <translation><!-- Solicitud Carta de Servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitud de Escrituras</masterLabel>
+            <translation><!-- Solicitud de Escrituras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitud de Factura</masterLabel>
+            <translation><!-- Solicitud de Factura --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

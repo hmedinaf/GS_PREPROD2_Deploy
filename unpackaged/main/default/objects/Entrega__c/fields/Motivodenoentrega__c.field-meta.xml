@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivodenoentrega__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo de no entrega</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cambio fecha y hora</fullName>
+                <default>false</default>
+                <label>Cambio fecha y hora</label>
+            </value>
+            <value>
+                <fullName>No asistió</fullName>
+                <default>false</default>
+                <label>No asistió</label>
+            </value>
+            <value>
+                <fullName>Detalles de calidad</fullName>
+                <default>false</default>
+                <label>Detalles de calidad</label>
+            </value>
+            <value>
+                <fullName>Está de viaje</fullName>
+                <default>false</default>
+                <label>Está de viaje</label>
+            </value>
+            <value>
+                <fullName>Falta documento</fullName>
+                <default>false</default>
+                <label>Falta documento</label>
+            </value>
+            <value>
+                <fullName>No es la ubicación</fullName>
+                <default>false</default>
+                <label>No es la ubicación</label>
+            </value>
+            <value>
+                <fullName>No es lo que ofrecieron</fullName>
+                <default>false</default>
+                <label>No es lo que ofrecieron</label>
+            </value>
+            <value>
+                <fullName>No quiere la casa</fullName>
+                <default>false</default>
+                <label>No quiere la casa</label>
+            </value>
+            <value>
+                <fullName>No se localiza</fullName>
+                <default>false</default>
+                <label>No se localiza</label>
+            </value>
+            <value>
+                <fullName>Notario</fullName>
+                <default>false</default>
+                <label>Notario</label>
+            </value>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <label>Otro</label>
+            </value>
+            <value>
+                <fullName>Demanda detalles de calidad</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Demanda</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

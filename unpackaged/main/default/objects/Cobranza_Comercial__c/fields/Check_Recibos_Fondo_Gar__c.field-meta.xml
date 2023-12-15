@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Recibos_Fondo_Gar__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (Sumatoria_Total_Pagares_Fondos_de_Garant__c  = 0, 
+				   TRUE, 
+       IF( Suma_Total_de_Pagos__c &gt;= Sumatoria_Total_Pagares_Fondos_de_Garant__c , 
+								      TRUE, 
+										    FALSE
+									)
+   )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Check Recibos Fondo Gar</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

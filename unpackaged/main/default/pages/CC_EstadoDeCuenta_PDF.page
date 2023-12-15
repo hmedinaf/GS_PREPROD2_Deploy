@@ -1,0 +1,227 @@
+<apex:page standardController="Cobranza_Comercial__c" extensions="CC_EstadoDeCuenta_PDFController" title="CobranzaComercial" applyBodyTag="false" applyHtmlTag="false" showHeader="false" sidebar="false" standardStylesheets="false" showQuickActionVfHeader="false" renderAs="pdf">
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+            <title>Ticket</title>
+            <style type="text/css">
+                      body{
+                font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;         
+            }
+
+            .center{
+                text-align:center;
+            }
+
+            .table-bordered {
+                border: 1px solid #000;
+                border-collapse : collapse;
+                font-size : .7em;
+                margin-top: 20px;
+            }
+
+
+           thead>tr>th {
+                vertical-align: bottom;
+                border: 1px solid #000;
+                border-spacing: 0;
+                text-align:center;
+                border-collapse: collapse;
+                background : #202d79;
+                color:white;
+            }
+
+            .header>td{
+                font-weight:bold;
+                background : #c4c4c4;               
+            }
+                .tableRowCss>td{
+                 vertical-align: bottom;
+                border: 1px solid #000;
+                border-spacing: 0;
+                border-collapse: collapse;
+                text-align:center;
+                height:24px;
+                }
+
+            .echoArea>td{
+                padding:10px;
+            }
+                @page {
+                size: 300mm 300mm; /* Custom dimensions for A4, adjust as needed */
+                margin: 10mm;
+                @bottom-center {
+                content: "Page " counter(page) " of " counter(pages);
+                }
+                }
+
+            </style>
+            
+        </head>
+        <body style="font-family:SansSerif !important;margin-left:0px;margin-right:0px; ">
+            <table style="width:100%;">
+                <tr>
+                    <td width="50%" style="text-align:left;">
+                        <apex:image url="{!$Resource.javarLogoxxl}" width="250px"/>
+                    </td>
+                    <td width="40%" style="text-align:right;">
+                        <span style="font-weight:bold;font-size:30px;"> Estado de Cuenta </span>      
+                    </td>
+                    <td width="10%" style="text-align:left;">
+                        <span><apex:image url="{!$Resource.accountStatement}"/></span>
+                        
+                    </td>
+                </tr>
+            </table>
+            <table style="width:100%;padding-top: 20px;">
+                <tr>
+                    <td width="100%" style="text-align:center;">
+                        EMPRESA: Casas Javer, SA de CV
+                    </td>
+                </tr>
+            </table>
+             <table style="width:100%;padding-top: 20px;">
+                <tr>
+                    <td width="45%">
+                      <b>Cliente: </b>  {!Cobranza_Comercial__c.Nombre_del_Cliente__c}
+                    </td>
+                    <td width="10%">
+                          
+                    </td>
+                    <td width="45%" style="text-align:right;">
+                        <b>Fecha:</b><apex:outputText value="{0,date,MMM' 'dd','yyyy}"><apex:param value="{!NOW()}" /></apex:outputText> <br/>
+                        <b>Referencia Bancaria:</b>{!Cobranza_Comercial__c.Name}
+                    </td>
+                </tr>
+            </table>
+               <table style="width:100%;padding-top: 20px;">
+                <tr>
+                    <td width="33%">
+                        <b>Referencia Bancaria: </b>  {!Cobranza_Comercial__c.Name} <br/>
+                          <b>Fecha de Escrituración: </b>  {!Cobranza_Comercial__c.Fecha_Escritura__c}<br/>
+                          <b>Ubicación: </b>{!Cobranza_Comercial__c.Fraccionamiento__r.Name}-{!Cobranza_Comercial__c.Manzana__c}-{!Cobranza_Comercial__c.Lote__c}-{!Cobranza_Comercial__c.Num_Interior__c}<br/>
+                          <b>Dirección Oficial: </b>  {!Cobranza_Comercial__c.Direcci_n__c}
+                    </td>
+                    <td width="33%">
+                        <b>No. de Proceso:</b>  {!Cobranza_Comercial__c.Name} <br/>
+                          <b>Fecha de Entrega:</b>  {!Cobranza_Comercial__c.Fecha_Entrega__c}<br/>
+                          <b>Fraccionamiento: </b>  {!Cobranza_Comercial__c.Fraccionamiento__r.Name}<br/>
+                          <b>Estatus: </b>  {!Cobranza_Comercial__c.Sub_Estatus_Proceso__c}   
+                    </td>
+                    <td width="34%">
+                        <b>No. Interno:</b>  {!Cobranza_Comercial__c.Numero_Interno__c} <br/>
+                          <b>Prototipo:</b>  {!Cobranza_Comercial__c.Prototipo__r.Name}<br/>
+                          <b>Precio: </b>  <apex:outputText value="{0, Number, Currency}"><apex:param value="{!Cobranza_Comercial__c.Valor_Operacion__c}" /> </apex:outputText>
+                    </td>
+                </tr>
+            </table>
+            <table width="100%" class="table-bordered">
+                <thead>
+                     <tr>
+                        <th colspan="9" style="text-align: left;padding-left: 20px; height: 19px;font-size: 14px;"> Pagarés</th>
+                    </tr>
+                    <tr>
+                        <th> Documento</th>
+                        <th>Tipo</th>
+                        <th> Tipo</th>
+                        <th>Fecha del Documento</th>
+                        <th> Fecha Vencimiento</th>
+                        <th>Importe</th>
+                        <th> Importe Aplicado</th>
+                        <th>Saldo</th>
+                        <th>  Fecha de Pago</th>
+                        
+                    </tr>
+			</thead>
+			<tbody>
+				<apex:repeat value="{!pagares}" var="pagar">
+                    <tr class="tableRowCss">
+                        <td>{!pagar.Name}</td>
+                        <td>{!pagar.Tipo_Documento__c}</td>
+                        <td>{!pagar.Tipo__c}</td>
+                        <td><apex:outputText value="{0,date,MMM' 'dd','yyyy}"><apex:param value="{!pagar.Fecha_Documento__c}" /></apex:outputText></td>
+                        <td><apex:outputText value="{0,date,MMM' 'dd','yyyy}"><apex:param value="{!pagar.Fecha_Vencimiento__c}" /></apex:outputText></td>
+                        <td><apex:outputText value="{0, Number, Currency}"><apex:param value="{!pagar.Importe__c}" /> </apex:outputText></td>
+                        <td><apex:outputText value="{0, Number, Currency}"><apex:param value="{!pagar.Importe_Aplicado_rollup__c}" /> </apex:outputText></td>
+                        <td><apex:outputText value="{0, Number, Currency}"><apex:param value="{!pagar.Saldo__c}" /> </apex:outputText></td>
+                        <td>{!pagar.Fecha_de_Pago__c}</td>
+                    </tr>
+				</apex:repeat>
+                 <tr style="display:{!IF(pagares.size != 0,'none','')}">
+                      <td colspan="9" style="text-align:center; font-weight:bold;">No record found</td>
+                    </tr>
+			</tbody>
+            </table>
+             <table style="width:100%;padding-top: 20px;">
+                <tr>
+                    <td style="text-align: right;">
+                        <b>Total Importe Pagarés: </b> <apex:outputText value="{0, Number, Currency}"><apex:param value="{!Cobranza_Comercial__c.Suma_Total_de_Pagares__c}" /> </apex:outputText>  <br/>
+                          <b>Total Monto Aplicado: </b> <apex:outputText value="{0, Number, Currency}"><apex:param value="{!Cobranza_Comercial__c.Suma_Total_de_Pagos_Aplicados__c}" /> </apex:outputText><br/>
+                          <b>Total Saldo: </b> <apex:outputText value="{0, Number, Currency}"><apex:param value="{!Cobranza_Comercial__c.Suma_Saldo_Pagares_Financiera__c}" /> </apex:outputText> 
+                    </td>
+                 </tr>
+            </table>
+            <table width="100%" class="table-bordered">
+                <thead>
+                    <tr>
+                        <th colspan="6" style="text-align: left;padding-left: 20px; height: 19px;font-size: 14px;"> Pagos a Cuenta</th>
+                    </tr>
+                    <tr>
+                        <th> Folio</th>
+                        <th>Monto</th>
+                        <th>Fecha de Pago</th>
+                        <th>Tipo de Pago</th>
+                        <th>Metodo de Pago</th>
+                        <th>Estatus del Pago</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <apex:repeat value="{!pagoCuenta}" var="pagocue">
+                        <tr class="tableRowCss">
+                            <td>{!pagocue.Name}</td>
+                            <td><apex:outputText value="{0, Number, Currency}"><apex:param value="{!pagocue.Importe__c}" /> </apex:outputText></td>
+                            <td><apex:outputText value="{0,date,MMM' 'dd','yyyy}"><apex:param value="{!pagocue.Fecha_de_Pago__c}" /></apex:outputText></td>
+                            <td>{!pagocue.Tipo_de_Pago__c}</td>
+                            <td>{!pagocue.Metodo_Pago__c}</td>
+                            <td>{!pagocue.Estatus_del_Pago__c}</td>
+                        </tr>
+                    </apex:repeat>
+                     <tr style="display:{!IF(pagoCuenta.size != 0,'none','')}">
+                      <td colspan="6" style="text-align:center; font-weight:bold;">No record found</td>
+                    </tr>
+                </tbody>
+            </table>
+             <table width="100%" class="table-bordered">
+                <thead>
+                    <tr>
+                        <th colspan="7" style="text-align: left;padding-left: 20px; height: 19px;font-size: 14px;"> Pagos Cancelados</th>
+                    </tr>
+                    <tr>
+                        <th> No. Pago</th>
+                        <th>Monto</th>
+                        <th>Fecha de Pago</th>
+                        <th>Fecha de Cancelación</th>
+                        <th>Tipo de Pago</th>
+                        <th>Método de Pago(fld dep)</th>
+                        <th>Estatus del Pago</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <apex:repeat value="{!pagoscancelados}" var="pagocue">
+                        <tr class="tableRowCss">
+                            <td>{!pagocue.Name}</td>
+                            <td><apex:outputText value="{0, Number, Currency}"><apex:param value="{!pagocue.Importe__c}" /> </apex:outputText></td>
+                            <td><apex:outputText value="{0,date,MMM' 'dd','yyyy}"><apex:param value="{!pagocue.Fecha_de_Pago__c}" /></apex:outputText></td>
+                            <td><apex:outputText value="{0,date,MMM' 'dd','yyyy}"><apex:param value="{!pagocue.Fecha_de_Cancelacion__c}" /></apex:outputText></td>
+                            <td>{!pagocue.Tipo_de_Pago__c}</td>
+                            <td>{!pagocue.Metodo_Pago__c}</td>
+                            <td>{!pagocue.Estatus_del_Pago__c}</td>
+                        </tr>
+                    </apex:repeat>
+                  <tr style="display:{!IF(pagoscancelados.size != 0,'none','')}">
+                      <td colspan="7" style="text-align:center; font-weight:bold;">No record found</td>
+                    </tr>
+                </tbody>
+            </table>
+        </body>
+    </html>
+</apex:page>

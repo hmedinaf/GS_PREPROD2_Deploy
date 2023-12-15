@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Persona_moral_no_identificacion_obligato</fullName>
+    <active>true</active>
+    <description>Valida que si el sub tipo fiscal rep es igual a persona moral, se llene el campo no. identificación.</description>
+    <errorConditionFormula>AND
+(
+TEXT(Sub_Tipo_Fiscal_Rep__c) == &quot;Persona Moral&quot;,
+OR(
+ISNULL(No_Identificacion__c),
+ISBLANK(No_Identificacion__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>No_Identificacion__c</errorDisplayField>
+    <errorMessage>No Identificación requerido</errorMessage>
+</ValidationRule>

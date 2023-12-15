@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plaza_Filtro__c</fullName>
+    <externalId>false</externalId>
+    <label>Plaza Filtro</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Querétaro</fullName>
+                <default>false</default>
+                <label>Querétaro</label>
+            </value>
+            <value>
+                <fullName>Nuevo León</fullName>
+                <default>false</default>
+                <label>Nuevo León</label>
+            </value>
+            <value>
+                <fullName>Estado de México</fullName>
+                <default>false</default>
+                <label>Estado de México</label>
+            </value>
+            <value>
+                <fullName>Jalisco</fullName>
+                <default>false</default>
+                <label>Jalisco</label>
+            </value>
+            <value>
+                <fullName>Aguascalientes</fullName>
+                <default>false</default>
+                <label>Aguascalientes</label>
+            </value>
+            <value>
+                <fullName>Distrito Federal</fullName>
+                <default>false</default>
+                <label>Distrito Federal</label>
+            </value>
+            <value>
+                <fullName>San Luis Potosi</fullName>
+                <default>false</default>
+                <label>San Luis Potosi</label>
+            </value>
+            <value>
+                <fullName>Quintana Roo</fullName>
+                <default>false</default>
+                <label>Quintana Roo</label>
+            </value>
+            <value>
+                <fullName>Guanajuato</fullName>
+                <default>false</default>
+                <label>Guanajuato</label>
+            </value>
+            <value>
+                <fullName>Tamaulipas</fullName>
+                <default>false</default>
+                <label>Tamaulipas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

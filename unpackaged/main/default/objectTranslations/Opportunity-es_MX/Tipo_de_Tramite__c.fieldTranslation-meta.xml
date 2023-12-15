@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo de Trámite --></label>
+        <name>Tipo_de_Tramite__c</name>
+        <picklistValues>
+            <masterLabel>CONYUGAL</masterLabel>
+            <translation><!-- CONYUGAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOVISSSTE PARA TODOS</masterLabel>
+            <translation><!-- FOVISSSTE PARA TODOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDIVIDUAL</masterLabel>
+            <translation><!-- INDIVIDUAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNAMOS CRÉDITOS</masterLabel>
+            <translation><!-- UNAMOS CRÉDITOS --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Categoria_Bono</fullName>
+    <active>true</active>
+    <description>Para RT de Comisión &quot;Plan Bono Asesor&quot;</description>
+    <label>Categoria Bono</label>
+</RecordType>

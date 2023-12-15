@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Encabezado_Plan_de_Venta</fullName>
+    <fields>Plan_de_Venta__c</fields>
+    <fields>Nombre_del_Cliente__c</fields>
+    <fields>Oportunidad__c</fields>
+    <fields>Fraccionamiento__c</fields>
+    <label>Encabezado Plan de Venta</label>
+</CompactLayout>

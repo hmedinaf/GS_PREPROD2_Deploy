@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_Baja__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo de Baja</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipo_Baja__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Motivo_Baja</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>ASESOR</controllingFieldValue>
+            <valueName>ARGUMENTOS INSUFICIENTES CERRAR HOY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASESOR</controllingFieldValue>
+            <valueName>ARGUMENTOS INSUFICIENTES PARA CERRARLO PORQUE YA TIENE CASA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASESOR</controllingFieldValue>
+            <valueName>ARGUMENTOS INSUFICIENTES PARA VENDER DESARROLLO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASESOR</controllingFieldValue>
+            <valueName>ARGUMENTOS INSUFICIENTES PARA VENDER LA CASA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASESOR</controllingFieldValue>
+            <valueName>NO LO VISITO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASESOR INACTIVO</controllingFieldValue>
+            <valueName>BAJA POR ASESOR INACTIVO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CARGA INICIAL</controllingFieldValue>
+            <valueName>SOLICITUD DE GERENTE COMERCIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO INTERESADO</controllingFieldValue>
+            <valueName>NO INTERESADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO PUEDE COMPRAR</controllingFieldValue>
+            <valueName>CREDITO VIGENTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO PUEDE COMPRAR</controllingFieldValue>
+            <valueName>MONTO BAJO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECTADOR</controllingFieldValue>
+            <valueName>DATOS FALSOS O INEXISTENTES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECTADOR</controllingFieldValue>
+            <valueName>DESPERFILADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECTADOR</controllingFieldValue>
+            <valueName>NO TIENE LOS INGRESOS/PUNTUACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECTADOR</controllingFieldValue>
+            <valueName>PROBLEMAS DE COMPROBACION/DOCUMENTACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VENCIMIENTO</controllingFieldValue>
+            <valueName>BAJA POR VENCIMIENTO</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

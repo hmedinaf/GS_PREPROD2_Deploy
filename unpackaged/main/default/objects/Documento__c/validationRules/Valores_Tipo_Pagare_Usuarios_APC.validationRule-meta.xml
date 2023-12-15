@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valores_Tipo_Pagare_Usuarios_APC</fullName>
+    <active>false</active>
+    <description>Al perfil  APC se le permiten seleccionar solo ciertos tipos de pagarés</description>
+    <errorConditionFormula>AND(
+ RecordType.DeveloperName = &#39;Pagare&#39;,
+ $Profile.Name = &#39;APC&#39;,
+ NOT(ISPICKVAL(Tipo__c, &#39;PAGARE_AHORRO_VOLUNTARIO&#39;)),
+ NOT(ISPICKVAL(Tipo__c, &#39;PAGARE_FONDO_DE_GARANTIA&#39;)),
+ NOT(ISPICKVAL(Tipo__c, &#39;PAGARE_GASTO_AVALUO&#39;)),
+ NOT(ISPICKVAL(Tipo__c, &#39;PAGARE_GASTO_CREDITO_DIRECTO&#39;)),
+ NOT(ISPICKVAL(Tipo__c, &#39;PAGARE_GASTOS_NOTARIALES&#39;)),
+ NOT(ISPICKVAL(Tipo__c, &#39;PAGARE_GASTOS_OPERATIVOS&#39;)),
+ NOT(ISPICKVAL(Tipo__c, &#39;PAGARE_POSTVENTA_REESTRUCTURA_FINANCIERA&#39;)),
+ NOT(ISPICKVAL(Tipo__c, &#39;PAGARE_REEMBOLSO_ESCRITURA&#39;)),
+ NOT(ISPICKVAL(Tipo__c, &#39;PAGARE_REVERSA_BONIFICACION&#39;)),
+ NOT(ISPICKVAL(Tipo__c, &#39;REEMBOLSO_AHORRO_VOLUNTARIO&#39;))
+)</errorConditionFormula>
+    <errorDisplayField>Tipo__c</errorDisplayField>
+    <errorMessage>No tiene permitido el tipo de pagaré seleccionado</errorMessage>
+</ValidationRule>

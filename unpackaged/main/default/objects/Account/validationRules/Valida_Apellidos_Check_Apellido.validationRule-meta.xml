@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Apellidos_Check_Apellido</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+	$User.is_Data_Migration_User__c = false,
+ OR(RecordType.Name = &quot;PROSPECTO PERSONA FISICA&quot;, RecordType.Name = &quot;AFLUENTE PERSONA FISICA&quot;, RecordType.Name = &quot;CLIENTE  PERSONA FISICA&quot;),
+ ISBLANK(Apellidomaterno_cta__c) = True,
+ Check_Apellido__c = false
+)</errorConditionFormula>
+    <errorDisplayField>Apellidomaterno_cta__c</errorDisplayField>
+    <errorMessage>Debe introducir el Apellido Materno o Marcar la casilla &quot;Check Apellido&quot;</errorMessage>
+</ValidationRule>

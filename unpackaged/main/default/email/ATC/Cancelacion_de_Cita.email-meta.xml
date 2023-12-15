@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Cancelación de Cita</name>
+    <style>none</style>
+    <subject>Cancelación de Cita</subject>
+    <textOnly>Buen día Sr(a) {!Visita__c.Cuenta__c}
+
+
+Te informamos que tu cita ha sido cancelada</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

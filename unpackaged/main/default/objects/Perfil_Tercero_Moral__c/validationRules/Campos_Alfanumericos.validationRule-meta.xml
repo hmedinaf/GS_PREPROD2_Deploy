@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campos_Alfanumericos</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(REGEX( RFC_Tercero_Moral__c ,&quot;^[a-z A-Z 0-9]*$&quot;))</errorConditionFormula>
+    <errorMessage>Por Favor Ingresar Unicamente Numeros y Letras</errorMessage>
+</ValidationRule>

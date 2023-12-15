@@ -1,0 +1,2417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Metodo_de_Pago__c</fullName>
+    <externalId>false</externalId>
+    <label>Método de Pago (fld dep)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipo_de_Pago__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BANCOS BANORTE - CASH</fullName>
+                <default>false</default>
+                <label>BANCOS BANORTE - CASH</label>
+            </value>
+            <value>
+                <fullName>BANCOS BANORTE - MC-BNT-MXN-550</fullName>
+                <default>false</default>
+                <label>BANCOS BANORTE - MC-BNT-MXN-550</label>
+            </value>
+            <value>
+                <fullName>BANCOS BANORTE - MC-BNT-MXN-799</fullName>
+                <default>false</default>
+                <label>BANCOS BANORTE - MC-BNT-MXN-799</label>
+            </value>
+            <value>
+                <fullName>BANCOS FAMSA - CASH</fullName>
+                <default>false</default>
+                <label>BANCOS FAMSA - CASH</label>
+            </value>
+            <value>
+                <fullName>BANCOS FAMSA - MC-FAM-MXN-156</fullName>
+                <default>false</default>
+                <label>BANCOS FAMSA - MC-FAM-MXN-156</label>
+            </value>
+            <value>
+                <fullName>BANCOS FAMSA - MC-FAM-MXN-674</fullName>
+                <default>false</default>
+                <label>BANCOS FAMSA - MC-FAM-MXN-674</label>
+            </value>
+            <value>
+                <fullName>BANCOS SANTANDER - CASH</fullName>
+                <default>false</default>
+                <label>BANCOS SANTANDER - CASH</label>
+            </value>
+            <value>
+                <fullName>BANCOS SANTANDER - MC-SAN-MXN-297</fullName>
+                <default>false</default>
+                <label>BANCOS SANTANDER - MC-SAN-MXN-297</label>
+            </value>
+            <value>
+                <fullName>BANCOS SANTANDER - MC-SAN-MXN-359</fullName>
+                <default>false</default>
+                <label>BANCOS SANTANDER - MC-SAN-MXN-359</label>
+            </value>
+            <value>
+                <fullName>BANCOS SANTANDER - MC-SAN-MXN-457</fullName>
+                <default>false</default>
+                <label>BANCOS SANTANDER - MC-SAN-MXN-457</label>
+            </value>
+            <value>
+                <fullName>BANCOS SANTANDER - MC-SAN-MXN-535</fullName>
+                <default>false</default>
+                <label>BANCOS SANTANDER - MC-SAN-MXN-535</label>
+            </value>
+            <value>
+                <fullName>BANCOS SANTANDER - MC-SAN-MXN-657</fullName>
+                <default>false</default>
+                <label>BANCOS SANTANDER - MC-SAN-MXN-657</label>
+            </value>
+            <value>
+                <fullName>BANCOS SANTANDER - MC-SAN-MXN-659</fullName>
+                <default>false</default>
+                <label>BANCOS SANTANDER - MC-SAN-MXN-659</label>
+            </value>
+            <value>
+                <fullName>BANCOS SANTANDER - MC-SAN-MXN-753</fullName>
+                <default>false</default>
+                <label>BANCOS SANTANDER - MC-SAN-MXN-753</label>
+            </value>
+            <value>
+                <fullName>BANCOS VIRTUAL - CASH</fullName>
+                <default>false</default>
+                <label>BANCOS VIRTUAL - CASH</label>
+            </value>
+            <value>
+                <fullName>BANCOS VIRTUAL - MC-VIRT-EFVO-CJ</fullName>
+                <default>false</default>
+                <label>BANCOS VIRTUAL - MC-VIRT-EFVO-CJ</label>
+            </value>
+            <value>
+                <fullName>BANCOS VIRTUAL - MC-VIRT-EFVO-CMEX</fullName>
+                <default>false</default>
+                <label>BANCOS VIRTUAL - MC-VIRT-EFVO-CMEX</label>
+            </value>
+            <value>
+                <fullName>BANCOS VIRTUAL - MC-VIRT-OXXO-CJ</fullName>
+                <default>false</default>
+                <label>BANCOS VIRTUAL - MC-VIRT-OXXO-CJ</label>
+            </value>
+            <value>
+                <fullName>BANCOS VIRTUAL - MC-VIRT-OXXO-HJ</fullName>
+                <default>false</default>
+                <label>BANCOS VIRTUAL - MC-VIRT-OXXO-HJ</label>
+            </value>
+            <value>
+                <fullName>BANCOS VIRTUAL - MC-VIRT-PAG-FID-VSE</fullName>
+                <default>false</default>
+                <label>BANCOS VIRTUAL - MC-VIRT-PAG-FID-VSE</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-BNT-MXN-550</fullName>
+                <default>false</default>
+                <label>Cheque - MC-BNT-MXN-550</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-FAM-MXN-674</fullName>
+                <default>false</default>
+                <label>Cheque - MC-FAM-MXN-674</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-HSBC-MXN-381</fullName>
+                <default>false</default>
+                <label>Cheque - MC-HSBC-MXN-381</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-HSBC-MXN-445</fullName>
+                <default>false</default>
+                <label>Cheque - MC-HSBC-MXN-445</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-HSBC-MXN-579</fullName>
+                <default>false</default>
+                <label>Cheque - MC-HSBC-MXN-579</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-HSBC-MXN-744</fullName>
+                <default>false</default>
+                <label>Cheque - MC-HSBC-MXN-744</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-HSBC-MXN-793</fullName>
+                <default>false</default>
+                <label>Cheque - MC-HSBC-MXN-793</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-SAN-MXN-140</fullName>
+                <default>false</default>
+                <label>Cheque - MC-SAN-MXN-140</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-SAN-MXN-297</fullName>
+                <default>false</default>
+                <label>Cheque - MC-SAN-MXN-297</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-SAN-MXN-359</fullName>
+                <default>false</default>
+                <label>Cheque - MC-SAN-MXN-359</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-SAN-MXN-535</fullName>
+                <default>false</default>
+                <label>Cheque - MC-SAN-MXN-535</label>
+            </value>
+            <value>
+                <fullName>CHEQUE - MC-SAN-MXN-657</fullName>
+                <default>false</default>
+                <label>CHEQUE - MC-SAN-MXN-657</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-SAN-MXN-715-1</fullName>
+                <default>false</default>
+                <label>Cheque - MC-SAN-MXN-715-1</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-SAN-MXN-753</fullName>
+                <default>false</default>
+                <label>Cheque - MC-SAN-MXN-753</label>
+            </value>
+            <value>
+                <fullName>Cheque - MC-VIRT-CHQ</fullName>
+                <default>false</default>
+                <label>Cheque - MC-VIRT-CHQ</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-BNT-MXN-317A</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-BNT-MXN-317A</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-BNT-MXN-550</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-BNT-MXN-550</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-FAM-MXN-156</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-FAM-MXN-156</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-HSBC-MXN-381</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-HSBC-MXN-381</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-HSBC-MXN-445</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-HSBC-MXN-445</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-HSBC-MXN-579</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-HSBC-MXN-579</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-HSBC-MXN-744</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-HSBC-MXN-744</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-HSBC-MXN-793</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-HSBC-MXN-793</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-SAN-MXN-1359</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-SAN-MXN-1359</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-SAN-MXN-140</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-SAN-MXN-140</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-SAN-MXN-297</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-SAN-MXN-297</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-SAN-MXN-359</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-SAN-MXN-359</label>
+            </value>
+            <value>
+                <fullName>CHEQUE SBC - MC-SAN-MXN-535</fullName>
+                <default>false</default>
+                <label>CHEQUE SBC - MC-SAN-MXN-535</label>
+            </value>
+            <value>
+                <fullName>CHEQUE SBC - MC-SAN-MXN-657</fullName>
+                <default>false</default>
+                <label>CHEQUE SBC - MC-SAN-MXN-657</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-SAN-MXN-659</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-SAN-MXN-659</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC - MC-SAN-MXN-753</fullName>
+                <default>false</default>
+                <label>Cheque SBC - MC-SAN-MXN-753</label>
+            </value>
+            <value>
+                <fullName>Efectivo - APLICACION CARTERA PV CJ</fullName>
+                <default>false</default>
+                <label>Efectivo - APLICACION CARTERA PV CJ</label>
+            </value>
+            <value>
+                <fullName>Efectivo - CAJA</fullName>
+                <default>false</default>
+                <label>Efectivo - CAJA</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-BNT-MXN-2317</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-BNT-MXN-2317</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-BNT-MXN-317A</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-BNT-MXN-317A</label>
+            </value>
+            <value>
+                <fullName>EFECTIVO - MC-BNT-MXN-550</fullName>
+                <default>false</default>
+                <label>EFECTIVO - MC-BNT-MXN-550</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-CI-ANTI-CQ</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-CI-ANTI-CQ</label>
+            </value>
+            <value>
+                <fullName>EFECTIVO - MC-CI-ANTI-HJ</fullName>
+                <default>false</default>
+                <label>EFECTIVO - MC-CI-ANTI-HJ</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-FAM-MXN-1156</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-FAM-MXN-1156</label>
+            </value>
+            <value>
+                <fullName>EFECTIVO - MC-FAM-MXN-156</fullName>
+                <default>false</default>
+                <label>EFECTIVO - MC-FAM-MXN-156</label>
+            </value>
+            <value>
+                <fullName>EFECTIVO - MC-FAM-MXN-674</fullName>
+                <default>false</default>
+                <label>EFECTIVO - MC-FAM-MXN-674</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-FAM-MXN-81156</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-FAM-MXN-81156</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-HSBC-MXN-381</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-HSBC-MXN-381</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-HSBC-MXN-445</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-HSBC-MXN-445</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-HSBC-MXN-579</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-HSBC-MXN-579</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-HSBC-MXN-744</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-HSBC-MXN-744</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-HSBC-MXN-793</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-HSBC-MXN-793</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-SAN-MXN-140</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-SAN-MXN-140</label>
+            </value>
+            <value>
+                <fullName>EFECTIVO - MC-SAN-MXN-297</fullName>
+                <default>false</default>
+                <label>EFECTIVO - MC-SAN-MXN-297</label>
+            </value>
+            <value>
+                <fullName>EFECTIVO - MC-SAN-MXN-535</fullName>
+                <default>false</default>
+                <label>EFECTIVO - MC-SAN-MXN-535</label>
+            </value>
+            <value>
+                <fullName>EFECTIVO - MC-SAN-MXN-657</fullName>
+                <default>false</default>
+                <label>EFECTIVO - MC-SAN-MXN-657</label>
+            </value>
+            <value>
+                <fullName>EFECTIVO - MC-SAN-MXN-659</fullName>
+                <default>false</default>
+                <label>EFECTIVO - MC-SAN-MXN-659</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-SAN-MXN-715</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-SAN-MXN-715</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-SAN-MXN-715-1</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-SAN-MXN-715-1</label>
+            </value>
+            <value>
+                <fullName>EFECTIVO - MC-SAN-MXN-753</fullName>
+                <default>false</default>
+                <label>EFECTIVO - MC-SAN-MXN-753</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-SAN-MXN-9297</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-SAN-MXN-9297</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-VIRT-EFVO</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-VIRT-EFVO</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-VIRT-EFVO-CJ</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-VIRT-EFVO-CJ</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-VIRT-FIDCONTADO-CJQ</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-VIRT-FIDCONTADO-CJQ</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-VIRT-F-MAS</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-VIRT-F-MAS</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-VIRT-OXXO-CJ</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-VIRT-OXXO-CJ</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-VIRT-OXXO-CMEX</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-VIRT-OXXO-CMEX</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-VIRT-OXXO-CQ</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-VIRT-OXXO-CQ</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-VIRT-TB</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-VIRT-TB</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-VIRT-TB-CJ</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-VIRT-TB-CJ</label>
+            </value>
+            <value>
+                <fullName>Nota Credito - Nota Credito</fullName>
+                <default>false</default>
+                <label>Nota Credito - Nota Credito</label>
+            </value>
+            <value>
+                <fullName>Novacion - Novacion</fullName>
+                <default>false</default>
+                <label>Novacion - Novacion</label>
+            </value>
+            <value>
+                <fullName>Pago con Tarjeta - MC-FAM-MXN-674</fullName>
+                <default>false</default>
+                <label>Pago con Tarjeta - MC-FAM-MXN-674</label>
+            </value>
+            <value>
+                <fullName>Pago con Tarjeta - MC-HSBC-MXN-744</fullName>
+                <default>false</default>
+                <label>Pago con Tarjeta - MC-HSBC-MXN-744</label>
+            </value>
+            <value>
+                <fullName>Pago con Tarjeta - MC-SAN-MXN-753</fullName>
+                <default>false</default>
+                <label>Pago con Tarjeta - MC-SAN-MXN-753</label>
+            </value>
+            <value>
+                <fullName>Payment - APLICACION CARTERA PV CJ</fullName>
+                <default>false</default>
+                <label>Payment - APLICACION CARTERA PV CJ</label>
+            </value>
+            <value>
+                <fullName>Payment - APLICACION CARTERA PV CJM</fullName>
+                <default>false</default>
+                <label>Payment - APLICACION CARTERA PV CJM</label>
+            </value>
+            <value>
+                <fullName>Payment - APLICACION CARTERA PV CJQ</fullName>
+                <default>false</default>
+                <label>Payment - APLICACION CARTERA PV CJQ</label>
+            </value>
+            <value>
+                <fullName>Payment - APLICACION CARTERA PV IPT</fullName>
+                <default>false</default>
+                <label>Payment - APLICACION CARTERA PV IPT</label>
+            </value>
+            <value>
+                <fullName>Payment - APLICACION CARTERA PV SCJ</fullName>
+                <default>false</default>
+                <label>Payment - APLICACION CARTERA PV SCJ</label>
+            </value>
+            <value>
+                <fullName>Payment - CASH</fullName>
+                <default>false</default>
+                <label>Payment - CASH</label>
+            </value>
+            <value>
+                <fullName>Payment - CB-FAM-MXN-674</fullName>
+                <default>false</default>
+                <label>Payment - CB-FAM-MXN-674</label>
+            </value>
+            <value>
+                <fullName>Payment - CB-SAN-DLL-998</fullName>
+                <default>false</default>
+                <label>Payment - CB-SAN-DLL-998</label>
+            </value>
+            <value>
+                <fullName>Payment - CB-SAN-MXN-657</fullName>
+                <default>false</default>
+                <label>Payment - CB-SAN-MXN-657</label>
+            </value>
+            <value>
+                <fullName>Payment - ELEC-VIRT EFVO-QRO</fullName>
+                <default>false</default>
+                <label>Payment - ELEC-VIRT EFVO-QRO</label>
+            </value>
+            <value>
+                <fullName>Payment - ELEC-VIRT-EFVO-CJ</fullName>
+                <default>false</default>
+                <label>Payment - ELEC-VIRT-EFVO-CJ</label>
+            </value>
+            <value>
+                <fullName>Payment - ELEC-VIRT-TB-CJ</fullName>
+                <default>false</default>
+                <label>Payment - ELEC-VIRT-TB-CJ</label>
+            </value>
+            <value>
+                <fullName>Payment - MANUAL-BMX-MXN-729</fullName>
+                <default>false</default>
+                <label>Payment - MANUAL-BMX-MXN-729</label>
+            </value>
+            <value>
+                <fullName>Payment - MANUAL-BNT-MXN-550</fullName>
+                <default>false</default>
+                <label>Payment - MANUAL-BNT-MXN-550</label>
+            </value>
+            <value>
+                <fullName>Payment - MANUAL-BNT-MXN-904</fullName>
+                <default>false</default>
+                <label>Payment - MANUAL-BNT-MXN-904</label>
+            </value>
+            <value>
+                <fullName>Payment - MANUAL-CIB-MXN-704</fullName>
+                <default>false</default>
+                <label>Payment - MANUAL-CIB-MXN-704</label>
+            </value>
+            <value>
+                <fullName>Payment - MANUAL-HSBC-MXN-744</fullName>
+                <default>false</default>
+                <label>Payment - MANUAL-HSBC-MXN-744</label>
+            </value>
+            <value>
+                <fullName>Payment - MANUAL-SAN-MXN-535</fullName>
+                <default>false</default>
+                <label>Payment - MANUAL-SAN-MXN-535</label>
+            </value>
+            <value>
+                <fullName>Payment - MANUAL-SAN-MXN-657</fullName>
+                <default>false</default>
+                <label>Payment - MANUAL-SAN-MXN-657</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-BNT-MXN-317A</fullName>
+                <default>false</default>
+                <label>Payment - MC-BNT-MXN-317A</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-BNT-MXN-550</fullName>
+                <default>false</default>
+                <label>Payment - MC-BNT-MXN-550</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-BNT-MXN-904</fullName>
+                <default>false</default>
+                <label>Payment - MC-BNT-MXN-904</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CI-ANTI-CJ</fullName>
+                <default>false</default>
+                <label>Payment - MC-CI-ANTI-CJ</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CI-ANTI-CM</fullName>
+                <default>false</default>
+                <label>Payment - MC-CI-ANTI-CM</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CIBANCO-MXN-674</fullName>
+                <default>false</default>
+                <label>Payment - MC-CIBANCO-MXN-674</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CIBANCO-MXN-682</fullName>
+                <default>false</default>
+                <label>Payment - MC-CIBANCO-MXN-682</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CIBANCO-MXN-704</fullName>
+                <default>false</default>
+                <label>Payment - MC-CIBANCO-MXN-704</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CIBANCO-MXN-739</fullName>
+                <default>false</default>
+                <label>Payment - MC-CIBANCO-MXN-739</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CIBANCO-MXN-755</fullName>
+                <default>false</default>
+                <label>Payment - MC-CIBANCO-MXN-755</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CTA-DEP-CQ</fullName>
+                <default>false</default>
+                <label>Payment - MC-CTA-DEP-CQ</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CTA-INCOB-CJ</fullName>
+                <default>false</default>
+                <label>Payment - MC-CTA-INCOB-CJ</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CTA-INCOB-CMEX</fullName>
+                <default>false</default>
+                <label>Payment - MC-CTA-INCOB-CMEX</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CTA-INCOB-HJ</fullName>
+                <default>false</default>
+                <label>Payment - MC-CTA-INCOB-HJ</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CTA-INCOB-IMPT</fullName>
+                <default>false</default>
+                <label>Payment - MC-CTA-INCOB-IMPT</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CTA-INCOB-QRO</fullName>
+                <default>false</default>
+                <label>Payment - MC-CTA-INCOB-QRO</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-CTA-INCOB-SAB</fullName>
+                <default>false</default>
+                <label>Payment - MC-CTA-INCOB-SAB</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-FAM-MXN-156</fullName>
+                <default>false</default>
+                <label>Payment - MC-FAM-MXN-156</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-FAM-MXN-674</fullName>
+                <default>false</default>
+                <label>Payment - MC-FAM-MXN-674</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-FAM-MXN-81156</fullName>
+                <default>false</default>
+                <label>Payment - MC-FAM-MXN-81156</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-HSBC-MXN-381</fullName>
+                <default>false</default>
+                <label>Payment - MC-HSBC-MXN-381</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-HSBC-MXN-445</fullName>
+                <default>false</default>
+                <label>Payment - MC-HSBC-MXN-445</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-HSBC-MXN-579</fullName>
+                <default>false</default>
+                <label>Payment - MC-HSBC-MXN-579</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-HSBC-MXN-744</fullName>
+                <default>false</default>
+                <label>Payment - MC-HSBC-MXN-744</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-HSBC-MXN-793</fullName>
+                <default>false</default>
+                <label>Payment - MC-HSBC-MXN-793</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-SAN-MXN-140</fullName>
+                <default>false</default>
+                <label>Payment - MC-SAN-MXN-140</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-SAN-MXN-297</fullName>
+                <default>false</default>
+                <label>Payment - MC-SAN-MXN-297</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-SAN-MXN-359</fullName>
+                <default>false</default>
+                <label>Payment - MC-SAN-MXN-359</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-SAN-MXN-386</fullName>
+                <default>false</default>
+                <label>Payment - MC-SAN-MXN-386</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-SAN-MXN-535</fullName>
+                <default>false</default>
+                <label>Payment - MC-SAN-MXN-535</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-SAN-MXN-657</fullName>
+                <default>false</default>
+                <label>Payment - MC-SAN-MXN-657</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-SAN-MXN-659</fullName>
+                <default>false</default>
+                <label>Payment - MC-SAN-MXN-659</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-SAN-MXN-715</fullName>
+                <default>false</default>
+                <label>Payment - MC-SAN-MXN-715</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-SAN-MXN-715-1</fullName>
+                <default>false</default>
+                <label>Payment - MC-SAN-MXN-715-1</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-SAN-MXN-7152</fullName>
+                <default>false</default>
+                <label>Payment - MC-SAN-MXN-7152</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-SAN-MXN-753</fullName>
+                <default>false</default>
+                <label>Payment - MC-SAN-MXN-753</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-SAN-MXN-9297</fullName>
+                <default>false</default>
+                <label>Payment - MC-SAN-MXN-9297</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-V-CB-CJ-CIBANCO</fullName>
+                <default>false</default>
+                <label>Payment - MC-V-CB-CJ-CIBANCO</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-CHQ-CMEX</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-CHQ-CMEX</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-EFVO-CJ</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-EFVO-CJ</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-EFVO-CMEX</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-EFVO-CMEX</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-EFVO-HJ</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-EFVO-HJ</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-FIDCONTADO-CJ</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-FIDCONTADO-CJ</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-FIDCONTADO-SAB</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-FIDCONTADO-SAB</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-F-MAS</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-F-MAS</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-F-MAS-NOV</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-F-MAS-NOV</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-INCOB-CJ</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-INCOB-CJ</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-INCOB-CM</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-INCOB-CM</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-MXN-VDS</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-MXN-VDS</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-OXXO-CJ</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-OXXO-CJ</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-OXXO-CJ F</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-OXXO-CJ F</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-OXXO-CQ</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-OXXO-CQ</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-ALTUS II</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-ALTUS II</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-BALV</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-BALV</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-CB</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-CB</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-EM-A</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-EM-A</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-EM-B</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-EM-B</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-MASAI</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-MASAI</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-MASS</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-MASS</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-PALTO-1</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-PALTO-1</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-PB</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-PB</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-PDCSV</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-PDCSV</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-PDR</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-PDR</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-PKU</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-PKU</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-PMD</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-PMD</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-QV</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-QV</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-RA</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-RA</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-TEJ</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-TEJ</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-PAG-FID-VDR</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-PAG-FID-VDR</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-SEG-CLD-CJ</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-SEG-CLD-CJ</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-TB-CJ</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-TB-CJ</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-TB-CMEX</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-TB-CMEX</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-TR-F</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-TR-F</label>
+            </value>
+            <value>
+                <fullName>Payment - NULL</fullName>
+                <default>false</default>
+                <label>Payment - NULL</label>
+            </value>
+            <value>
+                <fullName>Payment - VIRT-APL ANTICIPOS CJ</fullName>
+                <default>false</default>
+                <label>Payment - VIRT-APL ANTICIPOS CJ</label>
+            </value>
+            <value>
+                <fullName>Payment - VIRT-APL ANTICIPOS CJQ</fullName>
+                <default>false</default>
+                <label>Payment - VIRT-APL ANTICIPOS CJQ</label>
+            </value>
+            <value>
+                <fullName>Payment - VIRT-APL ANTICIPOS CMEX</fullName>
+                <default>false</default>
+                <label>Payment - VIRT-APL ANTICIPOS CMEX</label>
+            </value>
+            <value>
+                <fullName>Payment - VIRT-APL CTA INCOB CJ</fullName>
+                <default>false</default>
+                <label>Payment - VIRT-APL CTA INCOB CJ</label>
+            </value>
+            <value>
+                <fullName>Payment - VIRT-APL CTA INCOB CMEX</fullName>
+                <default>false</default>
+                <label>Payment - VIRT-APL CTA INCOB CMEX</label>
+            </value>
+            <value>
+                <fullName>Payment - VIRT-APL CTA INCOB QRO</fullName>
+                <default>false</default>
+                <label>Payment - VIRT-APL CTA INCOB QRO</label>
+            </value>
+            <value>
+                <fullName>Tarjeta - MC-HSBC-MXN-381</fullName>
+                <default>false</default>
+                <label>Tarjeta - MC-HSBC-MXN-381</label>
+            </value>
+            <value>
+                <fullName>Tarjeta - MC-HSBC-MXN-579</fullName>
+                <default>false</default>
+                <label>Tarjeta - MC-HSBC-MXN-579</label>
+            </value>
+            <value>
+                <fullName>Tarjeta - MC-HSBC-MXN-744</fullName>
+                <default>false</default>
+                <label>Tarjeta - MC-HSBC-MXN-744</label>
+            </value>
+            <value>
+                <fullName>Tarjeta - MC-VIRT-EFVO-CJ</fullName>
+                <default>false</default>
+                <label>Tarjeta - MC-VIRT-EFVO-CJ</label>
+            </value>
+            <value>
+                <fullName>Tarjeta - MC-VIRT-TB</fullName>
+                <default>false</default>
+                <label>Tarjeta - MC-VIRT-TB</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MANUAL-BNT-MXN-550</fullName>
+                <default>false</default>
+                <label>Transferencia - MANUAL-BNT-MXN-550</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-BNT-MXN-2317</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-BNT-MXN-2317</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-BNT-MXN-317A</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-BNT-MXN-317A</label>
+            </value>
+            <value>
+                <fullName>TRANSFERENCIA - MC-BNT-MXN-550</fullName>
+                <default>false</default>
+                <label>TRANSFERENCIA - MC-BNT-MXN-550</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-CI-ANTI-CJ</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-CI-ANTI-CJ</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-CIBANCO-MXN-674</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-CIBANCO-MXN-674</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-CIBANCO-MXN-682</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-CIBANCO-MXN-682</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-CIBANCO-MXN-704</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-CIBANCO-MXN-704</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-CIBANCO-MXN-739</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-CIBANCO-MXN-739</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-CIBANCO-MXN-755</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-CIBANCO-MXN-755</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-CTA-INCOB-CJ</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-CTA-INCOB-CJ</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-CTA-INCOB-CMEX</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-CTA-INCOB-CMEX</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-CTA-INCOB-SAB</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-CTA-INCOB-SAB</label>
+            </value>
+            <value>
+                <fullName>TRANSFERENCIA - MC-FAM-MXN-156</fullName>
+                <default>false</default>
+                <label>TRANSFERENCIA - MC-FAM-MXN-156</label>
+            </value>
+            <value>
+                <fullName>TRANSFERENCIA - MC-FAM-MXN-674</fullName>
+                <default>false</default>
+                <label>TRANSFERENCIA - MC-FAM-MXN-674</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-HSBC-MXN-381</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-HSBC-MXN-381</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-HSBC-MXN-445</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-HSBC-MXN-445</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-HSBC-MXN-579</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-HSBC-MXN-579</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-HSBC-MXN-744</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-HSBC-MXN-744</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-HSBC-MXN-793</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-HSBC-MXN-793</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-SAN-MXN-1359</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-SAN-MXN-1359</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-SAN-MXN-140</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-SAN-MXN-140</label>
+            </value>
+            <value>
+                <fullName>TRANSFERENCIA - MC-SAN-MXN-297</fullName>
+                <default>false</default>
+                <label>TRANSFERENCIA - MC-SAN-MXN-297</label>
+            </value>
+            <value>
+                <fullName>TRANSFERENCIA - MC-SAN-MXN-359</fullName>
+                <default>false</default>
+                <label>TRANSFERENCIA - MC-SAN-MXN-359</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-SAN-MXN-386</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-SAN-MXN-386</label>
+            </value>
+            <value>
+                <fullName>TRANSFERENCIA - MC-SAN-MXN-535</fullName>
+                <default>false</default>
+                <label>TRANSFERENCIA - MC-SAN-MXN-535</label>
+            </value>
+            <value>
+                <fullName>TRANSFERENCIA - MC-SAN-MXN-657</fullName>
+                <default>false</default>
+                <label>TRANSFERENCIA - MC-SAN-MXN-657</label>
+            </value>
+            <value>
+                <fullName>TRANSFERENCIA - MC-SAN-MXN-659</fullName>
+                <default>false</default>
+                <label>TRANSFERENCIA - MC-SAN-MXN-659</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-SAN-MXN-715</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-SAN-MXN-715</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-SAN-MXN-715-1</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-SAN-MXN-715-1</label>
+            </value>
+            <value>
+                <fullName>TRANSFERENCIA - MC-SAN-MXN-753</fullName>
+                <default>false</default>
+                <label>TRANSFERENCIA - MC-SAN-MXN-753</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-SAN-MXN-9297</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-SAN-MXN-9297</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-EFVO</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-EFVO</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-EFVO-CJ</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-EFVO-CJ</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-FIDCONTADO-CJQ</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-FIDCONTADO-CJQ</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-FIDCONTADO-SAB</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-FIDCONTADO-SAB</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-OXXO-CJ</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-OXXO-CJ</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-OXXO-CM</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-OXXO-CM</label>
+            </value>
+            <value>
+                <fullName>TRANSFERENCIA - MC-VIRT-OXXO-CQ</fullName>
+                <default>false</default>
+                <label>TRANSFERENCIA - MC-VIRT-OXXO-CQ</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-OXXO-HJ</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-OXXO-HJ</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-ALTUS II</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-ALTUS II</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-BALV</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-BALV</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-EM-A</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-EM-A</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-EM-B</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-EM-B</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-MASAI</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-MASAI</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-MASS</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-MASS</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-PALTO-1</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-PALTO-1</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-PDCSV</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-PDCSV</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-PDR</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-PDR</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-PKU</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-PKU</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-PMD</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-PMD</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-QV</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-QV</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-RA</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-RA</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-TEJ</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-TEJ</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-VDR</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-VDR</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-VSE</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-VSE</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-PAG-FID-ZIZANA</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-PAG-FID-ZIZANA</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-TB</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-TB</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-TB-CJ</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-TB-CJ</label>
+            </value>
+            <value>
+                <fullName>VIRTUAL - MC-CTA-INCOB-CJ</fullName>
+                <default>false</default>
+                <label>VIRTUAL - MC-CTA-INCOB-CJ</label>
+            </value>
+            <value>
+                <fullName>VIRTUAL - MC-CTA-INCOB-CMEX</fullName>
+                <default>false</default>
+                <label>VIRTUAL - MC-CTA-INCOB-CMEX</label>
+            </value>
+            <value>
+                <fullName>VIRTUAL - MC-CTA-INCOB-HJ</fullName>
+                <default>false</default>
+                <label>VIRTUAL - MC-CTA-INCOB-HJ</label>
+            </value>
+            <value>
+                <fullName>VIRTUAL - MC-CTA-INCOB-IMPT</fullName>
+                <default>false</default>
+                <label>VIRTUAL - MC-CTA-INCOB-IMPT</label>
+            </value>
+            <value>
+                <fullName>VIRTUAL - MC-CTA-INCOB-QRO</fullName>
+                <default>false</default>
+                <label>VIRTUAL - MC-CTA-INCOB-QRO</label>
+            </value>
+            <value>
+                <fullName>BANCOS VIRTUAL - MC-VIRT-OXXO-CJ-HSBC</fullName>
+                <default>false</default>
+                <label>BANCOS VIRTUAL - MC-VIRT-OXXO-CJ-HSBC</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-OXXO-CJ-HSBC</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-OXXO-CJ-HSBC</label>
+            </value>
+            <value>
+                <fullName>TRANSFERENCIA - MC-VIRT-OXXO-CJ-HSBC</fullName>
+                <default>false</default>
+                <label>TRANSFERENCIA - MC-VIRT-OXXO-CJ-HSBC</label>
+            </value>
+            <value>
+                <fullName>Transferencia - MC-VIRT-OXXO-CM-HSBC</fullName>
+                <default>false</default>
+                <label>Transferencia - MC-VIRT-OXXO-CM-HSBC</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-VIRT-OXXO-CQ-HSBC</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-VIRT-OXXO-CQ-HSBC</label>
+            </value>
+            <value>
+                <fullName>Payment - MC-VIRT-OXXO-CQ-HSBC</fullName>
+                <default>false</default>
+                <label>Payment - MC-VIRT-OXXO-CQ-HSBC</label>
+            </value>
+            <value>
+                <fullName>TRANSFERENCIA - MC-VIRT-OXXO-CQ-HSBC</fullName>
+                <default>false</default>
+                <label>TRANSFERENCIA - MC-VIRT-OXXO-CQ-HSBC</label>
+            </value>
+            <value>
+                <fullName>Efectivo - MC-VIRT-OXXO-CJ-HSBC</fullName>
+                <default>false</default>
+                <label>Efectivo - MC-VIRT-OXXO-CJ-HSBC</label>
+            </value>
+            <value>
+                <fullName>Débito</fullName>
+                <default>false</default>
+                <label>Débito</label>
+            </value>
+            <value>
+                <fullName>Crédito</fullName>
+                <default>false</default>
+                <label>Crédito</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - APLICACION CARTERA PV CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - APLICACION CARTERA PV CJM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - APLICACION CARTERA PV CJQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - APLICACION CARTERA PV IPT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - APLICACION CARTERA PV SCJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - CASH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - CB-FAM-MXN-674</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - CB-SAN-DLL-998</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - CB-SAN-MXN-657</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - ELEC-VIRT EFVO-QRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - ELEC-VIRT-EFVO-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - ELEC-VIRT-TB-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MANUAL-BMX-MXN-729</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MANUAL-BNT-MXN-550</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MANUAL-BNT-MXN-904</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MANUAL-CIB-MXN-704</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MANUAL-HSBC-MXN-744</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MANUAL-SAN-MXN-535</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MANUAL-SAN-MXN-657</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-BNT-MXN-317A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-BNT-MXN-550</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-BNT-MXN-904</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CI-ANTI-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CI-ANTI-CM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CIBANCO-MXN-674</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CIBANCO-MXN-682</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CIBANCO-MXN-704</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CIBANCO-MXN-739</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CIBANCO-MXN-755</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CTA-DEP-CQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CTA-INCOB-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CTA-INCOB-CMEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CTA-INCOB-HJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CTA-INCOB-IMPT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CTA-INCOB-QRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-CTA-INCOB-SAB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-FAM-MXN-156</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-FAM-MXN-674</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-FAM-MXN-81156</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-HSBC-MXN-381</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-HSBC-MXN-445</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-HSBC-MXN-579</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-HSBC-MXN-744</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-HSBC-MXN-793</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-SAN-MXN-140</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-SAN-MXN-297</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-SAN-MXN-359</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-SAN-MXN-386</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-SAN-MXN-535</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-SAN-MXN-657</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-SAN-MXN-659</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-SAN-MXN-715</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-SAN-MXN-715-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-SAN-MXN-7152</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-SAN-MXN-753</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-SAN-MXN-9297</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-V-CB-CJ-CIBANCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-CHQ-CMEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-EFVO-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-EFVO-CMEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-EFVO-HJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-FIDCONTADO-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-FIDCONTADO-SAB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-F-MAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-F-MAS-NOV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-INCOB-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-INCOB-CM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-MXN-VDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-OXXO-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-OXXO-CJ F</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-OXXO-CQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-ALTUS II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-BALV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-CB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-EM-A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-EM-B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-MASAI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-MASS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-PALTO-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-PB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-PDCSV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-PDR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-PKU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-PMD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-QV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-RA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-TEJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-PAG-FID-VDR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-SEG-CLD-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-TB-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-TB-CMEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-TR-F</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - NULL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - VIRT-APL ANTICIPOS CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - VIRT-APL ANTICIPOS CJQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - VIRT-APL ANTICIPOS CMEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - VIRT-APL CTA INCOB CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - VIRT-APL CTA INCOB CMEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - VIRT-APL CTA INCOB QRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-OXXO-CJ-HSBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAYMENT</controllingFieldValue>
+            <valueName>Payment - MC-VIRT-OXXO-CQ-HSBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TARJETA</controllingFieldValue>
+            <valueName>Tarjeta - MC-HSBC-MXN-381</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TARJETA</controllingFieldValue>
+            <valueName>Tarjeta - MC-HSBC-MXN-579</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TARJETA</controllingFieldValue>
+            <valueName>Tarjeta - MC-HSBC-MXN-744</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TARJETA</controllingFieldValue>
+            <valueName>Tarjeta - MC-VIRT-EFVO-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TARJETA</controllingFieldValue>
+            <valueName>Tarjeta - MC-VIRT-TB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MANUAL-BNT-MXN-550</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-BNT-MXN-2317</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-BNT-MXN-317A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>TRANSFERENCIA - MC-BNT-MXN-550</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-CI-ANTI-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-CIBANCO-MXN-674</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-CIBANCO-MXN-682</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-CIBANCO-MXN-704</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-CIBANCO-MXN-739</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-CIBANCO-MXN-755</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-CTA-INCOB-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-CTA-INCOB-CMEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-CTA-INCOB-SAB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>TRANSFERENCIA - MC-FAM-MXN-156</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>TRANSFERENCIA - MC-FAM-MXN-674</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-HSBC-MXN-381</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-HSBC-MXN-445</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-HSBC-MXN-579</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-HSBC-MXN-744</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-HSBC-MXN-793</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-SAN-MXN-1359</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-SAN-MXN-140</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>TRANSFERENCIA - MC-SAN-MXN-297</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>TRANSFERENCIA - MC-SAN-MXN-359</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-SAN-MXN-386</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>TRANSFERENCIA - MC-SAN-MXN-535</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>TRANSFERENCIA - MC-SAN-MXN-657</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>TRANSFERENCIA - MC-SAN-MXN-659</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-SAN-MXN-715</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-SAN-MXN-715-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>TRANSFERENCIA - MC-SAN-MXN-753</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-SAN-MXN-9297</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-EFVO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-EFVO-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-FIDCONTADO-CJQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-FIDCONTADO-SAB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-OXXO-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-OXXO-CM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>TRANSFERENCIA - MC-VIRT-OXXO-CQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-OXXO-HJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-ALTUS II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-BALV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-EM-A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-EM-B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-MASAI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-MASS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-PALTO-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-PDCSV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-PDR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-PKU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-PMD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-QV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-RA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-TEJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-VDR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-VSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-PAG-FID-ZIZANA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-TB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-TB-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>TRANSFERENCIA - MC-VIRT-OXXO-CJ-HSBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>Transferencia - MC-VIRT-OXXO-CM-HSBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSFERENCIA</controllingFieldValue>
+            <valueName>TRANSFERENCIA - MC-VIRT-OXXO-CQ-HSBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIRTUAL</controllingFieldValue>
+            <valueName>VIRTUAL - MC-CTA-INCOB-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIRTUAL</controllingFieldValue>
+            <valueName>VIRTUAL - MC-CTA-INCOB-CMEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIRTUAL</controllingFieldValue>
+            <valueName>VIRTUAL - MC-CTA-INCOB-HJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIRTUAL</controllingFieldValue>
+            <valueName>VIRTUAL - MC-CTA-INCOB-IMPT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VIRTUAL</controllingFieldValue>
+            <valueName>VIRTUAL - MC-CTA-INCOB-QRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS BANORTE</controllingFieldValue>
+            <valueName>BANCOS BANORTE - CASH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS BANORTE</controllingFieldValue>
+            <valueName>BANCOS BANORTE - MC-BNT-MXN-550</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS BANORTE</controllingFieldValue>
+            <valueName>BANCOS BANORTE - MC-BNT-MXN-799</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS FAMSA</controllingFieldValue>
+            <valueName>BANCOS FAMSA - CASH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS FAMSA</controllingFieldValue>
+            <valueName>BANCOS FAMSA - MC-FAM-MXN-156</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS FAMSA</controllingFieldValue>
+            <valueName>BANCOS FAMSA - MC-FAM-MXN-674</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS SANTANDER</controllingFieldValue>
+            <valueName>BANCOS SANTANDER - CASH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS SANTANDER</controllingFieldValue>
+            <valueName>BANCOS SANTANDER - MC-SAN-MXN-297</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS SANTANDER</controllingFieldValue>
+            <valueName>BANCOS SANTANDER - MC-SAN-MXN-359</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS SANTANDER</controllingFieldValue>
+            <valueName>BANCOS SANTANDER - MC-SAN-MXN-457</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS SANTANDER</controllingFieldValue>
+            <valueName>BANCOS SANTANDER - MC-SAN-MXN-535</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS SANTANDER</controllingFieldValue>
+            <valueName>BANCOS SANTANDER - MC-SAN-MXN-657</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS SANTANDER</controllingFieldValue>
+            <valueName>BANCOS SANTANDER - MC-SAN-MXN-659</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS SANTANDER</controllingFieldValue>
+            <valueName>BANCOS SANTANDER - MC-SAN-MXN-753</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS VIRTUAL</controllingFieldValue>
+            <valueName>BANCOS VIRTUAL - CASH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS VIRTUAL</controllingFieldValue>
+            <valueName>BANCOS VIRTUAL - MC-VIRT-EFVO-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS VIRTUAL</controllingFieldValue>
+            <valueName>BANCOS VIRTUAL - MC-VIRT-EFVO-CMEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS VIRTUAL</controllingFieldValue>
+            <valueName>BANCOS VIRTUAL - MC-VIRT-OXXO-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS VIRTUAL</controllingFieldValue>
+            <valueName>BANCOS VIRTUAL - MC-VIRT-OXXO-HJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS VIRTUAL</controllingFieldValue>
+            <valueName>BANCOS VIRTUAL - MC-VIRT-PAG-FID-VSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCOS VIRTUAL</controllingFieldValue>
+            <valueName>BANCOS VIRTUAL - MC-VIRT-OXXO-CJ-HSBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-BNT-MXN-550</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-FAM-MXN-674</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-HSBC-MXN-381</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-HSBC-MXN-445</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-HSBC-MXN-579</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-HSBC-MXN-744</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-HSBC-MXN-793</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-SAN-MXN-140</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-SAN-MXN-297</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-SAN-MXN-359</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-SAN-MXN-535</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>CHEQUE - MC-SAN-MXN-657</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-SAN-MXN-715-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-SAN-MXN-753</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE</controllingFieldValue>
+            <valueName>Cheque - MC-VIRT-CHQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-BNT-MXN-317A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-BNT-MXN-550</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-FAM-MXN-156</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-HSBC-MXN-381</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-HSBC-MXN-445</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-HSBC-MXN-579</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-HSBC-MXN-744</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-HSBC-MXN-793</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-SAN-MXN-1359</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-SAN-MXN-140</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-SAN-MXN-297</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-SAN-MXN-359</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>CHEQUE SBC - MC-SAN-MXN-535</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>CHEQUE SBC - MC-SAN-MXN-657</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-SAN-MXN-659</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CHEQUE SBC</controllingFieldValue>
+            <valueName>Cheque SBC - MC-SAN-MXN-753</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - APLICACION CARTERA PV CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - CAJA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-BNT-MXN-2317</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-BNT-MXN-317A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>EFECTIVO - MC-BNT-MXN-550</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-CI-ANTI-CQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>EFECTIVO - MC-CI-ANTI-HJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-FAM-MXN-1156</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>EFECTIVO - MC-FAM-MXN-156</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>EFECTIVO - MC-FAM-MXN-674</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-FAM-MXN-81156</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-HSBC-MXN-381</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-HSBC-MXN-445</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-HSBC-MXN-579</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-HSBC-MXN-744</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-HSBC-MXN-793</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-SAN-MXN-140</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>EFECTIVO - MC-SAN-MXN-297</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>EFECTIVO - MC-SAN-MXN-535</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>EFECTIVO - MC-SAN-MXN-657</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>EFECTIVO - MC-SAN-MXN-659</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-SAN-MXN-715</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-SAN-MXN-715-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>EFECTIVO - MC-SAN-MXN-753</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-SAN-MXN-9297</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-VIRT-EFVO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-VIRT-EFVO-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-VIRT-FIDCONTADO-CJQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-VIRT-F-MAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-VIRT-OXXO-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-VIRT-OXXO-CMEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-VIRT-OXXO-CQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-VIRT-TB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-VIRT-TB-CJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EFECTIVO</controllingFieldValue>
+            <valueName>Efectivo - MC-VIRT-OXXO-CQ-HSBC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NOTA CREDITO</controllingFieldValue>
+            <valueName>Nota Credito - Nota Credito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NOVACION</controllingFieldValue>
+            <valueName>Novacion - Novacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAGO CON TARJETA</controllingFieldValue>
+            <valueName>Pago con Tarjeta - MC-FAM-MXN-674</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAGO CON TARJETA</controllingFieldValue>
+            <valueName>Pago con Tarjeta - MC-HSBC-MXN-744</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PAGO CON TARJETA</controllingFieldValue>
+            <valueName>Pago con Tarjeta - MC-SAN-MXN-753</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CDC_Antecedente_Compra__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Primera_Compra_en_JAVER__c) = &quot;No&quot;, 2, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Este campo evalua la pregunta de la primera compra en Javer, si la respuesta es &quot;Sí&quot; la puntuación es 0.</inlineHelpText>
+    <label>CDC-Antecedente Compra</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

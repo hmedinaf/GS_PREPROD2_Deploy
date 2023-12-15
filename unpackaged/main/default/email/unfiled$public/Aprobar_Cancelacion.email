@@ -1,0 +1,14 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[Atención: {!Cancelacion__c.Aprobador_Buscar__c}]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[<font face="arial"><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Favor de responder a consulta de proceso de aprobación de la Cancelación #&nbsp;</span>{!Cancelacion__c.Name}<span style="font-size: 12pt;">. Los detalles de la Cancelación son:</span></font><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Nombre: {!Cancelacion__c.Name}</div><div><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Fecha de Creación:&nbsp;</span><font face="arial">{!Cancelacion__c.CreatedDate}</font></div><div><font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Tipo de Cancelación:&nbsp;</font><font face="arial">{!Cancelacion__c.RecordType}</font></div><div><font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 12pt;">Nombre del solicitante:&nbsp;</span></font><font face="arial">{!Cancelacion__c.Nombre_Solicitante__c}</font></div><div><font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Periodo:&nbsp;</font><font face="arial">{!Cancelacion__c.Periodo__c}</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Fraccionamiento:&nbsp;{!Cancelacion__c.Fraccionamiento__c}</div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></div><div><font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Enlace al registro de esta comisión aqui: &nbsp;</font><font face="arial">{!Cancelacion__c.Link}</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;</span></div>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[]]></td>
+</tr>
+</table>

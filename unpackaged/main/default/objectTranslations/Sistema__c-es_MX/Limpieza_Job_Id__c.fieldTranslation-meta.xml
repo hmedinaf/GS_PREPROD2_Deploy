@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- El Id que genera Salesforce al agendar un JOB. Cuando ya está generado este Id puede utilizarse para detener el JOB. --></help>
+        <label><!-- Limpieza Job Id --></label>
+        <name>Limpieza_Job_Id__c</name>
+    </CustomFieldTranslation>

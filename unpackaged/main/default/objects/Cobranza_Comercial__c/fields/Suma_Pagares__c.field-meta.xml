@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suma_Pagares__c</fullName>
+    <externalId>false</externalId>
+    <label>Suma de Pagarés VE</label>
+    <summarizedField>Documento__c.Importe__c</summarizedField>
+    <summaryFilterItems>
+        <field>Documento__c.Tipo__c</field>
+        <operation>equals</operation>
+        <value>Pagaré Enganche, Pagaré Financiera, Pagaré Fondo de Garantía, Pagaré Postventa, Pagaré Reestructura Post Venta, Pagaré Seguro Financiera, Pagaré Subsidio</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Documento__c.Cobranza_Comercial__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<apex:page standardController="Inventario__c" extensions="ImagenVivienda">
+    <apex:includeScript id="gmpas" value="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_jm7pabj-yuSk45vuzZFh_IEaPpaqbIY&v=3.exp&language=es"/>
+    <html> 
+        <img src="{!inventario.Fracc__r.LigaLogoFracc__c}" width="100%" alt="No se cuenta con el logo de fraccionamiento"/>
+        <img src="{!inventario.Proto__r.ImgPrototipo__c}" width="100%" alt="No se cuenta con imagen de prototipo"/>
+        <apex:outputPanel id="PanelMapa">
+            <apex:map id="defaultMap" width="100%" height="300px" zoomLevel="15" mapType="roadmap" scrollBasedZooming="false" >        
+                <apex:mapMarker id="marker" title="{!inventario.Fracc__r.Name}" position="{latitude: {!latitude}, longitude: {!longitude}}" />                
+            </apex:map>
+        </apex:outputPanel>
+        <img src="{!inventario.Fracc__r.Sembrado__c}" width="100%" alt="No se cuenta con imagen de sembrado"/>
+        <img src="{!inventario.Proto__r.PlanoArquitectonico__c}" width="100%" alt="No se cuenta con plano arquitectónico"/>
+    </html>
+</apex:page>

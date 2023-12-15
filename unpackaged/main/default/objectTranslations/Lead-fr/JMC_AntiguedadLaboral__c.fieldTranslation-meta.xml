@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Antigüedad laboral --></label>
+        <name>JMC_AntiguedadLaboral__c</name>
+        <picklistValues>
+            <masterLabel>*12 a 17 meses</masterLabel>
+            <translation><!-- *12 a 17 meses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>*18 meses o mas</masterLabel>
+            <translation><!-- *18 meses o mas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>*6 a 11 meses</masterLabel>
+            <translation><!-- *6 a 11 meses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>*Menos de 6 meses</masterLabel>
+            <translation><!-- *Menos de 6 meses --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Valores_Negativos</fullName>
+    <active>true</active>
+    <description>No se aceptan valores negativos en Pagarés y Notas de Crédito</description>
+    <errorConditionFormula>IF( Importe__c  &lt;  0, TRUE, FALSE)</errorConditionFormula>
+    <errorDisplayField>Importe__c</errorDisplayField>
+    <errorMessage>No se permiten importes negativos</errorMessage>
+</ValidationRule>

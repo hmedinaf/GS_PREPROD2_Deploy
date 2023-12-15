@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo de Pago --></label>
+        <name>Tipo_de_Pago__c</name>
+        <picklistValues>
+            <masterLabel>Bancos Banorte</masterLabel>
+            <translation><!-- Bancos Banorte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bancos Santander</masterLabel>
+            <translation><!-- Bancos Santander --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bancos Virtual</masterLabel>
+            <translation><!-- Bancos Virtual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque</masterLabel>
+            <translation><!-- Cheque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC</masterLabel>
+            <translation><!-- Cheque SBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo</masterLabel>
+            <translation><!-- Efectivo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nota Credito</masterLabel>
+            <translation><!-- Nota Credito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Novacion</masterLabel>
+            <translation><!-- Novacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pago con Tarjeta</masterLabel>
+            <translation><!-- Pago con Tarjeta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment</masterLabel>
+            <translation><!-- Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarjeta</masterLabel>
+            <translation><!-- Tarjeta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia</masterLabel>
+            <translation><!-- Transferencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtual</masterLabel>
+            <translation><!-- Virtual --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

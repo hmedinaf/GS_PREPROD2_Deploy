@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_Leads</fullName>
+    <active>true</active>
+    <description>Regla para validar los campos que deben llenarse para permitir la conversión de Lead a Cuenta.</description>
+    <errorConditionFormula>AND (IsConverted,
+	OR(
+		NOT (ISPICKVAL( Status , &#39;Envío MAS Comercial&#39;)), 
+		NOT (ISPICKVAL(  JMC_Analisisinterno__c  , &#39;Perfilado&#39;)), 
+		NOT (ISPICKVAL(  JMC_EstatusLead__c  , &#39;Perfilado&#39;)), 
+		ISBLANK(JMC_FechaNacimiento__c),
+		ISBLANK(Asesores__c),
+		ISBLANK(FirstName ),
+		ISBLANK(LastName ),
+		ISBLANK(TEXT(JMC_Genero__c )),
+		ISBLANK(Email),
+		ISBLANK((JMC_Fraccionamiento__r.Name )),
+		ISBLANK(TEXT(JMC_CanalVenta__c )),
+		ISBLANK(TEXT(JMC_SubCanalVenta__c )),
+		ISBLANK(TEXT(JMC_TipoCredito__c )),
+		AND (
+			ISPICKVAL(JMC_TipoCredito__c  , &#39;INFONAVIT&#39;),
+			ISBLANK(JMC_NSS__c)
+		),
+		AND ( 
+            ISBLANK( MobilePhone), 
+			ISBLANK ( Phone )
+		)
+	)
+)</errorConditionFormula>
+    <errorMessage>Campos requeridos para conversión. [Nombre Completo, Etapa de prospección, Análisis interno, Estatus Lead, Sexo, Fraccionamiento, Canal Venta, SubCanal Venta,
+Teléfono celular ó  Teléfono,
+Si Tipo de Crédito =  INFONAVIT entonces NSS Obligatorio]</errorMessage>
+</ValidationRule>

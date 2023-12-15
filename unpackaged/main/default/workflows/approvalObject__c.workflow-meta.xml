@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Actualizar_F_H_de_Resolucion</fullName>
+        <field>FHR__c</field>
+        <formula>Now()</formula>
+        <name>Actualizar F/H de Resolución</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Se actualizó el Estatus</fullName>
+        <actions>
+            <name>Actualizar_F_H_de_Resolucion</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>approvalObject__c.Estatus__c</field>
+            <operation>equals</operation>
+            <value>Aprobada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>approvalObject__c.Estatus__c</field>
+            <operation>equals</operation>
+            <value>Rechazada</value>
+        </criteriaItems>
+        <description>Se actualizó el estatus del objeto relacionado y esta acción actualizó el estatus de approvalObject. Ahora debemos guardar la fecha/hora actual en este evento.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

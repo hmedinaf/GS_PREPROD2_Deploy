@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email de Aprobación para solictar la creación de una cuenta sin Apellido Materno</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Aprobación Check Apellido Materno</name>
+    <style>none</style>
+    <subject>Solicitud de Aprobación para registro de cuenta sin apellido materno</subject>
+    <textOnly>Se solicita su aprobación para crear el siguiente registro sin apellido materno:
+
+Solicitante:             {!ApprovalRequest.Process_Approver}
+
+Cliente:                   {!Account.Name}
+
+Fraccionamiento:   {!Account.Fraccionamiento_cta__c}
+
+Prototipo:                {!Account.Quote_Prototipo__c}
+
+Nombre:                  {!Account.FirstName}
+
+Apellido Paterno:    {!Account.LastName}
+
+Apellido Materno:    {!Account.Apellidomaterno_cta__c}
+
+Selecciona tu respuesta utilizando los botones: :
+
+
+Aprobar Rechazar</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

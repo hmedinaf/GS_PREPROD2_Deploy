@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Zona --></label>
+        <name>Zona__c</name>
+        <picklistValues>
+            <masterLabel>1/2 Baño</masterLabel>
+            <translation><!-- 1/2 Baño --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Area Municipal</masterLabel>
+            <translation><!-- Area Municipal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Azotea</masterLabel>
+            <translation><!-- Azotea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banquetas</masterLabel>
+            <translation><!-- Banquetas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baño</masterLabel>
+            <translation><!-- Baño --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boquillas</masterLabel>
+            <translation><!-- Boquillas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cocina</masterLabel>
+            <translation><!-- Cocina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comedor</masterLabel>
+            <translation><!-- Comedor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuadro hidráulico</masterLabel>
+            <translation><!-- Cuadro hidráulico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cubo Escalera</masterLabel>
+            <translation><!-- Cubo Escalera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estancia</masterLabel>
+            <translation><!-- Estancia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fachada de Pasillo</masterLabel>
+            <translation><!-- Fachada de Pasillo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fachada de Patio</masterLabel>
+            <translation><!-- Fachada de Patio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fachada de Principal</masterLabel>
+            <translation><!-- Fachada de Principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Huellas</masterLabel>
+            <translation><!-- Huellas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lavabo</masterLabel>
+            <translation><!-- Lavabo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lavadero</masterLabel>
+            <translation><!-- Lavadero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lavandería</masterLabel>
+            <translation><!-- Lavandería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Losa cimentación</masterLabel>
+            <translation><!-- Losa cimentación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Losa entrepiso</masterLabel>
+            <translation><!-- Losa entrepiso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minisplit</masterLabel>
+            <translation><!-- Minisplit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Molduras</masterLabel>
+            <translation><!-- Molduras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Murete</masterLabel>
+            <translation><!-- Murete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parque Principal</masterLabel>
+            <translation><!-- Parque Principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patio</masterLabel>
+            <translation><!-- Patio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plafon</masterLabel>
+            <translation><!-- Plafon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pretil</masterLabel>
+            <translation><!-- Pretil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recamara 1</masterLabel>
+            <translation><!-- Recamara 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recamara 2</masterLabel>
+            <translation><!-- Recamara 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recamara 3</masterLabel>
+            <translation><!-- Recamara 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regadera</masterLabel>
+            <translation><!-- Regadera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roof garden</masterLabel>
+            <translation><!-- Roof garden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sala</masterLabel>
+            <translation><!-- Sala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sotano</masterLabel>
+            <translation><!-- Sotano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terraza</masterLabel>
+            <translation><!-- Terraza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vialidad</masterLabel>
+            <translation><!-- Vialidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vivienda</masterLabel>
+            <translation><!-- Vivienda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zinc</masterLabel>
+            <translation><!-- Zinc --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

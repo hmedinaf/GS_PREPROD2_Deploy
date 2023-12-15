@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Direcci_n_Jur_dica_Planning</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Dirección Jurídica</label>
+    <queue>Direcci_n_Jur_dica</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

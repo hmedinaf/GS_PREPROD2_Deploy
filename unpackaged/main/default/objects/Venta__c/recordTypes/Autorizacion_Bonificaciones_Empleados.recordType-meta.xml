@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Autorizacion_Bonificaciones_Empleados</fullName>
+    <active>true</active>
+    <description>Autorización Bonificaciones Empleados</description>
+    <label>Autorizacion Bonificaciones Empleados</label>
+</RecordType>

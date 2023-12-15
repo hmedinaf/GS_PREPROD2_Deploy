@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Procesos_en_formalizacion</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Cliente__c</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>Fraccionamiento__c</columns>
+    <columns>Prototipo__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Tipo_de_Credito__c</columns>
+    <columns>Producto_financiero__c</columns>
+    <columns>Asesor__c</columns>
+    <columns>Valor_Operacion__c</columns>
+    <columns>Fecha_Formalizacion__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Formalizado</value>
+    </filters>
+    <label>Procesos formalizados</label>
+</ListView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aplican_Cargos__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+CASE( TEXT(CPPTS_Razon_Rechazo__c),
+      &quot;Aviso de Retención no firmado&quot;, 1,
+      &quot;Cambio de Ciudad&quot;, 1,
+      &quot;Cambio de Empleo&quot;, 1,
+      &quot;Cancelación Con Financiera&quot;, 1,
+      &quot;Crédito Denegado&quot;, 0,
+      &quot;Desempleo&quot;, 0,
+      &quot;Excepción APC&quot;, 1,
+      &quot;Ilocalizable&quot;, 1,
+      &quot;Error de RFC&quot;, 1,
+      &quot;Falta de Aportaciones&quot;, 1,
+      &quot;Falta de Papelería&quot;, 1,
+      &quot;Homonimia&quot;, 1,
+      &quot;Motivos Personales&quot;, 1,
+      &quot;Otra opción de compra&quot;, 1,
+      &quot;Por error en captura&quot;, 0,
+      &quot;Temas Económicos&quot;, 1,
+      &quot;Problemas en la Construcción&quot;, 0,
+      &quot;Recurso Vencido YY&quot;, 1,
+      &quot;Sin relación laboral&quot;, 1,
+      &quot;Tiempo de Entrega&quot;, 1,
+      &quot;Ya cuenta con Subsidio&quot;, 1, 
+      0) = 1, True, False)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Aplican Cargos</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

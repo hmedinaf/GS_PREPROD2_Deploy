@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Check_Apellido_Aprobado</fullName>
+    <active>true</active>
+    <description>Esta Regla de Validación No permite editar el Apellido Materno una vez que se ha aprobado que el Prospecto exista sin Apellido Materno</description>
+    <errorConditionFormula>AND(
+	!IsVRBypassed__c,
+	!$User.is_Data_Migration_User__c,
+ ISBLANK(Apellidomaterno_cta__c) = False,
+ Aprobo_Check_Apellido__c = True
+)</errorConditionFormula>
+    <errorDisplayField>Apellidomaterno_cta__c</errorDisplayField>
+    <errorMessage>No puede introducir Apellido Materno, ya que se autorizo que el prospecto no cuente con este dato.</errorMessage>
+</ValidationRule>

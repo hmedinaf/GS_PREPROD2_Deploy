@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aviso_Retencion_Estado_Cancelado</fullName>
+    <active>true</active>
+    <description>Este campo no se puede modificar en el estado &quot;Cancelado&quot;</description>
+    <errorConditionFormula>AND(ISCHANGED(  Aviso_de_Retencion__c  ), ISPICKVAL( Estatus_Proceso__c , &#39;Cancelado&#39;))</errorConditionFormula>
+    <errorDisplayField>Aviso_de_Retencion__c</errorDisplayField>
+    <errorMessage>Este campo no se puede modificar en el estado &quot;Cancelado&quot;</errorMessage>
+</ValidationRule>

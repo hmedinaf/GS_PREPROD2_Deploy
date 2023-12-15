@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Siebel Account Id --></label>
+        <name>JMC_SBLAccntId__c</name>
+    </CustomFieldTranslation>

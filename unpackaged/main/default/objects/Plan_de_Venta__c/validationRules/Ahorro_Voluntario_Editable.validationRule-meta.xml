@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ahorro_Voluntario_Editable</fullName>
+    <active>false</active>
+    <description>Los campos Ahorro voluntario solo son editables en el estatus de: Reservado.</description>
+    <errorConditionFormula>OR(NOT(Estatus_Proceso_de_Venta__c = &#39;Reservado&#39;) &amp;&amp;
+(
+ ISCHANGED( Ahorro_Voluntario_1__c  ) ||
+ ISCHANGED( Ahorro_voluntario_2__c) ||
+ ISCHANGED( Ahorro_Voluntario_3__c)
+),
+AND(
+(
+ ISCHANGED( Ahorro_Voluntario_1__c  ) ||
+ ISCHANGED( Ahorro_voluntario_2__c) ||
+ ISCHANGED( Ahorro_Voluntario_3__c)
+)
+),
+(
+TEXT(Estatus_Plan_de_venta__c) = &#39;Por Aprobar&#39; ||
+TEXT(Estatus_Plan_de_venta__c) = &#39;Aprobado&#39;
+)
+)</errorConditionFormula>
+    <errorMessage>Los campos Ahorro voluntario solo son editables en el estatus de: Reservado o Plan de venta igual a En Progreso o Rechazado.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sub Canal de Venta 1 --></label>
+        <name>SubCanalVenta__c</name>
+        <picklistValues>
+            <masterLabel>AGS Feria CANADEVI</masterLabel>
+            <translation><!-- AGS Feria CANADEVI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGS Moctezuma</masterLabel>
+            <translation><!-- AGS Moctezuma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGS Plaza Universidad</masterLabel>
+            <translation><!-- AGS Plaza Universidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGS San Diego</masterLabel>
+            <translation><!-- AGS San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Activación/Evento</masterLabel>
+            <translation><!-- Activación/Evento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Activación/Evento/Periferia</masterLabel>
+            <translation><!-- Activación/Evento/Periferia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ags Villa Asunción</masterLabel>
+            <translation><!-- Ags Villa Asunción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blogger/Tania Rendón</masterLabel>
+            <translation><!-- Blogger/Tania Rendón --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CETRAM Rosario</masterLabel>
+            <translation><!-- CETRAM Rosario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Center / Telemarketing</masterLabel>
+            <translation><!-- Call Center / Telemarketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambaceo</masterLabel>
+            <translation><!-- Cambaceo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cartelera Móvil</masterLabel>
+            <translation><!-- Cartelera Móvil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cita Asesor</masterLabel>
+            <translation><!-- Cita Asesor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colaborador Javer</masterLabel>
+            <translation><!-- Colaborador Javer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compañero de Trabajo</masterLabel>
+            <translation><!-- Compañero de Trabajo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contacto Telefónico</masterLabel>
+            <translation><!-- Contacto Telefónico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convenio Femsa</masterLabel>
+            <translation><!-- Convenio Femsa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convenio Pabellon M</masterLabel>
+            <translation><!-- Convenio Pabellon M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correo</masterLabel>
+            <translation><!-- Correo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correo Directo/Carta</masterLabel>
+            <translation><!-- Correo Directo/Carta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edo Mex Galerias Perinorte</masterLabel>
+            <translation><!-- Edo Mex Galerias Perinorte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edomex Expo Tu Casa Total WTC</masterLabel>
+            <translation><!-- Edomex Expo Tu Casa Total WTC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edomex Feria Canadevi Tlanepantla</masterLabel>
+            <translation><!-- Edomex Feria Canadevi Tlanepantla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edomex Plaza Juarez</masterLabel>
+            <translation><!-- Edomex Plaza Juarez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En Calle</masterLabel>
+            <translation><!-- En Calle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En Empresa (Venta Empresarial)</masterLabel>
+            <translation><!-- En Empresa (Venta Empresarial) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Espectacular/Cartelera</masterLabel>
+            <translation><!-- Espectacular/Cartelera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eventos (Macroventa, Súpervta)</masterLabel>
+            <translation><!-- Eventos (Macroventa, Súpervta) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expo/Feria</masterLabel>
+            <translation><!-- Expo/Feria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook</masterLabel>
+            <translation><!-- Facebook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook Inbox</masterLabel>
+            <translation><!-- Facebook Inbox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Familiar</masterLabel>
+            <translation><!-- Familiar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feria Revolución CDMX</masterLabel>
+            <translation><!-- Feria Revolución CDMX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feria Zocalo D.F.</masterLabel>
+            <translation><!-- Feria Zocalo D.F. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flyer/Volante</masterLabel>
+            <translation><!-- Flyer/Volante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound</masterLabel>
+            <translation><!-- Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instagram</masterLabel>
+            <translation><!-- Instagram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet</masterLabel>
+            <translation><!-- Internet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet / Página Web</masterLabel>
+            <translation><!-- Internet / Página Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invitación del Asesor</masterLabel>
+            <translation><!-- Invitación del Asesor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAL Cinepolis Centro Sur</masterLabel>
+            <translation><!-- JAL Cinepolis Centro Sur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAL Cinepolis Gran Plaza</masterLabel>
+            <translation><!-- JAL Cinepolis Gran Plaza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAL Mega Mercado Galerías</masterLabel>
+            <translation><!-- JAL Mega Mercado Galerías --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAL Plaza Alameda</masterLabel>
+            <translation><!-- JAL Plaza Alameda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAL Plaza Belenes</masterLabel>
+            <translation><!-- JAL Plaza Belenes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAL Plaza la Cima</masterLabel>
+            <translation><!-- JAL Plaza la Cima --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Javermóvil</masterLabel>
+            <translation><!-- Javermóvil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Las Torres</masterLabel>
+            <translation><!-- Las Torres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada callcenter</masterLabel>
+            <translation><!-- Llamada callcenter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mailing</masterLabel>
+            <translation><!-- Mailing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mega Mercado</masterLabel>
+            <translation><!-- Mega Mercado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mex CETRAM Toreo</masterLabel>
+            <translation><!-- Mex CETRAM Toreo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexipuerto</masterLabel>
+            <translation><!-- Mexipuerto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Micrositios</masterLabel>
+            <translation><!-- Micrositios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Módulo en Punto Estratégico</masterLabel>
+            <translation><!-- Módulo en Punto Estratégico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Módulo pagado en Punto Estraté</masterLabel>
+            <translation><!-- Módulo pagado en Punto Estraté --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NL Isla Comercial Paseo La Fé</masterLabel>
+            <translation><!-- NL Isla Comercial Paseo La Fé --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NL Local Centro Apodaca</masterLabel>
+            <translation><!-- NL Local Centro Apodaca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NL Módulo Sendero Lincoln</masterLabel>
+            <translation><!-- NL Módulo Sendero Lincoln --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NL Oficina Valle del Norte</masterLabel>
+            <translation><!-- NL Oficina Valle del Norte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pagina web Javer</masterLabel>
+            <translation><!-- Pagina web Javer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasaba por aquí</masterLabel>
+            <translation><!-- Pasaba por aquí --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Periferia</masterLabel>
+            <translation><!-- Periferia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Periódico</masterLabel>
+            <translation><!-- Periódico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plaza Patria</masterLabel>
+            <translation><!-- Plaza Patria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plaza Sendero Toluca</masterLabel>
+            <translation><!-- Plaza Sendero Toluca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portales Inmobiliarios</masterLabel>
+            <translation><!-- Portales Inmobiliarios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Power Center Tecamac</masterLabel>
+            <translation><!-- Power Center Tecamac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prensa</masterLabel>
+            <translation><!-- Prensa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prensa/Revista</masterLabel>
+            <translation><!-- Prensa/Revista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotor Externo</masterLabel>
+            <translation><!-- Promotor Externo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospección</masterLabel>
+            <translation><!-- Prospección --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publicidad en Autobuses</masterLabel>
+            <translation><!-- Publicidad en Autobuses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Póster</masterLabel>
+            <translation><!-- Póster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QIR Bodega Aurrera</masterLabel>
+            <translation><!-- QIR Bodega Aurrera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QIR Chedraui</masterLabel>
+            <translation><!-- QIR Chedraui --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QIR Croc</masterLabel>
+            <translation><!-- QIR Croc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QIR Gran Plaza</masterLabel>
+            <translation><!-- QIR Gran Plaza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QIR Mis Heroes</masterLabel>
+            <translation><!-- QIR Mis Heroes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QIR Municipio</masterLabel>
+            <translation><!-- QIR Municipio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QIR Plaza Cancun Mall</masterLabel>
+            <translation><!-- QIR Plaza Cancun Mall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QIR Plaza Galerías</masterLabel>
+            <translation><!-- QIR Plaza Galerías --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QIR Plaza Las Tiendas</masterLabel>
+            <translation><!-- QIR Plaza Las Tiendas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QIR Plaza las Americas</masterLabel>
+            <translation><!-- QIR Plaza las Americas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QIR Tianguis</masterLabel>
+            <translation><!-- QIR Tianguis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qro Local Alvaro Obregón</masterLabel>
+            <translation><!-- Qro Local Alvaro Obregón --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qro Módulo Las Américas</masterLabel>
+            <translation><!-- Qro Módulo Las Américas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radio</masterLabel>
+            <translation><!-- Radio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recomienda y Gana</masterLabel>
+            <translation><!-- Recomienda y Gana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referido</masterLabel>
+            <translation><!-- Referido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referido/Recomendación</masterLabel>
+            <translation><!-- Referido/Recomendación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rey Módulo Tienda Guajardo</masterLabel>
+            <translation><!-- Rey Módulo Tienda Guajardo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Señalizacion</masterLabel>
+            <translation><!-- Señalizacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soriana Plaza del Sol</masterLabel>
+            <translation><!-- Soriana Plaza del Sol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soriana Solidaridad</masterLabel>
+            <translation><!-- Soriana Solidaridad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telemarketing</masterLabel>
+            <translation><!-- Telemarketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Televisión</masterLabel>
+            <translation><!-- Televisión --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twitter</masterLabel>
+            <translation><!-- Twitter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vecino</masterLabel>
+            <translation><!-- Vecino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Velaria Mall</masterLabel>
+            <translation><!-- Velaria Mall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volante</masterLabel>
+            <translation><!-- Volante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walmart Buenavista</masterLabel>
+            <translation><!-- Walmart Buenavista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walmart Metepec</masterLabel>
+            <translation><!-- Walmart Metepec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whatsapp</masterLabel>
+            <translation><!-- Whatsapp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Youtube</masterLabel>
+            <translation><!-- Youtube --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

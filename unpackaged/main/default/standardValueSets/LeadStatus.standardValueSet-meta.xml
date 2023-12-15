@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Por Asignar</fullName>
+        <default>true</default>
+        <label>Por Asignar</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Asignado</fullName>
+        <default>false</default>
+        <label>Asignado</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Baja</fullName>
+        <default>false</default>
+        <label>Baja</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Incubadora</fullName>
+        <default>false</default>
+        <label>Incubadora</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Por Reasignar</fullName>
+        <default>false</default>
+        <label>Por Reasignar</label>
+        <converted>false</converted>
+    </standardValue>
+</StandardValueSet>

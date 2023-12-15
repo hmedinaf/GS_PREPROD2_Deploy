@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Titular_notario_corredor_del_poder</fullName>
+    <active>true</active>
+    <description>Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo.</description>
+    <errorConditionFormula>AND
+(
+Es_usted_el_titular_de_recursos__c == &quot;NO&quot;,
+OR(
+ISNULL(Notario_corredor_del_poder__c),
+ISBLANK(Notario_corredor_del_poder__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Notario_corredor_del_poder__c</errorDisplayField>
+    <errorMessage>Notario Corredor del Poder requerido</errorMessage>
+</ValidationRule>

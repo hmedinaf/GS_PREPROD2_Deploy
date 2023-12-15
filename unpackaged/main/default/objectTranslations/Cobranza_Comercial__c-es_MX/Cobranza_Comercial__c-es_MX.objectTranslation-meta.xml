@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cobranza Comercial</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cobranza Comercial</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Cobranza Comercial</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Actualizar Saldos --></label>
+        <name>Actualizar_Saldos</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Confirmar Reestructura --></label>
+        <name>Confirmar_Reestructura</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Validación Comercial --></label>
+        <name>Nueva_Validacion_Comercial</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Solicitar Cambio VO --></label>
+        <name>Solicitar_Cambio_VO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Validación Comercial --></label>
+        <name>Validacion_Comercial</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Asigna Lista Financiamiento --></label>
+        <name>Asigna_Lista_Financiamiento</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Asigna Lista Promoción de Precio --></label>
+        <name>Asigna_Lista_Promocion_de_Precio</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Cancelar Documento --></label>
+        <name>Cancelar_Documento</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Devolución --></label>
+        <name>Devolucion</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Eliminar Pagarés Postventa --></label>
+        <name>Eliminar_Pagar_s_Postventa</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Estado de Cuenta --></label>
+        <name>Estado_de_Cuenta</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Estado de CuentaPDF --></label>
+        <name>Estado_de_CuentaPDF</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Formato Pagaré --></label>
+        <name>Formato_Pagare</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Nota de Crédito --></label>
+        <name>Nueva_Nota_de_Credito</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nuevo Pagaré --></label>
+        <name>Nuevo_Pagare</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nuevo Pago a Cuenta --></label>
+        <name>Nuevo_Pago_a_Cuenta</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Plan de Pagos --></label>
+        <name>Plan_de_Pagos</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Plan de PagosTNA --></label>
+        <name>Plan_de_Pagos2</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Solicitar Reestructura (Old) --></label>
+        <name>REESTRUCTURA</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Solicitar Reestructura --></label>
+        <name>Solicitar_Reestructura_Flow</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Solicitud de Reembolso --></label>
+        <name>Solicitud_de_Reembolso</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- TEST PDF --></label>
+        <name>TEST_PDF</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Valida Ley Antilavado --></label>
+        <name>Valida_Ley_Antilavado</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- El Sub Estado solo puede ser modificado cuando el Sub Estatus del Proceso es &quot;Aprobado&quot; o &quot;En Progreso&quot; o &quot;Rechazado&quot; --></errorMessage>
+        <name>Edicion_Sub_Estado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La Fecha Inicio de Financiamiento (Cobranza Comercial) debe ser mayor o igual a la fecha actual --></errorMessage>
+        <name>Fecha_Vencimiento_Mayor_o_Igual_a_Hoy</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha de vencimiento debe ser Máximo 30 dias posteriores a la fecha actual --></errorMessage>
+        <name>Fecha_Vewncimiento_Menor_o_Igual_a_30Dia</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Plan_Pagos --></label>
+        <name>Plan_Pagos</name>
+    </webLinks>
+</CustomObjectTranslation>

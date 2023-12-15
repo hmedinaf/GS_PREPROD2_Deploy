@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>PLAZA_AGUASCALIENTES</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PLAZA AGUASCALIENTES</label>
+        <sharedTo>
+            <role>PLAZA_AGUASCALIENTES</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - AGUASCALIENTES</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PLAZA_JALISCO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PLAZA JALISCO</label>
+        <sharedTo>
+            <role>PLAZA_JALISCO</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN3 - JALISCO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PLAZA_MEX_QRO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PLAZA MEX-QRO</label>
+        <sharedTo>
+            <role>PLAZA_MEX_QRO</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - DISTRITO FEDERAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - ESTADO DE MEXICO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - GUANAJUATO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - QUERETARO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PLAZA_MEX_QRO_AGS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PLAZA MEX-QRO-AGS</label>
+        <sharedTo>
+            <role>PLAZA_MEX_QRO_AGS</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - DISTRITO FEDERAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - ESTADO DE MEXICO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - GUANAJUATO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - QUERETARO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - AGUASCALIENTES</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PLAZA_MEX_QRO_JAL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PLAZA MEX-QRO-JAL</label>
+        <sharedTo>
+            <role>PLAZA_MEX_QRO_JAL</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN3 - JALISCO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - ESTADO DE MEXICO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - QUERETARO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - GUANAJUATO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - DISTRITO FEDERAL</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PLAZA_NL_AGS_TAMPS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PLAZA NL-AGS-TAMPS</label>
+        <sharedTo>
+            <role>PLAZA_NL_AGS_TAMPS</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - TAMAULIPAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - AGUASCALIENTES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN1 - NUEVO LEON</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN2 - NUEVO LEON</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PLAZA_NL_TAMPS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PLAZA NL - TAMPS</label>
+        <sharedTo>
+            <role>PLAZA_NL_TAMPS</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN1 - NUEVO LEON</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN2 - NUEVO LEON</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - TAMAULIPAS</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PLAZA_QUINTANA_ROO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PLAZA QUINTANA ROO</label>
+        <sharedTo>
+            <role>PLAZA_QUINTANA_ROO</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>JMC_UEN__c</field>
+            <operation>equals</operation>
+            <value>UEN4 - QUINTANA ROO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

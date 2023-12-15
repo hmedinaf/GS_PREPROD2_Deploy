@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Todos_los_Contratos_de_Compra_Venta</fullName>
+    <columns>NAME</columns>
+    <columns>Tipo_de_Contrato_Picklist__c</columns>
+    <columns>Estatus__c</columns>
+    <columns>Fecha_Contrato__c</columns>
+    <columns>Fraccionamiento_Lookup__c</columns>
+    <columns>Escritura__c</columns>
+    <columns>Notar_a__c</columns>
+    <columns>Nombre_del_Notario__c</columns>
+    <columns>Estado_al_que_pertenece_la_notaria__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Tipo_de_Contrato_Picklist__c</field>
+        <operation>equals</operation>
+        <value>Contrato Compra - Venta</value>
+    </filters>
+    <label>Todos los Contratos de Compra-Venta</label>
+</ListView>

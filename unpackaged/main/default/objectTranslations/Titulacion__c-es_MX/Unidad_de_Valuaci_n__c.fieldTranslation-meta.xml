@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Unidad de Valuación --></label>
+        <name>Unidad_de_Valuaci_n__c</name>
+        <picklistValues>
+            <masterLabel>A1 AVALUOS Y UNIDAD DE VALUACION, S.A. DE C.V.</masterLabel>
+            <translation><!-- A1 AVALUOS Y UNIDAD DE VALUACION, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ABC APPRAISERS DE MÉXICO, S. A. DE C. V.</masterLabel>
+            <translation><!-- ABC APPRAISERS DE MÉXICO, S. A. DE C. V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASESORIA VALUACION Y ESTUDIOS UNIDAD DE VALUACION, S.A. DE C.V.</masterLabel>
+            <translation><!-- ASESORIA VALUACION Y ESTUDIOS UNIDAD DE VALUACION, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AVALUOS AAA, S.A. DE C.V.</masterLabel>
+            <translation><!-- AVALUOS AAA, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AVALUOS GLISON, S.A. DE C.V</masterLabel>
+            <translation><!-- AVALUOS GLISON, S.A. DE C.V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AVALUOS INTEGRALES DEL NORTE, S.A DE C.V.</masterLabel>
+            <translation><!-- AVALUOS INTEGRALES DEL NORTE, S.A DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AVALUOS Y ASOCIADOS, S.A. DE C.V.</masterLabel>
+            <translation><!-- AVALUOS Y ASOCIADOS, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AVALUOS Y CONSULTORIA TECNICAS, SA DE CV</masterLabel>
+            <translation><!-- AVALUOS Y CONSULTORIA TECNICAS, SA DE CV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AVALUOS Y SUPERVISIONES CABELLO FLORES, S.A. DE C.V.</masterLabel>
+            <translation><!-- AVALUOS Y SUPERVISIONES CABELLO FLORES, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANORTE</masterLabel>
+            <translation><!-- BANORTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BUFETE DE AVALUOS, S.A.</masterLabel>
+            <translation><!-- BUFETE DE AVALUOS, S.A. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAJA POPULAR MEXICANA</masterLabel>
+            <translation><!-- CAJA POPULAR MEXICANA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONSOLIDADO ALAMEDA, S.A.P.I DE C.V.</masterLabel>
+            <translation><!-- CONSOLIDADO ALAMEDA, S.A.P.I DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONSULTORIA EN VALUACION INTEGRAL, S.A. DE C.V.</masterLabel>
+            <translation><!-- CONSULTORIA EN VALUACION INTEGRAL, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORPORACION MEXICANA DE VALUACION, S.A. DE C.V.</masterLabel>
+            <translation><!-- CORPORACION MEXICANA DE VALUACION, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECO AVALUOS, S.A. DE C.V.</masterLabel>
+            <translation><!-- ECO AVALUOS, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EGP EVALUACION Y GESTION DE PROYECTOS, S.A. DE C.V.</masterLabel>
+            <translation><!-- EGP EVALUACION Y GESTION DE PROYECTOS, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESTELA MALDONADO</masterLabel>
+            <translation><!-- ESTELA MALDONADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMS AVALUOS, S.A. DE C.V.</masterLabel>
+            <translation><!-- GMS AVALUOS, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INGENIERIA INTEGRAL DE VALUACION, S.A. DE C.V.</masterLabel>
+            <translation><!-- INGENIERIA INTEGRAL DE VALUACION, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INTEGRADORA Y SOLUCIONES CARRERA, S.A. DE C.V.</masterLabel>
+            <translation><!-- INTEGRADORA Y SOLUCIONES CARRERA, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO APLICA</masterLabel>
+            <translation><!-- NO APLICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOTARIA 1</masterLabel>
+            <translation><!-- NOTARIA 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOL GLO VAL, S.A DE C.V.</masterLabel>
+            <translation><!-- SOL GLO VAL, S.A DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TASACIONES INMOBILIARIAS DE MÉXICO, S.A. DE C.V.</masterLabel>
+            <translation><!-- TASACIONES INMOBILIARIAS DE MÉXICO, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TASACIONES Y AVALUOS, S.A.P.I. DE C.V.</masterLabel>
+            <translation><!-- TASACIONES Y AVALUOS, S.A.P.I. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TERA AVALUOS, S.A. DE C.V.</masterLabel>
+            <translation><!-- TERA AVALUOS, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNIDAD DE VALUACION GLOBAL, S.A. DE C.V.</masterLabel>
+            <translation><!-- UNIDAD DE VALUACION GLOBAL, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UVA UNIDAD DE VALUACIÓN ABALKAN S.A. DE C.V.</masterLabel>
+            <translation><!-- UVA UNIDAD DE VALUACIÓN ABALKAN S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALOR COMERCIAL AVALUOS, S.A. DE C.V.</masterLabel>
+            <translation><!-- VALOR COMERCIAL AVALUOS, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALORES Y SUPERFICIES INMOBILIARIAS, S.A. DE C.V.</masterLabel>
+            <translation><!-- VALORES Y SUPERFICIES INMOBILIARIAS, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALUACION DE PROYECTOS VAPROY, S.A. DE C.V.</masterLabel>
+            <translation><!-- VALUACION DE PROYECTOS VAPROY, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VALUACION PROFESIONAL MEXICANA, S.A. DE C.V.</masterLabel>
+            <translation><!-- VALUACION PROFESIONAL MEXICANA, S.A. DE C.V. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIASC GRUPO INMOBILIARIO S.A.DE C.V.</masterLabel>
+            <translation><!-- VIASC GRUPO INMOBILIARIO S.A.DE C.V. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

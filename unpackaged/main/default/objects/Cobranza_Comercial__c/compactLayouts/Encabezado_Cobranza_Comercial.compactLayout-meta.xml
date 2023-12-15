@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Encabezado_Cobranza_Comercial</fullName>
+    <fields>Name</fields>
+    <fields>Proceso_Venta__c</fields>
+    <fields>Nombre_del_Cliente__c</fields>
+    <fields>Fraccionamiento__c</fields>
+    <fields>Prototipo__c</fields>
+    <fields>Estatus_Proceso__c</fields>
+    <fields>Sub_Estatus_Proceso__c</fields>
+    <label>Encabezado Cobranza Comercial</label>
+</CompactLayout>

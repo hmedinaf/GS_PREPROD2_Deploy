@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Atendido por --></label>
+        <name>Atendidopor__c</name>
+        <picklistValues>
+            <masterLabel>Contratista</masterLabel>
+            <translation><!-- Contratista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Javer</masterLabel>
+            <translation><!-- Javer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proveedor</masterLabel>
+            <translation><!-- Proveedor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visita Asesoría</masterLabel>
+            <translation><!-- Visita Asesoría --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

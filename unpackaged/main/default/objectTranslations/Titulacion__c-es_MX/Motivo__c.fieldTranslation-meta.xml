@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Motivo --></label>
+        <name>Motivo__c</name>
+        <picklistValues>
+            <masterLabel>Análisis</masterLabel>
+            <translation><!-- Análisis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Autorizado</masterLabel>
+            <translation><!-- Autorizado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bajo Monto</masterLabel>
+            <translation><!-- Bajo Monto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Condicionado</masterLabel>
+            <translation><!-- Condicionado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Folio</masterLabel>
+            <translation><!-- Folio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuera de Rango</masterLabel>
+            <translation><!-- Fuera de Rango --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inconsistencia</masterLabel>
+            <translation><!-- Inconsistencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Por Capturar</masterLabel>
+            <translation><!-- Por Capturar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin Aportaciones</masterLabel>
+            <translation><!-- Sin Aportaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin Avalúo</masterLabel>
+            <translation><!-- Sin Avalúo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin DTU</masterLabel>
+            <translation><!-- Sin DTU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin Relación Laboral</masterLabel>
+            <translation><!-- Sin Relación Laboral --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

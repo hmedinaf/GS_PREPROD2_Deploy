@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estadofracc_cta__c</fullName>
+    <externalId>false</externalId>
+    <label>Estado Fraccionamiento</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aguascalientes</fullName>
+                <default>false</default>
+                <label>Aguascalientes</label>
+            </value>
+            <value>
+                <fullName>Ciudad de México</fullName>
+                <default>false</default>
+                <label>Ciudad de México</label>
+            </value>
+            <value>
+                <fullName>Estado de México</fullName>
+                <default>false</default>
+                <label>Estado de México</label>
+            </value>
+            <value>
+                <fullName>Jalisco</fullName>
+                <default>false</default>
+                <label>Jalisco</label>
+            </value>
+            <value>
+                <fullName>Nuevo León</fullName>
+                <default>false</default>
+                <label>Nuevo León</label>
+            </value>
+            <value>
+                <fullName>Querétaro</fullName>
+                <default>false</default>
+                <label>Querétaro</label>
+            </value>
+            <value>
+                <fullName>Quintana Roo</fullName>
+                <default>false</default>
+                <label>Quintana Roo</label>
+            </value>
+            <value>
+                <fullName>Tamaulipas</fullName>
+                <default>false</default>
+                <label>Tamaulipas</label>
+            </value>
+            <value>
+                <fullName>NU</fullName>
+                <default>false</default>
+                <label>NU</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

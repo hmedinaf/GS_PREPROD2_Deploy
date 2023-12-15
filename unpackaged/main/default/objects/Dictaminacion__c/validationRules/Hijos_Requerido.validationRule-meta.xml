@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hijos_Requerido</fullName>
+    <active>true</active>
+    <errorConditionFormula>!ISNEW() &amp;&amp;
+!SkipValidation__c &amp;&amp;
+Tipo_Contribuyente_c__c=&#39;PERSONA FISICA&#39; &amp;&amp;
+ISBLANK(Hijos__c) &amp;&amp;
+ISPICKVAL(Estatus_Dictaminacion__c, &quot;Validado&quot;)</errorConditionFormula>
+    <errorDisplayField>Hijos__c</errorDisplayField>
+    <errorMessage>Campo &quot;Hijos&quot; requerido</errorMessage>
+</ValidationRule>

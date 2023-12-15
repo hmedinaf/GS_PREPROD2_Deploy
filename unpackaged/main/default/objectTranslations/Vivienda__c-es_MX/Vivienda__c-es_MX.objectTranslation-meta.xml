@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vivienda</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Viviendas</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Vivienda</layout>
+        <sections>
+            <label><!-- Condiciones Especiales --></label>
+            <section>Condiciones Especiales</section>
+        </sections>
+        <sections>
+            <label><!-- Información General de la Vivienda --></label>
+            <section>Información General de la Vivienda</section>
+        </sections>
+        <sections>
+            <label><!-- Información de Control --></label>
+            <section>Información de Control</section>
+        </sections>
+        <sections>
+            <label><!-- Información de la Vivienda --></label>
+            <section>Información de la Vivienda</section>
+        </sections>
+        <sections>
+            <label><!-- Información del Avalúo --></label>
+            <section>Información del Avalúo</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Entrega de Vivienda</name>
+    <style>none</style>
+    <subject>¡FELICIDADES POR TU NUEVA CASA!</subject>
+    <textOnly>¡FELICIDADES POR TU NUEVA CASA!
+
+
+Gracias por confiar en JAVER
+
+
+
+Adjunto a este correo encontrarás:
+
+
+Acta de Recepción de Vivienda y Compromiso
+
+Acta de Garantía y Condiciones
+
+Acta de entrega de Eco-tecnología , Accesorios y Documentos
+
+
+Seguimos contigo para cualquier duda o aclaración que tengas, poniendo a tu disposición nuestros datos de contacto.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

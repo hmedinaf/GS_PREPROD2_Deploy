@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contratos</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contratos</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Contrato Compra Venta</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contrato Preventa</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Contrato Compra- Venta --></label>
+        <name>Contrato_Compra_Venta</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Contrato Preventa --></label>
+        <name>Contrato_Preventa</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Reenviar_Respuesta --></label>
+        <name>Reenviar_Respuesta</name>
+    </webLinks>
+</CustomObjectTranslation>

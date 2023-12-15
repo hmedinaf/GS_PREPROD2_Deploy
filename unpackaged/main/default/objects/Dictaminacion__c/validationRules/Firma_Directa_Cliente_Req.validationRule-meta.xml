@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Firma_Directa_Cliente_Req</fullName>
+    <active>true</active>
+    <errorConditionFormula>!ISNEW() &amp;&amp;
+!SkipValidation__c &amp;&amp;
+ISBLANK(TEXT(Firma_Directa_Cliente__c)) &amp;&amp;
+ISPICKVAL(Estatus_Dictaminacion__c, &quot;Validado&quot;)</errorConditionFormula>
+    <errorDisplayField>Firma_Directa_Cliente__c</errorDisplayField>
+    <errorMessage>&quot;Firma Directa Cliente&quot; requerido.</errorMessage>
+</ValidationRule>

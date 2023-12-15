@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus_Citas</fullName>
+    <active>true</active>
+    <description>No se permite la creación de una cita para un proceso con estatus de entregado</description>
+    <errorConditionFormula>AND(
+$RecordType.Name = &quot;Cita&quot;,
+NOT(ISBLANK( Inventario__c )),
+ISPICKVAL( Inventario__r.Entregada__c , &quot;Entregado&quot;)
+)</errorConditionFormula>
+    <errorMessage>No se permite la creación de una cita para un proceso con estatus de entregado</errorMessage>
+</ValidationRule>

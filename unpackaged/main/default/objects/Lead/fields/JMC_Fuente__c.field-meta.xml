@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JMC_Fuente__c</fullName>
+    <description>Campo para identificar el canal por el que se creó el lead</description>
+    <externalId>false</externalId>
+    <label>Fuente</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Afluencia_base_externa</fullName>
+                <default>false</default>
+                <label>Afluencia_base_externa</label>
+            </value>
+            <value>
+                <fullName>Aperturas</fullName>
+                <default>false</default>
+                <label>Aperturas</label>
+            </value>
+            <value>
+                <fullName>Arrayanes</fullName>
+                <default>false</default>
+                <label>Arrayanes</label>
+            </value>
+            <value>
+                <fullName>Asesor_para_perfil_FB</fullName>
+                <default>false</default>
+                <label>Asesor_para_perfil_FB</label>
+            </value>
+            <value>
+                <fullName>ATC Cliente carga manual</fullName>
+                <default>false</default>
+                <label>ATC Cliente carga manual</label>
+            </value>
+            <value>
+                <fullName>Base_de_datos_externa</fullName>
+                <default>false</default>
+                <label>Base_de_datos_externa</label>
+            </value>
+            <value>
+                <fullName>Base_externa_marzo2017</fullName>
+                <default>false</default>
+                <label>Base_externa_marzo2017</label>
+            </value>
+            <value>
+                <fullName>Blogger/Tania Rendón</fullName>
+                <default>false</default>
+                <label>Blogger/Tania Rendón</label>
+            </value>
+            <value>
+                <fullName>Buen Fin</fullName>
+                <default>false</default>
+                <label>Buen Fin</label>
+            </value>
+            <value>
+                <fullName>Cadreon</fullName>
+                <default>false</default>
+                <label>Cadreon</label>
+            </value>
+            <value>
+                <fullName>Chatbot_MJ</fullName>
+                <default>false</default>
+                <label>Chatbot_MJ</label>
+            </value>
+            <value>
+                <fullName>chatbot fb</fullName>
+                <default>false</default>
+                <label>chatbot fb</label>
+            </value>
+            <value>
+                <fullName>chatbot wa</fullName>
+                <default>false</default>
+                <label>chatbot wa</label>
+            </value>
+            <value>
+                <fullName>chatbot web</fullName>
+                <default>false</default>
+                <label>chatbot web</label>
+            </value>
+            <value>
+                <fullName>Chat Sitio</fullName>
+                <default>false</default>
+                <label>Chat Sitio</label>
+            </value>
+            <value>
+                <fullName>Click to Call</fullName>
+                <default>false</default>
+                <label>Click to Call</label>
+            </value>
+            <value>
+                <fullName>Display_lead</fullName>
+                <default>false</default>
+                <label>Display_lead</label>
+            </value>
+            <value>
+                <fullName>Expo_virtual_Javer</fullName>
+                <default>false</default>
+                <label>Expo_virtual_Javer</label>
+            </value>
+            <value>
+                <fullName>Facebook_lead</fullName>
+                <default>false</default>
+                <label>Facebook_lead</label>
+            </value>
+            <value>
+                <fullName>Facebook_lead_fovissste</fullName>
+                <default>false</default>
+                <label>Facebook_lead_fovissste</label>
+            </value>
+            <value>
+                <fullName>Facebook_lead_oc</fullName>
+                <default>false</default>
+                <label>Facebook_lead_oc</label>
+            </value>
+            <value>
+                <fullName>Facebook Inbox</fullName>
+                <default>false</default>
+                <label>Facebook Inbox</label>
+            </value>
+            <value>
+                <fullName>Facebook Inbox Pagado</fullName>
+                <default>false</default>
+                <label>Facebook Inbox Pagado</label>
+            </value>
+            <value>
+                <fullName>Formulario ATC</fullName>
+                <default>false</default>
+                <label>Formulario ATC</label>
+            </value>
+            <value>
+                <fullName>Fovissste_base_externa</fullName>
+                <default>false</default>
+                <label>Fovissste_base_externa</label>
+            </value>
+            <value>
+                <fullName>Inbound</fullName>
+                <default>false</default>
+                <label>Inbound</label>
+            </value>
+            <value>
+                <fullName>Inmuebles24</fullName>
+                <default>false</default>
+                <label>Inmuebles24</label>
+            </value>
+            <value>
+                <fullName>Instagram</fullName>
+                <default>false</default>
+                <label>Instagram</label>
+            </value>
+            <value>
+                <fullName>Instagram_lead</fullName>
+                <default>false</default>
+                <label>Instagram_lead</label>
+            </value>
+            <value>
+                <fullName>Instagram Lead</fullName>
+                <default>false</default>
+                <label>Instagram Lead</label>
+            </value>
+            <value>
+                <fullName>Landing_Alberí</fullName>
+                <default>false</default>
+                <label>Landing_Alberí</label>
+            </value>
+            <value>
+                <fullName>Landing_Fovissste</fullName>
+                <default>false</default>
+                <label>Landing_Fovissste</label>
+            </value>
+            <value>
+                <fullName>Landing_Querétaro</fullName>
+                <default>false</default>
+                <label>Landing_Querétaro</label>
+            </value>
+            <value>
+                <fullName>Landing_QuintanaRoo</fullName>
+                <default>false</default>
+                <label>Landing_QuintanaRoo</label>
+            </value>
+            <value>
+                <fullName>Linkedin</fullName>
+                <default>false</default>
+                <label>Linkedin</label>
+            </value>
+            <value>
+                <fullName>LinkedIn_Queretaro</fullName>
+                <default>false</default>
+                <label>LinkedIn_Queretaro</label>
+            </value>
+            <value>
+                <fullName>Llamada_Telefónica_Inbound</fullName>
+                <default>false</default>
+                <label>Llamada_Telefónica_Inbound</label>
+            </value>
+            <value>
+                <fullName>Llamada_Telefónica_Outbound</fullName>
+                <default>false</default>
+                <label>Llamada_Telefónica_Outbound</label>
+            </value>
+            <value>
+                <fullName>Llamada Telefónica</fullName>
+                <default>false</default>
+                <label>Llamada Telefónica</label>
+            </value>
+            <value>
+                <fullName>Macroventa Online</fullName>
+                <default>false</default>
+                <label>Macroventa Online</label>
+            </value>
+            <value>
+                <fullName>Maestros_sorteados_dic_2016</fullName>
+                <default>false</default>
+                <label>Maestros_sorteados_dic_2016</label>
+            </value>
+            <value>
+                <fullName>Marcacion Corta</fullName>
+                <default>false</default>
+                <label>Marcacion Corta</label>
+            </value>
+            <value>
+                <fullName>Metros Cubicos</fullName>
+                <default>false</default>
+                <label>Metros Cubicos</label>
+            </value>
+            <value>
+                <fullName>Micrositios</fullName>
+                <default>false</default>
+                <label>Micrositios</label>
+            </value>
+            <value>
+                <fullName>Mundo Javer</fullName>
+                <default>false</default>
+                <label>Mundo Javer</label>
+            </value>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <label>Otro</label>
+            </value>
+            <value>
+                <fullName>Otros_creditos</fullName>
+                <default>false</default>
+                <label>Otros_creditos</label>
+            </value>
+            <value>
+                <fullName>Pal Norte</fullName>
+                <default>false</default>
+                <label>Pal Norte</label>
+            </value>
+            <value>
+                <fullName>Portal Casa Perfecta</fullName>
+                <default>false</default>
+                <label>Portal Casa Perfecta</label>
+            </value>
+            <value>
+                <fullName>Portal Inmobiliario</fullName>
+                <default>false</default>
+                <label>Portal Inmobiliario</label>
+            </value>
+            <value>
+                <fullName>Recommienda_y_gana</fullName>
+                <default>false</default>
+                <label>Recommienda_y_gana</label>
+            </value>
+            <value>
+                <fullName>Sitio_Javer</fullName>
+                <default>false</default>
+                <label>Sitio_Javer</label>
+            </value>
+            <value>
+                <fullName>Sitio_Javer_Amaire</fullName>
+                <default>false</default>
+                <label>Sitio_Javer_Amaire</label>
+            </value>
+            <value>
+                <fullName>Sitio_Javer_oc</fullName>
+                <default>false</default>
+                <label>Sitio_Javer_oc</label>
+            </value>
+            <value>
+                <fullName>Sorteados_dic_2016</fullName>
+                <default>false</default>
+                <label>Sorteados_dic_2016</label>
+            </value>
+            <value>
+                <fullName>Trato Directo</fullName>
+                <default>false</default>
+                <label>Trato Directo</label>
+            </value>
+            <value>
+                <fullName>Tu_proximo_vecino</fullName>
+                <default>false</default>
+                <label>Tu_proximo_vecino</label>
+            </value>
+            <value>
+                <fullName>Twitter</fullName>
+                <default>false</default>
+                <label>Twitter</label>
+            </value>
+            <value>
+                <fullName>Whatsapp</fullName>
+                <default>false</default>
+                <label>Whatsapp</label>
+            </value>
+            <value>
+                <fullName>Whatsapp Pagado</fullName>
+                <default>false</default>
+                <label>Whatsapp Pagado</label>
+            </value>
+            <value>
+                <fullName>Youtube</fullName>
+                <default>false</default>
+                <label>Youtube</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

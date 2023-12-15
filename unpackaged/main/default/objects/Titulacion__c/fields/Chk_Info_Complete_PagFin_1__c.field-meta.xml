@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chk_Info_Complete_PagFin_1__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Chk_Requiere_PagFin_1__c, 
+				AND(
+			      OR(ISNULL(Financiera_Formula__c), NOT(ISBLANK(Financiera_Formula__c)) ),
+				     OR(ISNULL(Producto_de_la_Financiera_Formula__c), NOT(ISBLANK(Producto_de_la_Financiera_Formula__c)) ),
+         OR(ISNULL(Numero_de_Credito__c), NOT(ISBLANK(Numero_de_Credito__c))),
+     				OR(ISNULL(Monto_de_Credito_Definitivo__c), NOT(ISBLANK(Monto_de_Credito_Definitivo__c)) ),
+	     			OR(ISNULL(Fecha_de_Autorizacion__c), NOT(ISBLANK(Fecha_de_Autorizacion__c)) )
+	    		),
+			TRUE
+			)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Chk - Info Complete PagFin 1</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

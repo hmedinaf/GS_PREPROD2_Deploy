@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo Identificación Tercero --></label>
+        <name>Tipo_Identificacion__c</name>
+        <picklistValues>
+            <masterLabel>Credencial para votar</masterLabel>
+            <translation><!-- Credencial para votar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cédula Profesional</masterLabel>
+            <translation><!-- Cédula Profesional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documentación expedida INM</masterLabel>
+            <translation><!-- Documentación expedida INM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasaporte</masterLabel>
+            <translation><!-- Pasaporte --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

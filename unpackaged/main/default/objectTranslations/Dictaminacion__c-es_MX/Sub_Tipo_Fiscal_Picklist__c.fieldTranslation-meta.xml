@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sub Tipo Fiscal --></label>
+        <name>Sub_Tipo_Fiscal_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>Persona Física</masterLabel>
+            <translation><!-- Persona Física --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Persona Moral</masterLabel>
+            <translation><!-- Persona Moral --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

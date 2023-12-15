@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_modificacion_calle</fullName>
+    <active>true</active>
+    <description>Editable, únicamente en los estatus Validado, Reserva, Formalización.</description>
+    <errorConditionFormula>AND(
+
+ISCHANGED(Calle__c),
+NOT(Dictaminacion_Lookup__r.Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Validación&#39;),
+NOT(Dictaminacion_Lookup__r.Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Reservado&#39;),
+NOT(Dictaminacion_Lookup__r.Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Formalizado&#39;)
+
+)</errorConditionFormula>
+    <errorDisplayField>Calle__c</errorDisplayField>
+    <errorMessage>Editable, únicamente en los estatus Validado, Reserva, Formalización.</errorMessage>
+</ValidationRule>

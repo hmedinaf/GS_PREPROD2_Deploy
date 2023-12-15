@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Credencial para votar</fullName>
+        <default>false</default>
+        <label>Credencial para votar</label>
+    </customValue>
+    <customValue>
+        <fullName>Cédula Profesional</fullName>
+        <default>false</default>
+        <label>Cédula Profesional</label>
+    </customValue>
+    <customValue>
+        <fullName>Documentación expedida INM</fullName>
+        <default>false</default>
+        <label>Documentación expedida INM</label>
+    </customValue>
+    <customValue>
+        <fullName>Pasaporte</fullName>
+        <default>false</default>
+        <label>Pasaporte</label>
+    </customValue>
+    <masterLabel>Tipo Identificación</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Apellidomaterno_cta__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>FechaNacimiento__c</columns>
+    <columns>Asesor__c</columns>
+    <columns>Prospectador__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>Fraccionamiento_cta__c</columns>
+    <columns>Motivo_Reactivacion__c</columns>
+    <columns>No_Cliente__c</columns>
+    <columns>Origen__c</columns>
+    <columns>Numero_de_Cliente_AutoNum__c</columns>
+    <columns>EstatusProceso__c</columns>
+    <columns>Nombre_Fraccionamiento__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Fraccionamiento_cta__c</field>
+        <operation>equals</operation>
+        <value>PRIVALIA AMBIENTA</value>
+    </filters>
+    <label>All</label>
+</ListView>

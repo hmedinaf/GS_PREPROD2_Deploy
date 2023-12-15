@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Afluente_no_Prospectador_si_Asesor</fullName>
+    <active>false</active>
+    <description>No permitir registrar Prospectador si ya tiene Asesor Asignado</description>
+    <errorConditionFormula>$User.is_Data_Migration_User__c = false &amp;&amp;
+RecordType.Name = &#39;AFLUENTE PERSONA FISICA&#39; &amp;&amp;
+!IsBlank(Prospectador__c) &amp;&amp;
+!IsBlank(Asesor__c)</errorConditionFormula>
+    <errorMessage>No se permite asignar prospectador si ya tiene Asesor asignado.</errorMessage>
+</ValidationRule>

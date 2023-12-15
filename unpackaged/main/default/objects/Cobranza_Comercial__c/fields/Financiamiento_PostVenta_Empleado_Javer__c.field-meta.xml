@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financiamiento_PostVenta_Empleado_Javer__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 1=1 , FALSE,
+			OR(
+       AND(Monto_Financiamiento__c  &gt; 0),
+       AND(Porcentaje_a_Financiar__c  &lt; 21,  Valor_Operacion__c  &lt; 1000001),
+       AND(Porcentaje_a_Financiar__c  &lt; 16,  Valor_Operacion__c  &lt; 2000001),
+       AND(Porcentaje_a_Financiar__c  &lt; 13,  Valor_Operacion__c   &gt;  2000000),
+       AND(Plazo__c  &gt; 36, Monto_Financiamiento__c   &lt;  400000))
+			)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Financiamiento PostVenta Empleado Javer</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

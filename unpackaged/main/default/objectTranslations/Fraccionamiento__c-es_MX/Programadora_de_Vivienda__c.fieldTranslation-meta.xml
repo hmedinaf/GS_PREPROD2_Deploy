@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Programadora de Vivienda --></label>
+        <name>Programadora_de_Vivienda__c</name>
+        <relationshipLabel><!-- Fraccionamientos (Programadora de Vivienda) --></relationshipLabel>
+    </CustomFieldTranslation>

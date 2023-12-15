@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Titular_Colonia_Pais_Estado</fullName>
+    <active>false</active>
+    <description>Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo Colonia, País o Estado.</description>
+    <errorConditionFormula>AND
+(
+Es_usted_el_titular_de_recursos__c == &quot;NO&quot;,
+OR(
+ISNULL(Colonia__c),
+ISBLANK(Colonia__c),
+ISNULL(PaisTercero__c),
+ISBLANK(PaisTercero__c),
+ISNULL(EstadoTercero_del__c),
+ISBLANK(EstadoTercero_del__c)
+)
+)</errorConditionFormula>
+    <errorMessage>Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo Colonia, País o Estado.</errorMessage>
+</ValidationRule>

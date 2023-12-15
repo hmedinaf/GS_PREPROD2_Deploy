@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vencimiento de Tarea</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Vencimiento de Tareas</value>
+    </caseValues>
+    
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Formato Vencimiento de Tarea</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Autoridad Identificación --></label>
+        <name>Autoridad_Identificacion__c</name>
+        <picklistValues>
+            <masterLabel>Instituto Nacional Electoral</masterLabel>
+            <translation><!-- Instituto Nacional Electoral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instituto Nacional de Migración</masterLabel>
+            <translation><!-- Instituto Nacional de Migración --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro (Extranjeros)</masterLabel>
+            <translation><!-- Otro (Extranjeros) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pasaportes</masterLabel>
+            <translation><!-- Pasaportes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relaciones Exteriores</masterLabel>
+            <translation><!-- Relaciones Exteriores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secretaría de Educación Pública</masterLabel>
+            <translation><!-- Secretaría de Educación Pública --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

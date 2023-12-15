@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Plaza --></label>
+        <name>Plaza__c</name>
+        <picklistValues>
+            <masterLabel>AGUASCALIENTES</masterLabel>
+            <translation><!-- AGUASCALIENTES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESTADO DE MEXICO</masterLabel>
+            <translation><!-- ESTADO DE MEXICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JALISCO</masterLabel>
+            <translation><!-- JALISCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NUEVO LEON</masterLabel>
+            <translation><!-- NUEVO LEON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUERETARO</masterLabel>
+            <translation><!-- QUERETARO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QUINTANA ROO</masterLabel>
+            <translation><!-- QUINTANA ROO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAMAULIPAS</masterLabel>
+            <translation><!-- TAMAULIPAS --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

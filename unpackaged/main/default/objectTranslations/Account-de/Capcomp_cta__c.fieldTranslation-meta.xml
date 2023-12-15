@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- CapacidadCompra__c + SaldoSubCuenta__c + Monto Ahorro voluntario + MontoGastoTitulacionOperaci --></help>
+        <label><!-- Capacidad de compra total --></label>
+        <name>Capcomp_cta__c</name>
+    </CustomFieldTranslation>

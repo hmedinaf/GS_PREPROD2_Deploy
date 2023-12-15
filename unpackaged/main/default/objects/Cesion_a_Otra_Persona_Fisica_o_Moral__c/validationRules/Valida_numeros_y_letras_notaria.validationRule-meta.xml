@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_numeros_y_letras_notaria</fullName>
+    <active>false</active>
+    <description>Sólo se aceptan números y letras en el campo notaría.</description>
+    <errorConditionFormula>NOT(
+OR(
+REGEX(Notaria__c, &quot;(\\D)+(\\d)+&quot;),
+REGEX(Notaria__c,&quot;[^%$#@&amp;!*()^+_-]&quot;),
+REGEX(Notaria__c,&quot;[^=,&lt;.&gt;/?~`]&quot;)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Notaria__c</errorDisplayField>
+    <errorMessage>Sólo se aceptan números y letras en el campo notaría.</errorMessage>
+</ValidationRule>

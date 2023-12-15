@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pago ID --></label>
+        <name>Pago_ID__c</name>
+        <relationshipLabel><!-- Integraciones EBS Pagos --></relationshipLabel>
+    </CustomFieldTranslation>

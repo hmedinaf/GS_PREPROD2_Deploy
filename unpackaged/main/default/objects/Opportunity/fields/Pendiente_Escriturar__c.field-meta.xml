@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pendiente_Escriturar__c</fullName>
+    <externalId>false</externalId>
+    <label>Pendiente Escriturar</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Desperfilado</fullName>
+                <default>false</default>
+                <label>Desperfilado</label>
+            </value>
+            <value>
+                <fullName>Enganche</fullName>
+                <default>false</default>
+                <label>Enganche</label>
+            </value>
+            <value>
+                <fullName>Hasta próximo Bimestre</fullName>
+                <default>false</default>
+                <label>Hasta próximo Bimestre</label>
+            </value>
+            <value>
+                <fullName>Otros Créditos</fullName>
+                <default>false</default>
+                <label>Otros Créditos</label>
+            </value>
+            <value>
+                <fullName>Tramitología</fullName>
+                <default>false</default>
+                <label>Tramitología</label>
+            </value>
+            <value>
+                <fullName>Venta sin DTU</fullName>
+                <default>false</default>
+                <label>Venta sin DTU</label>
+            </value>
+            <value>
+                <fullName>Ventas sin DTU Entregable</fullName>
+                <default>false</default>
+                <label>Ventas sin DTU Entregable</label>
+            </value>
+            <value>
+                <fullName>Ventas sin DTU No Entregable</fullName>
+                <default>false</default>
+                <label>Ventas sin DTU No Entregable</label>
+            </value>
+            <value>
+                <fullName>Decisión del Cliente</fullName>
+                <default>false</default>
+                <label>Decisión del Cliente</label>
+            </value>
+            <value>
+                <fullName>Sin Pendientes</fullName>
+                <default>false</default>
+                <label>Sin Pendientes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

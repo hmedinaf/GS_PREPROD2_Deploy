@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inconsistencia__c</fullName>
+    <externalId>false</externalId>
+    <label>Inconsistencia</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Datos Laborales</fullName>
+                <default>false</default>
+                <label>Datos Laborales</label>
+            </value>
+            <value>
+                <fullName>Problema con RFC</fullName>
+                <default>false</default>
+                <label>Problema con RFC</label>
+            </value>
+            <value>
+                <fullName>Sin Acta de Nacimiento</fullName>
+                <default>false</default>
+                <label>Sin Acta de Nacimiento</label>
+            </value>
+            <value>
+                <fullName>Sin Inconsistencia</fullName>
+                <default>false</default>
+                <label>Sin Inconsistencia</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

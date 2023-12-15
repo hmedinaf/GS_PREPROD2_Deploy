@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Frecuencia --></label>
+        <name>Frecuencia__c</name>
+        <picklistValues>
+            <masterLabel>Mensual</masterLabel>
+            <translation><!-- Mensual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quincenal</masterLabel>
+            <translation><!-- Quincenal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semanal</masterLabel>
+            <translation><!-- Semanal --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

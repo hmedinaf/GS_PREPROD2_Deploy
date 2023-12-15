@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>EXITO_AR</fullName>
+        <default>false</default>
+        <label>ÉXITO AR</label>
+    </customValue>
+    <customValue>
+        <fullName>FALLO_AR</fullName>
+        <default>false</default>
+        <label>FALLO AR</label>
+    </customValue>
+    <masterLabel>Estatus AR</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

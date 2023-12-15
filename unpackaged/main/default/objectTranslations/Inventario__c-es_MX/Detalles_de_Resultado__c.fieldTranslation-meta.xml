@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Detalles de Resultado --></label>
+        <name>Detalles_de_Resultado__c</name>
+        <picklistValues>
+            <masterLabel>Asesor argumenta al cliente que no pague adeudo</masterLabel>
+            <translation><!-- Asesor argumenta al cliente que no pague adeudo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asesor no informa del financiamiento a cliente</masterLabel>
+            <translation><!-- Asesor no informa del financiamiento a cliente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asesor no proporciona cuentas y referencias de pago</masterLabel>
+            <translation><!-- Asesor no proporciona cuentas y referencias de pago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asesor no respeta fechas de vencimiento</masterLabel>
+            <translation><!-- Asesor no respeta fechas de vencimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asesor se comprometió a pagar adeudo financiado con cliente</masterLabel>
+            <translation><!-- Asesor se comprometió a pagar adeudo financiado con cliente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fallecimiento de Titular</masterLabel>
+            <translation><!-- Fallecimiento de Titular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gestion Retenida a Solicitud de Corporativo</masterLabel>
+            <translation><!-- Gestion Retenida a Solicitud de Corporativo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pago No Aplicado</masterLabel>
+            <translation><!-- Pago No Aplicado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recomienda y Gana</masterLabel>
+            <translation><!-- Recomienda y Gana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicita Carta Finiquito</masterLabel>
+            <translation><!-- Solicita Carta Finiquito --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

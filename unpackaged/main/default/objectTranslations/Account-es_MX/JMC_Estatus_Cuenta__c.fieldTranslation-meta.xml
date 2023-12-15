@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estatus Cuenta --></label>
+        <name>JMC_Estatus_Cuenta__c</name>
+        <picklistValues>
+            <masterLabel>Asignado</masterLabel>
+            <translation><!-- Asignado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baja</masterLabel>
+            <translation><!-- Baja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Por asignar</masterLabel>
+            <translation><!-- Por asignar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Por reasginar</masterLabel>
+            <translation><!-- Por reasginar --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

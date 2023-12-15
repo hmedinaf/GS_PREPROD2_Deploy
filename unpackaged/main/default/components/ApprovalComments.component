@@ -1,0 +1,10 @@
+<apex:component controller="FindApprovalComments" access="global">
+<apex:attribute assignTo="{!objId}" type="String" name="ObjectId" description="Object Id"/>
+<apex:attribute assignTo="{!StepStatusMessage}" type="String" description="Object Id" name="StepStatusMes"/>
+<apex:dataTable value="{!approvalComments}" var="s_ApprovalComments">
+<apex:column >
+<apex:facet name="heater"> Approval comments </apex:facet>
+{!s_ApprovalComments.Actor.Name}: {!s_ApprovalComments.comments}
+</apex:column>
+</apex:dataTable>
+</apex:component>

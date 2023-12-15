@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Es Usuario de Migración de Datos --></label>
+        <name>is_Data_Migration_User__c</name>
+    </CustomFieldTranslation>

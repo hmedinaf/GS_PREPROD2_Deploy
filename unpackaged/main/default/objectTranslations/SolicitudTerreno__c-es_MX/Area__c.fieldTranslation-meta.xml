@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Área --></label>
+        <name>Area__c</name>
+        <picklistValues>
+            <masterLabel>UEN 1 &amp; 2</masterLabel>
+            <translation><!-- UEN 1 &amp; 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UEN 3 &amp; 4</masterLabel>
+            <translation><!-- UEN 3 &amp; 4 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

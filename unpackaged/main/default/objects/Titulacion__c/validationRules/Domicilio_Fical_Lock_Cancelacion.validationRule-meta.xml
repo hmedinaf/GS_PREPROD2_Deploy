@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domicilio_Fical_Lock_Cancelacion</fullName>
+    <active>true</active>
+    <description>El campo Domicilio fiscal se bloquea cuando el status es cancelado</description>
+    <errorConditionFormula>AND(ISCHANGED( Domicilio_Fiscal__c ),  ISPICKVAL( Estatus_Proceso__c , &#39;Cancelado&#39;))</errorConditionFormula>
+    <errorDisplayField>Domicilio_Fiscal__c</errorDisplayField>
+    <errorMessage>Este campo no se puede modificar cuando el estatus es &#39;Cancelado&#39;</errorMessage>
+</ValidationRule>

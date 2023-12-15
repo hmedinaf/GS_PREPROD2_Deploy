@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipificacion_nivel_2__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipificación nivel 2</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipificacion_nivel_1__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Solicita Fecha de Entrega</fullName>
+                <default>false</default>
+                <label>Solicita Fecha de Entrega</label>
+            </value>
+            <value>
+                <fullName>Solicitar Planos de Vivienda</fullName>
+                <default>false</default>
+                <label>Solicitar Planos de Vivienda</label>
+            </value>
+            <value>
+                <fullName>Reportar Incidencia en Entrega de Vivienda</fullName>
+                <default>false</default>
+                <label>Reportar Incidencia en Entrega de Vivienda</label>
+            </value>
+            <value>
+                <fullName>Solicitar Eco-Tecnologías</fullName>
+                <default>false</default>
+                <label>Solicitar Eco-Tecnologías</label>
+            </value>
+            <value>
+                <fullName>Asesoria Técnica</fullName>
+                <default>false</default>
+                <label>Asesoria Técnica</label>
+            </value>
+            <value>
+                <fullName>Confirmar Cita de Garantía</fullName>
+                <default>false</default>
+                <label>Confirmar Cita de Garantía</label>
+            </value>
+            <value>
+                <fullName>Realizar Reporte de Garantía</fullName>
+                <default>false</default>
+                <label>Realizar Reporte de Garantía</label>
+            </value>
+            <value>
+                <fullName>Solicitud de Escrituras</fullName>
+                <default>false</default>
+                <label>Solicitud de Escrituras</label>
+            </value>
+            <value>
+                <fullName>Solicitud de Factura</fullName>
+                <default>false</default>
+                <label>Solicitud de Factura</label>
+            </value>
+            <value>
+                <fullName>Solicitud Carta de Servicio</fullName>
+                <default>false</default>
+                <label>Solicitud Carta de Servicio</label>
+            </value>
+            <value>
+                <fullName>Reporte Falla en Servicios</fullName>
+                <default>false</default>
+                <label>Reporte Falla en Servicios</label>
+            </value>
+            <value>
+                <fullName>Queja Administradora</fullName>
+                <default>false</default>
+                <label>Queja Administradora</label>
+            </value>
+            <value>
+                <fullName>Información de Fraccionamientos</fullName>
+                <default>false</default>
+                <label>Información de Fraccionamientos</label>
+            </value>
+            <value>
+                <fullName>Seguimiento a Promociones de Venta</fullName>
+                <default>false</default>
+                <label>Seguimiento a Promociones de Venta</label>
+            </value>
+            <value>
+                <fullName>Seguimiento a Proceso de Escritura</fullName>
+                <default>false</default>
+                <label>Seguimiento a Proceso de Escritura</label>
+            </value>
+            <value>
+                <fullName>Consultar Saldo Postventa</fullName>
+                <default>false</default>
+                <label>Consultar Saldo Postventa</label>
+            </value>
+            <value>
+                <fullName>Solicitar Carta de No Adeudo</fullName>
+                <default>false</default>
+                <label>Solicitar Carta de No Adeudo</label>
+            </value>
+            <value>
+                <fullName>Queja de Seguimiento de Cobranza</fullName>
+                <default>false</default>
+                <label>Queja de Seguimiento de Cobranza</label>
+            </value>
+            <value>
+                <fullName>Se Envía Llamada a Corporativo</fullName>
+                <default>false</default>
+                <label>Se Envía Llamada a Corporativo</label>
+            </value>
+            <value>
+                <fullName>Hablar con un Agente</fullName>
+                <default>false</default>
+                <label>Hablar con un Agente</label>
+            </value>
+            <value>
+                <fullName>Impermeabilizante</fullName>
+                <default>false</default>
+                <label>Impermeabilizante</label>
+            </value>
+            <value>
+                <fullName>Estructural</fullName>
+                <default>false</default>
+                <label>Estructural</label>
+            </value>
+            <value>
+                <fullName>Caso</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Caso</label>
+            </value>
+            <value>
+                <fullName>Solución Call Center</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Solución Call Center</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Cobranza</controllingFieldValue>
+            <valueName>Consultar Saldo Postventa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cobranza</controllingFieldValue>
+            <valueName>Solicitar Carta de No Adeudo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cobranza</controllingFieldValue>
+            <valueName>Queja de Seguimiento de Cobranza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cobranza</controllingFieldValue>
+            <controllingFieldValue>Entrega</controllingFieldValue>
+            <controllingFieldValue>Garantía</controllingFieldValue>
+            <controllingFieldValue>Servicio</controllingFieldValue>
+            <controllingFieldValue>Ventas</controllingFieldValue>
+            <valueName>Hablar con un Agente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contactar a un Departamento</controllingFieldValue>
+            <valueName>Se Envía Llamada a Corporativo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entrega</controllingFieldValue>
+            <valueName>Solicita Fecha de Entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entrega</controllingFieldValue>
+            <valueName>Solicitar Planos de Vivienda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entrega</controllingFieldValue>
+            <valueName>Reportar Incidencia en Entrega de Vivienda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entrega</controllingFieldValue>
+            <valueName>Solicitar Eco-Tecnologías</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Garantía</controllingFieldValue>
+            <valueName>Asesoria Técnica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Garantía</controllingFieldValue>
+            <valueName>Confirmar Cita de Garantía</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Garantía</controllingFieldValue>
+            <valueName>Realizar Reporte de Garantía</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Garantía</controllingFieldValue>
+            <valueName>Impermeabilizante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Garantía</controllingFieldValue>
+            <valueName>Estructural</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio</controllingFieldValue>
+            <valueName>Solicitud de Escrituras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio</controllingFieldValue>
+            <valueName>Solicitud de Factura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio</controllingFieldValue>
+            <valueName>Solicitud Carta de Servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio</controllingFieldValue>
+            <valueName>Reporte Falla en Servicios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicio</controllingFieldValue>
+            <valueName>Queja Administradora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ventas</controllingFieldValue>
+            <valueName>Información de Fraccionamientos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ventas</controllingFieldValue>
+            <valueName>Seguimiento a Promociones de Venta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ventas</controllingFieldValue>
+            <valueName>Seguimiento a Proceso de Escritura</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

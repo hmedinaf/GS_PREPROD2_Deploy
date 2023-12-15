@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Creditos_mas_Enganche__c</fullName>
+    <externalId>false</externalId>
+    <formula>ROUND( Credito_Neto_Final_1__c +
+				   Credito_Neto_Final_2__c +
+				   Credito_Neto_Final_3__c +
+				   Anticipo__c +
+				   Subsidio__c +
+				   Enganche_a_Pagar__c,2)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Créditos + Enganche</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

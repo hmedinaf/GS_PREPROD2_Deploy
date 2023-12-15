@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Act_campo_Control</fullName>
+        <field>Prototipo_pro__c</field>
+        <formula>Name &amp;&quot; - &quot;&amp; Fraccionamiento__r.Name</formula>
+        <name>Act campo Control</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Nombre a Prototipo</fullName>
+        <actions>
+            <name>Act_campo_Control</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>1=1</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

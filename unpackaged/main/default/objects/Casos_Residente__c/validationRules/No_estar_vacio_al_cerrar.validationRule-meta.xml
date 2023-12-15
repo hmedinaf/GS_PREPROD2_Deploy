@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_estar_vacio_al_cerrar</fullName>
+    <active>true</active>
+    <description>casos: cuando cambie de estatus a cerrado no debe estar vació los siguientes campos: cataloga de falla, origen de garantía, clasificación de garantía, atendido por.</description>
+    <errorConditionFormula>IF(RecordType.Name == &quot;Garantías&quot; &amp;&amp;  ISPICKVAL( Status__c , &quot;Cerrado&quot;) , ISBLANK(TEXT( Catalagodefalla__c ))  , null)</errorConditionFormula>
+    <errorDisplayField>Catalagodefalla__c</errorDisplayField>
+    <errorMessage>Debe capturar el catalogo de falla</errorMessage>
+</ValidationRule>

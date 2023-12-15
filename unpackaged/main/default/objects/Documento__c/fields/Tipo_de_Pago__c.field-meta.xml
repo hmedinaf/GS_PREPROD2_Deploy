@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Pago__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Pago</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bancos Banorte</fullName>
+                <default>false</default>
+                <label>Bancos Banorte</label>
+            </value>
+            <value>
+                <fullName>Bancos Santander</fullName>
+                <default>false</default>
+                <label>Bancos Santander</label>
+            </value>
+            <value>
+                <fullName>Bancos Virtual</fullName>
+                <default>false</default>
+                <label>Bancos Virtual</label>
+            </value>
+            <value>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+                <label>Cheque</label>
+            </value>
+            <value>
+                <fullName>Cheque SBC</fullName>
+                <default>false</default>
+                <label>Cheque SBC</label>
+            </value>
+            <value>
+                <fullName>Efectivo</fullName>
+                <default>false</default>
+                <label>Efectivo</label>
+            </value>
+            <value>
+                <fullName>Nota Credito</fullName>
+                <default>false</default>
+                <label>Nota Credito</label>
+            </value>
+            <value>
+                <fullName>Novacion</fullName>
+                <default>false</default>
+                <label>Novacion</label>
+            </value>
+            <value>
+                <fullName>Pago con Tarjeta</fullName>
+                <default>false</default>
+                <label>Pago con Tarjeta</label>
+            </value>
+            <value>
+                <fullName>Payment</fullName>
+                <default>false</default>
+                <label>Payment</label>
+            </value>
+            <value>
+                <fullName>Tarjeta</fullName>
+                <default>false</default>
+                <label>Tarjeta</label>
+            </value>
+            <value>
+                <fullName>Transferencia</fullName>
+                <default>false</default>
+                <label>Transferencia</label>
+            </value>
+            <value>
+                <fullName>Virtual</fullName>
+                <default>false</default>
+                <label>Virtual</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

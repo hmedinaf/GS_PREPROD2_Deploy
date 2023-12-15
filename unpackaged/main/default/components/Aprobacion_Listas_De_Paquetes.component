@@ -1,0 +1,90 @@
+<apex:component controller="AprobacionListasDePaquetes" access="global">
+    <apex:attribute type="Id" name="recordId" description="Record ID" assignTo="{!recId}" access="global"/>
+    <html>
+        <head>
+            <style>
+                .button {
+                border: none;
+                font-color: white !important;
+                padding: 10px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                }
+                
+                .button1 {background-color: #4CAF50;} 
+                .button2 {background-color: red;} 
+            </style>
+        </head>
+        <div style="width:100%;font-family:arial;">
+            <img src="https://javer--preprod.sandbox.my.salesforce.com/servlet/servlet.ImageServer?id=01523000001ZUVX&oid=00D2300000092X5" />
+            
+            <p style="margin-top:20px;font-size:12pt; ">Se solicita su aprobación para la siguiente lista de precios de paquetes:</p>
+            <div style="margin-top:20px;font-size:11pt">
+                <p style="margin:0;">Solicitante: {!ap.Solicitante__c}</p>
+                <p style="margin:0;">Nombre Objeto: {!ap.Lista_de_precios__r.Name}</p>
+                <p style="margin:0;">Fraccionamiento: {!ap.Fraccionamiento__c}</p>
+                <p style="margin:0;">Prototipo: {!ap.Prototipo__c}</p>
+               
+            </div>
+            <div style="margin-top:20px;width:100%;">
+                <div style="height:20px;font-weight:bold;">
+                    Paquetes
+                </div>
+                <div style="margin-top:5px;">
+                    <table border="1" style="border-collapse:collapse" cellpadding="4" cellspacing="4">
+                        <thead>
+                            <tr>
+                                <th style="color: black; background-color: #aaa9a9;">Producto</th>
+                                <th style="color: black; background-color: #aaa9a9;">Precio de Compra</th>
+                                <th style="color: black; background-color: #aaa9a9;">IVA</th>
+                                <th style="color: black; background-color: #aaa9a9;">Precio Total</th>
+                                <th style="color: black; background-color: #aaa9a9;">% Beneficio</th>
+                                <th style="color: black; background-color: #aaa9a9;">Precio Venta</th>
+                                <th style="color: black; background-color: #aaa9a9;">Precio Venta Sugerido</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <apex:repeat value="{!prodList}" var="prod">
+                                <tr>
+                                    <td>{!prod.Name}</td>
+                                    <td style="text-align: right;">
+                                        <apex:outputText value="{0, number, currency}">
+                                            <apex:param value="{!prod.Precio_de_Compra__c}" />
+                                        </apex:outputText>
+                                    </td>
+                                    <td style="text-align: right;">{!prod.IVA__c}%</td>
+                                    <td style="text-align: right;">
+                                        <apex:outputText value="{0, number, currency}">
+                                            <apex:param value="{!prod.Precio_Total__c}" />
+                                        </apex:outputText>
+                                    </td>
+                                    <td style="text-align: right;">{!prod.Beneficio2__c}%</td>
+                                    <td style="text-align: right;">
+                                        <apex:outputText value="{0, number, currency}">
+                                            <apex:param value="{!prod.Precio_Venta__c}" />
+                                        </apex:outputText>
+                                    </td>                                    
+                                    <td style="text-align: right;">
+                                        <apex:outputText value="{0, number, currency}">
+                                            <apex:param value="{!prod.Precio_de_Venta_Sugerido__c}" />
+                                        </apex:outputText>
+                                    </td>                                    
+                                </tr>
+                            </apex:repeat>              
+                        </tbody>
+                    </table>
+                </div>
+                 <p style="font-size:12pt">Selecciona tu respuesta utilizando los botones:</p>
+                <p style="font-size:12pt">  </p>
+            </div>
+            <div style="margin-top:20px;">
+                <a class="button button1" style="color:white;border-radius:5px;" href="https://javer--preprod.sandbox.my.salesforce-sites.com/public/apex/ApproveRequestHandler?id={!recId}&action=approve">Aprobar</a>
+                <a class="button button2" style="color:white;border-radius:5px;" href="https://javer--preprod.sandbox.my.salesforce-sites.com/public/apex/ApproveRequestHandler?id={!recId}&action=reject">Rechazar</a>
+            </div>
+        </div>
+    </html>
+</apex:component>

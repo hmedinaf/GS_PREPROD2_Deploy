@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Nmero_de_Credito__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Check_Contado__c, 
+			TRUE,
+   Chk_Pagares_Fin_Info_Complete__c
+		)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Check Número de Crédito</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AprobacionGarantia__c</fullName>
+    <externalId>false</externalId>
+    <label>Aprobación de Garantia</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aprobado</fullName>
+                <default>false</default>
+                <label>Aprobado</label>
+            </value>
+            <value>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+                <label>Rechazado</label>
+            </value>
+            <value>
+                <fullName>En Aprobación</fullName>
+                <default>false</default>
+                <label>En Aprobación</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

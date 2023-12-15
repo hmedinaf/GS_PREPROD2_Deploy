@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo de Dirección --></label>
+        <name>Tipo_de_Direccion__c</name>
+        <picklistValues>
+            <masterLabel>Dirección Laboral</masterLabel>
+            <translation><!-- Dirección Laboral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Laboral CO Acreditad</masterLabel>
+            <translation><!-- Dirección Laboral CO Acreditad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Principal</masterLabel>
+            <translation><!-- Dirección Principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Rep Legal Laboral</masterLabel>
+            <translation><!-- Dirección Rep Legal Laboral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Rep Legal/Apoderado</masterLabel>
+            <translation><!-- Dirección Rep Legal/Apoderado --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

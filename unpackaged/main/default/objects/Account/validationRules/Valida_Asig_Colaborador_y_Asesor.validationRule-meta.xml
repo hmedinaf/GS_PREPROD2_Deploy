@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Asig_Colaborador_y_Asesor</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$User.is_Data_Migration_User__c = false,
+Desasignacion_Auto_Asesor__c=false,
+!IsVRBypassed__c,
+ISBLANK(Asesor__c) = false,
+ISBLANK(Colaborador_Javer__c) = false,
+(TEXT(Estatus_Cliente__c)!=&#39;POR ASIGNAR&#39; &amp;&amp;
+	!IsChanged(Estatus_Cliente__c))
+)</errorConditionFormula>
+    <errorDisplayField>Colaborador_Javer__c</errorDisplayField>
+    <errorMessage>No pueden estar asignados al mismo tiempo un Asesor y un Colaborador Javer</errorMessage>
+</ValidationRule>

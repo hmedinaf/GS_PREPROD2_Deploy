@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Nombre_Persona_Moral_APC_Fiscal</fullName>
+    <active>true</active>
+    <description>Los perfiles APC y Fiscal no pueden el nombre de una cuenta</description>
+    <errorConditionFormula>AND(
+ OR(
+  $Profile.Name = &#39;APC&#39;,
+  $Profile.Name = &#39;Fiscal&#39;
+ ),
+ OR(
+  RecordType.DeveloperName = &#39;Prospecto_Persona_Moral&#39;,
+  RecordType.DeveloperName = &#39;Afluente_Persona_Moral&#39;,
+  RecordType.DeveloperName = &#39;Cliente_Persona_Moral&#39;
+ ),
+ ISCHANGED(Name)
+)</errorConditionFormula>
+    <errorMessage>No cuenta con permisos suficientes para editar el nombre de la cuenta</errorMessage>
+</ValidationRule>

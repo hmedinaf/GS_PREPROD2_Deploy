@@ -1,0 +1,2638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Persona_Fisica</fullName>
+    <active>true</active>
+    <label>Persona Física</label>
+    <picklistValues>
+        <picklist>Actividad_Profesion_Ocupacion__c</picklist>
+        <values>
+            <fullName>ADMINISTRACION - ASISTENTES ADMINISTRATIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADMINISTRACION - CAPTURISTA Y OPERADORES DE TELEFONO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADMINISTRACION - CONSULTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADMINISTRACION - CONTADORES Y AUDITORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADMINISTRACION - DIRECTORES%2C GERENTES  Y EMPLEADOS DE COMPRAS%2C FINANZAS%2C RECURSOS HUMANOS Y SERVICIOS ADMINISTRATIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADMINISTRACION - DIRECTORES%2C GERENTES Y EMPELADOS ADMINISTRATIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADMINISTRACION - DIRECTORES%2C GERENTES Y EMPLEADOS DE COMERCIALIZACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADMINISTRACION - DIRECTORES%2C GERENTES Y EMPLEADOS DE PRODUCCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADMINISTRACION - DIRECTORES%2C GERENTES Y EMPLEADOS DE SERVICIOS DE TRANSPORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADMINISTRACION - PAGADORES Y COBRADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADMINISTRACION - TRABAJADORES DE ARCHIVO%2C ALMACEN DE INVENTARIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES AGRICOLAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES SILVICOLAS Y FORESTALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALIMENTACION Y HOSPEDAJE - JEFES DE COCINA%2C RESTAURANTE Y%2FO BAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIO DE ALIMENTOS Y BEBIDAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIOS DE ALOJAMIENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALIMENTOS Y BEBIDAS - TRABAJADORES EN LA ELABORACION  Y PROCESAMIENTO DE ALIMENTOS%2C BEBIDAS Y TABACO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOLSA%2C BANCA Y SEGUROS - AGENTES DE VALORES%2C PROMOTORES Y CORREDORES DE INVERSION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOLSA%2C BANCA Y SEGUROS - GERENTES O TRABAJADORES DE SERVICIOS Y PRODUCTOS FINANCIEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOLSA%2C BANCA Y SEGUROS - VALUADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMERCIO - CAJEROS REGISTRADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMERCIO - DESPACHADORES DE GASOLINERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMERCIO - EMPACADORES DE MERCANCIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMERCIO - GERENTES O EMPLEADOS DE VENTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMERCIO - GERENTES O SUPERVISOR DE ESTABLECIMIENTO COMERCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMERCIO - REPRESENTANTES DE VENTAS POR TELEFONO O POR TELEVISION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMERCIO - TAQUILLEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMERCIO - VENDEDORES AMBULANTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMERCIO - VENDEDORES ESPECIALIZADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSTRUCCION -  INGENIEROS%2C TECNICOS Y OPERADORES DE LA CONSTRUCCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSTRUCCION - ARQUITECTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSTRUCCION - COLOCADORES DE PRODUCTOS PREFABRICADOS EN INMUEBLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSTRUCCION - DECORADORES DE INTERIORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSTRUCCION - PINTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSTRUCCION - PLOMEROS E INSTALADORES DE TUBERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSTRUCCION - REPARADORES DE VIAS DE COMUNICACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSTRUCCION - VIDRIEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEPORTE Y ESPARCIMIENTO - ANIMADORES RECREATIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEPORTE Y ESPARCIMIENTO - ATLETAS%2C ENTRENADORES O INSTRUCTORES EN DEPORTE Y RECREACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEPORTE Y ESPARCIMIENTO - OFICIALES%2C JUECES Y ARBITROS DEPORTIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIFUSION CULTURAL - PROMOTORES DE DIFUSION CULTURAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIFUSION CULTURAL - TRABAJADORES DE BIBLIOTECA%2C ARCHIVO%2C MUSEO Y GALERIA DE ARTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELECTRICIDAD - INGENIEROS O TECNICOS ELECTRICISTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELECTRICIDAD - TECNICOS EN REFRIGERACION%2C AIRE ACONDICIONADO Y CALEFACCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELECTRONICA - INGENIERO O TECNICOS EN  ELECTRONICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELECTRONICA - MECANICOS DE INSTRUMENTOS INDUSTRIALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENSEÑANZA - CAPACITADORES E INSTRUCTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENSEÑANZA - DIRECTORES GENERALES DE EDUCACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENSEÑANZA - PROFESORES O DOCENTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GANADERIA - ADMINISTRADORES%2C CRIADORES O SUPERVISORES AVICOLAS Y GANADEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GANADERIA - APICULTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFORMATICA - INGENIERO O TECNICOS PROGRAMADORES EN INFORMATICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFORMATICA - PROFESIONISTAS O TECNICOS DE SISTEMAS DE INFORMACION Y PROCESAMIENTO DE DATOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INSPECCION - INSPECTORES DE SALUD AMBIENTAL%2C SANIDAD Y DEL TRABAJO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INSPECCION - INSPECTORES DE TRANSPORTE DE CARGA Y DE PASAJEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INSPECCION - INSPECTORES FISCALES Y DE PRECIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INSPECCION - INSPECTORES SANITARIOS Y DE CONTROL DE CALIDAD DE PRODUCTOS CARNICOS%2C PESQUEROS Y AGRICOLAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTERPRETACION ARTISTICA - ACTORES%2C BAILARINES%2C MUSICOS%2C ESCRITORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTERPRETACION ARTISTICA - ARTESANOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTERPRETACION ARTISTICA - ARTISTAS PLASTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTERPRETACION ARTISTICA - FOTOGRAFOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVESTIGACION - ASISTENTES DE INVESTIGADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVESTIGACION - BIOLOGOS Y CIENTIFICOS RELACIONADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVESTIGACION - ECONOMISTAS Y POLITOLOGOS %28NO FUNCIONARIOS PUBLICOS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVESTIGACION - ENCUESTADORES Y CODIFICADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVESTIGACION - FISICOS ASTRONOMOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVESTIGACION - GEOLOGOS%2C GEOQUIMICOS%2C GEOFISICOS Y GEOGRAFOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVESTIGACION - INVESTIGADORES Y CONSULTORES EN MERCADOTECNIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVESTIGACION - MATEMATICOS%2C ESTADISTICOS Y ACTUARIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVESTIGACION - METEOROLOGOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVESTIGACION - QUIMICOS Y%2FO TECNICOS EN QUIMICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVESTIGACION - SOCIOLOGOS%2C ANTROPOLOGOS E HISTORIADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIMPIEZA - FUMIGADORES DE PLAGAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIMPIEZA - SERVICIOS DE CAMARISTAS Y ASEADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIMPIEZA - TRABAJADORES DE TINTORERIA Y LAVANDERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MADERA%2C PAPEL%2C Y PIEL - TRABAJADORES EN LA FABRICACION DE MUEBLES O PRODUCTOS DE MADERA Y%2FO PIEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MECANICA - INGENIERO O MECANICOS INSTALADORES DE MAQUINARIA INDUSTRIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MECANICA - INGENIERO O TECNICO EN MECANICA DE VEHICULOS TERRESTRES%2C AEREOS Y ACUATICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MECANICA - MECANICOS DE EQUIPO PESADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>METALES - SUPERVISORES U OPERADORES DE PROCESAMIENTO Y FUNDICION DE METALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINERALES NO METALICOS - OPERADORES DE MAQUINAS PROCESADORAS DE MINERALES NO METALICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINERALES NO METALICOS - OPERADORES O TRABAJADORES DE VIDRIO Y CONCRETO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINERIA%2C EXTRACCION Y SUMINISTRO - AYUDANTES EN LA PERFORACION DE POZOS DE PETROLEO Y GAS NATURAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINERIA%2C EXTRACCION Y SUMINISTRO - GERENTE%2C SUPERVISOR U OPERADORES DE  TRATAMIENTO Y POTABILIZACION%2C ABASTECIMIENTO Y RECOLECCION DE AGUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINERIA%2C EXTRACCION Y SUMINISTRO - INGENIEROS PETROLEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINERIA%2C EXTRACCION Y SUMINISTRO - INGENIEROS%2C OPERADORES O AYUDANTES EN LA EXTRACCION Y REFINACION MINERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINERIA%2C EXTRACCION Y SUMINISTRO - OPERADORES DE CENTRALES O SISTEMAS  DE ENERGIA ELECTRICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINERIA%2C EXTRACCION Y SUMINISTRO - OPERADORES DE MAQUINAS DE VAPOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINERIA%2C EXTRACCION Y SUMINISTRO - TECNICOS GEOLOGICOS Y DE MINERALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO APLICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES - EMPLEADOS DE ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRAS OCUPACIONES - AGENTE ADUANAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRAS OCUPACIONES - AMA DE CASA O QUEHACERES DEL HOGAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRAS OCUPACIONES - DESEMPLEADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRAS OCUPACIONES - ESTUDIANTE O MENOR DE EDAD SIN OCUPACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRAS OCUPACIONES - JUBILADO O PENSIONADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRAS OCUPACIONES - MINISTROS DE CULTO RELIGIOSO %28SACERDOTE%2C PASTOR%2C MONJA%2C ETC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRAS OCUPACIONES - PROPIETARIO%2C ACCIONISTA O SOCIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PESCA Y ACUACULTURA - PESCADORES Y TRABAJADORES EN LA CRIA Y CULTIVO DE ESPECIES MARINAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROCESOS INDUSTRIALES - INGENIERO O TECNICOS INDUSTRIAL Y DE PRODUCCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROCESOS INDUSTRIALES - INGENIEROS METALURGICOS Y DE MATERIALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTOS ELECTRICOS Y ELECTRONICOS - TRABAJADORES EN LA FABRICACION DE PRODUCTOS ELECTRICOS Y ELECTRONICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTOS IMPRESOS - TRABAJADORES EN LA ELABORACION DE PRODUCTOS IMPRESOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - ENSAMBLADORES Y ACABADORES DE PRODUCTOS DE PLASTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - FABRICANTES DE HERRAMIENTAS Y TROQUELES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - HERREROS Y FORJADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - JOYEROS Y ORFEBRES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SOLDADORES Y OXICORTADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SUPERVISORES EN LA FABRICACION Y MONTAJE DE ARTICULOS DEPORTIVOS%2C DE JUGUETES Y SIMILARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES  EN LA FABRICACION DE PRODUCTOS METALICOS%2C DE HULE Y PLASTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES EN EL ENSAMBLADO DE VEHICULOS%2C MOLDEADO%2C LAMINADO Y MONTAJE DE PIEZAS METALICAS%2C HULE O PLASTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTOS QUIMICOS - TRABAJADORES EN EL PROCESAMIENTO Y FABRICACION DE PRODUCTOS QUIMICOS Y FARMACOQUIMICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROTECCION DE BIENES Y%2FO PERSONAS - BOMBEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROTECCION DE BIENES Y%2FO PERSONAS - DETECTIVES PRIVADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROTECCION DE BIENES Y%2FO PERSONAS - GUARDIAS DE SEGURIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUBLICIDAD%2C PROPAGANDA Y RELACIONES PUBLICAS - DIRECTORES%2C GERENTES Y EMPLEADOS DE PUBLICIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUBLICIDAD%2C PROPAGANDA Y RELACIONES PUBLICAS - MODELOS Y EDECANES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RADIO%2C CINE%2C TELEVISION Y TEATRO - ASISTENTES Y%2FU OPERADORES DE PRODUCCION DE CINE%2C RADIO Y TELEVISION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RADIO%2C CINE%2C TELEVISION Y TEATRO - DISEÑADORES GRAFICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RADIO%2C CINE%2C TELEVISION Y TEATRO - EDITORES%2C PERIODISTAS%2C REPORTEROS Y REDACTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RADIO%2C CINE%2C TELEVISION Y TEATRO - LOCUTORES%2C COMENTARISTAS Y CRONISTAS DE RADIO Y TELEVISION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RADIO%2C CINE%2C TELEVISION Y TEATRO - PRODUCTORES Y DIRECTORES DE CINE%2C TELEVISION Y TEATRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - CERRAJEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - RELOJEROS Y REPARADORES DE RELOJES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE APARATOS ELECTRICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE ARTICULOS DE HULE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SECTOR PUBLICO - EJERCITO%2C ARMADA Y FUERZA AEREA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO MUNICIPAL O DELEGACIONAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL ESTATAL O DEL DISTRITO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO ESTATAL O DEL DISTRITO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SECTOR PUBLICO - EMPLEADO PODER EJECUTIVO ESTATAL O DEL DISTRITO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEGURIDAD SOCIAL - CONSEJEROS DE EMPLEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEGURIDAD SOCIAL - TRABAJADORES DE SERVICIO SOCIAL Y DE LA COMUNIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICIO POSTAL Y MENSAJERIA - EMPLEADOS DE SERVICIOS DE MENSAJERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICIOS LEGALES - ABOGADOS Y ASESORES LEGALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICIOS LEGALES - NOTARIOS Y CORREDORES PUBLICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICIOS MEDICOS - DIETISTAS Y NUTRIOLOGOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICIOS MEDICOS - DIRECTORES DE INSTITUCIONES EN EL CUIDADO DE LA SALUD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICIOS MEDICOS - ENFERMERAS Y%2FO PARAMEDICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICIOS MEDICOS - FARMACEUTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICIOS MEDICOS - FISIOTERAPEUTAS Y QUIROPRACTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICIOS MEDICOS - MEDICOS ESPECIALISTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICIOS MEDICOS - MEDICOS GENERALES Y FAMILIARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICIOS MEDICOS - TECNICOS DE LABORATORIO MEDICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICIOS PERSONALES - ESTILISTAS%2C ESTETICISTAS Y MASAJISTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICIOS PERSONALES - TRBAJADORES DE SERVICIOS FUNERARIOS O CEMENTERIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TELECOMUNICACIONES - INGENIERO%2C INSTALADORES Y REPARADORES DE EQUIPOS Y ACCESORIOS DE TELECOMUNICACIONES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TELECOMUNICACIONES - TELEGRAFISTAS Y RADIO-OPERADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES DE REPARACION DE PRENDAS DE VESTIR Y CALZADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES EN LA PRODUCCION DE TEXTILES%2C PRENDAS DE VESTIR Y CALZADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRADUCCION E INTERPRETACION LINGüISTICA - INTERPRETES Y%2FO TRADUCTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRANSPORTE AEREO - COORDINADORES Y SUPERVISORES EN SERVICIOS DE TRANSPORTE AEREO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRANSPORTE AEREO - DESPACHADORES DE VUELO Y ESPECIALISTAS EN SERVICIOS AEREOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRANSPORTE AEREO - PILOTOS DE AVIACION E INSTRUCTORES DE VUELO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRANSPORTE AEREO - SOBRECARGOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRANSPORTE AEREO - SUPERVISORES DE SISTEMAS DE COMUNICACION PARA LA AERONAVEGACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRANSPORTE FERROVIARIO - CONDUCTORES Y OPERADORES DE TREN SUBTERRANEO Y DE TREN LIGERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRANSPORTE FERROVIARIO - TRABAJADORES DE FERROCARRILES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRANSPORTE MARITIMO Y FLUVIAL - CONDUCTORES DE EMBARCACIONES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRANSPORTE MARITIMO Y FLUVIAL - JEFES Y CONTROLADORES DE TRAFICO MARITIMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRANSPORTE MARITIMO Y FLUVIAL - PILOTOS%2C CAPITANES DE PUERTOS Y OFICIALES DE CUBIERTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRANSPORTE TERRESTRE - CONDUCTORES DE VEHICULOS DE TRANSPORTE%2C SERVICIOS DE CARGA Y%2FO REPARTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TURISMO - COORDINADORES DE OPERACIONES EN AGENCIAS DE VIAJES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TURISMO - GUIAS DE EXCURSIONES O ECOTURISTICO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Autoridad_Emite_Identifiacion_Cesion__c</picklist>
+        <values>
+            <fullName>Instituto Nacional Electoral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instituto Nacional de Migración</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otro %28Extranjeros%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pasaportes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relaciones Exteriores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secretaría de Educación Pública</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Check_List_Sub_Tipo_Fiscal__c</picklist>
+        <values>
+            <fullName>Clave Única de Registro de Población</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comprobante de Domicilio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copia de su Identificación Oficial %28IFE o Pasaporte%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R1%3A Alta en SHCP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recibos de Nómina de los últimos 3 meses</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Clave_del_Pais__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZZ</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Conoce_a_la_persona__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Est_de_acuerdo_en_aportar_los_recursos__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lugar_de_Nacimiento__c</picklist>
+        <values>
+            <fullName>AGUASCALIENTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAJA CALIFORNIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAJA CALIFORNIA SUR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAMPECHE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHIAPAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHIHUAHUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIUDAD DE MEXICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COAHUILA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COLIMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DURANGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTADO DE MEXICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXTRANJERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GUANAJUATO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GUERRERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIDALGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JALISCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MICHOACAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MORELOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAYARIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NUEVO LEON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OAXACA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUEBLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUERETARO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUINTANA ROO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN LUIS POTOSI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SINALOA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SONORA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TABASCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAMAULIPAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TLAXCALA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VERACRUZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YUCATAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZACATECAS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Objeto_Social_o_Giro_Mercantil__c</picklist>
+        <values>
+            <fullName>1000000%09NO APLICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1014010%09RADIO%2C CINE%2C TELEVISION Y TEATRO - DISEÑADORES GRAFICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1014030%09RADIO%2C CINE%2C TELEVISION Y TEATRO - EDITORES%2C PERIODISTAS%2C REPORTEROS Y REDACTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1023010%09RADIO%2C CINE%2C TELEVISION Y TEATRO - ASISTENTES Y%2FU OPERADORES DE PRODUCCION DE CINE%2C RADIO Y TELEVISION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1023070%09RADIO%2C CINE%2C TELEVISION Y TEATRO - LOCUTORES%2C COMENTARISTAS Y CRONISTAS DE RADIO Y TELEVISION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1024020%09RADIO%2C CINE%2C TELEVISION Y TEATRO - PRODUCTORES Y DIRECTORES DE CINE%2C TELEVISION Y TEATRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1033010%09INTERPRETACION ARTISTICA - ACTORES%2C BAILARINES%2C MUSICOS%2C ESCRITORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1033020%09INTERPRETACION ARTISTICA - ARTESANOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1033040%09INTERPRETACION ARTISTICA - FOTOGRAFOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1034010%09INTERPRETACION ARTISTICA - ARTISTAS PLASTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1044010%09TRADUCCION E INTERPRETACION LINGüISTICA - INTERPRETES Y%2FO TRADUCTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1052010%09PUBLICIDAD%2C PROPAGANDA Y RELACIONES PUBLICAS - MODELOS Y EDECANES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1054010%09PUBLICIDAD%2C PROPAGANDA Y RELACIONES PUBLICAS - DIRECTORES%2C GERENTES Y EMPLEADOS DE PUBLICIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1110100%09AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES AGRICOLAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1110400%09AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES SILVICOLAS Y FORESTALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1112010%09INVESTIGACION - ENCUESTADORES Y CODIFICADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1113010%09INVESTIGACION - ASISTENTES DE INVESTIGADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1113020%09INVESTIGACION - QUIMICOS Y%2FO TECNICOS EN QUIMICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1114010%09INVESTIGACION - BIOLOGOS Y CIENTIFICOS RELACIONADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1114020%09INVESTIGACION - ECONOMISTAS Y POLITOLOGOS %28NO FUNCIONARIOS PUBLICOS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1114030%09INVESTIGACION - FISICOS ASTRONOMOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1114040%09INVESTIGACION - GEOLOGOS%2C GEOQUIMICOS%2C GEOFISICOS Y GEOGRAFOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1114050%09INVESTIGACION - INVESTIGADORES Y CONSULTORES EN MERCADOTECNIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1114060%09INVESTIGACION - MATEMATICOS%2C ESTADISTICOS Y ACTUARIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1114070%09INVESTIGACION - METEOROLOGOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1114090%09INVESTIGACION - SOCIOLOGOS%2C ANTROPOLOGOS E HISTORIADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1123020%09ENSEÑANZA - CAPACITADORES E INSTRUCTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1124070%09ENSEÑANZA - PROFESORES O DOCENTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1125010%09ENSEÑANZA - DIRECTORES GENERALES DE EDUCACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1133010%09DIFUSION CULTURAL - PROMOTORES DE DIFUSION CULTURAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1134010%09DIFUSION CULTURAL - TRABAJADORES DE BIBLIOTECA%2C ARCHIVO%2C MUSEO Y GALERIA DE ARTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1135010%09OTRAS OCUPACIONES - ESTUDIANTE O MENOR DE EDAD SIN OCUPACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1135020%09OTRAS OCUPACIONES - DESEMPLEADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1135030%09OTRAS OCUPACIONES - JUBILADO O PENSIONADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1135050%09OTRAS OCUPACIONES - AMA DE CASA O QUEHACERES DEL HOGAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1135060%09OTRAS OCUPACIONES - MINISTROS DE CULTO RELIGIOSO %28SACERDOTE%2C PASTOR%2C MONJA%2C ETC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1135070%09OTRAS OCUPACIONES - AGENTE ADUANAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1135080%09OTRAS OCUPACIONES - PROPIETARIO%2C ACCIONISTA O SOCIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1136010%09SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1136020%09SECTOR PUBLICO - EMPLEADO PODER EJECUTIVO ESTATAL O DEL DISTRITO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1136030%09SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO MUNICIPAL O DELEGACIONAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1136040%09SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1136050%09SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1136060%09SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO ESTATAL O DEL DISTRITO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1136070%09SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL ESTATAL O DEL DISTRITO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1136080%09ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES - EMPLEADOS DE ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1136090%09SECTOR PUBLICO - EJERCITO%2C ARMADA Y FUERZA AEREA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1220100%09GANADERIA - APICULTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1220200%09GANADERIA - ADMINISTRADORES%2C CRIADORES O SUPERVISORES AVICOLAS Y GANADEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1330200%09PESCA Y ACUACULTURA - PESCADORES Y TRABAJADORES EN LA CRIA Y CULTIVO DE ESPECIES MARINAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2130100%09MINERIA%2C EXTRACCION Y SUMINISTRO - TECNICOS GEOLOGICOS Y DE MINERALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2140100%09MINERIA%2C EXTRACCION Y SUMINISTRO - INGENIEROS%2C OPERADORES O AYUDANTES EN LA EXTRACCION Y REFINACION MINERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2210100%09MINERIA%2C EXTRACCION Y SUMINISTRO - AYUDANTES EN LA PERFORACION DE POZOS DE PETROLEO Y GAS NATURAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2240200%09MINERIA%2C EXTRACCION Y SUMINISTRO - INGENIEROS PETROLEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2420100%09MINERIA%2C EXTRACCION Y SUMINISTRO - OPERADORES DE CENTRALES O SISTEMAS  DE ENERGIA ELECTRICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2420200%09MINERIA%2C EXTRACCION Y SUMINISTRO - OPERADORES DE MAQUINAS DE VAPOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2530100%09MINERIA%2C EXTRACCION Y SUMINISTRO - GERENTE%2C SUPERVISOR U OPERADORES DE  TRATAMIENTO Y POTABILIZACION%2C ABASTECIMIENTO Y RECOLECCION DE AGUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3130100%09CONSTRUCCION - DECORADORES DE INTERIORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3130300%09CONSTRUCCION -  INGENIEROS%2C TECNICOS Y OPERADORES DE LA CONSTRUCCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3310300%09CONSTRUCCION - COLOCADORES DE PRODUCTOS PREFABRICADOS EN INMUEBLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3310400%09CONSTRUCCION - PINTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3310600%09CONSTRUCCION - VIDRIEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3410200%09CONSTRUCCION - REPARADORES DE VIAS DE COMUNICACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3420100%09CONSTRUCCION - PLOMEROS E INSTALADORES DE TUBERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3420200%09CONSTRUCCION - ARQUITECTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4130300%09MECANICA - MECANICOS DE EQUIPO PESADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4130500%09MECANICA - INGENIERO O MECANICOS INSTALADORES DE MAQUINARIA INDUSTRIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4131000%09MECANICA - INGENIERO O TECNICO EN MECANICA DE VEHICULOS TERRESTRES%2C AEREOS Y ACUATICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4230200%09ELECTRICIDAD - INGENIEROS O TECNICOS ELECTRICISTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4230500%09ELECTRICIDAD - TECNICOS EN REFRIGERACION%2C AIRE ACONDICIONADO Y CALEFACCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4330100%09ELECTRONICA - MECANICOS DE INSTRUMENTOS INDUSTRIALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4330200%09ELECTRONICA - INGENIERO O TECNICOS EN  ELECTRONICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4430200%09INFORMATICA - INGENIERO O TECNICOS PROGRAMADORES EN INFORMATICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4440100%09INFORMATICA - PROFESIONISTAS O TECNICOS DE SISTEMAS DE INFORMACION Y PROCESAMIENTO DE DATOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4530200%09TELECOMUNICACIONES - INGENIERO%2C INSTALADORES Y REPARADORES DE EQUIPOS Y ACCESORIOS DE TELECOMUNICACIONES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4530500%09TELECOMUNICACIONES - TELEGRAFISTAS Y RADIO-OPERADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4630100%09PROCESOS INDUSTRIALES - INGENIERO O TECNICOS INDUSTRIAL Y DE PRODUCCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4640300%09PROCESOS INDUSTRIALES - INGENIEROS METALURGICOS Y DE MATERIALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5110100%09MINERALES NO METALICOS - OPERADORES O TRABAJADORES DE VIDRIO Y CONCRETO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5121300%09MINERALES NO METALICOS - OPERADORES DE MAQUINAS PROCESADORAS DE MINERALES NO METALICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5210100%09METALES - SUPERVISORES U OPERADORES DE PROCESAMIENTO Y FUNDICION DE METALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5310700%09ALIMENTOS Y BEBIDAS - TRABAJADORES EN LA ELABORACION  Y PROCESAMIENTO DE ALIMENTOS%2C BEBIDAS Y TABACO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5410100%09TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES EN LA PRODUCCION DE TEXTILES%2C PRENDAS DE VESTIR Y CALZADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5420700%09TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES DE REPARACION DE PRENDAS DE VESTIR Y CALZADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5510100%09MADERA%2C PAPEL%2C Y PIEL - TRABAJADORES EN LA FABRICACION DE MUEBLES O PRODUCTOS DE MADERA Y%2FO PIEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5610200%09PRODUCTOS QUIMICOS - TRABAJADORES EN EL PROCESAMIENTO Y FABRICACION DE PRODUCTOS QUIMICOS Y FARMACOQUIMICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5710200%09PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES  EN LA FABRICACION DE PRODUCTOS METALICOS%2C DE HULE Y PLASTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5720800%09PRODUCTOS METALICOS Y DE HULE Y PLASTICO - ENSAMBLADORES Y ACABADORES DE PRODUCTOS DE PLASTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5720900%09PRODUCTOS METALICOS Y DE HULE Y PLASTICO - FABRICANTES DE HERRAMIENTAS Y TROQUELES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5721000%09PRODUCTOS METALICOS Y DE HULE Y PLASTICO - HERREROS Y FORJADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5721100%09PRODUCTOS METALICOS Y DE HULE Y PLASTICO - JOYEROS Y ORFEBRES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5722900%09PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SOLDADORES Y OXICORTADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5730600%09PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES EN EL ENSAMBLADO DE VEHICULOS%2C MOLDEADO%2C LAMINADO Y MONTAJE DE PIEZAS METALICAS%2C HULE O PLASTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5731100%09PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SUPERVISORES EN LA FABRICACION Y MONTAJE DE ARTICULOS DEPORTIVOS%2C DE JUGUETES Y SIMILARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5810200%09PRODUCTOS ELECTRICOS Y ELECTRONICOS - TRABAJADORES EN LA FABRICACION DE PRODUCTOS ELECTRICOS Y ELECTRONICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5910400%09PRODUCTOS IMPRESOS - TRABAJADORES EN LA ELABORACION DE PRODUCTOS IMPRESOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6120100%09TRANSPORTE FERROVIARIO - CONDUCTORES Y OPERADORES DE TREN SUBTERRANEO Y DE TREN LIGERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6120200%09TRANSPORTE FERROVIARIO - TRABAJADORES DE FERROCARRILES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6220100%09TRANSPORTE TERRESTRE - CONDUCTORES DE VEHICULOS DE TRANSPORTE%2C SERVICIOS DE CARGA Y%2FO REPARTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6330100%09TRANSPORTE AEREO - COORDINADORES Y SUPERVISORES EN SERVICIOS DE TRANSPORTE AEREO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6330200%09TRANSPORTE AEREO - DESPACHADORES DE VUELO Y ESPECIALISTAS EN SERVICIOS AEREOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6330400%09TRANSPORTE AEREO - SUPERVISORES DE SISTEMAS DE COMUNICACION PARA LA AERONAVEGACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6330500%09TRANSPORTE AEREO - PILOTOS DE AVIACION E INSTRUCTORES DE VUELO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6330600%09TRANSPORTE AEREO - SOBRECARGOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6420100%09TRANSPORTE MARITIMO Y FLUVIAL - CONDUCTORES DE EMBARCACIONES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6430100%09TRANSPORTE MARITIMO Y FLUVIAL - JEFES Y CONTROLADORES DE TRAFICO MARITIMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6430300%09TRANSPORTE MARITIMO Y FLUVIAL - PILOTOS%2C CAPITANES DE PUERTOS Y OFICIALES DE CUBIERTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7110200%09COMERCIO - DESPACHADORES DE GASOLINERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7110300%09COMERCIO - EMPACADORES DE MERCANCIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7110500%09COMERCIO - TAQUILLEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7110600%09COMERCIO - VENDEDORES AMBULANTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7120100%09COMERCIO - CAJEROS REGISTRADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7130200%09COMERCIO - REPRESENTANTES DE VENTAS POR TELEFONO O POR TELEVISION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7130400%09COMERCIO - VENDEDORES ESPECIALIZADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7140100%09COMERCIO - GERENTES O SUPERVISOR DE ESTABLECIMIENTO COMERCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7140200%09COMERCIO - GERENTES O EMPLEADOS DE VENTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7210100%09ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIO DE ALIMENTOS Y BEBIDAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7230200%09ALIMENTACION Y HOSPEDAJE - JEFES DE COCINA%2C RESTAURANTE Y%2FO BAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7240200%09ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIOS DE ALOJAMIENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7330200%09TURISMO - COORDINADORES DE OPERACIONES EN AGENCIAS DE VIAJES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7330300%09TURISMO - GUIAS DE EXCURSIONES O ECOTURISTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7430100%09DEPORTE Y ESPARCIMIENTO - ANIMADORES RECREATIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7430200%09DEPORTE Y ESPARCIMIENTO - ATLETAS%2C ENTRENADORES O INSTRUCTORES EN DEPORTE Y RECREACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7430400%09DEPORTE Y ESPARCIMIENTO - OFICIALES%2C JUECES Y ARBITROS DEPORTIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7530100%09SERVICIOS PERSONALES - ESTILISTAS%2C ESTETICISTAS Y MASAJISTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7540100%09SERVICIOS PERSONALES - TRBAJADORES DE SERVICIOS FUNERARIOS O CEMENTERIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7620100%09REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - CERRAJEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7620200%09REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE ARTICULOS DE HULE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7630100%09REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - RELOJEROS Y REPARADORES DE RELOJES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7630200%09REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE APARATOS ELECTRICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7720100%09LIMPIEZA - SERVICIOS DE CAMARISTAS Y ASEADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7720200%09LIMPIEZA - TRABAJADORES DE TINTORERIA Y LAVANDERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7720300%09LIMPIEZA - FUMIGADORES DE PLAGAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7810200%09SERVICIO POSTAL Y MENSAJERIA - EMPLEADOS DE SERVICIOS DE MENSAJERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8120100%09BOLSA%2C BANCA Y SEGUROS - GERENTES O TRABAJADORES DE SERVICIOS Y PRODUCTOS FINANCIEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8130500%09BOLSA%2C BANCA Y SEGUROS - VALUADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8140100%09BOLSA%2C BANCA Y SEGUROS - AGENTES DE VALORES%2C PROMOTORES Y CORREDORES DE INVERSION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8210100%09ADMINISTRACION - TRABAJADORES DE ARCHIVO%2C ALMACEN DE INVENTARIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8220400%09ADMINISTRACION - CAPTURISTA Y OPERADORES DE TELEFONO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8220600%09ADMINISTRACION - PAGADORES Y COBRADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8230300%09ADMINISTRACION - DIRECTORES%2C GERENTES  Y EMPLEADOS DE COMPRAS%2C FINANZAS%2C RECURSOS HUMANOS Y SERVICIOS ADMINISTRATIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8240100%09ADMINISTRACION - ASISTENTES ADMINISTRATIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8240200%09ADMINISTRACION - CONTADORES Y AUDITORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8240600%09ADMINISTRACION - DIRECTORES%2C GERENTES Y EMPLEADOS DE PRODUCCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8240700%09ADMINISTRACION - DIRECTORES%2C GERENTES Y EMPLEADOS DE SERVICIOS DE TRANSPORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8250100%09ADMINISTRACION - CONSULTORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8250200%09ADMINISTRACION - DIRECTORES%2C GERENTES Y EMPLEADOS DE COMERCIALIZACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8250800%09ADMINISTRACION - DIRECTORES%2C GERENTES Y EMPELADOS ADMINISTRATIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8340100%09SERVICIOS LEGALES - ABOGADOS Y ASESORES LEGALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8340300%09SERVICIOS LEGALES - NOTARIOS Y CORREDORES PUBLICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9120700%09SERVICIOS MEDICOS - ENFERMERAS Y%2FO PARAMEDICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9130300%09SERVICIOS MEDICOS - DIETISTAS Y NUTRIOLOGOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9131200%09SERVICIOS MEDICOS - TECNICOS DE LABORATORIO MEDICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9140200%09SERVICIOS MEDICOS - DIRECTORES DE INSTITUCIONES EN EL CUIDADO DE LA SALUD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9140400%09SERVICIOS MEDICOS - FARMACEUTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9140500%09SERVICIOS MEDICOS - FISIOTERAPEUTAS Y QUIROPRACTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9140700%09SERVICIOS MEDICOS - MEDICOS ESPECIALISTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9140800%09SERVICIOS MEDICOS - MEDICOS GENERALES Y FAMILIARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9230100%09INSPECCION - INSPECTORES DE SALUD AMBIENTAL%2C SANIDAD Y DEL TRABAJO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9230200%09INSPECCION - INSPECTORES DE TRANSPORTE DE CARGA Y DE PASAJEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9230300%09INSPECCION - INSPECTORES FISCALES Y DE PRECIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9230400%09INSPECCION - INSPECTORES SANITARIOS Y DE CONTROL DE CALIDAD DE PRODUCTOS CARNICOS%2C PESQUEROS Y AGRICOLAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9330100%09SEGURIDAD SOCIAL - CONSEJEROS DE EMPLEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9330300%09SEGURIDAD SOCIAL - TRABAJADORES DE SERVICIO SOCIAL Y DE LA COMUNIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9420100%09PROTECCION DE BIENES Y%2FO PERSONAS - BOMBEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9420300%09PROTECCION DE BIENES Y%2FO PERSONAS - GUARDIAS DE SEGURIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9430100%09PROTECCION DE BIENES Y%2FO PERSONAS - DETECTIVES PRIVADOS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Regimen_Fiscal__c</picklist>
+        <values>
+            <fullName>Actividades Agrícolas%2C Ganaderas%2C Silvícolas y Pesqueras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coordinados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General de Ley Personas Morales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opcional para Grupos de Sociedades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personas Morales con Fines no Lucrativos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residentes en el Extranjero sin Establecimiento Permanente en México</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Régimen Simplificado de Confianza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sociedades Cooperativas de Producción que optan por diferir sus ingresos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sexo__c</picklist>
+        <values>
+            <fullName>FEMENINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MASCULINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO BINARIO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Tipo_Fiscal__c</picklist>
+        <values>
+            <fullName>Persona Física</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Persona Moral</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_Identificacion__c</picklist>
+        <values>
+            <fullName>Credencial para votar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cédula Profesional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documentación expedida INM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pasaporte</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

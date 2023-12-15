@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Régimen Fiscal / SAT --></label>
+        <name>Regimen_Fiscal_SAT__c</name>
+        <picklistValues>
+            <masterLabel>601	General de Ley Personas Morales</masterLabel>
+            <translation><!-- 601	General de Ley Personas Morales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>603	Personas Morales con Fines no Lucrativos</masterLabel>
+            <translation><!-- 603	Personas Morales con Fines no Lucrativos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>605	Sueldos y Salarios e Ingresos Asimilados a Salarios</masterLabel>
+            <translation><!-- 605	Sueldos y Salarios e Ingresos Asimilados a Salarios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>606	Arrendamiento</masterLabel>
+            <translation><!-- 606	Arrendamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>607	Régimen de Enajenación o Adquisición de Bienes</masterLabel>
+            <translation><!-- 607	Régimen de Enajenación o Adquisición de Bienes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>608	Demás ingresos</masterLabel>
+            <translation><!-- 608	Demás ingresos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>610	Residentes en el Extranjero sin Establecimiento Permanente en México</masterLabel>
+            <translation><!-- 610	Residentes en el Extranjero sin Establecimiento Permanente en México --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>611	Ingresos por Dividendos (socios y accionistas)</masterLabel>
+            <translation><!-- 611	Ingresos por Dividendos (socios y accionistas) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>612	Personas Físicas con Actividades Empresariales y Profesionales</masterLabel>
+            <translation><!-- 612	Personas Físicas con Actividades Empresariales y Profesionales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>614	Ingresos por intereses</masterLabel>
+            <translation><!-- 614	Ingresos por intereses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>615	Régimen de los ingresos por obtención de premios</masterLabel>
+            <translation><!-- 615	Régimen de los ingresos por obtención de premios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>616	Sin obligaciones fiscales</masterLabel>
+            <translation><!-- 616	Sin obligaciones fiscales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>620	Sociedades Cooperativas de Producción que optan por diferir sus ingresos</masterLabel>
+            <translation><!-- 620	Sociedades Cooperativas de Producción que optan por diferir sus ingresos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>621	Incorporación Fiscal</masterLabel>
+            <translation><!-- 621	Incorporación Fiscal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>622	Actividades Agrícolas, Ganaderas, Silvícolas y Pesqueras</masterLabel>
+            <translation><!-- 622	Actividades Agrícolas, Ganaderas, Silvícolas y Pesqueras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>623	Opcional para Grupos de Sociedades</masterLabel>
+            <translation><!-- 623	Opcional para Grupos de Sociedades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>624	Coordinados</masterLabel>
+            <translation><!-- 624	Coordinados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>625	Régimen de las Actividades Empresariales con ingresos a través de Plataformas Tecnológicas</masterLabel>
+            <translation><!-- 625	Régimen de las Actividades Empresariales con ingresos a través de Plataformas Tecnológicas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>626	Régimen Simplificado de Confianza</masterLabel>
+            <translation><!-- 626	Régimen Simplificado de Confianza --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

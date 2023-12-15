@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edicion_Nombre_Proceso_Venta</fullName>
+    <active>true</active>
+    <description>No se puede editar el nombre o apellido paterno o apellido materno si la cuenta ya tiene un proceso de venta (oportunidad)</description>
+    <errorConditionFormula>OR(
+ AND(
+					$User.is_Data_Migration_User__c = false,
+  OR(RecordType.DeveloperName =&#39;Prospecto_Persona_Fisica&#39;,
+   RecordType.DeveloperName = &#39;Afluente_Persona_Fisica&#39;,
+   RecordType.DeveloperName =&#39;Cliente_Persona_Fisica&#39;
+  ),
+  Numero_de_Oportunidades__c &gt;=1,
+  OR(ISCHANGED(FirstName),
+   ISCHANGED(LastName),
+   ISCHANGED(Apellidomaterno_cta__c)
+  )
+ ),
+ AND(
+  OR(RecordType.DeveloperName =&#39;Prospecto_Persona_Moral&#39;,
+   RecordType.DeveloperName = &#39;Afluente_Persona_Moral&#39;,
+   RecordType.DeveloperName =&#39;Cliente_Persona_Moral&#39;
+  ),
+  Numero_de_Oportunidades__c &gt;=1,
+  ISCHANGED(Name)
+ )
+)</errorConditionFormula>
+    <errorMessage>No se puede editar el nombre de la cuenta pues ésta ya cuenta con un proceso de venta</errorMessage>
+</ValidationRule>

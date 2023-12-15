@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Medio de contacto utilizado para llegar a una resolución --></help>
+        <label><!-- Medio de Contacto --></label>
+        <name>Medio_de_Contacto__c</name>
+        <picklistValues>
+            <masterLabel>Llamada</masterLabel>
+            <translation><!-- Llamada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mensaje</masterLabel>
+            <translation><!-- Mensaje --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visita</masterLabel>
+            <translation><!-- Visita --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

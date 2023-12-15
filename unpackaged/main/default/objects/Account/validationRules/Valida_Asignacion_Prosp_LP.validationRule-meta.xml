@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Asignacion_Prosp_LP</fullName>
+    <active>false</active>
+    <description>Valida que no se asignen al mismo tiempo un Prospectador y un Lead Profiler</description>
+    <errorConditionFormula>AND(
+ ISBLANK(Prospectador__c) = false,
+ ISBLANK(Lead_Profiler__c) = false
+)</errorConditionFormula>
+    <errorMessage>No pueden estar asignados al mismo tiempo un Prospectador y un Lead Profiler</errorMessage>
+</ValidationRule>

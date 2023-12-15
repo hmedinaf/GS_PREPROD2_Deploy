@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Folio_Cobranza__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;/lightning/r/Cobranza_Comercial__c/&quot; &amp; Id &amp; &quot;/view&quot;, &quot;CC-&quot; &amp; NUM_PROC_VENTA__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Folio Cobranza</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estatus Integración --></label>
+        <name>Estatus_Integracion__c</name>
+        <picklistValues>
+            <masterLabel>Completada</masterLabel>
+            <translation><!-- Completada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incidencia</masterLabel>
+            <translation><!-- Incidencia --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

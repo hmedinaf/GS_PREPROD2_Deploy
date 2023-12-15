@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_numeros_y_letras_CURP</fullName>
+    <active>false</active>
+    <description>Sólo debe aceptar letras y números el campo CURP</description>
+    <errorConditionFormula>NOT(
+   OR(          
+       REGEX(CURP__c,&quot;[^%$#@&amp;!*()^+_-]&quot;),
+       REGEX(CURP__c,&quot;[^=,&lt;.&gt;/?~`]&quot;)
+   )
+)</errorConditionFormula>
+    <errorDisplayField>CURP__c</errorDisplayField>
+    <errorMessage>Solo se aceptan números y letras en el campo CURP</errorMessage>
+</ValidationRule>

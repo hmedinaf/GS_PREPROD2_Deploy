@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Compañia --></label>
+        <name>Compania__c</name>
+        <picklistValues>
+            <masterLabel>CASAS JAVER DE MEXICO SA DE CV</masterLabel>
+            <translation><!-- CASAS JAVER DE MEXICO SA DE CV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CASAS JAVER DE QUERETARO SA DE CV</masterLabel>
+            <translation><!-- CASAS JAVER DE QUERETARO SA DE CV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CASAS JAVER SA DE CV</masterLabel>
+            <translation><!-- CASAS JAVER SA DE CV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOGARES JAVER SA DE CV</masterLabel>
+            <translation><!-- HOGARES JAVER SA DE CV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INMUEBLES PARA TI SA DE CV</masterLabel>
+            <translation><!-- INMUEBLES PARA TI SA DE CV --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

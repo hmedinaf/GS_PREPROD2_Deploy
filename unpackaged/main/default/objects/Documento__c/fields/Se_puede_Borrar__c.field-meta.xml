@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Se_puede_Borrar__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Subestatus_Cobranza_Comercial__c &lt;&gt; &quot;EN_PROGRESO&quot;, FALSE,TRUE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Se puede Borrar?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

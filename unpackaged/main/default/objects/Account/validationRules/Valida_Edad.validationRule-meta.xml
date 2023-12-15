@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Edad</fullName>
+    <active>false</active>
+    <description>Una cuenta no puede tener una edad menor a 18 años, si es necesario el registro por favor levantar un tiket a TI</description>
+    <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; &#39;Administrador del sistema&#39;,
+Edad__c &lt; 18
+)</errorConditionFormula>
+    <errorDisplayField>FechaNacimiento__c</errorDisplayField>
+    <errorMessage>La edad mínima debe ser 18 años</errorMessage>
+</ValidationRule>

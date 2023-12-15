@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Rango Salarial --></label>
+        <name>JMC_RangoSalarial__c</name>
+        <picklistValues>
+            <masterLabel>0 - 3,999</masterLabel>
+            <translation><!-- 0 - 3,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13,000 - 15,999</masterLabel>
+            <translation><!-- 13,000 - 15,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16,000 - 19,999</masterLabel>
+            <translation><!-- 16,000 - 19,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20,000 - 24,999</masterLabel>
+            <translation><!-- 20,000 - 24,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25,000 - 34,999</masterLabel>
+            <translation><!-- 25,000 - 34,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35,000 - 54,999</masterLabel>
+            <translation><!-- 35,000 - 54,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4,000 - 7,999</masterLabel>
+            <translation><!-- 4,000 - 7,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>55,000 - 84,999</masterLabel>
+            <translation><!-- 55,000 - 84,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8,000 - 12,999</masterLabel>
+            <translation><!-- 8,000 - 12,999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>85,000 - Más</masterLabel>
+            <translation><!-- 85,000 - Más --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

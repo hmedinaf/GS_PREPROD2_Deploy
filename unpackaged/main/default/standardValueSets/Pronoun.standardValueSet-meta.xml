@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Él</fullName>
+        <default>false</default>
+        <label>Él</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ella</fullName>
+        <default>false</default>
+        <label>Ella</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ellos</fullName>
+        <default>false</default>
+        <label>Ellos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Él/Ellos</fullName>
+        <default>false</default>
+        <label>Él/Ellos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ella/Ellos</fullName>
+        <default>false</default>
+        <label>Ella/Ellos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No enumerado</fullName>
+        <default>false</default>
+        <label>No enumerado</label>
+    </standardValue>
+</StandardValueSet>

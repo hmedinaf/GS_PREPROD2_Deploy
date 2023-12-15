@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo de cliente --></label>
+        <name>TipoCliente__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AA</masterLabel>
+            <translation><!-- AA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AAA</masterLabel>
+            <translation><!-- AAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cliente Conflicto</masterLabel>
+            <translation><!-- Cliente Conflicto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cliente Profeco</masterLabel>
+            <translation><!-- Cliente Profeco --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Plan de Venta Re-estructura --></label>
+        <name>Plan_de_Venta_Re_estructura__c</name>
+        <relationshipLabel><!-- Cobranza Comercial (Plan de Venta Re-estructura) --></relationshipLabel>
+    </CustomFieldTranslation>

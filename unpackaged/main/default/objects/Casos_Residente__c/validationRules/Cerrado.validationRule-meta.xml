@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cerrado</fullName>
+    <active>true</active>
+    <description>Casos: cuando el estatus sea igual a cerrado, no debe dejar modificar ningún campo</description>
+    <errorConditionFormula>IF( (NOT(ISCHANGED(Status__c)) &amp;&amp; ISPICKVAL(  Status__c  , &quot;Cerrado&quot;)) || ISPICKVAL(PRIORVALUE(  Status__c)  , &quot;Cerrado&quot;),  OR(ISCHANGED( Clasificacion__c ),ISCHANGED( Tipo__c ), 
+																																																																																																																															ISCHANGED( Status__c ),
+																																																																																																													  																			ISCHANGED(  Fecha_Programada_de_Visita__c),
+																																																																																																																																ISCHANGED(  Detalledelreporte__c ),
+																																																																																																																															ISCHANGED(   Comentarios__c ),  
+																																																																																																																															ISCHANGED( Status__c ), ISCHANGED( ViviendaProceso__c ),ISCHANGED(  Priority__c  ), ISCHANGED( SuppliedEmail__c ),ISCHANGED( Origin__c ),ISCHANGED( Subject__c),ISCHANGED( AssetId__c ),ISCHANGED( Catalagodefalla__c ),ISCHANGED( Procede__c ),ISCHANGED( Correoelectronicoalterno__c ),ISCHANGED( Atendidopor__c ),ISCHANGED( Clasificaciondegarantia__c ),ISCHANGED( Motivodenoatencion__c ),ISCHANGED( Viviendahabitada__c ),ISCHANGED(Origendecaso__c  ),ISCHANGED( ClosedDate__c ), ISCHANGED( Zona__c ) )   ,false)</errorConditionFormula>
+    <errorMessage>Una vez cerrado el caso no puedes modificar sus campos, si requiere actualizar la información contacte al administrador.</errorMessage>
+</ValidationRule>

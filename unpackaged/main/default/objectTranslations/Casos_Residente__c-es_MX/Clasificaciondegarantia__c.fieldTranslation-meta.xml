@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Clasificación de garantía --></label>
+        <name>Clasificaciondegarantia__c</name>
+        <picklistValues>
+            <masterLabel>G1-Atendió Contratista Original</masterLabel>
+            <translation><!-- G1-Atendió Contratista Original --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G2-Cargo a la Estimación</masterLabel>
+            <translation><!-- G2-Cargo a la Estimación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G3-Cargo al Fondo de Garantía</masterLabel>
+            <translation><!-- G3-Cargo al Fondo de Garantía --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G4-Cargo JAVER</masterLabel>
+            <translation><!-- G4-Cargo JAVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G5-Atendió Cuadrilla JAVER</masterLabel>
+            <translation><!-- G5-Atendió Cuadrilla JAVER --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

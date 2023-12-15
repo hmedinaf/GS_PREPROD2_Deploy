@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Confirmación Legal --></label>
+        <name>Confirmacion_Legal__c</name>
+        <picklistValues>
+            <masterLabel>Confirmada</masterLabel>
+            <translation><!-- Confirmada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Confirmada</masterLabel>
+            <translation><!-- No Confirmada --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

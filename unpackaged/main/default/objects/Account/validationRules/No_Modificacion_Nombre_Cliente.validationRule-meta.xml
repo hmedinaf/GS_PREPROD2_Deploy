@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Modificacion_Nombre_Cliente</fullName>
+    <active>true</active>
+    <errorConditionFormula>!IsVRBypassed__c &amp;&amp;
+Numero_de_Oportunidades__c &gt; 0 &amp;&amp;
+OR(
+				ISCHANGED(Name),
+				ISCHANGED(FirstName), 
+				ISCHANGED(LastName),
+				ISCHANGED(Apellidomaterno_cta__c) 
+			 )
+				&amp;&amp; 
+OR(
+				$Profile.Name=&quot;Formalización&quot;,
+				$Profile.Name=&quot;Gerente de Ventas&quot;,
+				$Profile.Name=&quot;Jefe de Formalización&quot;,
+				$Profile.Name=&quot;Administrador Colaborador&quot;,
+				$Profile.Name=&quot;Administrador de Ventas&quot;,
+				$Profile.Name=&quot;AEC&quot;,
+				$Profile.Name=&quot;APC&quot;
+				)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>No es posible modificar el Nombre del Cliente</errorMessage>
+</ValidationRule>

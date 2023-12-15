@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valores_Tipo_Nota_Credito_Usuarios_Todos</fullName>
+    <active>false</active>
+    <description>Dependiendo del perfil se permiten seleccionar solo ciertos tipos de notas de crédito</description>
+    <errorConditionFormula>AND(
+ RecordType.DeveloperName = &#39;Nota_Credito&#39;,
+ $Profile.Name &lt;&gt; &#39;Administrador del sistema&#39;,
+ $Profile.Name &lt;&gt; &#39;APC&#39;,
+ NOT(ISPICKVAL(Tipo__c, &#39;NC_BONIFICACION&#39;)),
+ NOT(ISPICKVAL(Tipo__c, &#39;NC_DEVOLUCION_NO_APLICA&#39;)),
+ NOT(ISPICKVAL(Tipo__c, &#39;NC_GASTO_AVALUO&#39;)),
+ NOT(ISPICKVAL(Tipo__c, &#39;NC_GASTO_CREDITO_DIRECTO&#39;)),
+ NOT(ISPICKVAL(Tipo__c, &#39;NC_GASTOS_NOTARIALES&#39;))
+)</errorConditionFormula>
+    <errorDisplayField>Tipo__c</errorDisplayField>
+    <errorMessage>No tiene permitido el tipo de nota de crédito seleccionado</errorMessage>
+</ValidationRule>

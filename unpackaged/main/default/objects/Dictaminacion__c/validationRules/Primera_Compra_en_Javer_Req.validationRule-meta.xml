@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primera_Compra_en_Javer_Req</fullName>
+    <active>true</active>
+    <errorConditionFormula>!ISNEW() &amp;&amp;
+!SkipValidation__c &amp;&amp;
+ISBLANK(text(Primera_Compra_en_JAVER__c)) &amp;&amp;
+ISPICKVAL(Estatus_Dictaminacion__c, &quot;Validado&quot;)</errorConditionFormula>
+    <errorDisplayField>Primera_Compra_en_JAVER__c</errorDisplayField>
+    <errorMessage>Pregunta &quot;Es primera compra en Javer&quot; requerida</errorMessage>
+</ValidationRule>

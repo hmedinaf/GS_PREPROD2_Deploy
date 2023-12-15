@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Servicio --></label>
+        <name>Servicio__c</name>
+        <picklistValues>
+            <masterLabel>Aplicaciones</masterLabel>
+            <translation><!-- Aplicaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facturas</masterLabel>
+            <translation><!-- Facturas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fraccionamientos</masterLabel>
+            <translation><!-- Fraccionamientos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pagos</masterLabel>
+            <translation><!-- Pagos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viviendas</masterLabel>
+            <translation><!-- Viviendas --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

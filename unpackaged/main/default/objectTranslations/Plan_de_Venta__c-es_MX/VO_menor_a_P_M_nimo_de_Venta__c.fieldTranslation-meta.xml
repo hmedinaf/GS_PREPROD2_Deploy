@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Valor de Operación menor a P. Mínimo de Venta --></help>
+        <label><!-- V.O. menor a P. Mínimo de Venta --></label>
+        <name>VO_menor_a_P_M_nimo_de_Venta__c</name>
+    </CustomFieldTranslation>

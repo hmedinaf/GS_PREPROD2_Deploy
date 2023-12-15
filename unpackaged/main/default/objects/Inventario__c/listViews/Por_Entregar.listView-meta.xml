@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Por_Entregar</fullName>
+    <columns>NAME</columns>
+    <columns>MLI__c</columns>
+    <columns>Cuenta__c</columns>
+    <columns>Entregada__c</columns>
+    <columns>Fracc__c</columns>
+    <columns>FechadeHabitabilidad__c</columns>
+    <columns>PorcentajeCheckList__c</columns>
+    <columns>FechaEscritura__c</columns>
+    <columns>DiasAntiguedad__c</columns>
+    <columns>Cumplimiento__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Entregada__c</field>
+        <operation>equals</operation>
+        <value>Por Entregar</value>
+    </filters>
+    <label>Por Entregar</label>
+</ListView>

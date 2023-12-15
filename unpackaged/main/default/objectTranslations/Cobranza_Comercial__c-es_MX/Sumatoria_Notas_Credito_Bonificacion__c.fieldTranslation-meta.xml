@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sumatoria Notas de Crédito Bonificación --></label>
+        <name>Sumatoria_Notas_Credito_Bonificacion__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_de_inicio_de_cobranza</fullName>
+    <active>true</active>
+    <description>Validación del campo fecha inicio de cobranza para que no pueda ser modificado dependiendo del estatus del proceso de venta o plan de venta</description>
+    <errorConditionFormula>OR(ISCHANGED(Fecha_de_Inicio_de_Cobranza__c) &amp;&amp; 
+(
+Estatus_Proceso_de_Venta__c = &#39;Formalizado&#39; ||
+Estatus_Proceso_de_Venta__c = &#39;Validación&#39; ||
+Estatus_Proceso_de_Venta__c = &#39;Entregado&#39; ||
+Estatus_Proceso_de_Venta__c = &#39;Escriturado&#39; ||
+Estatus_Proceso_de_Venta__c = &#39;Cancelado&#39; ||
+(Fecha_de_Inicio_de_Cobranza__c - Fecha_Reserva__c) &gt; 15
+),
+ISCHANGED(Fecha_de_Inicio_de_Cobranza__c) &amp;&amp;
+(
+TEXT(Estatus_Plan_de_venta__c) = &#39;Por Aprobar&#39; ||
+TEXT(Estatus_Plan_de_venta__c) = &#39;Aprobado&#39; ||
+(Fecha_de_Inicio_de_Cobranza__c - Fecha_Reserva__c) &gt; 15
+)
+)</errorConditionFormula>
+    <errorMessage>No se puede modificar el Fecha Inicio Cobranza si estatus del Proceso de venta es igual a Formalizado, Validación, Entregado, Escriturado, Cancelado, el estatus del Plan de Venta es igual a Por Aprobar, Aprobado o es mayor a  días de la fecha de reserva.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Jefe de Mercadotecnia NL 1</name>
+    <queueMembers>
+        <users>
+            <user>ifalk@javer.com.mx</user>
+            <user>wolke@javer</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Plan_de_Venta__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Planning__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Post_Venta__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Pre_Venta__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Venta__c</sobjectType>
+    </queueSobject>
+</Queue>

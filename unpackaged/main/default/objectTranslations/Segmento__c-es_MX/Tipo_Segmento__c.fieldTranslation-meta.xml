@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Segmento --></label>
+        <name>Tipo_Segmento__c</name>
+        <picklistValues>
+            <masterLabel>Interés Social</masterLabel>
+            <translation><!-- Interés Social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medio</masterLabel>
+            <translation><!-- Medio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medio Plus</masterLabel>
+            <translation><!-- Medio Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencial</masterLabel>
+            <translation><!-- Residencial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencial Plus</masterLabel>
+            <translation><!-- Residencial Plus --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Conjunto de permisos creado para acceder a objetos personalizados Cuentas de la aplicación Movilidad</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Desarrollador de Movilidad</label>
+    <license>Salesforce</license>
+</PermissionSet>

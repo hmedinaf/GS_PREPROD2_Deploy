@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Municipio_cta__c</fullName>
+    <externalId>false</externalId>
+    <label>Municipio</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aguascalientes</fullName>
+                <default>false</default>
+                <label>Aguascalientes</label>
+            </value>
+            <value>
+                <fullName>Anáhuac</fullName>
+                <default>false</default>
+                <label>Anáhuac</label>
+            </value>
+            <value>
+                <fullName>Apodaca</fullName>
+                <default>false</default>
+                <label>Apodaca</label>
+            </value>
+            <value>
+                <fullName>Benito Juárez</fullName>
+                <default>false</default>
+                <label>Benito Juárez</label>
+            </value>
+            <value>
+                <fullName>Coacalco</fullName>
+                <default>false</default>
+                <label>Coacalco</label>
+            </value>
+            <value>
+                <fullName>Cumbres</fullName>
+                <default>false</default>
+                <label>Cumbres</label>
+            </value>
+            <value>
+                <fullName>El Marques</fullName>
+                <default>false</default>
+                <label>El Marques</label>
+            </value>
+            <value>
+                <fullName>El Salto</fullName>
+                <default>false</default>
+                <label>El Salto</label>
+            </value>
+            <value>
+                <fullName>García</fullName>
+                <default>false</default>
+                <label>García</label>
+            </value>
+            <value>
+                <fullName>General Escobedo</fullName>
+                <default>false</default>
+                <label>General Escobedo</label>
+            </value>
+            <value>
+                <fullName>Juárez</fullName>
+                <default>false</default>
+                <label>Juárez</label>
+            </value>
+            <value>
+                <fullName>Lerma de Villada</fullName>
+                <default>false</default>
+                <label>Lerma de Villada</label>
+            </value>
+            <value>
+                <fullName>Querétaro</fullName>
+                <default>false</default>
+                <label>Querétaro</label>
+            </value>
+            <value>
+                <fullName>Reynosa</fullName>
+                <default>false</default>
+                <label>Reynosa</label>
+            </value>
+            <value>
+                <fullName>San Juan del Río</fullName>
+                <default>false</default>
+                <label>San Juan del Río</label>
+            </value>
+            <value>
+                <fullName>San Nicolas</fullName>
+                <default>false</default>
+                <label>San Nicolas</label>
+            </value>
+            <value>
+                <fullName>Santa Catarina</fullName>
+                <default>false</default>
+                <label>Santa Catarina</label>
+            </value>
+            <value>
+                <fullName>Tecamac</fullName>
+                <default>false</default>
+                <label>Tecamac</label>
+            </value>
+            <value>
+                <fullName>Tlajomulco de Zuñiga</fullName>
+                <default>false</default>
+                <label>Tlajomulco de Zuñiga</label>
+            </value>
+            <value>
+                <fullName>Tonalá</fullName>
+                <default>false</default>
+                <label>Tonalá</label>
+            </value>
+            <value>
+                <fullName>Zumpango</fullName>
+                <default>false</default>
+                <label>Zumpango</label>
+            </value>
+            <value>
+                <fullName>NU</fullName>
+                <default>false</default>
+                <label>NU</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

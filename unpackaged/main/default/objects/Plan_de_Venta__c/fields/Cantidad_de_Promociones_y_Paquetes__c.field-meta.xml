@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cantidad_de_Promociones_y_Paquetes__c</fullName>
+    <externalId>false</externalId>
+    <label>Cantidad de Promociones y Paquetes</label>
+    <summaryFilterItems>
+        <field>Producto_de_Plan_de_Venta__c.Tipo_de_Producto__c</field>
+        <operation>contains</operation>
+        <value>Promoción de Venta, Paquete</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Producto_de_Plan_de_Venta__c.Plan_de_Venta__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

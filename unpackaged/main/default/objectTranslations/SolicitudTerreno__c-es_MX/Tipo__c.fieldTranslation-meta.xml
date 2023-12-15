@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo --></label>
+        <name>Tipo__c</name>
+        <picklistValues>
+            <masterLabel>Adquisición</masterLabel>
+            <translation><!-- Adquisición --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anticipos a Terrenos</masterLabel>
+            <translation><!-- Anticipos a Terrenos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pagos Parciales a Terrenos</masterLabel>
+            <translation><!-- Pagos Parciales a Terrenos --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

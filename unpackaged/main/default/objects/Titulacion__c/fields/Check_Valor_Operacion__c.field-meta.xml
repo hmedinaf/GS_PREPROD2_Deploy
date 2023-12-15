@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Valor_Operacion__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOT(Check_Contado__c),
+	 AND( ( TEXT(ROUND(Importe_de_la_Escritura__c,2)) = TEXT(ROUND(Valor_de_Operacion__c,2)) ),       
+				   ( TEXT(ROUND(Importe_de_la_Escritura__c,2)) = TEXT(ROUND(Suma_Total_de_Pagares__c,2))),
+				   ( TEXT(ROUND(Valor_de_Operacion__c,2))  = TEXT(ROUND(Suma_Total_de_Pagares__c,2)) )
+			  ), 
+		TRUE
+		)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Check Valor Operación</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CARGA HISTORICA</fullName>
+        <default>false</default>
+        <label>CARGA HISTORICA</label>
+    </customValue>
+    <customValue>
+        <fullName>CLIENTE ESPECIAL</fullName>
+        <default>false</default>
+        <label>CLIENTE ESPECIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>ENVIADO DESDE OTRO FRACCIONAMIENTO</fullName>
+        <default>false</default>
+        <label>ENVIADO DESDE OTRO FRACCIONAMIENTO</label>
+    </customValue>
+    <customValue>
+        <fullName>ESTRATEGIA ESPECIAL</fullName>
+        <default>false</default>
+        <label>ESTRATEGIA ESPECIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>LLEGO AL FRACCIONAMIENTO O PUNTO DE VENTA</fullName>
+        <default>false</default>
+        <label>LLEGO AL FRACCIONAMIENTO O PUNTO DE VENTA</label>
+    </customValue>
+    <customValue>
+        <fullName>MARKETING DIGITAL</fullName>
+        <default>false</default>
+        <label>MARKETING DIGITAL</label>
+    </customValue>
+    <customValue>
+        <fullName>PROSPECTADO OTRO FRACCIONAMIENTO</fullName>
+        <default>false</default>
+        <label>PROSPECTADO OTRO FRACCIONAMIENTO</label>
+    </customValue>
+    <customValue>
+        <fullName>PROSPECTO DEL ASESOR</fullName>
+        <default>false</default>
+        <label>PROSPECTO DEL ASESOR</label>
+    </customValue>
+    <customValue>
+        <fullName>TENIA CONTACTO ANTERIOR CON EL ASESOR</fullName>
+        <default>false</default>
+        <label>TENIA CONTACTO ANTERIOR CON EL ASESOR</label>
+    </customValue>
+    <customValue>
+        <fullName>TRABAJO EN EQUIPO ASESOR - PROSPECTADOR</fullName>
+        <default>false</default>
+        <label>TRABAJO EN EQUIPO ASESOR - PROSPECTADOR</label>
+    </customValue>
+    <customValue>
+        <fullName>URGENTE MUY INTERESADO</fullName>
+        <default>false</default>
+        <label>URGENTE MUY INTERESADO</label>
+    </customValue>
+    <customValue>
+        <fullName>URGENTE YA TIENE CITA</fullName>
+        <default>false</default>
+        <label>URGENTE YA TIENE CITA</label>
+    </customValue>
+    <masterLabel>Motivo Asignación</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

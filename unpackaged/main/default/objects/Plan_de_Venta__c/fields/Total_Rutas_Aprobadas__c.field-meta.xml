@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Rutas_Aprobadas__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Chk_Aprob_Excepcion_Bonif_Plan_Venta__c, 1, 0) +
+IF(Chk_Aprob_Decuento_Empleado_JAVER__c, 1, 0) +
+IF(Chk_Aprob_Excepcion_Desc_Empleado_JAVER__c, 1, 0) +
+IF(Chk_Aprob_Paq_Promo_Venta_Duplicadas__c, 1, 0) +
+IF(Chk_Aprob_1_Regalos_MKT__c, 1, 0) +
+IF(Chk_Aprob_Prod_Bonif_Menor_P_Min_Venta__c, 1, 0) +
+IF(Chk_Aprob_VO_menor_P_Min_Venta__c, 1, 0) +
+IF(Chk_Aprob_Reubiciacion__c, 1, 0) +
+IF(Chk_Aprob_Financiamiento_Enganche__c, 1, 0) + 
+IF(Chk_Aprob_Fondo_Garantia__c, 1, 0) +
+IF(Chk_Aprob_Excepcion_Fondo_Garntia__c, 1, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Rutas Aprobadas</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

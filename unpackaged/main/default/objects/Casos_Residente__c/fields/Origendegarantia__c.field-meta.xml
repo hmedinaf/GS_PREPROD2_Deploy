@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Origendegarantia__c</fullName>
+    <externalId>false</externalId>
+    <label>Origen de garantía</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apoyo a cliente</fullName>
+                <default>false</default>
+                <label>Apoyo a cliente</label>
+            </value>
+            <value>
+                <fullName>Contratista</fullName>
+                <default>false</default>
+                <label>Contratista</label>
+            </value>
+            <value>
+                <fullName>Producto</fullName>
+                <default>false</default>
+                <label>Producto</label>
+            </value>
+            <value>
+                <fullName>Proyecto</fullName>
+                <default>false</default>
+                <label>Proyecto</label>
+            </value>
+            <value>
+                <fullName>Supervisión</fullName>
+                <default>false</default>
+                <label>Supervisión</label>
+            </value>
+            <value>
+                <fullName>Urbanización</fullName>
+                <default>false</default>
+                <label>Urbanización</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

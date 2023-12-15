@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Persona_Politicamente_Expuesta__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Contastar si es cliente, conyuge y/o algún familiar directo desmepeña un puesto gubernamental como: Jefe de Estado o deGobierno, Líder politico, Funcionario gubernamental, judicial o militar de alta jerarquía, Alto ejecutivo de empresas gubernamentales o funcionario o miembro dimportante de partidos politicos.</inlineHelpText>
+    <label>Persona Politicamente Expuesta</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Si</fullName>
+                <default>false</default>
+                <label>Si</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

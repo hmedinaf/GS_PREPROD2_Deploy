@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Colab Javer Segunda Parte Formula --></label>
+        <name>Colab_Javer_Segunda_Parte_Formula__c</name>
+    </CustomFieldTranslation>

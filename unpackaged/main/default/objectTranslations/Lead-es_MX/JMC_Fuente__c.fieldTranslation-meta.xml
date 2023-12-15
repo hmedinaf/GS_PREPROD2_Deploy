@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fuente --></label>
+        <name>JMC_Fuente__c</name>
+        <picklistValues>
+            <masterLabel>ATC Cliente carga manual</masterLabel>
+            <translation><!-- ATC Cliente carga manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Afluencia_base_externa</masterLabel>
+            <translation><!-- Afluencia_base_externa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aperturas</masterLabel>
+            <translation><!-- Aperturas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arrayanes</masterLabel>
+            <translation><!-- Arrayanes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asesor_para_perfil_FB</masterLabel>
+            <translation><!-- Asesor_para_perfil_FB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Base_de_datos_externa</masterLabel>
+            <translation><!-- Base_de_datos_externa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Base_externa_marzo2017</masterLabel>
+            <translation><!-- Base_externa_marzo2017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blogger/Tania Rendón</masterLabel>
+            <translation><!-- Blogger/Tania Rendón --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buen Fin</masterLabel>
+            <translation><!-- Buen Fin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cadreon</masterLabel>
+            <translation><!-- Cadreon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chat Sitio</masterLabel>
+            <translation><!-- Chat Sitio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chatbot_MJ</masterLabel>
+            <translation><!-- Chatbot_MJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Click to Call</masterLabel>
+            <translation><!-- Click to Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display_lead</masterLabel>
+            <translation><!-- Display_lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expo_virtual_Javer</masterLabel>
+            <translation><!-- Expo_virtual_Javer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook Inbox</masterLabel>
+            <translation><!-- Facebook Inbox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook Inbox Pagado</masterLabel>
+            <translation><!-- Facebook Inbox Pagado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook_lead</masterLabel>
+            <translation><!-- Facebook_lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook_lead_fovissste</masterLabel>
+            <translation><!-- Facebook_lead_fovissste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook_lead_oc</masterLabel>
+            <translation><!-- Facebook_lead_oc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formulario ATC</masterLabel>
+            <translation><!-- Formulario ATC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fovissste_base_externa</masterLabel>
+            <translation><!-- Fovissste_base_externa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound</masterLabel>
+            <translation><!-- Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inmuebles24</masterLabel>
+            <translation><!-- Inmuebles24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instagram</masterLabel>
+            <translation><!-- Instagram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instagram Lead</masterLabel>
+            <translation><!-- Instagram Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instagram_lead</masterLabel>
+            <translation><!-- Instagram_lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landing_Alberí</masterLabel>
+            <translation><!-- Landing_Alberí --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landing_Fovissste</masterLabel>
+            <translation><!-- Landing_Fovissste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landing_Querétaro</masterLabel>
+            <translation><!-- Landing_Querétaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landing_QuintanaRoo</masterLabel>
+            <translation><!-- Landing_QuintanaRoo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LinkedIn_Queretaro</masterLabel>
+            <translation><!-- LinkedIn_Queretaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Linkedin</masterLabel>
+            <translation><!-- Linkedin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada Telefónica</masterLabel>
+            <translation><!-- Llamada Telefónica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada_Telefónica_Inbound</masterLabel>
+            <translation><!-- Llamada_Telefónica_Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada_Telefónica_Outbound</masterLabel>
+            <translation><!-- Llamada_Telefónica_Outbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macroventa Online</masterLabel>
+            <translation><!-- Macroventa Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maestros_sorteados_dic_2016</masterLabel>
+            <translation><!-- Maestros_sorteados_dic_2016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marcacion Corta</masterLabel>
+            <translation><!-- Marcacion Corta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metros Cubicos</masterLabel>
+            <translation><!-- Metros Cubicos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Micrositios</masterLabel>
+            <translation><!-- Micrositios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mundo Javer</masterLabel>
+            <translation><!-- Mundo Javer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otro</masterLabel>
+            <translation><!-- Otro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros_creditos</masterLabel>
+            <translation><!-- Otros_creditos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pal Norte</masterLabel>
+            <translation><!-- Pal Norte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portal Casa Perfecta</masterLabel>
+            <translation><!-- Portal Casa Perfecta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portal Inmobiliario</masterLabel>
+            <translation><!-- Portal Inmobiliario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommienda_y_gana</masterLabel>
+            <translation><!-- Recommienda_y_gana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sitio_Javer</masterLabel>
+            <translation><!-- Sitio_Javer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sitio_Javer_Amaire</masterLabel>
+            <translation><!-- Sitio_Javer_Amaire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sitio_Javer_oc</masterLabel>
+            <translation><!-- Sitio_Javer_oc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sorteados_dic_2016</masterLabel>
+            <translation><!-- Sorteados_dic_2016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trato Directo</masterLabel>
+            <translation><!-- Trato Directo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tu_proximo_vecino</masterLabel>
+            <translation><!-- Tu_proximo_vecino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twitter</masterLabel>
+            <translation><!-- Twitter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whatsapp</masterLabel>
+            <translation><!-- Whatsapp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whatsapp Pagado</masterLabel>
+            <translation><!-- Whatsapp Pagado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Youtube</masterLabel>
+            <translation><!-- Youtube --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>chatbot fb</masterLabel>
+            <translation><!-- chatbot fb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>chatbot wa</masterLabel>
+            <translation><!-- chatbot wa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>chatbot web</masterLabel>
+            <translation><!-- chatbot web --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

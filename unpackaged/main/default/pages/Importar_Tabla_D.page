@@ -1,0 +1,16 @@
+<apex:page controller="ImportarTablaDescensoWS">
+<apex:pageMessages ></apex:pageMessages><br></br>
+<apex:pageBlock title="Tabla de entregas">
+    <apex:form >
+        <apex:commandButton action="{!consultar}" value="Consultar" id="consultar"/>
+    </apex:form>
+</apex:pageBlock>
+
+        <apex:pageBlock title="Entregas">
+          <apex:pageBlockTable value="{!listaDescenso}" var="obj">
+             <apex:column value="{!obj.Name}"/>
+             <apex:column value="{!obj.Meta__c}"/>
+             <apex:column value="{!obj.Asesor__c}"/>
+          </apex:pageBlockTable>
+       </apex:pageBlock>
+</apex:page>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escritura_tercero_extension</fullName>
+    <active>true</active>
+    <description>Si escritura a favor de un tercero es igual a SI debe llenarse el campo extensión.</description>
+    <errorConditionFormula>AND
+(
+Escritura_a_favor_de_un_Tercero__c == &quot;SI&quot;,
+OR(
+ISNULL(Extension__c),
+ISBLANK(Extension__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Extension__c</errorDisplayField>
+    <errorMessage>El campo escritura a favor de un tercero = SI por lo que el campo extensión debe llenarse.</errorMessage>
+</ValidationRule>

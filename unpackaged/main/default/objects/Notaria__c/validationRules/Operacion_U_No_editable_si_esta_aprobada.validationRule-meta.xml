@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operacion_U_No_editable_si_esta_aprobada</fullName>
+    <active>true</active>
+    <description>La operación única no se puede actualizar si la solicitud está aprobada</description>
+    <errorConditionFormula>AND(ISCHANGED(  Operacion_unica__c ), 
+				ISPICKVAL( Estatus_Solicitud__c   , &#39;Aprobada&#39;))</errorConditionFormula>
+    <errorDisplayField>Operacion_unica__c</errorDisplayField>
+    <errorMessage>La operación única no se puede actualizar si la solicitud está aprobada</errorMessage>
+</ValidationRule>

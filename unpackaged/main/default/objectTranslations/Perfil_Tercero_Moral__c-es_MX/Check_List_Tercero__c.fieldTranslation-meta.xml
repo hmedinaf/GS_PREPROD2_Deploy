@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Check List Tercero --></label>
+        <name>Check_List_Tercero__c</name>
+        <picklistValues>
+            <masterLabel>Comprobante de Domicilio de la persona moral</masterLabel>
+            <translation><!-- Comprobante de Domicilio de la persona moral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comprobante de Domicilio del Representante Legal</masterLabel>
+            <translation><!-- Comprobante de Domicilio del Representante Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cédula de Identificación Fiscal expedida por el SAT</masterLabel>
+            <translation><!-- Cédula de Identificación Fiscal expedida por el SAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documento mediante el cual se crea o constituye la personal moral</masterLabel>
+            <translation><!-- Documento mediante el cual se crea o constituye la personal moral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identificación del Representante o Apoderado Legal</masterLabel>
+            <translation><!-- Identificación del Representante o Apoderado Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poder del Representante o Apoderado Legal</masterLabel>
+            <translation><!-- Poder del Representante o Apoderado Legal --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

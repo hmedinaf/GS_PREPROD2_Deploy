@@ -1,0 +1,26 @@
+<apex:page controller="ImportarPrototiposWS">
+<apex:pageMessages ></apex:pageMessages><br></br>
+<apex:pageBlock title="Prototipos">
+    <apex:form >
+    <h5> Defina el rango de prototipos que quiera importar. (0's para todos)</h5><br></br>
+    <table>
+    <thead>
+        <tr>
+            <td><label>Mínimo</label></td><td><apex:inputText required="true" value="{!min}" /></td>
+        </tr>
+        <tr>
+            <td><label>Máximo</label></td><td><apex:inputText required="true" value="{!max}" /></td>
+        </tr>
+    </thead>
+    </table>
+        <apex:commandButton action="{!consultar}" value="Consultar" id="consultar"/>
+    </apex:form>
+</apex:pageBlock>
+
+        <apex:pageBlock title="Sincronizar Prototipos">
+          <apex:pageBlockTable value="{!listaPrototipos}" var="obj">
+             <apex:column value="{!obj.Name}"/>
+             <apex:column value="{!obj.Id_Mas_Comercial__c}"/>
+          </apex:pageBlockTable>
+       </apex:pageBlock>
+</apex:page>

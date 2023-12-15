@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Director_UEN_AGS_Aprobacion_Lista_de_Precios</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Director UEN AGS</label>
+    <queue>Director_UEN_AGS</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

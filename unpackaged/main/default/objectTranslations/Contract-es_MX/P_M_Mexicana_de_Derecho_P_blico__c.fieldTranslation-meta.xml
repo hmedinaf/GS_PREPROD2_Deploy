@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- P.M. Mexicana de Derecho Público --></label>
+        <name>P_M_Mexicana_de_Derecho_P_blico__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo__c</fullName>
+    <description>Identifica si el plan de venta es un plan convencional, o en caso de existir una reestructura, se mostrará el correspondiente como &quot;Reestructura&quot; y el original deberá cambiar a &quot;Plan de Venta Cancelado&quot;</description>
+    <externalId>false</externalId>
+    <label>Tipo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Plan de Venta</fullName>
+                <default>true</default>
+                <label>Plan de Venta</label>
+            </value>
+            <value>
+                <fullName>Reestructura</fullName>
+                <default>false</default>
+                <label>Reestructura</label>
+            </value>
+            <value>
+                <fullName>Plan de Venta Cancelado</fullName>
+                <default>false</default>
+                <label>Plan de Venta Cancelado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

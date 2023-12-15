@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ALIA2</fullName>
+        <default>false</default>
+        <label>ALIA2</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOFIN CASA</fullName>
+        <default>false</default>
+        <label>AUTOFIN CASA</label>
+    </customValue>
+    <customValue>
+        <fullName>BAJOS INGRESOS</fullName>
+        <default>false</default>
+        <label>BAJOS INGRESOS</label>
+    </customValue>
+    <customValue>
+        <fullName>BAJOS INGRESOS C/SUBSIDIO 2.6</fullName>
+        <default>false</default>
+        <label>BAJOS INGRESOS C/SUBSIDIO 2.6</label>
+    </customValue>
+    <customValue>
+        <fullName>BAJOS INGRESOS C/SUBSIDIO 5 VS</fullName>
+        <default>false</default>
+        <label>BAJOS INGRESOS C/SUBSIDIO 5 VS</label>
+    </customValue>
+    <customValue>
+        <fullName>BANCARIO</fullName>
+        <default>false</default>
+        <label>BANCARIO</label>
+    </customValue>
+    <customValue>
+        <fullName>BANJERCITO</fullName>
+        <default>false</default>
+        <label>BANJERCITO</label>
+    </customValue>
+    <customValue>
+        <fullName>BANJERCITO C/SUBSIDIO</fullName>
+        <default>false</default>
+        <label>BANJERCITO C/SUBSIDIO</label>
+    </customValue>
+    <customValue>
+        <fullName>BANSEFI</fullName>
+        <default>false</default>
+        <label>BANSEFI</label>
+    </customValue>
+    <customValue>
+        <fullName>BANSEFI C/SUBSIDIO 2.6 VSM</fullName>
+        <default>false</default>
+        <label>BANSEFI C/SUBSIDIO 2.6 VSM</label>
+    </customValue>
+    <customValue>
+        <fullName>BANSEFI C/SUBSIDIO 5 VSM</fullName>
+        <default>false</default>
+        <label>BANSEFI C/SUBSIDIO 5 VSM</label>
+    </customValue>
+    <customValue>
+        <fullName>CAJA FLORENCIO ROSAS</fullName>
+        <default>false</default>
+        <label>CAJA FLORENCIO ROSAS</label>
+    </customValue>
+    <customValue>
+        <fullName>CAJA POPULAR MEXICANA</fullName>
+        <default>false</default>
+        <label>CAJA POPULAR MEXICANA</label>
+    </customValue>
+    <customValue>
+        <fullName>CAJA POPULAR SAN PABLO</fullName>
+        <default>false</default>
+        <label>CAJA POPULAR SAN PABLO</label>
+    </customValue>
+    <customValue>
+        <fullName>CAPREPOL</fullName>
+        <default>false</default>
+        <label>CAPREPOL</label>
+    </customValue>
+    <customValue>
+        <fullName>CFE</fullName>
+        <default>false</default>
+        <label>CFE</label>
+    </customValue>
+    <customValue>
+        <fullName>COFIFOVISSSTE</fullName>
+        <default>false</default>
+        <label>COFIFOVISSSTE</label>
+    </customValue>
+    <customValue>
+        <fullName>COFI INGRESOS ADICIONALES</fullName>
+        <default>false</default>
+        <label>COFI INGRESOS ADICIONALES</label>
+    </customValue>
+    <customValue>
+        <fullName>COFINAVIT</fullName>
+        <default>false</default>
+        <label>COFINAVIT</label>
+    </customValue>
+    <customValue>
+        <fullName>COFINAVIT CONYUGAL</fullName>
+        <default>false</default>
+        <label>COFINAVIT CONYUGAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CON BANSEFI</fullName>
+        <default>false</default>
+        <label>CON BANSEFI</label>
+    </customValue>
+    <customValue>
+        <fullName>CON SUBSIDIO 2.6 VSM</fullName>
+        <default>false</default>
+        <label>CON SUBSIDIO 2.6 VSM</label>
+    </customValue>
+    <customValue>
+        <fullName>CON SUBSIDIO 5 VSM</fullName>
+        <default>false</default>
+        <label>CON SUBSIDIO 5 VSM</label>
+    </customValue>
+    <customValue>
+        <fullName>CONTADO</fullName>
+        <default>false</default>
+        <label>CONTADO</label>
+    </customValue>
+    <customValue>
+        <fullName>CONYUGAL</fullName>
+        <default>false</default>
+        <label>CONYUGAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CONYUGAL C/SUBSIDIO 2.6 VSM</fullName>
+        <default>false</default>
+        <label>CONYUGAL C/SUBSIDIO 2.6 VSM</label>
+    </customValue>
+    <customValue>
+        <fullName>CONYUGAL C/SUBSIDIO 5 VSM</fullName>
+        <default>false</default>
+        <label>CONYUGAL C/SUBSIDIO 5 VSM</label>
+    </customValue>
+    <customValue>
+        <fullName>ECONOMICO</fullName>
+        <default>false</default>
+        <label>ECONOMICO</label>
+    </customValue>
+    <customValue>
+        <fullName>ECONOMICO C/SUBSIDIO 2.6 VSM</fullName>
+        <default>false</default>
+        <label>ECONOMICO C/SUBSIDIO 2.6 VSM</label>
+    </customValue>
+    <customValue>
+        <fullName>ECONOMICO C/SUBSIDIO 5 VSM</fullName>
+        <default>false</default>
+        <label>ECONOMICO C/SUBSIDIO 5 VSM</label>
+    </customValue>
+    <customValue>
+        <fullName>FHSSTE</fullName>
+        <default>false</default>
+        <label>FHSSTE</label>
+    </customValue>
+    <customValue>
+        <fullName>FONDO DE GARANTIA</fullName>
+        <default>false</default>
+        <label>FONDO DE GARANTIA</label>
+    </customValue>
+    <customValue>
+        <fullName>FOVISSSTE</fullName>
+        <default>false</default>
+        <label>FOVISSSTE</label>
+    </customValue>
+    <customValue>
+        <fullName>FOVISSSTE PARA TODOS</fullName>
+        <default>false</default>
+        <label>FOVISSSTE PARA TODOS</label>
+    </customValue>
+    <customValue>
+        <fullName>IMSS</fullName>
+        <default>false</default>
+        <label>IMSS</label>
+    </customValue>
+    <customValue>
+        <fullName>INFONAVIT-FOVISSSTE</fullName>
+        <default>false</default>
+        <label>INFONAVIT-FOVISSSTE</label>
+    </customValue>
+    <customValue>
+        <fullName>ISSFAM</fullName>
+        <default>false</default>
+        <label>ISSFAM</label>
+    </customValue>
+    <customValue>
+        <fullName>ISSSSPEA</fullName>
+        <default>false</default>
+        <label>ISSSSPEA</label>
+    </customValue>
+    <customValue>
+        <fullName>ISSSTELEON</fullName>
+        <default>false</default>
+        <label>ISSSTELEON</label>
+    </customValue>
+    <customValue>
+        <fullName>PEMEX</fullName>
+        <default>false</default>
+        <label>PEMEX</label>
+    </customValue>
+    <customValue>
+        <fullName>PENSIONA2</fullName>
+        <default>false</default>
+        <label>PENSIONA2</label>
+    </customValue>
+    <customValue>
+        <fullName>PENSIONES DEL ESTADO</fullName>
+        <default>false</default>
+        <label>PENSIONES DEL ESTADO</label>
+    </customValue>
+    <customValue>
+        <fullName>ROC</fullName>
+        <default>false</default>
+        <label>ROC</label>
+    </customValue>
+    <customValue>
+        <fullName>SEGUNDO CREDITO</fullName>
+        <default>false</default>
+        <label>SEGUNDO CREDITO</label>
+    </customValue>
+    <customValue>
+        <fullName>SOFOL</fullName>
+        <default>false</default>
+        <label>SOFOL</label>
+    </customValue>
+    <customValue>
+        <fullName>SOFOL C/SUBSIDIO</fullName>
+        <default>false</default>
+        <label>SOFOL C/SUBSIDIO</label>
+    </customValue>
+    <customValue>
+        <fullName>SUBSIDIO IVSOP</fullName>
+        <default>false</default>
+        <label>SUBSIDIO IVSOP</label>
+    </customValue>
+    <customValue>
+        <fullName>TOTAL</fullName>
+        <default>false</default>
+        <label>TOTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>TRADICIONAL</fullName>
+        <default>false</default>
+        <label>TRADICIONAL</label>
+    </customValue>
+    <customValue>
+        <fullName>UNAMOS CREDITOS</fullName>
+        <default>false</default>
+        <label>UNAMOS CREDITOS</label>
+    </customValue>
+    <customValue>
+        <fullName>CARGA INICIAL</fullName>
+        <default>false</default>
+        <label>CARGA INICIAL</label>
+    </customValue>
+    <masterLabel>Producto Financiero</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

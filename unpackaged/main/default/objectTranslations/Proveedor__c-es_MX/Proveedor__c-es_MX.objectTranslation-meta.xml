@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Proveedor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Proveedores</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Proveedor</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato de Pagina de Proveedor</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el valor del campo Proveedor --></errorMessage>
+        <name>No_Modificar_Nombre_Proveedor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede en nombre comercial una vez creado el registro del proveedor. --></errorMessage>
+        <name>No_modificar_nombre_comercial</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar en RFC una vez que el registro ha sido creado. --></errorMessage>
+        <name>No_modificar_rfc</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Reenviar_Respuesta --></label>
+        <name>Reenviar_Respuesta</name>
+    </webLinks>
+</CustomObjectTranslation>

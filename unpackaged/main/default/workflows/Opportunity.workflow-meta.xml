@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Actualizaci_n_sub_canal_de_venta</fullName>
+        <field>Canal_y_subcanal_de_venta_aprobado__c</field>
+        <literalValue>1</literalValue>
+        <name>Actualización sub canal de venta</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Estado_de_aprobaci_n_Aprobado</fullName>
+        <field>Estado_de_aprobacion__c</field>
+        <literalValue>Aprobado</literalValue>
+        <name>Estado de aprobación: Aprobado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Estado_de_aprobaci_n_En_Proceso</fullName>
+        <field>Estado_de_aprobacion__c</field>
+        <literalValue>En Proceso</literalValue>
+        <name>Estado de aprobación: En Proceso</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Estado_de_aprobaci_n_Rechazado</fullName>
+        <field>Estado_de_aprobacion__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>Estado de aprobación: Rechazado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Estado_de_aprobaci_n_Recuperado</fullName>
+        <field>Estado_de_aprobacion__c</field>
+        <literalValue>Recuperado</literalValue>
+        <name>Estado de aprobación: Recuperado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Etapa_de_Venta</fullName>
+        <field>Etapa_de_Venta__c</field>
+        <literalValue>Reserva</literalValue>
+        <name>Etapa de Venta</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Etapa_de_Venta_Entregado</fullName>
+        <field>Etapa_de_Venta__c</field>
+        <literalValue>Entregado</literalValue>
+        <name>Etapa de Venta Entregado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Etapa_de_Venta_Escriturado</fullName>
+        <field>Etapa_de_Venta__c</field>
+        <literalValue>Escrituración</literalValue>
+        <name>Etapa de Venta Escriturado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Etapa_de_Venta_formalizado</fullName>
+        <field>Etapa_de_Venta__c</field>
+        <literalValue>Formalización</literalValue>
+        <name>Etapa de Venta formalizado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Fecha_de_proyecci_n_de_escrituraci_n</fullName>
+        <field>CloseDate</field>
+        <formula>CreatedDate +30</formula>
+        <name>Fecha de proyección de escrituración</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Proceso_de_aprobaci_n_1</fullName>
+        <description>Utilizado en el proceso de aprobación &quot;Cambia el Asesor en la oportunidad&quot;</description>
+        <field>Proceso_de_aprobaci_n__c</field>
+        <formula>TEXT(1)</formula>
+        <name>Proceso de aprobación: 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Proceso_de_aprobaci_n_2</fullName>
+        <field>Proceso_de_aprobaci_n__c</field>
+        <formula>TEXT(2)</formula>
+        <name>Proceso de aprobación: 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Proceso_de_aprobaci_n_3</fullName>
+        <description>Utilizado en el proceso de aprobación &quot;Aprobación lead profiler&quot;</description>
+        <field>Proceso_de_aprobaci_n__c</field>
+        <formula>TEXT(3)</formula>
+        <name>Proceso de aprobación: 3</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Proceso_de_aprobaci_n_4</fullName>
+        <description>Se utiliza en el proceso de aprobación &quot;Aprobación colaborador Javer&quot;</description>
+        <field>Proceso_de_aprobaci_n__c</field>
+        <formula>TEXT(4)</formula>
+        <name>Proceso de aprobación: 4</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Proceso_de_aprobacion_5</fullName>
+        <description>Se utiliza cuando se cambia de canal</description>
+        <field>Proceso_de_aprobaci_n__c</field>
+        <formula>TEXT(5)</formula>
+        <name>Proceso de aprobación: 5</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Proceso_de_aprobacion_6</fullName>
+        <field>Proceso_de_aprobaci_n__c</field>
+        <formula>TEXT(6)</formula>
+        <name>Proceso de aprobación: 6</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Tipo_de_Tramite</fullName>
+        <field>Tipo_de_Tramite__c</field>
+        <literalValue>FOVISSSTE para todos</literalValue>
+        <name>Tipo de Tramite</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Tipo_de_Tramite_Conyugal</fullName>
+        <field>Tipo_de_Tramite__c</field>
+        <literalValue>Conyugal</literalValue>
+        <name>Tipo de Tramite Conyugal</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Tipo_de_Tramite_Individual</fullName>
+        <field>Tipo_de_Tramite__c</field>
+        <literalValue>Individual</literalValue>
+        <name>Tipo de Tramite Individual</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Tipo_de_Tramite_Individual2</fullName>
+        <field>Tipo_de_Tramite__c</field>
+        <literalValue>Individual</literalValue>
+        <name>Tipo de Tramite Individual2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Tipo_de_Tramite_Individual3</fullName>
+        <field>Tipo_de_Tramite__c</field>
+        <literalValue>Individual</literalValue>
+        <name>Tipo de Tramite Individual3</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Tipo_de_Tramite_Individual4</fullName>
+        <field>Tipo_de_Tramite__c</field>
+        <literalValue>Individual</literalValue>
+        <name>Tipo de Tramite Individual4</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Tipo_de_Tramite_Unamos_Credito</fullName>
+        <field>Tipo_de_Tramite__c</field>
+        <literalValue>Unamos créditos</literalValue>
+        <name>Tipo de Tramite Unamos Credito</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Actualización de etapa de Escriturado</fullName>
+        <actions>
+            <name>Etapa_de_Venta_Entregado</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Escriturado</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Actualización de etapa de Formalizado</fullName>
+        <actions>
+            <name>Etapa_de_Venta_Escriturado</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Formalizado</value>
+        </criteriaItems>
+        <description>Actualización de etapa de Formalizado- Escriturado</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Actualización de etapa de Reservado</fullName>
+        <actions>
+            <name>Etapa_de_Venta_formalizado</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Reservado</value>
+        </criteriaItems>
+        <description>Actualización de etapa de Reservado- a formalizado</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Actualización de etapa de Validación</fullName>
+        <actions>
+            <name>Etapa_de_Venta</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Validación</value>
+        </criteriaItems>
+        <description>Actualización de etapa de Validación</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Fecha de escrituración de proyeccción de escritura</fullName>
+        <actions>
+            <name>Fecha_de_proyecci_n_de_escrituraci_n</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.CreatedDate</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Tipo de Tramite Fovissste para Todos</fullName>
+        <actions>
+            <name>Tipo_de_Tramite</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Producto_financiero__c</field>
+            <operation>equals</operation>
+            <value>FOVISSSTE PARA TODOS</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Tipo de Tramite Unamos Credito</fullName>
+        <actions>
+            <name>Tipo_de_Tramite_Unamos_Credito</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Producto_financiero__c</field>
+            <operation>equals</operation>
+            <value>UNAMOS CREDITOS</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Tipo de Trámite-Conyugal</fullName>
+        <actions>
+            <name>Tipo_de_Tramite_Conyugal</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Producto_financiero__c</field>
+            <operation>equals</operation>
+            <value>COFINAVIT CONYUGAL,CONYUGAL,CONYUGAL C/SUBSIDIO 2.6 VSM,CONYUGAL C/SUBSIDIO 5 VSM</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Tipo de Trámite-Individual</fullName>
+        <actions>
+            <name>Tipo_de_Tramite_Individual</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Producto_financiero__c</field>
+            <operation>equals</operation>
+            <value>ALIA2,AUTOFIN CASA,BAJOS INGRESOS,BAJOS INGRESOS C/SUBSIDIO 2.6,BAJOS INGRESOS C/SUBSIDIO 5 VS,BANCARIO,BANJERCITO,BANJERCITO C/SUBSIDIO,BANSEFI,BANSEFI C/SUBSIDIO 2.6 VSM,BANSEFI C/SUBSIDIO 5 VSM</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Tipo de Trámite-Individual2</fullName>
+        <actions>
+            <name>Tipo_de_Tramite_Individual2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Producto_financiero__c</field>
+            <operation>equals</operation>
+            <value>CAJA FLORENCIO ROSAS,CAJA POPULAR MEXICANA,CAJA POPULAR SAN PABLO,CAPREPOL,CFE,COFIFOVISSSTE,COFI INGRESOS ADICIONALES,COFINAVIT,CON BANSEFI</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Tipo de Trámite-Individual3</fullName>
+        <actions>
+            <name>Tipo_de_Tramite_Individual3</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Producto_financiero__c</field>
+            <operation>equals</operation>
+            <value>CON SUBSIDIO 2.6 VSM,CON SUBSIDIO 5 VSM,CONTADO,ECONOMICO,ECONOMICO C/SUBSIDIO 2.6 VSM,ECONOMICO C/SUBSIDIO 5 VSM,FHSSTE,FONDO DE GARANTIA,FOVISSSTE</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Tipo de Trámite-Individual4</fullName>
+        <actions>
+            <name>Tipo_de_Tramite_Individual4</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Producto_financiero__c</field>
+            <operation>equals</operation>
+            <value>IMSS,INFONAVIT-FOVISSSTE,ISSFAM,ISSSSPEA,ISSSTELEON,PEMEX,PENSIONA2,PENSIONES DEL ESTADO,ROC,SEGUNDO CREDITO,SOFOL,SOFOL C/SUBSIDIO,SUBSIDIO IVSOP,TOTAL,TRADICIONAL</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

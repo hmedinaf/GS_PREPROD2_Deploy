@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solo_Numeros_en_NSS</fullName>
+    <active>false</active>
+    <errorConditionFormula>$User.is_Data_Migration_User__c = false &amp;&amp; 
+IF(NOT(ISBLANK(NSS__c)),
+NOT(ISNUMBER(NSS__c)), NULL)</errorConditionFormula>
+    <errorDisplayField>NSS__c</errorDisplayField>
+    <errorMessage>El Campo NSS solo admite Valores Numéricos. Favor de corregir.</errorMessage>
+</ValidationRule>

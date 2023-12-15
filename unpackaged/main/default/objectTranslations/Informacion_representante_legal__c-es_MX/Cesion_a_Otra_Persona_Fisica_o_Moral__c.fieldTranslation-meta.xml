@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Cesión a Otra Persona Física o Moral --></label>
+        <name>Cesion_a_Otra_Persona_Fisica_o_Moral__c</name>
+        <relationshipLabel><!-- Información Representantes Legales --></relationshipLabel>
+    </CustomFieldTranslation>

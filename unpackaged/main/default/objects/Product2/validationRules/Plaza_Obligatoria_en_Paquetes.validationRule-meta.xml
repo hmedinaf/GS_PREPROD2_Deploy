@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plaza_Obligatoria_en_Paquetes</fullName>
+    <active>true</active>
+    <description>No es posible Actualizar los valores del Producto Paquete, Promo Venta ni Regalos Mkt si no se ha agregado una Plaza</description>
+    <errorConditionFormula>AND(
+	NOT(ISNEW()), 
+ OR(RecordType.Name = &quot;Paquetes&quot;, 
+				RecordType.Name = &quot;Promoción de Venta&quot;,
+				RecordType.Name = &quot;Regalos MKT&quot;),  NOT(Plaza_Selected__c
+				),
+	OR(ISCHANGED(IsActive), 
+				ISCHANGED(Marca__c),
+				ISCHANGED(Precio_Venta__c),
+				ISCHANGED(Precio_de_Compra__c),
+				ISCHANGED(IVA__c),
+				ISCHANGED(Description), 
+				ISCHANGED(Name)
+		  ) 
+   )</errorConditionFormula>
+    <errorMessage>Es necesario una Plaza para actualizar cualquier dato del producto.</errorMessage>
+</ValidationRule>

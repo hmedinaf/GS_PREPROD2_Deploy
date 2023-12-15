@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Exepción Fondo de Garantía Aprobado --></label>
+        <name>Exepcion_Fondo_de_Garantia_Aprobado__c</name>
+    </CustomFieldTranslation>

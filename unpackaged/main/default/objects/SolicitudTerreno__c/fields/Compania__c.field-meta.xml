@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compania__c</fullName>
+    <externalId>false</externalId>
+    <label>Compañia</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CASAS JAVER SA DE CV</fullName>
+                <default>false</default>
+                <label>CASAS JAVER SA DE CV</label>
+            </value>
+            <value>
+                <fullName>HOGARES JAVER SA DE CV</fullName>
+                <default>false</default>
+                <label>HOGARES JAVER SA DE CV</label>
+            </value>
+            <value>
+                <fullName>CASAS JAVER DE QUERETARO SA DE CV</fullName>
+                <default>false</default>
+                <label>CASAS JAVER DE QUERETARO SA DE CV</label>
+            </value>
+            <value>
+                <fullName>CASAS JAVER DE MEXICO SA DE CV</fullName>
+                <default>false</default>
+                <label>CASAS JAVER DE MEXICO SA DE CV</label>
+            </value>
+            <value>
+                <fullName>INMUEBLES PARA TI SA DE CV</fullName>
+                <default>false</default>
+                <label>INMUEBLES PARA TI SA DE CV</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

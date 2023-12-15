@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_el_Minimo_de_Campos_en_NSS</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL(TipoCredito__c, &quot;INFONAVIT&quot;)  &amp;&amp;
+LEN(NSS__c) &lt; 11 &amp;&amp; NOT(isATC__c)</errorConditionFormula>
+    <errorDisplayField>NSS__c</errorDisplayField>
+    <errorMessage>El campo NSS debe tener 11 Caracteres</errorMessage>
+</ValidationRule>

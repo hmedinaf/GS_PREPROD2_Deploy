@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Forma de Pago --></label>
+        <name>Forma_de_Pago__c</name>
+        <picklistValues>
+            <masterLabel>Efectivo mayor a 100k mensual</masterLabel>
+            <translation><!-- Efectivo mayor a 100k mensual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo menor a 100k mensual</masterLabel>
+            <translation><!-- Efectivo menor a 100k mensual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organismo de Vivienda</masterLabel>
+            <translation><!-- Organismo de Vivienda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sistema Financiero</masterLabel>
+            <translation><!-- Sistema Financiero --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

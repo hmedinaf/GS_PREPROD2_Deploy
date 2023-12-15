@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Entregado: días transcurridos desde la fecha de escritura hasta la fecha de entrega
+Por entregar: días transcurridos desde fecha de escritura a HOY --></help>
+        <label><!-- Días de antigüedad --></label>
+        <name>DiasAntiguedad__c</name>
+    </CustomFieldTranslation>

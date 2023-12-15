@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldOverrides>
+        <field>Estatus_Pagare__c</field>
+        <literalValue>Emitido</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Tipo_Documento__c</field>
+        <literalValue>Factura</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Tipo_Pagare__c</field>
+        <literalValue>Pagaré Preventa</literalValue>
+    </fieldOverrides>
+    <label>Nuevo Pagaré Preventa</label>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Tipo_Documento__c</field>
+                <uiBehavior>Readonly</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Fecha_de_Vencimiento__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Tipo_Pagare__c</field>
+                <uiBehavior>Readonly</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Importe__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+    </quickActionLayout>
+    <successMessage>Se creó con éxito el nuevo Pagaré Preventa</successMessage>
+    <targetObject>Pagare_Preventa__c</targetObject>
+    <targetParentField>Plan_de_Venta__c</targetParentField>
+    <type>Create</type>
+</QuickAction>

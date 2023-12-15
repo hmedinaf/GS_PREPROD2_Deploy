@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Es un número entero. Es la máxima antigüedad de días para aprobaciones en estatus de &quot;En Proceso de Aprobación&quot;. Las que se encuentren fuera de este rango entran en la lista de remoción. Es necesario este valor para activar la limpieza programada. --></help>
+        <label><!-- Máx.antigüedad sin resolución --></label>
+        <name>Max_antiguedad_sin_resolucion__c</name>
+    </CustomFieldTranslation>

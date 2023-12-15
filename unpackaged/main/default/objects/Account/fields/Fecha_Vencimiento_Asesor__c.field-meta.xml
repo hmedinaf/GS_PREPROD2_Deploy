@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_Vencimiento_Asesor__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ Extension_Vencimiento_Asesor__c = true, 
+ Fecha_Asignacion_Asesor__c + $CustomMetadata.Vencimiento_Asignacion__mdt.Asesor.Dias__c + 15,
+ Fecha_Asignacion_Asesor__c + $CustomMetadata.Vencimiento_Asignacion__mdt.Asesor.Dias__c
+)</formula>
+    <label>Fecha Vencimiento Asesor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

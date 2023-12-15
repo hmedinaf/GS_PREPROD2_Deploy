@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancelacion_de_Escritura</fullName>
+    <active>true</active>
+    <description>Cancelacion de Escritura</description>
+    <label>Cancelacion de Escritura</label>
+    <picklistValues>
+        <picklist>CPPTS_Estatus_Aprobacion_Reembolso__c</picklist>
+        <values>
+            <fullName>Aprobado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No inciado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Por Aprobar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CPPTS_Estatus_Cancelacion__c</picklist>
+        <values>
+            <fullName>Aprobado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No iniciado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Por Aprobar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CPPTS_Razon_Rechazo__c</picklist>
+        <values>
+            <fullName>Aviso de Retención no firmado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambio de Ciudad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambio de Empleo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelación Con Financiera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crédito Denegado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desempleo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error de RFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excepción APC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de Aportaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de Papelería</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Homonimia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ilocalizable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motivos Personales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otra opción de compra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Por error en captura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problemas en la Construcción</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recurso Vencido YY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin relación laboral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temas Económicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tiempo de Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ya cuenta con Subsidio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estatus__c</picklist>
+        <values>
+            <fullName>Aprobada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

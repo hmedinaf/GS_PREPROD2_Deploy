@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Servicio Web --></label>
+        <name>ServicioWeb__c</name>
+        <picklistValues>
+            <masterLabel>Servicio de Solicitudes de Terrenos en Salesforce</masterLabel>
+            <translation><!-- Servicio de Solicitudes de Terrenos en Salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicio de Solicitudes de Terrenos en Sharepoint</masterLabel>
+            <translation><!-- Servicio de Solicitudes de Terrenos en Sharepoint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicio de Solicitudes de Trámites y Transferencias en Oracle</masterLabel>
+            <translation><!-- Servicio de Solicitudes de Trámites y Transferencias en Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicio de Solicitudes de Trámites y Transferencias en Salesforce</masterLabel>
+            <translation><!-- Servicio de Solicitudes de Trámites y Transferencias en Salesforce --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

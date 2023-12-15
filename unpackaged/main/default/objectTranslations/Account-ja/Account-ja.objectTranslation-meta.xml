@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Datos Laborales --></label>
+            <section>Datos Laborales</section>
+        </sections>
+        <sections>
+            <label><!-- Información adicional --></label>
+            <section>Información adicional</section>
+        </sections>
+        <sections>
+            <label><!-- PreCalificación --></label>
+            <section>PreCalificación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account solo lectura</layout>
+        <sections>
+            <label><!-- Datos Laborales --></label>
+            <section>Datos Laborales</section>
+        </sections>
+        <sections>
+            <label><!-- Información adicional --></label>
+            <section>Información adicional</section>
+        </sections>
+        <sections>
+            <label><!-- PreCalificación --></label>
+            <section>PreCalificación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Afluencia</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Afluente Persona Física</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Baja / Incubadora --></label>
+            <section>Datos Baja / Incubadora</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Fiscales --></label>
+            <section>Datos Fiscales</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Generales --></label>
+            <section>Datos Generales</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Marketing --></label>
+            <section>Datos Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de la Cuenta --></label>
+            <section>Datos de la Cuenta</section>
+        </sections>
+        <sections>
+            <label><!-- Datos del Contacto --></label>
+            <section>Datos del Contacto</section>
+        </sections>
+        <sections>
+            <label><!-- Datos del Crédito --></label>
+            <section>Datos del Crédito</section>
+        </sections>
+        <sections>
+            <label><!-- Quién es Quién --></label>
+            <section>Quién es Quién</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Afluente Persona Moral</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Generales --></label>
+            <section>Datos Generales</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cliente ATC</layout>
+        <sections>
+            <label><!-- Detalles de Vivienda --></label>
+            <section>Detalles de Vivienda</section>
+        </sections>
+        <sections>
+            <label><!-- Detalles del Cliente --></label>
+            <section>Detalles del Cliente</section>
+        </sections>
+        <sections>
+            <label><!-- Información de Sistema --></label>
+            <section>Información de Sistema</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cliente Persona Física</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Datos Baja / Incubadora --></label>
+            <section>Datos Baja / Incubadora</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Fiscales --></label>
+            <section>Datos Fiscales</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Generales --></label>
+            <section>Datos Generales</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Marketing --></label>
+            <section>Datos Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de la Cuenta --></label>
+            <section>Datos de la Cuenta</section>
+        </sections>
+        <sections>
+            <label><!-- Datos del Contacto --></label>
+            <section>Datos del Contacto</section>
+        </sections>
+        <sections>
+            <label><!-- Datos del Crédito --></label>
+            <section>Datos del Crédito</section>
+        </sections>
+        <sections>
+            <label><!-- Quién es Quién --></label>
+            <section>Quién es Quién</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cliente Persona Moral</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Generales --></label>
+            <section>Datos Generales</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cliente solo lectura</layout>
+        <sections>
+            <label><!-- Datos Laborales --></label>
+            <section>Datos Laborales</section>
+        </sections>
+        <sections>
+            <label><!-- Información adicional --></label>
+            <section>Información adicional</section>
+        </sections>
+        <sections>
+            <label><!-- PreCalificación --></label>
+            <section>PreCalificación</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Compañia Javer</layout>
+        <sections>
+            <label><!-- Dirección y Teléfono --></label>
+            <section>Dirección y Teléfono</section>
+        </sections>
+        <sections>
+            <label><!-- Información adicional --></label>
+            <section>Información adicional</section>
+        </sections>
+        <sections>
+            <label><!-- Información de la Compañía --></label>
+            <section>Información de la Compañía</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Consola</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato de cuenta personal</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Detalle de Proceso de Venta --></label>
+            <section>Detalle de Proceso de Venta</section>
+        </sections>
+        <sections>
+            <label><!-- Detalle de Vivienda --></label>
+            <section>Detalle de Vivienda</section>
+        </sections>
+        <sections>
+            <label><!-- Detalles del Cliente --></label>
+            <section>Detalles del Cliente</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Person Account Layout GCPV</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Detalles del Cliente --></label>
+            <section>Detalles del Cliente</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Prospecto Persona Física</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Baja / Incubadora --></label>
+            <section>Datos Baja / Incubadora</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Fiscales --></label>
+            <section>Datos Fiscales</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Generales --></label>
+            <section>Datos Generales</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Marketing --></label>
+            <section>Datos Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de la Cuenta --></label>
+            <section>Datos de la Cuenta</section>
+        </sections>
+        <sections>
+            <label><!-- Datos del Contacto --></label>
+            <section>Datos del Contacto</section>
+        </sections>
+        <sections>
+            <label><!-- Datos del Crédito --></label>
+            <section>Datos del Crédito</section>
+        </sections>
+        <sections>
+            <label><!-- Quién es Quién --></label>
+            <section>Quién es Quién</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Prospecto Persona Moral</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Generales --></label>
+            <section>Datos Generales</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Solo Lectura</layout>
+        <sections>
+            <label><!-- Datos Laborales --></label>
+            <section>Datos Laborales</section>
+        </sections>
+        <sections>
+            <label><!-- Información adicional --></label>
+            <section>Información adicional</section>
+        </sections>
+        <sections>
+            <label><!-- PreCalificación --></label>
+            <section>PreCalificación</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>Email_Cobranza</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Enviar a QEQ --></label>
+        <name>Enviar_a_QEQ</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Ver Lead --></label>
+        <name>Ver_Lead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add New Fraccionamients --></label>
+        <name>Add_New_Fraccionamients</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Agregar Fraccionamientos --></label>
+        <name>Agregar_Fraccionamientos</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Asignaciones --></label>
+        <name>Asignaciones</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Asignaciones2 --></label>
+        <name>Asignaciones2</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Datos Baja/Incubadora --></label>
+        <name>Datos_Baja_Incubadora</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Datos Cotización --></label>
+        <name>Datos_Cotizaci_n</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Datos Fiscales --></label>
+        <name>Datos_Fiscales</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Datos Lista Negra --></label>
+        <name>Datos_Lista_Negra</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Datos de La Cuenta --></label>
+        <name>Datos_de_La_Cuenta</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Datos de Marketing --></label>
+        <name>Datos_de_Marketing</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Datos de la Dirección --></label>
+        <name>Datos_de_la_Direcci_n</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Datos del Contacto --></label>
+        <name>Datos_del_Contacto</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Datos del Crédito --></label>
+        <name>Datos_del_Cr_dito</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dirección Afluente --></label>
+        <name>Nueva_Direccion_Afluente</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nuevo Proceso de Venta --></label>
+        <name>Nueva_Opportunity</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- AFLUENTE PERSONA MORAL --></label>
+        <name>Afluente_Persona_Moral</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CLIENTE PERSONA MORAL --></label>
+        <name>Cliente_Persona_Moral</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Clientes ATC --></label>
+        <name>ClientesATC</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- COMPAÑÍA JAVER --></label>
+        <name>Company_Javer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Contacto --></label>
+        <name>Contacto</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Contacto solo lectura --></label>
+        <name>Contacto_solo_lectura</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Javer Account --></label>
+        <name>Javer_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Prospecto --></label>
+        <name>Prospecto</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PROSPECTO PERSONA MORAL --></label>
+        <name>Prospecto_Persona_Moral</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- La dirección es obligatoria para los Afluentes, Favor de revisar que la dirección este completa. --></errorMessage>
+        <name>Afluente_Direccion_Obligatoria</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se permite asignar prospectador si ya tiene Asesor asignado. --></errorMessage>
+        <name>Afluente_no_Prospectador_si_Asesor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el Colaborador Javer, pues aún no termina su periodo de vigencia. --></errorMessage>
+        <name>Cambio_Colaborador_Javer_Vigente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el Check Apellido si la Cuenta ya tiene un Proceso de Venta --></errorMessage>
+        <name>Check_Apellido_no_modificable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede usar el valor de Programas Institucionales en Enlace, favor de cambiar la selección de la lisa. --></errorMessage>
+        <name>ENLACE_No_Valores_CanalVenta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede asignar un Colaborador Javer a la cuenta pues ésta ya cuenta con un proceso de venta --></errorMessage>
+        <name>Edicion_Colaborador_Javer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La Etapa de Seguimiento solo puede ser modificada cuando el estatus del cliente es POR ASIGNAR, ASIGNADO o POR REASIGNAR --></errorMessage>
+        <name>Edicion_Etapa_Seguimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede ser editada la Fecha de Afluencia --></errorMessage>
+        <name>Edicion_Fecha_Afluencia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A una cuenta de tipo cliente no se le puede modificar la fecha de nacimiento --></errorMessage>
+        <name>Edicion_Fecha_Nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede editar el nombre de la cuenta pues ésta ya cuenta con un proceso de venta --></errorMessage>
+        <name>Edicion_Nombre_Proceso_Venta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La Ocupación solo puede ser indicada cuando el estatus del cliente es POR ASIGNAR, ASIGNADO o POR REASIGNAR --></errorMessage>
+        <name>Edicion_Ocupacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el parentesco. --></errorMessage>
+        <name>Edicion_Parentesco</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede asignar un recomendante pues el Sub canal de venta no es &apos;RECOMIENDA Y GANA&apos; ni la cuenta tiene un Lead Profiler asignado --></errorMessage>
+        <name>Edicion_Recomendante</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha de visita debe ser mayor o igual a la fecha de afluencia del fraccionamiento actual. --></errorMessage>
+        <name>FechaVisita_MayorIgual_a_FechaAfluencia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La Fecha de afluencia debe ser 4 días previos o el día de hoy --></errorMessage>
+        <name>Fecha_Afluencia_4DiasAntes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fecha de estimación No puede ser menor a la fecha de Precalificación --></errorMessage>
+        <name>Fecha_estimada_vs_Fecha_Preca</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene los permisos para modificar los campos de Nombre o Apellidos --></errorMessage>
+        <name>Gerente_Vta_No_Modifica_Nombre</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe especificar la fecha estimada --></errorMessage>
+        <name>Motivo_incuba_vs_Fecha_estimada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe especificar la Capacidad de Compra --></errorMessage>
+        <name>Motivo_incuba_vs_capacidad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se permite Incubar la cuenta con un Proceso de Venta Activo --></errorMessage>
+        <name>No_Incubar_con_Proceso_de_Venta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No es posible modificar el Nombre del Cliente --></errorMessage>
+        <name>No_Modificacion_Nombre_Cliente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se permite asignar o cambiar Prospectador cuando el estatus Cliente es BAJA o INCUBADORA --></errorMessage>
+        <name>No_Reasignar_Prospectador_en_Incubadora</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se permite dar de baja con un Proceso de Venta Activo --></errorMessage>
+        <name>No_dar_de_Baja_con_Proceso_de_Venta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se permite asignar o cambiar al Asesor cuando el estatus Cliente es BAJA o INCUBADORA --></errorMessage>
+        <name>No_permite_cambio_Asesor_en_Baja_o_Inc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Otro_Telefono_REGEX</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Phone_REGEX</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede guardar Prospectador sin Fecha de Prospección --></errorMessage>
+        <name>Prospectador_sin_fecha</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe capturar los Puntos Totales --></errorMessage>
+        <name>Puntos_Necesarios_vs_Puntos_Totales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede seleccionar Reactivación en un registro que no esta en estatus de Baja o Incubadora --></errorMessage>
+        <name>Reactivacion_No_validos_sin_Baja_o_Incub</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede cambiar el nombre de la cuenta, contacta a tu administrador para realizar el cambio --></errorMessage>
+        <name>Restric_Name_Editing</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El Campo NSS solo admite Valores Numéricos. Favor de corregir. --></errorMessage>
+        <name>Solo_Numeros_en_NSS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 ó +1 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>TelefonoCelular_REGEX</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 digitos --></errorMessage>
+        <name>TelefonoOtro_REGEX</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Telefono_Trabajo_REGEX</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe seleccionar un motivo de baja --></errorMessage>
+        <name>Tipo_Baja_Motivo_Baja</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe introducir el Apellido Materno o Marcar la casilla &quot;Check Apellido&quot; --></errorMessage>
+        <name>Valida_Apellidos_Check_Apellido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No pueden estar asignados al mismo tiempo un Asesor y un Colaborador Javer --></errorMessage>
+        <name>Valida_Asig_Colaborador_y_Asesor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No pueden estar asignados al mismo tiempo un Colaborador Javer y un Lead Profiler --></errorMessage>
+        <name>Valida_Asignacion_Colab_Javer_LP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No pueden estar asignados al mismo tiempo un Colaborador Javer y un Prospectador --></errorMessage>
+        <name>Valida_Asignacion_Colab_Javer_Prosp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No pueden estar asignados al mismo tiempo un Colaborador Javer y un Recomendante --></errorMessage>
+        <name>Valida_Asignacion_Colab_Javer_Recomen</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No pueden estar asignados al mismo tiempo un Lead Profiler y un Colaborador Javer --></errorMessage>
+        <name>Valida_Asignacion_LP_Colab_Javer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- x No pueden estar asignados al mismo tiempo un Lead Profiler y un Prospectador --></errorMessage>
+        <name>Valida_Asignacion_LP_Prosp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No pueden estar asignados al mismo tiempo un Prospectador y un Colaborador Javer --></errorMessage>
+        <name>Valida_Asignacion_Prosp_Colab_Javer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No pueden estar asignados al mismo tiempo un Prospectador y un Lead Profiler --></errorMessage>
+        <name>Valida_Asignacion_Prosp_LP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No pueden estar asignados al mismo tiempo un Recomendante y un Colaborador Javer --></errorMessage>
+        <name>Valida_Asignacion_Recomen_Colab_Javer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe asignar un Recomendante pues el Canal de venta es &apos;PROGRAMAS INSTITUCIONALES&apos; y el Sub canal de venta es &apos;RECOMIENDA Y GANA&apos;. --></errorMessage>
+        <name>Valida_Canal_Sub_Canal_Vta_Recomendante</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Check Apellido no esta seleccionado, favor de completar ambos apellidos --></errorMessage>
+        <name>Valida_Check_Apellido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede introducir Apellido Materno, ya que se autorizo que el prospecto no cuente con este dato. --></errorMessage>
+        <name>Valida_Check_Apellido_Aprobado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La edad mínima debe ser 18 años --></errorMessage>
+        <name>Valida_Edad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha no puede ser posterior a la fecha actual --></errorMessage>
+        <name>Valida_Fecha_Afluencia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Ninguna Fecha (fecha de afluencia, fecha de asignación asesor, fecha LP, fecha de prospección), podrá ser mayor a 4 días previos a la fecha actual. --></errorMessage>
+        <name>Valida_Fechas_NoMayor4</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Ingrese el apellido materno de la cuenta sin números ni caracteres especiales --></errorMessage>
+        <name>Valida_Formato_Apellido_Materno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Ingrese el apellido de la cuenta sin números ni caracteres especiales --></errorMessage>
+        <name>Valida_Formato_Apellidos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La homoclave debe tener solo caracteres alfanuméricos --></errorMessage>
+        <name>Valida_Formato_Homoclave</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Ingrese el nombre de la cuenta sin números ni caracteres especiales --></errorMessage>
+        <name>Valida_Formato_Nombre</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Rellene el campo --></errorMessage>
+        <name>Valida_Formato_NombreVacio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El RFC base debe tener solo caracteres alfanuméricos --></errorMessage>
+        <name>Valida_Formato_RFC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se ha capturado un Asesor --></errorMessage>
+        <name>Valida_MotivoAsignacion_SiAsesor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El NSS debe contener 11 caracteres numéricos. --></errorMessage>
+        <name>Valida_NSS_Formato</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe ingresar el NSS --></errorMessage>
+        <name>Valida_NSS_Obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No cuenta con permisos suficientes para editar el nombre de la cuenta --></errorMessage>
+        <name>Valida_Nombre_Persona_Fisica_APC_Fiscal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No cuenta con permisos suficientes para editar el nombre de la cuenta --></errorMessage>
+        <name>Valida_Nombre_Persona_Moral_APC_Fiscal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El Parentesco es obligatorio --></errorMessage>
+        <name>Valida_Parentesco_Obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No es posible asignar el parentesco si no existe un colaorador seleccionado --></errorMessage>
+        <name>Valida_Parentesco_cuando_hay_Colaborador</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Llene el campo --></errorMessage>
+        <name>Valida_Prospectrador_SiCanalProspeccion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe capturar al menos 2 números telefónicos --></errorMessage>
+        <name>Valida_Telefonos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el Asesor pues aún no termina su periodo de vigencia. --></errorMessage>
+        <name>Valida_Vigencia_Asesor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el Colaborador Javer pues aún no termina su periodo de vigencia. --></errorMessage>
+        <name>Valida_Vigencia_Colaborador_Javer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el Lead Profiler pues aún no termina su periodo de vigencia. --></errorMessage>
+        <name>Valida_Vigencia_Lead_Profiler</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el Prospectador pues aún no termina su periodo de vigencia. --></errorMessage>
+        <name>Valida_Vigencia_Prospectador</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Los dominios relacionados a Javer no son aceptados como parte de la información de los prospectos, afluentes o clientes. --></errorMessage>
+        <name>Valida_domino_no_igual_a_javer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo NSS debe tener 11 Caracteres --></errorMessage>
+        <name>Valida_el_Minimo_de_Campos_en_NSS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se detecto mas de un espacio entre palabras en el Nombre, Apellido Paterno o Apellido Materno, Favor de revisar y corregir. --></errorMessage>
+        <name>Valida_mas_de_1_espacio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Valide la Fecha, debe tener al menos 18 Años --></errorMessage>
+        <name>Valida_mayor_de_18</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe capturar al menos un numero Interior o exterior --></errorMessage>
+        <name>Valida_numero_int_y_ext</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede modificar Apellido Materno --></errorMessage>
+        <name>Validar_modificar_Apellidos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede modificar Apellido Paterno --></errorMessage>
+        <name>Validar_modificar_ApellidosPaterno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede modificar Fecha de Nacimiento --></errorMessage>
+        <name>Validar_modificar_FechaNacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede modificar Nombre --></errorMessage>
+        <name>Validar_modificar_Nombre</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe seleccionar un motivo de incubación. --></errorMessage>
+        <name>valida_fechaestimada_vs_motivo_incuba</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Aviso_de_Privacidad --></label>
+        <name>Aviso_de_Privacidad</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Aviso_de_Privacidad_Integral --></label>
+        <name>Aviso_de_Privacidad_Integral</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Aviso_de_Privacidad_Mex --></label>
+        <name>Aviso_de_Privacidad_Mex</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Aviso_de_Privacidad_Quer_taro --></label>
+        <name>Aviso_de_Privacidad_Quer_taro</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Buscar_Prospectos_y_Clientes --></label>
+        <name>Buscar_Prospectos_y_Clientes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Consulta_CURP --></label>
+        <name>Consulta_CURP</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Consulta_de_CURP --></label>
+        <name>Consulta_de_CURP</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Geolocalizacion --></label>
+        <name>Geolocalizacion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Guardar_Cotizacion --></label>
+        <name>Guardar_Cotizacion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Home_Javer --></label>
+        <name>Home_Javer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Obtener_NSS --></label>
+        <name>Obtener_NSS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Obtener_mi_RFC --></label>
+        <name>Obtener_mi_RFC</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Portal_Infonavit --></label>
+        <name>Portal_Infonavit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Precalificacion_Infonavit --></label>
+        <name>Precalificacion_Infonavit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RFC_Consisa --></label>
+        <name>RFC_Consisa</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Reporte_Historial_Asignaciones --></label>
+        <name>Reporte_Historial_Asignaciones</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Reporte_del_Historial_de_Asignaciones --></label>
+        <name>Reporte_del_Historial_de_Asignaciones</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Simulador --></label>
+        <name>Simulador</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

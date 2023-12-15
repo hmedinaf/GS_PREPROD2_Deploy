@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospectos</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Apellidomaterno_cta__c</columns>
+    <columns>Fraccionamiento_cta__c</columns>
+    <columns>PC_BIRTHDATE</columns>
+    <columns>NSS__c</columns>
+    <columns>Estatus_Cliente__c</columns>
+    <columns>Fecha_Estatus__c</columns>
+    <columns>Asesor__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Estatus_Lista_Negra_QEQ__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PersonAccount.Prospecto_Persona_Fisica,Account.Prospecto_Persona_Moral</value>
+    </filters>
+    <label>Prospectos</label>
+</ListView>

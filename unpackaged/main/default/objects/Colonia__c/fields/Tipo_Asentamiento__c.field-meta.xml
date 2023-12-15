@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_Asentamiento__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo Asentamiento</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aeropuerto</fullName>
+                <default>false</default>
+                <label>Aeropuerto</label>
+            </value>
+            <value>
+                <fullName>Ampliación</fullName>
+                <default>false</default>
+                <label>Ampliación</label>
+            </value>
+            <value>
+                <fullName>Barrio</fullName>
+                <default>false</default>
+                <label>Barrio</label>
+            </value>
+            <value>
+                <fullName>Campamento</fullName>
+                <default>false</default>
+                <label>Campamento</label>
+            </value>
+            <value>
+                <fullName>Ciudad</fullName>
+                <default>false</default>
+                <label>Ciudad</label>
+            </value>
+            <value>
+                <fullName>Club de golf</fullName>
+                <default>false</default>
+                <label>Club de golf</label>
+            </value>
+            <value>
+                <fullName>Colonia</fullName>
+                <default>false</default>
+                <label>Colonia</label>
+            </value>
+            <value>
+                <fullName>Condominio</fullName>
+                <default>false</default>
+                <label>Condominio</label>
+            </value>
+            <value>
+                <fullName>Congregación</fullName>
+                <default>false</default>
+                <label>Congregación</label>
+            </value>
+            <value>
+                <fullName>Conjunto habitacional</fullName>
+                <default>false</default>
+                <label>Conjunto habitacional</label>
+            </value>
+            <value>
+                <fullName>Ejido</fullName>
+                <default>false</default>
+                <label>Ejido</label>
+            </value>
+            <value>
+                <fullName>Equipamiento</fullName>
+                <default>false</default>
+                <label>Equipamiento</label>
+            </value>
+            <value>
+                <fullName>Estación</fullName>
+                <default>false</default>
+                <label>Estación</label>
+            </value>
+            <value>
+                <fullName>Exhacienda</fullName>
+                <default>false</default>
+                <label>Exhacienda</label>
+            </value>
+            <value>
+                <fullName>Finca</fullName>
+                <default>false</default>
+                <label>Finca</label>
+            </value>
+            <value>
+                <fullName>Fraccionamiento</fullName>
+                <default>false</default>
+                <label>Fraccionamiento</label>
+            </value>
+            <value>
+                <fullName>Gran usuario</fullName>
+                <default>false</default>
+                <label>Gran usuario</label>
+            </value>
+            <value>
+                <fullName>Granja</fullName>
+                <default>false</default>
+                <label>Granja</label>
+            </value>
+            <value>
+                <fullName>Hacienda</fullName>
+                <default>false</default>
+                <label>Hacienda</label>
+            </value>
+            <value>
+                <fullName>Ingenio</fullName>
+                <default>false</default>
+                <label>Ingenio</label>
+            </value>
+            <value>
+                <fullName>Paraje</fullName>
+                <default>false</default>
+                <label>Paraje</label>
+            </value>
+            <value>
+                <fullName>Parque industrial</fullName>
+                <default>false</default>
+                <label>Parque industrial</label>
+            </value>
+            <value>
+                <fullName>Poblado comunal</fullName>
+                <default>false</default>
+                <label>Poblado comunal</label>
+            </value>
+            <value>
+                <fullName>Pueblo</fullName>
+                <default>false</default>
+                <label>Pueblo</label>
+            </value>
+            <value>
+                <fullName>Puerto</fullName>
+                <default>false</default>
+                <label>Puerto</label>
+            </value>
+            <value>
+                <fullName>Ranchería</fullName>
+                <default>false</default>
+                <label>Ranchería</label>
+            </value>
+            <value>
+                <fullName>Rancho</fullName>
+                <default>false</default>
+                <label>Rancho</label>
+            </value>
+            <value>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+                <label>Residencial</label>
+            </value>
+            <value>
+                <fullName>Unidad habitacional</fullName>
+                <default>false</default>
+                <label>Unidad habitacional</label>
+            </value>
+            <value>
+                <fullName>Villa</fullName>
+                <default>false</default>
+                <label>Villa</label>
+            </value>
+            <value>
+                <fullName>Zona comercial</fullName>
+                <default>false</default>
+                <label>Zona comercial</label>
+            </value>
+            <value>
+                <fullName>Zona federal</fullName>
+                <default>false</default>
+                <label>Zona federal</label>
+            </value>
+            <value>
+                <fullName>Zona industrial</fullName>
+                <default>false</default>
+                <label>Zona industrial</label>
+            </value>
+            <value>
+                <fullName>Zona militar</fullName>
+                <default>false</default>
+                <label>Zona militar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

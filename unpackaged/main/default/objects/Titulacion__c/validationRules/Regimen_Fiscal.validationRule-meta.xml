@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regimen_Fiscal</fullName>
+    <active>true</active>
+    <description>No se puede editar el campo en status cancelado</description>
+    <errorConditionFormula>AND(ISCHANGED(  Regimen_Fiscal_SAT__c ),  ISPICKVAL( Estatus_Proceso__c , &#39;Cancelado&#39;))</errorConditionFormula>
+    <errorDisplayField>Regimen_Fiscal_SAT__c</errorDisplayField>
+    <errorMessage>Este campo no se puede modificar cuando el estatus es &#39;Cancelado&#39;</errorMessage>
+</ValidationRule>

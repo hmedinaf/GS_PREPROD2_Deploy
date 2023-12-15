@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Crédito Neto Final 3 --></label>
+        <name>Credito_Neto_Final_3__c</name>
+    </CustomFieldTranslation>

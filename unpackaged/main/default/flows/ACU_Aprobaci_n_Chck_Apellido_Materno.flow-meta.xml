@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Aprobación Check Apellido</description>
+        <name>Aprobacion_Check_Apellido</name>
+        <label>Aprobación Check Apellido</label>
+        <locationX>50</locationX>
+        <locationY>539</locationY>
+        <actionName>submit</actionName>
+        <actionType>submit</actionType>
+        <connector>
+            <targetReference>Debugg_DespuesDeEntrar</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Debugg_ErrorAlEnviarAprobacion</targetReference>
+        </faultConnector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>objectId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>processDefinitionNameOrId</name>
+            <value>
+                <stringValue>ACU_Aprob_Apellido_Materno_V2</stringValue>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>58.0</apiVersion>
+    <decisions>
+        <name>Evalua_Estatus_Aprobacion</name>
+        <label>Evalua Estatus Aprobación</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <defaultConnectorLabel>Estatus No Valido para Enviar a Aprobación</defaultConnectorLabel>
+        <rules>
+            <name>Estatus_Valido_para_Enviar_a_Aprobacion</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Estatus_Aprbacion__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Nuevo</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Estatus_Aprbacion__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Rechazado</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Aprobacion_Check_Apellido</targetReference>
+            </connector>
+            <label>Estatus Valido para Enviar a Aprobación</label>
+        </rules>
+    </decisions>
+    <description>Envía el registro para aprobación cuando el Chck Apellido Materno esta activo</description>
+    <environments>Default</environments>
+    <interviewLabel>ACU - Aprobación Chck Apellido Materno {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>ACU - Aprobación Chck Apellido Materno</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Debugg_AntesDeEntrar</name>
+        <label>Debugg_AntesDeEntrar</label>
+        <locationX>314</locationX>
+        <locationY>323</locationY>
+        <connector>
+            <targetReference>Evalua_Estatus_Aprobacion</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>debugg__c</field>
+            <value>
+                <stringValue>{!$Flow.CurrentDateTime} - Si entra al Flow de ACU</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Debugg_DespuesDeEntrar</name>
+        <label>Debugg_DespuesDeEntrar</label>
+        <locationX>50</locationX>
+        <locationY>647</locationY>
+        <inputAssignments>
+            <field>debugg__c</field>
+            <value>
+                <stringValue>{!$Flow.CurrentDateTime} - Si finalizo el Flow de ACU</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Debugg_ErrorAlEnviarAprobacion</name>
+        <label>Debugg_ErrorAlEnviarAprobación</label>
+        <locationX>314</locationX>
+        <locationY>647</locationY>
+        <inputAssignments>
+            <field>debugg__c</field>
+            <value>
+                <stringValue>{!$Flow.CurrentDateTime} - Tiene Error y no se Ejecutó el Flow</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Debugg_AntesDeEntrar</targetReference>
+        </connector>
+        <object>Aprobacion_Cuentas__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

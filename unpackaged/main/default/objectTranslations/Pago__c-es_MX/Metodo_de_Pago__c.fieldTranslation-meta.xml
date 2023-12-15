@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Método de Pago (fld dep) --></label>
+        <name>Metodo_de_Pago__c</name>
+        <picklistValues>
+            <masterLabel>BANCOS BANORTE - CASH</masterLabel>
+            <translation><!-- BANCOS BANORTE - CASH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS BANORTE - MC-BNT-MXN-550</masterLabel>
+            <translation><!-- BANCOS BANORTE - MC-BNT-MXN-550 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS BANORTE - MC-BNT-MXN-799</masterLabel>
+            <translation><!-- BANCOS BANORTE - MC-BNT-MXN-799 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS FAMSA - CASH</masterLabel>
+            <translation><!-- BANCOS FAMSA - CASH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS FAMSA - MC-FAM-MXN-156</masterLabel>
+            <translation><!-- BANCOS FAMSA - MC-FAM-MXN-156 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS FAMSA - MC-FAM-MXN-674</masterLabel>
+            <translation><!-- BANCOS FAMSA - MC-FAM-MXN-674 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS SANTANDER - CASH</masterLabel>
+            <translation><!-- BANCOS SANTANDER - CASH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS SANTANDER - MC-SAN-MXN-297</masterLabel>
+            <translation><!-- BANCOS SANTANDER - MC-SAN-MXN-297 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS SANTANDER - MC-SAN-MXN-359</masterLabel>
+            <translation><!-- BANCOS SANTANDER - MC-SAN-MXN-359 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS SANTANDER - MC-SAN-MXN-457</masterLabel>
+            <translation><!-- BANCOS SANTANDER - MC-SAN-MXN-457 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS SANTANDER - MC-SAN-MXN-535</masterLabel>
+            <translation><!-- BANCOS SANTANDER - MC-SAN-MXN-535 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS SANTANDER - MC-SAN-MXN-657</masterLabel>
+            <translation><!-- BANCOS SANTANDER - MC-SAN-MXN-657 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS SANTANDER - MC-SAN-MXN-659</masterLabel>
+            <translation><!-- BANCOS SANTANDER - MC-SAN-MXN-659 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS SANTANDER - MC-SAN-MXN-753</masterLabel>
+            <translation><!-- BANCOS SANTANDER - MC-SAN-MXN-753 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS VIRTUAL - CASH</masterLabel>
+            <translation><!-- BANCOS VIRTUAL - CASH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS VIRTUAL - MC-VIRT-EFVO-CJ</masterLabel>
+            <translation><!-- BANCOS VIRTUAL - MC-VIRT-EFVO-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS VIRTUAL - MC-VIRT-EFVO-CMEX</masterLabel>
+            <translation><!-- BANCOS VIRTUAL - MC-VIRT-EFVO-CMEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS VIRTUAL - MC-VIRT-OXXO-CJ</masterLabel>
+            <translation><!-- BANCOS VIRTUAL - MC-VIRT-OXXO-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS VIRTUAL - MC-VIRT-OXXO-CJ-HSBC</masterLabel>
+            <translation><!-- BANCOS VIRTUAL - MC-VIRT-OXXO-CJ-HSBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS VIRTUAL - MC-VIRT-OXXO-HJ</masterLabel>
+            <translation><!-- BANCOS VIRTUAL - MC-VIRT-OXXO-HJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANCOS VIRTUAL - MC-VIRT-PAG-FID-VSE</masterLabel>
+            <translation><!-- BANCOS VIRTUAL - MC-VIRT-PAG-FID-VSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHEQUE - MC-SAN-MXN-657</masterLabel>
+            <translation><!-- CHEQUE - MC-SAN-MXN-657 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHEQUE SBC - MC-SAN-MXN-535</masterLabel>
+            <translation><!-- CHEQUE SBC - MC-SAN-MXN-535 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHEQUE SBC - MC-SAN-MXN-657</masterLabel>
+            <translation><!-- CHEQUE SBC - MC-SAN-MXN-657 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-BNT-MXN-550</masterLabel>
+            <translation><!-- Cheque - MC-BNT-MXN-550 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-FAM-MXN-674</masterLabel>
+            <translation><!-- Cheque - MC-FAM-MXN-674 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-HSBC-MXN-381</masterLabel>
+            <translation><!-- Cheque - MC-HSBC-MXN-381 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-HSBC-MXN-445</masterLabel>
+            <translation><!-- Cheque - MC-HSBC-MXN-445 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-HSBC-MXN-579</masterLabel>
+            <translation><!-- Cheque - MC-HSBC-MXN-579 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-HSBC-MXN-744</masterLabel>
+            <translation><!-- Cheque - MC-HSBC-MXN-744 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-HSBC-MXN-793</masterLabel>
+            <translation><!-- Cheque - MC-HSBC-MXN-793 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-SAN-MXN-140</masterLabel>
+            <translation><!-- Cheque - MC-SAN-MXN-140 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-SAN-MXN-297</masterLabel>
+            <translation><!-- Cheque - MC-SAN-MXN-297 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-SAN-MXN-359</masterLabel>
+            <translation><!-- Cheque - MC-SAN-MXN-359 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-SAN-MXN-535</masterLabel>
+            <translation><!-- Cheque - MC-SAN-MXN-535 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-SAN-MXN-715-1</masterLabel>
+            <translation><!-- Cheque - MC-SAN-MXN-715-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-SAN-MXN-753</masterLabel>
+            <translation><!-- Cheque - MC-SAN-MXN-753 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque - MC-VIRT-CHQ</masterLabel>
+            <translation><!-- Cheque - MC-VIRT-CHQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-BNT-MXN-317A</masterLabel>
+            <translation><!-- Cheque SBC - MC-BNT-MXN-317A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-BNT-MXN-550</masterLabel>
+            <translation><!-- Cheque SBC - MC-BNT-MXN-550 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-FAM-MXN-156</masterLabel>
+            <translation><!-- Cheque SBC - MC-FAM-MXN-156 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-HSBC-MXN-381</masterLabel>
+            <translation><!-- Cheque SBC - MC-HSBC-MXN-381 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-HSBC-MXN-445</masterLabel>
+            <translation><!-- Cheque SBC - MC-HSBC-MXN-445 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-HSBC-MXN-579</masterLabel>
+            <translation><!-- Cheque SBC - MC-HSBC-MXN-579 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-HSBC-MXN-744</masterLabel>
+            <translation><!-- Cheque SBC - MC-HSBC-MXN-744 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-HSBC-MXN-793</masterLabel>
+            <translation><!-- Cheque SBC - MC-HSBC-MXN-793 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-SAN-MXN-1359</masterLabel>
+            <translation><!-- Cheque SBC - MC-SAN-MXN-1359 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-SAN-MXN-140</masterLabel>
+            <translation><!-- Cheque SBC - MC-SAN-MXN-140 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-SAN-MXN-297</masterLabel>
+            <translation><!-- Cheque SBC - MC-SAN-MXN-297 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-SAN-MXN-359</masterLabel>
+            <translation><!-- Cheque SBC - MC-SAN-MXN-359 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-SAN-MXN-659</masterLabel>
+            <translation><!-- Cheque SBC - MC-SAN-MXN-659 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cheque SBC - MC-SAN-MXN-753</masterLabel>
+            <translation><!-- Cheque SBC - MC-SAN-MXN-753 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crédito</masterLabel>
+            <translation><!-- Crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Débito</masterLabel>
+            <translation><!-- Débito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFECTIVO - MC-BNT-MXN-550</masterLabel>
+            <translation><!-- EFECTIVO - MC-BNT-MXN-550 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFECTIVO - MC-CI-ANTI-HJ</masterLabel>
+            <translation><!-- EFECTIVO - MC-CI-ANTI-HJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFECTIVO - MC-FAM-MXN-156</masterLabel>
+            <translation><!-- EFECTIVO - MC-FAM-MXN-156 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFECTIVO - MC-FAM-MXN-674</masterLabel>
+            <translation><!-- EFECTIVO - MC-FAM-MXN-674 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFECTIVO - MC-SAN-MXN-297</masterLabel>
+            <translation><!-- EFECTIVO - MC-SAN-MXN-297 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFECTIVO - MC-SAN-MXN-535</masterLabel>
+            <translation><!-- EFECTIVO - MC-SAN-MXN-535 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFECTIVO - MC-SAN-MXN-657</masterLabel>
+            <translation><!-- EFECTIVO - MC-SAN-MXN-657 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFECTIVO - MC-SAN-MXN-659</masterLabel>
+            <translation><!-- EFECTIVO - MC-SAN-MXN-659 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFECTIVO - MC-SAN-MXN-753</masterLabel>
+            <translation><!-- EFECTIVO - MC-SAN-MXN-753 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - APLICACION CARTERA PV CJ</masterLabel>
+            <translation><!-- Efectivo - APLICACION CARTERA PV CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - CAJA</masterLabel>
+            <translation><!-- Efectivo - CAJA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-BNT-MXN-2317</masterLabel>
+            <translation><!-- Efectivo - MC-BNT-MXN-2317 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-BNT-MXN-317A</masterLabel>
+            <translation><!-- Efectivo - MC-BNT-MXN-317A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-CI-ANTI-CQ</masterLabel>
+            <translation><!-- Efectivo - MC-CI-ANTI-CQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-FAM-MXN-1156</masterLabel>
+            <translation><!-- Efectivo - MC-FAM-MXN-1156 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-FAM-MXN-81156</masterLabel>
+            <translation><!-- Efectivo - MC-FAM-MXN-81156 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-HSBC-MXN-381</masterLabel>
+            <translation><!-- Efectivo - MC-HSBC-MXN-381 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-HSBC-MXN-445</masterLabel>
+            <translation><!-- Efectivo - MC-HSBC-MXN-445 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-HSBC-MXN-579</masterLabel>
+            <translation><!-- Efectivo - MC-HSBC-MXN-579 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-HSBC-MXN-744</masterLabel>
+            <translation><!-- Efectivo - MC-HSBC-MXN-744 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-HSBC-MXN-793</masterLabel>
+            <translation><!-- Efectivo - MC-HSBC-MXN-793 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-SAN-MXN-140</masterLabel>
+            <translation><!-- Efectivo - MC-SAN-MXN-140 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-SAN-MXN-715</masterLabel>
+            <translation><!-- Efectivo - MC-SAN-MXN-715 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-SAN-MXN-715-1</masterLabel>
+            <translation><!-- Efectivo - MC-SAN-MXN-715-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-SAN-MXN-9297</masterLabel>
+            <translation><!-- Efectivo - MC-SAN-MXN-9297 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-VIRT-EFVO</masterLabel>
+            <translation><!-- Efectivo - MC-VIRT-EFVO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-VIRT-EFVO-CJ</masterLabel>
+            <translation><!-- Efectivo - MC-VIRT-EFVO-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-VIRT-F-MAS</masterLabel>
+            <translation><!-- Efectivo - MC-VIRT-F-MAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-VIRT-FIDCONTADO-CJQ</masterLabel>
+            <translation><!-- Efectivo - MC-VIRT-FIDCONTADO-CJQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-VIRT-OXXO-CJ</masterLabel>
+            <translation><!-- Efectivo - MC-VIRT-OXXO-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-VIRT-OXXO-CJ-HSBC</masterLabel>
+            <translation><!-- Efectivo - MC-VIRT-OXXO-CJ-HSBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-VIRT-OXXO-CMEX</masterLabel>
+            <translation><!-- Efectivo - MC-VIRT-OXXO-CMEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-VIRT-OXXO-CQ</masterLabel>
+            <translation><!-- Efectivo - MC-VIRT-OXXO-CQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-VIRT-OXXO-CQ-HSBC</masterLabel>
+            <translation><!-- Efectivo - MC-VIRT-OXXO-CQ-HSBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-VIRT-TB</masterLabel>
+            <translation><!-- Efectivo - MC-VIRT-TB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Efectivo - MC-VIRT-TB-CJ</masterLabel>
+            <translation><!-- Efectivo - MC-VIRT-TB-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nota Credito - Nota Credito</masterLabel>
+            <translation><!-- Nota Credito - Nota Credito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Novacion - Novacion</masterLabel>
+            <translation><!-- Novacion - Novacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pago con Tarjeta - MC-FAM-MXN-674</masterLabel>
+            <translation><!-- Pago con Tarjeta - MC-FAM-MXN-674 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pago con Tarjeta - MC-HSBC-MXN-744</masterLabel>
+            <translation><!-- Pago con Tarjeta - MC-HSBC-MXN-744 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pago con Tarjeta - MC-SAN-MXN-753</masterLabel>
+            <translation><!-- Pago con Tarjeta - MC-SAN-MXN-753 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - APLICACION CARTERA PV CJ</masterLabel>
+            <translation><!-- Payment - APLICACION CARTERA PV CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - APLICACION CARTERA PV CJM</masterLabel>
+            <translation><!-- Payment - APLICACION CARTERA PV CJM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - APLICACION CARTERA PV CJQ</masterLabel>
+            <translation><!-- Payment - APLICACION CARTERA PV CJQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - APLICACION CARTERA PV IPT</masterLabel>
+            <translation><!-- Payment - APLICACION CARTERA PV IPT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - APLICACION CARTERA PV SCJ</masterLabel>
+            <translation><!-- Payment - APLICACION CARTERA PV SCJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - CASH</masterLabel>
+            <translation><!-- Payment - CASH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - CB-FAM-MXN-674</masterLabel>
+            <translation><!-- Payment - CB-FAM-MXN-674 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - CB-SAN-DLL-998</masterLabel>
+            <translation><!-- Payment - CB-SAN-DLL-998 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - CB-SAN-MXN-657</masterLabel>
+            <translation><!-- Payment - CB-SAN-MXN-657 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - ELEC-VIRT EFVO-QRO</masterLabel>
+            <translation><!-- Payment - ELEC-VIRT EFVO-QRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - ELEC-VIRT-EFVO-CJ</masterLabel>
+            <translation><!-- Payment - ELEC-VIRT-EFVO-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - ELEC-VIRT-TB-CJ</masterLabel>
+            <translation><!-- Payment - ELEC-VIRT-TB-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MANUAL-BMX-MXN-729</masterLabel>
+            <translation><!-- Payment - MANUAL-BMX-MXN-729 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MANUAL-BNT-MXN-550</masterLabel>
+            <translation><!-- Payment - MANUAL-BNT-MXN-550 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MANUAL-BNT-MXN-904</masterLabel>
+            <translation><!-- Payment - MANUAL-BNT-MXN-904 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MANUAL-CIB-MXN-704</masterLabel>
+            <translation><!-- Payment - MANUAL-CIB-MXN-704 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MANUAL-HSBC-MXN-744</masterLabel>
+            <translation><!-- Payment - MANUAL-HSBC-MXN-744 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MANUAL-SAN-MXN-535</masterLabel>
+            <translation><!-- Payment - MANUAL-SAN-MXN-535 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MANUAL-SAN-MXN-657</masterLabel>
+            <translation><!-- Payment - MANUAL-SAN-MXN-657 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-BNT-MXN-317A</masterLabel>
+            <translation><!-- Payment - MC-BNT-MXN-317A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-BNT-MXN-550</masterLabel>
+            <translation><!-- Payment - MC-BNT-MXN-550 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-BNT-MXN-904</masterLabel>
+            <translation><!-- Payment - MC-BNT-MXN-904 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CI-ANTI-CJ</masterLabel>
+            <translation><!-- Payment - MC-CI-ANTI-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CI-ANTI-CM</masterLabel>
+            <translation><!-- Payment - MC-CI-ANTI-CM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CIBANCO-MXN-674</masterLabel>
+            <translation><!-- Payment - MC-CIBANCO-MXN-674 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CIBANCO-MXN-682</masterLabel>
+            <translation><!-- Payment - MC-CIBANCO-MXN-682 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CIBANCO-MXN-704</masterLabel>
+            <translation><!-- Payment - MC-CIBANCO-MXN-704 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CIBANCO-MXN-739</masterLabel>
+            <translation><!-- Payment - MC-CIBANCO-MXN-739 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CIBANCO-MXN-755</masterLabel>
+            <translation><!-- Payment - MC-CIBANCO-MXN-755 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CTA-DEP-CQ</masterLabel>
+            <translation><!-- Payment - MC-CTA-DEP-CQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CTA-INCOB-CJ</masterLabel>
+            <translation><!-- Payment - MC-CTA-INCOB-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CTA-INCOB-CMEX</masterLabel>
+            <translation><!-- Payment - MC-CTA-INCOB-CMEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CTA-INCOB-HJ</masterLabel>
+            <translation><!-- Payment - MC-CTA-INCOB-HJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CTA-INCOB-IMPT</masterLabel>
+            <translation><!-- Payment - MC-CTA-INCOB-IMPT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CTA-INCOB-QRO</masterLabel>
+            <translation><!-- Payment - MC-CTA-INCOB-QRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-CTA-INCOB-SAB</masterLabel>
+            <translation><!-- Payment - MC-CTA-INCOB-SAB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-FAM-MXN-156</masterLabel>
+            <translation><!-- Payment - MC-FAM-MXN-156 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-FAM-MXN-674</masterLabel>
+            <translation><!-- Payment - MC-FAM-MXN-674 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-FAM-MXN-81156</masterLabel>
+            <translation><!-- Payment - MC-FAM-MXN-81156 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-HSBC-MXN-381</masterLabel>
+            <translation><!-- Payment - MC-HSBC-MXN-381 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-HSBC-MXN-445</masterLabel>
+            <translation><!-- Payment - MC-HSBC-MXN-445 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-HSBC-MXN-579</masterLabel>
+            <translation><!-- Payment - MC-HSBC-MXN-579 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-HSBC-MXN-744</masterLabel>
+            <translation><!-- Payment - MC-HSBC-MXN-744 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-HSBC-MXN-793</masterLabel>
+            <translation><!-- Payment - MC-HSBC-MXN-793 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-SAN-MXN-140</masterLabel>
+            <translation><!-- Payment - MC-SAN-MXN-140 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-SAN-MXN-297</masterLabel>
+            <translation><!-- Payment - MC-SAN-MXN-297 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-SAN-MXN-359</masterLabel>
+            <translation><!-- Payment - MC-SAN-MXN-359 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-SAN-MXN-386</masterLabel>
+            <translation><!-- Payment - MC-SAN-MXN-386 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-SAN-MXN-535</masterLabel>
+            <translation><!-- Payment - MC-SAN-MXN-535 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-SAN-MXN-657</masterLabel>
+            <translation><!-- Payment - MC-SAN-MXN-657 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-SAN-MXN-659</masterLabel>
+            <translation><!-- Payment - MC-SAN-MXN-659 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-SAN-MXN-715</masterLabel>
+            <translation><!-- Payment - MC-SAN-MXN-715 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-SAN-MXN-715-1</masterLabel>
+            <translation><!-- Payment - MC-SAN-MXN-715-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-SAN-MXN-7152</masterLabel>
+            <translation><!-- Payment - MC-SAN-MXN-7152 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-SAN-MXN-753</masterLabel>
+            <translation><!-- Payment - MC-SAN-MXN-753 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-SAN-MXN-9297</masterLabel>
+            <translation><!-- Payment - MC-SAN-MXN-9297 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-V-CB-CJ-CIBANCO</masterLabel>
+            <translation><!-- Payment - MC-V-CB-CJ-CIBANCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-CHQ-CMEX</masterLabel>
+            <translation><!-- Payment - MC-VIRT-CHQ-CMEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-EFVO-CJ</masterLabel>
+            <translation><!-- Payment - MC-VIRT-EFVO-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-EFVO-CMEX</masterLabel>
+            <translation><!-- Payment - MC-VIRT-EFVO-CMEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-EFVO-HJ</masterLabel>
+            <translation><!-- Payment - MC-VIRT-EFVO-HJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-F-MAS</masterLabel>
+            <translation><!-- Payment - MC-VIRT-F-MAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-F-MAS-NOV</masterLabel>
+            <translation><!-- Payment - MC-VIRT-F-MAS-NOV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-FIDCONTADO-CJ</masterLabel>
+            <translation><!-- Payment - MC-VIRT-FIDCONTADO-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-FIDCONTADO-SAB</masterLabel>
+            <translation><!-- Payment - MC-VIRT-FIDCONTADO-SAB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-INCOB-CJ</masterLabel>
+            <translation><!-- Payment - MC-VIRT-INCOB-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-INCOB-CM</masterLabel>
+            <translation><!-- Payment - MC-VIRT-INCOB-CM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-MXN-VDS</masterLabel>
+            <translation><!-- Payment - MC-VIRT-MXN-VDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-OXXO-CJ</masterLabel>
+            <translation><!-- Payment - MC-VIRT-OXXO-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-OXXO-CJ F</masterLabel>
+            <translation><!-- Payment - MC-VIRT-OXXO-CJ F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-OXXO-CJ-HSBC</masterLabel>
+            <translation><!-- Payment - MC-VIRT-OXXO-CJ-HSBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-OXXO-CQ</masterLabel>
+            <translation><!-- Payment - MC-VIRT-OXXO-CQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-OXXO-CQ-HSBC</masterLabel>
+            <translation><!-- Payment - MC-VIRT-OXXO-CQ-HSBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-ALTUS II</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-ALTUS II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-BALV</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-BALV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-CB</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-CB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-EM-A</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-EM-A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-EM-B</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-EM-B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-MASAI</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-MASAI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-MASS</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-MASS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-PALTO-1</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-PALTO-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-PB</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-PB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-PDCSV</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-PDCSV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-PDR</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-PDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-PKU</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-PKU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-PMD</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-PMD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-QV</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-QV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-RA</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-RA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-TEJ</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-TEJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-PAG-FID-VDR</masterLabel>
+            <translation><!-- Payment - MC-VIRT-PAG-FID-VDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-SEG-CLD-CJ</masterLabel>
+            <translation><!-- Payment - MC-VIRT-SEG-CLD-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-TB-CJ</masterLabel>
+            <translation><!-- Payment - MC-VIRT-TB-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-TB-CMEX</masterLabel>
+            <translation><!-- Payment - MC-VIRT-TB-CMEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - MC-VIRT-TR-F</masterLabel>
+            <translation><!-- Payment - MC-VIRT-TR-F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - NULL</masterLabel>
+            <translation><!-- Payment - NULL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - VIRT-APL ANTICIPOS CJ</masterLabel>
+            <translation><!-- Payment - VIRT-APL ANTICIPOS CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - VIRT-APL ANTICIPOS CJQ</masterLabel>
+            <translation><!-- Payment - VIRT-APL ANTICIPOS CJQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - VIRT-APL ANTICIPOS CMEX</masterLabel>
+            <translation><!-- Payment - VIRT-APL ANTICIPOS CMEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - VIRT-APL CTA INCOB CJ</masterLabel>
+            <translation><!-- Payment - VIRT-APL CTA INCOB CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - VIRT-APL CTA INCOB CMEX</masterLabel>
+            <translation><!-- Payment - VIRT-APL CTA INCOB CMEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment - VIRT-APL CTA INCOB QRO</masterLabel>
+            <translation><!-- Payment - VIRT-APL CTA INCOB QRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFERENCIA - MC-BNT-MXN-550</masterLabel>
+            <translation><!-- TRANSFERENCIA - MC-BNT-MXN-550 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFERENCIA - MC-FAM-MXN-156</masterLabel>
+            <translation><!-- TRANSFERENCIA - MC-FAM-MXN-156 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFERENCIA - MC-FAM-MXN-674</masterLabel>
+            <translation><!-- TRANSFERENCIA - MC-FAM-MXN-674 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFERENCIA - MC-SAN-MXN-297</masterLabel>
+            <translation><!-- TRANSFERENCIA - MC-SAN-MXN-297 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFERENCIA - MC-SAN-MXN-359</masterLabel>
+            <translation><!-- TRANSFERENCIA - MC-SAN-MXN-359 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFERENCIA - MC-SAN-MXN-535</masterLabel>
+            <translation><!-- TRANSFERENCIA - MC-SAN-MXN-535 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFERENCIA - MC-SAN-MXN-657</masterLabel>
+            <translation><!-- TRANSFERENCIA - MC-SAN-MXN-657 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFERENCIA - MC-SAN-MXN-659</masterLabel>
+            <translation><!-- TRANSFERENCIA - MC-SAN-MXN-659 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFERENCIA - MC-SAN-MXN-753</masterLabel>
+            <translation><!-- TRANSFERENCIA - MC-SAN-MXN-753 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFERENCIA - MC-VIRT-OXXO-CJ-HSBC</masterLabel>
+            <translation><!-- TRANSFERENCIA - MC-VIRT-OXXO-CJ-HSBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFERENCIA - MC-VIRT-OXXO-CQ</masterLabel>
+            <translation><!-- TRANSFERENCIA - MC-VIRT-OXXO-CQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRANSFERENCIA - MC-VIRT-OXXO-CQ-HSBC</masterLabel>
+            <translation><!-- TRANSFERENCIA - MC-VIRT-OXXO-CQ-HSBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarjeta - MC-HSBC-MXN-381</masterLabel>
+            <translation><!-- Tarjeta - MC-HSBC-MXN-381 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarjeta - MC-HSBC-MXN-579</masterLabel>
+            <translation><!-- Tarjeta - MC-HSBC-MXN-579 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarjeta - MC-HSBC-MXN-744</masterLabel>
+            <translation><!-- Tarjeta - MC-HSBC-MXN-744 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarjeta - MC-VIRT-EFVO-CJ</masterLabel>
+            <translation><!-- Tarjeta - MC-VIRT-EFVO-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarjeta - MC-VIRT-TB</masterLabel>
+            <translation><!-- Tarjeta - MC-VIRT-TB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MANUAL-BNT-MXN-550</masterLabel>
+            <translation><!-- Transferencia - MANUAL-BNT-MXN-550 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-BNT-MXN-2317</masterLabel>
+            <translation><!-- Transferencia - MC-BNT-MXN-2317 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-BNT-MXN-317A</masterLabel>
+            <translation><!-- Transferencia - MC-BNT-MXN-317A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-CI-ANTI-CJ</masterLabel>
+            <translation><!-- Transferencia - MC-CI-ANTI-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-CIBANCO-MXN-674</masterLabel>
+            <translation><!-- Transferencia - MC-CIBANCO-MXN-674 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-CIBANCO-MXN-682</masterLabel>
+            <translation><!-- Transferencia - MC-CIBANCO-MXN-682 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-CIBANCO-MXN-704</masterLabel>
+            <translation><!-- Transferencia - MC-CIBANCO-MXN-704 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-CIBANCO-MXN-739</masterLabel>
+            <translation><!-- Transferencia - MC-CIBANCO-MXN-739 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-CIBANCO-MXN-755</masterLabel>
+            <translation><!-- Transferencia - MC-CIBANCO-MXN-755 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-CTA-INCOB-CJ</masterLabel>
+            <translation><!-- Transferencia - MC-CTA-INCOB-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-CTA-INCOB-CMEX</masterLabel>
+            <translation><!-- Transferencia - MC-CTA-INCOB-CMEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-CTA-INCOB-SAB</masterLabel>
+            <translation><!-- Transferencia - MC-CTA-INCOB-SAB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-HSBC-MXN-381</masterLabel>
+            <translation><!-- Transferencia - MC-HSBC-MXN-381 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-HSBC-MXN-445</masterLabel>
+            <translation><!-- Transferencia - MC-HSBC-MXN-445 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-HSBC-MXN-579</masterLabel>
+            <translation><!-- Transferencia - MC-HSBC-MXN-579 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-HSBC-MXN-744</masterLabel>
+            <translation><!-- Transferencia - MC-HSBC-MXN-744 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-HSBC-MXN-793</masterLabel>
+            <translation><!-- Transferencia - MC-HSBC-MXN-793 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-SAN-MXN-1359</masterLabel>
+            <translation><!-- Transferencia - MC-SAN-MXN-1359 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-SAN-MXN-140</masterLabel>
+            <translation><!-- Transferencia - MC-SAN-MXN-140 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-SAN-MXN-386</masterLabel>
+            <translation><!-- Transferencia - MC-SAN-MXN-386 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-SAN-MXN-715</masterLabel>
+            <translation><!-- Transferencia - MC-SAN-MXN-715 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-SAN-MXN-715-1</masterLabel>
+            <translation><!-- Transferencia - MC-SAN-MXN-715-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-SAN-MXN-9297</masterLabel>
+            <translation><!-- Transferencia - MC-SAN-MXN-9297 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-EFVO</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-EFVO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-EFVO-CJ</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-EFVO-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-FIDCONTADO-CJQ</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-FIDCONTADO-CJQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-FIDCONTADO-SAB</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-FIDCONTADO-SAB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-OXXO-CJ</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-OXXO-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-OXXO-CM</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-OXXO-CM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-OXXO-CM-HSBC</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-OXXO-CM-HSBC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-OXXO-HJ</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-OXXO-HJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-ALTUS II</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-ALTUS II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-BALV</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-BALV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-EM-A</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-EM-A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-EM-B</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-EM-B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-MASAI</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-MASAI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-MASS</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-MASS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-PALTO-1</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-PALTO-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-PDCSV</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-PDCSV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-PDR</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-PDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-PKU</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-PKU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-PMD</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-PMD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-QV</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-QV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-RA</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-RA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-TEJ</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-TEJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-VDR</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-VDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-VSE</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-VSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-PAG-FID-ZIZANA</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-PAG-FID-ZIZANA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-TB</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-TB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferencia - MC-VIRT-TB-CJ</masterLabel>
+            <translation><!-- Transferencia - MC-VIRT-TB-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIRTUAL - MC-CTA-INCOB-CJ</masterLabel>
+            <translation><!-- VIRTUAL - MC-CTA-INCOB-CJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIRTUAL - MC-CTA-INCOB-CMEX</masterLabel>
+            <translation><!-- VIRTUAL - MC-CTA-INCOB-CMEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIRTUAL - MC-CTA-INCOB-HJ</masterLabel>
+            <translation><!-- VIRTUAL - MC-CTA-INCOB-HJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIRTUAL - MC-CTA-INCOB-IMPT</masterLabel>
+            <translation><!-- VIRTUAL - MC-CTA-INCOB-IMPT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIRTUAL - MC-CTA-INCOB-QRO</masterLabel>
+            <translation><!-- VIRTUAL - MC-CTA-INCOB-QRO --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

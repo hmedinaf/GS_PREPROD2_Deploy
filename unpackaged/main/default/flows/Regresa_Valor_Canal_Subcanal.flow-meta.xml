@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>Valida_Decision_Aprobacion</name>
+        <label>Valida Decisión Aprobación</label>
+        <locationX>314</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>Resultado predeterminado</defaultConnectorLabel>
+        <rules>
+            <name>Rechazado_Recuperado</name>
+            <conditionLogic>1 AND (2 OR 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Proceso_de_aprobaci_n__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>5</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Estado_de_aprobacion__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Rechazado</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Estado_de_aprobacion__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Recuperado</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Regresa_Valores</targetReference>
+            </connector>
+            <label>Rechazado / Recuperado</label>
+        </rules>
+        <rules>
+            <name>Rechazado_Recuperado_Sub</name>
+            <conditionLogic>1 AND (2 OR 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Proceso_de_aprobaci_n__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>6</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Estado_de_aprobacion__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Recuperado</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Estado_de_aprobacion__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Rechazado</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Regresa_Valor_SubCanal</targetReference>
+            </connector>
+            <label>Rechazado / Recuperado Sub</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Regresa Valor Canal/Subcanal {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Regresa Valor Canal/Subcanal</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Regresa_Valor_SubCanal</name>
+        <label>Regresa Valor SubCanal</label>
+        <locationX>314</locationX>
+        <locationY>455</locationY>
+        <inputAssignments>
+            <field>Sub_Canal_de_Venta__c</field>
+            <value>
+                <elementReference>$Record.Sub_Canal_anterior__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Regresa_Valores</name>
+        <label>Regresa Valores</label>
+        <locationX>50</locationX>
+        <locationY>455</locationY>
+        <inputAssignments>
+            <field>Canal_de_venta__c</field>
+            <value>
+                <elementReference>$Record.Canal_de_venta_anterior__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Sub_Canal_de_Venta__c</field>
+            <value>
+                <elementReference>$Record.Sub_Canal_anterior__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Valida_Decision_Aprobacion</targetReference>
+        </connector>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

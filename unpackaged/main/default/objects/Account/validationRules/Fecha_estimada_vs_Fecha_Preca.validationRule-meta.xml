@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_estimada_vs_Fecha_Preca</fullName>
+    <active>false</active>
+    <errorConditionFormula>$User.is_Data_Migration_User__c = false &amp;&amp;
+Fechest_cta__c &lt; Fechprec_cta__c</errorConditionFormula>
+    <errorDisplayField>Fechest_cta__c</errorDisplayField>
+    <errorMessage>Fecha de estimación No puede ser menor a la fecha de Precalificación</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vivienda_y_Venta_Anticipada</fullName>
+    <active>true</active>
+    <description>Si hay vivienda en el plan de venta no se debe poder mover el check de venta anticipada.</description>
+    <errorConditionFormula>ISCHANGED( Venta_Anticipada__c ) &amp;&amp;  NOT(ISBLANK( Vivienda__c ))</errorConditionFormula>
+    <errorDisplayField>Venta_Anticipada__c</errorDisplayField>
+    <errorMessage>No puede cambiar el tipo de venta con una vivienda reservada.</errorMessage>
+</ValidationRule>

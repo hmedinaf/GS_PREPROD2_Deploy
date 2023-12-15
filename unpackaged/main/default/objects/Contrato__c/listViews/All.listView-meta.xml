@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Estatus__c</columns>
+    <columns>Creado__c</columns>
+    <columns>Estado__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Accion__c</columns>
+    <columns>Accion_Formula__c</columns>
+    <columns>EstatusSolicitud__c</columns>
+    <columns>Aprobador_Buscar__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>TipoContrato__c</columns>
+    <columns>Tipo_de_Contrato_Picklist__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Fraccionamiento_Lookup__c</field>
+        <operation>equals</operation>
+        <value>MAGNOLIAS IV</value>
+    </filters>
+    <label>Todos</label>
+</ListView>

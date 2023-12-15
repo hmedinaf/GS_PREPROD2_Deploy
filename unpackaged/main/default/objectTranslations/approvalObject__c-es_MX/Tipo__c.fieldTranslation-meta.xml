@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo --></label>
+        <name>Tipo__c</name>
+        <picklistValues>
+            <masterLabel>Cancelación</masterLabel>
+            <translation><!-- Cancelación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comisión</masterLabel>
+            <translation><!-- Comisión --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning</masterLabel>
+            <translation><!-- Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PostVenta</masterLabel>
+            <translation><!-- PostVenta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PreVenta</masterLabel>
+            <translation><!-- PreVenta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venta</masterLabel>
+            <translation><!-- Venta --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

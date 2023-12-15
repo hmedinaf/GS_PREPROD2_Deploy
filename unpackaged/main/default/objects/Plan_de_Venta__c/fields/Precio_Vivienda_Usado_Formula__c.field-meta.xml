@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Precio_Vivienda_Usado_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(BLANKVALUE(Precio_Venta_Anticipada_Monto__c,0)&gt;0, &quot;Precio Venta Anticipada&quot;,
+IF(BLANKVALUE(Promocion_de_Precio_monto__c,0)&gt;0,&quot;Promocion de Precio&quot;,
+IF(BLANKVALUE(Precio_Unitario__c,0)&gt;0,&quot;Precio Unitario&quot;,
+   &quot;Precio de Lista&quot;)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Precio Vivienda Usado</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Comisión</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Comisiones</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Base Comisiones Asesores</layout>
+        <sections>
+            <label><!-- Metas del Plan --></label>
+            <section>Metas del Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Base Comisiones Prospectadores</layout>
+        <sections>
+            <label><!-- Etapas --></label>
+            <section>Etapas</section>
+        </sections>
+        <sections>
+            <label><!-- Metas del Plan --></label>
+            <section>Metas del Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Base Plan de Bonos</layout>
+        <sections>
+            <label><!-- % Pago por Categoría --></label>
+            <section>% Pago por Categoría</section>
+        </sections>
+        <sections>
+            <label><!-- Etapas --></label>
+            <section>Etapas</section>
+        </sections>
+        <sections>
+            <label><!-- Metas del Plan --></label>
+            <section>Metas del Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Unico / Fraccionamiento / UEN --></label>
+            <section>Unico / Fraccionamiento / UEN</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Comisiones Asesores</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Comisiones Prospectadores</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cálculo Pago Bonos</layout>
+        <sections>
+            <label><!-- Totales --></label>
+            <section>Totales</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Plan Bono Asesor</layout>
+        <sections>
+            <label><!-- Metas del Plan --></label>
+            <section>Metas del Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Plan Bono Col. Javer</layout>
+        <sections>
+            <label><!-- Metas del Plan --></label>
+            <section>Metas del Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Plan Bono Prospectador</layout>
+        <sections>
+            <label><!-- Metas del Plan --></label>
+            <section>Metas del Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Plan Bono_Col. Javer</layout>
+        <sections>
+            <label><!-- Metas del Plan --></label>
+            <section>Metas del Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Base Comisiones Asesores --></description>
+        <label><!-- Base Comisiones Asesores --></label>
+        <name>Base_Comisiones_Asesores</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Base Comisiones Prospectadores --></description>
+        <label><!-- Base Comisiones Prospectadores --></label>
+        <name>Base_Comisiones_Prospectadores</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Base Plan de Bonos --></description>
+        <label><!-- Base Plan de Bonos --></label>
+        <name>Base_Plan_de_Bonos</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Comisiones Asesores --></description>
+        <label><!-- Comisiones Asesores --></label>
+        <name>Comisiones_Asesores</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Comisiones Prospectadores --></description>
+        <label><!-- Comisiones Prospectadores --></label>
+        <name>Comisiones_Prospectadores</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Plan Bono_Col. Javer --></description>
+        <label><!-- Plan Bono_Col. Javer --></label>
+        <name>Plan_Bono_1_Col_Javer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Plan Bono Asesor --></description>
+        <label><!-- Plan Bono Asesor --></label>
+        <name>Plan_Bono_Asesor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Plan Bono Col. Javer --></description>
+        <label><!-- Plan Bono Col. Javer --></label>
+        <name>Plan_Bono_Col_Javer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Plan Bono Prospectador --></description>
+        <label><!-- Plan Bono Prospectador --></label>
+        <name>Plan_Bono_Prospectador</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Reenviar_Respuesta --></label>
+        <name>Reenviar_Respuesta</name>
+    </webLinks>
+</CustomObjectTranslation>

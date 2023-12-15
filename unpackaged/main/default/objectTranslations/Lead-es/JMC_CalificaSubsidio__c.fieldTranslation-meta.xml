@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Califica para subsidio --></label>
+        <name>JMC_CalificaSubsidio__c</name>
+        <picklistValues>
+            <masterLabel>No califica</masterLabel>
+            <translation><!-- No califica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si califica</masterLabel>
+            <translation><!-- Si califica --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

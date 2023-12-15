@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escritura_tercero_numero_exterior</fullName>
+    <active>true</active>
+    <description>Si escritura a favor de un tercero es igual a SI debe llenarse el campo número exterior.</description>
+    <errorConditionFormula>AND
+(
+Escritura_a_favor_de_un_Tercero__c == &quot;SI&quot;,
+OR(
+ISNULL(Num_Exterior__c),
+ISBLANK(Num_Exterior__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Num_Exterior__c</errorDisplayField>
+    <errorMessage>El campo escritura a favor de un tercero = SI por lo que el campo número exterior debe llenarse.</errorMessage>
+</ValidationRule>

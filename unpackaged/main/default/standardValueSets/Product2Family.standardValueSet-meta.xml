@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Casa Muestra</fullName>
+        <default>false</default>
+        <label>Casa Muestra</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Complementos</fullName>
+        <default>false</default>
+        <label>Complementos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Otros Gastos</fullName>
+        <default>false</default>
+        <label>Otros Gastos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paquete</fullName>
+        <default>false</default>
+        <label>Paquete</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Promoción de Venta</fullName>
+        <default>false</default>
+        <label>Promoción de Venta</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Promoción en Especie</fullName>
+        <default>false</default>
+        <label>Promoción en Especie</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paquetes</fullName>
+        <default>false</default>
+        <label>Paquetes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Productos Genéricos</fullName>
+        <default>false</default>
+        <label>Productos Genéricos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Regalos MKT</fullName>
+        <default>false</default>
+        <label>Regalos MKT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vivienda</fullName>
+        <default>false</default>
+        <label>Vivienda</label>
+    </standardValue>
+</StandardValueSet>

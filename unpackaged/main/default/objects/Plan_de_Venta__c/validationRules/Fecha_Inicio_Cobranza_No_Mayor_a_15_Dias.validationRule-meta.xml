@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_Inicio_Cobranza_No_Mayor_a_15_Dias</fullName>
+    <active>false</active>
+    <errorConditionFormula>(Fecha_de_Inicio_de_Cobranza__c &gt;  Fecha_Reserva__c + 15)</errorConditionFormula>
+    <errorDisplayField>Fecha_de_Inicio_de_Cobranza__c</errorDisplayField>
+    <errorMessage>La fecha de Inicio de Cobranza no puede ser superior a 15 días de la Fecha de Reserva.</errorMessage>
+</ValidationRule>

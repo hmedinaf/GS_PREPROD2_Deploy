@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Direccion__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Dirección</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dirección Principal</fullName>
+                <default>true</default>
+                <label>Dirección Principal</label>
+            </value>
+            <value>
+                <fullName>Dirección Laboral</fullName>
+                <default>false</default>
+                <label>Dirección Laboral</label>
+            </value>
+            <value>
+                <fullName>Dirección Laboral CO Acreditad</fullName>
+                <default>false</default>
+                <label>Dirección Laboral CO Acreditad</label>
+            </value>
+            <value>
+                <fullName>Dirección Rep Legal Laboral</fullName>
+                <default>false</default>
+                <label>Dirección Rep Legal Laboral</label>
+            </value>
+            <value>
+                <fullName>Dirección Rep Legal/Apoderado</fullName>
+                <default>false</default>
+                <label>Dirección Rep Legal/Apoderado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Inconsistencia --></label>
+        <name>Inconsistencia__c</name>
+        <picklistValues>
+            <masterLabel>Datos Laborales</masterLabel>
+            <translation><!-- Datos Laborales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problema con RFC</masterLabel>
+            <translation><!-- Problema con RFC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin Acta de Nacimiento</masterLabel>
+            <translation><!-- Sin Acta de Nacimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin Inconsistencia</masterLabel>
+            <translation><!-- Sin Inconsistencia --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

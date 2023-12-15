@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tarea_Cerrada</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( $User.FirstName != &#39;ADMIN&#39; &amp;&amp; ($RecordType.Name = &quot;Talkdesk&quot; &amp;&amp; ((NOT(ISCHANGED(Status  )) &amp;&amp; ISPICKVAL( Status  , &quot;Completed&quot;))) || ($RecordType.Name = &quot;Talkdesk&quot; &amp;&amp; ISPICKVAL(PRIORVALUE( Status  ) , &quot;Completed&quot;))) &amp;&amp; 
+OR(ISCHANGED( OwnerId ),
+ISCHANGED(  Subject ),
+ISCHANGED(  Audio_llamada__c  ),
+ISCHANGED( Caso__c  ),
+ISCHANGED(  IsClosed ),
+ISCHANGED(  Description ),
+ISCHANGED(  CallDurationInSeconds ),
+ISCHANGED(  Status  ),
+ISCHANGED(   WhoId ),
+ISCHANGED(  WhatId  ),
+ISCHANGED(   Priority ),
+ISCHANGED(  Solucion__c  ),
+ISCHANGED(  Telefono__c ),
+ISCHANGED(   Tipificacion_nivel_1__c ),
+ISCHANGED(   Tipificacion_nivel_2__c ),
+ISCHANGED(   Type ),
+ISCHANGED(   CallType ),
+ISCHANGED(    Vivienda__c ),
+ISCHANGED(  ActivityDate )), 
+true, false)</errorConditionFormula>
+    <errorMessage>No se puede modificar una tarea cerrada</errorMessage>
+</ValidationRule>

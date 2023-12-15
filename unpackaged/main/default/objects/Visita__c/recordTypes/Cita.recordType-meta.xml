@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cita</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Citas</compactLayoutAssignment>
+    <label>Cita</label>
+    <picklistValues>
+        <picklist>Estatus__c</picklist>
+        <values>
+            <fullName>Programada</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Reprogramada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MotivoNoEntrega__c</picklist>
+        <values>
+            <fullName>Cambio de fecha%2Fhora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canceló cita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demanda detalles de calidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta documento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No asistió</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No es la ubicación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No es lo que ofrecieron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No quiere la casa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notario</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

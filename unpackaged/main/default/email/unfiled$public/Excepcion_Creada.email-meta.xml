@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Aviso de Excepcion Creada</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Membrete_Javer</letterhead>
+    <name>Excepcion Creada</name>
+    <style>formalLetter</style>
+    <subject>Excep.-Prod.: &quot;{!Catch__c.Name}&quot; por &quot;{!Catch__c.Causa__c}&quot; en Salesforce</subject>
+    <textOnly>Atención: Administrador del Sistema Salesforce
+Se ha creado una nueva excepcion en Salesforce con la clave &quot;{!Catch__c.Name}&quot;, la cual se ha generado por la causa &quot;{!Catch__c.Causa__c}&quot;.
+
+La descripción detallada de la excepción es:
+{!Catch__c.Descripcion__c}
+
+Los detalles de ubicación del código que generó esta excepción son los siguientes:
+{!Catch__c.StackTrace__c}
+
+
+Para revisar el registro generado por esta excepción puede acceder al siguiente enlace:
+
+{!Catch__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

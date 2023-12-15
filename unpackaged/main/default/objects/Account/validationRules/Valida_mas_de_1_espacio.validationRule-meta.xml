@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_mas_de_1_espacio</fullName>
+    <active>true</active>
+    <description>Valida mas de 1 espacio entre palabras de lo campos de Nombre, Last Name, Apellido Paterno y Apellido Materno</description>
+    <errorConditionFormula>ISNEW() &amp;&amp; 
+!$User.is_Data_Migration_User__c &amp;&amp;
+(
+  CONTAINS(Name, &quot;  &quot;)  || 
+  CONTAINS(LastName, &quot;  &quot;)  ||   
+  CONTAINS(Apellidopaterno_cta__c, &quot;  &quot;)  || 
+  CONTAINS(Apellidomaterno_cta__c, &quot;  &quot;)
+)</errorConditionFormula>
+    <errorMessage>Se detecto mas de un espacio entre palabras en el Nombre, Apellido Paterno o Apellido Materno, Favor de revisar y corregir.</errorMessage>
+</ValidationRule>

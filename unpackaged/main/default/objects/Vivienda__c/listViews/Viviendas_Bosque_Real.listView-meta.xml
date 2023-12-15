@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Viviendas_Bosque_Real</fullName>
+    <columns>NAME</columns>
+    <columns>Fraccionamiento__c</columns>
+    <columns>Prototipo__c</columns>
+    <columns>Num_Interno__c</columns>
+    <columns>Estatus__c</columns>
+    <columns>Uno_Sembrado_Import__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Precio_Total_F__c</columns>
+    <columns>Precio_Presupuesto__c</columns>
+    <columns>Precio_Total__c</columns>
+    <columns>Precio_Total_FOrmula__c</columns>
+    <columns>Precio_Total_Excedente__c</columns>
+    <columns>Precio_Total_Unitario__c</columns>
+    <columns>Precio_Unitario__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Fraccionamiento__c</field>
+        <operation>equals</operation>
+        <value>bosque real</value>
+    </filters>
+    <label>Viviendas Bosque Real</label>
+</ListView>

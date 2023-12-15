@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Monto Total a Aportar Cesión --></label>
+        <name>Monto_Total_a_Aportar__c</name>
+    </CustomFieldTranslation>

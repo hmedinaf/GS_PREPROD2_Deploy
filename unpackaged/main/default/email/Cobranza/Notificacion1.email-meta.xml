@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Notificacion1</name>
+    <style>none</style>
+    <subject>Invitación para Actualizar su Saldo</subject>
+    <textOnly>Apreciable: {!Inventario__c.Cuenta__c}
+
+
+Le enviamos un cordial saludo y aprovechamos la presente para informarle que nuestro sistema de cobranza muestra un saldo pendiente de {!Inventario__c.Saldo_Vencido__c} pesos, el cual está vencido o próximo a vencerse; lo que genera gastos e intereses moratorios que previamente se estipularon al momento de recibir su casa y que nos permite ejercer su cobro de manera inmediata.
+
+
+Lo invitamos a actualizar su saldo realizando su depósito a favor de CASAS JAVER S.A DE C.V. en la cuenta 51908142657 de SANTANDER, o en la cuenta 1053674 de Banco Ahorro Famsa, presentando su referencia única: {!Inventario__c.Referencia_Bancaria_Cliente__c}. Así mismo le informamos que ahora puede hacer sus pagos en OXXO, solo necesita solicitar sus “Cupones OXXO” en la oficina comercial donde escrituró su casa.
+
+
+Recuerde que estamos a sus órdenes y en la mejor disposición para orientarle con cualquier problema relativo a su adeudo.
+
+ATENTAMENTE
+
+
+Lic. Hipólito Gloria C.
+
+DEPARTAMENTO DE COBRANZA CORPORATIVA Y
+
+PROCEDIMIENTOS JUDICIALES JAVER.
+
+
+TEL: (81) 51 02 50 50 Ext: 102
+Email: hgloria@javer.com.mx
+
+
+NINGUN ASESOR TE DEBE SOLICITAR DINERO. LOS PAGOS SOLO SE DEBEN EFECTUAR EN LOS BANCOS PERMITIDOS.
+
+
+QUEJAS O ACLARACIONES:
+
+Ma. de Lourdes Ochoa de La Garza
+
+TEL. (81) 11 33 66 99 Ext. 6957
+
+Email: mdochoa@javer.com.mx
+
+Casas Javer, S.A. de C.V, con domicilio en 16 de septiembre #301, entre Hidalgo y Corregidora, Colonia, Centro, San Pedro Garza García, N.L. C.P. 66230, es responsable del uso, tratamiento y protección de los datos personales que recabe de usted o de aquellos a los que tuviere acceso por cualquier medio para brindarle algún servicio, dichos datos podrán ser utilizados para fines de identificación, cobro, prospección comercial y mercadológicos y/o cualquier otro fin previsto en el Aviso de Privacidad integral disponible para su consulta en www.javer.com.mx ; de igual forma dichos datos podrán ser transferidos a subsidiarias del mismo grupo, y a terceros en los que Javer se apoye para su operación.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

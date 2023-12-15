@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Profiler__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Lead Profiler</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR 3</booleanFilter>
+        <filterItems>
+            <field>User.Profile.Name</field>
+            <operation>contains</operation>
+            <value>Lead</value>
+        </filterItems>
+        <filterItems>
+            <field>User.FraccionamientoAutorizados__c</field>
+            <operation>contains</operation>
+            <valueField>$Source.Nombre_Fraccionamiento__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>User.Profile.Name</field>
+            <operation>contains</operation>
+            <value>Generico</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Cuentas4</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

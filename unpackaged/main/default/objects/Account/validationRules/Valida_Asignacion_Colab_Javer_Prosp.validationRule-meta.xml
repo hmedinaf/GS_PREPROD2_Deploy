@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Asignacion_Colab_Javer_Prosp</fullName>
+    <active>false</active>
+    <description>Valida que no se asignen al mismo tiempo un Colaborador Javer y un Prospectador</description>
+    <errorConditionFormula>AND(
+ ISBLANK(Colaborador_Javer__c) = false,
+ ISBLANK(Prospectador__c) = false
+)</errorConditionFormula>
+    <errorMessage>No pueden estar asignados al mismo tiempo un Colaborador Javer y un Prospectador</errorMessage>
+</ValidationRule>

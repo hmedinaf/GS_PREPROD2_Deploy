@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Lista_Negra</fullName>
+    <active>true</active>
+    <description>Valida si el cliente se encuentra en la lista negra y no permite generar el registro</description>
+    <errorConditionFormula>OR(
+   TEXT(Account.Estatus_Lista_Negra_QEQ__c) == &#39;SIN VALIDAR&#39;,
+   TEXT(Account.Estatus_Lista_Negra_QEQ__c) == &#39;LISTA NEGRA&#39;,
+   TEXT(Account.Estatus_Lista_Negra_QEQ__c) == &#39;LN CONFIRMADO&#39;
+)</errorConditionFormula>
+    <errorMessage>No es posible continuar con el proceso si el Estatus Lista Negra QEQ del cliente no esta como &quot;Validado&quot;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_precio_instalaciones</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+AND(
+    OR(Porcentaje_Precio_instalaciones__c  = 0, ISBLANK(Porcentaje_Precio_instalaciones__c )), 
+    OR(Precio_Instalaciones__c = 0, ISBLANK(Precio_Instalaciones__c))
+   ), 
+FALSE,
+           
+IF(
+AND(
+    Porcentaje_Precio_instalaciones__c  &gt; 0, 
+    OR(Precio_Instalaciones__c = 0, ISBLANK(Precio_Instalaciones__c)) 
+   ), 
+FALSE,
+                        
+IF(
+AND(
+    OR(Porcentaje_Precio_instalaciones__c  = 0, ISBLANK(Porcentaje_Precio_instalaciones__c )), 
+       Precio_Instalaciones__c &gt; 0
+   ), 
+FALSE, 
+
+TRUE)))</errorConditionFormula>
+    <errorMessage>Se debe ingresar sólo un valor para Precio Instalación, ya sea porcentaje o monto</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Venta Especial --></label>
+        <name>Venta_Especial__c</name>
+        <picklistValues>
+            <masterLabel>sorteo</masterLabel>
+            <translation><!-- sorteo --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Situación FOVISSSTE --></label>
+        <name>JMC_SituacionFovissste__c</name>
+        <picklistValues>
+            <masterLabel>Me registré y no salí sorteado</masterLabel>
+            <translation><!-- Me registré y no salí sorteado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nunca me he registrado</masterLabel>
+            <translation><!-- Nunca me he registrado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salí sorteado,pero no ejercí el crédito</masterLabel>
+            <translation><!-- Salí sorteado,pero no ejercí el crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soy pensionado</masterLabel>
+            <translation><!-- Soy pensionado --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

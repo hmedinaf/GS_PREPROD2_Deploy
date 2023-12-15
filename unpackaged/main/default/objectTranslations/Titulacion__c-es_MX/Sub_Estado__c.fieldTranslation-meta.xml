@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sub Estado --></label>
+        <name>Sub_Estado__c</name>
+        <picklistValues>
+            <masterLabel>Completo por Integracion Infonavit</masterLabel>
+            <translation><!-- Completo por Integracion Infonavit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desperfilado</masterLabel>
+            <translation><!-- Desperfilado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emision</masterLabel>
+            <translation><!-- Emision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escriturado</masterLabel>
+            <translation><!-- Escriturado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instrucción Financiera</masterLabel>
+            <translation><!-- Instrucción Financiera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notaria</masterLabel>
+            <translation><!-- Notaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oficina</masterLabel>
+            <translation><!-- Oficina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puntos a Futuro</masterLabel>
+            <translation><!-- Puntos a Futuro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidio</masterLabel>
+            <translation><!-- Subsidio --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

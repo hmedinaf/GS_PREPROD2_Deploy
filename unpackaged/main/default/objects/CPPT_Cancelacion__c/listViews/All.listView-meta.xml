@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>CPPTS_Estatus_Cancelacion__c</columns>
+    <columns>Aplican_Cargos__c</columns>
+    <columns>CPPTS_Gastos_Operativos_Propuestos__c</columns>
+    <columns>CPPTS_Gastos_Operativos__c</columns>
+    <columns>CPPTS_Cuenta__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CPPTS_Oportunidad__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Todos los Procesos de Cancelación</label>
+</ListView>

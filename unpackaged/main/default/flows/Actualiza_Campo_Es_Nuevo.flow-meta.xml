@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>Actualiza Campo Es Nuevo {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Actualiza Campo Es Nuevo</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Actualiza_Si_es_Nuevo</name>
+        <label>Actualiza Si es Nuevo</label>
+        <locationX>578</locationX>
+        <locationY>276</locationY>
+        <inputAssignments>
+            <field>Es_Nuevo__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Copy_1_of_Actualiza_Si_es_Nuevo</name>
+        <label>Copy 1 of Actualiza Si es Nuevo</label>
+        <locationX>314</locationX>
+        <locationY>276</locationY>
+        <inputAssignments>
+            <field>Es_Nuevo__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Copy_2_of_Actualiza_Si_es_Nuevo</name>
+        <label>Copy 2 of Actualiza Si es Nuevo</label>
+        <locationX>50</locationX>
+        <locationY>276</locationY>
+        <inputAssignments>
+            <field>Es_Nuevo__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Copy_2_of_Actualiza_Si_es_Nuevo</targetReference>
+        </connector>
+        <object>Proveedor__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <scheduledPaths>
+            <connector>
+                <targetReference>Copy_1_of_Actualiza_Si_es_Nuevo</targetReference>
+            </connector>
+            <pathType>AsyncAfterCommit</pathType>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>Despues_de_1_min</name>
+            <connector>
+                <targetReference>Actualiza_Si_es_Nuevo</targetReference>
+            </connector>
+            <label>Despues de 1 min</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <recordField>CreatedDate</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

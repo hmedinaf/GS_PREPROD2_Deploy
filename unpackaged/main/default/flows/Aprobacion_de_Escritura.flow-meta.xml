@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <assignments>
+        <name>Asigna_Ids_a_tabla</name>
+        <label>Asigna Ids a tabla</label>
+        <locationX>138</locationX>
+        <locationY>674</locationY>
+        <assignmentItems>
+            <assignToReference>Titulaciones_en_Firmas</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Titulaciones_seleccionadas</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Titulaciones_seleccionadas</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Limpia_Variables</name>
+        <label>Limpia Variables</label>
+        <locationX>182</locationX>
+        <locationY>134</locationY>
+        <assignmentItems>
+            <assignToReference>Titulaciones_en_Firmas</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+        <connector>
+            <targetReference>Obtiene_Titulaciones_con_Estatus_En_Firmas</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>El_usuario_selecciono_Alguna_Titulacion</name>
+        <label>El usuario selecciono Alguna Titulación</label>
+        <locationX>182</locationX>
+        <locationY>458</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Si_Selecciono_Titulaciones</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Titulaciones_en_Firmas</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Titulaciones_seleccionadas</targetReference>
+            </connector>
+            <label>Si, Selecciono Titulaciones</label>
+        </rules>
+    </decisions>
+    <description>Busca Escrituras que esten en estatus de Firma para ponerlas en estatus de</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>FechadeAprobacion</name>
+        <dataType>Date</dataType>
+        <expression>TODAY()</expression>
+    </formulas>
+    <interviewLabel>Aprobación de Escritura {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Aprobación de Escritura</label>
+    <loops>
+        <name>Titulaciones_seleccionadas</name>
+        <label>Titulaciones seleccionadas</label>
+        <locationX>50</locationX>
+        <locationY>566</locationY>
+        <collectionReference>Titulaciones_en_Firmas</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Asigna_Ids_a_tabla</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Confirma_Titulaciones</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <description>Obtiene Titulaciones con Estatus En Firmas</description>
+        <name>Obtiene_Titulaciones_con_Estatus_En_Firmas</name>
+        <label>Obtiene Titulaciones con Estatus En Firmas</label>
+        <locationX>182</locationX>
+        <locationY>242</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>TituloLP</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Sub_Estatus_del_Proceso__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>En Firmas</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Titulacion__c</object>
+        <sortField>CreatedDate</sortField>
+        <sortOrder>Desc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Confirma_Titulaciones</name>
+        <label>Confirma Titulaciones</label>
+        <locationX>50</locationX>
+        <locationY>866</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>In</operator>
+            <value>
+                <elementReference>Titulaciones_en_Firmas</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Sub_Estatus_del_Proceso__c</field>
+            <value>
+                <stringValue>Por Entregar</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Titulacion__c</object>
+    </recordUpdates>
+    <runInMode>DefaultMode</runInMode>
+    <screens>
+        <description>Listas de Precios Activas</description>
+        <name>TituloLP</name>
+        <label>TituloLP</label>
+        <locationX>182</locationX>
+        <locationY>350</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>El_usuario_selecciono_Alguna_Titulacion</targetReference>
+        </connector>
+        <fields>
+            <name>Tabla_de_Titulaciones</name>
+            <dataTypeMappings>
+                <typeName>T</typeName>
+                <typeValue>Titulacion__c</typeValue>
+            </dataTypeMappings>
+            <extensionName>flowruntime:datatable</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>Data Table</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>selectionMode</name>
+                <value>
+                    <stringValue>MULTI_SELECT</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>minRowSelection</name>
+                <value>
+                    <numberValue>0.0</numberValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>tableData</name>
+                <value>
+                    <elementReference>Obtiene_Titulaciones_con_Estatus_En_Firmas</elementReference>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>columns</name>
+                <value>
+                    <stringValue>[{&quot;apiName&quot;:&quot;Name&quot;,&quot;guid&quot;:&quot;column-19e9&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:false,&quot;order&quot;:0,&quot;label&quot;:&quot;Proceso de Venta&quot;,&quot;type&quot;:&quot;text&quot;},{&quot;apiName&quot;:&quot;Cliente_Formula__c&quot;,&quot;guid&quot;:&quot;column-2d99&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:false,&quot;order&quot;:1,&quot;label&quot;:&quot;Cliente&quot;,&quot;type&quot;:&quot;customRichText&quot;},{&quot;apiName&quot;:&quot;Fideicomiso__c&quot;,&quot;guid&quot;:&quot;column-ac2a&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:false,&quot;order&quot;:2,&quot;label&quot;:&quot;Fideicomiso&quot;,&quot;type&quot;:&quot;boolean&quot;},{&quot;apiName&quot;:&quot;Fecha_Formalizacion__c&quot;,&quot;guid&quot;:&quot;column-2f22&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:false,&quot;order&quot;:3,&quot;label&quot;:&quot;Fecha Formalización&quot;,&quot;type&quot;:&quot;date&quot;},{&quot;apiName&quot;:&quot;Numero_de_Escritura__c&quot;,&quot;guid&quot;:&quot;column-d13c&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:false,&quot;order&quot;:4,&quot;label&quot;:&quot;Número de Escritura&quot;,&quot;type&quot;:&quot;number&quot;},{&quot;apiName&quot;:&quot;Fraccionamiento_Formula__c&quot;,&quot;guid&quot;:&quot;column-edbc&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:false,&quot;order&quot;:5,&quot;label&quot;:&quot;Fraccionamiento&quot;,&quot;type&quot;:&quot;customRichText&quot;},{&quot;apiName&quot;:&quot;Prototipo_Formula__c&quot;,&quot;guid&quot;:&quot;column-280c&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:false,&quot;order&quot;:6,&quot;label&quot;:&quot;Prototipo&quot;,&quot;type&quot;:&quot;customRichText&quot;},{&quot;apiName&quot;:&quot;Numero_Interno__c&quot;,&quot;guid&quot;:&quot;column-b642&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:true,&quot;order&quot;:7,&quot;label&quot;:&quot;Número Interno&quot;,&quot;type&quot;:&quot;customRichText&quot;},{&quot;apiName&quot;:&quot;Vivienda_Formula__c&quot;,&quot;guid&quot;:&quot;column-4a2d&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:true,&quot;order&quot;:8,&quot;label&quot;:&quot;Vivienda&quot;,&quot;type&quot;:&quot;customRichText&quot;},{&quot;apiName&quot;:&quot;Notaria_Formula__c&quot;,&quot;guid&quot;:&quot;column-f757&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:false,&quot;order&quot;:9,&quot;label&quot;:&quot;Notaria&quot;,&quot;type&quot;:&quot;customRichText&quot;},{&quot;apiName&quot;:&quot;Unidad_Privativa__c&quot;,&quot;guid&quot;:&quot;column-7df4&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:false,&quot;order&quot;:10,&quot;label&quot;:&quot;Unidad Privativa&quot;,&quot;type&quot;:&quot;customRichText&quot;},{&quot;apiName&quot;:&quot;Valor_de_Operacion__c&quot;,&quot;guid&quot;:&quot;column-1d1e&quot;,&quot;editable&quot;:false,&quot;hasCustomHeaderLabel&quot;:false,&quot;customHeaderLabel&quot;:&quot;&quot;,&quot;wrapText&quot;:false,&quot;order&quot;:11,&quot;label&quot;:&quot;Valor de Operación&quot;,&quot;type&quot;:&quot;currency&quot;}]</stringValue>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+        <nextOrFinishButtonLabel>Confirmar Titulaciones</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Limpia_Variables</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>Titulaciones_en_Firmas</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

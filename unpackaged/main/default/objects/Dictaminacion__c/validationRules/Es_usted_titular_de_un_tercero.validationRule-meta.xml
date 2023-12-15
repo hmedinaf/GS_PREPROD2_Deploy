@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Es_usted_titular_de_un_tercero</fullName>
+    <active>true</active>
+    <description>Si se selecciona SI, no será obligatorio la pregunta ¿Existe un Tercero que aporta Recursos Total o Parcial?</description>
+    <errorConditionFormula>AND
+(
+				ISCHANGED	(Es_usted_el_Titular_de_Recursos__c),
+				(TEXT(Es_usted_el_Titular_de_Recursos__c) == &quot;NO&quot;),
+				OR(
+								ISNULL(TEXT(Existe_un_Tercero_que_aporta_Recursos__c)),
+								ISBLANK(TEXT(Existe_un_Tercero_que_aporta_Recursos__c))
+				)
+) &amp;&amp;
+!ISCHANGED(C_dula_de_Identifiaci_n_Fiscal__c) &amp;&amp;
+!ISCHANGED(No_De_Fideicomiso__c) &amp;&amp;
+
+!ISCHANGED(Hijos__c) &amp;&amp;
+!ISCHANGED(Dependientes_economicos__c) &amp;&amp;
+!ISCHANGED(Ingresos_mensuales__c)</errorConditionFormula>
+    <errorDisplayField>Existe_un_Tercero_que_aporta_Recursos__c</errorDisplayField>
+    <errorMessage>Se seleccionó NO en el campo ¿Es usted el Titular de Recursos? por lo que debe llenarse el campo ¿Existe un tercero que aporta recursos?</errorMessage>
+</ValidationRule>

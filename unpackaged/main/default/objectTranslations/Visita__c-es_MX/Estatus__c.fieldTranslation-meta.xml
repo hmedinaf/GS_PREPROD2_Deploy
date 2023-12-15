@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estatus --></label>
+        <name>Estatus__c</name>
+        <picklistValues>
+            <masterLabel>Cancelada</masterLabel>
+            <translation><!-- Cancelada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planeada</masterLabel>
+            <translation><!-- Planeada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Programada</masterLabel>
+            <translation><!-- Programada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Realizada</masterLabel>
+            <translation><!-- Realizada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reprogramada</masterLabel>
+            <translation><!-- Reprogramada --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

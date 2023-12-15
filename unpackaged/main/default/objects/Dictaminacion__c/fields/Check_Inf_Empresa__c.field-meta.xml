@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Inf_Empresa__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (Tipo_Contribuyente_c__c=&#39;PERSONA FISICA&#39;,
+NOT(
+ISBLANK(Empresa__c) ||
+ISBLANK(TEXT(R_gimen_Fiscal_Compa_a__c)) ||
+ISBLANK(RFC_Compania__c) ||
+ISBLANK(TEXT(Giro_Mercantil__c))
+),
+NOT(
+ISBLANK(TEXT(R_gimen_Fiscal_Compa_a__c)) ||
+ISNULL(Fecha_de_Constituci_n__c) ||
+ISBLANK(No_Escritura__c)||
+ISBLANK(Notaria__c)||
+ISBLANK(Accionista1__c)||
+ISBLANK(Porcentaje_Accionistas1__c)||
+ISBLANK(Director_General__c)||
+ISBLANK(Miembros_del_Consejo1__c)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Check Información Empresa</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

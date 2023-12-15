@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Canal de Venta --></label>
+        <name>JMC_CanalVenta__c</name>
+        <picklistValues>
+            <masterLabel>Digital Asesor</masterLabel>
+            <translation><!-- Digital Asesor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evento</masterLabel>
+            <translation><!-- Evento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada Call Center</masterLabel>
+            <translation><!-- Llamada Call Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macroventa</masterLabel>
+            <translation><!-- Macroventa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medio Publicitario</masterLabel>
+            <translation><!-- Medio Publicitario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medios Digitales</masterLabel>
+            <translation><!-- Medios Digitales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Programas Institucionales</masterLabel>
+            <translation><!-- Programas Institucionales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotor Externo</masterLabel>
+            <translation><!-- Promotor Externo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospección</masterLabel>
+            <translation><!-- Prospección --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referidos</masterLabel>
+            <translation><!-- Referidos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venta Empresarial</masterLabel>
+            <translation><!-- Venta Empresarial --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

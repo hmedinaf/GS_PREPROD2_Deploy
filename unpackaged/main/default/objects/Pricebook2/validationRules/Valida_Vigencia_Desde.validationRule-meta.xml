@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Vigencia_Desde</fullName>
+    <active>true</active>
+    <description>Valida que la Vigencia sea Siempre Mayor o Igual que la fecha actual y que los perfiles de APC y APE si pyedan crear registros con fechas anteriores</description>
+    <errorConditionFormula>ISNEW() &amp;&amp;
+$Profile.Name &lt;&gt; &quot;APC&quot; &amp;&amp; 
+$Profile.Name &lt;&gt; &quot;AEC&quot; &amp;&amp;
+$Profile.Name &lt;&gt; &quot;Administrador de Ventas&quot; &amp;&amp; 
+$Profile.Name &lt;&gt; &quot;System Administrator&quot; &amp;&amp;
+IF( TEXT(Estatus__c) = &quot;Duplicada&quot;, FALSE, 
+	       IF(Vigente_Desde__c = Today() , FALSE, 
+											IF(Vigente_Desde__c &gt; Today(), FALSE ,TRUE )
+										)
+		)</errorConditionFormula>
+    <errorDisplayField>Vigente_Desde__c</errorDisplayField>
+    <errorMessage>La fecha de &quot;Vigencia Desde&quot; debe ser mayor o igual a la fecha actual</errorMessage>
+</ValidationRule>

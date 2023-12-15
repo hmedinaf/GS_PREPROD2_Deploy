@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Producto_Financiera__c</fullName>
+    <externalId>false</externalId>
+    <label>Producto de la Financiera</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Financiera__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Producto_de_la_Financiera</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>ISSFAM</controllingFieldValue>
+            <valueName>PRODUCTO ISSFAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISSSTELEON</controllingFieldValue>
+            <valueName>PRODUCTO ISSSTELEON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>METROFINANCIERA SA DE CV</controllingFieldValue>
+            <valueName>PRODUCTO METROFINANCIERA SA DE CV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MI BANCO</controllingFieldValue>
+            <valueName>PRODUCTO MI BANCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PATRIMONIO SA DE CV</controllingFieldValue>
+            <valueName>PRODUCTO PATRIMONIO SA DE CV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEMEX</controllingFieldValue>
+            <valueName>PRODUCTO PEMEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SCOTIABANK INVERLAT SA DE CV</controllingFieldValue>
+            <valueName>PRODUCTO SCOTIABANK INVERLAT SA DE CV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOC. FINANCIERA EQUIPATE SA CV</controllingFieldValue>
+            <valueName>PRODUCTO SOC. FINANCIERA EQUIPATE SA CV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SOL. EMPRENDEDORAS DEL NORTE</controllingFieldValue>
+            <valueName>PRODUCTO SOL. EMPRENDEDORAS DEL NORTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TENMAS SA DE CV SOFOM ENR</controllingFieldValue>
+            <valueName>PRODUCTO TENMAS SA DE CV SOFOM ENR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCO SANTANDER SERFIN SA</controllingFieldValue>
+            <valueName>PRODUCTO BANCO SANTANDER SERFIN SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO APLICA</controllingFieldValue>
+            <valueName>NO APLICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANJERCITO</controllingFieldValue>
+            <valueName>PRODUCTO BANJERCITO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANORTE SA</controllingFieldValue>
+            <valueName>PRODUCTO BANORTE SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANREGIO</controllingFieldValue>
+            <valueName>PRODUCTO BANREGIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANSEFI</controllingFieldValue>
+            <valueName>PRODUCTO BANSEFI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BBVA BANCOMER SA DE CV</controllingFieldValue>
+            <valueName>PRODUCTO BBVA BANCOMER SA DE CV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BRADA HIPOTECARIA SA DE CV SOF</controllingFieldValue>
+            <valueName>PRODUCTO BRADA HIPOTECARIA SA DE CV SOF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAJA BUENOS AIRES SC AP RLCV</controllingFieldValue>
+            <valueName>PRODUCTO CAJA BUENOS AIRES SC AP RLCV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAJA FLORENCIO ROSAS</controllingFieldValue>
+            <valueName>PRODUCTO CAJA FLORENCIO ROSAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAJA POPULAR CRISTOBAL COLON</controllingFieldValue>
+            <valueName>PRODUCTO CAJA POPULAR CRISTOBAL COLON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ABC CAPITAL</controllingFieldValue>
+            <valueName>PRODUCTO ABC CAPITAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ALRA DEL SUR ASESRORIA HIP</controllingFieldValue>
+            <valueName>PRODUCTO ALRA DEL SUR ASESRORIA HIP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AUTOFINCASA</controllingFieldValue>
+            <valueName>PRODUCTO AUTOFINCASA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANAMEX</controllingFieldValue>
+            <valueName>PRODUCTO BANAMEX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCA AFIRME SA</controllingFieldValue>
+            <valueName>PRODUCTO BANCA AFIRME SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCO AZTECA</controllingFieldValue>
+            <valueName>PRODUCTO BANCO AZTECA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCO BX+</controllingFieldValue>
+            <valueName>PRODUCTO BANCO BX+</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCO DEL BAJIO SA</controllingFieldValue>
+            <valueName>PRODUCTO BANCO DEL BAJIO SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BANCO INMOBILIARIO MEXICANO</controllingFieldValue>
+            <valueName>PRODUCTO BANCO INMOBILIARIO MEXICANO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAJA POPULAR MEXICANA</controllingFieldValue>
+            <valueName>PRODUCTO CAJA POPULAR MEXICANA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAJA POPULAR SAN RAFAEL S.C. D</controllingFieldValue>
+            <valueName>PRODUCTO CAJA POPULAR SAN RAFAEL S.C. D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAJA SAN NICOLAS</controllingFieldValue>
+            <valueName>PRODUCTO CAJA SAN NICOLAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CFE</controllingFieldValue>
+            <valueName>PRODUCTO CFE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CITY HOME DEL CENTRO SA</controllingFieldValue>
+            <valueName>PRODUCTO CITY HOME DEL CENTRO SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONSUMER &amp; BUSINESS LOAN</controllingFieldValue>
+            <valueName>PRODUCTO CONSUMER &amp; BUSINESS LOAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTINGENCIA</controllingFieldValue>
+            <valueName>PRODUCTO CONTINGENCIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CREDITO PARA TI SA DE CV SOFOM</controllingFieldValue>
+            <valueName>PRODUCTO CREDITO PARA TI SA DE CV SOFOM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAE HIPOTECARIA SA DE CV SOFOM</controllingFieldValue>
+            <valueName>PRODUCTO DAE HIPOTECARIA SA DE CV SOFOM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIRECCION PENSIONES ESTADO JAL</controllingFieldValue>
+            <valueName>PRODUCTO DIRECCION PENSIONES ESTADO JAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOVISSSTE</controllingFieldValue>
+            <valueName>PRODUCTO FOVISSSTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIPOTECARIA LI FINANCIERA</controllingFieldValue>
+            <valueName>PRODUCTO HIPOTECARIA LI FINANCIERA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIPOTECARIA CASA MEXICANA SA</controllingFieldValue>
+            <valueName>PRODUCTO HIPOTECARIA CASA MEXICANA SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIPOTECARIA CREA MAS</controllingFieldValue>
+            <valueName>PRODUCTO HIPOTECARIA CREA MAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIPOTECARIA CREDITO INMOBILIAR</controllingFieldValue>
+            <valueName>PRODUCTO HIPOTECARIA CREDITO INMOBILIAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIPOTECARIA CREDITO Y CASA SA</controllingFieldValue>
+            <valueName>PRODUCTO HIPOTECARIA CREDITO Y CASA SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIPOTECARIA NACIONAL SA</controllingFieldValue>
+            <valueName>PRODUCTO HIPOTECARIA NACIONAL SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIPOTECARIA VERTICE</controllingFieldValue>
+            <valueName>PRODUCTO HIPOTECARIA VERTICE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIR CASA</controllingFieldValue>
+            <valueName>PRODUCTO HIR CASA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HIRCASA BIENES PROGRAMADOS SA</controllingFieldValue>
+            <valueName>PRODUCTO HIRCASA BIENES PROGRAMADOS SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HSBC MEXICO SA</controllingFieldValue>
+            <valueName>PRODUCTO HSBC MEXICO SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IMSS</controllingFieldValue>
+            <valueName>PRODUCTO IMSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INFONAVIT</controllingFieldValue>
+            <valueName>PRODUCTO INFONAVIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ING HIPOTECARIA SA</controllingFieldValue>
+            <valueName>PRODUCTO ING HIPOTECARIA SA</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

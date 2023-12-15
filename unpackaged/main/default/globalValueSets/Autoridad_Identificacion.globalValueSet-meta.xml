@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Instituto Nacional Electoral</fullName>
+        <default>false</default>
+        <label>Instituto Nacional Electoral</label>
+    </customValue>
+    <customValue>
+        <fullName>Pasaportes</fullName>
+        <default>false</default>
+        <label>Pasaportes</label>
+    </customValue>
+    <customValue>
+        <fullName>Relaciones Exteriores</fullName>
+        <default>false</default>
+        <label>Relaciones Exteriores</label>
+    </customValue>
+    <customValue>
+        <fullName>Secretaría de Educación Pública</fullName>
+        <default>false</default>
+        <label>Secretaría de Educación Pública</label>
+    </customValue>
+    <customValue>
+        <fullName>Instituto Nacional de Migración</fullName>
+        <default>false</default>
+        <label>Instituto Nacional de Migración</label>
+    </customValue>
+    <customValue>
+        <fullName>Otro (Extranjeros)</fullName>
+        <default>false</default>
+        <label>Otro (Extranjeros)</label>
+    </customValue>
+    <masterLabel>Autoridad Identificación</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

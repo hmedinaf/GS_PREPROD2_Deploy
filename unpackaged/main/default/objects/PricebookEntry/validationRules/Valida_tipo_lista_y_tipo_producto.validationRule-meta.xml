@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_tipo_lista_y_tipo_producto</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    !CONTAINS(Tipo_Lista_Validacion__c , &#39;Standard &#39;),
+    OR(
+    IF(Tipo_Producto_Validacion__c = &#39;Promoción de Venta&#39; &amp;&amp;  !CONTAINS(Tipo_Lista_Validacion__c , &#39;PROMVTA &#39;), true, false),
+    IF(Tipo_Producto_Validacion__c = &#39;Paquetes&#39; &amp;&amp;  !CONTAINS(Tipo_Lista_Validacion__c , &#39;PAQ &#39;), true, false),
+    IF(Tipo_Producto_Validacion__c = &#39;Regalos MKT&#39; &amp;&amp;  !CONTAINS(Tipo_Lista_Validacion__c , &#39;REGMKT &#39;), true, false),
+    IF(Tipo_Producto_Validacion__c = &#39;Vivienda&#39; &amp;&amp;  !CONTAINS(Tipo_Lista_Validacion__c , &#39;VIV &#39;), true, false),
+    IF(Tipo_Producto_Validacion__c = &#39;Productos Genéricos&#39; &amp;&amp;  (CONTAINS(Tipo_Lista_Validacion__c , &#39;PROMVTA&#39;) || CONTAINS(Tipo_Lista_Validacion__c , &#39;VIV&#39;) || CONTAINS(Tipo_Lista_Validacion__c , &#39;REGMKT &#39;) || CONTAINS(Tipo_Lista_Validacion__c , &#39;PAQ &#39;) || CONTAINS(Tipo_Lista_Validacion__c , &#39;PROMVTA &#39;)), true, false)
+    )
+    )</errorConditionFormula>
+    <errorMessage>Validar que el tipo de producto corresponda con el tipo de lista de precios</errorMessage>
+</ValidationRule>

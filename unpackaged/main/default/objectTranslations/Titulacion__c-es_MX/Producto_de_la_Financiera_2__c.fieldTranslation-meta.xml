@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Producto de la Financiera 2 --></label>
+        <name>Producto_de_la_Financiera_2__c</name>
+        <picklistValues>
+            <masterLabel>NO APLICA</masterLabel>
+            <translation><!-- NO APLICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO ABC CAPITAL</masterLabel>
+            <translation><!-- PRODUCTO ABC CAPITAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO ALRA DEL SUR ASESRORIA HIP</masterLabel>
+            <translation><!-- PRODUCTO ALRA DEL SUR ASESRORIA HIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO AUTOFINCASA</masterLabel>
+            <translation><!-- PRODUCTO AUTOFINCASA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO BANAMEX</masterLabel>
+            <translation><!-- PRODUCTO BANAMEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO BANCA AFIRME SA</masterLabel>
+            <translation><!-- PRODUCTO BANCA AFIRME SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO BANCO AZTECA</masterLabel>
+            <translation><!-- PRODUCTO BANCO AZTECA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO BANCO BX+</masterLabel>
+            <translation><!-- PRODUCTO BANCO BX+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO BANCO DEL BAJIO SA</masterLabel>
+            <translation><!-- PRODUCTO BANCO DEL BAJIO SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO BANCO INMOBILIARIO MEXICANO</masterLabel>
+            <translation><!-- PRODUCTO BANCO INMOBILIARIO MEXICANO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO BANCO SANTANDER SERFIN SA</masterLabel>
+            <translation><!-- PRODUCTO BANCO SANTANDER SERFIN SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO BANJERCITO</masterLabel>
+            <translation><!-- PRODUCTO BANJERCITO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO BANORTE SA</masterLabel>
+            <translation><!-- PRODUCTO BANORTE SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO BANREGIO</masterLabel>
+            <translation><!-- PRODUCTO BANREGIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO BANSEFI</masterLabel>
+            <translation><!-- PRODUCTO BANSEFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO BBVA BANCOMER SA DE CV</masterLabel>
+            <translation><!-- PRODUCTO BBVA BANCOMER SA DE CV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO BRADA HIPOTECARIA SA DE CV SOF</masterLabel>
+            <translation><!-- PRODUCTO BRADA HIPOTECARIA SA DE CV SOF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO CAJA BUENOS AIRES SC AP RLCV</masterLabel>
+            <translation><!-- PRODUCTO CAJA BUENOS AIRES SC AP RLCV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO CAJA FLORENCIO ROSAS</masterLabel>
+            <translation><!-- PRODUCTO CAJA FLORENCIO ROSAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO CAJA POPULAR CRISTOBAL COLON</masterLabel>
+            <translation><!-- PRODUCTO CAJA POPULAR CRISTOBAL COLON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO CAJA POPULAR MEXICANA</masterLabel>
+            <translation><!-- PRODUCTO CAJA POPULAR MEXICANA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO CAJA POPULAR SAN RAFAEL S.C. D</masterLabel>
+            <translation><!-- PRODUCTO CAJA POPULAR SAN RAFAEL S.C. D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO CAJA SAN NICOLAS</masterLabel>
+            <translation><!-- PRODUCTO CAJA SAN NICOLAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO CFE</masterLabel>
+            <translation><!-- PRODUCTO CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO CITY HOME DEL CENTRO SA</masterLabel>
+            <translation><!-- PRODUCTO CITY HOME DEL CENTRO SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO CONSUMER &amp; BUSINESS LOAN</masterLabel>
+            <translation><!-- PRODUCTO CONSUMER &amp; BUSINESS LOAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO CONTINGENCIA</masterLabel>
+            <translation><!-- PRODUCTO CONTINGENCIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO CREDITO PARA TI SA DE CV SOFOM</masterLabel>
+            <translation><!-- PRODUCTO CREDITO PARA TI SA DE CV SOFOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO DAE HIPOTECARIA SA DE CV SOFOM</masterLabel>
+            <translation><!-- PRODUCTO DAE HIPOTECARIA SA DE CV SOFOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO DIRECCION PENSIONES ESTADO JAL</masterLabel>
+            <translation><!-- PRODUCTO DIRECCION PENSIONES ESTADO JAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO FOVISSSTE</masterLabel>
+            <translation><!-- PRODUCTO FOVISSSTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO HIPOTECARIA CASA MEXICANA SA</masterLabel>
+            <translation><!-- PRODUCTO HIPOTECARIA CASA MEXICANA SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO HIPOTECARIA CREA MAS</masterLabel>
+            <translation><!-- PRODUCTO HIPOTECARIA CREA MAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO HIPOTECARIA CREDITO INMOBILIAR</masterLabel>
+            <translation><!-- PRODUCTO HIPOTECARIA CREDITO INMOBILIAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO HIPOTECARIA CREDITO Y CASA SA</masterLabel>
+            <translation><!-- PRODUCTO HIPOTECARIA CREDITO Y CASA SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO HIPOTECARIA LI FINANCIERA</masterLabel>
+            <translation><!-- PRODUCTO HIPOTECARIA LI FINANCIERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO HIPOTECARIA NACIONAL SA</masterLabel>
+            <translation><!-- PRODUCTO HIPOTECARIA NACIONAL SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO HIPOTECARIA VERTICE</masterLabel>
+            <translation><!-- PRODUCTO HIPOTECARIA VERTICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO HIR CASA</masterLabel>
+            <translation><!-- PRODUCTO HIR CASA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO HIRCASA BIENES PROGRAMADOS SA</masterLabel>
+            <translation><!-- PRODUCTO HIRCASA BIENES PROGRAMADOS SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO HSBC MEXICO SA</masterLabel>
+            <translation><!-- PRODUCTO HSBC MEXICO SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO IMSS</masterLabel>
+            <translation><!-- PRODUCTO IMSS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO INFONAVIT</masterLabel>
+            <translation><!-- PRODUCTO INFONAVIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO ING HIPOTECARIA SA</masterLabel>
+            <translation><!-- PRODUCTO ING HIPOTECARIA SA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO ISSFAM</masterLabel>
+            <translation><!-- PRODUCTO ISSFAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO ISSSTELEON</masterLabel>
+            <translation><!-- PRODUCTO ISSSTELEON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO METROFINANCIERA SA DE CV</masterLabel>
+            <translation><!-- PRODUCTO METROFINANCIERA SA DE CV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO MI BANCO</masterLabel>
+            <translation><!-- PRODUCTO MI BANCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO PATRIMONIO SA DE CV</masterLabel>
+            <translation><!-- PRODUCTO PATRIMONIO SA DE CV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO PEMEX</masterLabel>
+            <translation><!-- PRODUCTO PEMEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO SCOTIABANK INVERLAT SA DE CV</masterLabel>
+            <translation><!-- PRODUCTO SCOTIABANK INVERLAT SA DE CV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO SOC. FINANCIERA EQUIPATE SA CV</masterLabel>
+            <translation><!-- PRODUCTO SOC. FINANCIERA EQUIPATE SA CV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO SOL. EMPRENDEDORAS DEL NORTE</masterLabel>
+            <translation><!-- PRODUCTO SOL. EMPRENDEDORAS DEL NORTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCTO TENMAS SA DE CV SOFOM ENR</masterLabel>
+            <translation><!-- PRODUCTO TENMAS SA DE CV SOFOM ENR --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

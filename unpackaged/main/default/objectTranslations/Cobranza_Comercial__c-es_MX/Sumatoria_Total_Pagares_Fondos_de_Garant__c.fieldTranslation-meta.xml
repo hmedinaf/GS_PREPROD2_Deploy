@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sumatoria Total Pagarés Fondos de Garant --></label>
+        <name>Sumatoria_Total_Pagares_Fondos_de_Garant__c</name>
+    </CustomFieldTranslation>

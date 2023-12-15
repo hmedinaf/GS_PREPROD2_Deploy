@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edicion_Parentesco</fullName>
+    <active>true</active>
+    <description>Se puede modificar el parentesco únicamente si se ha otorgado la prórroga de los 30 días al Colaborador Javer</description>
+    <errorConditionFormula>AND($User.is_Data_Migration_User__c = false,
+	Colaborador_Javer__c &lt;&gt; &#39;&#39;,
+ ISCHANGED(Parentesco__c),
+ PRIORVALUE(Parentesco__c) &lt;&gt; &#39;&#39;,
+ NOT(Colaborador_Javer_Asignacion_Prorroga__c)
+)</errorConditionFormula>
+    <errorDisplayField>Parentesco__c</errorDisplayField>
+    <errorMessage>No se puede modificar el parentesco.</errorMessage>
+</ValidationRule>

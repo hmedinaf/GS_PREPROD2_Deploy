@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restric_Name_Editing</fullName>
+    <active>false</active>
+    <description>Solo se puede editar el nombre de la cuenta si el usuario es Administrador</description>
+    <errorConditionFormula>if (Numero_de_Oportunidades__c &gt; 0,
+    $User.is_Data_Migration_User__c = false &amp;&amp;
+    ISCHANGED(Name) &amp;&amp;
+    $User.ProfileId != &#39;00eo0000000vwplAAA&#39;,
+
+				false)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>No se puede cambiar el nombre de la cuenta, contacta a tu administrador para realizar el cambio</errorMessage>
+</ValidationRule>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Estado__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Estado</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>BANSEFI</fullName>
+                <default>false</default>
+                <label>BANSEFI</label>
+            </value>
+            <value>
+                <fullName>COMPLETADO_POR_INGRESAR_INFONAVIT</fullName>
+                <default>false</default>
+                <label>COMPLETADO POR INGRESAR INFONAVIT</label>
+            </value>
+            <value>
+                <fullName>DESPERFILADO</fullName>
+                <default>false</default>
+                <label>DESPERFILADO</label>
+            </value>
+            <value>
+                <fullName>EMISION</fullName>
+                <default>false</default>
+                <label>EMISIÓN</label>
+            </value>
+            <value>
+                <fullName>ESCRITURADO</fullName>
+                <default>false</default>
+                <label>ESCRITURADO</label>
+            </value>
+            <value>
+                <fullName>INSTITUCION_FINANCIERA</fullName>
+                <default>false</default>
+                <label>INSTITUCIÓN FINANCIERA</label>
+            </value>
+            <value>
+                <fullName>NOTARIA</fullName>
+                <default>false</default>
+                <label>NOTARÍA</label>
+            </value>
+            <value>
+                <fullName>OFICINA</fullName>
+                <default>false</default>
+                <label>OFICINA</label>
+            </value>
+            <value>
+                <fullName>PUNTOS_A_FUTURO</fullName>
+                <default>false</default>
+                <label>PUNTOS A FUTURO</label>
+            </value>
+            <value>
+                <fullName>SUBSIDIO</fullName>
+                <default>false</default>
+                <label>SUBSIDIO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JMC_SubCanalVenta__c</fullName>
+    <description>Catálogo con los subcanales de venta disponibles</description>
+    <externalId>false</externalId>
+    <label>Subcanal de Venta</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Activación/Evento</fullName>
+                <default>false</default>
+                <label>Activación/Evento</label>
+            </value>
+            <value>
+                <fullName>Activación/Evento/Periferia</fullName>
+                <default>false</default>
+                <label>Activación/Evento/Periferia</label>
+            </value>
+            <value>
+                <fullName>AGS Feria CANADEVI</fullName>
+                <default>false</default>
+                <label>AGS Feria CANADEVI</label>
+            </value>
+            <value>
+                <fullName>AGS Moctezuma</fullName>
+                <default>false</default>
+                <label>AGS Moctezuma</label>
+            </value>
+            <value>
+                <fullName>AGS San Diego</fullName>
+                <default>false</default>
+                <label>AGS San Diego</label>
+            </value>
+            <value>
+                <fullName>Ags Villa Asunción</fullName>
+                <default>false</default>
+                <label>Ags Villa Asunción</label>
+            </value>
+            <value>
+                <fullName>APP INVITADO</fullName>
+                <default>false</default>
+                <label>APP INVITADO</label>
+            </value>
+            <value>
+                <fullName>Blogger/Tania Rendón</fullName>
+                <default>false</default>
+                <label>Blogger/Tania Rendón</label>
+            </value>
+            <value>
+                <fullName>Buen Fin</fullName>
+                <default>false</default>
+                <label>Buen Fin</label>
+            </value>
+            <value>
+                <fullName>Call Center / Telemarketing</fullName>
+                <default>false</default>
+                <label>Call Center / Telemarketing</label>
+            </value>
+            <value>
+                <fullName>Cambaceo</fullName>
+                <default>false</default>
+                <label>Cambaceo</label>
+            </value>
+            <value>
+                <fullName>Cartelera Móvil</fullName>
+                <default>false</default>
+                <label>Cartelera Móvil</label>
+            </value>
+            <value>
+                <fullName>Cartelera PV</fullName>
+                <default>false</default>
+                <label>Cartelera PV</label>
+            </value>
+            <value>
+                <fullName>Cartera de Clientes</fullName>
+                <default>false</default>
+                <label>Cartera de Clientes</label>
+            </value>
+            <value>
+                <fullName>Cartera Propia</fullName>
+                <default>false</default>
+                <label>Cartera Propia</label>
+            </value>
+            <value>
+                <fullName>Cita Asesor</fullName>
+                <default>false</default>
+                <label>Cita Asesor</label>
+            </value>
+            <value>
+                <fullName>Colaborador Javer</fullName>
+                <default>false</default>
+                <label>Colaborador Javer</label>
+            </value>
+            <value>
+                <fullName>Compañero de Trabajo</fullName>
+                <default>false</default>
+                <label>Compañero de Trabajo</label>
+            </value>
+            <value>
+                <fullName>Convenio Pabellon M</fullName>
+                <default>false</default>
+                <label>Convenio Pabellon M</label>
+            </value>
+            <value>
+                <fullName>Correo</fullName>
+                <default>false</default>
+                <label>Correo</label>
+            </value>
+            <value>
+                <fullName>Correo Directo/Carta</fullName>
+                <default>false</default>
+                <label>Correo Directo/Carta</label>
+            </value>
+            <value>
+                <fullName>Edo Mex Samara</fullName>
+                <default>false</default>
+                <label>Edo Mex Samara</label>
+            </value>
+            <value>
+                <fullName>En Empresa (Venta Empresarial)</fullName>
+                <default>false</default>
+                <label>En Empresa (Venta Empresarial)</label>
+            </value>
+            <value>
+                <fullName>Espectacular/Cartelera</fullName>
+                <default>false</default>
+                <label>Espectacular/Cartelera</label>
+            </value>
+            <value>
+                <fullName>Eventos (Macroventa, Súpervta)</fullName>
+                <default>false</default>
+                <label>Eventos (Macroventa, Súpervta)</label>
+            </value>
+            <value>
+                <fullName>Expo/Feria</fullName>
+                <default>false</default>
+                <label>Expo/Feria</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Facebook Inbox</fullName>
+                <default>false</default>
+                <label>Facebook Inbox</label>
+            </value>
+            <value>
+                <fullName>Familiar</fullName>
+                <default>false</default>
+                <label>Familiar</label>
+            </value>
+            <value>
+                <fullName>FB Asesor Orgánico</fullName>
+                <default>false</default>
+                <label>FB Asesor Orgánico</label>
+            </value>
+            <value>
+                <fullName>FB Asesor Pagado por Asesor</fullName>
+                <default>false</default>
+                <label>FB Asesor Pagado por Asesor</label>
+            </value>
+            <value>
+                <fullName>FB Asesor Pagado por Javer</fullName>
+                <default>false</default>
+                <label>FB Asesor Pagado por Javer</label>
+            </value>
+            <value>
+                <fullName>Feria Revolución CDMX</fullName>
+                <default>false</default>
+                <label>Feria Revolución CDMX</label>
+            </value>
+            <value>
+                <fullName>Feria Zocalo D.F.</fullName>
+                <default>false</default>
+                <label>Feria Zocalo D.F.</label>
+            </value>
+            <value>
+                <fullName>Flyer/Volante</fullName>
+                <default>false</default>
+                <label>Flyer/Volante</label>
+            </value>
+            <value>
+                <fullName>Google</fullName>
+                <default>false</default>
+                <label>Google</label>
+            </value>
+            <value>
+                <fullName>Imagen en PV</fullName>
+                <default>false</default>
+                <label>Imagen en PV</label>
+            </value>
+            <value>
+                <fullName>Inbound</fullName>
+                <default>false</default>
+                <label>Inbound</label>
+            </value>
+            <value>
+                <fullName>Instagram</fullName>
+                <default>false</default>
+                <label>Instagram</label>
+            </value>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>Internet / Página Web</fullName>
+                <default>false</default>
+                <label>Internet / Página Web</label>
+            </value>
+            <value>
+                <fullName>Invitación del Asesor</fullName>
+                <default>false</default>
+                <label>Invitación del Asesor</label>
+            </value>
+            <value>
+                <fullName>Isla Paseo Queretaro</fullName>
+                <default>false</default>
+                <label>Isla Paseo Queretaro</label>
+            </value>
+            <value>
+                <fullName>Javermóvil</fullName>
+                <default>false</default>
+                <label>Javermóvil</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Llamada callcenter</fullName>
+                <default>false</default>
+                <label>Llamada callcenter</label>
+            </value>
+            <value>
+                <fullName>Loneros</fullName>
+                <default>false</default>
+                <label>Loneros</label>
+            </value>
+            <value>
+                <fullName>Macroventa Online</fullName>
+                <default>false</default>
+                <label>Macroventa Online</label>
+            </value>
+            <value>
+                <fullName>Mailing</fullName>
+                <default>false</default>
+                <label>Mailing</label>
+            </value>
+            <value>
+                <fullName>Marcacion Corta</fullName>
+                <default>false</default>
+                <label>Marcacion Corta</label>
+            </value>
+            <value>
+                <fullName>Micrositio Asesor</fullName>
+                <default>false</default>
+                <label>Micrositio Asesor</label>
+            </value>
+            <value>
+                <fullName>Micrositios</fullName>
+                <default>false</default>
+                <label>Micrositios</label>
+            </value>
+            <value>
+                <fullName>Módulo en Punto Estrategico</fullName>
+                <default>false</default>
+                <label>Módulo en Punto Estrategico</label>
+            </value>
+            <value>
+                <fullName>Módulo en Punto Estratégico</fullName>
+                <default>false</default>
+                <label>Módulo en Punto Estratégico</label>
+            </value>
+            <value>
+                <fullName>Módulo pagado en Punto Estraté</fullName>
+                <default>false</default>
+                <label>Módulo pagado en Punto Estraté</label>
+            </value>
+            <value>
+                <fullName>Mundo Javer</fullName>
+                <default>false</default>
+                <label>Mundo Javer</label>
+            </value>
+            <value>
+                <fullName>Otros Creditos</fullName>
+                <default>false</default>
+                <label>Otros Creditos</label>
+            </value>
+            <value>
+                <fullName>P. Inmobliarios-Inmuebles 24</fullName>
+                <default>false</default>
+                <label>P. Inmobliarios-Inmuebles 24</label>
+            </value>
+            <value>
+                <fullName>Página de Internet</fullName>
+                <default>false</default>
+                <label>Página de Internet</label>
+            </value>
+            <value>
+                <fullName>Pagina web Javer</fullName>
+                <default>false</default>
+                <label>Pagina web Javer</label>
+            </value>
+            <value>
+                <fullName>Pasaba por aquí</fullName>
+                <default>false</default>
+                <label>Pasaba por aquí</label>
+            </value>
+            <value>
+                <fullName>Periferia</fullName>
+                <default>false</default>
+                <label>Periferia</label>
+            </value>
+            <value>
+                <fullName>Periódico</fullName>
+                <default>false</default>
+                <label>Periódico</label>
+            </value>
+            <value>
+                <fullName>Podcast</fullName>
+                <default>false</default>
+                <label>Podcast</label>
+            </value>
+            <value>
+                <fullName>Port. Inmobiliario/Trato Direc</fullName>
+                <default>false</default>
+                <label>Port. Inmobiliario/Trato Direc</label>
+            </value>
+            <value>
+                <fullName>Portal Casa Perfecta</fullName>
+                <default>false</default>
+                <label>Portal Casa Perfecta</label>
+            </value>
+            <value>
+                <fullName>Portales Inmobiliarios</fullName>
+                <default>false</default>
+                <label>Portales Inmobiliarios</label>
+            </value>
+            <value>
+                <fullName>Portal Inmobiliario</fullName>
+                <default>false</default>
+                <label>Portal Inmobiliario</label>
+            </value>
+            <value>
+                <fullName>Póster</fullName>
+                <default>false</default>
+                <label>Póster</label>
+            </value>
+            <value>
+                <fullName>Prensa</fullName>
+                <default>false</default>
+                <label>Prensa</label>
+            </value>
+            <value>
+                <fullName>Prensa/Revista</fullName>
+                <default>false</default>
+                <label>Prensa/Revista</label>
+            </value>
+            <value>
+                <fullName>Prensa / Revista</fullName>
+                <default>false</default>
+                <label>Prensa / Revista</label>
+            </value>
+            <value>
+                <fullName>Prospección</fullName>
+                <default>false</default>
+                <label>Prospección</label>
+            </value>
+            <value>
+                <fullName>Publicidad en Autobuses</fullName>
+                <default>false</default>
+                <label>Publicidad en Autobuses</label>
+            </value>
+            <value>
+                <fullName>QIR Tianguis</fullName>
+                <default>false</default>
+                <label>QIR Tianguis</label>
+            </value>
+            <value>
+                <fullName>Radio</fullName>
+                <default>false</default>
+                <label>Radio</label>
+            </value>
+            <value>
+                <fullName>Recomienda y Gana</fullName>
+                <default>false</default>
+                <label>Recomienda y Gana</label>
+            </value>
+            <value>
+                <fullName>Referido</fullName>
+                <default>false</default>
+                <label>Referido</label>
+            </value>
+            <value>
+                <fullName>Referido/Recomendación</fullName>
+                <default>false</default>
+                <label>Referido/Recomendación</label>
+            </value>
+            <value>
+                <fullName>Señalizacion</fullName>
+                <default>false</default>
+                <label>Señalizacion</label>
+            </value>
+            <value>
+                <fullName>Señalización</fullName>
+                <default>false</default>
+                <label>Señalización</label>
+            </value>
+            <value>
+                <fullName>Señalizacion Humana</fullName>
+                <default>false</default>
+                <label>Señalizacion Humana</label>
+            </value>
+            <value>
+                <fullName>Telemarketing</fullName>
+                <default>false</default>
+                <label>Telemarketing</label>
+            </value>
+            <value>
+                <fullName>Televisión</fullName>
+                <default>false</default>
+                <label>Televisión</label>
+            </value>
+            <value>
+                <fullName>Twitter</fullName>
+                <default>false</default>
+                <label>Twitter</label>
+            </value>
+            <value>
+                <fullName>Vecino</fullName>
+                <default>false</default>
+                <label>Vecino</label>
+            </value>
+            <value>
+                <fullName>Volante</fullName>
+                <default>false</default>
+                <label>Volante</label>
+            </value>
+            <value>
+                <fullName>Waze</fullName>
+                <default>false</default>
+                <label>Waze</label>
+            </value>
+            <value>
+                <fullName>Whatsapp</fullName>
+                <default>false</default>
+                <label>Whatsapp</label>
+            </value>
+            <value>
+                <fullName>Youtube</fullName>
+                <default>false</default>
+                <label>Youtube</label>
+            </value>
+            <value>
+                <fullName>Chatbot</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Chatbot</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

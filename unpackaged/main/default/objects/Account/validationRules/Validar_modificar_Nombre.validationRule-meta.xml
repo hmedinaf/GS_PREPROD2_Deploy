@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_modificar_Nombre</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF($Profile.Id &lt;&gt; &quot;00eo0000000vwpl&quot;&amp;&amp; NOT(ISBLANK( Nombre_cta__c )), (ISCHANGED(Nombre_cta__c ))  ,null)</errorConditionFormula>
+    <errorMessage>No puede modificar Nombre</errorMessage>
+</ValidationRule>

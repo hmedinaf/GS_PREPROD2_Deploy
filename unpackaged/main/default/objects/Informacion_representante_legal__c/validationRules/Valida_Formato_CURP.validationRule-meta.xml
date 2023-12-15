@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Formato_CURP</fullName>
+    <active>true</active>
+    <description>Valida el Formato CURP</description>
+    <errorConditionFormula>$User.is_Data_Migration_User__c = false &amp;&amp;
+IF(OR(ISBLANK(CURP__c),ISNULL(CURP__c)), FALSE,
+			
+   OR(NOT(REGEX(LEFT(CURP__c,     4),&quot;^[a-zA-Z]*$&quot;)),
+      NOT(REGEX(MID (CURP__c,  5, 6),&quot;^[0-9]*$&quot;)),
+      NOT(REGEX(MID (CURP__c, 11, 6),&quot;^[a-z A-Z]*$&quot;)),
+      NOT(REGEX(RIGHT(CURP__c,    2),&quot;^[a-z A-Z 0-9]*$&quot;)),
+      LEN(CURP__c)&lt;&gt;18
+     )
+  )</errorConditionFormula>
+    <errorDisplayField>CURP__c</errorDisplayField>
+    <errorMessage>El CURP debe contener 4 caracteres alfabeticos al incio, seguido de 6 caracteres numericos, seguido de 6 caracteres alfabeticos y 2 caracteres númericos al final</errorMessage>
+</ValidationRule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Persona_moral_notario_corredor_obligator</fullName>
+    <active>true</active>
+    <description>Valida que si el sub tipo fiscal rep es igual a persona moral, se llene el campo notario corredor del poder.</description>
+    <errorConditionFormula>AND
+(
+TEXT(Sub_Tipo_Fiscal_Rep__c) == &quot;Persona Moral&quot;,
+OR(
+ISNULL(Notario_Corredor_del_Poder__c),
+ISBLANK(Notario_Corredor_del_Poder__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Notario_Corredor_del_Poder__c</errorDisplayField>
+    <errorMessage>Notario Corredor del Poder requerido</errorMessage>
+</ValidationRule>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>BANJERCITO</fullName>
+        <default>false</default>
+        <label>BANJERCITO</label>
+    </customValue>
+    <customValue>
+        <fullName>BANSEFI</fullName>
+        <default>false</default>
+        <label>BANSEFI</label>
+    </customValue>
+    <customValue>
+        <fullName>COFINAVIT</fullName>
+        <default>false</default>
+        <label>COFINAVIT</label>
+    </customValue>
+    <customValue>
+        <fullName>CONTADO</fullName>
+        <default>false</default>
+        <label>CONTADO</label>
+    </customValue>
+    <customValue>
+        <fullName>FOVISSSTE</fullName>
+        <default>false</default>
+        <label>FOVISSSTE</label>
+    </customValue>
+    <customValue>
+        <fullName>INFONAVIT</fullName>
+        <default>false</default>
+        <label>INFONAVIT</label>
+    </customValue>
+    <customValue>
+        <fullName>ISSFAM</fullName>
+        <default>false</default>
+        <label>ISSFAM</label>
+    </customValue>
+    <customValue>
+        <fullName>ISSSTELEON</fullName>
+        <default>false</default>
+        <label>ISSSTELEON</label>
+    </customValue>
+    <customValue>
+        <fullName>PENSIONES</fullName>
+        <default>false</default>
+        <label>PENSIONES</label>
+    </customValue>
+    <customValue>
+        <fullName>SHF/BANCO</fullName>
+        <default>false</default>
+        <label>SHF/BANCO</label>
+    </customValue>
+    <customValue>
+        <fullName>CARGA INICIAL</fullName>
+        <default>false</default>
+        <label>CARGA INICIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>FHSSTE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FHSSTE</label>
+    </customValue>
+    <customValue>
+        <fullName>CONTINGENCIA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CONTINGENCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>CAJA FLORENCIO ROSAS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CAJA FLORENCIO ROSAS</label>
+    </customValue>
+    <customValue>
+        <fullName>BANCO / SOFOL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO / SOFOL</label>
+    </customValue>
+    <masterLabel>Tipo de Crédito</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

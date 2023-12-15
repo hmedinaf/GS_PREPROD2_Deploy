@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CDC_Lugar_de_Residencia__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Estado_de_Residencia__c, 
+						&quot;AGUASCALIENTES&quot;,0,
+						&quot;BAJA CALIFORNIA&quot;,1,
+						&quot;BAJA CALIFORNIA SUR&quot;,1,
+						&quot;CAMPECHE&quot;,0,
+						&quot;CHIAPAS&quot;,0,
+						&quot;CHIHUAHUA&quot;,0,
+						&quot;CIUDAD DE MÉXICO&quot;,0,
+						&quot;COAHUILA&quot;,0,
+						&quot;COLIMA&quot;,1,
+						&quot;DURANGO&quot;,0,
+						&quot;ESTADO DE MÉXICO&quot;,0,
+						&quot;GUANAJUATO&quot;,0,
+						&quot;GUERRERO&quot;,1,
+						&quot;HIDALGO&quot;,0,
+						&quot;JALISCO&quot;,0,
+						&quot;MICHOACÁN&quot;,0,
+						&quot;MORELOS&quot;,1,
+						&quot;NAYARIT&quot;,0,
+						&quot;NUEVO LEÓN&quot;,0,
+						&quot;OAXACA&quot;,0,
+						&quot;PUEBLA&quot;,0,
+						&quot;QUERÉTARO&quot;,0,
+						&quot;QUINTANA ROO&quot;,0,
+						&quot;SAN LUIS POTOSÍ&quot;,0,
+						&quot;SINALOA&quot;,0,
+						&quot;SONORA&quot;,0,
+						&quot;TABASCO&quot;,1,
+						&quot;TAMAULIPAS&quot;,1,
+						&quot;TLAXCALA&quot;,0,
+						&quot;VERACRUZ&quot;,1,
+						&quot;YUCATÁN&quot;,0,
+						&quot;ZACATECAS&quot;,1,
+						0
+					)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CDC-Lugar de Residencia</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_Afluencia_4DiasAntes</fullName>
+    <active>true</active>
+    <description>La fecha de afluencia solo puede ser 4 días antes u hoy</description>
+    <errorConditionFormula>AND(
+	$User.is_Data_Migration_User__c = false,
+ OR(
+  ISNEW(),
+  ISCHANGED(Fecha_de_Afluencia__c) = true
+ ),
+ OR(
+  TODAY() - Fecha_de_Afluencia__c &gt; 4,
+  Fecha_de_Afluencia__c &gt; TODAY()
+ )
+)</errorConditionFormula>
+    <errorDisplayField>Fecha_de_Afluencia__c</errorDisplayField>
+    <errorMessage>La Fecha de afluencia debe ser 4 días previos o el día de hoy</errorMessage>
+</ValidationRule>

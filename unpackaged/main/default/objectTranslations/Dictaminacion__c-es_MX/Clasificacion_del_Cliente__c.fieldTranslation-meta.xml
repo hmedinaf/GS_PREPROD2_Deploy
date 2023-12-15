@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Clasificación del Cliente --></label>
+        <name>Clasificacion_del_Cliente__c</name>
+        <picklistValues>
+            <masterLabel>Alto Riesgo</masterLabel>
+            <translation><!-- Alto Riesgo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bajo Riesgo</masterLabel>
+            <translation><!-- Bajo Riesgo --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

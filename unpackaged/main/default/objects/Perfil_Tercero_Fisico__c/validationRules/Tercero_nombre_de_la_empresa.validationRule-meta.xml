@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tercero_nombre_de_la_empresa</fullName>
+    <active>false</active>
+    <description>Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo</description>
+    <errorConditionFormula>AND
+(
+Existe_un_Tercero_que_aporta_Recursos__c == &quot;SI&quot;,
+OR(
+ISNULL(Nombre_de_la_Empresa__c	),
+ISBLANK(Nombre_de_la_Empresa__c	)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Nombre_de_la_Empresa__c</errorDisplayField>
+    <errorMessage>Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo</errorMessage>
+</ValidationRule>

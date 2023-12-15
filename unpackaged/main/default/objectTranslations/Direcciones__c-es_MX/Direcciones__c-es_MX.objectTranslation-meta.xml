@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dirección</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Direcciones</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Dirección</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- La dirección de Afluencia solo se puede utilizar para registros de Alfuentes o Clientes --></errorMessage>
+        <name>No_Crear_Direccion_de_Afluencia_en_Dicta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo de País si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_Pais_Estatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo calle si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_modificacion_calle</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo código postal si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_codigo_postal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo colonia si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_colonia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo hijos si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_modificacion_municipio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo número exterior si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_numero_exterior</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo número interior si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_numero_interior</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo tipo si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_tipo_direccion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo estado si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Validacion_modificacion_estado</name>
+    </validationRules>
+</CustomObjectTranslation>

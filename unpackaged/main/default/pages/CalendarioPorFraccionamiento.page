@@ -1,0 +1,99 @@
+<apex:page controller="CalendarioPorFraccionamiento" lightningStylesheets="true">
+    <apex:stylesheet value="{!URLFOR($Resource.CalendarJS,'fullcalendar-3.9.0/fullcalendar.css')}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.ScheduleJS,'fullcalendar-scheduler-1.9.4/scheduler.css')}"/>
+    
+    <apex:includeScript value="{!URLFOR($Resource.CalendarJS, 'fullcalendar-3.9.0/lib/moment.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.JQuery)}"/>
+    <apex:includeScript value="{!URLFOR($Resource.CalendarJS, 'fullcalendar-3.9.0/fullcalendar.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.ScheduleJS,'fullcalendar-scheduler-1.9.4/scheduler.js')}"/>
+    
+    <apex:sectionHeader title="Consulta de Calendario" rendered="{!IF(listaFraccionamientos.size > 0, true, false)}"/>
+    <apex:sectionHeader title="{!inventario.Fracc__r.Name}" rendered="{!IF(listaFraccionamientos.size > 0, false, true)}"/>
+    <apex:pageMessages rendered="false"></apex:pageMessages>
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockButtons rendered="{!IF(listaFraccionamientos.size > 0, true, false)}">
+                <apex:commandButton action="{!consultar}" value="Consultar"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection collapsible="false" title="Calendario por Fraccionamiento" rendered="{!IF(listaFraccionamientos.size > 0, true, false)}">
+                <label>Fraccionamiento</label>
+                <apex:selectList size="5" value="{!fraccElegido}">
+                    <apex:selectOptions value="{!listaFraccionamientos}"></apex:selectOptions>
+                </apex:selectList>
+            </apex:pageBlockSection>
+            <apex:repeat var="user" value="{!visitasUser}">
+                <apex:pageBlockSection collapsible="true" title="{!user.Name}" columns="1">
+                    <div style="width: 100%; padding-left:0%;" id="calendar{!user.Id}" class="calendarPadre"></div>
+                    </apex:pageBlockSection>
+                    <apex:repeat var="visita" value="{!visitasUser[user]}">
+                    <w class="calendar{!user.Id} hidden cc" color="{!visita.RecordType.Name}" ff="{!IF(visita.Id != null, visita.Id, visita.Evento__c)}" title="{!visita.Inventario__r.MLI__c}" start="{!visita.FechaCalendar__c}" end="{!visita.FechaCalendarFin__c}"></w>
+                </apex:repeat>
+                
+            </apex:repeat>
+
+        </apex:pageBlock>
+    </apex:form>
+
+    <script>
+    $(document).ready(function(){
+        $('.warningM3').remove();
+        var calendarios = [];
+        $(".calendarPadre").each(function(){
+            var array = [];
+            $("w."+$(this).attr("id")).each(function(){
+                var json = {};
+                json.title = $(this).attr("title");
+                json.start = $(this).attr("start");
+                json.end = $(this).attr("end");
+                
+                if({!iss}){
+                    json.url = '/lightning/r/Visita__c/'+$(this).attr("ff")+'/view';
+                }else{
+                    json.url = '/'+$(this).attr("ff");
+                }
+                
+                if($(this).attr("color") == "Cita"){
+                    json.color = '#009900';
+                }else if($(this).attr("color") == "Visita"){
+                	json.color = '#0099FF';
+                }else{
+                    json.color = '#F97407';
+                }
+                
+                json.eventClick = function(event){
+                    if(event.url){
+                    	sforce.one.navigateToSObject( $(this).attr("ff") );
+                    }
+                }
+                
+                array.push(json);
+            });
+            console.log(array);
+            $(this).fullCalendar({
+                defaultView: 'month',
+                schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
+                events: array
+            });
+        });
+        $('a.fc-day-grid-event').each(function(){
+            $(this).attr('target','_blank');
+        });
+    });
+    
+    function hashCode(str) {
+        var hash = 0;
+        for (var i = 0; i < str.length; i++) {
+            hash = str.charCodeAt(i) + ((hash << 5) - hash);
+        }
+        return hash;
+    } 
+    
+    function intToRGB(i){
+        var c = (i & 0x00FFFFFF)
+        .toString(16)
+        .toUpperCase();
+        
+        return "00000".substring(0, 6 - c.length) + c;
+    }
+    </script>
+</apex:page>

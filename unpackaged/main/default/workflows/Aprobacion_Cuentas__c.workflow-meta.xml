@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>ACU_Actualiza_Estatus_APROBADO</fullName>
+        <field>Estatus_Aprbacion__c</field>
+        <literalValue>Aprobado</literalValue>
+        <name>ACU - Actualiza Estatus APROBADO</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ACU_Actualiza_Estatus_FORMALIZADOR</fullName>
+        <field>Estatus_Aprbacion__c</field>
+        <literalValue>Formalizador</literalValue>
+        <name>ACU - Actualiza Estatus FORMALIZADOR</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ACU_Actualiza_Estatus_RECHAZADO</fullName>
+        <field>Estatus_Aprbacion__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>ACU - Actualiza Estatus RECHAZADO</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Debugg</fullName>
+        <field>debugg__c</field>
+        <formula>&quot;2222 Entro al Proceso de Aprobación&quot;</formula>
+        <name>Debugg</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Debugg2</fullName>
+        <field>Debugg2__c</field>
+        <formula>&quot;444 Si entra al Proceso de Aprobación&quot;</formula>
+        <name>Debugg2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

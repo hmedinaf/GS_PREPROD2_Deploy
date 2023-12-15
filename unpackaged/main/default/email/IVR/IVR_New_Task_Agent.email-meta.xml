@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>IVR - New Task (Agent)</name>
+    <style>none</style>
+    <subject>Tarea Asignada - Folio {!Task.Folio__c}</subject>
+    <textOnly>Se le ha asignado una tarea con el folio {!Task.Folio__c} del fraccionamiento {!Task.Fraccionamiento__c} con la siguiente información:
+
+
+
+Cliente: {!Task.Client_Name__c}
+
+
+Teléfono: {!Task.Telefono__c}
+
+
+MLI: {!Task.MLI__c}
+
+
+Tipificación nivel 1: {!Task.Tipificacion_nivel_1__c}
+
+
+Tipificación nivel 2: {!Task.Tipificacion_nivel_2__c}
+
+
+Comentarios: {!Task.Description}
+
+
+Fecha de Vencimiento: {!Task.ActivityDate}
+
+VER TAREA</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

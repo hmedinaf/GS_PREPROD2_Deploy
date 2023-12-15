@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email de Aprobación para Listas de Promoción de Venta</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Template Aprobación Listas de Promoción de Venta</name>
+    <style>none</style>
+    <subject>Solicitud de Aprobación Lista de Promoción de Venta</subject>
+    <textOnly>Se solicita su aprobación para la siguiente lista de precios de promoción de venta:
+
+Solicitante: {!ApprovalRequest.Process_Approver}
+
+Nombre Objeto: {!Aprobacion_Lista_de_Precios__c.Lista_de_precios__c}
+
+Fraccionamiento: {!Aprobacion_Lista_de_Precios__c.Fraccionamiento__c}
+
+Prototipo: {!Aprobacion_Lista_de_Precios__c.Prototipo__c}
+
+Producto:
+
+Precio de Compra:
+
+% IVA:
+
+Precio Total:
+
+% Beneficio:
+
+Precio de Venta Sugerido:
+
+Precio de Venta:
+
+Selecciona tu respuesta utilizando los botones:
+
+
+Aprobar Rechazar</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JMC_SituacionFovissste__c</fullName>
+    <description>Estatus del crédito Fovissste</description>
+    <externalId>false</externalId>
+    <label>Situación FOVISSSTE</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nunca me he registrado</fullName>
+                <default>false</default>
+                <label>Nunca me he registrado</label>
+            </value>
+            <value>
+                <fullName>Me registré y no salí sorteado</fullName>
+                <default>false</default>
+                <label>Me registré y no salí sorteado</label>
+            </value>
+            <value>
+                <fullName>Salí sorteado,pero no ejercí el crédito</fullName>
+                <default>false</default>
+                <label>Salí sorteado,pero no ejercí el crédito</label>
+            </value>
+            <value>
+                <fullName>Soy pensionado</fullName>
+                <default>false</default>
+                <label>Soy pensionado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

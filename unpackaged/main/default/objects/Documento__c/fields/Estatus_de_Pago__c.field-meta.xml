@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus_de_Pago__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Pagado__c  &amp;&amp; Saldo__c  &lt;= 0, &quot;SALDADO&quot;, 
+	    IF(Fecha_Vencimiento__c  &lt; TODAY(), &quot;VENDIDO&quot;,
+								 &quot;ABIERTO&quot;
+								)
+				)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Estatus de Pago</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

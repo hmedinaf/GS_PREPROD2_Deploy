@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>FORMAL</fullName>
+        <default>false</default>
+        <label>FORMAL</label>
+    </customValue>
+    <customValue>
+        <fullName>INFORMAL</fullName>
+        <default>false</default>
+        <label>INFORMAL</label>
+    </customValue>
+    <customValue>
+        <fullName>MIXTA</fullName>
+        <default>false</default>
+        <label>MIXTA</label>
+    </customValue>
+    <masterLabel>Tipo de Economía</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

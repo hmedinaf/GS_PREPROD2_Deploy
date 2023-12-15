@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Notaría</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Notarías</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Notaría</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- No puedes modificar el correo si la solicitud está probada --></errorMessage>
+        <name>Correo_no_editable_sol_aprobada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puedes modificar la Dirección si la solicitud está probada --></errorMessage>
+        <name>Direccion_no_editable_sol_aprobada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puedes modificar el Estado si la solicitud ha sido aprobada --></errorMessage>
+        <name>Estado_no_editable_sol_aprobada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puedes modificar el Nombre de la Notaria si está aprobada --></errorMessage>
+        <name>Notaria_no_editable_en_estatus_aprobada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puedes modificar el notario si la solicitud ya está aprobada --></errorMessage>
+        <name>Notario_no_editable_en_estatus_aprobada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La operación única no se puede actualizar si la solicitud está aprobada --></errorMessage>
+        <name>Operacion_U_No_editable_si_esta_aprobada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puedes modificar el Teléfono si la solicitud está aprobada --></errorMessage>
+        <name>Telefono_no_editable_si_estatus_es_aprob</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puedes modificar el Tipo de Solicitud si la solicitud está aprobada --></errorMessage>
+        <name>Tipo_solicitud_no_editable_sol_aprobada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puedes modificar el correo si la solicitud está aprobada --></errorMessage>
+        <name>correo2_no_editable_si_sol_aprobada</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Canal_Sub_Canal_Vta_Recomendante</fullName>
+    <active>true</active>
+    <description>Si se elige Canal de venta &quot;Programas Institucionales&quot; y Sub canal de venta &quot;Recomienda y Gana&quot; se debe elegir un &quot;Recomendante&quot;</description>
+    <errorConditionFormula>AND(
+ ISPICKVAL(Canal_de_Venta__c, &#39;PROGRAMAS INSTITUCIONALES&#39;),
+ ISPICKVAL(Sub_canal_de_venta__c, &#39;RECOMIENDA Y GANA&#39;),
+ ISBLANK(Recomendante__c) = true
+)</errorConditionFormula>
+    <errorDisplayField>Recomendante__c</errorDisplayField>
+    <errorMessage>Debe asignar un Recomendante pues el Canal de venta es &#39;PROGRAMAS INSTITUCIONALES&#39; y el Sub canal de venta es &#39;RECOMIENDA Y GANA&#39;.</errorMessage>
+</ValidationRule>

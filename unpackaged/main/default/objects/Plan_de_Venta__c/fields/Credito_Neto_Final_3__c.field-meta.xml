@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credito_Neto_Final_3__c</fullName>
+    <externalId>false</externalId>
+    <formula>Monto_de_Credito_3__c +  Subcuenta_Vivienda_3__c +  Ahorro_Voluntario_3__c -  Total_de_Gastos_3__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Crédito Neto Final 3</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

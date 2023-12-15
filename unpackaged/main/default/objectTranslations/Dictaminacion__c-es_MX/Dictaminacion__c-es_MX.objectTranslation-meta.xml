@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dictaminación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dictaminación</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Dictaminación Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Nueva Dirección Empresa --></label>
+        <name>Nueva_Direccion_Empresa</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dirección Laboral --></label>
+        <name>Nueva_Direccion_Laboral</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dirección Principal --></label>
+        <name>Nueva_Direccion_Principal</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Se requiere capturar al menos un Accionista --></errorMessage>
+        <name>Accionista1_Requerido_para_Persona_Moral</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Los siguientes campos solamente pueden contener caracteres alfanumericos:
+
+Nombre
+Extension
+Accionista 1-3
+Miembros del Consejo 1-3
+
+Favor validar la informacion y tratar de nuevo. --></errorMessage>
+        <name>Aphanumeric_Info</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Dependientes Económicos Requerido --></errorMessage>
+        <name>Dependientes_Economicos_Requerido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- ¿Es usted el Titular de Recursos? requerido. --></errorMessage>
+        <name>Es_Ud_Titular_de_Recursos_Requerida</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se seleccionó NO en el campo ¿Es usted el Titular de Recursos? por lo que debe llenarse el campo ¿Existe un tercero que aporta recursos? --></errorMessage>
+        <name>Es_usted_titular_de_un_tercero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Escritura a Favor de un Tercero&quot; requerido. --></errorMessage>
+        <name>Escritura_a_Favor_de_un_Tercero_Req</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Existe un Tercero que Aporta Recursos debe ser &quot;Si&quot; --></errorMessage>
+        <name>Existe_un_Tercero_que_Aporta_Rec_Req</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Firma Directa Cliente&quot; requerido. --></errorMessage>
+        <name>Firma_Directa_Cliente_Req</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se seleccionó NO en el campo firma directa cliente por lo que debe llenarse el campo firma directa apoderado legal. --></errorMessage>
+        <name>Firma_directa_apoderado_legal_obliga</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo &quot;Hijos&quot; requerido --></errorMessage>
+        <name>Hijos_Requerido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Para los campos de telefono unicamente se pueden ingresar numeros empezando por +52 seguido de 10 digitos. --></errorMessage>
+        <name>Phone_Number_Only_Numbers</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pregunta &quot;Es primera compra en Javer&quot; requerida --></errorMessage>
+        <name>Primera_Compra_en_Javer_Req</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>TelefonoCelular_REGEX</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Telefono_Casa_REGEX</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Telefono_Otro_Telefono</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Telefono_Trabajo_REGEX</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Al seleccionar el check de Embajada/Consulado/Organismo Intl. debe llenar el campo de  cédula de identificación fiscal. --></errorMessage>
+        <name>Valida_Check_Embajada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Al seleccionar el check de Embajada/Consulado/Organismo Intl. debe llenar el campo de  fecha establecimiento en territorio nacional. --></errorMessage>
+        <name>Valida_Check_Embajada_Fecha</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No es posible continuar con el proceso si el Estatus Lista Negra QEQ del cliente, no esta como &quot;Validado&quot; --></errorMessage>
+        <name>Valida_Lista_Negra</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo dependientes económicos si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_Modificacion_Dependientes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El NSS es obligatorio si el tipo de crédito es Infonavit o Cofinavit --></errorMessage>
+        <name>Valida_NSS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Al seleccionar el check de Cliente Fideicomiso se debe llenar el campo No. de Fideicomiso --></errorMessage>
+        <name>Valida_cliente_fideicomiso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo ¿Autoriza la utilización de información? si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_Autoriza_la_utilizac</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo CURP si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_CURP_moral</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo ¿Deseas recibir publicidad sobre Javer? si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_Deseas_recibir_publ</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo ¿Es usted el Titular de Recursos? si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_Es_usted_el_Titular</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo RFC compañía si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_RFC_compania</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo accionistas si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_accionistas</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo actividad económica/giro mercantil si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_actividad_economica</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo años antigüedad si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_anos_antiguedad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo área/departamento si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_area_departamento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo autoridad identificación si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_autoridad_identifica</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo cédula identificación fiscal si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_cedula_identificacio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo sub tipo fiscal rep si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_check_list_sub_tipo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo comentarios si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_comentarios</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_director_general</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo empresa si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Escritura a favor de un Tercero si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_escritura_a_favor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo ¿Existe un Tercero que aporta Recursos Total o Parcial?. si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_existe_un_tercero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo extensión si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_extension</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo fecha de constitución si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_fecha_de_constitucio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo fecha establecimiento en territorio nacional si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_fecha_establecimient</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Firma Directa Apoderado Legal si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_firma_directa_apoder</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Firma Directa Cliente si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_firma_directa_client</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo giro mercantil si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_giro_mercantil</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo hijos si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_hijos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo ingresos mensuales si el estatus del proceso de venta es de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_ingresos_mensuales</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo meses antigüedad si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_meses_antiguedad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo miembros del consejo si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_miembros_del_consejo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo no. de fideicomiso si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_no_de_fideicomiso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo no. escritura si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_no_escritura</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo no. identificación si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_no_identificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo notaría si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_notaria</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo país de nacimiento si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_pais_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo país de nacionalidad si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_pais_nacionalidad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo primera compra en JAVER si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_primera_compra_en_ja</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo puesto si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_puesto</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo régimen fiscal si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_regimen_fiscal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo régimen fiscal compañía si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_regimen_fiscal_compa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo registro patronal si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_registro_patronal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo teléfono trabajo si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_telefono_trabajo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo tipo de alerta si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_tipo_de_alerta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo tipo identificación si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_tipo_identificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo porcentaje accionistas si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>valida_modificacion_porcentaje_accionist</name>
+    </validationRules>
+</CustomObjectTranslation>

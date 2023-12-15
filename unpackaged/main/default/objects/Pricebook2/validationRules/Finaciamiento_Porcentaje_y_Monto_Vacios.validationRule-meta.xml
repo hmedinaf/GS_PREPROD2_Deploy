@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finaciamiento_Porcentaje_y_Monto_Vacios</fullName>
+    <active>true</active>
+    <description>Regla que valida que ambos campos no pueden estar vacios al mismo tiempo</description>
+    <errorConditionFormula>AND(RecordType.Name = &quot;Financiamiento&quot;, 
+				ISBLANK(Porcentaje_Fianciamiento__c),  
+				ISBLANK(Importe_Financiamiento__c))</errorConditionFormula>
+    <errorMessage>Los campoos de Importe de Financiamiento y Porcentaje de Financiemiento, no pueden estar en blanco al mismo tiempo.Favor de verificar.</errorMessage>
+</ValidationRule>

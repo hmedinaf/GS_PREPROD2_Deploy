@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Diferencia_a_Pagar__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Diferencia_a_Pagar_TXT__c &lt;&gt; &quot;0&quot;, 
+   IF( OR(Sumatoria_Notas_Credito_Bonificacion__c &gt;= Diferencia_a_Pagar__c, 
+	 									AND(Sueldo_Neto__c &gt; 0, Mensualidad_del_Cr_dito_Postventa__c &gt; 0 )), TRUE, FALSE),
+			TRUE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Check Diferencia a Pagar</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

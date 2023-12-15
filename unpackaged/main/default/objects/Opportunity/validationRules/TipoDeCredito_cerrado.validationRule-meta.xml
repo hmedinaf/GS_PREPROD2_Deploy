@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TipoDeCredito_cerrado</fullName>
+    <active>true</active>
+    <description>Se revisara el valor de la lista de selección &quot;Tipo de Crédito&quot;. Para los valores &quot;COFINAVIT&quot; e &quot;INFONAVIT&quot; se deberá pedir un valor en el campo &quot;NSS&quot;</description>
+    <errorConditionFormula>AND(
+   ISCHANGED(Tipo_de_Credito__c),
+   OR(
+      ISPICKVAL(StageName, &#39;Escriturado&#39;),
+      ISPICKVAL(StageName, &#39;Entregado&#39;),
+      ISPICKVAL(StageName, &#39;Cancelado&#39;)
+   )
+)</errorConditionFormula>
+    <errorMessage>No puedes cambiar el Tipo de Crédito con un Estatus: Escriturado, Entregado o Cancelado</errorMessage>
+</ValidationRule>

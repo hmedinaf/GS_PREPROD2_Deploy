@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Forma_de_Pago__c</fullName>
+    <externalId>false</externalId>
+    <label>Forma de Pago</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sistema Financiero</fullName>
+                <default>false</default>
+                <label>Sistema Financiero</label>
+            </value>
+            <value>
+                <fullName>Organismo de Vivienda</fullName>
+                <default>false</default>
+                <label>Organismo de Vivienda</label>
+            </value>
+            <value>
+                <fullName>Efectivo menor a 100k mensual</fullName>
+                <default>false</default>
+                <label>Efectivo menor a 100k mensual</label>
+            </value>
+            <value>
+                <fullName>Efectivo mayor a 100k mensual</fullName>
+                <default>false</default>
+                <label>Efectivo mayor a 100k mensual</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

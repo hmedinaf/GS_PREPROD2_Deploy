@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Fecha_vs_Fecha_Visita_anterior</fullName>
+    <active>true</active>
+    <description>La fecha de visita debe ser mayor o igual a la fecha actual</description>
+    <errorConditionFormula>IF(!ISBLANK(Fecha_Ultima_Visita__c), FALSE,
+ IF(Fecha_Ultima_Visita__c &gt; Fecha_Visita__c , TRUE, FALSE))</errorConditionFormula>
+    <errorDisplayField>Fecha_Visita__c</errorDisplayField>
+    <errorMessage>La fecha de visita debe ser mayor ó igual a la fecha de la última visita</errorMessage>
+</ValidationRule>

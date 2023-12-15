@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Titulación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Titulación</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Titulación</layout>
+        <sections>
+            <label><!-- Detalle de la Escritura --></label>
+            <section>Detalle de la Escritura</section>
+        </sections>
+        <sections>
+            <label><!-- INformación del sistema --></label>
+            <section>INformación del sistema</section>
+        </sections>
+        <sections>
+            <label><!-- Información General --></label>
+            <section>Información General</section>
+        </sections>
+        <sections>
+            <label><!-- Viviendas --></label>
+            <section>Viviendas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Confirmación Legal --></label>
+        <name>Confirmacion_Legal</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Titulador Confirmar Escritura --></label>
+        <name>Confirmar_Titulaciones</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Rechazar Proceso de Venta --></label>
+        <name>Rechazar_Proceso_de_Venta</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Solicitar Cambio VO --></label>
+        <name>Solicitar_Cambio_VO</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Confirmar Escritura (old) --></label>
+        <name>Confirmar_Escritura</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Confirmar Escritura --></label>
+        <name>Confirmar_Escritura_Final</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Crear Pagaré Financiera / Subsidio --></label>
+        <name>Crear_Pagar_Financiera_Subsidio</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Relacionar Cobranza Comercial --></label>
+        <name>Relacionar_Cobranza_Comercial</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Este campo no se puede modificar en el estado &quot;Cancelado&quot; --></errorMessage>
+        <name>Aviso_Retencion_Estado_Cancelado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Ingresa unicamente numeros para el codigo postal --></errorMessage>
+        <name>Codigo_Postal_Fiscal_Solo_Numeros</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Este campo no se puede modificar cuando el estatus es &apos;Cancelado&apos; --></errorMessage>
+        <name>Codigo_postal_fiscal_lock_cancelado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Este campo no se puede modificar cuando el estatus es &apos;Cancelado&apos; --></errorMessage>
+        <name>Domicilio_Fical_Lock_Cancelacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha de firma del cliente solo se puede editar si el subestatus del proceso es &quot;Aprobado&quot; --></errorMessage>
+        <name>Ediatr_FechaFirmaCliente_en_Aprobado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha de firma del clinete debe ser máximo, 4 dias anteriores a la fecha actual. --></errorMessage>
+        <name>FechaFirmaCliente_Valida_Fecha</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Este campo esta disponible solo en estado &quot;Formalizado&quot; --></errorMessage>
+        <name>Fecha_de_Avaluo_disponible_en_Formalizad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se puede modificar este campo en el estado &quot;Formalizado&quot; --></errorMessage>
+        <name>Fecha_de_autorizacion_Formalizado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar la financiera en este subestatus --></errorMessage>
+        <name>Financiera_solo_dispobible_en</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Este campo solo se puede modificar cuando está en el estado &quot;Formalizado&quot; --></errorMessage>
+        <name>Monto_de_credito_definitivo_Estatus_Form</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar este campo si el sub estado no está en progreso o aprobado --></errorMessage>
+        <name>Motivo_solo_en_progreso_o_aprobado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Numero de crédito solo disponible en escriturado o entregado --></errorMessage>
+        <name>Numero_de_credito_solo_disponible_en_esc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Este campo no se puede modificar cuando el estatus es &apos;Cancelado&apos; --></errorMessage>
+        <name>Regimen_Fiscal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se puede editar en estatus formalizado --></errorMessage>
+        <name>Solo_editable_en_formalizado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El Sub estado no se puede editar si el estatus no es &quot;Formalizado&quot; o si el Sub estatus del proceso es &apos;En Firmas&apos; --></errorMessage>
+        <name>SubEstado_restriccion_de_edicion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Este campo solo se puede modificar cuando el sub status del proceso es &quot;Aprobado&quot;o &quot;En progreso&quot; --></errorMessage>
+        <name>Sub_Estado_solo_en_Progreso_o_Aprobado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se puede modificar este campo en el estado &quot;Formalizado&quot; --></errorMessage>
+        <name>Tipo_disponible_solo_en_Formalizado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El numero de crédito solo debe de contener numeros, no acepta letras ni caracteres especiales. --></errorMessage>
+        <name>Valida_solo_numeros_numero_credito</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Modificacion_de_Pagares --></label>
+        <name>Modificacion_de_Pagares</name>
+    </webLinks>
+</CustomObjectTranslation>

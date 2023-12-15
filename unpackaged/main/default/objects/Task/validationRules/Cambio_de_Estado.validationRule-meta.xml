@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cambio_de_Estado</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( $User.FirstName != &#39;ADMIN&#39; &amp;&amp; $RecordType.Name = &quot;Talkdesk&quot; &amp;&amp; ISCHANGED( Status ) &amp;&amp; $User.Id != OwnerId, true, false)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>El estado solo puede ser modificado por el agente asignado</errorMessage>
+</ValidationRule>

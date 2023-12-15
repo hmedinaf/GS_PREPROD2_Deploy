@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Alerta_de_notificicacion_cancelacion_por_resolicitud</fullName>
+        <ccEmails>yazmin.gonzalez.palomo@gmail.com;ygonzalez@javer.com.mx;ifac3739@gmail.com</ccEmails>
+        <description>Alerta de notificicación cancelación por resolicitud</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>admin@javer.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>ifalk@javer.com.mx</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>yazmin2@javer</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Template_Aprobacion_Cancelacion_Formalizacion</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Actualiza_Check_Cancelacion_Rserva</fullName>
+        <field>Chk_Cancelacion_Reserva__c</field>
+        <literalValue>1</literalValue>
+        <name>Actualiza Check Cancelacion Rserva</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_Chk_Cancela_Escritura</fullName>
+        <field>Chk_Cancelacion_Escritura__c</field>
+        <literalValue>1</literalValue>
+        <name>Actualiza Chk Cancela Escritura</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_Chk_Cancela_Escritura_APC</fullName>
+        <field>Chk_Cancelacion_Escritura_APC__c</field>
+        <literalValue>1</literalValue>
+        <name>Actualiza Chk Cancela Escritura APC</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_Chk_Cancela_Formalizacion</fullName>
+        <field>Chk_Cancelacion_Formalizacion__c</field>
+        <literalValue>1</literalValue>
+        <name>Actualiza Chk Cancela Formalizacion</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_Chk_Reembolso</fullName>
+        <field>Chk_Reembolso_x_Cancelaci_n__c</field>
+        <literalValue>1</literalValue>
+        <name>Actualiza Chk Reembolso</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_Estatus_Cancelaci_n_Aprobado</fullName>
+        <field>CPPTS_Estatus_Cancelacion__c</field>
+        <literalValue>Aprobado</literalValue>
+        <name>Actualiza Estatus Cancelación Aprobado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_Estatus_de_Cancelaci_n_APC</fullName>
+        <field>CPPTS_Estatus_Cancelacion__c</field>
+        <literalValue>Aprobado</literalValue>
+        <name>Actualiza Estatus de Cancelación APC</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_Estatus_de_Cancelaci_n_Escrit</fullName>
+        <field>CPPTS_Estatus_Cancelacion__c</field>
+        <literalValue>Aprobado</literalValue>
+        <name>Actualiza Estatus de Cancelación Escrit</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_Estatus_de_Cancelaci_n_Formal</fullName>
+        <field>CPPTS_Estatus_Cancelacion__c</field>
+        <literalValue>Aprobado</literalValue>
+        <name>Actualiza Estatus de Cancelación Formal</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_Estatus_de_Cancelaci_n_Reembol</fullName>
+        <field>CPPTS_Estatus_Aprobacion_Reembolso__c</field>
+        <literalValue>Aprobado</literalValue>
+        <name>Actualiza Estatus de Cancelación Reembol</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_Fecha_de_Cancelacion</fullName>
+        <field>CPPTS_Fecha_Cancelacion__c</field>
+        <formula>TODAY()</formula>
+        <name>Actualiza Fecha de Cancelación</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Aprobar_Estatus_Aprobacion_Reembolso</fullName>
+        <field>CPPTS_Estatus_Aprobacion_Reembolso__c</field>
+        <literalValue>Aprobado</literalValue>
+        <name>Aprobar Estatus Aprobacion Reembolso</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Asignaci_n_de_Reembolso_aprobado</fullName>
+        <field>CPPTS_Reembolso_Aprobado__c</field>
+        <formula>CPPTS_Reembolso_Pendiente__c</formula>
+        <name>Asignación de Reembolso aprobado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rechaza_Estatus_de_Cancelaci_n_APC</fullName>
+        <field>CPPTS_Estatus_Cancelacion__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>Rechaza Estatus de Cancelación APC</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rechaza_Estatus_de_Cancelaci_n_Escrit</fullName>
+        <field>CPPTS_Estatus_Cancelacion__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>Rechaza Estatus de Cancelación Escrit</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rechaza_Estatus_de_Cancelaci_n_Formal</fullName>
+        <field>CPPTS_Estatus_Cancelacion__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>Rechaza Estatus de Cancelación Formal</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rechaza_Estatus_de_Cancelaci_n_Reembo</fullName>
+        <field>CPPTS_Estatus_Cancelacion__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>Rechaza Estatus de Cancelación Reembo</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rechaza_Estatus_de_Cancelaci_n_Reserva</fullName>
+        <field>CPPTS_Estatus_Cancelacion__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>Rechaza Estatus de Cancelación Reserva</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rechazar_Estatus_Aprobacion_Reembolso</fullName>
+        <field>CPPTS_Estatus_Aprobacion_Reembolso__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>Rechazar Estatus Aprobacion  Reembolso</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateStatusAprobReembolso</fullName>
+        <field>CPPTS_Estatus_Aprobacion_Reembolso__c</field>
+        <literalValue>Por Aprobar</literalValue>
+        <name>UpdateStatusAprobReembolso</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Numero_de_credito_solo_disponible_en_esc</fullName>
+    <active>true</active>
+    <description>Numero de crédito solo disponible en escriturado o entregado</description>
+    <errorConditionFormula>AND(
+     $Profile.Name = &quot;APC&quot;,
+     isChanged(Numero_de_Credito__c), 		
+     OR( NOT(ISPICKVAL(Estatus_Proceso__c , &#39;Entregado&#39;)),
+								 NOT(ISPICKVAL(Estatus_Proceso__c , &#39;Escriturado&#39;))					
+							)
+   )</errorConditionFormula>
+    <errorDisplayField>Numero_de_Credito__c</errorDisplayField>
+    <errorMessage>Numero de crédito solo disponible en escriturado o entregado</errorMessage>
+</ValidationRule>

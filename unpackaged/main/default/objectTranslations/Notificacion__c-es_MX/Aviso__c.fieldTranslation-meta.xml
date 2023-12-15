@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Aviso --></label>
+        <name>Aviso__c</name>
+        <picklistValues>
+            <masterLabel>Cliente desperfilado</masterLabel>
+            <translation><!-- Cliente desperfilado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cliente no se localiza</masterLabel>
+            <translation><!-- Cliente no se localiza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta aviso de retención</masterLabel>
+            <translation><!-- Falta aviso de retención --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitud de Cambios en el Valod de Operación</masterLabel>
+            <translation><!-- Solicitud de Cambios en el Valod de Operación --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

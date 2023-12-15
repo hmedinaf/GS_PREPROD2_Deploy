@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mensaje_error_Infonavit__c</fullName>
+    <description>Catálogo de opciones con los mensajes de error que arroja la página del Infonavit</description>
+    <externalId>false</externalId>
+    <label>Mensaje error Infonavit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CON PAGO Y SIN RELACION LABORAL</fullName>
+                <default>false</default>
+                <label>Con pago y sin relación laboral</label>
+            </value>
+            <value>
+                <fullName>CREDITO EJERCIDO</fullName>
+                <default>false</default>
+                <label>Crédito ejercido</label>
+            </value>
+            <value>
+                <fullName>CREDITO VIGENTE</fullName>
+                <default>false</default>
+                <label>Crédito vigente</label>
+            </value>
+            <value>
+                <fullName>Este producto de crédito, tiene como requisito realizar la consulta a tu historial crediticio</fullName>
+                <default>false</default>
+                <label>Este producto de crédito, tiene como requisito realizar la consulta a tu historial crediticio</label>
+            </value>
+            <value>
+                <fullName>ESTE PRODUCTO NO CUMPLE LAS REGLAS DE FORTALECIMIENTO</fullName>
+                <default>false</default>
+                <label>ESTE PRODUCTO NO CUMPLE LAS REGLAS DE FORTALECIMIENTO</label>
+            </value>
+            <value>
+                <fullName>Inscrito al programa Crezcamos Juntos, consulta tus condiciones de ahorro y precalificación especial</fullName>
+                <default>false</default>
+                <label>Inscrito al programa Crezcamos Juntos, consulta tus condiciones de ahorro y precalificación especial</label>
+            </value>
+            <value>
+                <fullName>NECESITAS CUMPLIR 6 MESES DESPUES DE HABER TERMINADO DE PAGAR TU PRIMER CREDITO INFONAVIT</fullName>
+                <default>false</default>
+                <label>NECESITAS CUMPLIR 6 MESES DESPUES DE HABER TERMINADO DE PAGAR TU PRIMER CREDITO INFONAVIT</label>
+            </value>
+            <value>
+                <fullName>NO CUMPLES CON LAS CONDICIONES PARA OBTENER UN SEGUNDOCREDITO PORTA</fullName>
+                <default>false</default>
+                <label>No cumples con las condiciones para obtener un segundo crédito porta</label>
+            </value>
+            <value>
+                <fullName>No cumples con los criterios mínimos para obtener un crédito</fullName>
+                <default>false</default>
+                <label>No cumples con los criterios mínimos para obtener un crédito</label>
+            </value>
+            <value>
+                <fullName>NO ENCONTRAMOS TU NSS, FAVOR DE SOLICITARLO EN TU EMPRESA</fullName>
+                <default>false</default>
+                <label>No encontramos tu NSS, favor de solicitarlo en tu empresa</label>
+            </value>
+            <value>
+                <fullName>No es posible calcular tu puntuación debido a que no existe información de tu patrón al corte del bimestre 2 de 2021. Acude al área de Recursos Humanos de tu empresa.</fullName>
+                <default>false</default>
+                <label>No es posible calcular tu puntuación debido a que no existe información de tu patrón al corte del bimestre 2 de 2021. Acude al área de Recursos Humanos de tu empresa.</label>
+            </value>
+            <value>
+                <fullName>NO SE PUDO SACAR NSS</fullName>
+                <default>false</default>
+                <label>No se pudo sacar NSS</label>
+            </value>
+            <value>
+                <fullName>NO TENEMOS CORRECTO TU RFC , CORRIGE EN MI CUENTA INFONAVIT O CESI</fullName>
+                <default>false</default>
+                <label>No tenemos correcto tu RFC, corrígeme en mi cuenta Infonavit o Cesi</label>
+            </value>
+            <value>
+                <fullName>NSS NO REGISTRADO EN INFONAVIT</fullName>
+                <default>false</default>
+                <label>NSS no registrado en el Infonavit</label>
+            </value>
+            <value>
+                <fullName>POR EL MOMENTO NO ESTAN DISPONIBLES LAS BASES DE DATOS DE CONSULTA</fullName>
+                <default>false</default>
+                <label>Por el momento no están disponibles las bases de datos de consulta</label>
+            </value>
+            <value>
+                <fullName>R.F.C. INCORRECTO</fullName>
+                <default>false</default>
+                <label>RFC incorrecto</label>
+            </value>
+            <value>
+                <fullName>SALDO DE SUBCUENTA DE VIVIENDA NO DISPONIBLE PARA CREDITO</fullName>
+                <default>false</default>
+                <label>Saldo de subcuenta de vivienda no disponible para crédito</label>
+            </value>
+            <value>
+                <fullName>SIN RELACION LABORAL VIGENTE</fullName>
+                <default>false</default>
+                <label>Sin relación laboral vigente</label>
+            </value>
+            <value>
+                <fullName>TRABAJADOR CON PENSION DE FALLECIMIENTO (CAUSA DE VIDA)</fullName>
+                <default>false</default>
+                <label>TRABAJADOR CON PENSION DE FALLECIMIENTO (CAUSA DE VIDA)</label>
+            </value>
+            <value>
+                <fullName>TRABAJADOR CON PENSION EN PROCESO DE RETIRO</fullName>
+                <default>false</default>
+                <label>Trabajador con pensión en proceso de retiro</label>
+            </value>
+            <value>
+                <fullName>TRABAJADOR CON PENSION POR INCAPACIDAD PERMANENTE  PARCIAL MENOR O IGU</fullName>
+                <default>false</default>
+                <label>Trabajador con pensión por incapacidad permanente parcial menor o igual</label>
+            </value>
+            <value>
+                <fullName>TRABAJADOR NO TIENE LAS ULTIMAS APORTACIONES REGISTRADAS</fullName>
+                <default>false</default>
+                <label>Trabajador no tiene las últimas aportaciones registradas</label>
+            </value>
+            <value>
+                <fullName>TRABAJADOR TIENE UN TRAMITE DE CREDITO CON APOYO INFONAVIT</fullName>
+                <default>false</default>
+                <label>Trabajador tiene un trámite de crédito con apoyo Infonavit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

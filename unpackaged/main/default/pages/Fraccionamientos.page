@@ -1,0 +1,18 @@
+<apex:page controller="FraccionamientoWSController">
+<apex:pageMessages ></apex:pageMessages><br></br>
+<apex:pageBlock title="Fraccionamientos">
+    <apex:form >
+        <apex:commandButton action="{!consultar}" value="Consultar" id="consultar"/>
+    </apex:form>
+</apex:pageBlock>
+
+        <apex:pageBlock title="Sincronizar Fraccionamientos">
+          <apex:pageBlockTable value="{!fraccionamientosTabla}" var="obj">
+             <apex:column value="{!obj.Id_Mas_Comercial__c}"/>
+             <apex:column value="{!obj.Name}"/>
+             <apex:column value="{!obj.Estado_fracc__c}"/>
+             <apex:column value="{!obj.Muni_fracc__c}"/>
+             <apex:column value="{!obj.Activo_frac__c}"/>
+          </apex:pageBlockTable>
+       </apex:pageBlock>
+</apex:page>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fraccionamiento Recomendado --></label>
+        <name>JMC_FraccRecom__c</name>
+        <relationshipLabel><!-- Prospectos (Fraccionamiento Recomendado) --></relationshipLabel>
+    </CustomFieldTranslation>

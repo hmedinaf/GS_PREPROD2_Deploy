@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>NC_AHORRO_VOLUNTARIO</fullName>
+                <default>false</default>
+                <label>NC AHORRO VOLUNTARIO</label>
+            </value>
+            <value>
+                <fullName>NC_BONIFICACION</fullName>
+                <default>false</default>
+                <label>NC BONIFICACIÓN</label>
+            </value>
+            <value>
+                <fullName>NC_CANCELACION_ESCRITURA</fullName>
+                <default>false</default>
+                <label>NC CANCELACIÓN ESCRITURA</label>
+            </value>
+            <value>
+                <fullName>NC_CANCELACION_PG_N</fullName>
+                <default>false</default>
+                <label>NC CANCELACIÓN PG N</label>
+            </value>
+            <value>
+                <fullName>NC_DEVOLUCION_NO_APLICA</fullName>
+                <default>false</default>
+                <label>NC DEVOLUCIÓN NO APLICA</label>
+            </value>
+            <value>
+                <fullName>NC_GASTO_AVALUO</fullName>
+                <default>false</default>
+                <label>NC GASTO AVALÚO</label>
+            </value>
+            <value>
+                <fullName>NC_GASTO_CREDITO_DIRECTO</fullName>
+                <default>false</default>
+                <label>NC GASTO CRÉDITO DIRECTO</label>
+            </value>
+            <value>
+                <fullName>NC_GASTOS_NOTARIALES</fullName>
+                <default>false</default>
+                <label>NC GASTOS NOTARIALES</label>
+            </value>
+            <value>
+                <fullName>NC_GASTOS_OPERATIVOS</fullName>
+                <default>false</default>
+                <label>NC GASTOS OPERATIVOS</label>
+            </value>
+            <value>
+                <fullName>NC_RECUPERACION_CARTERA</fullName>
+                <default>false</default>
+                <label>NC RECUPERACIÓN CARTERA</label>
+            </value>
+            <value>
+                <fullName>NC_REEMBOLSO_AHORRO_VOLUNTARIO</fullName>
+                <default>false</default>
+                <label>NC REEMBOLSO AHORRO VOLUNTARIO</label>
+            </value>
+            <value>
+                <fullName>NC_REEMBOLSO_CANCELACION</fullName>
+                <default>false</default>
+                <label>NC REEMBOLSO CANCELACIÓN</label>
+            </value>
+            <value>
+                <fullName>NC_REEMBOLSO_POR_ESCRITURA</fullName>
+                <default>false</default>
+                <label>NC REEMBOLSO POR ESCRITURA</label>
+            </value>
+            <value>
+                <fullName>NC_REESTRUCTURA_FINANCIERA</fullName>
+                <default>false</default>
+                <label>NC REESTRUCTURA FINANCIERA</label>
+            </value>
+            <value>
+                <fullName>NC_REESTRUCTURA_POST_VENTA</fullName>
+                <default>false</default>
+                <label>NC REESTRUCTURA POST VENTA</label>
+            </value>
+            <value>
+                <fullName>PAGARE_AHORRO_VOLUNTARIO</fullName>
+                <default>false</default>
+                <label>PAGARÉ AHORRO VOLUNTARIO</label>
+            </value>
+            <value>
+                <fullName>PAGARE_CANCELACION_DE_NC_GN</fullName>
+                <default>false</default>
+                <label>PAGARÉ CANCELACIÓN DE NC GN</label>
+            </value>
+            <value>
+                <fullName>PAGARE_DEVOLUCION_NO_APLICA</fullName>
+                <default>false</default>
+                <label>PAGARÉ DEVOLUCIÓN NO APLICA</label>
+            </value>
+            <value>
+                <fullName>PAGARE_ENGANCHE</fullName>
+                <default>false</default>
+                <label>PAGARÉ ENGANCHE</label>
+            </value>
+            <value>
+                <fullName>PAGARE_FINANCIERA</fullName>
+                <default>false</default>
+                <label>PAGARÉ FINANCIERA</label>
+            </value>
+            <value>
+                <fullName>PAGARE_FONDO_DE_GARANTIA</fullName>
+                <default>false</default>
+                <label>PAGARÉ FONDO DE GARANTÍA</label>
+            </value>
+            <value>
+                <fullName>PAGARE_GASTO_AVALUO</fullName>
+                <default>false</default>
+                <label>PAGARÉ GASTO AVALÚO</label>
+            </value>
+            <value>
+                <fullName>PAGARE_GASTO_CREDITO_DIRECTO</fullName>
+                <default>false</default>
+                <label>PAGARÉ GASTO CRÉDITO DIRECTO</label>
+            </value>
+            <value>
+                <fullName>PAGARE_GASTOS_NOTARIALES</fullName>
+                <default>false</default>
+                <label>PAGARÉ GASTOS NOTARIALES</label>
+            </value>
+            <value>
+                <fullName>PAGARE_GASTOS_OPERATIVOS</fullName>
+                <default>false</default>
+                <label>PAGARÉ GASTOS OPERATIVOS</label>
+            </value>
+            <value>
+                <fullName>PAGARE_POSTVENTA</fullName>
+                <default>false</default>
+                <label>PAGARÉ POSTVENTA</label>
+            </value>
+            <value>
+                <fullName>PAGARE_POSTVENTA_REESTRUCTURA_FINANCIERA</fullName>
+                <default>false</default>
+                <label>PAGARÉ POSTVENTA REESTRUCTURA FINANCIERA</label>
+            </value>
+            <value>
+                <fullName>PAGARE_PREVENTA</fullName>
+                <default>false</default>
+                <label>PAGARÉ PREVENTA</label>
+            </value>
+            <value>
+                <fullName>PAGARE_REEMBOLSO_CANCELACION</fullName>
+                <default>false</default>
+                <label>PAGARÉ REEMBOLSO CANCELACIÓN</label>
+            </value>
+            <value>
+                <fullName>PAGARE_REEMBOLSO_ESCRITURA</fullName>
+                <default>false</default>
+                <label>PAGARÉ REEMBOLSO ESCRITURA</label>
+            </value>
+            <value>
+                <fullName>PAGARE_REESTRUCTURA_POST_VENTA</fullName>
+                <default>false</default>
+                <label>PAGARÉ REESTRUCTURA POST VENTA</label>
+            </value>
+            <value>
+                <fullName>PAGARE_REVERSA_BONIFICACION</fullName>
+                <default>false</default>
+                <label>PAGARÉ REVERSA BONIFICACIÓN</label>
+            </value>
+            <value>
+                <fullName>PAGARE_SEGURO_FINANCIERA</fullName>
+                <default>false</default>
+                <label>PAGARÉ SEGURO FINANCIERA</label>
+            </value>
+            <value>
+                <fullName>PAGARE_SUBSIDIO</fullName>
+                <default>false</default>
+                <label>PAGARÉ SUBSIDIO</label>
+            </value>
+            <value>
+                <fullName>REEMBOLSO_AHORRO_VOLUNTARIO</fullName>
+                <default>false</default>
+                <label>REEMBOLSO AHORRO VOLUNTARIO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

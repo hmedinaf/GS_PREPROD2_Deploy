@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Perfil Tercero Persona Física Tercero</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Perfil Tercero Persona Física</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Persona Física</layout>
+        <sections>
+            <label><!-- Domicilio del tercero --></label>
+            <section>Domicilio del tercero</section>
+        </sections>
+        <sections>
+            <label><!-- Generales del tercero --></label>
+            <section>Generales del tercero</section>
+        </sections>
+        <sections>
+            <label><!-- Identificación del tercero --></label>
+            <section>Identificación del tercero</section>
+        </sections>
+        <sections>
+            <label><!-- Información laboral del tercero --></label>
+            <section>Información laboral del tercero</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre Perfil Tercero Persona Física</nameFieldLabel>
+    <quickActions>
+        <label><!-- Actualiza Monitor --></label>
+        <name>Actualiza_Monitor</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dirección Laboral --></label>
+        <name>Nueva_Direccion_Laboral</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dirección Principal --></label>
+        <name>Nueva_Direccion_Principal</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nuevo Representante Legal Tercero --></label>
+        <name>Nuevo_Representante_Legal_Tercero</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Perfil Tercero 1 Persona Física --></label>
+        <name>Perfil_Tercero_1_Persona_Fisica</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Perfil Tercero 2 Persona Física --></label>
+        <name>Perfil_Tercero_2_Persona_Fisica</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Perfil Tercero 3 Persona Física --></label>
+        <name>Perfil_Tercero_3_Persona_Fisica</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- El campo ¿Es usted el titular de recursos? = NO por lo que el campo CURP debe llenarse. --></errorMessage>
+        <name>CURP_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Por Favor Ingresar Unicamente Numeros y Letras en los campos de &quot;RFC&quot; y/o &quot;CURP&quot; --></errorMessage>
+        <name>Campos_Alfanumericos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Por Favor solo Ingresar Numeros --></errorMessage>
+        <name>Campos_Numericos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo. --></errorMessage>
+        <name>Codigo_postal_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo. --></errorMessage>
+        <name>Colonia_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo ¿Es usted el titular de recursos? = NO por lo que el campo correo electrónico debe llenarse. --></errorMessage>
+        <name>Correo_electronico_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo. --></errorMessage>
+        <name>Domicilio_del_trabajo_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo ¿Es usted el titular de recursos? = NO por lo que el campo ¿Está de acuerdo en aportar los recursos? debe llenarse. --></errorMessage>
+        <name>Esta_de_acuerdo_en_aportar_los_recursos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo. --></errorMessage>
+        <name>Estado_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo ¿Es usted el titular de recursos? = NO por lo que el campo extensión debe llenarse. --></errorMessage>
+        <name>Extension_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo ¿Es usted el titular de recursos? = NO por lo que el campo fecha de nacimiento debe llenarse. --></errorMessage>
+        <name>Fecha_de_nacimiento_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo ¿Es usted el titular de recursos? = NO por lo que el campo monto total a aportar debe llenarse. --></errorMessage>
+        <name>Monto_total_a_aportar_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo. --></errorMessage>
+        <name>Nombre_de_la_empresa_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo ¿Es usted el titular de recursos? = NO por lo que el campo nombre debe llenarse. --></errorMessage>
+        <name>Nombre_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo. --></errorMessage>
+        <name>Numero_exterior_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo ¿Es usted el titular de recursos? = NO por lo que el campo país de nacimiento debe llenarse. --></errorMessage>
+        <name>Pais_de_nacimiento_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo ¿Es usted el titular de recursos? = NO por lo que el campo país de nacionalidad debe llenarse. --></errorMessage>
+        <name>Pais_de_nacionalidad_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo. --></errorMessage>
+        <name>Pais_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo ¿Es usted el titular de recursos? = NO por lo que el campo ¿Está de acuerdo en aportar los recursos? debe llenarse. --></errorMessage>
+        <name>RFC_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Por Favor Solo Ingresar Letras en nombres y apellidos --></errorMessage>
+        <name>Solo_Aceptar_Letras</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo ¿Es usted el titular de recursos? = NO por lo que el campo teléfono celular debe llenarse. --></errorMessage>
+        <name>Telefono_celular_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo ¿Es usted el titular de recursos? = NO por lo que el campo teléfono domicilio debe llenarse. --></errorMessage>
+        <name>Telefono_domicilio_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se deben llenar los campos Autoridad emite identificación o No. identificación. --></errorMessage>
+        <name>Tercero_Autoridademite_NoIdentificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se deben llenar los campos Colonia, País o Estado. --></errorMessage>
+        <name>Tercero_Colonia_Pais_Estado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se deben llenar los campos Municipio, RFC Empresa o Actividad/Profecion/Ocupación. --></errorMessage>
+        <name>Tercero_Municipio_RFCempresa_Act</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_RFC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se deben llenar los campos Régimen fiscal o Tipo identificación. --></errorMessage>
+        <name>Tercero_RegimenFiscal_TipoIdentificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_apellido_materno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si de debe llenar el campo --></errorMessage>
+        <name>Tercero_apellido_paterno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_calle</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo. --></errorMessage>
+        <name>Tercero_check_list_tercero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_ciudad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_codigo_postal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo. --></errorMessage>
+        <name>Tercero_colonia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_correo_electronico</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_domicilio_del_trabajo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Dato obligatorio si ¿Existe un Tercero que aporta Recursos Total o Parcial?=SI --></errorMessage>
+        <name>Tercero_esta_de_acuerdo_en_aportar_los</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_estado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_extension</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_fecha_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Dato obligatorio si ¿Existe un Tercero que aporta Recursos Total o Parcial?=SI --></errorMessage>
+        <name>Tercero_monto_total_a_aportar</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_nombre</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_nombre_de_la_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo. --></errorMessage>
+        <name>Tercero_numero_exterior</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_pais</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_pais_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se deben llenar el campo Sub Tipo Fiscal Tercero. --></errorMessage>
+        <name>Tercero_sub_tipo_fiscal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_telefono_celular</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si existe un tercero que aporta recursos total o parcial = Si se debe llenar el campo --></errorMessage>
+        <name>Tercero_telefono_domicilio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo Autoridad emite identificación o No. identificación. --></errorMessage>
+        <name>Titular_Autoridademite_NoIdentificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo Colonia, País o Estado. --></errorMessage>
+        <name>Titular_Colonia_Pais_Estado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo Municipio, RFC empresa o Acitividad/Profeción/Ocupación. --></errorMessage>
+        <name>Titular_Municipio_RFCempresa_Act</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo Régimen fiscal o Tipo identificación. --></errorMessage>
+        <name>Titular_RegimenFiscal_TipoIdentificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo. --></errorMessage>
+        <name>Titular_check_list_tercero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo sub tipo fiscal. --></errorMessage>
+        <name>Titular_sub_tipo_fiscal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Autoridad emite identificación o No. identificación si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_Autoridademite_NoIdentificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Colonia, País o Estado si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_Colonia_Pais_Estado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Municipio, RFC Empresa o Actividad/Profeción/Ocupación si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_Municipio_RFCempresa_Act</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Régimen fiscal o Tipo identificación si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_RegimenFiscal_TipoIdentificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Valida_Telefono_Celular</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_check_list_tercero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_domicilio_del_trabajo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Valida_formato_Telefono_Domicilio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede crear si la persona es menor de edad. --></errorMessage>
+        <name>Valida_mayor_de_edad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_CURP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_apellido_materno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_apellido_paterno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_calle</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_ciudad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_colonia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_correo_electronico</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_esta_de_acuerdo_en</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_estado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_extension</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_fecha_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_monto_a_pagar</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_nombre</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_nombre_empresa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_numero_exterior</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_numero_interior</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_pais</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_pais_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_pais_nacionalidad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_rfc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_telefono_celular</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>Valida_modificacion_telefono_tercero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo sub tipo fiscal si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado. --></errorMessage>
+        <name>Valida_sub_tipo_fiscal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, únicamente en los estatus Validado, Reserva, Formalización. --></errorMessage>
+        <name>valida_modificacion_codigo_postal</name>
+    </validationRules>
+</CustomObjectTranslation>

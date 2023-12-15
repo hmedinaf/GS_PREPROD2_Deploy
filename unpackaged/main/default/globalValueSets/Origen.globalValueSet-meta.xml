@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CONTACTO JAVER</fullName>
+        <default>false</default>
+        <label>CONTACTO JAVER</label>
+    </customValue>
+    <customValue>
+        <fullName>Enfoque Comercial</fullName>
+        <default>true</default>
+        <label>ENFOQUE COMERCIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>SALES CLOUD</fullName>
+        <default>false</default>
+        <label>SALES CLOUD</label>
+    </customValue>
+    <customValue>
+        <fullName>PROSPECTO ASESOR</fullName>
+        <default>false</default>
+        <label>PROSPECTO ASESOR</label>
+    </customValue>
+    <customValue>
+        <fullName>MERCADOTECNIA</fullName>
+        <default>false</default>
+        <label>MERCADOTECNIA</label>
+    </customValue>
+    <customValue>
+        <fullName>AFLUENCIA</fullName>
+        <default>false</default>
+        <label>AFLUENCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>COLABORADOR JAVER</fullName>
+        <default>false</default>
+        <label>COLABORADOR JAVER</label>
+    </customValue>
+    <customValue>
+        <fullName>CONTACTO TELEFONICO</fullName>
+        <default>false</default>
+        <label>CONTACTO TELEFONICO</label>
+    </customValue>
+    <customValue>
+        <fullName>PROSPECCION</fullName>
+        <default>false</default>
+        <label>PROSPECCION</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS</fullName>
+        <default>false</default>
+        <label>SMS</label>
+    </customValue>
+    <customValue>
+        <fullName>Enlace</fullName>
+        <default>false</default>
+        <label>ENLACE</label>
+    </customValue>
+    <masterLabel>Origen</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

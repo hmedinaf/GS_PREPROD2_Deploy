@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vistas_de_lista_de_Productos</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>Tipo_de_Producto__c</columns>
+    <columns>Plaza__c</columns>
+    <columns>Fraccionamientos__c</columns>
+    <columns>Precio_Venta__c</columns>
+    <columns>Activo__c</columns>
+    <columns>Proveedor__c</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>PRODUCT2.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>Vistas de lista de Productos</label>
+</ListView>

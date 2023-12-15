@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Sub_Estatus_del_Proceso_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR( TEXT( Sub_Estatus_del_Proceso__c ) = &quot;Aprobado&quot;,
+						 TEXT( Sub_Estatus_del_Proceso__c ) = &quot;En Firmas&quot;,
+						 TEXT( Sub_Estatus_del_Proceso__c ) = &quot;Por Entregar&quot;,
+						 TEXT( Sub_Estatus_del_Proceso__c ) = &quot;Entregado&quot;),
+			TRUE, 
+			FALSE
+		)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Check Sub Estatus del Proceso</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

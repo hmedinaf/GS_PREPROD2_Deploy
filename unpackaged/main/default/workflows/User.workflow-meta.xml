@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Act_May_Alias</fullName>
+        <field>Alias</field>
+        <formula>UPPER(Alias)</formula>
+        <name>Act May Alias</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Act_May_Apellidos</fullName>
+        <field>LastName</field>
+        <formula>UPPER(LastName)</formula>
+        <name>Act May Apellidos</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Act_May_Fracc1</fullName>
+        <field>Fraccionamiento_autorizado__c</field>
+        <formula>UPPER(Fraccionamiento_autorizado__c)</formula>
+        <name>Act May Fracc1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Act_May_Fracc2</fullName>
+        <field>FraccionamientoAutorizados__c</field>
+        <formula>UPPER(FraccionamientoAutorizados__c)</formula>
+        <name>Act May Fracc2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Act_May_ID_mas_comercial</fullName>
+        <field>Id_Mas_Comercial__c</field>
+        <formula>UPPER(Id_Mas_Comercial__c)</formula>
+        <name>Act May ID mas comercial</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Act_May_Nombre</fullName>
+        <field>FirstName</field>
+        <formula>UPPER(FirstName)</formula>
+        <name>Act May Nombre</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Act_May_Usermascomercial</fullName>
+        <field>User_Mas_Comercial__c</field>
+        <formula>UPPER(User_Mas_Comercial__c)</formula>
+        <name>Act May Usermascomercial</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>act_aprob_delegado</fullName>
+        <field>Email_Aprobador_Delegado__c</field>
+        <name>act aprob delegado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Act email aprobador delegado</fullName>
+        <actions>
+            <name>act_aprob_delegado</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>User.DelegatedApproverId</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Mayusculas a usuario Movilidad</fullName>
+        <actions>
+            <name>Act_May_Alias</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Act_May_Apellidos</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Act_May_Fracc1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Act_May_Fracc2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Act_May_ID_mas_comercial</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Act_May_Nombre</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Act_May_Usermascomercial</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>OR( 
+ISNEW(), 
+ISCHANGED(FirstName), 
+ISCHANGED(LastName), 
+ISCHANGED(Alias), 
+ISCHANGED(User_Mas_Comercial__c),  
+ISCHANGED(Id_Mas_Comercial__c),  
+ISCHANGED(Fraccionamiento_autorizado__c),  
+ISCHANGED(FraccionamientoAutorizados__c)
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

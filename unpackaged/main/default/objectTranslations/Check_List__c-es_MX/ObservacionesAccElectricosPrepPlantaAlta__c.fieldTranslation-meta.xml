@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Observaciones accesorios eléctricos preparados Planta Alta --></help>
+        <label><!-- Observaciones acc. eléctricos prep PA --></label>
+        <name>ObservacionesAccElectricosPrepPlantaAlta__c</name>
+    </CustomFieldTranslation>

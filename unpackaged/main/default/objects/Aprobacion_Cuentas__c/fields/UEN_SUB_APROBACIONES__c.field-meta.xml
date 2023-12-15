@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UEN_SUB_APROBACIONES__c</fullName>
+    <externalId>false</externalId>
+    <formula>Cuenta__r.Fraccionamiento_cta__r.UEN_Sub_Aprobaciones__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>UEN SUB APROBACIONES</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

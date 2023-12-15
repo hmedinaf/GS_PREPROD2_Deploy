@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Excepcion_Bonif_Emp_ColJaver</fullName>
+    <active>true</active>
+    <description>Excepcion Bonif. Emp. ColJaver</description>
+    <label>Excepcion Bonif. Emp. ColJaver</label>
+    <picklistValues>
+        <picklist>Estatus__c</picklist>
+        <values>
+            <fullName>Aprobada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Proceso de Aprobación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

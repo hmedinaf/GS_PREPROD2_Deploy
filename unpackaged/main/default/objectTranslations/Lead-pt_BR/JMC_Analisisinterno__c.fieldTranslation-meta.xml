@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Análisis interno --></label>
+        <name>JMC_Analisisinterno__c</name>
+        <picklistValues>
+            <masterLabel>Asesor externo</masterLabel>
+            <translation><!-- Asesor externo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aumento de crédito</masterLabel>
+            <translation><!-- Aumento de crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baja</masterLabel>
+            <translation><!-- Baja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buscando opciones</masterLabel>
+            <translation><!-- Buscando opciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compra a largo plazo</masterLabel>
+            <translation><!-- Compra a largo plazo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En atención en fracc</masterLabel>
+            <translation><!-- En atención en fracc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error registro</masterLabel>
+            <translation><!-- Error registro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existe</masterLabel>
+            <translation><!-- Existe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mailing whatsapp</masterLabel>
+            <translation><!-- Mailing whatsapp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mensaje error Infonavit</masterLabel>
+            <translation><!-- Mensaje error Infonavit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No contesta</masterLabel>
+            <translation><!-- No contesta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No lo conocen</masterLabel>
+            <translation><!-- No lo conocen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No validado</masterLabel>
+            <translation><!-- No validado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Número inválido</masterLabel>
+            <translation><!-- Número inválido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Número suspendido</masterLabel>
+            <translation><!-- Número suspendido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perfilado</masterLabel>
+            <translation><!-- Perfilado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personas mayores</masterLabel>
+            <translation><!-- Personas mayores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Producto</masterLabel>
+            <translation><!-- Producto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puntos posteriores</masterLabel>
+            <translation><!-- Puntos posteriores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referencias</masterLabel>
+            <translation><!-- Referencias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registro renta</masterLabel>
+            <translation><!-- Registro renta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin capacidad de compra</masterLabel>
+            <translation><!-- Sin capacidad de compra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin confirmar</masterLabel>
+            <translation><!-- Sin confirmar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin oferta de vivienda</masterLabel>
+            <translation><!-- Sin oferta de vivienda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin validar</masterLabel>
+            <translation><!-- Sin validar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tipo de crédito</masterLabel>
+            <translation><!-- Tipo de crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ubicación</masterLabel>
+            <translation><!-- Ubicación --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

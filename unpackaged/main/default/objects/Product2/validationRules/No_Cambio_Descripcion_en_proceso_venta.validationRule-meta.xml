@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Cambio_Descripcion_en_proceso_venta</fullName>
+    <active>true</active>
+    <errorConditionFormula>!ISNew() &amp;&amp;
+IsChanged(Description) &amp;&amp;  
+En_Plan_de_Venta__c</errorConditionFormula>
+    <errorDisplayField>Description</errorDisplayField>
+    <errorMessage>No se puede modificar la descripción ya que el producto se encuentra en un Proceso de Venta</errorMessage>
+</ValidationRule>

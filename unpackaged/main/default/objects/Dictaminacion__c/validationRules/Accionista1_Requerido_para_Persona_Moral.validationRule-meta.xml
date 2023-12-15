@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accionista1_Requerido_para_Persona_Moral</fullName>
+    <active>false</active>
+    <errorConditionFormula>!ISNEW() &amp;&amp;
+!SkipValidation__c &amp;&amp;
+Tipo_Contribuyente_c__c=&#39;PERSONA MORAL&#39; &amp;&amp;
+ISBLANK(Accionista1__c)</errorConditionFormula>
+    <errorDisplayField>Accionista1__c</errorDisplayField>
+    <errorMessage>Se requiere capturar al menos un Accionista</errorMessage>
+</ValidationRule>

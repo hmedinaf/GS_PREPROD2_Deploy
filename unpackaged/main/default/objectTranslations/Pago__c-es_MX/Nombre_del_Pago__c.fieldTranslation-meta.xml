@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Nombre del Pago --></label>
+        <name>Nombre_del_Pago__c</name>
+        <picklistValues>
+            <masterLabel>Nota de Crédito</masterLabel>
+            <translation><!-- Nota de Crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recibo</masterLabel>
+            <translation><!-- Recibo --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Utilizado para saber el proceso de aprobación ejecutado y saber el campo de lookup a actualizar (los valores se asignan en directamente en los procesos de aprobación).
+Visible solo para el admin --></help>
+        <label><!-- Proceso de aprobación --></label>
+        <name>Proceso_de_aprobaci_n__c</name>
+    </CustomFieldTranslation>

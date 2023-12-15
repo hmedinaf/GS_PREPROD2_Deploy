@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Asesor__c</columns>
+    <columns>PromedioRequerido__c</columns>
+    <columns>CantidadAsesores__c</columns>
+    <columns>PromedioAnualEscrituras__c</columns>
+    <columns>Meta__c</columns>
+    <columns>IdPeriodo__c</columns>
+    <columns>Total__c</columns>
+    <columns>Promedio__c</columns>
+    <columns>ResultadoMensual__c</columns>
+    <columns>ResultadoAnual__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <label>Todos</label>
+</ListView>

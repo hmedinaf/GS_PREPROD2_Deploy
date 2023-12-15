@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Excepci_n_Descuento_Empleado_JVR_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Descuento_Empleado_Javer__c &gt; Descuento_Pre_autorizado_Empleado_Javer__c, TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Excepción Descuento Empleado JAVER</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

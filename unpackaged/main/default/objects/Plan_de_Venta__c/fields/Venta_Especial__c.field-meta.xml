@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Venta_Especial__c</fullName>
+    <description>Listado configurable por TI, donde el usuario puede seleccionar una de las siguientes opciones:
+*Sorteo</description>
+    <externalId>false</externalId>
+    <label>Venta Especial</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>sorteo</fullName>
+                <default>false</default>
+                <label>sorteo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

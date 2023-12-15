@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Solicitud de Modificación de VO --></label>
+        <name>Solicitud_de_Modificacion_de_VO_Hyper__c</name>
+    </CustomFieldTranslation>

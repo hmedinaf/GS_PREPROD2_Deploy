@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Este campo evalua la pregunta de la primera compra en Javer, si la respuesta es &quot;Sí&quot; la puntuación es 0. --></help>
+        <label><!-- CDC-Antecedente Compra --></label>
+        <name>CDC_Antecedente_Compra__c</name>
+    </CustomFieldTranslation>

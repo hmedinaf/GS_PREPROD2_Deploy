@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- LN Apellido Paterno --></label>
+        <name>QEQ_Apellido_Paterno__c</name>
+    </CustomFieldTranslation>

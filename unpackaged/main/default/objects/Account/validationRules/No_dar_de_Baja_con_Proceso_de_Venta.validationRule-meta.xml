@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_dar_de_Baja_con_Proceso_de_Venta</fullName>
+    <active>true</active>
+    <description>No se permite dar de baja con Proceso de Venta Activo</description>
+    <errorConditionFormula>!$User.is_Data_Migration_User__c &amp;&amp;
+ISCHANGED(Baja_Incubadora__c) &amp;&amp;
+TEXT(Baja_Incubadora__c)=&#39;Baja&#39; &amp;&amp;
+Numero_de_Oportunidades__c &gt; 0</errorConditionFormula>
+    <errorMessage>No se permite dar de baja con un Proceso de Venta Activo</errorMessage>
+</ValidationRule>

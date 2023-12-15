@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- ¿Te gustaría que Casas Javer ofreciera algún servicio adicional? --></help>
+        <label><!-- 4¿Te gustaría que Casas Javer ofreciera --></label>
+        <name>Pregunta4__c</name>
+    </CustomFieldTranslation>

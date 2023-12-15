@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Segundo_Credito_Estatus</fullName>
+    <active>true</active>
+    <description>Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado</description>
+    <errorConditionFormula>AND
+( 
+  OR
+   (
+     ISPICKVAL( StageName , &quot;Escriturado&quot;),
+     ISPICKVAL( StageName , &quot;Entregado&quot;),
+     ISPICKVAL( StageName , &quot;Cancelado&quot;)
+    ),  
+   ISCHANGED( Segundo_Credito__c )
+)</errorConditionFormula>
+    <errorDisplayField>Segundo_Credito__c</errorDisplayField>
+    <errorMessage>Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado</errorMessage>
+</ValidationRule>

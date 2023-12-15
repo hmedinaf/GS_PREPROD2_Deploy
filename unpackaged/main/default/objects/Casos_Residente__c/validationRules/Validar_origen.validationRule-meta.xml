@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_origen</fullName>
+    <active>false</active>
+    <description>Validar que no se tenga el origen Nulo</description>
+    <errorConditionFormula>IF(RecordType.Name == &quot;Garantia&quot; == ISPICKVAL(Status__c , &quot;Cerrado&quot;) ,   ISBLANK( TEXT( Origendegarantia__c )) , null)</errorConditionFormula>
+    <errorDisplayField>Origendegarantia__c</errorDisplayField>
+    <errorMessage>Favor de agregar Origen de Garantia</errorMessage>
+</ValidationRule>

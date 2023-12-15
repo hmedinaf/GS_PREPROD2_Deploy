@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Horarios Lead Profiler</label>
+    <protected>false</protected>
+    <values>
+        <field>Access_Token__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>EndPoint__c</field>
+        <value xsi:type="xsd:string">https://esb.javer.com.mx:11902/services/ChatBot/rest/GetHorarios</value>
+    </values>
+    <values>
+        <field>Eser__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Password__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

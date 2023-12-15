@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- (Portal de clientes, Centro de contacto, Correo electrónico, etc.) --></help>
+        <label><!-- 1¿Conoce los medios de contacto Javer? --></label>
+        <name>Pregunta1__c</name>
+    </CustomFieldTranslation>

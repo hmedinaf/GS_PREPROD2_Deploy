@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escritura_tercero_accionista_1</fullName>
+    <active>true</active>
+    <description>Si escritura a favor de un tercero es igual a SI y sub tipo fiscal = persona moral debe llenarse el campo.</description>
+    <errorConditionFormula>AND
+(
+				(TEXT(Sub_Tipo_Fiscal__c) == &quot;Personan Moral&quot;), 
+				(Escritura_a_favor_de_un_Tercero__c)	== &#39;SI&#39;,
+				OR( 
+								ISBLANK(Accionista_1__c),
+								ISNULL(Accionista_1__c)
+								)
+				)</errorConditionFormula>
+    <errorDisplayField>Accionista_1__c</errorDisplayField>
+    <errorMessage>Si escritura a favor de un tercero es igual a SI y sub tipo fiscal = persona moral debe llenarse el campo.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Excepci_n_Financiamiento_PostVenta_Emple__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(
+ AND( Porcentaje_a_Financiar__c  &gt; 20, Valor_Operacion__c  &lt; 1000001),  
+ AND( Porcentaje_a_Financiar__c  &gt; 15, Valor_Operacion__c  &lt; 2000001),
+ AND( Porcentaje_a_Financiar__c  &gt; 12, Valor_Operacion__c   &gt;  2000000),
+ AND (Plazo__c  &gt; 36, Monto_Financiamiento__c  &lt; 400001))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Excepción Financiamiento PostVenta Emple</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

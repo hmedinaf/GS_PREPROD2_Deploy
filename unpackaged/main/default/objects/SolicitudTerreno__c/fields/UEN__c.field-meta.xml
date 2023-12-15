@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UEN__c</fullName>
+    <externalId>false</externalId>
+    <label>UEN</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dirección de Negocios Aguascalientes</fullName>
+                <default>false</default>
+                <label>Dirección de Negocios Aguascalientes</label>
+            </value>
+            <value>
+                <fullName>Dirección de Negocios Estado de México</fullName>
+                <default>false</default>
+                <label>Dirección de Negocios Estado de México</label>
+            </value>
+            <value>
+                <fullName>Dirección de Negocios Jalisco</fullName>
+                <default>false</default>
+                <label>Dirección de Negocios Jalisco</label>
+            </value>
+            <value>
+                <fullName>Dirección de Negocios MTY1</fullName>
+                <default>false</default>
+                <label>Dirección de Negocios MTY1</label>
+            </value>
+            <value>
+                <fullName>Dirección de Negocios MTY2</fullName>
+                <default>false</default>
+                <label>Dirección de Negocios MTY2</label>
+            </value>
+            <value>
+                <fullName>Dirección de Negocios Queretaro</fullName>
+                <default>false</default>
+                <label>Dirección de Negocios Queretaro</label>
+            </value>
+            <value>
+                <fullName>Dirección de Negocios Quintana Roo</fullName>
+                <default>false</default>
+                <label>Dirección de Negocios Quintana Roo</label>
+            </value>
+            <value>
+                <fullName>Dirección de Negocios Reynosa</fullName>
+                <default>false</default>
+                <label>Dirección de Negocios Reynosa</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

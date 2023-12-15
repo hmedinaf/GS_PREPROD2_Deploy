@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tercero_Municipio_RFCempresa_Act</fullName>
+    <active>false</active>
+    <description>Si existe un tercero que aporta recursos total o parcial = Si se deben llenar los campos Municipio, RFC Empresa o Actividad/Profecion/Ocupación.</description>
+    <errorConditionFormula>AND
+(
+Existe_un_Tercero_que_aporta_Recursos__c == &quot;SI&quot;,
+OR(
+ISNULL(MunicipioTercero__c),
+ISBLANK(MunicipioTercero__c),
+ISNULL(RFC_Empresa__c),
+ISBLANK(RFC_Empresa__c),
+ISNULL(TEXT(Actividad_Profesi_n_Ocupaci_n__c)),
+ISBLANK(TEXT(Actividad_Profesi_n_Ocupaci_n__c))
+)
+)</errorConditionFormula>
+    <errorMessage>Si existe un tercero que aporta recursos total o parcial = Si se deben llenar los campos Municipio, RFC Empresa o Actividad/Profecion/Ocupación.</errorMessage>
+</ValidationRule>

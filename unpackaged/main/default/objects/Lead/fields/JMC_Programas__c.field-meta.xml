@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JMC_Programas__c</fullName>
+    <description>Campo para segmentar campañas de Facebook</description>
+    <externalId>false</externalId>
+    <label>Programas</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FOVISSSTE</fullName>
+                <default>false</default>
+                <label>FOVISSSTE</label>
+            </value>
+            <value>
+                <fullName>PRUEBA_EDOMEXICO</fullName>
+                <default>false</default>
+                <label>PRUEBA_EDOMEXICO</label>
+            </value>
+            <value>
+                <fullName>PRUEBA_PRIVALIA</fullName>
+                <default>false</default>
+                <label>PRUEBA_PRIVALIA</label>
+            </value>
+            <value>
+                <fullName>PRUEBAS</fullName>
+                <default>false</default>
+                <label>PRUEBAS</label>
+            </value>
+            <value>
+                <fullName>Carrusel</fullName>
+                <default>false</default>
+                <label>Carrusel</label>
+            </value>
+            <value>
+                <fullName>Collage</fullName>
+                <default>false</default>
+                <label>Collage</label>
+            </value>
+            <value>
+                <fullName>Video lead 1</fullName>
+                <default>false</default>
+                <label>Video lead 1</label>
+            </value>
+            <value>
+                <fullName>Video lead 2</fullName>
+                <default>false</default>
+                <label>Video lead 2</label>
+            </value>
+            <value>
+                <fullName>Video lead VM</fullName>
+                <default>false</default>
+                <label>Video lead VM</label>
+            </value>
+            <value>
+                <fullName>Collage VM</fullName>
+                <default>false</default>
+                <label>Collage VM</label>
+            </value>
+            <value>
+                <fullName>Carrusel VM</fullName>
+                <default>false</default>
+                <label>Carrusel VM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

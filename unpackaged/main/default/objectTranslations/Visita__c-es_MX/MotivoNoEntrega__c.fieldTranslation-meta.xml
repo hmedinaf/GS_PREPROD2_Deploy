@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Motivo de no entrega --></label>
+        <name>MotivoNoEntrega__c</name>
+        <picklistValues>
+            <masterLabel>Cambio de fecha/hora</masterLabel>
+            <translation><!-- Cambio de fecha/hora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canceló cita</masterLabel>
+            <translation><!-- Canceló cita --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demanda detalles de calidad</masterLabel>
+            <translation><!-- Demanda detalles de calidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta documento</masterLabel>
+            <translation><!-- Falta documento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No asistió</masterLabel>
+            <translation><!-- No asistió --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No es la ubicación</masterLabel>
+            <translation><!-- No es la ubicación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No es lo que ofrecieron</masterLabel>
+            <translation><!-- No es lo que ofrecieron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No quiere la casa</masterLabel>
+            <translation><!-- No quiere la casa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notario</masterLabel>
+            <translation><!-- Notario --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

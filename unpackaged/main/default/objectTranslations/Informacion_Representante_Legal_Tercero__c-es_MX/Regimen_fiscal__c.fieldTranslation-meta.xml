@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Régimen Fiscal --></label>
+        <name>Regimen_fiscal__c</name>
+        <picklistValues>
+            <masterLabel>601	General de Ley Personas Morales</masterLabel>
+            <translation><!-- 601	General de Ley Personas Morales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>603	Personas Morales con Fines no Lucrativos</masterLabel>
+            <translation><!-- 603	Personas Morales con Fines no Lucrativos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>610	Residentes en el Extranjero sin Establecimiento Permanente en México</masterLabel>
+            <translation><!-- 610	Residentes en el Extranjero sin Establecimiento Permanente en México --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>620	Sociedades Cooperativas de Producción que optan por diferir sus ingresos</masterLabel>
+            <translation><!-- 620	Sociedades Cooperativas de Producción que optan por diferir sus ingresos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>622	Actividades Agrícolas, Ganaderas, Silvícolas y Pesqueras</masterLabel>
+            <translation><!-- 622	Actividades Agrícolas, Ganaderas, Silvícolas y Pesqueras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>623	Opcional para Grupos de Sociedades</masterLabel>
+            <translation><!-- 623	Opcional para Grupos de Sociedades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>624	Coordinados</masterLabel>
+            <translation><!-- 624	Coordinados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>626	Régimen Simplificado de Confianza</masterLabel>
+            <translation><!-- 626	Régimen Simplificado de Confianza --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

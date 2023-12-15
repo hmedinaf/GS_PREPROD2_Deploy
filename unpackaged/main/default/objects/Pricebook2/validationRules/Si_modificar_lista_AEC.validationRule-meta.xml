@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Si_modificar_lista_AEC</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+$Profile.Name = &quot;AEC&quot;,
+ISPICKVAL(Estatus__c , &#39;Aprobado&#39;),
+OR( 
+ISCHANGED(Estatus__c),
+ISCHANGED(Ilimitado__c),
+ISCHANGED(Name),
+ISCHANGED(Description),
+ISCHANGED(Estatus_Proceso_de_Venta__c),
+ISCHANGED(Prototipo__c),
+ISCHANGED(Periodo_Fin__c),
+ISCHANGED(Periodo_Inicio__c),
+ISCHANGED(Precio_Min_Solicitado__c),
+ISCHANGED(Fraccionamiento__c),
+ISCHANGED(Vigente_Desde__c),
+ISCHANGED(Vigente_Hasta__c),
+ISCHANGED(Cantidad__c),
+ISCHANGED(Precio_Min_Autorizado__c)
+)
+)</errorConditionFormula>
+    <errorMessage>No se puede modificar una lista aprobada</errorMessage>
+</ValidationRule>

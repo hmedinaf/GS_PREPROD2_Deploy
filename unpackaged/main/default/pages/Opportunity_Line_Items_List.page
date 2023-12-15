@@ -1,0 +1,18 @@
+<apex:page standardController="Opportunity">
+    <apex:pageBlock title="Productos listados en el Plan de Ventas">
+        <apex:pageBlockTable value="{!Opportunity.OpportunityLineItems}" var="product">
+            <apex:column value="{!product.Product2.Name}" headerValue="Product Name"/>
+            <apex:column value="{!product.Quantity}" headerValue="Quantity"/>
+            <apex:column value="{!product.UnitPrice}" headerValue="Unit Price"/>
+            <apex:column value="{!product.TotalPrice}" headerValue="Total Price"/>
+            <apex:column value="{!product.Product2.Name}" headerValue="Product Name"/>
+            <apex:column value="{!product.Quantity}" headerValue="Quantity"/>
+            <apex:column value="{!product.UnitPrice}" headerValue="Unit Price"/>
+            <apex:column value="{!product.TotalPrice}" headerValue="Total Price"/>
+            <apex:column value="{!product.Product2.Name}" headerValue="Product Name"/>
+            <apex:column value="{!product.Quantity}" headerValue="Quantity"/>
+            <apex:column value="{!product.UnitPrice}" headerValue="Unit Price"/>
+            <apex:column value="{!product.TotalPrice}" headerValue="Total Price"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

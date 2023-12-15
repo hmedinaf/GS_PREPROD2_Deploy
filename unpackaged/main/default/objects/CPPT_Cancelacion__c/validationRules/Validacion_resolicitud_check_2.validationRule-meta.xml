@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_resolicitud_check_2</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+CPPTS_Proceso_con_Resolicitud__c = true,
+OR(
+CONTAINS(TEXT(CPPTS_Estatus_Cancelacion__c),&#39;Por Aprobar&#39;),
+CONTAINS(TEXT(CPPTS_Estatus_Cancelacion__c),&#39;Aprobado&#39;)
+)
+)</errorConditionFormula>
+    <errorMessage>No se puede seleccionar la opción de Resolicitud cuando el valor de Estatus Cancelación sea  &quot;Por Aprobar&quot; o &quot;Aprobado&quot;</errorMessage>
+</ValidationRule>

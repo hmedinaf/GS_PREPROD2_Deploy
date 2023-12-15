@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Catch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Catchs</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Catch</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- AssertException --></label>
+        <name>AssertException</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Registros generados por errores de callout --></description>
+        <label><!-- CallOut --></label>
+        <name>CallOut</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Respuesta de Webservices no importa si son respuestas positivas o negativas CallOut --></description>
+        <label><!-- CallOutResponse --></label>
+        <name>CallOutResponse</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Registros generados por Catch de DML --></description>
+        <label><!-- DmlException --></label>
+        <name>DmlException</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Generica --></description>
+        <label><!-- Exception --></label>
+        <name>Exception</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ListException --></label>
+        <name>ListException</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NullPointerException --></label>
+        <name>NullPointerException</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- QueryException --></label>
+        <name>QueryException</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SObjectException --></label>
+        <name>SObjectException</name>
+    </recordTypes>
+</CustomObjectTranslation>

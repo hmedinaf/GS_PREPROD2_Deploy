@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_lado_sol</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+AND(
+    OR(Procentaje_Precio_lado_sol__c  = 0, ISBLANK(Procentaje_Precio_lado_sol__c)), 
+    OR(Precio_lado_sol__c = 0, ISBLANK(Precio_lado_sol__c))
+   ), 
+FALSE,
+           
+IF(
+AND(
+    Procentaje_Precio_lado_sol__c  &gt; 0, 
+    OR(Precio_lado_sol__c = 0, ISBLANK(Precio_lado_sol__c)) 
+   ), 
+FALSE,
+                        
+IF(
+AND(
+    OR(Procentaje_Precio_lado_sol__c = 0, ISBLANK(Procentaje_Precio_lado_sol__c )), 
+       Precio_lado_sol__c &gt; 0
+   ), 
+FALSE, 
+
+TRUE)))</errorConditionFormula>
+    <errorMessage>Se debe ingresar sólo un valor para Precio Lado Sol, ya sea porcentaje o monto</errorMessage>
+</ValidationRule>

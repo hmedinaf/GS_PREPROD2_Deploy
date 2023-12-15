@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Campo dueño anterior 2 --></label>
+        <name>Campo_due_o_anterior_2__c</name>
+    </CustomFieldTranslation>

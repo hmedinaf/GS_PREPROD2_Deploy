@@ -1,0 +1,18 @@
+<apex:page controller="ImportarMetasWS">
+<apex:pageMessages ></apex:pageMessages><br></br>
+<apex:pageBlock title="Metas">
+    <apex:form >
+        <apex:commandButton action="{!consultar}" value="Consultar" id="consultar"/>
+    </apex:form>
+</apex:pageBlock>
+
+        <apex:pageBlock title="Sincronizar Metas">
+          <apex:pageBlockTable value="{!listaMeta}" var="obj">
+             <apex:column value="{!obj.Name}"/>
+             <apex:column value="{!obj.Nomequi_met__c}"/>
+             <apex:column value="{!obj.Periodo_met__c}"/>
+             <apex:column value="{!obj.Rolvta__c}"/>
+             <apex:column value="{!obj.RealIndividual__c}"/>
+          </apex:pageBlockTable>
+       </apex:pageBlock>
+</apex:page>

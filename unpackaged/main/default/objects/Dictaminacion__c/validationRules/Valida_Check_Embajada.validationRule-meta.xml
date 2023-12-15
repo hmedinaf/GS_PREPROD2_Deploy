@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Check_Embajada</fullName>
+    <active>true</active>
+    <description>Valida que se hayan llenado los campos obligatorios en caso de estar marcado el campo embajada.</description>
+    <errorConditionFormula>AND 
+(
+				ISCHANGED(Embajada_Consulado_Organismo_Intl__c),
+				Embajada_Consulado_Organismo_Intl__c == true,
+	   OR(
+					ISNULL(C_dula_de_Identifiaci_n_Fiscal__c),  
+					ISBLANK(C_dula_de_Identifiaci_n_Fiscal__c)
+	   )
+	)</errorConditionFormula>
+    <errorDisplayField>C_dula_de_Identifiaci_n_Fiscal__c</errorDisplayField>
+    <errorMessage>Al seleccionar el check de Embajada/Consulado/Organismo Intl. debe llenar el campo de  cédula de identificación fiscal.</errorMessage>
+</ValidationRule>

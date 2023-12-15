@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Observaciones sanitarios, lavabos, accesorios de baño Nivel Tres --></help>
+        <label><!-- Observaciones sanitarios lavabos N3 --></label>
+        <name>ObservacionesSanitariosLavabosNivelTres__c</name>
+    </CustomFieldTranslation>

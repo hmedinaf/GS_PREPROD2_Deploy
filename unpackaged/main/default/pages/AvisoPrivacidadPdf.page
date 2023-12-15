@@ -1,0 +1,186 @@
+<apex:page id="AvisoPrivacidadPdf" standardController="Plan_de_Venta__c" extensions="CONTROL_AvisoPrivacidadPdf" renderAs="PDF" applyBodyTag="false">
+    <apex:image value="{!$Resource.casasJaverActasPDF}" style=" width: 120px; text-align: left;"/>
+    <p align="center" style="font-size: 15px;">
+        <strong><u>AVISO DE PRIVACIDAD</u></strong>
+    </p>
+    <p style="font-size: 14px;">
+        <strong>I. Identificación del Responsable y tratamiento de sus datos personales.</strong>
+    </p>
+    <p style="font-size: 14px;  line-height: 1.5;" align="justify">
+        De conformidad con lo establecido en el Artículo 17, fracción II de la Ley Federal de Protección de Datos Personales en Posesión de los
+        Particulares le informamos que <apex:outputText value="{!compania}"/> (el "Responsable"), con domicilio en <apex:outputText value="{!domicilio}"/>
+        (la "Dirección de Contacto") tratará los datos personales que recabe de Usted en los términos del presente aviso de privacidad.
+    </p>
+    <p style="font-size: 14px;">
+        <strong>II. Finalidades.</strong>
+    </p>
+    <p style="font-size: 14px;" align="justify">
+        El tratamiento se hará con las siguientes finalidades:
+    </p>
+    <p style="font-size: 14px; margin-left: 1em;">
+        a. Necesarias para la relación jurídica con el Responsable:
+    </p>
+    <p style="font-size: 14px; margin-left: 2em;">
+        i. Para generar una base de datos de los clientes;
+    </p>
+    <p style="font-size: 14px; margin-left: 2em;">
+        ii. Mejora del control y realización de los procesos subsecuentes de consulta, créditos, titulación y escrituración.
+    </p>
+    <p style="font-size: 14px; margin-left: 1em;">
+        b. Otras:
+    </p>
+    <p style="font-size: 14px; margin-left: 2em;">
+        i. Efectuar transferencias con sus datos personales a terceros en términos del aviso de privacidad
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        Por lo tanto y para alcanzar las finalidades antes expuestas, se tratarán los siguientes datos personales: fecha de nacimiento, dirección, lugar
+        de nacimiento, colonia, municipio, teléfono particular, celular, estado civil, empresa, número de hijos, edades hijos, empresa (trabajo), sexo,
+        domicilio (trabajo), puesto, antigüedad, nombre del coacreditado, empresa (coacreditado), fecha de nacimiento del coacreditado, domicilio
+        del trabajo (coacreditado), puesto del coacreditado, teléfono de trabajo del coacreditado, antigüedad del coacreditado, e-mail, cédula
+        profesional, licencia de conducir, acta de matrimonio, acta de nacimiento, IFE, pasaporte, CURP, RFC, comprobante de domicilio, régimen
+        conyugal, escolaridad, nombre cónyuge, fecha de nacimiento de cónyuge, dirección cónyuge, IFE cónyuge, CURP cónyuge, puesto cónyuge,
+        antigüedad cónyuge, empresa (trabajo) cónyuge, dirección trabajo cónyuge, teléfono del trabajo cónyuge, referencia familiar, referencia
+        personal y firma del cliente, y; los siguientes datos personales financieros o patrimoniales: ingreso en trabajo actual y pasado, IMSS y
+        coacreditado, ingresos del coacreditado, recibo de sueldo, precalificacion INFONAVIT o bancario, número de seguro social, datos del IMSS
+        del cónyuge, estado de cuenta nomina y salario del cónyuge.
+    </p>
+    <p style="font-size: 14px;">
+        <strong>III. Opciones para limitar el uso o divulgación de sus datos personales.</strong>
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        El Responsable ha designado a un encargado de datos personales (el "Oficial de Privacidad"), por lo tanto usted podrá limitar el uso o
+        divulgación de sus datos personales de manera personal ante el Responsable en el domicilio señalado anteriormente.
+    </p>
+    <p style="font-size: 14px;">
+        <strong>IV. Medios para revocar el consentimiento para el tratamiento de datos personales.</strong>
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        Usted podrá revocar su consentimiento para el tratamiento de sus datos personales de la misma forma por la cual otorgo su consentimiento. Si
+        con posterioridad a la revocación usted solicita la confirmación de la misma, el Responsable le responderá de forma expresa. La revocación
+        de su consentimiento para el tratamiento de sus datos personales tendrá como consecuencia terminar la relación jurídica con el Responsable.
+    </p>
+    <br></br>
+    <p style="font-size: 14px;">
+        <strong>V. Medios para ejercer los derechos ARCO.</strong>
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        Usted tiene el derecho de: (i) acceder a sus datos personales en nuestro poder y conocer los detalles del tratamiento de los mismos, (ii)
+        rectificarlos en caso de ser inexactos o incompletos, (iii) cancelarlos cuando considere que no se requieren para alguna de las finalidades
+        señaladas en el presente aviso de privacidad, estén siendo utilizados para finalidades no consentidas o haya finalizado la relación contractual
+        o de servicio, o (iv) oponerse al tratamiento de los mismos para fines específicos, según lo diga la ley (conjuntamente, los "Derechos
+        ARCO").
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        Para el ejercicio de sus Derechos ARCO, deberá presentar una solicitud (la "Solicitud ARCO"), al Responsable, a la atención del Oficial de
+        Privacidad, a la Dirección de Contacto, acompañada de la siguiente información y documentación:
+    </p>
+    <p style="font-size: 14px; margin-left: 1em;">
+        a. Su nombre, domicilio y correo electrónico para poder comunicarle la respuesta a la Solicitud ARCO;
+    </p>
+    <p style="font-size: 14px; margin-left: 1em;">
+        b. Una copia de los documentos que acrediten su identidad (copia de IFE, pasaporte o cualquier otra identificación oficial) o en su
+        caso, los documentos que acrediten su representación legal, cuyo original deberá presentar para poder recibir la respuesta del
+        Responsable;
+    </p>
+    <p style="font-size: 14px; margin-left: 1em;">
+        c. Una descripción clara y precisa de los datos personales respecto de los cuales busca ejercer alguno de los Derechos ARCO;
+    </p>
+    <p style="font-size: 14px; margin-left: 1em;">
+        d. Cualquier documento o información que facilite la localización de sus datos personales, y;
+    </p>
+    <p style="font-size: 14px; margin-left: 1em;">
+        e. En caso de solicitar una rectificación de sus datos personales, deberá de indicar también, las modificaciones a realizarse y aportar
+        la documentación que sustente su petición.
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        El Oficial de Privacidad responderá su Solicitud ARCO y los motivos de su decisión mediante un correo electrónico en un plazo máximo de
+        20 días hábiles contados desde el día en que se haya recibido su Solicitud ARCO. En caso de que la Solicitud ARCO se conteste de manera
+        afirmativa o procedente, los cambios solicitados se harán en un plazo máximo de 15 días hábiles. El Responsable podrá notificarle dentro de
+        los plazos referidos en este párrafo la prórroga de los mismos, por una sola vez, por un periodo igual al original.
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        El Responsable podrá negar el acceso (la "Negativa") para que usted ejerza sus Derechos ARCO, en los supuestos que lo permita la ley, por
+        lo que deberá informar a usted el motivo de tal decisión.
+        La Negativa podrá ser parcial, en cuyo caso el Responsable efectuará el acceso, rectificación, cancelación u oposición en la parte procedente.
+        El ejercicio de los Derechos ARCO será gratuito, pero si usted reitera su solicitud en un periodo menor a doce meses, los costos serán de tres
+        días de Salario Mínimo General Vigente en el Distrito Federal, más I.V.A., a menos que existan modificaciones sustanciales al Aviso de
+        Privacidad, que motiven nuevas Solicitudes ARCO. Usted deberá de cubrir los gastos justificados de envío o el costo de reproducción en
+        copias u otros formatos y, en su caso, el costo de la certificación de documentos.
+    </p>
+    <p style="font-size: 14px;">
+        <strong>VI. Cambios o modificaciones al aviso de privacidad.</strong>
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        El Responsable se reserva el derecho de efectuar en cualquier momento modificaciones o actualizaciones al presente aviso de privacidad, en
+        el entendido de que toda modificación al mismo se le hará conocer a usted por medio de la publicación de un aviso en la página de internet
+        del Responsable, por lo que le recomendamos verificarla con frecuencia.
+        En caso de que ocurra una vulneración de seguridad en cualquier fase del tratamiento de datos personales, que afecte de forma significativa
+        sus derechos patrimoniales o morales, el Oficial de Privacidad le comunicará de forma inmediata por correo electrónico el suceso de
+        vulneración de seguridad, para que usted pueda tomar las medidas necesarias correspondientes para la defensa de sus derechos. En caso de no
+        contar con su correo electrónico, la notificación se publicará en la página de internet del Responsable.
+    </p>
+    <br></br>
+    <p style="font-size: 14px;">
+        <strong>VII. Transferencias de sus datos personales.</strong>
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        Le informamos que sus datos personales podrán ser transferidos dentro y fuera del país, a los siguientes tipos de destinatarios, para las
+        finalidades que se indican en cada caso:
+    </p>
+    <table style="font-size: 14px; width:90%;" border="1">
+        <tr>
+          <td>Tipo de Destinatario</td>
+          <td>Finalidad</td>
+        </tr>
+        <tr>
+          <td>Empresas del mismo grupo del Responsable.</td>
+          <td>Mercadotecnia, publicidad y proyección comercial.</td>
+        </tr>
+    </table>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        Doy mi consentimiento para la transferencia de mis datos personales en términos del presente aviso de privacidad. _Si _No
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        Sus datos personales no serán transferidos a terceros ajenos al Responsable.
+    </p>
+    <p style="font-size: 14px;">
+        <strong>VIII.Consentimiento.</strong>
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        En tanto no se oponga al presente aviso de privacidad se entenderá que usted otorga su consentimiento tácito para el tratamiento de
+        sus datos personales para las finalidades indicadas en este aviso de privacidad. _Si _No
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        Doy mi consentimiento para el tratamiento de mis datos personales sensibles y datos personales financieros para las finalidades
+        necesarias para la relación jurídica con el Responsable. (Negarse al tratamiento de sus datos personales tendrá como consecuencia la
+        imposibilidad de establecer una relación jurídica con el Responsable) _Si _No
+    </p>
+    <p style="font-size: 14px; line-height: 1.5;" align="justify">
+        Doy mi consentimiento para el tratamiento de los datos personales para las finalidades distintas a las necesarias para la relación
+        jurídica con el Responsable. _Si _No
+    </p>
+    <p align="center" style="font-size: 15px;">
+        AVISO ACTUALIZADO AL: 16/01/12
+    </p>
+    <br></br>
+    <p style="font-size: 14px; line-height: 1;" align="justify">
+        ______________________________
+    </p>
+    <p style="font-size: 14px; line-height: 0.5;" align="justify">
+        Nombre
+    </p>
+    <br></br>
+    <p style="font-size: 14px; line-height: 1;" align="justify">
+        ______________________________
+    </p>
+    <p style="font-size: 14px; line-height: 0.5;" align="justify">
+        Firma
+    </p>
+    <br></br>
+    <p style="font-size: 14px; line-height: 1;" align="justify">
+        ______________________________
+    </p>
+    <p style="font-size: 14px; line-height: 0.5;" align="justify">
+        Fecha
+    </p>
+</apex:page>

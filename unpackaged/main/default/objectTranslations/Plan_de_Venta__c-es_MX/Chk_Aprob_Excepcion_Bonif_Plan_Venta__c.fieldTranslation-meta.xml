@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Chk Aprob-Excepcion Bonif Plan Venta --></label>
+        <name>Chk_Aprob_Excepcion_Bonif_Plan_Venta__c</name>
+    </CustomFieldTranslation>

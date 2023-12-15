@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Cancelaci_n__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Cancelación</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Definitiva</fullName>
+                <default>true</default>
+                <label>Definitiva</label>
+            </value>
+            <value>
+                <fullName>Resolicitud</fullName>
+                <default>false</default>
+                <label>Resolicitud</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

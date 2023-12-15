@@ -1,0 +1,22 @@
+<apex:page controller="PromoPDF" sidebar="false" showHeader="false" renderAs="pdf">
+    <apex:form >
+        <div style="text-align: center;">
+            <apex:outputText value="{!promo.Imagen__c}" escape="false"></apex:outputText>
+            <b style="font-size:40px;"><apex:outputText value="{!promo.Asunto__c}" /></b> <br/>
+            <table>
+                <tr>
+                    <td><label style="font-size:25px;">Fraccionamiento</label></td><td style="width:60%"><apex:outputText value="{!promo.Fraccionamiento__r.Name}" label="Division"/></td>
+                </tr>
+                <tr>
+                    <td><label style="font-size:25px;">Descripción</label></td><td  style="width:60%"><apex:outputText value="{!promo.Descripcion__c}"/></td>
+                </tr>
+                <tr>
+                    <td><label style="font-size:25px;">Fecha de Inicio</label></td><td  style="width:60%"><apex:outputText value="{0,date,MM/dd/yy}"><apex:param value="{!promo.Fecha_de_Inicio__c}" /></apex:outputText></td>
+                </tr>
+                <tr>
+                    <td><label  style="font-size:25px;">Fecha Final</label></td><td  style="width:60%"><apex:outputText value="{0,date,MM/dd/yy}"><apex:param value="{!promo.Fecha_Final__c}" /> </apex:outputText></td>
+                </tr>  
+            </table>
+        </div>
+    </apex:form>
+</apex:page>

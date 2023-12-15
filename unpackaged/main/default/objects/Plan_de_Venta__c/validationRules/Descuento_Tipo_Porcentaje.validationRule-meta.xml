@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Descuento_Tipo_Porcentaje</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND( NOT( ISPICKVAL( Lista_de_Precios_Bonificacion_Reciente__r.Clase_de_Bonificacion__c , &#39;Porcentaje&#39;) ) , NOT( ISNULL( Descuento__c ) ) )</errorConditionFormula>
+    <errorDisplayField>Descuento__c</errorDisplayField>
+    <errorMessage>Se habilita solo si la bonificación seleccionada es de clase Porcentaje.</errorMessage>
+</ValidationRule>

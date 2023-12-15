@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Es_Ud_Titular_de_Recursos_Requerida</fullName>
+    <active>true</active>
+    <errorConditionFormula>!ISNEW() &amp;&amp;
+!SkipValidation__c &amp;&amp;
+ISBLANK(TEXT(Es_usted_el_Titular_de_Recursos__c)) &amp;&amp;
+ISPICKVAL(Estatus_Dictaminacion__c, &quot;Validado&quot;)</errorConditionFormula>
+    <errorDisplayField>Es_usted_el_Titular_de_Recursos__c</errorDisplayField>
+    <errorMessage>¿Es usted el Titular de Recursos? requerido.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Perfil_Tercero_3_Persona_Moral</fullName>
+    <active>true</active>
+    <label>Perfil Tercero 3 Persona Moral</label>
+    <picklistValues>
+        <picklist>Autoridad_Identificacion_Rep_Legal_Terce__c</picklist>
+        <values>
+            <fullName>Instituto Nacional Electoral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instituto Nacional de Migración</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otro %28Extranjeros%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pasaportes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relaciones Exteriores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secretaría de Educación Pública</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Check_List_Tercero__c</picklist>
+        <values>
+            <fullName>Comprobante de Domicilio de la persona moral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comprobante de Domicilio del Representante Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cédula de Identificación Fiscal expedida por el SAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documento mediante el cual se crea o constituye la personal moral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identificación del Representante o Apoderado Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poder del Representante o Apoderado Legal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Est_de_acuerdo_en_aportar_los_recursos__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Objeto_Social_o_Giro_Mercantil__c</picklist>
+        <values>
+            <fullName>1000000%09NO APLICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1100001%09SECTOR PRIMARIO - AGRICULTURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1200001%09SECTOR PRIMARIO - GANADERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1300001%09SECTOR PRIMARIO - EXPLOTACION DE OTROS ANIMALES %28AVICULTURA%2C APICULTURA%2C ETC%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1400002%09SECTOR PRIMARIO - APROVECHAMIENTO FORESTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1500001%09SECTOR PRIMARIO - PESCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2100002%09MINERIA - MINERIA DE OTROS RECURSOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2200002%09MINERIA - ACTIVIDADES RELACIONADAS CON EL PETROLEO Y EL GAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2300003%09MINERIA - ORO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2400002%09MINERIA - PLATA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2500002%09MINERIA - PIEDRAS PRECIOSAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2600003%09GENERACION%2C TRANSMISION Y DISTRIBUCION DE ENERGIA ELECTRICA%2C SUMINISTRO DE AGUA Y DE GAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2710004%09CONSTRUCCION - OTRAS ACTIVIDADES RELACIONADAS CON LA CONSTRUCCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2720004%09CONSTRUCCION - EDIFICACION RESIDENCIAL Y NO RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2730004%09CONSTRUCCION - OBRAS DE INGENIERIA CIVIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2740004%09CONSTRUCCION - TRABAJOS ESPECIALIZADOS PARA LA CONSTRUCCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2754004%09CONSTRUCCION - SERVICIOS DE BLINDAJE PARCIAL O TOTAL DE INMUEBLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3110005%09INDUSTRIA - ALIMENTARIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3120005%09INDUSTRIA - BEBIDAS Y DEL TABACO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3140005%09INDUSTRIA - PRODUCTOS TEXTILES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3150005%09INDUSTRIA - PRENDAS DE VESTIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3210005%09INDUSTRIA - MADERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3220005%09INDUSTRIA - PAPEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3230005%09INDUSTRIA - IMPRESION E INDUSTRIAS CONEXAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3240005%09INDUSTRIA - PRODUCTOS DERIVADOS DEL PETROLEO Y DEL CARBON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3250005%09INDUSTRIA - QUIMICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3260005%09INDUSTRIA - PLASTICO Y DEL HULE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3270005%09INDUSTRIA - PRODUCTOS A BASE DE MINERALES NO METALICOS %28ALFARERIA%2C PORCELANA%2C LOZA%2C VIDRIO%2C CEMENTO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3310005%09INDUSTRIA - METALICAS BASICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3320005%09INDUSTRIA - PRODUCTOS METALICOS %28HERRAMIENTAS%2C UTENSILIOS%2C ESTRUCTURAS%2C PIEZAS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3330005%09INDUSTRIA - MAQUINARIA Y EQUIPO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3340005%09INDUSTRIA - EQUIPO DE COMPUTACION%2C COMUNICACION%2C MEDICION Y DE OTROS EQUIPOS%2C COMPONENTES Y ACCESORIOS ELECTRONICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3350005%09INDUSTRIA - ACCESORIOS%2C APARATOS ELECTRICOS Y EQUIPO DE GENERACION DE ENERGIA ELECTRICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3360005%09INDUSTRIA - EQUIPO DE TRANSPORTE SIN MOTOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3370005%09INDUSTRIA - AUTOMOTRIZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3380005%09INDUSTRIA - VEHICULOS BLINDADOS Y EQUIPO PARA EL BLINDAJE DE VEHICULOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3410005%09INDUSTRIA - MUEBLES%2C COLCHONES Y PERSIANAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3420005%09INDUSTRIA - OTRAS INDUSTRIAS MANUFACTURERAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3430005%09INDUSTRIA - ORFEBRERIA Y JOYERIA DE METALES Y PIEDRAS PRECIOSOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3440005%09INDUSTRIA - JOYERIA DE METALES Y PIEDRAS NO PRECIOSOS Y DE OTROS MATERIALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4310006%09COMERCIO - ABARROTES%2C ALIMENTOS%2C BEBIDAS%2C HIELO Y TABACO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4320006%09COMERCIO - PRODUCTOS FARMACEUTICOS%2C DE PERFUMERIA%2C ARTICULOS PARA EL ESPARCIMIENTO%2C ELECTRODOMESTICOS Y APARATOS DE LINEA BLANCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4330006%09COMERCIO - MATERIAS PRIMAS AGROPECUARIAS Y FORESTALES%2C PARA LA INDUSTRIA%2C Y MATERIALES DE DESECHO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4340006%09COMERCIO - MAQUINARIA%2C EQUIPO DE COMPUTO Y MOBILIARIO DE USO GENERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4620006%09COMERCIO - TIENDAS DE AUTOSERVICIO Y DEPARTAMENTALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4630006%09COMERCIO - PRODUCTOS TEXTILES%2C BISUTERIA%2C ACCESORIOS DE VESTIR Y CALZADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4650006%09COMERCIO - ARTICULOS DE PAPELERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4660026%09COMERCIO - ARTICULOS DE JOYERIA Y RELOJES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4670006%09COMERCIO - ARTICULOS PARA LA DECORACION DE INTERIORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4680006%09COMERCIO - ANTIGÜEDADES Y OBRAS DE ARTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4710006%09COMERCIO - ARTICULOS DE FERRETERIA%2C TLAPALERIA Y VIDRIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4720006%09COMERCIO - VEHICULOS NUEVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4730006%09COMERCIO - VEHICULOS USADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4740006%09COMERCIO - PARTES Y REFACCIONES PARA VEHICULOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4750006%09COMERCIO - COMBUSTIBLES Y LUBRICANTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4760006%09COMERCIO - A TRAVES DE INTERNET%2C Y CATALOGOS IMPRESOS%2C TELEVISION Y SIMILARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4810007%09TRANSPORTE - AEREO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4820007%09TRANSPORTE - FERROVIARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4830007%09TRANSPORTE - MARITIMO Y FLUVIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4840007%09TRANSPORTE - SERVICIOS DE TRANSPORTE Y%2FO CUSTODIA DE VALORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4850007%09TRANSPORTE - TERRESTRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4860007%09TRANSPORTE - TRANSPORTACION Y DISTRIBUCION POR DUCTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4880007%09TRANSPORTE - SERVICIOS RELACIONADOS CON EL TRANSPORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4890007%09TRANSPORTE - SERVICIOS DE AGENCIAS ADUANALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4910008%09SERVICIOS POSTALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4920009%09SERVICIOS DE MENSAJERIA Y PAQUETERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4930010%09SERVICIOS DE ALMACENAMIENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5100011%09INFORMACION EN MEDIOS MASIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5180012%09PROCESAMIENTO ELECTRONICO DE INFORMACION Y OTROS SERVICIOS WEB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5210013%09SERVICIOS FINANCIEROS - BANCA CENTRAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5220013%09SERVICIOS FINANCIEROS - BANCA MULTIPLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5230013%09SERVICIOS FINANCIEROS - BANCA DE DESARROLLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5240013%09SERVICIOS FINANCIEROS - FONDOS Y FIDEICOMISOS FINANCIEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5250013%09SERVICIOS FINANCIEROS - UNIONES DE CREDITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5260013%09SREVICIOS FINANCIEROS - CAJAS DE AHORRO POPULAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5270013%09SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE INTERMEDIACION CREDITICIA Y FINANCIERA NO BURSATIL %28OPERACION Y PROMOCION DE TARJETAS DE CREDITO NO BANCARIAS%2C  FINANCIAMIENTO DE BIENES DURADEROS%29%2C SOCIEDADES FINANCIERAS DE OBJETO LIMITADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5280013%09SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE AHORRO Y PRESTAMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5290013%09SERVICIOS FINANCIEROS - COMPAÑIAS DE AUTOFINANCIAMIENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5310013%09SERVICIOS FINANCIEROS - MONTEPIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5320013%09SERVICIOS FINANCIEROS - CASAS DE EMPEÑO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5330013%09SERVICIOS FINANCIEROS - SOCIEDADES FINANCIERAS DE OBJETO MULTIPLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5340013%09OTRAS EMPRESAS DE INTERMEDIACION CREDITICIA NO FINANCIERAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5350013%09SERVICIOS FINANCIEROS - CASAS DE BOLSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5360013%09SERVICIOS FINANCIEROS - CASAS DE CAMBIO Y CENTROS CAMBIARIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5370013%09SERVICIOS FINANCIEROS - TRANSMISORES DE DINERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5390013%09SERVICIOS FINANCIEROS - OTROS SERVICIOS RELACIONADOS CON LA INTERMEDIACION BURSATIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5410013%09SERVICIOS FINANCIEROS - COMPAÑIAS DE SEGUROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5420013%09SERVICIOS FINANCIEROS - COMPAÑIAS AFIANZADORAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5430013%09SERVICIOS FINANCIEROS - AGENTES%2C AJUSTADORES Y GESTORES DE SEGUROS Y FIANZAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5440013%09SERVICIOS FINANCIEROS - ADMINISTRACION DE FONDOS PARA EL RETIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5450013%09SERVICIOS FINANCIEROS - EMISORA Y%2FO COMERCIALIZACION DE CHEQUES DE VIAJERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5510014%09SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER SIN INTERMEDIACION DE BIENES RAICES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5520014%09SERVICIOS INMOBILIARIOS Y DE ALQUILER - INMOBILIARIAS Y CORREDORES DE BIENES RAICES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5530014%09SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE BIENES MUEBLES EXCEPTO VEHICULOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5540014%09SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER DE VEHICULOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5550014%09SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE MARCAS REGISTRADAS%2C PATENTES Y FRANQUICIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5610015%09SERVICIOS PROFESIONALES Y TECNICOS - SERVICIOS JURIDICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5620015%09SERVICIOS PROFESIONALES Y TECNICOS - NOTARIA Y CORREDURIA PUBLICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5630015%09SERVICIOS PROFESIONALES Y TECNICOS - ARQUITECTURA%2C INGENIERIA Y ACTIVIDADES RELACIONADAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5640015%09SERVICIOS PROFESIONALES Y TECNICOS - DISEÑO DE SISTEMAS DE COMPUTO Y SERVICIOS RELACIONADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5650015%09SERVICIOS PROFESIONALES Y TECNICOS - CONSULTORIA ADMINISTRATIVA%2C CIENTIFICA Y TECNICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5660015%09SERVICIOS PROFESIONALES Y TECNICOS - INVESTIGACION CIENTIFICA Y DESARROLLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5670015%09SERVICIOS PROFESIONALES Y TECNICOS - PUBLICIDAD Y ACTIVIDADES RELACIONADAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5680015%09SERVICIOS PROFESIONALES Y TECNICOS - OTROS SERVICIOS DE OUTSOURCING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5690015%09SERVICIOS PROFESIONALES Y TECNICOS - CONTABILIDAD Y AUDITORIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5710016%09SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE ADMINISTRACION DE NEGOCIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5720016%09SERVICIOS DE APOYO A LOS NEGOCIOS - AGENCIAS DE COBRANZA%2C DESPACHOS DE INVESTIGACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5730016%09SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE PROTECCION Y SEGURIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5740016%09SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE LIMPIEZA Y MANTENIMIENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5750016%09SERVICIOS DE APOYO A LOS NEGOCIOS - OTROS SERVICIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6100017%09SERVICIOS EDUCATIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6200018%09SERVICIOS DE SALUD Y DE ASISTENCIA SOCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7110019%09SERVICIOS DE ESPARCIMIENTO CULTURALES Y DEPORTIVOS%2C Y OTROS SERVICIOS RECREATIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7120019%09SERVICIOS DE ESPARCIMIENTO - MUSEOS%2C SITIOS HISTORICOS%2C ZOOLOGICOS Y SIMILARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7130019%09SERVICIOS DE ESPARCIMIENTO - CASAS DE JUEGOS ELECTRONICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7140019%09SERVICIOS DE ESPARCIMIENTO - CASINOS O CENTROS DE APUESTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7150019%09SERVICIOS DE ESPARCIMIENTO - VENTA DE BILLETES DE LOTERIA%2C PRONOSTICOS DEPORTIVOS U OTROS SORTEOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7200020%09SERVICIOS DE ALOJAMIENTO TEMPORAL Y DE PREPARACION DE ALIMENTOS Y BEBIDAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8100021%09SERVICIOS DE REPARACION Y MANTENIMIENTO - EQUIPO INDUSTRIAL%2C COMERCIAL%2C SERVICIOS Y AUTOMOTRIZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8200022%09SERVICIOS PERSONALES - LAVANDERIAS%2C SERVICIOS FUNERARIOS%2C BAÑOS PUBLICOS%2C SERVICIOS DE ESTACIONAMIENTO%2C REVELADO E IMPRESION DE FOTOGRAFIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8310023%09ASOCIACIONES - ORGANIZACIONES Y CAMARAS DE PRODUCTORES%2C COMERCIANTES Y PRESTADORES DE SERVICIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8320023%09ASOCIACIONES - ORGANIZACIONES LABORALES Y SINDICALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8330023%09ASOCIACIONES - ORGANIZACIONES DE PROFESIONISTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8340023%09ASOCIACIONES - ORGANIZACIONES DE ACTIVIDADES RECREATIVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8350023%09ASOCIACIONES - ORGANIZACIONES RELIGIOSAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8360023%09ASOCIACIONES - ORGANIZACIONES POLITICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8370023%09ASOCIACIONES - ORGANIZACIONES CIVILES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9100025%09ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9810024%09SECTOR PUBLICO - PODER EJECUTIVO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9820024%09SECTOR PUBLICO - PODER EJECUTIVO ESTATAL Y DEL DISTRITO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9830024%09SECTOR PUBLICO - PODER EJECUTIVO MUNICIPAL Y DELEGACIONAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9840024%09SECTOR PUBLICO - PODER JUDICIAL FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9850024%09SECTOR PUBLICO - PODER JUDICIAL ESTATAL Y DEL DISTRITO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9860024%09SECTOR PUBLICO - PODER LEGISLATIVO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9870024%09SECTOR PUBLICO - PODER LEGISLATIVO ESTATAL Y DEL DISTRITO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9880024%09SECTOR PUBLICO - ORGANOS AUTONOMOS Y ENTIDADES PARAESTATALES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Regiman_Fiscal__c</picklist>
+        <values>
+            <fullName>601%09General de Ley Personas Morales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>603%09Personas Morales con Fines no Lucrativos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>605%09Sueldos y Salarios e Ingresos Asimilados a Salarios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>606%09Arrendamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>607%09Régimen de Enajenación o Adquisición de Bienes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>608%09Demás ingresos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>610%09Residentes en el Extranjero sin Establecimiento Permanente en México</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>610%09Residentes en el Extranjero sin Establecimiento Permanente en México%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>611%09Ingresos por Dividendos %28socios y accionistas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>612%09Personas Físicas con Actividades Empresariales y Profesionales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>614%09Ingresos por intereses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>615%09Régimen de los ingresos por obtención de premios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>616%09Sin obligaciones fiscales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>620%09Sociedades Cooperativas de Producción que optan por diferir sus ingresos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>621%09Incorporación Fiscal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>622%09Actividades Agrícolas%2C Ganaderas%2C Silvícolas y Pesqueras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>623%09Opcional para Grupos de Sociedades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>624%09Coordinados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>625%09Régimen de las Actividades Empresariales con ingresos a través de Plataformas Tecnológicas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>626%09Régimen Simplificado de Confianza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>626%09Régimen Simplificado de Confianza%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Regimen_Fiscal_Empresa_Rep_Legal_Tercero__c</picklist>
+        <values>
+            <fullName>601%09General de Ley Personas Morales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>603%09Personas Morales con Fines no Lucrativos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>605%09Sueldos y Salarios e Ingresos Asimilados a Salarios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>606%09Arrendamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>607%09Régimen de Enajenación o Adquisición de Bienes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>608%09Demás ingresos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>610%09Residentes en el Extranjero sin Establecimiento Permanente en México</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>610%09Residentes en el Extranjero sin Establecimiento Permanente en México%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>611%09Ingresos por Dividendos %28socios y accionistas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>612%09Personas Físicas con Actividades Empresariales y Profesionales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>614%09Ingresos por intereses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>615%09Régimen de los ingresos por obtención de premios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>616%09Sin obligaciones fiscales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>620%09Sociedades Cooperativas de Producción que optan por diferir sus ingresos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>621%09Incorporación Fiscal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>622%09Actividades Agrícolas%2C Ganaderas%2C Silvícolas y Pesqueras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>623%09Opcional para Grupos de Sociedades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>624%09Coordinados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>625%09Régimen de las Actividades Empresariales con ingresos a través de Plataformas Tecnológicas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>626%09Régimen Simplificado de Confianza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>626%09Régimen Simplificado de Confianza%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Regimen_Fiscal_Rep_Legal_Tercero__c</picklist>
+        <values>
+            <fullName>601%09General de Ley Personas Morales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>603%09Personas Morales con Fines no Lucrativos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>605%09Sueldos y Salarios e Ingresos Asimilados a Salarios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>606%09Arrendamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>607%09Régimen de Enajenación o Adquisición de Bienes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>608%09Demás ingresos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>610%09Residentes en el Extranjero sin Establecimiento Permanente en México</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>610%09Residentes en el Extranjero sin Establecimiento Permanente en México%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>611%09Ingresos por Dividendos %28socios y accionistas%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>612%09Personas Físicas con Actividades Empresariales y Profesionales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>614%09Ingresos por intereses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>615%09Régimen de los ingresos por obtención de premios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>616%09Sin obligaciones fiscales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>620%09Sociedades Cooperativas de Producción que optan por diferir sus ingresos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>621%09Incorporación Fiscal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>622%09Actividades Agrícolas%2C Ganaderas%2C Silvícolas y Pesqueras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>623%09Opcional para Grupos de Sociedades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>624%09Coordinados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>625%09Régimen de las Actividades Empresariales con ingresos a través de Plataformas Tecnológicas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>626%09Régimen Simplificado de Confianza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>626%09Régimen Simplificado de Confianza%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Regimen_Fiscal__c</picklist>
+        <values>
+            <fullName>601%09General de Ley Personas Morales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>603%09Personas Morales con Fines no Lucrativos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>610%09Residentes en el Extranjero sin Establecimiento Permanente en México</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>620%09Sociedades Cooperativas de Producción que optan por diferir sus ingresos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>622%09Actividades Agrícolas%2C Ganaderas%2C Silvícolas y Pesqueras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>623%09Opcional para Grupos de Sociedades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>624%09Coordinados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>626%09Régimen Simplificado de Confianza</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Tipo_Fiscal_Rep__c</picklist>
+        <values>
+            <fullName>Persona Moral</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_Identificacion_Rep_Legal_Tercero__c</picklist>
+        <values>
+            <fullName>Credencial para votar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cédula Profesional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documentación expedida INM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pasaporte</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

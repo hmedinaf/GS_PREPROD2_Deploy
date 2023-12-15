@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Pagare_Enganche_Cubierto__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Suma_Total_de_Pagos__c &gt;= Sumatoria_Pagares_Enganche__c, TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Check Pagaré Enganche Cubierto</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Parentesco_cuando_hay_Colaborador</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( TEXT(Estatus_Colaborador_Javer__c)  = &quot;ASIGNADO&quot;, FALSE,
+			     IF( ISCHANGED(Parentesco__c), TRUE, FALSE
+										)
+			)</errorConditionFormula>
+    <errorDisplayField>Parentesco__c</errorDisplayField>
+    <errorMessage>No es posible asignar el parentesco si no existe un colaorador seleccionado</errorMessage>
+</ValidationRule>

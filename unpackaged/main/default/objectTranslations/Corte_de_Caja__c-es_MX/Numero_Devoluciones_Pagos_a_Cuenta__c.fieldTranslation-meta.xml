@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Número de Devoluciones de Pagos a Cuenta --></label>
+        <name>Numero_Devoluciones_Pagos_a_Cuenta__c</name>
+    </CustomFieldTranslation>

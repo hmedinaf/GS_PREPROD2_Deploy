@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QUOTE_Mensualidad_INFONAVIT__c</fullName>
+    <defaultValue>0.00</defaultValue>
+    <externalId>false</externalId>
+    <label>Mensualidad INFONAVIT</label>
+    <precision>11</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Servicios</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Casos</compactLayoutAssignment>
+    <label>Servicios</label>
+    <picklistValues>
+        <picklist>AprobacionGarantia__c</picklist>
+        <values>
+            <fullName>Aprobado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Aprobación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Atendidopor__c</picklist>
+        <values>
+            <fullName>Contratista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Javer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visita Asesoría</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Catalagodefalla__c</picklist>
+        <values>
+            <fullName>A1%2E1%2EContactos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E10%2EFalta de cable del 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E11%2E Falta de cable 10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E12%2EFalta de cable del 12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E13%2E Falta de cable del 14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E14%2E Falta de cable del 16</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E15%2EFalta Quinta Terminal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E2%2EApagadores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E3%2EContacto TV-Cable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E4%2EPastillas térmicas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E5%2EBase de medición</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E6%2EEstractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E7%2ESoquet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E8%2ETimbre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A1%2E9%2ECentro de carga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E1%2EBajante sanitario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E10%2EPatio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E11%2EAreneros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E12%2EDescarga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E14%2ECharola de baño</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E16%2EAraña - Cuadro Principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E17%2ERegistros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E18%2EColadera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E19%2EFisura en mueble sanitario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E2%2ERegistro sanitario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E20%2EDaño en herrajes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E21%2EDeficiencia en valvula-llave de paso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E22%2EDeficiencia en trampa o cuello</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E3%2E Entronque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E4%2EBajante de agua pluvial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E5%2ELavabo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E6%2ETarja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E7%2EWC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E8%2ERegadera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E9%2ELavadero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C1%2E1%2ETarja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C1%2E2%2EWC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C1%2E3%2ELavabo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C1%2E4%2ERegadera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C1%2E5%2ELavadero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C1%2E6%2ECalentador de paso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C1%2E7%2ECalentador solar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C1%2E8%2ECuadro principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C1%2E9%2EDisparo principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D1%2E1%2EDisparo principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D1%2E2%2EDisparo en calentador de paso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D1%2E3%2EDisparo estufa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D1%2E4%2EDisparo tanque estacionario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E%2E1%2E13%2ELosa de cimentacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E%2E1%2E14%2EMuros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E1%2EFalta de colado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E10%2EMolduras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E11%2EViga en Cimentacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E12%2EFirme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E16%2EVigas en Muros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E17%2ECastillos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E18%2ECerramientos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E2%2EFalta de varilla tec 60</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E20%2ELosa azotea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E21%2EBase de tinaco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E3%2EFalta de dala u</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E4%2EAcuñar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E5%2EDesplome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E6%2EMal forjado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E7%2EDesprendiemiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E8%2EBoquilla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E9%2EEscaleras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E9%2ELosa de entrepiso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F1%2E1%2EBotada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F1%2E10%2EDaño estructura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F1%2E11%2E Boquilla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F1%2E2%2EMal aplicada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F1%2E3%2EDiferente color</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F1%2E7%2EDesplome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F1%2E9%2E Fisura por temperatura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G1%2E1%2EFalta de colado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G1%2E10%2E Daño Estructural</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G1%2E2%2EMala pendiente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G1%2E3%2EDesprendimiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G1%2E4%2EMal acabado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G1%2E5%2EBotado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G1%2E6%2EDiferente Color</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G1%2E7%2EFalta pintura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G1%2E8%2EMal aplicada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G1%2E9%2EFisuras por temperatura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H1%2E1%2EDescuadradas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H1%2E10%2EFalla en corredizo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H1%2E11%2EFalla  riel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H1%2E12%2EFalla en manija %2F jaladera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H1%2E13%2EDaño en mosquitero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H1%2E2%2EVidrio roto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H1%2E3%2ESeguros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H1%2E4%2ERiel golpeado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H1%2E5%2EPijas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H1%2E5%2ESello</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H1%2E7%2EAluminio golpeado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I1%2E1%2E Faltante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I1%2E11%2EMarco desplomado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I1%2E2%2E Mal funcionamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I1%2E3%2E Golpeada %28o%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I1%2E4%2E Descuadrada %28o%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I1%2E5%2E Diferente Color</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I1%2E6%2E Pijas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I1%2E7%2E Sello</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I1%2E8%2EDaño en puertas - acabado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>J1%2E1%2EFaltante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>J1%2E2%2EEncharcamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>J1%2E3%2EMal acabado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>J1%2E4%2E Fisura en losa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>J1%2E5%2E Impermeabilizante Dañado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K1%2E1%2EGolpeado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K1%2E2%2EFaltante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K1%2E3%2EQuebrado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L1%2E1%2EHumedad losa - plafon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L1%2E10 Inexistencia de pendientes para desague</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L1%2E2%2EHumedad muro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L1%2E3%2EHumedad volado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L1%2E5%2EDesprendimiento de membrana - malla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L1%2E6%2EDesprendimiento de prefabricado - chovatec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L1%2E7%2EDesgaste de acrilico - Impermeabilizacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L1%2E8%2EFalta de colocacion de colocacion de sello en salidas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L1%2E9%2EInexistencia de traslapes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M1%2E1%2EGolpeado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M1%2E2%2EFaltante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M1%2E3%2EQuebrado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M1%2E4%2EFalta pintura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M1%2E5%2EDiferente color</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M1%2E6%2EMal acabado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M1%2E7%2EDescuadradas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M1%2E8%2EMal funcionamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N1%2E1%2EGolpeado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N1%2E2%2EFaltante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N1%2E3%2EQuebrado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N1%2E4%2EFalta pintura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N1%2E5%2EDiferente color</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N1%2E6%2EMal acabado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N1%2E7%2EDescuadradas %2F Desplomado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N1%2E8%2EMal funcionamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E1%2E- No funciona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E2%2E- No recolecion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E3%2E- Robo cable - accesorio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E4%2E- Comision de agua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E4%2E- Escombro clientes %2F vecinos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E4%2E- Escombro construccion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E4%2E- Escombro servicios publicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E4%2E- Falla en sistema de riego</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E4%2E- Falla interna de agua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E4%2E- Mal servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E4%2E- Mantenimiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E4%2E- Perros callejeros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E4%2E- Plagas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2E1%2E4%2E- Robo de fijos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Clasificacion__c</picklist>
+        <values>
+            <fullName>A1%2E Corto circuito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A10%2E Filtración por Ductos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A11%2E Ducto tapado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A12%2E Otro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A2%2E Obstrucción</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A3%2E Falta cableado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A4%2E Falta Accesorio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A5%2E Falta guía CFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A6%2E Falta Guía TV-Cable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A7%2E Accesorio Dañado y%2Fo Sin Energia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A8%2E Accesorio mal instalado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A9%2E Variacion de Voltaje</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B1%2E Instalación Tapada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2%2E Falta de conexión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B3%2E Fugas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B4%2E Mala Instalacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B5%2E Dañado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B6%2E Faltante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B7%2E Humedad en Muro %2F Losa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B8%2E Humedad en Pluvial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B9%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C1%2E Tapado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C2%2E Falta de Conexión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3%2E Fuga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C4%2E Mala Instalacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C5%2E Dañado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C6%2E Faltante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C7%2E Falta de Presion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C8%2E Falta de Suministro Agua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C9%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D1%2E Instalación Tapada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D2%2E Falta de conexión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D3%2E Fugas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D4%2E Falta de Presion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D5%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1%2E Bardas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E2%2E Estructura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E3%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F1%2E Yeso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F10%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F2%2E Pasta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F3%2E Instalación Azulejo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F4%2E Instalación Piso%2F Zoclo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F5%2E Instalación Sardinel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F6%2E Pintura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F7%2E Fisuras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F8%2E Instalacion de Boquilla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F9%2E Pulido en Piso %2F Firme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G1%2E Banqueta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G2%2E Molduras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G3%2E Fisuras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G4%2E Pintura Exterior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G5%2E Cantera %2F Recubrimiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G6%2E Pasta y%2Fo Estuco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G7%2E Humedad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H1%2E Ventanas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H2%2E Puerta Corrediza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H3%2E Filtracion y%2Fo Humedad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H4%2E Sello Ventanas y%2Fo Puertas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H5%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I1%2E Puertas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I2%2E Marco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I3%2E Chapas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I4%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>J1%2E Presencia de humedad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K1%2E Barandales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K2%2E Protectores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L1%2E Tomas Hidráulicas principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L10%2E Falta Guia CFE %2F Reventada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L11%2E Falta Guia TV Cable %2F Reventada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L12%2E Ductos Tapados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L13%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L2%2E Tomas Sanitarias principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L3%2E Tomas de Gas principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L4%2E Calles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L5%2E Cajetes-ARRIATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L6%2E Barda Perimetral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L7%2E Bancas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L8%2E Machuelos-Cordon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L9%2E Banqueta Municipal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M1%2E Luminarias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M2%2E Tapas CFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M3%2E Boca de Tormenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M4%2E Tapas Servicio Cable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M5%2E Nomenclaturas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M6%2E Señalamientos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M7%2E Postes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M8%2E Registros Red Eléctrica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M9%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N1%2E Mosquiteros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N10%2E Filtro purificador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N11%2E Tinaco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N12%2E Tallador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N13%2E Coladera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N14%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N2%2E Tapas de registro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N3%2E Focos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N4%2E Accesorios de Baño</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N5%2E Botes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N6%2E Calentador de paso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N7%2E Calentador Solar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N8%2E Tarja %2F Llaves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N9%2E Llaves de Jardin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O1%2E Sin conexión CFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O10%2E Alta INTERNET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O11%2E No contrato INTERNET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O12%2E Falla Servicio INTERNET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O13%2E No hay Servicio BASURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O14%2E Frencuencia BASURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O15%2E BASURA en Parques y vialidades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O16%2E No hay ESCUELA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O17%2E Falta cupo ESCUELA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O18%2E Mal estado ESCUELA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O19%2E No hay TRANSPORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O2%2E No contrato CFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O20%2E Poca frecuencia TRANSPORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O21%2E Mal estado TRANSPORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O22%2E No hay ALUMBRADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O23%2E Falla ALUMBRADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O24%2E Mal estado ALUMBRADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O25%2E No hay SEGURIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O26%2E Reporte de Robo SEGURIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O27%2E Ineficiencia SEGURIDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O28%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O3%2E Falla Luz CFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O4%2E Sin conexión AGUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O5%2E No contrato AGUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O6%2E Falta AGUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O7%2E Sin conexión GAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O8%2E No contrato GAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O9%2E Falta GAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P29%2E Aclaracion HIPOTECA CON SERVICIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P30%2E Solicita realizar ASOCIACION CIVIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P31%2E Aclaracion ADMINISTRADORA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P32%2E Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q1%2E Informacion Compra de Casa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q2%2E Queja Asesor de Ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q3%2E Queja Promesa de Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R1%2E Entrega Documentos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R2%2E Aclaracion Recomienda y Gana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R3%2E Aclaracion Monedero Electronico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R4%2E Aclaración Promoción de Venta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R5%2E Aclaración Reembolso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S1%2E Solicitud Fecha Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S2%2E Re-programar Fecha Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S3%2E Cancelar Cita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T1%2E No habia personal para Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T2%2E Mal Servicio Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T3%2E Vivienda no terminada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T4%2E Casa Vandalizada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U1%2E Aclaracion Pagos aplicados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U2%2E Aclarar Saldo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U3%2E Aclarar Referencias Bancarias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U4%2E Solicitud Carta No Adeudo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U5%2E Aclaracion Numero de Cuenta Pagos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V1%2E Falla Portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V2%2E Aclaraciones%2FCorrección Datos Portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3%2E Solicitud de Factura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>W1%2E Otros</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Clasificaciondegarantia__c</picklist>
+        <values>
+            <fullName>G1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivodenoatencion__c</picklist>
+        <values>
+            <fullName>Asesoría</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No aplica</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origendegarantia__c</picklist>
+        <values>
+            <fullName>Contratista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Producto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proyecto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supervisión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urbanización</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fraccionamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redes Sociales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>Alta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason__c</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%C2%B4t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Asignado</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Cancelado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cerrado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En proceso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No procede</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo__c</picklist>
+        <values>
+            <fullName>O%2E Servicios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P%2E Organización Vecinal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Zona__c</picklist>
+        <values>
+            <fullName>1%2F2 Baño</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area Municipal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Azotea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banquetas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baño</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boquillas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cocina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comedor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuadro hidráulico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cubo Escalera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estancia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fachada de Pasillo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fachada de Patio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fachada de Principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Huellas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lavabo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loza cimentación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loza entrepiso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minisplit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Molduras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Murete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parque Principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plafon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pretil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recamara 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recamara 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recamara 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regadera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sala</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sotano</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terraza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vialidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vivienda</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

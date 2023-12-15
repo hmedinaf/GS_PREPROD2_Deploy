@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_sobre_avenida</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+AND(
+    OR(Porcentaje_Precio_sobre_avenida__c  = 0, ISBLANK(Porcentaje_Precio_sobre_avenida__c)), 
+    OR(Precio_sobre_avenida__c = 0, ISBLANK(Precio_sobre_avenida__c))
+   ), 
+FALSE,
+           
+IF(
+AND(
+    Porcentaje_Precio_sobre_avenida__c  &gt; 0, 
+    OR(Precio_sobre_avenida__c = 0, ISBLANK(Precio_sobre_avenida__c)) 
+   ), 
+FALSE,
+                        
+IF(
+AND(
+    OR(Porcentaje_Precio_sobre_avenida__c = 0, ISBLANK(Porcentaje_Precio_sobre_avenida__c )), 
+       Precio_sobre_avenida__c &gt; 0
+   ), 
+FALSE, 
+
+TRUE)))</errorConditionFormula>
+    <errorMessage>Se debe ingresar sólo un valor para Precio Sobre Avenida, ya sea porcentaje o monto</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Residente_Inactivo__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Residente_de_Entrega__r.IsActive == false, true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Residente Inactivo</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

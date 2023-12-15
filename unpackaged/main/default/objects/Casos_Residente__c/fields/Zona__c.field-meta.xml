@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zona__c</fullName>
+    <externalId>false</externalId>
+    <label>Zona</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sala</fullName>
+                <default>false</default>
+                <label>Sala</label>
+            </value>
+            <value>
+                <fullName>Comedor</fullName>
+                <default>false</default>
+                <label>Comedor</label>
+            </value>
+            <value>
+                <fullName>Cocina</fullName>
+                <default>false</default>
+                <label>Cocina</label>
+            </value>
+            <value>
+                <fullName>Baño</fullName>
+                <default>false</default>
+                <label>Baño</label>
+            </value>
+            <value>
+                <fullName>1/2 Baño</fullName>
+                <default>false</default>
+                <label>1/2 Baño</label>
+            </value>
+            <value>
+                <fullName>Recamara 1</fullName>
+                <default>false</default>
+                <label>Recamara 1</label>
+            </value>
+            <value>
+                <fullName>Recamara 2</fullName>
+                <default>false</default>
+                <label>Recamara 2</label>
+            </value>
+            <value>
+                <fullName>Recamara 3</fullName>
+                <default>false</default>
+                <label>Recamara 3</label>
+            </value>
+            <value>
+                <fullName>Estancia</fullName>
+                <default>false</default>
+                <label>Estancia</label>
+            </value>
+            <value>
+                <fullName>Cubo Escalera</fullName>
+                <default>false</default>
+                <label>Cubo Escalera</label>
+            </value>
+            <value>
+                <fullName>Terraza</fullName>
+                <default>false</default>
+                <label>Terraza</label>
+            </value>
+            <value>
+                <fullName>Sotano</fullName>
+                <default>false</default>
+                <label>Sotano</label>
+            </value>
+            <value>
+                <fullName>Patio</fullName>
+                <default>false</default>
+                <label>Patio</label>
+            </value>
+            <value>
+                <fullName>Fachada de Patio</fullName>
+                <default>false</default>
+                <label>Fachada de Patio</label>
+            </value>
+            <value>
+                <fullName>Fachada de Principal</fullName>
+                <default>false</default>
+                <label>Fachada de Principal</label>
+            </value>
+            <value>
+                <fullName>Fachada de Pasillo</fullName>
+                <default>false</default>
+                <label>Fachada de Pasillo</label>
+            </value>
+            <value>
+                <fullName>Azotea</fullName>
+                <default>false</default>
+                <label>Azotea</label>
+            </value>
+            <value>
+                <fullName>Pretil</fullName>
+                <default>false</default>
+                <label>Pretil</label>
+            </value>
+            <value>
+                <fullName>Huellas</fullName>
+                <default>false</default>
+                <label>Huellas</label>
+            </value>
+            <value>
+                <fullName>Molduras</fullName>
+                <default>false</default>
+                <label>Molduras</label>
+            </value>
+            <value>
+                <fullName>Boquillas</fullName>
+                <default>false</default>
+                <label>Boquillas</label>
+            </value>
+            <value>
+                <fullName>Cuadro hidráulico</fullName>
+                <default>false</default>
+                <label>Cuadro hidráulico</label>
+            </value>
+            <value>
+                <fullName>Loza cimentación</fullName>
+                <default>false</default>
+                <label>Losa cimentación</label>
+            </value>
+            <value>
+                <fullName>Loza entrepiso</fullName>
+                <default>false</default>
+                <label>Losa entrepiso</label>
+            </value>
+            <value>
+                <fullName>Plafon</fullName>
+                <default>false</default>
+                <label>Plafon</label>
+            </value>
+            <value>
+                <fullName>Regadera</fullName>
+                <default>false</default>
+                <label>Regadera</label>
+            </value>
+            <value>
+                <fullName>Lavabo</fullName>
+                <default>false</default>
+                <label>Lavabo</label>
+            </value>
+            <value>
+                <fullName>Murete</fullName>
+                <default>false</default>
+                <label>Murete</label>
+            </value>
+            <value>
+                <fullName>Minisplit</fullName>
+                <default>false</default>
+                <label>Minisplit</label>
+            </value>
+            <value>
+                <fullName>Area Municipal</fullName>
+                <default>false</default>
+                <label>Area Municipal</label>
+            </value>
+            <value>
+                <fullName>Vivienda</fullName>
+                <default>false</default>
+                <label>Vivienda</label>
+            </value>
+            <value>
+                <fullName>Parque Principal</fullName>
+                <default>false</default>
+                <label>Parque Principal</label>
+            </value>
+            <value>
+                <fullName>Vialidad</fullName>
+                <default>false</default>
+                <label>Vialidad</label>
+            </value>
+            <value>
+                <fullName>Banquetas</fullName>
+                <default>false</default>
+                <label>Banquetas</label>
+            </value>
+            <value>
+                <fullName>Lavandería</fullName>
+                <default>false</default>
+                <label>Lavandería</label>
+            </value>
+            <value>
+                <fullName>Lavadero</fullName>
+                <default>false</default>
+                <label>Lavadero</label>
+            </value>
+            <value>
+                <fullName>Roof garden</fullName>
+                <default>false</default>
+                <label>Roof garden</label>
+            </value>
+            <value>
+                <fullName>Zinc</fullName>
+                <default>false</default>
+                <label>Zinc</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

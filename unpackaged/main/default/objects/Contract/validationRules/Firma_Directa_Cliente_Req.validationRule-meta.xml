@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Firma_Directa_Cliente_Req</fullName>
+    <active>true</active>
+    <errorConditionFormula>!ISNEW() &amp;&amp;
+!SkipValidation__c &amp;&amp;
+ISBLANK(TEXT(Firma_Directa_Cliente__c)) &amp;&amp;
+
+!ISCHANGED(C_dula_de_Identifiaci_n_Fiscal__c) &amp;&amp;
+!ISCHANGED(No_De_Fideicomiso__c) &amp;&amp;
+
+!ISCHANGED(Hijos__c) &amp;&amp;
+!ISCHANGED(Dependientes_economicos__c) &amp;&amp;
+!ISCHANGED(Ingresos_mensuales__c)</errorConditionFormula>
+    <errorDisplayField>Firma_Directa_Cliente__c</errorDisplayField>
+    <errorMessage>Pregunta &quot;Firma Directa Cliente&quot; requerida</errorMessage>
+</ValidationRule>

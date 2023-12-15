@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo de Notificación --></label>
+        <name>Notificacion__c</name>
+        <picklistValues>
+            <masterLabel>Notificación a Ventas</masterLabel>
+            <translation><!-- Notificación a Ventas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitud de Modificación de VO</masterLabel>
+            <translation><!-- Solicitud de Modificación de VO --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

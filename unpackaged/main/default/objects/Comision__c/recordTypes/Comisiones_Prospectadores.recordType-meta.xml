@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comisiones_Prospectadores</fullName>
+    <active>true</active>
+    <description>Comisiones Prospectadores</description>
+    <label>Comisiones Prospectadores</label>
+    <picklistValues>
+        <picklist>Estatus__c</picklist>
+        <values>
+            <fullName>Aprobada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

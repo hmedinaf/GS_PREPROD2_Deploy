@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edicion_Colaborador_Javer</fullName>
+    <active>true</active>
+    <description>No se puede asignar un Colaborador a la cuenta si esta ya tiene un proceso de venta (oportunidad)</description>
+    <errorConditionFormula>AND(
+				$User.is_Data_Migration_User__c = false,
+				Numero_de_Oportunidades__c &gt;=1,
+ISCHANGED(Colaborador_Javer__c),
+Colaborador_Javer__c &lt;&gt; &#39;&#39;
+)</errorConditionFormula>
+    <errorDisplayField>Colaborador_Javer__c</errorDisplayField>
+    <errorMessage>No se puede asignar un Colaborador Javer a la cuenta pues ésta ya cuenta con un proceso de venta</errorMessage>
+</ValidationRule>

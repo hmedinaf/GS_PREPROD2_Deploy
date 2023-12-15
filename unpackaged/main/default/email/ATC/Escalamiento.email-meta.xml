@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Demo</letterhead>
+    <name>Escalamiento</name>
+    <style>freeForm</style>
+    <subject>Escalamiento Caso: {!Casos_Residente__c.Nomenclatura__c}</subject>
+    <textOnly>Se ha escalado el siguiente caso: {!Casos_Residente__c.Nomenclatura__c}
+
+Tipo de caso: {!Casos_Residente__c.RecordType}
+
+Tipo: {!Casos_Residente__c.Tipo__c}
+
+Clasificación: {!Casos_Residente__c.Clasificacion__c}
+
+Origen: {!Casos_Residente__c.Origendegarantia__c}
+
+Detalle del reporte: {!Casos_Residente__c.Detalledelreporte__c}
+
+Liga de acceso: {!Casos_Residente__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

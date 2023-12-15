@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Check List Tercero --></label>
+        <name>Check_List_Sub_Tipo_Fiscal__c</name>
+        <picklistValues>
+            <masterLabel>Clave Única de Registro de Población</masterLabel>
+            <translation><!-- Clave Única de Registro de Población --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comprobante de Domicilio</masterLabel>
+            <translation><!-- Comprobante de Domicilio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copia de su Identificación Oficial (IFE o Pasaporte)</masterLabel>
+            <translation><!-- Copia de su Identificación Oficial (IFE o Pasaporte) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R1: Alta en SHCP</masterLabel>
+            <translation><!-- R1: Alta en SHCP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recibos de Nómina de los últimos 3 meses</masterLabel>
+            <translation><!-- Recibos de Nómina de los últimos 3 meses --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

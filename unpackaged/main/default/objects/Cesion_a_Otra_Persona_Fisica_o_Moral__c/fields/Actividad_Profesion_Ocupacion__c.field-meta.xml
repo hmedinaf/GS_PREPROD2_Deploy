@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actividad_Profesion_Ocupacion__c</fullName>
+    <externalId>false</externalId>
+    <label>Objeto Social o Giro Mercantil Cesión</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ADMINISTRACION - ASISTENTES ADMINISTRATIVOS</fullName>
+                <default>false</default>
+                <label>ADMINISTRACION - ASISTENTES ADMINISTRATIVOS</label>
+            </value>
+            <value>
+                <fullName>ADMINISTRACION - CAPTURISTA Y OPERADORES DE TELEFONO</fullName>
+                <default>false</default>
+                <label>ADMINISTRACION - CAPTURISTA Y OPERADORES DE TELEFONO</label>
+            </value>
+            <value>
+                <fullName>ADMINISTRACION - CONSULTORES</fullName>
+                <default>false</default>
+                <label>ADMINISTRACION - CONSULTORES</label>
+            </value>
+            <value>
+                <fullName>ADMINISTRACION - CONTADORES Y AUDITORES</fullName>
+                <default>false</default>
+                <label>ADMINISTRACION - CONTADORES Y AUDITORES</label>
+            </value>
+            <value>
+                <fullName>ADMINISTRACION - DIRECTORES, GERENTES  Y EMPLEADOS DE COMPRAS, FINANZAS, RECURSOS HUMANOS Y SERVICIOS ADMINISTRATIVOS</fullName>
+                <default>false</default>
+                <label>ADMINISTRACION - DIRECTORES, GERENTES  Y EMPLEADOS DE COMPRAS, FINANZAS, RECURSOS HUMANOS Y SERVICIOS ADMINISTRATIVOS</label>
+            </value>
+            <value>
+                <fullName>ADMINISTRACION - DIRECTORES, GERENTES Y EMPELADOS ADMINISTRATIVOS</fullName>
+                <default>false</default>
+                <label>ADMINISTRACION - DIRECTORES, GERENTES Y EMPELADOS ADMINISTRATIVOS</label>
+            </value>
+            <value>
+                <fullName>ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE COMERCIALIZACION</fullName>
+                <default>false</default>
+                <label>ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE COMERCIALIZACION</label>
+            </value>
+            <value>
+                <fullName>ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE PRODUCCION</fullName>
+                <default>false</default>
+                <label>ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE PRODUCCION</label>
+            </value>
+            <value>
+                <fullName>ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE SERVICIOS DE TRANSPORTE</fullName>
+                <default>false</default>
+                <label>ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE SERVICIOS DE TRANSPORTE</label>
+            </value>
+            <value>
+                <fullName>ADMINISTRACION - PAGADORES Y COBRADORES</fullName>
+                <default>false</default>
+                <label>ADMINISTRACION - PAGADORES Y COBRADORES</label>
+            </value>
+            <value>
+                <fullName>ADMINISTRACION - TRABAJADORES DE ARCHIVO, ALMACEN DE INVENTARIOS</fullName>
+                <default>false</default>
+                <label>ADMINISTRACION - TRABAJADORES DE ARCHIVO, ALMACEN DE INVENTARIOS</label>
+            </value>
+            <value>
+                <fullName>AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES AGRICOLAS</fullName>
+                <default>false</default>
+                <label>AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES AGRICOLAS</label>
+            </value>
+            <value>
+                <fullName>AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES SILVICOLAS Y FORESTALES</fullName>
+                <default>false</default>
+                <label>AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES SILVICOLAS Y FORESTALES</label>
+            </value>
+            <value>
+                <fullName>ALIMENTACION Y HOSPEDAJE - JEFES DE COCINA, RESTAURANTE Y/O BAR</fullName>
+                <default>false</default>
+                <label>ALIMENTACION Y HOSPEDAJE - JEFES DE COCINA, RESTAURANTE Y/O BAR</label>
+            </value>
+            <value>
+                <fullName>ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIO DE ALIMENTOS Y BEBIDAS</fullName>
+                <default>false</default>
+                <label>ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIO DE ALIMENTOS Y BEBIDAS</label>
+            </value>
+            <value>
+                <fullName>ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIOS DE ALOJAMIENTO</fullName>
+                <default>false</default>
+                <label>ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIOS DE ALOJAMIENTO</label>
+            </value>
+            <value>
+                <fullName>ALIMENTOS Y BEBIDAS - TRABAJADORES EN LA ELABORACION  Y PROCESAMIENTO DE ALIMENTOS, BEBIDAS Y TABACO</fullName>
+                <default>false</default>
+                <label>ALIMENTOS Y BEBIDAS - TRABAJADORES EN LA ELABORACION  Y PROCESAMIENTO DE ALIMENTOS, BEBIDAS Y TABACO</label>
+            </value>
+            <value>
+                <fullName>BOLSA, BANCA Y SEGUROS - AGENTES DE VALORES, PROMOTORES Y CORREDORES DE INVERSION</fullName>
+                <default>false</default>
+                <label>BOLSA, BANCA Y SEGUROS - AGENTES DE VALORES, PROMOTORES Y CORREDORES DE INVERSION</label>
+            </value>
+            <value>
+                <fullName>BOLSA, BANCA Y SEGUROS - GERENTES O TRABAJADORES DE SERVICIOS Y PRODUCTOS FINANCIEROS</fullName>
+                <default>false</default>
+                <label>BOLSA, BANCA Y SEGUROS - GERENTES O TRABAJADORES DE SERVICIOS Y PRODUCTOS FINANCIEROS</label>
+            </value>
+            <value>
+                <fullName>BOLSA, BANCA Y SEGUROS - VALUADORES</fullName>
+                <default>false</default>
+                <label>BOLSA, BANCA Y SEGUROS - VALUADORES</label>
+            </value>
+            <value>
+                <fullName>COMERCIO - CAJEROS REGISTRADORES</fullName>
+                <default>false</default>
+                <label>COMERCIO - CAJEROS REGISTRADORES</label>
+            </value>
+            <value>
+                <fullName>COMERCIO - DESPACHADORES DE GASOLINERA</fullName>
+                <default>false</default>
+                <label>COMERCIO - DESPACHADORES DE GASOLINERA</label>
+            </value>
+            <value>
+                <fullName>COMERCIO - EMPACADORES DE MERCANCIAS</fullName>
+                <default>false</default>
+                <label>COMERCIO - EMPACADORES DE MERCANCIAS</label>
+            </value>
+            <value>
+                <fullName>COMERCIO - GERENTES O EMPLEADOS DE VENTAS</fullName>
+                <default>false</default>
+                <label>COMERCIO - GERENTES O EMPLEADOS DE VENTAS</label>
+            </value>
+            <value>
+                <fullName>COMERCIO - GERENTES O SUPERVISOR DE ESTABLECIMIENTO COMERCIAL</fullName>
+                <default>false</default>
+                <label>COMERCIO - GERENTES O SUPERVISOR DE ESTABLECIMIENTO COMERCIAL</label>
+            </value>
+            <value>
+                <fullName>COMERCIO - REPRESENTANTES DE VENTAS POR TELEFONO O POR TELEVISION</fullName>
+                <default>false</default>
+                <label>COMERCIO - REPRESENTANTES DE VENTAS POR TELEFONO O POR TELEVISION</label>
+            </value>
+            <value>
+                <fullName>COMERCIO - TAQUILLEROS</fullName>
+                <default>false</default>
+                <label>COMERCIO - TAQUILLEROS</label>
+            </value>
+            <value>
+                <fullName>COMERCIO - VENDEDORES AMBULANTES</fullName>
+                <default>false</default>
+                <label>COMERCIO - VENDEDORES AMBULANTES</label>
+            </value>
+            <value>
+                <fullName>COMERCIO - VENDEDORES ESPECIALIZADOS</fullName>
+                <default>false</default>
+                <label>COMERCIO - VENDEDORES ESPECIALIZADOS</label>
+            </value>
+            <value>
+                <fullName>CONSTRUCCION -  INGENIEROS, TECNICOS Y OPERADORES DE LA CONSTRUCCION</fullName>
+                <default>false</default>
+                <label>CONSTRUCCION -  INGENIEROS, TECNICOS Y OPERADORES DE LA CONSTRUCCION</label>
+            </value>
+            <value>
+                <fullName>CONSTRUCCION - ARQUITECTOS</fullName>
+                <default>false</default>
+                <label>CONSTRUCCION - ARQUITECTOS</label>
+            </value>
+            <value>
+                <fullName>CONSTRUCCION - COLOCADORES DE PRODUCTOS PREFABRICADOS EN INMUEBLES</fullName>
+                <default>false</default>
+                <label>CONSTRUCCION - COLOCADORES DE PRODUCTOS PREFABRICADOS EN INMUEBLES</label>
+            </value>
+            <value>
+                <fullName>CONSTRUCCION - DECORADORES DE INTERIORES</fullName>
+                <default>false</default>
+                <label>CONSTRUCCION - DECORADORES DE INTERIORES</label>
+            </value>
+            <value>
+                <fullName>CONSTRUCCION - PINTORES</fullName>
+                <default>false</default>
+                <label>CONSTRUCCION - PINTORES</label>
+            </value>
+            <value>
+                <fullName>CONSTRUCCION - PLOMEROS E INSTALADORES DE TUBERIA</fullName>
+                <default>false</default>
+                <label>CONSTRUCCION - PLOMEROS E INSTALADORES DE TUBERIA</label>
+            </value>
+            <value>
+                <fullName>CONSTRUCCION - REPARADORES DE VIAS DE COMUNICACION</fullName>
+                <default>false</default>
+                <label>CONSTRUCCION - REPARADORES DE VIAS DE COMUNICACION</label>
+            </value>
+            <value>
+                <fullName>CONSTRUCCION - VIDRIEROS</fullName>
+                <default>false</default>
+                <label>CONSTRUCCION - VIDRIEROS</label>
+            </value>
+            <value>
+                <fullName>DEPORTE Y ESPARCIMIENTO - ANIMADORES RECREATIVOS</fullName>
+                <default>false</default>
+                <label>DEPORTE Y ESPARCIMIENTO - ANIMADORES RECREATIVOS</label>
+            </value>
+            <value>
+                <fullName>DEPORTE Y ESPARCIMIENTO - ATLETAS, ENTRENADORES O INSTRUCTORES EN DEPORTE Y RECREACION</fullName>
+                <default>false</default>
+                <label>DEPORTE Y ESPARCIMIENTO - ATLETAS, ENTRENADORES O INSTRUCTORES EN DEPORTE Y RECREACION</label>
+            </value>
+            <value>
+                <fullName>DEPORTE Y ESPARCIMIENTO - OFICIALES, JUECES Y ARBITROS DEPORTIVOS</fullName>
+                <default>false</default>
+                <label>DEPORTE Y ESPARCIMIENTO - OFICIALES, JUECES Y ARBITROS DEPORTIVOS</label>
+            </value>
+            <value>
+                <fullName>DIFUSION CULTURAL - PROMOTORES DE DIFUSION CULTURAL</fullName>
+                <default>false</default>
+                <label>DIFUSION CULTURAL - PROMOTORES DE DIFUSION CULTURAL</label>
+            </value>
+            <value>
+                <fullName>DIFUSION CULTURAL - TRABAJADORES DE BIBLIOTECA, ARCHIVO, MUSEO Y GALERIA DE ARTE</fullName>
+                <default>false</default>
+                <label>DIFUSION CULTURAL - TRABAJADORES DE BIBLIOTECA, ARCHIVO, MUSEO Y GALERIA DE ARTE</label>
+            </value>
+            <value>
+                <fullName>ELECTRICIDAD - INGENIEROS O TECNICOS ELECTRICISTAS</fullName>
+                <default>false</default>
+                <label>ELECTRICIDAD - INGENIEROS O TECNICOS ELECTRICISTAS</label>
+            </value>
+            <value>
+                <fullName>ELECTRICIDAD - TECNICOS EN REFRIGERACION, AIRE ACONDICIONADO Y CALEFACCION</fullName>
+                <default>false</default>
+                <label>ELECTRICIDAD - TECNICOS EN REFRIGERACION, AIRE ACONDICIONADO Y CALEFACCION</label>
+            </value>
+            <value>
+                <fullName>ELECTRONICA - INGENIERO O TECNICOS EN  ELECTRONICA</fullName>
+                <default>false</default>
+                <label>ELECTRONICA - INGENIERO O TECNICOS EN  ELECTRONICA</label>
+            </value>
+            <value>
+                <fullName>ELECTRONICA - MECANICOS DE INSTRUMENTOS INDUSTRIALES</fullName>
+                <default>false</default>
+                <label>ELECTRONICA - MECANICOS DE INSTRUMENTOS INDUSTRIALES</label>
+            </value>
+            <value>
+                <fullName>ENSEÑANZA - CAPACITADORES E INSTRUCTORES</fullName>
+                <default>false</default>
+                <label>ENSEÑANZA - CAPACITADORES E INSTRUCTORES</label>
+            </value>
+            <value>
+                <fullName>ENSEÑANZA - DIRECTORES GENERALES DE EDUCACION</fullName>
+                <default>false</default>
+                <label>ENSEÑANZA - DIRECTORES GENERALES DE EDUCACION</label>
+            </value>
+            <value>
+                <fullName>ENSEÑANZA - PROFESORES O DOCENTES</fullName>
+                <default>false</default>
+                <label>ENSEÑANZA - PROFESORES O DOCENTES</label>
+            </value>
+            <value>
+                <fullName>GANADERIA - ADMINISTRADORES, CRIADORES O SUPERVISORES AVICOLAS Y GANADEROS</fullName>
+                <default>false</default>
+                <label>GANADERIA - ADMINISTRADORES, CRIADORES O SUPERVISORES AVICOLAS Y GANADEROS</label>
+            </value>
+            <value>
+                <fullName>GANADERIA - APICULTORES</fullName>
+                <default>false</default>
+                <label>GANADERIA - APICULTORES</label>
+            </value>
+            <value>
+                <fullName>INFORMATICA - INGENIERO O TECNICOS PROGRAMADORES EN INFORMATICA</fullName>
+                <default>false</default>
+                <label>INFORMATICA - INGENIERO O TECNICOS PROGRAMADORES EN INFORMATICA</label>
+            </value>
+            <value>
+                <fullName>INFORMATICA - PROFESIONISTAS O TECNICOS DE SISTEMAS DE INFORMACION Y PROCESAMIENTO DE DATOS</fullName>
+                <default>false</default>
+                <label>INFORMATICA - PROFESIONISTAS O TECNICOS DE SISTEMAS DE INFORMACION Y PROCESAMIENTO DE DATOS</label>
+            </value>
+            <value>
+                <fullName>INSPECCION - INSPECTORES DE SALUD AMBIENTAL, SANIDAD Y DEL TRABAJO</fullName>
+                <default>false</default>
+                <label>INSPECCION - INSPECTORES DE SALUD AMBIENTAL, SANIDAD Y DEL TRABAJO</label>
+            </value>
+            <value>
+                <fullName>INSPECCION - INSPECTORES DE TRANSPORTE DE CARGA Y DE PASAJEROS</fullName>
+                <default>false</default>
+                <label>INSPECCION - INSPECTORES DE TRANSPORTE DE CARGA Y DE PASAJEROS</label>
+            </value>
+            <value>
+                <fullName>INSPECCION - INSPECTORES FISCALES Y DE PRECIOS</fullName>
+                <default>false</default>
+                <label>INSPECCION - INSPECTORES FISCALES Y DE PRECIOS</label>
+            </value>
+            <value>
+                <fullName>INSPECCION - INSPECTORES SANITARIOS Y DE CONTROL DE CALIDAD DE PRODUCTOS CARNICOS, PESQUEROS Y AGRICOLAS</fullName>
+                <default>false</default>
+                <label>INSPECCION - INSPECTORES SANITARIOS Y DE CONTROL DE CALIDAD DE PRODUCTOS CARNICOS, PESQUEROS Y AGRICOLAS</label>
+            </value>
+            <value>
+                <fullName>INTERPRETACION ARTISTICA - ACTORES, BAILARINES, MUSICOS, ESCRITORES</fullName>
+                <default>false</default>
+                <label>INTERPRETACION ARTISTICA - ACTORES, BAILARINES, MUSICOS, ESCRITORES</label>
+            </value>
+            <value>
+                <fullName>INTERPRETACION ARTISTICA - ARTESANOS</fullName>
+                <default>false</default>
+                <label>INTERPRETACION ARTISTICA - ARTESANOS</label>
+            </value>
+            <value>
+                <fullName>INTERPRETACION ARTISTICA - ARTISTAS PLASTICOS</fullName>
+                <default>false</default>
+                <label>INTERPRETACION ARTISTICA - ARTISTAS PLASTICOS</label>
+            </value>
+            <value>
+                <fullName>INTERPRETACION ARTISTICA - FOTOGRAFOS</fullName>
+                <default>false</default>
+                <label>INTERPRETACION ARTISTICA - FOTOGRAFOS</label>
+            </value>
+            <value>
+                <fullName>INVESTIGACION - ASISTENTES DE INVESTIGADORES</fullName>
+                <default>false</default>
+                <label>INVESTIGACION - ASISTENTES DE INVESTIGADORES</label>
+            </value>
+            <value>
+                <fullName>INVESTIGACION - BIOLOGOS Y CIENTIFICOS RELACIONADOS</fullName>
+                <default>false</default>
+                <label>INVESTIGACION - BIOLOGOS Y CIENTIFICOS RELACIONADOS</label>
+            </value>
+            <value>
+                <fullName>INVESTIGACION - ECONOMISTAS Y POLITOLOGOS (NO FUNCIONARIOS PUBLICOS)</fullName>
+                <default>false</default>
+                <label>INVESTIGACION - ECONOMISTAS Y POLITOLOGOS (NO FUNCIONARIOS PUBLICOS)</label>
+            </value>
+            <value>
+                <fullName>INVESTIGACION - ENCUESTADORES Y CODIFICADORES</fullName>
+                <default>false</default>
+                <label>INVESTIGACION - ENCUESTADORES Y CODIFICADORES</label>
+            </value>
+            <value>
+                <fullName>INVESTIGACION - FISICOS ASTRONOMOS</fullName>
+                <default>false</default>
+                <label>INVESTIGACION - FISICOS ASTRONOMOS</label>
+            </value>
+            <value>
+                <fullName>INVESTIGACION - GEOLOGOS, GEOQUIMICOS, GEOFISICOS Y GEOGRAFOS</fullName>
+                <default>false</default>
+                <label>INVESTIGACION - GEOLOGOS, GEOQUIMICOS, GEOFISICOS Y GEOGRAFOS</label>
+            </value>
+            <value>
+                <fullName>INVESTIGACION - INVESTIGADORES Y CONSULTORES EN MERCADOTECNIA</fullName>
+                <default>false</default>
+                <label>INVESTIGACION - INVESTIGADORES Y CONSULTORES EN MERCADOTECNIA</label>
+            </value>
+            <value>
+                <fullName>INVESTIGACION - MATEMATICOS, ESTADISTICOS Y ACTUARIOS</fullName>
+                <default>false</default>
+                <label>INVESTIGACION - MATEMATICOS, ESTADISTICOS Y ACTUARIOS</label>
+            </value>
+            <value>
+                <fullName>INVESTIGACION - METEOROLOGOS</fullName>
+                <default>false</default>
+                <label>INVESTIGACION - METEOROLOGOS</label>
+            </value>
+            <value>
+                <fullName>INVESTIGACION - QUIMICOS Y/O TECNICOS EN QUIMICA</fullName>
+                <default>false</default>
+                <label>INVESTIGACION - QUIMICOS Y/O TECNICOS EN QUIMICA</label>
+            </value>
+            <value>
+                <fullName>INVESTIGACION - SOCIOLOGOS, ANTROPOLOGOS E HISTORIADORES</fullName>
+                <default>false</default>
+                <label>INVESTIGACION - SOCIOLOGOS, ANTROPOLOGOS E HISTORIADORES</label>
+            </value>
+            <value>
+                <fullName>LIMPIEZA - FUMIGADORES DE PLAGAS</fullName>
+                <default>false</default>
+                <label>LIMPIEZA - FUMIGADORES DE PLAGAS</label>
+            </value>
+            <value>
+                <fullName>LIMPIEZA - SERVICIOS DE CAMARISTAS Y ASEADORES</fullName>
+                <default>false</default>
+                <label>LIMPIEZA - SERVICIOS DE CAMARISTAS Y ASEADORES</label>
+            </value>
+            <value>
+                <fullName>LIMPIEZA - TRABAJADORES DE TINTORERIA Y LAVANDERIA</fullName>
+                <default>false</default>
+                <label>LIMPIEZA - TRABAJADORES DE TINTORERIA Y LAVANDERIA</label>
+            </value>
+            <value>
+                <fullName>MADERA, PAPEL, Y PIEL - TRABAJADORES EN LA FABRICACION DE MUEBLES O PRODUCTOS DE MADERA Y/O PIEL</fullName>
+                <default>false</default>
+                <label>MADERA, PAPEL, Y PIEL - TRABAJADORES EN LA FABRICACION DE MUEBLES O PRODUCTOS DE MADERA Y/O PIEL</label>
+            </value>
+            <value>
+                <fullName>MECANICA - INGENIERO O MECANICOS INSTALADORES DE MAQUINARIA INDUSTRIAL</fullName>
+                <default>false</default>
+                <label>MECANICA - INGENIERO O MECANICOS INSTALADORES DE MAQUINARIA INDUSTRIAL</label>
+            </value>
+            <value>
+                <fullName>MECANICA - INGENIERO O TECNICO EN MECANICA DE VEHICULOS TERRESTRES, AEREOS Y ACUATICOS</fullName>
+                <default>false</default>
+                <label>MECANICA - INGENIERO O TECNICO EN MECANICA DE VEHICULOS TERRESTRES, AEREOS Y ACUATICOS</label>
+            </value>
+            <value>
+                <fullName>MECANICA - MECANICOS DE EQUIPO PESADO</fullName>
+                <default>false</default>
+                <label>MECANICA - MECANICOS DE EQUIPO PESADO</label>
+            </value>
+            <value>
+                <fullName>METALES - SUPERVISORES U OPERADORES DE PROCESAMIENTO Y FUNDICION DE METALES</fullName>
+                <default>false</default>
+                <label>METALES - SUPERVISORES U OPERADORES DE PROCESAMIENTO Y FUNDICION DE METALES</label>
+            </value>
+            <value>
+                <fullName>MINERALES NO METALICOS - OPERADORES DE MAQUINAS PROCESADORAS DE MINERALES NO METALICOS</fullName>
+                <default>false</default>
+                <label>MINERALES NO METALICOS - OPERADORES DE MAQUINAS PROCESADORAS DE MINERALES NO METALICOS</label>
+            </value>
+            <value>
+                <fullName>MINERALES NO METALICOS - OPERADORES O TRABAJADORES DE VIDRIO Y CONCRETO</fullName>
+                <default>false</default>
+                <label>MINERALES NO METALICOS - OPERADORES O TRABAJADORES DE VIDRIO Y CONCRETO</label>
+            </value>
+            <value>
+                <fullName>MINERIA, EXTRACCION Y SUMINISTRO - AYUDANTES EN LA PERFORACION DE POZOS DE PETROLEO Y GAS NATURAL</fullName>
+                <default>false</default>
+                <label>MINERIA, EXTRACCION Y SUMINISTRO - AYUDANTES EN LA PERFORACION DE POZOS DE PETROLEO Y GAS NATURAL</label>
+            </value>
+            <value>
+                <fullName>MINERIA, EXTRACCION Y SUMINISTRO - GERENTE, SUPERVISOR U OPERADORES DE  TRATAMIENTO Y POTABILIZACION, ABASTECIMIENTO Y RECOLECCION DE AGUA</fullName>
+                <default>false</default>
+                <label>MINERIA, EXTRACCION Y SUMINISTRO - GERENTE, SUPERVISOR U OPERADORES DE  TRATAMIENTO Y POTABILIZACION, ABASTECIMIENTO Y RECOLECCION DE AGUA</label>
+            </value>
+            <value>
+                <fullName>MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS PETROLEROS</fullName>
+                <default>false</default>
+                <label>MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS PETROLEROS</label>
+            </value>
+            <value>
+                <fullName>MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS, OPERADORES O AYUDANTES EN LA EXTRACCION Y REFINACION MINERA</fullName>
+                <default>false</default>
+                <label>MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS, OPERADORES O AYUDANTES EN LA EXTRACCION Y REFINACION MINERA</label>
+            </value>
+            <value>
+                <fullName>MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE CENTRALES O SISTEMAS  DE ENERGIA ELECTRICAS</fullName>
+                <default>false</default>
+                <label>MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE CENTRALES O SISTEMAS  DE ENERGIA ELECTRICAS</label>
+            </value>
+            <value>
+                <fullName>MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE MAQUINAS DE VAPOR</fullName>
+                <default>false</default>
+                <label>MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE MAQUINAS DE VAPOR</label>
+            </value>
+            <value>
+                <fullName>MINERIA, EXTRACCION Y SUMINISTRO - TECNICOS GEOLOGICOS Y DE MINERALES</fullName>
+                <default>false</default>
+                <label>MINERIA, EXTRACCION Y SUMINISTRO - TECNICOS GEOLOGICOS Y DE MINERALES</label>
+            </value>
+            <value>
+                <fullName>NO APLICA</fullName>
+                <default>false</default>
+                <label>NO APLICA</label>
+            </value>
+            <value>
+                <fullName>ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES - EMPLEADOS DE ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</fullName>
+                <default>false</default>
+                <label>ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES - EMPLEADOS DE ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</label>
+            </value>
+            <value>
+                <fullName>OTRAS OCUPACIONES - AGENTE ADUANAL</fullName>
+                <default>false</default>
+                <label>OTRAS OCUPACIONES - AGENTE ADUANAL</label>
+            </value>
+            <value>
+                <fullName>OTRAS OCUPACIONES - AMA DE CASA O QUEHACERES DEL HOGAR</fullName>
+                <default>false</default>
+                <label>OTRAS OCUPACIONES - AMA DE CASA O QUEHACERES DEL HOGAR</label>
+            </value>
+            <value>
+                <fullName>OTRAS OCUPACIONES - DESEMPLEADO</fullName>
+                <default>false</default>
+                <label>OTRAS OCUPACIONES - DESEMPLEADO</label>
+            </value>
+            <value>
+                <fullName>OTRAS OCUPACIONES - ESTUDIANTE O MENOR DE EDAD SIN OCUPACION</fullName>
+                <default>false</default>
+                <label>OTRAS OCUPACIONES - ESTUDIANTE O MENOR DE EDAD SIN OCUPACION</label>
+            </value>
+            <value>
+                <fullName>OTRAS OCUPACIONES - JUBILADO O PENSIONADO</fullName>
+                <default>false</default>
+                <label>OTRAS OCUPACIONES - JUBILADO O PENSIONADO</label>
+            </value>
+            <value>
+                <fullName>OTRAS OCUPACIONES - MINISTROS DE CULTO RELIGIOSO (SACERDOTE, PASTOR, MONJA, ETC)</fullName>
+                <default>false</default>
+                <label>OTRAS OCUPACIONES - MINISTROS DE CULTO RELIGIOSO (SACERDOTE, PASTOR, MONJA, ETC)</label>
+            </value>
+            <value>
+                <fullName>OTRAS OCUPACIONES - PROPIETARIO, ACCIONISTA O SOCIO</fullName>
+                <default>false</default>
+                <label>OTRAS OCUPACIONES - PROPIETARIO, ACCIONISTA O SOCIO</label>
+            </value>
+            <value>
+                <fullName>PESCA Y ACUACULTURA - PESCADORES Y TRABAJADORES EN LA CRIA Y CULTIVO DE ESPECIES MARINAS</fullName>
+                <default>false</default>
+                <label>PESCA Y ACUACULTURA - PESCADORES Y TRABAJADORES EN LA CRIA Y CULTIVO DE ESPECIES MARINAS</label>
+            </value>
+            <value>
+                <fullName>PROCESOS INDUSTRIALES - INGENIERO O TECNICOS INDUSTRIAL Y DE PRODUCCION</fullName>
+                <default>false</default>
+                <label>PROCESOS INDUSTRIALES - INGENIERO O TECNICOS INDUSTRIAL Y DE PRODUCCION</label>
+            </value>
+            <value>
+                <fullName>PROCESOS INDUSTRIALES - INGENIEROS METALURGICOS Y DE MATERIALES</fullName>
+                <default>false</default>
+                <label>PROCESOS INDUSTRIALES - INGENIEROS METALURGICOS Y DE MATERIALES</label>
+            </value>
+            <value>
+                <fullName>PRODUCTOS ELECTRICOS Y ELECTRONICOS - TRABAJADORES EN LA FABRICACION DE PRODUCTOS ELECTRICOS Y ELECTRONICOS</fullName>
+                <default>false</default>
+                <label>PRODUCTOS ELECTRICOS Y ELECTRONICOS - TRABAJADORES EN LA FABRICACION DE PRODUCTOS ELECTRICOS Y ELECTRONICOS</label>
+            </value>
+            <value>
+                <fullName>PRODUCTOS IMPRESOS - TRABAJADORES EN LA ELABORACION DE PRODUCTOS IMPRESOS</fullName>
+                <default>false</default>
+                <label>PRODUCTOS IMPRESOS - TRABAJADORES EN LA ELABORACION DE PRODUCTOS IMPRESOS</label>
+            </value>
+            <value>
+                <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - ENSAMBLADORES Y ACABADORES DE PRODUCTOS DE PLASTICO</fullName>
+                <default>false</default>
+                <label>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - ENSAMBLADORES Y ACABADORES DE PRODUCTOS DE PLASTICO</label>
+            </value>
+            <value>
+                <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - FABRICANTES DE HERRAMIENTAS Y TROQUELES</fullName>
+                <default>false</default>
+                <label>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - FABRICANTES DE HERRAMIENTAS Y TROQUELES</label>
+            </value>
+            <value>
+                <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - HERREROS Y FORJADORES</fullName>
+                <default>false</default>
+                <label>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - HERREROS Y FORJADORES</label>
+            </value>
+            <value>
+                <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - JOYEROS Y ORFEBRES</fullName>
+                <default>false</default>
+                <label>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - JOYEROS Y ORFEBRES</label>
+            </value>
+            <value>
+                <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SOLDADORES Y OXICORTADORES</fullName>
+                <default>false</default>
+                <label>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SOLDADORES Y OXICORTADORES</label>
+            </value>
+            <value>
+                <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SUPERVISORES EN LA FABRICACION Y MONTAJE DE ARTICULOS DEPORTIVOS, DE JUGUETES Y SIMILARES</fullName>
+                <default>false</default>
+                <label>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SUPERVISORES EN LA FABRICACION Y MONTAJE DE ARTICULOS DEPORTIVOS, DE JUGUETES Y SIMILARES</label>
+            </value>
+            <value>
+                <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES  EN LA FABRICACION DE PRODUCTOS METALICOS, DE HULE Y PLASTICOS</fullName>
+                <default>false</default>
+                <label>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES  EN LA FABRICACION DE PRODUCTOS METALICOS, DE HULE Y PLASTICOS</label>
+            </value>
+            <value>
+                <fullName>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES EN EL ENSAMBLADO DE VEHICULOS, MOLDEADO, LAMINADO Y MONTAJE DE PIEZAS METALICAS, HULE O PLASTICO</fullName>
+                <default>false</default>
+                <label>PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES EN EL ENSAMBLADO DE VEHICULOS, MOLDEADO, LAMINADO Y MONTAJE DE PIEZAS METALICAS, HULE O PLASTICO</label>
+            </value>
+            <value>
+                <fullName>PRODUCTOS QUIMICOS - TRABAJADORES EN EL PROCESAMIENTO Y FABRICACION DE PRODUCTOS QUIMICOS Y FARMACOQUIMICAS</fullName>
+                <default>false</default>
+                <label>PRODUCTOS QUIMICOS - TRABAJADORES EN EL PROCESAMIENTO Y FABRICACION DE PRODUCTOS QUIMICOS Y FARMACOQUIMICAS</label>
+            </value>
+            <value>
+                <fullName>PROTECCION DE BIENES Y/O PERSONAS - BOMBEROS</fullName>
+                <default>false</default>
+                <label>PROTECCION DE BIENES Y/O PERSONAS - BOMBEROS</label>
+            </value>
+            <value>
+                <fullName>PROTECCION DE BIENES Y/O PERSONAS - DETECTIVES PRIVADOS</fullName>
+                <default>false</default>
+                <label>PROTECCION DE BIENES Y/O PERSONAS - DETECTIVES PRIVADOS</label>
+            </value>
+            <value>
+                <fullName>PROTECCION DE BIENES Y/O PERSONAS - GUARDIAS DE SEGURIDAD</fullName>
+                <default>false</default>
+                <label>PROTECCION DE BIENES Y/O PERSONAS - GUARDIAS DE SEGURIDAD</label>
+            </value>
+            <value>
+                <fullName>PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - DIRECTORES, GERENTES Y EMPLEADOS DE PUBLICIDAD</fullName>
+                <default>false</default>
+                <label>PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - DIRECTORES, GERENTES Y EMPLEADOS DE PUBLICIDAD</label>
+            </value>
+            <value>
+                <fullName>PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - MODELOS Y EDECANES</fullName>
+                <default>false</default>
+                <label>PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - MODELOS Y EDECANES</label>
+            </value>
+            <value>
+                <fullName>RADIO, CINE, TELEVISION Y TEATRO - ASISTENTES Y/U OPERADORES DE PRODUCCION DE CINE, RADIO Y TELEVISION</fullName>
+                <default>false</default>
+                <label>RADIO, CINE, TELEVISION Y TEATRO - ASISTENTES Y/U OPERADORES DE PRODUCCION DE CINE, RADIO Y TELEVISION</label>
+            </value>
+            <value>
+                <fullName>RADIO, CINE, TELEVISION Y TEATRO - DISEÑADORES GRAFICOS</fullName>
+                <default>false</default>
+                <label>RADIO, CINE, TELEVISION Y TEATRO - DISEÑADORES GRAFICOS</label>
+            </value>
+            <value>
+                <fullName>RADIO, CINE, TELEVISION Y TEATRO - EDITORES, PERIODISTAS, REPORTEROS Y REDACTORES</fullName>
+                <default>false</default>
+                <label>RADIO, CINE, TELEVISION Y TEATRO - EDITORES, PERIODISTAS, REPORTEROS Y REDACTORES</label>
+            </value>
+            <value>
+                <fullName>RADIO, CINE, TELEVISION Y TEATRO - LOCUTORES, COMENTARISTAS Y CRONISTAS DE RADIO Y TELEVISION</fullName>
+                <default>false</default>
+                <label>RADIO, CINE, TELEVISION Y TEATRO - LOCUTORES, COMENTARISTAS Y CRONISTAS DE RADIO Y TELEVISION</label>
+            </value>
+            <value>
+                <fullName>RADIO, CINE, TELEVISION Y TEATRO - PRODUCTORES Y DIRECTORES DE CINE, TELEVISION Y TEATRO</fullName>
+                <default>false</default>
+                <label>RADIO, CINE, TELEVISION Y TEATRO - PRODUCTORES Y DIRECTORES DE CINE, TELEVISION Y TEATRO</label>
+            </value>
+            <value>
+                <fullName>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - CERRAJEROS</fullName>
+                <default>false</default>
+                <label>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - CERRAJEROS</label>
+            </value>
+            <value>
+                <fullName>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - RELOJEROS Y REPARADORES DE RELOJES</fullName>
+                <default>false</default>
+                <label>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - RELOJEROS Y REPARADORES DE RELOJES</label>
+            </value>
+            <value>
+                <fullName>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE APARATOS ELECTRICOS</fullName>
+                <default>false</default>
+                <label>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE APARATOS ELECTRICOS</label>
+            </value>
+            <value>
+                <fullName>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE ARTICULOS DE HULE</fullName>
+                <default>false</default>
+                <label>REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE ARTICULOS DE HULE</label>
+            </value>
+            <value>
+                <fullName>SECTOR PUBLICO - EJERCITO, ARMADA Y FUERZA AEREA</fullName>
+                <default>false</default>
+                <label>SECTOR PUBLICO - EJERCITO, ARMADA Y FUERZA AEREA</label>
+            </value>
+            <value>
+                <fullName>SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO FEDERAL</fullName>
+                <default>false</default>
+                <label>SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO MUNICIPAL O DELEGACIONAL</fullName>
+                <default>false</default>
+                <label>SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO MUNICIPAL O DELEGACIONAL</label>
+            </value>
+            <value>
+                <fullName>SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL ESTATAL O DEL DISTRITO FEDERAL</fullName>
+                <default>false</default>
+                <label>SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL ESTATAL O DEL DISTRITO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL FEDERAL</fullName>
+                <default>false</default>
+                <label>SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL FEDERAL</label>
+            </value>
+            <value>
+                <fullName>SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO ESTATAL O DEL DISTRITO FEDERAL</fullName>
+                <default>false</default>
+                <label>SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO ESTATAL O DEL DISTRITO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO FEDERAL</fullName>
+                <default>false</default>
+                <label>SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>SECTOR PUBLICO - EMPLEADO PODER EJECUTIVO ESTATAL O DEL DISTRITO FEDERAL</fullName>
+                <default>false</default>
+                <label>SECTOR PUBLICO - EMPLEADO PODER EJECUTIVO ESTATAL O DEL DISTRITO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>SEGURIDAD SOCIAL - CONSEJEROS DE EMPLEO</fullName>
+                <default>false</default>
+                <label>SEGURIDAD SOCIAL - CONSEJEROS DE EMPLEO</label>
+            </value>
+            <value>
+                <fullName>SEGURIDAD SOCIAL - TRABAJADORES DE SERVICIO SOCIAL Y DE LA COMUNIDAD</fullName>
+                <default>false</default>
+                <label>SEGURIDAD SOCIAL - TRABAJADORES DE SERVICIO SOCIAL Y DE LA COMUNIDAD</label>
+            </value>
+            <value>
+                <fullName>SERVICIO POSTAL Y MENSAJERIA - EMPLEADOS DE SERVICIOS DE MENSAJERIA</fullName>
+                <default>false</default>
+                <label>SERVICIO POSTAL Y MENSAJERIA - EMPLEADOS DE SERVICIOS DE MENSAJERIA</label>
+            </value>
+            <value>
+                <fullName>SERVICIOS LEGALES - ABOGADOS Y ASESORES LEGALES</fullName>
+                <default>false</default>
+                <label>SERVICIOS LEGALES - ABOGADOS Y ASESORES LEGALES</label>
+            </value>
+            <value>
+                <fullName>SERVICIOS LEGALES - NOTARIOS Y CORREDORES PUBLICOS</fullName>
+                <default>false</default>
+                <label>SERVICIOS LEGALES - NOTARIOS Y CORREDORES PUBLICOS</label>
+            </value>
+            <value>
+                <fullName>SERVICIOS MEDICOS - DIETISTAS Y NUTRIOLOGOS</fullName>
+                <default>false</default>
+                <label>SERVICIOS MEDICOS - DIETISTAS Y NUTRIOLOGOS</label>
+            </value>
+            <value>
+                <fullName>SERVICIOS MEDICOS - DIRECTORES DE INSTITUCIONES EN EL CUIDADO DE LA SALUD</fullName>
+                <default>false</default>
+                <label>SERVICIOS MEDICOS - DIRECTORES DE INSTITUCIONES EN EL CUIDADO DE LA SALUD</label>
+            </value>
+            <value>
+                <fullName>SERVICIOS MEDICOS - ENFERMERAS Y/O PARAMEDICOS</fullName>
+                <default>false</default>
+                <label>SERVICIOS MEDICOS - ENFERMERAS Y/O PARAMEDICOS</label>
+            </value>
+            <value>
+                <fullName>SERVICIOS MEDICOS - FARMACEUTICOS</fullName>
+                <default>false</default>
+                <label>SERVICIOS MEDICOS - FARMACEUTICOS</label>
+            </value>
+            <value>
+                <fullName>SERVICIOS MEDICOS - FISIOTERAPEUTAS Y QUIROPRACTICOS</fullName>
+                <default>false</default>
+                <label>SERVICIOS MEDICOS - FISIOTERAPEUTAS Y QUIROPRACTICOS</label>
+            </value>
+            <value>
+                <fullName>SERVICIOS MEDICOS - MEDICOS ESPECIALISTAS</fullName>
+                <default>false</default>
+                <label>SERVICIOS MEDICOS - MEDICOS ESPECIALISTAS</label>
+            </value>
+            <value>
+                <fullName>SERVICIOS MEDICOS - MEDICOS GENERALES Y FAMILIARES</fullName>
+                <default>false</default>
+                <label>SERVICIOS MEDICOS - MEDICOS GENERALES Y FAMILIARES</label>
+            </value>
+            <value>
+                <fullName>SERVICIOS MEDICOS - TECNICOS DE LABORATORIO MEDICO</fullName>
+                <default>false</default>
+                <label>SERVICIOS MEDICOS - TECNICOS DE LABORATORIO MEDICO</label>
+            </value>
+            <value>
+                <fullName>SERVICIOS PERSONALES - ESTILISTAS, ESTETICISTAS Y MASAJISTAS</fullName>
+                <default>false</default>
+                <label>SERVICIOS PERSONALES - ESTILISTAS, ESTETICISTAS Y MASAJISTAS</label>
+            </value>
+            <value>
+                <fullName>SERVICIOS PERSONALES - TRBAJADORES DE SERVICIOS FUNERARIOS O CEMENTERIOS</fullName>
+                <default>false</default>
+                <label>SERVICIOS PERSONALES - TRBAJADORES DE SERVICIOS FUNERARIOS O CEMENTERIOS</label>
+            </value>
+            <value>
+                <fullName>TELECOMUNICACIONES - INGENIERO, INSTALADORES Y REPARADORES DE EQUIPOS Y ACCESORIOS DE TELECOMUNICACIONES</fullName>
+                <default>false</default>
+                <label>TELECOMUNICACIONES - INGENIERO, INSTALADORES Y REPARADORES DE EQUIPOS Y ACCESORIOS DE TELECOMUNICACIONES</label>
+            </value>
+            <value>
+                <fullName>TELECOMUNICACIONES - TELEGRAFISTAS Y RADIO-OPERADORES</fullName>
+                <default>false</default>
+                <label>TELECOMUNICACIONES - TELEGRAFISTAS Y RADIO-OPERADORES</label>
+            </value>
+            <value>
+                <fullName>TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES DE REPARACION DE PRENDAS DE VESTIR Y CALZADO</fullName>
+                <default>false</default>
+                <label>TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES DE REPARACION DE PRENDAS DE VESTIR Y CALZADO</label>
+            </value>
+            <value>
+                <fullName>TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES EN LA PRODUCCION DE TEXTILES, PRENDAS DE VESTIR Y CALZADO</fullName>
+                <default>false</default>
+                <label>TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES EN LA PRODUCCION DE TEXTILES, PRENDAS DE VESTIR Y CALZADO</label>
+            </value>
+            <value>
+                <fullName>TRADUCCION E INTERPRETACION LINGüISTICA - INTERPRETES Y/O TRADUCTORES</fullName>
+                <default>false</default>
+                <label>TRADUCCION E INTERPRETACION LINGüISTICA - INTERPRETES Y/O TRADUCTORES</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTE AEREO - COORDINADORES Y SUPERVISORES EN SERVICIOS DE TRANSPORTE AEREO</fullName>
+                <default>false</default>
+                <label>TRANSPORTE AEREO - COORDINADORES Y SUPERVISORES EN SERVICIOS DE TRANSPORTE AEREO</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTE AEREO - DESPACHADORES DE VUELO Y ESPECIALISTAS EN SERVICIOS AEREOS</fullName>
+                <default>false</default>
+                <label>TRANSPORTE AEREO - DESPACHADORES DE VUELO Y ESPECIALISTAS EN SERVICIOS AEREOS</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTE AEREO - PILOTOS DE AVIACION E INSTRUCTORES DE VUELO</fullName>
+                <default>false</default>
+                <label>TRANSPORTE AEREO - PILOTOS DE AVIACION E INSTRUCTORES DE VUELO</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTE AEREO - SOBRECARGOS</fullName>
+                <default>false</default>
+                <label>TRANSPORTE AEREO - SOBRECARGOS</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTE AEREO - SUPERVISORES DE SISTEMAS DE COMUNICACION PARA LA AERONAVEGACION</fullName>
+                <default>false</default>
+                <label>TRANSPORTE AEREO - SUPERVISORES DE SISTEMAS DE COMUNICACION PARA LA AERONAVEGACION</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTE FERROVIARIO - CONDUCTORES Y OPERADORES DE TREN SUBTERRANEO Y DE TREN LIGERO</fullName>
+                <default>false</default>
+                <label>TRANSPORTE FERROVIARIO - CONDUCTORES Y OPERADORES DE TREN SUBTERRANEO Y DE TREN LIGERO</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTE FERROVIARIO - TRABAJADORES DE FERROCARRILES</fullName>
+                <default>false</default>
+                <label>TRANSPORTE FERROVIARIO - TRABAJADORES DE FERROCARRILES</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTE MARITIMO Y FLUVIAL - CONDUCTORES DE EMBARCACIONES</fullName>
+                <default>false</default>
+                <label>TRANSPORTE MARITIMO Y FLUVIAL - CONDUCTORES DE EMBARCACIONES</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTE MARITIMO Y FLUVIAL - JEFES Y CONTROLADORES DE TRAFICO MARITIMO</fullName>
+                <default>false</default>
+                <label>TRANSPORTE MARITIMO Y FLUVIAL - JEFES Y CONTROLADORES DE TRAFICO MARITIMO</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTE MARITIMO Y FLUVIAL - PILOTOS, CAPITANES DE PUERTOS Y OFICIALES DE CUBIERTA</fullName>
+                <default>false</default>
+                <label>TRANSPORTE MARITIMO Y FLUVIAL - PILOTOS, CAPITANES DE PUERTOS Y OFICIALES DE CUBIERTA</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTE TERRESTRE - CONDUCTORES DE VEHICULOS DE TRANSPORTE, SERVICIOS DE CARGA Y/O REPARTO</fullName>
+                <default>false</default>
+                <label>TRANSPORTE TERRESTRE - CONDUCTORES DE VEHICULOS DE TRANSPORTE, SERVICIOS DE CARGA Y/O REPARTO</label>
+            </value>
+            <value>
+                <fullName>TURISMO - COORDINADORES DE OPERACIONES EN AGENCIAS DE VIAJES</fullName>
+                <default>false</default>
+                <label>TURISMO - COORDINADORES DE OPERACIONES EN AGENCIAS DE VIAJES</label>
+            </value>
+            <value>
+                <fullName>TURISMO - GUIAS DE EXCURSIONES O ECOTURISTICO</fullName>
+                <default>false</default>
+                <label>TURISMO - GUIAS DE EXCURSIONES O ECOTURISTICO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

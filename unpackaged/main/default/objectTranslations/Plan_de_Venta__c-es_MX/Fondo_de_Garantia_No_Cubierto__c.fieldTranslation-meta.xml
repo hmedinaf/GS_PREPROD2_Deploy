@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fondo de Garantía No Cubierto --></label>
+        <name>Fondo_de_Garantia_No_Cubierto__c</name>
+    </CustomFieldTranslation>

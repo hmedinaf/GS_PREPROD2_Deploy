@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Titular_Municipio_RFCempresa_Act</fullName>
+    <active>false</active>
+    <description>Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo Municipio, RFC empresa o Acitividad/Profeción/Ocupación.</description>
+    <errorConditionFormula>AND
+(
+Es_usted_el_titular_de_recursos__c == &quot;NO&quot;,
+OR(
+ISNULL(MunicipioTercero__c),
+ISBLANK(MunicipioTercero__c),
+ISNULL(RFC_Empresa__c),
+ISBLANK(RFC_Empresa__c),
+ISNULL(TEXT(Actividad_Profesi_n_Ocupaci_n__c)),
+ISBLANK(TEXT(Actividad_Profesi_n_Ocupaci_n__c))
+)
+)</errorConditionFormula>
+    <errorMessage>Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo Municipio, RFC empresa o Acitividad/Profeción/Ocupación.</errorMessage>
+</ValidationRule>

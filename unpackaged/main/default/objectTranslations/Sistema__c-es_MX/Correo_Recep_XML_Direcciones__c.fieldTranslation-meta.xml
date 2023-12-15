@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Direcciones destino. Las direcciones se separan con dos puntos (&quot;:&quot;) --></help>
+        <label><!-- Correo Recep.XML-Direcciones --></label>
+        <name>Correo_Recep_XML_Direcciones__c</name>
+    </CustomFieldTranslation>

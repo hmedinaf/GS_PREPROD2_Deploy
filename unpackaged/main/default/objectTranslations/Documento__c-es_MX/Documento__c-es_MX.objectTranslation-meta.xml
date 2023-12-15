@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Documento</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Documentos</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Nota de Crédito</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Pagaré</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- FacturaNoSeUsa --></label>
+        <name>Factura</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Nota de Crédito --></label>
+        <name>Nota_Credito</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Factura --></label>
+        <name>Pagare</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Pago realizado por el cliente o por la Financiera por motivo de la compra de la vivienda Javer --></description>
+        <label><!-- Recibo de Pago --></label>
+        <name>Recibo</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Solo puede crear el documento cuando el Estatus del Proceso de Venta es Escriturado o Entregado --></errorMessage>
+        <name>Creacion_APC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo puede crear el documento cuando el Estatus del Proceso de Venta es Formalizado y el Subestatus del proceso es En Progreso --></errorMessage>
+        <name>Creacion_Cobranza_Comercial</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo puede editar el documento cuando el Estatus del Proceso de Venta es Escriturado o Entregado --></errorMessage>
+        <name>Edicion_APC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo puede editar el documento cuando el SubEstatus del Proceso En Progreso --></errorMessage>
+        <name>Edicion_Cobranza_Comercial</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha de vencimiento debe ser mayor o igual a la fecha actual --></errorMessage>
+        <name>Fecha_Vencimiento_Mayor_o_Igual_a_Hoy</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha de vencimiento debe ser Máximo 30 dias posteriores a la fecha actual --></errorMessage>
+        <name>Fecha_Vewncimiento_Menor_o_Igual_a_30Dia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se permiten importes negativos --></errorMessage>
+        <name>No_Valores_Negativos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene permitido el tipo de nota de crédito seleccionado --></errorMessage>
+        <name>Valores_Tipo_Nota_Credito_Usuarios_APC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene permitido el tipo de nota de crédito seleccionado --></errorMessage>
+        <name>Valores_Tipo_Nota_Credito_Usuarios_Todos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene permitido el tipo de pagaré seleccionado --></errorMessage>
+        <name>Valores_Tipo_Pagare_Usuarios_APC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene permitido el tipo de pagaré seleccionado --></errorMessage>
+        <name>Valores_Tipo_Pagare_Usuarios_Todos</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,26 @@
+<apex:page showHeader="false" sidebar="false" >
+    <apex:slds /> <apex:includeLightning />
+    <html>
+        <style type="text/css">
+            @font-face {
+            font-family: 'ManoropeFont';
+            src: url('{!URLFOR($Resource.ManoropeFont, '/static/Manrope-Medium.ttf')}');
+            }
+            body {
+            font-family: ManoropeFont;
+            }
+        </style> 
+        <body >
+            <div  id="LightningComponentid" />  
+        </body>
+    </html>
+    <script>
+    $Lightning.use("c:JaverApp", function() {
+        $Lightning.createComponent("c:RegistrationPage",
+                                   { },
+                                   "LightningComponentid",
+                                   function(cmp) {
+                                   });
+    });
+    </script>
+</apex:page>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_cerrar_si_esta_vencida</fullName>
+    <active>true</active>
+    <description>No puedes cerrar una garantia si esta vencida</description>
+    <errorConditionFormula>ISPICKVAL( Status__c , &quot;Cerrado&quot;) &amp;&amp; NOT(Garantiavencida__c ==false)
+ &amp;&amp; ISCHANGED(Status__c)</errorConditionFormula>
+    <errorMessage>No puedes cerrar un caso si este se encuentra vencido
+Favor de mandar a aprobación</errorMessage>
+</ValidationRule>

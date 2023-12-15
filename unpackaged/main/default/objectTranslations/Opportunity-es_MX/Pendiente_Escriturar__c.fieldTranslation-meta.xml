@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pendiente Escriturar --></label>
+        <name>Pendiente_Escriturar__c</name>
+        <picklistValues>
+            <masterLabel>Decisión del Cliente</masterLabel>
+            <translation><!-- Decisión del Cliente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desperfilado</masterLabel>
+            <translation><!-- Desperfilado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enganche</masterLabel>
+            <translation><!-- Enganche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hasta próximo Bimestre</masterLabel>
+            <translation><!-- Hasta próximo Bimestre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros Créditos</masterLabel>
+            <translation><!-- Otros Créditos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin Pendientes</masterLabel>
+            <translation><!-- Sin Pendientes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tramitología</masterLabel>
+            <translation><!-- Tramitología --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venta sin DTU</masterLabel>
+            <translation><!-- Venta sin DTU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ventas sin DTU Entregable</masterLabel>
+            <translation><!-- Ventas sin DTU Entregable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ventas sin DTU No Entregable</masterLabel>
+            <translation><!-- Ventas sin DTU No Entregable --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

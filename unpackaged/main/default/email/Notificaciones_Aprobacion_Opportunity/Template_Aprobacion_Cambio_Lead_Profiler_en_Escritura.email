@@ -1,0 +1,49 @@
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  font-color: white !important;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} 
+.button2 {background-color: red;} 
+</style>
+</head>
+<div style="width:100%;font-family:arial;">
+   <img src="https://javer--preprod.sandbox.my.salesforce.com/servlet/servlet.ImageServer?id=01523000001ZUVX&oid=00D2300000092X5" />
+
+<p style="margin-top:20px;font-size:12pt; ">Para el proceso "{!Plan_de_Venta__c.Name}", Se solicita su revisión y es su caso, la aprobación correspondiente:</p>
+<div style="margin-top:20px;font-size:11pt">
+
+<p style="margin:0;">Solicitante: </p>
+<p style="margin:0;">Cliente: {!Opportunity.Cliente__c}</p>
+<p style="margin:0;">Fraccionamiento: {!Opportunity.Fraccionamiento__c}<//p>
+<p style="margin:0;">Prototipo: {!Opportunity.Prototipo__c}</p>
+<p style="margin:0;">Proceso de Venta: {!Opportunity.Proceso_de_Venta_Formula__c}</p>
+<p style="margin:0;">Valor Operación: {!Post_Venta__c.Valor_de_operacion__c}</p>
+<p style="margin:0;">Rol de Venta: {!Opportunity.Revision_Rol_de_Venta__c}</p>
+<p style="margin:0;">Lead anterior: {!Opportunity.Lead_Profiler__c}</p>
+<p style="margin:0;">Fecha de asignación anterior: </p>
+<p style="margin:0;">Lead nuevo: </p>
+<p style="margin:0;">Fecha de Reserva: {!Opportunity.Fecha_de_Reserva__c}</p>
+<p style="margin:0;">Fecha de Formalización: {!Opportunity.Fecha_Formalizacion__c}</p>
+<p style="margin:0;">Motivo del cambio: {!Opportunity.Motivo_cambio_Lead_Profiler__c}</p>
+
+<p style="font-size:12pt">Selecciona tu respuesta utilizando los botones: :</p>
+<p style="font-size:12pt">  </p>
+
+</div>
+<div style="margin-top:20px;">
+    <a class="button button1" style="color:white;border-radius:5px;" href="https://javer--preprod.sandbox.my.salesforce-sites.com/public/apex/ApproveRequestHandler?id={!Plan_de_Venta__c.Id}&action=approve" target="_blank">Aprobar</a>
+<a class="button button2" style="color:white;border-radius:5px;" href="https://javer--preprod.sandbox.my.salesforce-sites.com/public/apex/ApproveRequestHandler?id={!Plan_de_Venta__c.Id}&action=reject" target="_blank">Rechazar</a>
+</div>
+</div>
+</html>

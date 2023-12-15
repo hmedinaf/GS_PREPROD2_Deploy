@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Razón Rechazo --></label>
+        <name>CPPTS_Razon_Rechazo__c</name>
+        <picklistValues>
+            <masterLabel>Aviso de Retención no firmado</masterLabel>
+            <translation><!-- Aviso de Retención no firmado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambio de Ciudad</masterLabel>
+            <translation><!-- Cambio de Ciudad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambio de Empleo</masterLabel>
+            <translation><!-- Cambio de Empleo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelación Con Financiera</masterLabel>
+            <translation><!-- Cancelación Con Financiera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crédito Denegado</masterLabel>
+            <translation><!-- Crédito Denegado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desempleo</masterLabel>
+            <translation><!-- Desempleo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error de RFC</masterLabel>
+            <translation><!-- Error de RFC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excepción APC</masterLabel>
+            <translation><!-- Excepción APC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta de Aportaciones</masterLabel>
+            <translation><!-- Falta de Aportaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta de Papelería</masterLabel>
+            <translation><!-- Falta de Papelería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homonimia</masterLabel>
+            <translation><!-- Homonimia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ilocalizable</masterLabel>
+            <translation><!-- Ilocalizable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motivos Personales</masterLabel>
+            <translation><!-- Motivos Personales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otra opción de compra</masterLabel>
+            <translation><!-- Otra opción de compra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Por error en captura</masterLabel>
+            <translation><!-- Por error en captura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problemas en la Construcción</masterLabel>
+            <translation><!-- Problemas en la Construcción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurso Vencido YY</masterLabel>
+            <translation><!-- Recurso Vencido YY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin relación laboral</masterLabel>
+            <translation><!-- Sin relación laboral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temas Económicos</masterLabel>
+            <translation><!-- Temas Económicos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiempo de Entrega</masterLabel>
+            <translation><!-- Tiempo de Entrega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ya cuenta con Subsidio</masterLabel>
+            <translation><!-- Ya cuenta con Subsidio --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Promo Precio en Rango de Fechas --></label>
+        <name>Promo_Precio_en_Rango_de_Fechas__c</name>
+    </CustomFieldTranslation>

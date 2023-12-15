@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notificacion__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Notificación</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Notificación a Ventas</fullName>
+                <default>false</default>
+                <label>Notificación a Ventas</label>
+            </value>
+            <value>
+                <fullName>Solicitud de Modificación de VO</fullName>
+                <default>false</default>
+                <label>Solicitud de Modificación de VO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Telefono_Trabajo_REGEX</fullName>
+    <active>true</active>
+    <description>Solo se permite el formato +52 o +1 y 10 digitos</description>
+    <errorConditionFormula>$User.is_Data_Migration_User__c = false &amp;&amp;
+IF(  NOT(ISBLANK(TelefonoTrabajo__c )), 
+OR(
+NOT(IF(LEFT(TelefonoTrabajo__c,3) =&#39;+52&#39;,true, IF(LEFT(TelefonoTrabajo__c,2) =&#39;+1&#39;, true,false))),
+RIGHT(TelefonoTrabajo__c , 10) == &#39;1111111111&#39;,
+RIGHT(TelefonoTrabajo__c  , 10) == &#39;2222222222&#39;,
+RIGHT(TelefonoTrabajo__c  , 10) == &#39;3333333333&#39;,
+RIGHT(TelefonoTrabajo__c , 10) == &#39;4444444444&#39;,
+RIGHT(TelefonoTrabajo__c , 10) == &#39;5555555555&#39;,
+RIGHT(TelefonoTrabajo__c , 10) == &#39;6666666666&#39;,
+RIGHT(TelefonoTrabajo__c , 10) == &#39;7777777777&#39;,
+RIGHT(TelefonoTrabajo__c , 10) == &#39;8888888888&#39;,
+RIGHT(TelefonoTrabajo__c , 10) == &#39;9999999999&#39;,
+RIGHT(TelefonoTrabajo__c , 10) == &#39;0000000000&#39;,
+IF(LEFT(TelefonoTrabajo__c,3) =&#39;+52&#39;,LEN(TelefonoTrabajo__c)&lt;&gt;13, IF(LEFT(TelefonoTrabajo__c,2) =&#39;+1&#39;, LEN(TelefonoTrabajo__c)&lt;&gt;12,true)),
+IF(LEFT(TelefonoTrabajo__c,3) =&#39;+52&#39;,NOT(REGEX(RIGHT(TelefonoTrabajo__c , 12), &quot;^[0-9]*$&quot;)), IF(LEFT(TelefonoTrabajo__c,2) =&#39;+1&#39;, NOT(REGEX(RIGHT(TelefonoTrabajo__c , 11), &quot;^[0-9]*$&quot;)),true))
+),
+false
+)</errorConditionFormula>
+    <errorDisplayField>TelefonoTrabajo__c</errorDisplayField>
+    <errorMessage>Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito</errorMessage>
+</ValidationRule>

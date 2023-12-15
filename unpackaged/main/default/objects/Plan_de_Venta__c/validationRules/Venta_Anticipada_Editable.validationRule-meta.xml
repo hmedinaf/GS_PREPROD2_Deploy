@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Venta_Anticipada_Editable</fullName>
+    <active>true</active>
+    <description>El campo Venta Anticipada solo es editable en los estatus: Reservado, Validado y Formalizado</description>
+    <errorConditionFormula>OR(ISCHANGED( Venta_Anticipada__c ) &amp;&amp;
+(
+   ISPICKVAL(Estatus_Plan_de_venta__c, &#39;Entregado&#39;) ||
+   ISPICKVAL(Estatus_Plan_de_venta__c, &#39;Cancelado&#39;) ||
+   ISPICKVAL(Estatus_Plan_de_venta__c, &#39;Escriturado&#39;)
+),
+ISCHANGED( Venta_Anticipada__c ) &amp;&amp;
+(
+   TEXT(Estatus_Plan_de_venta__c) = &#39;Por Aprobar&#39; ||
+   TEXT(Estatus_Plan_de_venta__c) = &#39;Aprobado&#39;							
+)
+			
+)</errorConditionFormula>
+    <errorDisplayField>Venta_Anticipada__c</errorDisplayField>
+    <errorMessage>El campo Venta Anticipada solo es editable en los estatus: Reservado, Validado y Formalizado ó Plan de venta igual a: Por Aprobar, Rechazado</errorMessage>
+</ValidationRule>

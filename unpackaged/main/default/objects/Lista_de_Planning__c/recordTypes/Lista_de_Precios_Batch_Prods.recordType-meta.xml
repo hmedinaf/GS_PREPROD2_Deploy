@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lista_de_Precios_Batch_Prods</fullName>
+    <active>true</active>
+    <description>Para registro master con RT &#39;Aprobación Listas de Precios Batch Prods&#39;</description>
+    <label>Lista de Precios Batch Prods</label>
+</RecordType>

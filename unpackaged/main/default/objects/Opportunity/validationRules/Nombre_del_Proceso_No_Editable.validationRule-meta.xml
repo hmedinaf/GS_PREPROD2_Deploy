@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nombre_del_Proceso_No_Editable</fullName>
+    <active>false</active>
+    <description>El nombre del Proceso No se Puede editar</description>
+    <errorConditionFormula>ISCHANGED( Name )</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>La referencia del Proceso de Venta no se puede editar</errorMessage>
+</ValidationRule>

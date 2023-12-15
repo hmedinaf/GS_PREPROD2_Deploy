@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Check_Apellido</fullName>
+    <active>false</active>
+    <description>Si la cuenta no tiene ingresado el apellido materno se debe seleccionar el check apellido</description>
+    <errorConditionFormula>AND(
+ OR(RecordType.DeveloperName = &#39;Prospecto_Persona_Fisica&#39;,
+  RecordType.DeveloperName = &#39;Afluente_Persona_Fisica&#39;,
+  RecordType.DeveloperName = &#39;Cliente_Persona_Fisica&#39;
+ ),
+ OR(ISBLANK(Apellidomaterno_cta__c),
+  ISBLANK(LastName)
+ ),
+ Check_Apellido__c = false
+)</errorConditionFormula>
+    <errorMessage>Check Apellido no esta seleccionado, favor de completar ambos apellidos</errorMessage>
+</ValidationRule>

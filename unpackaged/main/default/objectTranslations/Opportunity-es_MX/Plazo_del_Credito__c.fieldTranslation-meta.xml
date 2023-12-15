@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Plazo del Crédito --></label>
+        <name>Plazo_del_Credito__c</name>
+        <picklistValues>
+            <masterLabel>10 años</masterLabel>
+            <translation><!-- 10 años --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 años</masterLabel>
+            <translation><!-- 15 años --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 años</masterLabel>
+            <translation><!-- 20 años --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25 años</masterLabel>
+            <translation><!-- 25 años --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 años</masterLabel>
+            <translation><!-- 30 años --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 años</masterLabel>
+            <translation><!-- 5 años --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

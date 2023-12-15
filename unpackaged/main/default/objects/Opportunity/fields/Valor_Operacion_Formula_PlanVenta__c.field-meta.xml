@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valor_Operacion_Formula_PlanVenta__c</fullName>
+    <externalId>false</externalId>
+    <formula>VALUE(LEFT(Plan_de_Venta__r.Compara_VO_Source_PlainField__c, LEN(Plan_de_Venta__r.Compara_VO_Source_PlainField__c)-2)) + 
+VALUE(RIGHT(Plan_de_Venta__r.Compara_VO_Source_PlainField__c,2))*0.01</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Valor Venta</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

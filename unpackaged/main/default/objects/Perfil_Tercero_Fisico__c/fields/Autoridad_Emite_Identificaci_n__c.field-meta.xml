@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Autoridad_Emite_Identificaci_n__c</fullName>
+    <externalId>false</externalId>
+    <label>Autoridad Emite Identificación Tercero</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipo_Identificacion__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Instituto Nacional Electoral</fullName>
+                <default>false</default>
+                <label>INSTITUTO NACIONAL ELECTORAL</label>
+            </value>
+            <value>
+                <fullName>Pasaportes</fullName>
+                <default>false</default>
+                <label>Pasaportes</label>
+            </value>
+            <value>
+                <fullName>Relaciones Exteriores</fullName>
+                <default>false</default>
+                <label>Relaciones Exteriores</label>
+            </value>
+            <value>
+                <fullName>Secretaría de Educación Pública</fullName>
+                <default>false</default>
+                <label>Secretaría de Educación Pública</label>
+            </value>
+            <value>
+                <fullName>Instituto Nacional de Migración</fullName>
+                <default>false</default>
+                <label>Instituto Nacional de Migración</label>
+            </value>
+            <value>
+                <fullName>Otro (Extranjeros)</fullName>
+                <default>false</default>
+                <label>Otro (Extranjeros)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Credencial para votar</controllingFieldValue>
+            <valueName>Instituto Nacional Electoral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credencial para votar</controllingFieldValue>
+            <controllingFieldValue>Cédula Profesional</controllingFieldValue>
+            <controllingFieldValue>Documentación expedida INM</controllingFieldValue>
+            <controllingFieldValue>Pasaporte</controllingFieldValue>
+            <valueName>Otro (Extranjeros)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cédula Profesional</controllingFieldValue>
+            <valueName>Secretaría de Educación Pública</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Documentación expedida INM</controllingFieldValue>
+            <valueName>Instituto Nacional de Migración</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pasaporte</controllingFieldValue>
+            <valueName>Pasaportes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pasaporte</controllingFieldValue>
+            <valueName>Relaciones Exteriores</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

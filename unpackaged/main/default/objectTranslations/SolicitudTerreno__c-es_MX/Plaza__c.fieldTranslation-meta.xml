@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Plaza --></label>
+        <name>Plaza__c</name>
+        <picklistValues>
+            <masterLabel>A0-NL 1</masterLabel>
+            <translation><!-- A0-NL 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B0-NL 2</masterLabel>
+            <translation><!-- B0-NL 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C0-Jalisco</masterLabel>
+            <translation><!-- C0-Jalisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D0-MEXICO</masterLabel>
+            <translation><!-- D0-MEXICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E0-QUERETARO</masterLabel>
+            <translation><!-- E0-QUERETARO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F0-AGUASCALIENTES</masterLabel>
+            <translation><!-- F0-AGUASCALIENTES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G0-REYNOSA</masterLabel>
+            <translation><!-- G0-REYNOSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H0-CANCUN</masterLabel>
+            <translation><!-- H0-CANCUN --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

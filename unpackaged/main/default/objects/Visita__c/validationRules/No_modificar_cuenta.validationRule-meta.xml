@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_modificar_cuenta</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( $Profile.Id &lt;&gt; &quot;00eo0000000vwpl&quot;&amp;&amp;NOT(ISBLANK(  Cuenta__c )), (ISCHANGED(Cuenta__c)) ,null)</errorConditionFormula>
+    <errorMessage>No es posible modificar al cliente asignado contacte a su administrador</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_estatus_cancelacion</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ ISCHANGED( CPPTS_Razon_Rechazo__c ),
+OR(
+ TEXT(CPPTS_Estatus_Cancelacion__c) = &#39;Por Aprobar&#39;,
+ TEXT(CPPTS_Estatus_Cancelacion__c) = &#39;Aprobado&#39;
+)
+)</errorConditionFormula>
+    <errorMessage>No se puede editar la razón de rechazo cuando el estatus de la cancelación es &quot;Por Aprobar&quot; o &quot;Aprobado&quot;</errorMessage>
+</ValidationRule>

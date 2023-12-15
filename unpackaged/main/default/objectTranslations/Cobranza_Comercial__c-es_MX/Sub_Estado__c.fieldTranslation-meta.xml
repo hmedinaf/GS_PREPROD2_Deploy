@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sub Estado --></label>
+        <name>Sub_Estado__c</name>
+        <picklistValues>
+            <masterLabel>BANSEFI</masterLabel>
+            <translation><!-- BANSEFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMPLETADO POR INGRESAR INFONAVIT</masterLabel>
+            <translation><!-- COMPLETADO POR INGRESAR INFONAVIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DESPERFILADO</masterLabel>
+            <translation><!-- DESPERFILADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMISIÓN</masterLabel>
+            <translation><!-- EMISIÓN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESCRITURADO</masterLabel>
+            <translation><!-- ESCRITURADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INSTITUCIÓN FINANCIERA</masterLabel>
+            <translation><!-- INSTITUCIÓN FINANCIERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOTARÍA</masterLabel>
+            <translation><!-- NOTARÍA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OFICINA</masterLabel>
+            <translation><!-- OFICINA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUNTOS A FUTURO</masterLabel>
+            <translation><!-- PUNTOS A FUTURO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUBSIDIO</masterLabel>
+            <translation><!-- SUBSIDIO --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

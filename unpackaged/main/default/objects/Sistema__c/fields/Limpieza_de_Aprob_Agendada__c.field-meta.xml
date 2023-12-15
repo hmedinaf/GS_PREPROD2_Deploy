@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Limpieza_de_Aprob_Agendada__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Al activarse se agenda un JOB de acuerdo a la recurrencia capturada en &quot;Limpieza Recurrencia&quot;. El Id del JOB generado se guarda el &quot;Limpieza JOB Id&quot;. Al momento de ejecutarse el JOB debe existir un valor en Máxima antiguedad de días sin resolución.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Al activarse se agenda un JOB de acuerdo a la recurrencia capturada en &quot;Limpieza Recurrencia&quot;. El Id del JOB generado se guarda el &quot;Limpieza JOB Id&quot;. Al momento de ejecutarse el JOB debe existir un valor en Máxima antiguedad de días sin resolución.</inlineHelpText>
+    <label>Limpieza de Aprob.Agendada</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

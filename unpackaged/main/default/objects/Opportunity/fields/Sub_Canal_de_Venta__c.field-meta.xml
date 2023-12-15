@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Canal_de_Venta__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Canal de Venta</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Canal_de_venta__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Sub_canal_de_venta</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>PROSPECTO ASESOR</controllingFieldValue>
+            <valueName>PROSPECTO ASESOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIGITAL ASESOR</controllingFieldValue>
+            <valueName>FB ASESOR ORGANICO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIGITAL ASESOR</controllingFieldValue>
+            <valueName>FB ASESOR PAGADO POR ASESOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIGITAL ASESOR</controllingFieldValue>
+            <valueName>FB ASESOR PAGADO POR JAVER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIGITAL ASESOR</controllingFieldValue>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <controllingFieldValue>PROMOTOR EXTERNO</controllingFieldValue>
+            <valueName>INSTAGRAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIGITAL ASESOR</controllingFieldValue>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>LINKEDIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIGITAL ASESOR</controllingFieldValue>
+            <valueName>MICROSITIO ASESOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DIGITAL ASESOR</controllingFieldValue>
+            <controllingFieldValue>PROMOTOR EXTERNO</controllingFieldValue>
+            <valueName>PORTAL INMOBILIARIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENTO</controllingFieldValue>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>CARTELERA MOVIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENTO</controllingFieldValue>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <valueName>CITA ASESOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENTO</controllingFieldValue>
+            <valueName>CORREO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENTO</controllingFieldValue>
+            <valueName>INTERNET/PAGINA WEB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENTO</controllingFieldValue>
+            <valueName>PERIFERIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENTO</controllingFieldValue>
+            <valueName>PRENSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENTO</controllingFieldValue>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <valueName>PROSPECCION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EVENTO</controllingFieldValue>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <valueName>RADIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <valueName>ACTIVACION/EVENTO/PERIFERIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <valueName>CALL CENTER/TELEMARKETING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <controllingFieldValue>PROMOTOR EXTERNO</controllingFieldValue>
+            <valueName>FACEBOOK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>MICROSITIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>PAGINA WEB JAVER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>PORTALES INMOBILIARIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <valueName>PRENSA/REVISTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <valueName>SEÑALIZACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <valueName>TELEVISION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LLAMADA CALL CENTER</controllingFieldValue>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>VOLANTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <valueName>CARTELERA PV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>CORREO DIRECTO/CARTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <valueName>ESPECTACULAR/CARTELERA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>EXPO/FERIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <valueName>IMAGEN EN PV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <valueName>LONEROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>MODULO EN PUNTO ESTRATEGICO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <valueName>PODCAST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <valueName>PUBLICIDAD EN AUTOBUSES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIO PUBLICITARIO</controllingFieldValue>
+            <valueName>SEÑALIZACION HUMANA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>BLOGGER/TANIA RENDON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>BUEN FIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>FACEBOOK INBOX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>INBOUND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>MACROVENTA ONLINE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>MARCACION CORTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>MUNDO JAVER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>OTROS CREDITOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>P INMOBILIARIOS INMUEBLES 24</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>PORTAL CASA PERFECTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>PORT INMOBILIARIO/TRATO DIREC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>TWITTER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>WAZE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>WHATSAPP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MEDIOS DIGITALES</controllingFieldValue>
+            <valueName>YOUTUBE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROGRAMAS INSTITUCIONALES</controllingFieldValue>
+            <valueName>COLABORADOR JAVER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROGRAMAS INSTITUCIONALES</controllingFieldValue>
+            <valueName>CONVENIO PABELLON M</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROGRAMAS INSTITUCIONALES</controllingFieldValue>
+            <valueName>EVENTO (MACROVENTA, SUPERVTA)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROGRAMAS INSTITUCIONALES</controllingFieldValue>
+            <valueName>RECOMIENDA Y GANA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROMOTOR EXTERNO</controllingFieldValue>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>CAMBACEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROMOTOR EXTERNO</controllingFieldValue>
+            <valueName>CARTERA PROPIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROMOTOR EXTERNO</controllingFieldValue>
+            <valueName>GOOGLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROMOTOR EXTERNO</controllingFieldValue>
+            <valueName>PAGINA DE INTERNET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>ACTIVACION/EVENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>AGS FERIA CANADEVI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>AGS MOCTEZUMA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>AGS SAN DIEGO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>AGS VILLA ASUNCION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>APP INVITADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>CARTERA DE CLIENTES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>EDO MEX SAMARA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>EN EMPRESA (VENTA EMPRESARIAL)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>FERIA REVOLUCION CDMX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>FERIA ZOCALO DF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>ISLA PASEO QUERETARO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>JAVERMOVIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>MODULO PAGADO EN PUNTO ESTRATE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>QIR TIANGUIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROSPECCION</controllingFieldValue>
+            <valueName>REFERIDO/RECOMENDACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REFERIDOS</controllingFieldValue>
+            <valueName>COMPAÑERO DE TRABAJO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REFERIDOS</controllingFieldValue>
+            <valueName>FAMILIAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REFERIDOS</controllingFieldValue>
+            <valueName>VECINO</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

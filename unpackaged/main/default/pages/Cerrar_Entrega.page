@@ -1,0 +1,34 @@
+<apex:page standardController="Entrega__c" extensions="CerrarEntrega" action="{!run}">
+    
+    <apex:includeScript value="{!URLFOR($Resource.JQuery)}"/>
+    <apex:pageBlock >
+        <apex:pageMessages ></apex:pageMessages>
+        <p>
+          Regresando a Entrega en <b id="timer"> 3 </b>...  
+        </p>
+    </apex:pageBlock>
+    <script>
+    var flag = true;
+    $(document).ready(function(){
+    	var jj = setInterval(function(){ 
+        	var timer = parseInt($("#timer"). html());
+            if(timer != 0){
+               timer--;
+                $("#timer"). html(timer);
+            }else{
+                if({!iss} && flag){
+                    sforce.one.navigateToSObject( "{!entrega.Id}" );
+                    flag = false;
+                    clearInterval(jj);
+                    //window.history.back();
+                    //window.location.href = '/lightning/r/Entrega__c/{!entrega.Id}/view';
+                }else{
+                    window.location.href = '/{!entrega.Id}';
+                }
+            }
+    	}
+                , 1000);
+    });
+    	
+    </script>
+</apex:page>

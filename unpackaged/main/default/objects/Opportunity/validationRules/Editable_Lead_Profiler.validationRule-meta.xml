@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Editable_Lead_Profiler</fullName>
+    <active>true</active>
+    <description>Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado</description>
+    <errorConditionFormula>OR(
+
+/* Validar permiso especial Rol de venta corresponde a permiso del usuario */
+AND(
+
+ISPICKVAL($User.Editar_rol_de_venta__c ,&#39;Lead Profiler&#39;),
+NOT(ISPICKVAL(StageName , &quot;Escriturado&quot;)),
+NOT(ISPICKVAL(StageName , &quot;Entregado&quot;)),
+ISCHANGED(Lead_Profiler__c)
+),
+
+/* Validar permiso especial Rol de venta != a permiso del usuario */
+AND(
+
+NOT(ISPICKVAL($User.Editar_rol_de_venta__c ,&#39;&#39;)),
+NOT(ISPICKVAL($User.Editar_rol_de_venta__c ,&#39;Lead Profiler&#39;)),
+ISCHANGED(Lead_Profiler__c)
+),
+
+/* Validar perfil != &#39;Coordinador LP (Coordinador ventas interactivas)&#39; */
+AND
+(
+ $User.ProfileId != &#39;00e3l000001MqUU&#39;,
+OR
+(
+ISPICKVAL( StageName , &quot;Escriturado&quot;),
+ISPICKVAL( StageName , &quot;Entregado&quot;),
+ISPICKVAL( StageName , &quot;Cancelado&quot;)
+),
+ISCHANGED( Lead_Profiler__c)
+),
+
+/* Validar perfil == a &#39;Coordinador LP (Coordinador ventas interactivas)&#39;*/
+AND
+(
+$User.ProfileId == &#39;00e3l000001MqUU&#39;,
+NOT(ISPICKVAL( StageName , &quot;Reservado&quot;)),
+NOT(ISPICKVAL( StageName , &quot;Formalizado&quot;)),
+ISCHANGED(Lead_Profiler__c)
+)
+
+
+)</errorConditionFormula>
+    <errorDisplayField>Lead_Profiler__c</errorDisplayField>
+    <errorMessage>Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado
+Para usuarios con perfil &quot;Coordinador LP&quot; el estatus debe ser Reservado o Formalizado y/o permiso especial no corresponde al rol a editar</errorMessage>
+</ValidationRule>

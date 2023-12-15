@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Chk Aprob-Fondo Garantía --></label>
+        <name>Chk_Aprob_Fondo_Garantia__c</name>
+    </CustomFieldTranslation>

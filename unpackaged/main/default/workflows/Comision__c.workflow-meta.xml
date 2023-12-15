@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Estatus_a_Comision_Aprobada</fullName>
+        <field>Estatus__c</field>
+        <literalValue>Aprobada</literalValue>
+        <name>Estatus a Comision Aprobada</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Estatus_a_Comision_Nulo</fullName>
+        <field>Estatus__c</field>
+        <name>Estatus a Comision Nulo</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Estatus_a_Comision_Rechazada</fullName>
+        <field>Estatus__c</field>
+        <literalValue>Rechazada</literalValue>
+        <name>Estatus a Comision Rechazada</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Estatus_a_Proceso_de_Aprobaci_n_Pe</fullName>
+        <field>Estatus__c</field>
+        <literalValue>En Proceso de Aprobación</literalValue>
+        <name>Estatus a Proceso de Aprobación Pe</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

@@ -1,0 +1,1530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clasificacion__c</fullName>
+    <externalId>false</externalId>
+    <label>Clasificación</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipo__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A1. Corto circuito</fullName>
+                <default>false</default>
+                <label>A1. Corto circuito</label>
+            </value>
+            <value>
+                <fullName>A2. Obstrucción</fullName>
+                <default>false</default>
+                <label>A2. Obstrucción</label>
+            </value>
+            <value>
+                <fullName>A3. Falta cableado</fullName>
+                <default>false</default>
+                <label>A3. Falta cableado</label>
+            </value>
+            <value>
+                <fullName>A4. Falta Accesorio</fullName>
+                <default>false</default>
+                <label>A4. Falta Accesorio</label>
+            </value>
+            <value>
+                <fullName>A5. Falta guía CFE</fullName>
+                <default>false</default>
+                <label>A5. Falta guía CFE</label>
+            </value>
+            <value>
+                <fullName>A6. Falta Guía TV-Cable</fullName>
+                <default>false</default>
+                <label>A6. Falta Guía TV-Cable</label>
+            </value>
+            <value>
+                <fullName>A7. Accesorio Dañado y/o Sin Energia</fullName>
+                <default>false</default>
+                <label>A7. Accesorio Dañado y/o Sin Energia</label>
+            </value>
+            <value>
+                <fullName>A8. Accesorio mal instalado</fullName>
+                <default>false</default>
+                <label>A8. Accesorio mal instalado</label>
+            </value>
+            <value>
+                <fullName>A9. Variacion de Voltaje</fullName>
+                <default>false</default>
+                <label>A9. Variacion de Voltaje</label>
+            </value>
+            <value>
+                <fullName>A10. Filtración por Ductos</fullName>
+                <default>false</default>
+                <label>A10. Filtración por Ductos</label>
+            </value>
+            <value>
+                <fullName>A11. Ducto tapado</fullName>
+                <default>false</default>
+                <label>A11. Ducto tapado</label>
+            </value>
+            <value>
+                <fullName>A12. Otro</fullName>
+                <default>false</default>
+                <label>A12. Otro</label>
+            </value>
+            <value>
+                <fullName>A13.Falta de guía de minisplit</fullName>
+                <default>false</default>
+                <label>A13.Falta de guía de minisplit</label>
+            </value>
+            <value>
+                <fullName>B1. Instalación Tapada</fullName>
+                <default>false</default>
+                <label>B1. Instalación Tapada</label>
+            </value>
+            <value>
+                <fullName>B10. Instalación sanitaria</fullName>
+                <default>false</default>
+                <label>B10. Instalación sanitaria</label>
+            </value>
+            <value>
+                <fullName>B2. Falta de conexión</fullName>
+                <default>false</default>
+                <label>B2. Falta de conexión</label>
+            </value>
+            <value>
+                <fullName>B3. Fugas</fullName>
+                <default>false</default>
+                <label>B3. Fugas</label>
+            </value>
+            <value>
+                <fullName>B4. Mala Instalacion</fullName>
+                <default>false</default>
+                <label>B4. Mala Instalacion</label>
+            </value>
+            <value>
+                <fullName>B5. Dañado</fullName>
+                <default>false</default>
+                <label>B5. Dañado</label>
+            </value>
+            <value>
+                <fullName>B6. Faltante</fullName>
+                <default>false</default>
+                <label>B6. Faltante</label>
+            </value>
+            <value>
+                <fullName>B7. Humedad en Muro / Losa</fullName>
+                <default>false</default>
+                <label>B7. Humedad en Muro / Losa</label>
+            </value>
+            <value>
+                <fullName>B8. Humedad en Pluvial</fullName>
+                <default>false</default>
+                <label>B8. Humedad en Pluvial</label>
+            </value>
+            <value>
+                <fullName>B9. Otros</fullName>
+                <default>false</default>
+                <label>B9. Otros</label>
+            </value>
+            <value>
+                <fullName>C1. Tapado</fullName>
+                <default>false</default>
+                <label>C1. Tapado</label>
+            </value>
+            <value>
+                <fullName>C2. Falta de Conexión</fullName>
+                <default>false</default>
+                <label>C2. Falta de Conexión</label>
+            </value>
+            <value>
+                <fullName>C3. Fuga</fullName>
+                <default>false</default>
+                <label>C3. Fuga</label>
+            </value>
+            <value>
+                <fullName>C4. Mala Instalacion</fullName>
+                <default>false</default>
+                <label>C4. Mala Instalacion</label>
+            </value>
+            <value>
+                <fullName>C5. Dañado</fullName>
+                <default>false</default>
+                <label>C5. Dañado</label>
+            </value>
+            <value>
+                <fullName>C6. Faltante</fullName>
+                <default>false</default>
+                <label>C6. Faltante</label>
+            </value>
+            <value>
+                <fullName>C7. Falta de Presion</fullName>
+                <default>false</default>
+                <label>C7. Falta de Presion</label>
+            </value>
+            <value>
+                <fullName>C8. Falta de Suministro Agua</fullName>
+                <default>false</default>
+                <label>C8. Falta de Suministro Agua</label>
+            </value>
+            <value>
+                <fullName>C9. Otros</fullName>
+                <default>false</default>
+                <label>C9. Otros</label>
+            </value>
+            <value>
+                <fullName>D1. Instalación Tapada</fullName>
+                <default>false</default>
+                <label>D1. Instalación Tapada</label>
+            </value>
+            <value>
+                <fullName>D2. Falta de conexión</fullName>
+                <default>false</default>
+                <label>D2. Falta de conexión</label>
+            </value>
+            <value>
+                <fullName>D3. Fugas</fullName>
+                <default>false</default>
+                <label>D3. Fugas</label>
+            </value>
+            <value>
+                <fullName>D4. Falta de Presion</fullName>
+                <default>false</default>
+                <label>D4. Falta de Presion</label>
+            </value>
+            <value>
+                <fullName>D5. Otros</fullName>
+                <default>false</default>
+                <label>D5. Otros</label>
+            </value>
+            <value>
+                <fullName>E1. Bardas</fullName>
+                <default>false</default>
+                <label>E1. Bardas</label>
+            </value>
+            <value>
+                <fullName>E2. Estructura</fullName>
+                <default>false</default>
+                <label>E2. Estructura</label>
+            </value>
+            <value>
+                <fullName>E3. Otros</fullName>
+                <default>false</default>
+                <label>E3. Otros</label>
+            </value>
+            <value>
+                <fullName>F1. Yeso</fullName>
+                <default>false</default>
+                <label>F1. Yeso</label>
+            </value>
+            <value>
+                <fullName>F10. Otros</fullName>
+                <default>false</default>
+                <label>F10. Otros</label>
+            </value>
+            <value>
+                <fullName>F2. Pasta</fullName>
+                <default>false</default>
+                <label>F2. Pasta</label>
+            </value>
+            <value>
+                <fullName>F3. Instalación Azulejo</fullName>
+                <default>false</default>
+                <label>F3. Instalación Azulejo</label>
+            </value>
+            <value>
+                <fullName>F4. Instalación Piso/ Zoclo</fullName>
+                <default>false</default>
+                <label>F4. Instalación Piso/ Zoclo</label>
+            </value>
+            <value>
+                <fullName>F5. Instalación Sardinel</fullName>
+                <default>false</default>
+                <label>F5. Instalación Sardinel</label>
+            </value>
+            <value>
+                <fullName>F6. Pintura</fullName>
+                <default>false</default>
+                <label>F6. Pintura</label>
+            </value>
+            <value>
+                <fullName>F7. Fisuras</fullName>
+                <default>false</default>
+                <label>F7. Fisuras</label>
+            </value>
+            <value>
+                <fullName>F8. Instalacion de Boquilla</fullName>
+                <default>false</default>
+                <label>F8. Instalacion de Boquilla</label>
+            </value>
+            <value>
+                <fullName>F9. Pulido en Piso / Firme</fullName>
+                <default>false</default>
+                <label>F9. Pulido en Piso / Firme</label>
+            </value>
+            <value>
+                <fullName>G1. Banqueta</fullName>
+                <default>false</default>
+                <label>G1. Banqueta</label>
+            </value>
+            <value>
+                <fullName>G2. Molduras</fullName>
+                <default>false</default>
+                <label>G2. Molduras</label>
+            </value>
+            <value>
+                <fullName>G3. Fisuras</fullName>
+                <default>false</default>
+                <label>G3. Fisuras</label>
+            </value>
+            <value>
+                <fullName>G4. Pintura Exterior</fullName>
+                <default>false</default>
+                <label>G4. Pintura Exterior</label>
+            </value>
+            <value>
+                <fullName>G5. Cantera / Recubrimiento</fullName>
+                <default>false</default>
+                <label>G5. Cantera / Recubrimiento</label>
+            </value>
+            <value>
+                <fullName>G6. Pasta y/o Estuco</fullName>
+                <default>false</default>
+                <label>G6. Pasta y/o Estuco</label>
+            </value>
+            <value>
+                <fullName>G7. Humedad</fullName>
+                <default>false</default>
+                <label>G7. Humedad</label>
+            </value>
+            <value>
+                <fullName>G8. Otros</fullName>
+                <default>false</default>
+                <label>G8. Otros</label>
+            </value>
+            <value>
+                <fullName>H1. Ventanas</fullName>
+                <default>false</default>
+                <label>H1. Ventanas</label>
+            </value>
+            <value>
+                <fullName>H2. Puerta Corrediza</fullName>
+                <default>false</default>
+                <label>H2. Puerta Corrediza</label>
+            </value>
+            <value>
+                <fullName>H3. Filtracion y/o Humedad</fullName>
+                <default>false</default>
+                <label>H3. Filtracion y/o Humedad</label>
+            </value>
+            <value>
+                <fullName>H4. Sello Ventanas y/o Puertas</fullName>
+                <default>false</default>
+                <label>H4. Sello Ventanas y/o Puertas</label>
+            </value>
+            <value>
+                <fullName>H5. Otros</fullName>
+                <default>false</default>
+                <label>H5. Otros</label>
+            </value>
+            <value>
+                <fullName>H6.Aluminio</fullName>
+                <default>false</default>
+                <label>H6.Aluminio</label>
+            </value>
+            <value>
+                <fullName>I1. Puertas</fullName>
+                <default>false</default>
+                <label>I1. Puertas</label>
+            </value>
+            <value>
+                <fullName>I2. Marco</fullName>
+                <default>false</default>
+                <label>I2. Marco</label>
+            </value>
+            <value>
+                <fullName>I3. Chapas</fullName>
+                <default>false</default>
+                <label>I3. Chapas</label>
+            </value>
+            <value>
+                <fullName>I4. Otros</fullName>
+                <default>false</default>
+                <label>I4. Otros</label>
+            </value>
+            <value>
+                <fullName>J1. Presencia de humedad</fullName>
+                <default>false</default>
+                <label>J1. Presencia de humedad</label>
+            </value>
+            <value>
+                <fullName>K1. Barandales</fullName>
+                <default>false</default>
+                <label>K1. Barandales</label>
+            </value>
+            <value>
+                <fullName>K2. Protectores</fullName>
+                <default>false</default>
+                <label>K2. Protectores</label>
+            </value>
+            <value>
+                <fullName>K3. Tendederos</fullName>
+                <default>false</default>
+                <label>K3. Tendederos</label>
+            </value>
+            <value>
+                <fullName>K4. Otros</fullName>
+                <default>false</default>
+                <label>K4. Otros</label>
+            </value>
+            <value>
+                <fullName>L1. Tomas Hidráulicas principal</fullName>
+                <default>false</default>
+                <label>L1. Tomas Hidráulicas principal</label>
+            </value>
+            <value>
+                <fullName>L10. Falta Guia CFE / Reventada</fullName>
+                <default>false</default>
+                <label>L10. Falta Guia CFE / Reventada</label>
+            </value>
+            <value>
+                <fullName>L11. Falta Guia TV Cable / Reventada</fullName>
+                <default>false</default>
+                <label>L11. Falta Guia TV Cable / Reventada</label>
+            </value>
+            <value>
+                <fullName>L12. Ductos Tapados</fullName>
+                <default>false</default>
+                <label>L12. Ductos Tapados</label>
+            </value>
+            <value>
+                <fullName>L13. Otros</fullName>
+                <default>false</default>
+                <label>L13. Otros</label>
+            </value>
+            <value>
+                <fullName>L2. Tomas Sanitarias principal</fullName>
+                <default>false</default>
+                <label>L2. Tomas Sanitarias principal</label>
+            </value>
+            <value>
+                <fullName>L3. Tomas de Gas principal</fullName>
+                <default>false</default>
+                <label>L3. Tomas de Gas principal</label>
+            </value>
+            <value>
+                <fullName>L4. Calles</fullName>
+                <default>false</default>
+                <label>L4. Calles</label>
+            </value>
+            <value>
+                <fullName>L5. Cajetes-ARRIATE</fullName>
+                <default>false</default>
+                <label>L5. Cajetes-ARRIATE</label>
+            </value>
+            <value>
+                <fullName>L6. Barda Perimetral</fullName>
+                <default>false</default>
+                <label>L6. Barda Perimetral</label>
+            </value>
+            <value>
+                <fullName>L7. Bancas</fullName>
+                <default>false</default>
+                <label>L7. Bancas</label>
+            </value>
+            <value>
+                <fullName>L8. Machuelos-Cordon</fullName>
+                <default>false</default>
+                <label>L8. Machuelos-Cordon</label>
+            </value>
+            <value>
+                <fullName>L9. Banqueta Municipal</fullName>
+                <default>false</default>
+                <label>L9. Banqueta Municipal</label>
+            </value>
+            <value>
+                <fullName>M1. Luminarias</fullName>
+                <default>false</default>
+                <label>M1. Luminarias</label>
+            </value>
+            <value>
+                <fullName>M2. Tapas CFE</fullName>
+                <default>false</default>
+                <label>M2. Tapas CFE</label>
+            </value>
+            <value>
+                <fullName>M3. Boca de Tormenta</fullName>
+                <default>false</default>
+                <label>M3. Boca de Tormenta</label>
+            </value>
+            <value>
+                <fullName>M4. Tapas Servicio Cable</fullName>
+                <default>false</default>
+                <label>M4. Tapas Servicio Cable</label>
+            </value>
+            <value>
+                <fullName>M5. Nomenclaturas</fullName>
+                <default>false</default>
+                <label>M5. Nomenclaturas</label>
+            </value>
+            <value>
+                <fullName>M6. Señalamientos</fullName>
+                <default>false</default>
+                <label>M6. Señalamientos</label>
+            </value>
+            <value>
+                <fullName>M7. Postes</fullName>
+                <default>false</default>
+                <label>M7. Postes</label>
+            </value>
+            <value>
+                <fullName>M8. Registros Red Eléctrica</fullName>
+                <default>false</default>
+                <label>M8. Registros Red Eléctrica</label>
+            </value>
+            <value>
+                <fullName>M9. Otros</fullName>
+                <default>false</default>
+                <label>M9. Otros</label>
+            </value>
+            <value>
+                <fullName>N1. Mosquiteros</fullName>
+                <default>false</default>
+                <label>N1. Mosquiteros</label>
+            </value>
+            <value>
+                <fullName>N10. Filtro purificador</fullName>
+                <default>false</default>
+                <label>N10. Filtro purificador</label>
+            </value>
+            <value>
+                <fullName>N11. Tinaco</fullName>
+                <default>false</default>
+                <label>N11. Tinaco</label>
+            </value>
+            <value>
+                <fullName>N12. Tallador</fullName>
+                <default>false</default>
+                <label>N12. Tallador</label>
+            </value>
+            <value>
+                <fullName>N13. Coladera</fullName>
+                <default>false</default>
+                <label>N13. Coladera</label>
+            </value>
+            <value>
+                <fullName>N14. Otros</fullName>
+                <default>false</default>
+                <label>N14. Otros</label>
+            </value>
+            <value>
+                <fullName>N2. Tapas de registro</fullName>
+                <default>false</default>
+                <label>N2. Tapas de registro</label>
+            </value>
+            <value>
+                <fullName>N3. Focos</fullName>
+                <default>false</default>
+                <label>N3. Focos</label>
+            </value>
+            <value>
+                <fullName>N4. Accesorios de Baño</fullName>
+                <default>false</default>
+                <label>N4. Accesorios de Baño</label>
+            </value>
+            <value>
+                <fullName>N5. Botes</fullName>
+                <default>false</default>
+                <label>N5. Botes</label>
+            </value>
+            <value>
+                <fullName>N6. Calentador de paso</fullName>
+                <default>false</default>
+                <label>N6. Calentador de paso</label>
+            </value>
+            <value>
+                <fullName>N7. Calentador Solar</fullName>
+                <default>false</default>
+                <label>N7. Calentador Solar</label>
+            </value>
+            <value>
+                <fullName>N8. Tarja / Llaves</fullName>
+                <default>false</default>
+                <label>N8. Tarja / Llaves</label>
+            </value>
+            <value>
+                <fullName>N9. Llaves de Jardin</fullName>
+                <default>false</default>
+                <label>N9. Llaves de Jardin</label>
+            </value>
+            <value>
+                <fullName>O1. Sin conexión CFE</fullName>
+                <default>false</default>
+                <label>O1. Sin conexión CFE</label>
+            </value>
+            <value>
+                <fullName>O10. Alta INTERNET</fullName>
+                <default>false</default>
+                <label>O10. Alta INTERNET</label>
+            </value>
+            <value>
+                <fullName>O11. No contrato INTERNET</fullName>
+                <default>false</default>
+                <label>O11. No contrato INTERNET</label>
+            </value>
+            <value>
+                <fullName>O12. Falla Servicio INTERNET</fullName>
+                <default>false</default>
+                <label>O12. Falla Servicio INTERNET</label>
+            </value>
+            <value>
+                <fullName>O13. No hay Servicio BASURA</fullName>
+                <default>false</default>
+                <label>O13. No hay Servicio BASURA</label>
+            </value>
+            <value>
+                <fullName>O14. Frencuencia BASURA</fullName>
+                <default>false</default>
+                <label>O14. Frecuencia BASURA</label>
+            </value>
+            <value>
+                <fullName>O15. BASURA en Parques y vialidades</fullName>
+                <default>false</default>
+                <label>O15. BASURA en Parques y vialidades</label>
+            </value>
+            <value>
+                <fullName>O16. No hay ESCUELA</fullName>
+                <default>false</default>
+                <label>O16. No hay ESCUELA</label>
+            </value>
+            <value>
+                <fullName>O17. Falta cupo ESCUELA</fullName>
+                <default>false</default>
+                <label>O17. Falta cupo ESCUELA</label>
+            </value>
+            <value>
+                <fullName>O18. Mal estado ESCUELA</fullName>
+                <default>false</default>
+                <label>O18. Mal estado ESCUELA</label>
+            </value>
+            <value>
+                <fullName>O19. No hay TRANSPORTE</fullName>
+                <default>false</default>
+                <label>O19. No hay TRANSPORTE</label>
+            </value>
+            <value>
+                <fullName>O2. No contrato CFE</fullName>
+                <default>false</default>
+                <label>O2. No contrato CFE</label>
+            </value>
+            <value>
+                <fullName>O20. Poca frecuencia TRANSPORTE</fullName>
+                <default>false</default>
+                <label>O20. Poca frecuencia TRANSPORTE</label>
+            </value>
+            <value>
+                <fullName>O21. Mal estado TRANSPORTE</fullName>
+                <default>false</default>
+                <label>O21. Mal estado TRANSPORTE</label>
+            </value>
+            <value>
+                <fullName>O22. No hay ALUMBRADO</fullName>
+                <default>false</default>
+                <label>O22. No hay ALUMBRADO</label>
+            </value>
+            <value>
+                <fullName>O23. Falla ALUMBRADO</fullName>
+                <default>false</default>
+                <label>O23. Falla ALUMBRADO</label>
+            </value>
+            <value>
+                <fullName>O24. Mal estado ALUMBRADO</fullName>
+                <default>false</default>
+                <label>O24. Mal estado ALUMBRADO</label>
+            </value>
+            <value>
+                <fullName>O25. No hay SEGURIDAD</fullName>
+                <default>false</default>
+                <label>O25. No hay SEGURIDAD</label>
+            </value>
+            <value>
+                <fullName>O26. Reporte de Robo SEGURIDAD</fullName>
+                <default>false</default>
+                <label>O26. Reporte de Robo SEGURIDAD</label>
+            </value>
+            <value>
+                <fullName>O27. Ineficiencia SEGURIDAD</fullName>
+                <default>false</default>
+                <label>O27. Ineficiencia SEGURIDAD</label>
+            </value>
+            <value>
+                <fullName>O28. Otros</fullName>
+                <default>false</default>
+                <label>O28. Otros</label>
+            </value>
+            <value>
+                <fullName>O3. Falla Luz CFE</fullName>
+                <default>false</default>
+                <label>O3. Falla Luz CFE</label>
+            </value>
+            <value>
+                <fullName>O4. Sin conexión AGUA</fullName>
+                <default>false</default>
+                <label>O4. Sin conexión AGUA</label>
+            </value>
+            <value>
+                <fullName>O5. No contrato AGUA</fullName>
+                <default>false</default>
+                <label>O5. No contrato AGUA</label>
+            </value>
+            <value>
+                <fullName>O6. Falta AGUA</fullName>
+                <default>false</default>
+                <label>O6. Falta AGUA</label>
+            </value>
+            <value>
+                <fullName>O7. Sin conexión GAS</fullName>
+                <default>false</default>
+                <label>O7. Sin conexión GAS</label>
+            </value>
+            <value>
+                <fullName>O8. No contrato GAS</fullName>
+                <default>false</default>
+                <label>O8. No contrato GAS</label>
+            </value>
+            <value>
+                <fullName>O9. Falta GAS</fullName>
+                <default>false</default>
+                <label>O9. Falta GAS</label>
+            </value>
+            <value>
+                <fullName>P29. Aclaracion HIPOTECA CON SERVICIOS</fullName>
+                <default>false</default>
+                <label>P29. Aclaracion HIPOTECA CON SERVICIOS</label>
+            </value>
+            <value>
+                <fullName>P30. Solicita realizar ASOCIACION CIVIL</fullName>
+                <default>false</default>
+                <label>P30. Solicita realizar ASOCIACION CIVIL</label>
+            </value>
+            <value>
+                <fullName>P31. Aclaracion ADMINISTRADORA</fullName>
+                <default>false</default>
+                <label>P31. Aclaracion ADMINISTRADORA</label>
+            </value>
+            <value>
+                <fullName>P32. Otros</fullName>
+                <default>false</default>
+                <label>P32. Otros</label>
+            </value>
+            <value>
+                <fullName>Q1. Informacion Compra de Casa</fullName>
+                <default>false</default>
+                <label>Q1. Informacion Compra de Casa</label>
+            </value>
+            <value>
+                <fullName>Q2. Queja Asesor de Ventas</fullName>
+                <default>false</default>
+                <label>Q2. Queja Asesor de Ventas</label>
+            </value>
+            <value>
+                <fullName>Q3. Queja Promesa de Entrega</fullName>
+                <default>false</default>
+                <label>Q3. Queja Promesa de Entrega</label>
+            </value>
+            <value>
+                <fullName>R1. Entrega Documentos</fullName>
+                <default>false</default>
+                <label>R1. Entrega Documentos</label>
+            </value>
+            <value>
+                <fullName>R2. Aclaracion Recomienda y Gana</fullName>
+                <default>false</default>
+                <label>R2. Aclaracion Recomienda y Gana</label>
+            </value>
+            <value>
+                <fullName>R3. Aclaracion Monedero Electronico</fullName>
+                <default>false</default>
+                <label>R3. Aclaracion Monedero Electronico</label>
+            </value>
+            <value>
+                <fullName>R4. Aclaración Promoción de Venta</fullName>
+                <default>false</default>
+                <label>R4. Aclaración Promoción de Venta</label>
+            </value>
+            <value>
+                <fullName>R5. Aclaración Reembolso</fullName>
+                <default>false</default>
+                <label>R5. Aclaración Reembolso</label>
+            </value>
+            <value>
+                <fullName>S1. Solicitud Fecha Entrega</fullName>
+                <default>false</default>
+                <label>S1. Solicitud Fecha Entrega</label>
+            </value>
+            <value>
+                <fullName>S2. Re-programar Fecha Entrega</fullName>
+                <default>false</default>
+                <label>S2. Re-programar Fecha Entrega</label>
+            </value>
+            <value>
+                <fullName>S3. Cancelar Cita</fullName>
+                <default>false</default>
+                <label>S3. Cancelar Cita</label>
+            </value>
+            <value>
+                <fullName>T1. No habia personal para Entrega</fullName>
+                <default>false</default>
+                <label>T1. No habia personal para Entrega</label>
+            </value>
+            <value>
+                <fullName>T2. Mal Servicio Entrega</fullName>
+                <default>false</default>
+                <label>T2. Mal Servicio Entrega</label>
+            </value>
+            <value>
+                <fullName>T3. Vivienda no terminada</fullName>
+                <default>false</default>
+                <label>T3. Vivienda no terminada</label>
+            </value>
+            <value>
+                <fullName>T4. Casa Vandalizada</fullName>
+                <default>false</default>
+                <label>T4. Casa Vandalizada</label>
+            </value>
+            <value>
+                <fullName>U1. Aclaracion Pagos aplicados</fullName>
+                <default>false</default>
+                <label>U1. Aclaracion Pagos aplicados</label>
+            </value>
+            <value>
+                <fullName>U2. Aclarar Saldo</fullName>
+                <default>false</default>
+                <label>U2. Aclarar Saldo</label>
+            </value>
+            <value>
+                <fullName>U3. Aclarar Referencias Bancarias</fullName>
+                <default>false</default>
+                <label>U3. Aclarar Referencias Bancarias</label>
+            </value>
+            <value>
+                <fullName>U4. Solicitud Carta No Adeudo</fullName>
+                <default>false</default>
+                <label>U4. Solicitud Carta No Adeudo</label>
+            </value>
+            <value>
+                <fullName>U5. Aclaracion Numero de Cuenta Pagos</fullName>
+                <default>false</default>
+                <label>U5. Aclaracion Numero de Cuenta Pagos</label>
+            </value>
+            <value>
+                <fullName>V1. Falla Portal</fullName>
+                <default>false</default>
+                <label>V1. Falla Portal</label>
+            </value>
+            <value>
+                <fullName>V2. Aclaraciones/Corrección Datos Portal</fullName>
+                <default>false</default>
+                <label>V2. Aclaraciones/Corrección Datos Portal</label>
+            </value>
+            <value>
+                <fullName>V3. Solicitud de Factura</fullName>
+                <default>false</default>
+                <label>V3. Solicitud de Factura</label>
+            </value>
+            <value>
+                <fullName>V4. Renovación de Cartas Vencidas</fullName>
+                <default>false</default>
+                <label>V4. Renovación de Cartas Vencidas</label>
+            </value>
+            <value>
+                <fullName>V5. Entrega de Certificado IZZI</fullName>
+                <default>false</default>
+                <label>V5. Entrega de Certificado IZZI</label>
+            </value>
+            <value>
+                <fullName>V6. Entrega de Plano Oficial</fullName>
+                <default>false</default>
+                <label>V6. Entrega de Plano Oficial</label>
+            </value>
+            <value>
+                <fullName>W1. Otros</fullName>
+                <default>false</default>
+                <label>W1. Otros</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>K. Herrería</controllingFieldValue>
+            <valueName>K1. Barandales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>K. Herrería</controllingFieldValue>
+            <valueName>K2. Protectores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>K. Herrería</controllingFieldValue>
+            <valueName>K3. Tendederos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>K. Herrería</controllingFieldValue>
+            <valueName>K4. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>V. Solicitudes</controllingFieldValue>
+            <valueName>V1. Falla Portal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>V. Solicitudes</controllingFieldValue>
+            <valueName>V2. Aclaraciones/Corrección Datos Portal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>V. Solicitudes</controllingFieldValue>
+            <valueName>V3. Solicitud de Factura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>V. Solicitudes</controllingFieldValue>
+            <valueName>V4. Renovación de Cartas Vencidas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>V. Solicitudes</controllingFieldValue>
+            <valueName>V5. Entrega de Certificado IZZI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>V. Solicitudes</controllingFieldValue>
+            <valueName>V6. Entrega de Plano Oficial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L1. Tomas Hidráulicas principal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L10. Falta Guia CFE / Reventada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L11. Falta Guia TV Cable / Reventada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L12. Ductos Tapados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L13. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L2. Tomas Sanitarias principal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L3. Tomas de Gas principal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L4. Calles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L5. Cajetes-ARRIATE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L6. Barda Perimetral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L7. Bancas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L8. Machuelos-Cordon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L9. Banqueta Municipal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>W. Otros</controllingFieldValue>
+            <valueName>W1. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M1. Luminarias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M2. Tapas CFE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M3. Boca de Tormenta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M4. Tapas Servicio Cable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M5. Nomenclaturas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M6. Señalamientos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M7. Postes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M8. Registros Red Eléctrica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M9. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N1. Mosquiteros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N10. Filtro purificador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N11. Tinaco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N12. Tallador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N13. Coladera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N14. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N2. Tapas de registro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N3. Focos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N4. Accesorios de Baño</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N5. Botes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N6. Calentador de paso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N7. Calentador Solar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N8. Tarja / Llaves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N9. Llaves de Jardin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O1. Sin conexión CFE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O10. Alta INTERNET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O11. No contrato INTERNET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O12. Falla Servicio INTERNET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O13. No hay Servicio BASURA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O14. Frencuencia BASURA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O15. BASURA en Parques y vialidades</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O16. No hay ESCUELA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O17. Falta cupo ESCUELA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O18. Mal estado ESCUELA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O19. No hay TRANSPORTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O2. No contrato CFE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O20. Poca frecuencia TRANSPORTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O21. Mal estado TRANSPORTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O22. No hay ALUMBRADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O23. Falla ALUMBRADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O24. Mal estado ALUMBRADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O25. No hay SEGURIDAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O26. Reporte de Robo SEGURIDAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O27. Ineficiencia SEGURIDAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O28. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O3. Falla Luz CFE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O4. Sin conexión AGUA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O5. No contrato AGUA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O6. Falta AGUA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O7. Sin conexión GAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O8. No contrato GAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O9. Falta GAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>P. Organización Vecinal</controllingFieldValue>
+            <valueName>P29. Aclaracion HIPOTECA CON SERVICIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>P. Organización Vecinal</controllingFieldValue>
+            <valueName>P30. Solicita realizar ASOCIACION CIVIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>P. Organización Vecinal</controllingFieldValue>
+            <valueName>P31. Aclaracion ADMINISTRADORA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>P. Organización Vecinal</controllingFieldValue>
+            <valueName>P32. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Q. Ventas</controllingFieldValue>
+            <valueName>Q1. Informacion Compra de Casa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Q. Ventas</controllingFieldValue>
+            <valueName>Q2. Queja Asesor de Ventas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Q. Ventas</controllingFieldValue>
+            <valueName>Q3. Queja Promesa de Entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R. Seguimiento de Ventas</controllingFieldValue>
+            <valueName>R1. Entrega Documentos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R. Seguimiento de Ventas</controllingFieldValue>
+            <valueName>R2. Aclaracion Recomienda y Gana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R. Seguimiento de Ventas</controllingFieldValue>
+            <valueName>R3. Aclaracion Monedero Electronico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R. Seguimiento de Ventas</controllingFieldValue>
+            <valueName>R4. Aclaración Promoción de Venta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R. Seguimiento de Ventas</controllingFieldValue>
+            <valueName>R5. Aclaración Reembolso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>S. Fechas</controllingFieldValue>
+            <valueName>S1. Solicitud Fecha Entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>S. Fechas</controllingFieldValue>
+            <valueName>S2. Re-programar Fecha Entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>S. Fechas</controllingFieldValue>
+            <valueName>S3. Cancelar Cita</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1. Corto circuito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A2. Obstrucción</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A3. Falta cableado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A4. Falta Accesorio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A5. Falta guía CFE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A6. Falta Guía TV-Cable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A7. Accesorio Dañado y/o Sin Energia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A8. Accesorio mal instalado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A9. Variacion de Voltaje</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A10. Filtración por Ductos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A11. Ducto tapado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A12. Otro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A13.Falta de guía de minisplit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1. Instalación Tapada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B10. Instalación sanitaria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B2. Falta de conexión</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B3. Fugas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B4. Mala Instalacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B5. Dañado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B6. Faltante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B7. Humedad en Muro / Losa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B8. Humedad en Pluvial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B9. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C1. Tapado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C2. Falta de Conexión</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C3. Fuga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C4. Mala Instalacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C5. Dañado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C6. Faltante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C7. Falta de Presion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C8. Falta de Suministro Agua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C9. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>D. Instalación gas</controllingFieldValue>
+            <valueName>D1. Instalación Tapada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>D. Instalación gas</controllingFieldValue>
+            <valueName>D2. Falta de conexión</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>D. Instalación gas</controllingFieldValue>
+            <valueName>D3. Fugas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>D. Instalación gas</controllingFieldValue>
+            <valueName>D4. Falta de Presion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>D. Instalación gas</controllingFieldValue>
+            <valueName>D5. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1. Bardas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E2. Estructura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E3. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F1. Yeso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F10. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F2. Pasta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F3. Instalación Azulejo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F4. Instalación Piso/ Zoclo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F5. Instalación Sardinel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F6. Pintura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F7. Fisuras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F8. Instalacion de Boquilla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F9. Pulido en Piso / Firme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1. Banqueta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G2. Molduras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G3. Fisuras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G4. Pintura Exterior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G5. Cantera / Recubrimiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G6. Pasta y/o Estuco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G7. Humedad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G8. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H1. Ventanas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H2. Puerta Corrediza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H3. Filtracion y/o Humedad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H4. Sello Ventanas y/o Puertas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H5. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H6.Aluminio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I. Puertas</controllingFieldValue>
+            <valueName>I1. Puertas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I. Puertas</controllingFieldValue>
+            <valueName>I2. Marco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I. Puertas</controllingFieldValue>
+            <valueName>I3. Chapas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I. Puertas</controllingFieldValue>
+            <valueName>I4. Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>T. Quejas</controllingFieldValue>
+            <valueName>T1. No habia personal para Entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>T. Quejas</controllingFieldValue>
+            <valueName>T2. Mal Servicio Entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>T. Quejas</controllingFieldValue>
+            <valueName>T3. Vivienda no terminada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>T. Quejas</controllingFieldValue>
+            <valueName>T4. Casa Vandalizada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>J. Impermeabilización</controllingFieldValue>
+            <valueName>J1. Presencia de humedad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U. Cobranza Post.Venta</controllingFieldValue>
+            <valueName>U1. Aclaracion Pagos aplicados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U. Cobranza Post.Venta</controllingFieldValue>
+            <valueName>U2. Aclarar Saldo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U. Cobranza Post.Venta</controllingFieldValue>
+            <valueName>U3. Aclarar Referencias Bancarias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U. Cobranza Post.Venta</controllingFieldValue>
+            <valueName>U4. Solicitud Carta No Adeudo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U. Cobranza Post.Venta</controllingFieldValue>
+            <valueName>U5. Aclaracion Numero de Cuenta Pagos</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_gastos_operativos</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISCHANGED(CPPTS_Gastos_Operativos__c ),
+				IF (TEXT(CPPTS_Estatus_Aprobacion_Reembolso__c) = &quot;Rechazado&quot;, 
+        AND(
+           TEXT(CPPTS_Estatus_Cancelacion__c) &lt;&gt; &#39;Por Aprobar&#39;,
+           TEXT(CPPTS_Estatus_Cancelacion__c) &lt;&gt; &#39;Aprobado&#39;
+           ),
+								false)
+    )</errorConditionFormula>
+    <errorMessage>No se puede editar la cantidad de gastos operativos cuando el estatus de la cancelación es &quot;Por Aprobar&quot; o &quot;Aprobado&quot;</errorMessage>
+</ValidationRule>

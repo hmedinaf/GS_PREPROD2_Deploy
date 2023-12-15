@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Actividad Económica / Giro Mercantil --></label>
+        <name>Actividad_Economica_Giro_Mercantil__c</name>
+        <picklistValues>
+            <masterLabel>1000000	NO APLICA</masterLabel>
+            <translation><!-- 1000000	NO APLICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1000000	NO APLICA.</masterLabel>
+            <translation><!-- 1000000	NO APLICA. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1014010	RADIO, CINE, TELEVISION Y TEATRO - DISEÑADORES GRAFICOS</masterLabel>
+            <translation><!-- 1014010	RADIO, CINE, TELEVISION Y TEATRO - DISEÑADORES GRAFICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1014030	RADIO, CINE, TELEVISION Y TEATRO - EDITORES, PERIODISTAS, REPORTEROS Y REDACTORES</masterLabel>
+            <translation><!-- 1014030	RADIO, CINE, TELEVISION Y TEATRO - EDITORES, PERIODISTAS, REPORTEROS Y REDACTORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1023010	RADIO, CINE, TELEVISION Y TEATRO - ASISTENTES Y/U OPERADORES DE PRODUCCION DE CINE, RADIO Y TELEVISION</masterLabel>
+            <translation><!-- 1023010	RADIO, CINE, TELEVISION Y TEATRO - ASISTENTES Y/U OPERADORES DE PRODUCCION DE CINE, RADIO Y TELEVISION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1023070	RADIO, CINE, TELEVISION Y TEATRO - LOCUTORES, COMENTARISTAS Y CRONISTAS DE RADIO Y TELEVISION</masterLabel>
+            <translation><!-- 1023070	RADIO, CINE, TELEVISION Y TEATRO - LOCUTORES, COMENTARISTAS Y CRONISTAS DE RADIO Y TELEVISION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1024020	RADIO, CINE, TELEVISION Y TEATRO - PRODUCTORES Y DIRECTORES DE CINE, TELEVISION Y TEATRO</masterLabel>
+            <translation><!-- 1024020	RADIO, CINE, TELEVISION Y TEATRO - PRODUCTORES Y DIRECTORES DE CINE, TELEVISION Y TEATRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1033010	INTERPRETACION ARTISTICA - ACTORES, BAILARINES, MUSICOS, ESCRITORES</masterLabel>
+            <translation><!-- 1033010	INTERPRETACION ARTISTICA - ACTORES, BAILARINES, MUSICOS, ESCRITORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1033020	INTERPRETACION ARTISTICA - ARTESANOS</masterLabel>
+            <translation><!-- 1033020	INTERPRETACION ARTISTICA - ARTESANOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1033040	INTERPRETACION ARTISTICA - FOTOGRAFOS</masterLabel>
+            <translation><!-- 1033040	INTERPRETACION ARTISTICA - FOTOGRAFOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1034010	INTERPRETACION ARTISTICA - ARTISTAS PLASTICOS</masterLabel>
+            <translation><!-- 1034010	INTERPRETACION ARTISTICA - ARTISTAS PLASTICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1044010	TRADUCCION E INTERPRETACION LINGüISTICA - INTERPRETES Y/O TRADUCTORES</masterLabel>
+            <translation><!-- 1044010	TRADUCCION E INTERPRETACION LINGüISTICA - INTERPRETES Y/O TRADUCTORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1052010	PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - MODELOS Y EDECANES</masterLabel>
+            <translation><!-- 1052010	PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - MODELOS Y EDECANES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1054010	PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - DIRECTORES, GERENTES Y EMPLEADOS DE PUBLICIDAD</masterLabel>
+            <translation><!-- 1054010	PUBLICIDAD, PROPAGANDA Y RELACIONES PUBLICAS - DIRECTORES, GERENTES Y EMPLEADOS DE PUBLICIDAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1100001	SECTOR PRIMARIO - AGRICULTURA</masterLabel>
+            <translation><!-- 1100001	SECTOR PRIMARIO - AGRICULTURA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1110100	AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES AGRICOLAS</masterLabel>
+            <translation><!-- 1110100	AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES AGRICOLAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1110400	AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES SILVICOLAS Y FORESTALES</masterLabel>
+            <translation><!-- 1110400	AGRICULTURA Y SILVICULTURA - ADMINISTRADORES O TRABAJADORES SILVICOLAS Y FORESTALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1112010	INVESTIGACION - ENCUESTADORES Y CODIFICADORES</masterLabel>
+            <translation><!-- 1112010	INVESTIGACION - ENCUESTADORES Y CODIFICADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1113010	INVESTIGACION - ASISTENTES DE INVESTIGADORES</masterLabel>
+            <translation><!-- 1113010	INVESTIGACION - ASISTENTES DE INVESTIGADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1113020	INVESTIGACION - QUIMICOS Y/O TECNICOS EN QUIMICA</masterLabel>
+            <translation><!-- 1113020	INVESTIGACION - QUIMICOS Y/O TECNICOS EN QUIMICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1114010	INVESTIGACION - BIOLOGOS Y CIENTIFICOS RELACIONADOS</masterLabel>
+            <translation><!-- 1114010	INVESTIGACION - BIOLOGOS Y CIENTIFICOS RELACIONADOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1114020	INVESTIGACION - ECONOMISTAS Y POLITOLOGOS (NO FUNCIONARIOS PUBLICOS)</masterLabel>
+            <translation><!-- 1114020	INVESTIGACION - ECONOMISTAS Y POLITOLOGOS (NO FUNCIONARIOS PUBLICOS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1114030	INVESTIGACION - FISICOS ASTRONOMOS</masterLabel>
+            <translation><!-- 1114030	INVESTIGACION - FISICOS ASTRONOMOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1114040	INVESTIGACION - GEOLOGOS, GEOQUIMICOS, GEOFISICOS Y GEOGRAFOS</masterLabel>
+            <translation><!-- 1114040	INVESTIGACION - GEOLOGOS, GEOQUIMICOS, GEOFISICOS Y GEOGRAFOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1114050	INVESTIGACION - INVESTIGADORES Y CONSULTORES EN MERCADOTECNIA</masterLabel>
+            <translation><!-- 1114050	INVESTIGACION - INVESTIGADORES Y CONSULTORES EN MERCADOTECNIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1114060	INVESTIGACION - MATEMATICOS, ESTADISTICOS Y ACTUARIOS</masterLabel>
+            <translation><!-- 1114060	INVESTIGACION - MATEMATICOS, ESTADISTICOS Y ACTUARIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1114070	INVESTIGACION - METEOROLOGOS</masterLabel>
+            <translation><!-- 1114070	INVESTIGACION - METEOROLOGOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1114090	INVESTIGACION - SOCIOLOGOS, ANTROPOLOGOS E HISTORIADORES</masterLabel>
+            <translation><!-- 1114090	INVESTIGACION - SOCIOLOGOS, ANTROPOLOGOS E HISTORIADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1123020	ENSEÑANZA - CAPACITADORES E INSTRUCTORES</masterLabel>
+            <translation><!-- 1123020	ENSEÑANZA - CAPACITADORES E INSTRUCTORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1124070	ENSEÑANZA - PROFESORES O DOCENTES</masterLabel>
+            <translation><!-- 1124070	ENSEÑANZA - PROFESORES O DOCENTES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1125010	ENSEÑANZA - DIRECTORES GENERALES DE EDUCACION</masterLabel>
+            <translation><!-- 1125010	ENSEÑANZA - DIRECTORES GENERALES DE EDUCACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1133010	DIFUSION CULTURAL - PROMOTORES DE DIFUSION CULTURAL</masterLabel>
+            <translation><!-- 1133010	DIFUSION CULTURAL - PROMOTORES DE DIFUSION CULTURAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1134010	DIFUSION CULTURAL - TRABAJADORES DE BIBLIOTECA, ARCHIVO, MUSEO Y GALERIA DE ARTE</masterLabel>
+            <translation><!-- 1134010	DIFUSION CULTURAL - TRABAJADORES DE BIBLIOTECA, ARCHIVO, MUSEO Y GALERIA DE ARTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1135010	OTRAS OCUPACIONES - ESTUDIANTE O MENOR DE EDAD SIN OCUPACION</masterLabel>
+            <translation><!-- 1135010	OTRAS OCUPACIONES - ESTUDIANTE O MENOR DE EDAD SIN OCUPACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1135020	OTRAS OCUPACIONES - DESEMPLEADO</masterLabel>
+            <translation><!-- 1135020	OTRAS OCUPACIONES - DESEMPLEADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1135030	OTRAS OCUPACIONES - JUBILADO O PENSIONADO</masterLabel>
+            <translation><!-- 1135030	OTRAS OCUPACIONES - JUBILADO O PENSIONADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1135050	OTRAS OCUPACIONES - AMA DE CASA O QUEHACERES DEL HOGAR</masterLabel>
+            <translation><!-- 1135050	OTRAS OCUPACIONES - AMA DE CASA O QUEHACERES DEL HOGAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1135060	OTRAS OCUPACIONES - MINISTROS DE CULTO RELIGIOSO (SACERDOTE, PASTOR, MONJA, ETC)</masterLabel>
+            <translation><!-- 1135060	OTRAS OCUPACIONES - MINISTROS DE CULTO RELIGIOSO (SACERDOTE, PASTOR, MONJA, ETC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1135070	OTRAS OCUPACIONES - AGENTE ADUANAL</masterLabel>
+            <translation><!-- 1135070	OTRAS OCUPACIONES - AGENTE ADUANAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1135080	OTRAS OCUPACIONES - PROPIETARIO, ACCIONISTA O SOCIO</masterLabel>
+            <translation><!-- 1135080	OTRAS OCUPACIONES - PROPIETARIO, ACCIONISTA O SOCIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1136010	SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO FEDERAL</masterLabel>
+            <translation><!-- 1136010	SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1136020	SECTOR PUBLICO - EMPLEADO PODER EJECUTIVO ESTATAL O DEL DISTRITO FEDERAL</masterLabel>
+            <translation><!-- 1136020	SECTOR PUBLICO - EMPLEADO PODER EJECUTIVO ESTATAL O DEL DISTRITO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1136030	SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO MUNICIPAL O DELEGACIONAL</masterLabel>
+            <translation><!-- 1136030	SECTOR PUBLICO - EMPLEADO DEL PODER EJECUTIVO MUNICIPAL O DELEGACIONAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1136040	SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL FEDERAL</masterLabel>
+            <translation><!-- 1136040	SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1136050	SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO FEDERAL</masterLabel>
+            <translation><!-- 1136050	SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1136060	SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO ESTATAL O DEL DISTRITO FEDERAL</masterLabel>
+            <translation><!-- 1136060	SECTOR PUBLICO - EMPLEADO DEL PODER LEGISLATIVO ESTATAL O DEL DISTRITO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1136070	SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL ESTATAL O DEL DISTRITO FEDERAL</masterLabel>
+            <translation><!-- 1136070	SECTOR PUBLICO - EMPLEADO DEL PODER JUDICIAL ESTATAL O DEL DISTRITO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1136080	ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES - EMPLEADOS DE ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</masterLabel>
+            <translation><!-- 1136080	ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES - EMPLEADOS DE ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1136090	SECTOR PUBLICO - EJERCITO, ARMADA Y FUERZA AEREA</masterLabel>
+            <translation><!-- 1136090	SECTOR PUBLICO - EJERCITO, ARMADA Y FUERZA AEREA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1200001	SECTOR PRIMARIO - GANADERIA</masterLabel>
+            <translation><!-- 1200001	SECTOR PRIMARIO - GANADERIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1220100	GANADERIA - APICULTORES</masterLabel>
+            <translation><!-- 1220100	GANADERIA - APICULTORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1220200	GANADERIA - ADMINISTRADORES, CRIADORES O SUPERVISORES AVICOLAS Y GANADEROS</masterLabel>
+            <translation><!-- 1220200	GANADERIA - ADMINISTRADORES, CRIADORES O SUPERVISORES AVICOLAS Y GANADEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1300001	SECTOR PRIMARIO - EXPLOTACION DE OTROS ANIMALES (AVICULTURA, APICULTURA, ETC.)</masterLabel>
+            <translation><!-- 1300001	SECTOR PRIMARIO - EXPLOTACION DE OTROS ANIMALES (AVICULTURA, APICULTURA, ETC.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1330200	PESCA Y ACUACULTURA - PESCADORES Y TRABAJADORES EN LA CRIA Y CULTIVO DE ESPECIES MARINAS</masterLabel>
+            <translation><!-- 1330200	PESCA Y ACUACULTURA - PESCADORES Y TRABAJADORES EN LA CRIA Y CULTIVO DE ESPECIES MARINAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1400002	SECTOR PRIMARIO - APROVECHAMIENTO FORESTAL</masterLabel>
+            <translation><!-- 1400002	SECTOR PRIMARIO - APROVECHAMIENTO FORESTAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1500001	SECTOR PRIMARIO - PESCA</masterLabel>
+            <translation><!-- 1500001	SECTOR PRIMARIO - PESCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2100002	MINERIA - MINERIA DE OTROS RECURSOS</masterLabel>
+            <translation><!-- 2100002	MINERIA - MINERIA DE OTROS RECURSOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2130100	MINERIA, EXTRACCION Y SUMINISTRO - TECNICOS GEOLOGICOS Y DE MINERALES</masterLabel>
+            <translation><!-- 2130100	MINERIA, EXTRACCION Y SUMINISTRO - TECNICOS GEOLOGICOS Y DE MINERALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2140100	MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS, OPERADORES O AYUDANTES EN LA EXTRACCION Y REFINACION MINERA</masterLabel>
+            <translation><!-- 2140100	MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS, OPERADORES O AYUDANTES EN LA EXTRACCION Y REFINACION MINERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2200002	MINERIA - ACTIVIDADES RELACIONADAS CON EL PETROLEO Y EL GAS</masterLabel>
+            <translation><!-- 2200002	MINERIA - ACTIVIDADES RELACIONADAS CON EL PETROLEO Y EL GAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2210100	MINERIA, EXTRACCION Y SUMINISTRO - AYUDANTES EN LA PERFORACION DE POZOS DE PETROLEO Y GAS NATURAL</masterLabel>
+            <translation><!-- 2210100	MINERIA, EXTRACCION Y SUMINISTRO - AYUDANTES EN LA PERFORACION DE POZOS DE PETROLEO Y GAS NATURAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2240200	MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS PETROLEROS</masterLabel>
+            <translation><!-- 2240200	MINERIA, EXTRACCION Y SUMINISTRO - INGENIEROS PETROLEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2300003	MINERIA - ORO</masterLabel>
+            <translation><!-- 2300003	MINERIA - ORO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2400002	MINERIA - PLATA</masterLabel>
+            <translation><!-- 2400002	MINERIA - PLATA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2420100	MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE CENTRALES O SISTEMAS  DE ENERGIA ELECTRICAS</masterLabel>
+            <translation><!-- 2420100	MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE CENTRALES O SISTEMAS  DE ENERGIA ELECTRICAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2420200	MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE MAQUINAS DE VAPOR</masterLabel>
+            <translation><!-- 2420200	MINERIA, EXTRACCION Y SUMINISTRO - OPERADORES DE MAQUINAS DE VAPOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2500002	MINERIA - PIEDRAS PRECIOSAS</masterLabel>
+            <translation><!-- 2500002	MINERIA - PIEDRAS PRECIOSAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2530100	MINERIA, EXTRACCION Y SUMINISTRO - GERENTE, SUPERVISOR U OPERADORES DE  TRATAMIENTO Y POTABILIZACION, ABASTECIMIENTO Y RECOLECCION DE AGUA</masterLabel>
+            <translation><!-- 2530100	MINERIA, EXTRACCION Y SUMINISTRO - GERENTE, SUPERVISOR U OPERADORES DE  TRATAMIENTO Y POTABILIZACION, ABASTECIMIENTO Y RECOLECCION DE AGUA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2600003	GENERACION, TRANSMISION Y DISTRIBUCION DE ENERGIA ELECTRICA, SUMINISTRO DE AGUA Y DE GAS</masterLabel>
+            <translation><!-- 2600003	GENERACION, TRANSMISION Y DISTRIBUCION DE ENERGIA ELECTRICA, SUMINISTRO DE AGUA Y DE GAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2710004	CONSTRUCCION - OTRAS ACTIVIDADES RELACIONADAS CON LA CONSTRUCCION</masterLabel>
+            <translation><!-- 2710004	CONSTRUCCION - OTRAS ACTIVIDADES RELACIONADAS CON LA CONSTRUCCION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2720004	CONSTRUCCION - EDIFICACION RESIDENCIAL Y NO RESIDENCIAL</masterLabel>
+            <translation><!-- 2720004	CONSTRUCCION - EDIFICACION RESIDENCIAL Y NO RESIDENCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2730004	CONSTRUCCION - OBRAS DE INGENIERIA CIVIL</masterLabel>
+            <translation><!-- 2730004	CONSTRUCCION - OBRAS DE INGENIERIA CIVIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2740004	CONSTRUCCION - TRABAJOS ESPECIALIZADOS PARA LA CONSTRUCCION</masterLabel>
+            <translation><!-- 2740004	CONSTRUCCION - TRABAJOS ESPECIALIZADOS PARA LA CONSTRUCCION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2754004	CONSTRUCCION - SERVICIOS DE BLINDAJE PARCIAL O TOTAL DE INMUEBLES</masterLabel>
+            <translation><!-- 2754004	CONSTRUCCION - SERVICIOS DE BLINDAJE PARCIAL O TOTAL DE INMUEBLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3110005	INDUSTRIA - ALIMENTARIA</masterLabel>
+            <translation><!-- 3110005	INDUSTRIA - ALIMENTARIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3120005	INDUSTRIA - BEBIDAS Y DEL TABACO</masterLabel>
+            <translation><!-- 3120005	INDUSTRIA - BEBIDAS Y DEL TABACO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3130100	CONSTRUCCION - DECORADORES DE INTERIORES</masterLabel>
+            <translation><!-- 3130100	CONSTRUCCION - DECORADORES DE INTERIORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3130300	CONSTRUCCION -  INGENIEROS, TECNICOS Y OPERADORES DE LA CONSTRUCCION</masterLabel>
+            <translation><!-- 3130300	CONSTRUCCION -  INGENIEROS, TECNICOS Y OPERADORES DE LA CONSTRUCCION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3140005	INDUSTRIA - PRODUCTOS TEXTILES</masterLabel>
+            <translation><!-- 3140005	INDUSTRIA - PRODUCTOS TEXTILES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3150005	INDUSTRIA - PRENDAS DE VESTIR</masterLabel>
+            <translation><!-- 3150005	INDUSTRIA - PRENDAS DE VESTIR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3210005	INDUSTRIA - MADERA</masterLabel>
+            <translation><!-- 3210005	INDUSTRIA - MADERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3220005	INDUSTRIA - PAPEL</masterLabel>
+            <translation><!-- 3220005	INDUSTRIA - PAPEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3230005	INDUSTRIA - IMPRESION E INDUSTRIAS CONEXAS</masterLabel>
+            <translation><!-- 3230005	INDUSTRIA - IMPRESION E INDUSTRIAS CONEXAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3240005	INDUSTRIA - PRODUCTOS DERIVADOS DEL PETROLEO Y DEL CARBON</masterLabel>
+            <translation><!-- 3240005	INDUSTRIA - PRODUCTOS DERIVADOS DEL PETROLEO Y DEL CARBON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3250005	INDUSTRIA - QUIMICA</masterLabel>
+            <translation><!-- 3250005	INDUSTRIA - QUIMICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3260005	INDUSTRIA - PLASTICO Y DEL HULE</masterLabel>
+            <translation><!-- 3260005	INDUSTRIA - PLASTICO Y DEL HULE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3270005	INDUSTRIA - PRODUCTOS A BASE DE MINERALES NO METALICOS (ALFARERIA, PORCELANA, LOZA, VIDRIO, CEMENTO)</masterLabel>
+            <translation><!-- 3270005	INDUSTRIA - PRODUCTOS A BASE DE MINERALES NO METALICOS (ALFARERIA, PORCELANA, LOZA, VIDRIO, CEMENTO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3310005	INDUSTRIA - METALICAS BASICAS</masterLabel>
+            <translation><!-- 3310005	INDUSTRIA - METALICAS BASICAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3310300	CONSTRUCCION - COLOCADORES DE PRODUCTOS PREFABRICADOS EN INMUEBLES</masterLabel>
+            <translation><!-- 3310300	CONSTRUCCION - COLOCADORES DE PRODUCTOS PREFABRICADOS EN INMUEBLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3310400	CONSTRUCCION - PINTORES</masterLabel>
+            <translation><!-- 3310400	CONSTRUCCION - PINTORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3310600	CONSTRUCCION - VIDRIEROS</masterLabel>
+            <translation><!-- 3310600	CONSTRUCCION - VIDRIEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3320005	INDUSTRIA - PRODUCTOS METALICOS (HERRAMIENTAS, UTENSILIOS, ESTRUCTURAS, PIEZAS)</masterLabel>
+            <translation><!-- 3320005	INDUSTRIA - PRODUCTOS METALICOS (HERRAMIENTAS, UTENSILIOS, ESTRUCTURAS, PIEZAS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3330005	INDUSTRIA - MAQUINARIA Y EQUIPO</masterLabel>
+            <translation><!-- 3330005	INDUSTRIA - MAQUINARIA Y EQUIPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3340005	INDUSTRIA - EQUIPO DE COMPUTACION, COMUNICACION, MEDICION Y DE OTROS EQUIPOS, COMPONENTES Y ACCESORIOS ELECTRONICOS</masterLabel>
+            <translation><!-- 3340005	INDUSTRIA - EQUIPO DE COMPUTACION, COMUNICACION, MEDICION Y DE OTROS EQUIPOS, COMPONENTES Y ACCESORIOS ELECTRONICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3350005	INDUSTRIA - ACCESORIOS, APARATOS ELECTRICOS Y EQUIPO DE GENERACION DE ENERGIA ELECTRICA</masterLabel>
+            <translation><!-- 3350005	INDUSTRIA - ACCESORIOS, APARATOS ELECTRICOS Y EQUIPO DE GENERACION DE ENERGIA ELECTRICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3360005	INDUSTRIA - EQUIPO DE TRANSPORTE SIN MOTOR</masterLabel>
+            <translation><!-- 3360005	INDUSTRIA - EQUIPO DE TRANSPORTE SIN MOTOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3370005	INDUSTRIA - AUTOMOTRIZ</masterLabel>
+            <translation><!-- 3370005	INDUSTRIA - AUTOMOTRIZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3380005	INDUSTRIA - VEHICULOS BLINDADOS Y EQUIPO PARA EL BLINDAJE DE VEHICULOS</masterLabel>
+            <translation><!-- 3380005	INDUSTRIA - VEHICULOS BLINDADOS Y EQUIPO PARA EL BLINDAJE DE VEHICULOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3410005	INDUSTRIA - MUEBLES, COLCHONES Y PERSIANAS</masterLabel>
+            <translation><!-- 3410005	INDUSTRIA - MUEBLES, COLCHONES Y PERSIANAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3410200	CONSTRUCCION - REPARADORES DE VIAS DE COMUNICACION</masterLabel>
+            <translation><!-- 3410200	CONSTRUCCION - REPARADORES DE VIAS DE COMUNICACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3420005	INDUSTRIA - OTRAS INDUSTRIAS MANUFACTURERAS</masterLabel>
+            <translation><!-- 3420005	INDUSTRIA - OTRAS INDUSTRIAS MANUFACTURERAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3420100	CONSTRUCCION - PLOMEROS E INSTALADORES DE TUBERIA</masterLabel>
+            <translation><!-- 3420100	CONSTRUCCION - PLOMEROS E INSTALADORES DE TUBERIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3420200	CONSTRUCCION - ARQUITECTOS</masterLabel>
+            <translation><!-- 3420200	CONSTRUCCION - ARQUITECTOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3430005	INDUSTRIA - ORFEBRERIA Y JOYERIA DE METALES Y PIEDRAS PRECIOSOS</masterLabel>
+            <translation><!-- 3430005	INDUSTRIA - ORFEBRERIA Y JOYERIA DE METALES Y PIEDRAS PRECIOSOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3440005	INDUSTRIA - JOYERIA DE METALES Y PIEDRAS NO PRECIOSOS Y DE OTROS MATERIALES</masterLabel>
+            <translation><!-- 3440005	INDUSTRIA - JOYERIA DE METALES Y PIEDRAS NO PRECIOSOS Y DE OTROS MATERIALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4130300	MECANICA - MECANICOS DE EQUIPO PESADO</masterLabel>
+            <translation><!-- 4130300	MECANICA - MECANICOS DE EQUIPO PESADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4130500	MECANICA - INGENIERO O MECANICOS INSTALADORES DE MAQUINARIA INDUSTRIAL</masterLabel>
+            <translation><!-- 4130500	MECANICA - INGENIERO O MECANICOS INSTALADORES DE MAQUINARIA INDUSTRIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4131000	MECANICA - INGENIERO O TECNICO EN MECANICA DE VEHICULOS TERRESTRES, AEREOS Y ACUATICOS</masterLabel>
+            <translation><!-- 4131000	MECANICA - INGENIERO O TECNICO EN MECANICA DE VEHICULOS TERRESTRES, AEREOS Y ACUATICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4230200	ELECTRICIDAD - INGENIEROS O TECNICOS ELECTRICISTAS</masterLabel>
+            <translation><!-- 4230200	ELECTRICIDAD - INGENIEROS O TECNICOS ELECTRICISTAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4230500	ELECTRICIDAD - TECNICOS EN REFRIGERACION, AIRE ACONDICIONADO Y CALEFACCION</masterLabel>
+            <translation><!-- 4230500	ELECTRICIDAD - TECNICOS EN REFRIGERACION, AIRE ACONDICIONADO Y CALEFACCION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4310006	COMERCIO - ABARROTES, ALIMENTOS, BEBIDAS, HIELO Y TABACO</masterLabel>
+            <translation><!-- 4310006	COMERCIO - ABARROTES, ALIMENTOS, BEBIDAS, HIELO Y TABACO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4320006	COMERCIO - PRODUCTOS FARMACEUTICOS, DE PERFUMERIA, ARTICULOS PARA EL ESPARCIMIENTO, ELECTRODOMESTICOS Y APARATOS DE LINEA BLANCA</masterLabel>
+            <translation><!-- 4320006	COMERCIO - PRODUCTOS FARMACEUTICOS, DE PERFUMERIA, ARTICULOS PARA EL ESPARCIMIENTO, ELECTRODOMESTICOS Y APARATOS DE LINEA BLANCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4330006	COMERCIO - MATERIAS PRIMAS AGROPECUARIAS Y FORESTALES, PARA LA INDUSTRIA, Y MATERIALES DE DESECHO</masterLabel>
+            <translation><!-- 4330006	COMERCIO - MATERIAS PRIMAS AGROPECUARIAS Y FORESTALES, PARA LA INDUSTRIA, Y MATERIALES DE DESECHO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4330100	ELECTRONICA - MECANICOS DE INSTRUMENTOS INDUSTRIALES</masterLabel>
+            <translation><!-- 4330100	ELECTRONICA - MECANICOS DE INSTRUMENTOS INDUSTRIALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4330200	ELECTRONICA - INGENIERO O TECNICOS EN  ELECTRONICA</masterLabel>
+            <translation><!-- 4330200	ELECTRONICA - INGENIERO O TECNICOS EN  ELECTRONICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4340006	COMERCIO - MAQUINARIA, EQUIPO DE COMPUTO Y MOBILIARIO DE USO GENERAL</masterLabel>
+            <translation><!-- 4340006	COMERCIO - MAQUINARIA, EQUIPO DE COMPUTO Y MOBILIARIO DE USO GENERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4430200	INFORMATICA - INGENIERO O TECNICOS PROGRAMADORES EN INFORMATICA</masterLabel>
+            <translation><!-- 4430200	INFORMATICA - INGENIERO O TECNICOS PROGRAMADORES EN INFORMATICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4440100	INFORMATICA - PROFESIONISTAS O TECNICOS DE SISTEMAS DE INFORMACION Y PROCESAMIENTO DE DATOS</masterLabel>
+            <translation><!-- 4440100	INFORMATICA - PROFESIONISTAS O TECNICOS DE SISTEMAS DE INFORMACION Y PROCESAMIENTO DE DATOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4530200	TELECOMUNICACIONES - INGENIERO, INSTALADORES Y REPARADORES DE EQUIPOS Y ACCESORIOS DE TELECOMUNICACIONES</masterLabel>
+            <translation><!-- 4530200	TELECOMUNICACIONES - INGENIERO, INSTALADORES Y REPARADORES DE EQUIPOS Y ACCESORIOS DE TELECOMUNICACIONES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4530500	TELECOMUNICACIONES - TELEGRAFISTAS Y RADIO-OPERADORES</masterLabel>
+            <translation><!-- 4530500	TELECOMUNICACIONES - TELEGRAFISTAS Y RADIO-OPERADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4620006	COMERCIO - TIENDAS DE AUTOSERVICIO Y DEPARTAMENTALES</masterLabel>
+            <translation><!-- 4620006	COMERCIO - TIENDAS DE AUTOSERVICIO Y DEPARTAMENTALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4630006	COMERCIO - PRODUCTOS TEXTILES, BISUTERIA, ACCESORIOS DE VESTIR Y CALZADO</masterLabel>
+            <translation><!-- 4630006	COMERCIO - PRODUCTOS TEXTILES, BISUTERIA, ACCESORIOS DE VESTIR Y CALZADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4630100	PROCESOS INDUSTRIALES - INGENIERO O TECNICOS INDUSTRIAL Y DE PRODUCCION</masterLabel>
+            <translation><!-- 4630100	PROCESOS INDUSTRIALES - INGENIERO O TECNICOS INDUSTRIAL Y DE PRODUCCION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4640300	PROCESOS INDUSTRIALES - INGENIEROS METALURGICOS Y DE MATERIALES</masterLabel>
+            <translation><!-- 4640300	PROCESOS INDUSTRIALES - INGENIEROS METALURGICOS Y DE MATERIALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4650006	COMERCIO - ARTICULOS DE PAPELERIA</masterLabel>
+            <translation><!-- 4650006	COMERCIO - ARTICULOS DE PAPELERIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4660026	COMERCIO - ARTICULOS DE JOYERIA Y RELOJES</masterLabel>
+            <translation><!-- 4660026	COMERCIO - ARTICULOS DE JOYERIA Y RELOJES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4670006	COMERCIO - ARTICULOS PARA LA DECORACION DE INTERIORES</masterLabel>
+            <translation><!-- 4670006	COMERCIO - ARTICULOS PARA LA DECORACION DE INTERIORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4680006	COMERCIO - ANTIGÜEDADES Y OBRAS DE ARTE</masterLabel>
+            <translation><!-- 4680006	COMERCIO - ANTIGÜEDADES Y OBRAS DE ARTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4710006	COMERCIO - ARTICULOS DE FERRETERIA, TLAPALERIA Y VIDRIOS</masterLabel>
+            <translation><!-- 4710006	COMERCIO - ARTICULOS DE FERRETERIA, TLAPALERIA Y VIDRIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4720006	COMERCIO - VEHICULOS NUEVOS</masterLabel>
+            <translation><!-- 4720006	COMERCIO - VEHICULOS NUEVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4730006	COMERCIO - VEHICULOS USADOS</masterLabel>
+            <translation><!-- 4730006	COMERCIO - VEHICULOS USADOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4740006	COMERCIO - PARTES Y REFACCIONES PARA VEHICULOS</masterLabel>
+            <translation><!-- 4740006	COMERCIO - PARTES Y REFACCIONES PARA VEHICULOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4750006	COMERCIO - COMBUSTIBLES Y LUBRICANTES</masterLabel>
+            <translation><!-- 4750006	COMERCIO - COMBUSTIBLES Y LUBRICANTES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4760006	COMERCIO - A TRAVES DE INTERNET, Y CATALOGOS IMPRESOS, TELEVISION Y SIMILARES</masterLabel>
+            <translation><!-- 4760006	COMERCIO - A TRAVES DE INTERNET, Y CATALOGOS IMPRESOS, TELEVISION Y SIMILARES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4810007	TRANSPORTE - AEREO</masterLabel>
+            <translation><!-- 4810007	TRANSPORTE - AEREO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4820007	TRANSPORTE - FERROVIARIO</masterLabel>
+            <translation><!-- 4820007	TRANSPORTE - FERROVIARIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4830007	TRANSPORTE - MARITIMO Y FLUVIAL</masterLabel>
+            <translation><!-- 4830007	TRANSPORTE - MARITIMO Y FLUVIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4840007	TRANSPORTE - SERVICIOS DE TRANSPORTE Y/O CUSTODIA DE VALORES</masterLabel>
+            <translation><!-- 4840007	TRANSPORTE - SERVICIOS DE TRANSPORTE Y/O CUSTODIA DE VALORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4850007	TRANSPORTE - TERRESTRE</masterLabel>
+            <translation><!-- 4850007	TRANSPORTE - TERRESTRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4860007	TRANSPORTE - TRANSPORTACION Y DISTRIBUCION POR DUCTOS</masterLabel>
+            <translation><!-- 4860007	TRANSPORTE - TRANSPORTACION Y DISTRIBUCION POR DUCTOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4880007	TRANSPORTE - SERVICIOS RELACIONADOS CON EL TRANSPORTE</masterLabel>
+            <translation><!-- 4880007	TRANSPORTE - SERVICIOS RELACIONADOS CON EL TRANSPORTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4890007	TRANSPORTE - SERVICIOS DE AGENCIAS ADUANALES</masterLabel>
+            <translation><!-- 4890007	TRANSPORTE - SERVICIOS DE AGENCIAS ADUANALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4910008	SERVICIOS POSTALES</masterLabel>
+            <translation><!-- 4910008	SERVICIOS POSTALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4920009	SERVICIOS DE MENSAJERIA Y PAQUETERIA</masterLabel>
+            <translation><!-- 4920009	SERVICIOS DE MENSAJERIA Y PAQUETERIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4930010	SERVICIOS DE ALMACENAMIENTO</masterLabel>
+            <translation><!-- 4930010	SERVICIOS DE ALMACENAMIENTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5100011	INFORMACION EN MEDIOS MASIVOS</masterLabel>
+            <translation><!-- 5100011	INFORMACION EN MEDIOS MASIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5110100	MINERALES NO METALICOS - OPERADORES O TRABAJADORES DE VIDRIO Y CONCRETO</masterLabel>
+            <translation><!-- 5110100	MINERALES NO METALICOS - OPERADORES O TRABAJADORES DE VIDRIO Y CONCRETO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5121300	MINERALES NO METALICOS - OPERADORES DE MAQUINAS PROCESADORAS DE MINERALES NO METALICOS</masterLabel>
+            <translation><!-- 5121300	MINERALES NO METALICOS - OPERADORES DE MAQUINAS PROCESADORAS DE MINERALES NO METALICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5180012	PROCESAMIENTO ELECTRONICO DE INFORMACION Y OTROS SERVICIOS WEB</masterLabel>
+            <translation><!-- 5180012	PROCESAMIENTO ELECTRONICO DE INFORMACION Y OTROS SERVICIOS WEB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5210013	SERVICIOS FINANCIEROS - BANCA CENTRAL</masterLabel>
+            <translation><!-- 5210013	SERVICIOS FINANCIEROS - BANCA CENTRAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5210100	METALES - SUPERVISORES U OPERADORES DE PROCESAMIENTO Y FUNDICION DE METALES</masterLabel>
+            <translation><!-- 5210100	METALES - SUPERVISORES U OPERADORES DE PROCESAMIENTO Y FUNDICION DE METALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5220013	SERVICIOS FINANCIEROS - BANCA MULTIPLE</masterLabel>
+            <translation><!-- 5220013	SERVICIOS FINANCIEROS - BANCA MULTIPLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5230013	SERVICIOS FINANCIEROS - BANCA DE DESARROLLO</masterLabel>
+            <translation><!-- 5230013	SERVICIOS FINANCIEROS - BANCA DE DESARROLLO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5240013	SERVICIOS FINANCIEROS - FONDOS Y FIDEICOMISOS FINANCIEROS</masterLabel>
+            <translation><!-- 5240013	SERVICIOS FINANCIEROS - FONDOS Y FIDEICOMISOS FINANCIEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5250013	SERVICIOS FINANCIEROS - UNIONES DE CREDITO</masterLabel>
+            <translation><!-- 5250013	SERVICIOS FINANCIEROS - UNIONES DE CREDITO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5260013	SREVICIOS FINANCIEROS - CAJAS DE AHORRO POPULAR</masterLabel>
+            <translation><!-- 5260013	SREVICIOS FINANCIEROS - CAJAS DE AHORRO POPULAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5270013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE INTERMEDIACION CREDITICIA Y FINANCIERA NO BURSATIL (OPERACION Y PROMOCION DE TARJETAS DE CREDITO NO BANCARIAS,  FINANCIAMIENTO DE BIENES DURADEROS), SOCIEDADES FINANCIERAS DE OBJETO LIMITADO</masterLabel>
+            <translation><!-- 5270013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE INTERMEDIACION CREDITICIA Y FINANCIERA NO BURSATIL (OPERACION Y PROMOCION DE TARJETAS DE CREDITO NO BANCARIAS,  FINANCIAMIENTO DE BIENES DURADEROS), SOCIEDADES FINANCIERAS DE OBJETO LIMITADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5280013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE AHORRO Y PRESTAMO</masterLabel>
+            <translation><!-- 5280013	SERVICIOS FINANCIEROS - OTRAS INSTITUCIONES DE AHORRO Y PRESTAMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5290013	SERVICIOS FINANCIEROS - COMPAÑIAS DE AUTOFINANCIAMIENTO</masterLabel>
+            <translation><!-- 5290013	SERVICIOS FINANCIEROS - COMPAÑIAS DE AUTOFINANCIAMIENTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5310013	SERVICIOS FINANCIEROS - MONTEPIOS</masterLabel>
+            <translation><!-- 5310013	SERVICIOS FINANCIEROS - MONTEPIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5310700	ALIMENTOS Y BEBIDAS - TRABAJADORES EN LA ELABORACION  Y PROCESAMIENTO DE ALIMENTOS, BEBIDAS Y TABACO</masterLabel>
+            <translation><!-- 5310700	ALIMENTOS Y BEBIDAS - TRABAJADORES EN LA ELABORACION  Y PROCESAMIENTO DE ALIMENTOS, BEBIDAS Y TABACO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5320013	SERVICIOS FINANCIEROS - CASAS DE EMPEÑO</masterLabel>
+            <translation><!-- 5320013	SERVICIOS FINANCIEROS - CASAS DE EMPEÑO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5330013	SERVICIOS FINANCIEROS - SOCIEDADES FINANCIERAS DE OBJETO MULTIPLE</masterLabel>
+            <translation><!-- 5330013	SERVICIOS FINANCIEROS - SOCIEDADES FINANCIERAS DE OBJETO MULTIPLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5340013	OTRAS EMPRESAS DE INTERMEDIACION CREDITICIA NO FINANCIERAS</masterLabel>
+            <translation><!-- 5340013	OTRAS EMPRESAS DE INTERMEDIACION CREDITICIA NO FINANCIERAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5350013	SERVICIOS FINANCIEROS - CASAS DE BOLSA</masterLabel>
+            <translation><!-- 5350013	SERVICIOS FINANCIEROS - CASAS DE BOLSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5360013	SERVICIOS FINANCIEROS - CASAS DE CAMBIO Y CENTROS CAMBIARIOS</masterLabel>
+            <translation><!-- 5360013	SERVICIOS FINANCIEROS - CASAS DE CAMBIO Y CENTROS CAMBIARIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5370013	SERVICIOS FINANCIEROS - TRANSMISORES DE DINERO</masterLabel>
+            <translation><!-- 5370013	SERVICIOS FINANCIEROS - TRANSMISORES DE DINERO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5390013	SERVICIOS FINANCIEROS - OTROS SERVICIOS RELACIONADOS CON LA INTERMEDIACION BURSATIL</masterLabel>
+            <translation><!-- 5390013	SERVICIOS FINANCIEROS - OTROS SERVICIOS RELACIONADOS CON LA INTERMEDIACION BURSATIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5410013	SERVICIOS FINANCIEROS - COMPAÑIAS DE SEGUROS</masterLabel>
+            <translation><!-- 5410013	SERVICIOS FINANCIEROS - COMPAÑIAS DE SEGUROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5410100	TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES EN LA PRODUCCION DE TEXTILES, PRENDAS DE VESTIR Y CALZADO</masterLabel>
+            <translation><!-- 5410100	TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES EN LA PRODUCCION DE TEXTILES, PRENDAS DE VESTIR Y CALZADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5420013	SERVICIOS FINANCIEROS - COMPAÑIAS AFIANZADORAS</masterLabel>
+            <translation><!-- 5420013	SERVICIOS FINANCIEROS - COMPAÑIAS AFIANZADORAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5420700	TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES DE REPARACION DE PRENDAS DE VESTIR Y CALZADO</masterLabel>
+            <translation><!-- 5420700	TEXTILES Y PRENDAS DE VESTIR - TRABAJADORES DE REPARACION DE PRENDAS DE VESTIR Y CALZADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5430013	SERVICIOS FINANCIEROS - AGENTES, AJUSTADORES Y GESTORES DE SEGUROS Y FIANZAS</masterLabel>
+            <translation><!-- 5430013	SERVICIOS FINANCIEROS - AGENTES, AJUSTADORES Y GESTORES DE SEGUROS Y FIANZAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5440013	SERVICIOS FINANCIEROS - ADMINISTRACION DE FONDOS PARA EL RETIRO</masterLabel>
+            <translation><!-- 5440013	SERVICIOS FINANCIEROS - ADMINISTRACION DE FONDOS PARA EL RETIRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5450013	SERVICIOS FINANCIEROS - EMISORA Y/O COMERCIALIZACION DE CHEQUES DE VIAJERO</masterLabel>
+            <translation><!-- 5450013	SERVICIOS FINANCIEROS - EMISORA Y/O COMERCIALIZACION DE CHEQUES DE VIAJERO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5510014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER SIN INTERMEDIACION DE BIENES RAICES</masterLabel>
+            <translation><!-- 5510014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER SIN INTERMEDIACION DE BIENES RAICES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5510100	MADERA, PAPEL, Y PIEL - TRABAJADORES EN LA FABRICACION DE MUEBLES O PRODUCTOS DE MADERA Y/O PIEL</masterLabel>
+            <translation><!-- 5510100	MADERA, PAPEL, Y PIEL - TRABAJADORES EN LA FABRICACION DE MUEBLES O PRODUCTOS DE MADERA Y/O PIEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5520014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - INMOBILIARIAS Y CORREDORES DE BIENES RAICES</masterLabel>
+            <translation><!-- 5520014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - INMOBILIARIAS Y CORREDORES DE BIENES RAICES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5530014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE BIENES MUEBLES EXCEPTO VEHICULOS</masterLabel>
+            <translation><!-- 5530014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE BIENES MUEBLES EXCEPTO VEHICULOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5540014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER DE VEHICULOS</masterLabel>
+            <translation><!-- 5540014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - ALQUILER DE VEHICULOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5550014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE MARCAS REGISTRADAS, PATENTES Y FRANQUICIAS</masterLabel>
+            <translation><!-- 5550014	SERVICIOS INMOBILIARIOS Y DE ALQUILER - SERVICIOS DE ALQUILER DE MARCAS REGISTRADAS, PATENTES Y FRANQUICIAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5610015	SERVICIOS PROFESIONALES Y TECNICOS - SERVICIOS JURIDICOS</masterLabel>
+            <translation><!-- 5610015	SERVICIOS PROFESIONALES Y TECNICOS - SERVICIOS JURIDICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5610200	PRODUCTOS QUIMICOS - TRABAJADORES EN EL PROCESAMIENTO Y FABRICACION DE PRODUCTOS QUIMICOS Y FARMACOQUIMICAS</masterLabel>
+            <translation><!-- 5610200	PRODUCTOS QUIMICOS - TRABAJADORES EN EL PROCESAMIENTO Y FABRICACION DE PRODUCTOS QUIMICOS Y FARMACOQUIMICAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5620015	SERVICIOS PROFESIONALES Y TECNICOS - NOTARIA Y CORREDURIA PUBLICA</masterLabel>
+            <translation><!-- 5620015	SERVICIOS PROFESIONALES Y TECNICOS - NOTARIA Y CORREDURIA PUBLICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5630015	SERVICIOS PROFESIONALES Y TECNICOS - ARQUITECTURA, INGENIERIA Y ACTIVIDADES RELACIONADAS</masterLabel>
+            <translation><!-- 5630015	SERVICIOS PROFESIONALES Y TECNICOS - ARQUITECTURA, INGENIERIA Y ACTIVIDADES RELACIONADAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5640015	SERVICIOS PROFESIONALES Y TECNICOS - DISEÑO DE SISTEMAS DE COMPUTO Y SERVICIOS RELACIONADOS</masterLabel>
+            <translation><!-- 5640015	SERVICIOS PROFESIONALES Y TECNICOS - DISEÑO DE SISTEMAS DE COMPUTO Y SERVICIOS RELACIONADOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5650015	SERVICIOS PROFESIONALES Y TECNICOS - CONSULTORIA ADMINISTRATIVA, CIENTIFICA Y TECNICA</masterLabel>
+            <translation><!-- 5650015	SERVICIOS PROFESIONALES Y TECNICOS - CONSULTORIA ADMINISTRATIVA, CIENTIFICA Y TECNICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5660015	SERVICIOS PROFESIONALES Y TECNICOS - INVESTIGACION CIENTIFICA Y DESARROLLO</masterLabel>
+            <translation><!-- 5660015	SERVICIOS PROFESIONALES Y TECNICOS - INVESTIGACION CIENTIFICA Y DESARROLLO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5670015	SERVICIOS PROFESIONALES Y TECNICOS - PUBLICIDAD Y ACTIVIDADES RELACIONADAS</masterLabel>
+            <translation><!-- 5670015	SERVICIOS PROFESIONALES Y TECNICOS - PUBLICIDAD Y ACTIVIDADES RELACIONADAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5680015	SERVICIOS PROFESIONALES Y TECNICOS - OTROS SERVICIOS DE OUTSOURCING</masterLabel>
+            <translation><!-- 5680015	SERVICIOS PROFESIONALES Y TECNICOS - OTROS SERVICIOS DE OUTSOURCING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5690015	SERVICIOS PROFESIONALES Y TECNICOS - CONTABILIDAD Y AUDITORIA</masterLabel>
+            <translation><!-- 5690015	SERVICIOS PROFESIONALES Y TECNICOS - CONTABILIDAD Y AUDITORIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5710016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE ADMINISTRACION DE NEGOCIOS</masterLabel>
+            <translation><!-- 5710016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE ADMINISTRACION DE NEGOCIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5710200	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES  EN LA FABRICACION DE PRODUCTOS METALICOS, DE HULE Y PLASTICOS</masterLabel>
+            <translation><!-- 5710200	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES  EN LA FABRICACION DE PRODUCTOS METALICOS, DE HULE Y PLASTICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5720016	SERVICIOS DE APOYO A LOS NEGOCIOS - AGENCIAS DE COBRANZA, DESPACHOS DE INVESTIGACION</masterLabel>
+            <translation><!-- 5720016	SERVICIOS DE APOYO A LOS NEGOCIOS - AGENCIAS DE COBRANZA, DESPACHOS DE INVESTIGACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5720800	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - ENSAMBLADORES Y ACABADORES DE PRODUCTOS DE PLASTICO</masterLabel>
+            <translation><!-- 5720800	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - ENSAMBLADORES Y ACABADORES DE PRODUCTOS DE PLASTICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5720900	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - FABRICANTES DE HERRAMIENTAS Y TROQUELES</masterLabel>
+            <translation><!-- 5720900	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - FABRICANTES DE HERRAMIENTAS Y TROQUELES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5721000	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - HERREROS Y FORJADORES</masterLabel>
+            <translation><!-- 5721000	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - HERREROS Y FORJADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5721100	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - JOYEROS Y ORFEBRES</masterLabel>
+            <translation><!-- 5721100	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - JOYEROS Y ORFEBRES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5722900	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SOLDADORES Y OXICORTADORES</masterLabel>
+            <translation><!-- 5722900	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SOLDADORES Y OXICORTADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5730016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE PROTECCION Y SEGURIDAD</masterLabel>
+            <translation><!-- 5730016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE PROTECCION Y SEGURIDAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5730600	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES EN EL ENSAMBLADO DE VEHICULOS, MOLDEADO, LAMINADO Y MONTAJE DE PIEZAS METALICAS, HULE O PLASTICO</masterLabel>
+            <translation><!-- 5730600	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - TRABAJADORES EN EL ENSAMBLADO DE VEHICULOS, MOLDEADO, LAMINADO Y MONTAJE DE PIEZAS METALICAS, HULE O PLASTICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5731100	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SUPERVISORES EN LA FABRICACION Y MONTAJE DE ARTICULOS DEPORTIVOS, DE JUGUETES Y SIMILARES</masterLabel>
+            <translation><!-- 5731100	PRODUCTOS METALICOS Y DE HULE Y PLASTICO - SUPERVISORES EN LA FABRICACION Y MONTAJE DE ARTICULOS DEPORTIVOS, DE JUGUETES Y SIMILARES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5740016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE LIMPIEZA Y MANTENIMIENTO</masterLabel>
+            <translation><!-- 5740016	SERVICIOS DE APOYO A LOS NEGOCIOS - SERVICIOS DE LIMPIEZA Y MANTENIMIENTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5750016	SERVICIOS DE APOYO A LOS NEGOCIOS - OTROS SERVICIOS</masterLabel>
+            <translation><!-- 5750016	SERVICIOS DE APOYO A LOS NEGOCIOS - OTROS SERVICIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5810200	PRODUCTOS ELECTRICOS Y ELECTRONICOS - TRABAJADORES EN LA FABRICACION DE PRODUCTOS ELECTRICOS Y ELECTRONICOS</masterLabel>
+            <translation><!-- 5810200	PRODUCTOS ELECTRICOS Y ELECTRONICOS - TRABAJADORES EN LA FABRICACION DE PRODUCTOS ELECTRICOS Y ELECTRONICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5910400	PRODUCTOS IMPRESOS - TRABAJADORES EN LA ELABORACION DE PRODUCTOS IMPRESOS</masterLabel>
+            <translation><!-- 5910400	PRODUCTOS IMPRESOS - TRABAJADORES EN LA ELABORACION DE PRODUCTOS IMPRESOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6100017	SERVICIOS EDUCATIVOS</masterLabel>
+            <translation><!-- 6100017	SERVICIOS EDUCATIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6120100	TRANSPORTE FERROVIARIO - CONDUCTORES Y OPERADORES DE TREN SUBTERRANEO Y DE TREN LIGERO</masterLabel>
+            <translation><!-- 6120100	TRANSPORTE FERROVIARIO - CONDUCTORES Y OPERADORES DE TREN SUBTERRANEO Y DE TREN LIGERO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6120200	TRANSPORTE FERROVIARIO - TRABAJADORES DE FERROCARRILES</masterLabel>
+            <translation><!-- 6120200	TRANSPORTE FERROVIARIO - TRABAJADORES DE FERROCARRILES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6200018	SERVICIOS DE SALUD Y DE ASISTENCIA SOCIAL</masterLabel>
+            <translation><!-- 6200018	SERVICIOS DE SALUD Y DE ASISTENCIA SOCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6220100	TRANSPORTE TERRESTRE - CONDUCTORES DE VEHICULOS DE TRANSPORTE, SERVICIOS DE CARGA Y/O REPARTO</masterLabel>
+            <translation><!-- 6220100	TRANSPORTE TERRESTRE - CONDUCTORES DE VEHICULOS DE TRANSPORTE, SERVICIOS DE CARGA Y/O REPARTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6330100	TRANSPORTE AEREO - COORDINADORES Y SUPERVISORES EN SERVICIOS DE TRANSPORTE AEREO</masterLabel>
+            <translation><!-- 6330100	TRANSPORTE AEREO - COORDINADORES Y SUPERVISORES EN SERVICIOS DE TRANSPORTE AEREO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6330200	TRANSPORTE AEREO - DESPACHADORES DE VUELO Y ESPECIALISTAS EN SERVICIOS AEREOS</masterLabel>
+            <translation><!-- 6330200	TRANSPORTE AEREO - DESPACHADORES DE VUELO Y ESPECIALISTAS EN SERVICIOS AEREOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6330400	TRANSPORTE AEREO - SUPERVISORES DE SISTEMAS DE COMUNICACION PARA LA AERONAVEGACION</masterLabel>
+            <translation><!-- 6330400	TRANSPORTE AEREO - SUPERVISORES DE SISTEMAS DE COMUNICACION PARA LA AERONAVEGACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6330500	TRANSPORTE AEREO - PILOTOS DE AVIACION E INSTRUCTORES DE VUELO</masterLabel>
+            <translation><!-- 6330500	TRANSPORTE AEREO - PILOTOS DE AVIACION E INSTRUCTORES DE VUELO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6330600	TRANSPORTE AEREO - SOBRECARGOS</masterLabel>
+            <translation><!-- 6330600	TRANSPORTE AEREO - SOBRECARGOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6420100	TRANSPORTE MARITIMO Y FLUVIAL - CONDUCTORES DE EMBARCACIONES</masterLabel>
+            <translation><!-- 6420100	TRANSPORTE MARITIMO Y FLUVIAL - CONDUCTORES DE EMBARCACIONES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6430100	TRANSPORTE MARITIMO Y FLUVIAL - JEFES Y CONTROLADORES DE TRAFICO MARITIMO</masterLabel>
+            <translation><!-- 6430100	TRANSPORTE MARITIMO Y FLUVIAL - JEFES Y CONTROLADORES DE TRAFICO MARITIMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6430300	TRANSPORTE MARITIMO Y FLUVIAL - PILOTOS, CAPITANES DE PUERTOS Y OFICIALES DE CUBIERTA</masterLabel>
+            <translation><!-- 6430300	TRANSPORTE MARITIMO Y FLUVIAL - PILOTOS, CAPITANES DE PUERTOS Y OFICIALES DE CUBIERTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7110019	SERVICIOS DE ESPARCIMIENTO CULTURALES Y DEPORTIVOS, Y OTROS SERVICIOS RECREATIVOS</masterLabel>
+            <translation><!-- 7110019	SERVICIOS DE ESPARCIMIENTO CULTURALES Y DEPORTIVOS, Y OTROS SERVICIOS RECREATIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7110200	COMERCIO - DESPACHADORES DE GASOLINERA</masterLabel>
+            <translation><!-- 7110200	COMERCIO - DESPACHADORES DE GASOLINERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7110300	COMERCIO - EMPACADORES DE MERCANCIAS</masterLabel>
+            <translation><!-- 7110300	COMERCIO - EMPACADORES DE MERCANCIAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7110500	COMERCIO - TAQUILLEROS</masterLabel>
+            <translation><!-- 7110500	COMERCIO - TAQUILLEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7110600	COMERCIO - VENDEDORES AMBULANTES</masterLabel>
+            <translation><!-- 7110600	COMERCIO - VENDEDORES AMBULANTES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7120019	SERVICIOS DE ESPARCIMIENTO - MUSEOS, SITIOS HISTORICOS, ZOOLOGICOS Y SIMILARES</masterLabel>
+            <translation><!-- 7120019	SERVICIOS DE ESPARCIMIENTO - MUSEOS, SITIOS HISTORICOS, ZOOLOGICOS Y SIMILARES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7120100	COMERCIO - CAJEROS REGISTRADORES</masterLabel>
+            <translation><!-- 7120100	COMERCIO - CAJEROS REGISTRADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7130019	SERVICIOS DE ESPARCIMIENTO - CASAS DE JUEGOS ELECTRONICOS</masterLabel>
+            <translation><!-- 7130019	SERVICIOS DE ESPARCIMIENTO - CASAS DE JUEGOS ELECTRONICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7130200	COMERCIO - REPRESENTANTES DE VENTAS POR TELEFONO O POR TELEVISION</masterLabel>
+            <translation><!-- 7130200	COMERCIO - REPRESENTANTES DE VENTAS POR TELEFONO O POR TELEVISION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7130400	COMERCIO - VENDEDORES ESPECIALIZADOS</masterLabel>
+            <translation><!-- 7130400	COMERCIO - VENDEDORES ESPECIALIZADOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7140019	SERVICIOS DE ESPARCIMIENTO - CASINOS O CENTROS DE APUESTA</masterLabel>
+            <translation><!-- 7140019	SERVICIOS DE ESPARCIMIENTO - CASINOS O CENTROS DE APUESTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7140100	COMERCIO - GERENTES O SUPERVISOR DE ESTABLECIMIENTO COMERCIAL</masterLabel>
+            <translation><!-- 7140100	COMERCIO - GERENTES O SUPERVISOR DE ESTABLECIMIENTO COMERCIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7140200	COMERCIO - GERENTES O EMPLEADOS DE VENTAS</masterLabel>
+            <translation><!-- 7140200	COMERCIO - GERENTES O EMPLEADOS DE VENTAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7150019	SERVICIOS DE ESPARCIMIENTO - VENTA DE BILLETES DE LOTERIA, PRONOSTICOS DEPORTIVOS U OTROS SORTEOS</masterLabel>
+            <translation><!-- 7150019	SERVICIOS DE ESPARCIMIENTO - VENTA DE BILLETES DE LOTERIA, PRONOSTICOS DEPORTIVOS U OTROS SORTEOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7200020	SERVICIOS DE ALOJAMIENTO TEMPORAL Y DE PREPARACION DE ALIMENTOS Y BEBIDAS</masterLabel>
+            <translation><!-- 7200020	SERVICIOS DE ALOJAMIENTO TEMPORAL Y DE PREPARACION DE ALIMENTOS Y BEBIDAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7210100	ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIO DE ALIMENTOS Y BEBIDAS</masterLabel>
+            <translation><!-- 7210100	ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIO DE ALIMENTOS Y BEBIDAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7230200	ALIMENTACION Y HOSPEDAJE - JEFES DE COCINA, RESTAURANTE Y/O BAR</masterLabel>
+            <translation><!-- 7230200	ALIMENTACION Y HOSPEDAJE - JEFES DE COCINA, RESTAURANTE Y/O BAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7240200	ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIOS DE ALOJAMIENTO</masterLabel>
+            <translation><!-- 7240200	ALIMENTACION Y HOSPEDAJE - TRABAJADORES DE SERVICIOS DE ALOJAMIENTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7330200	TURISMO - COORDINADORES DE OPERACIONES EN AGENCIAS DE VIAJES</masterLabel>
+            <translation><!-- 7330200	TURISMO - COORDINADORES DE OPERACIONES EN AGENCIAS DE VIAJES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7330300	TURISMO - GUIAS DE EXCURSIONES O ECOTURISTICO</masterLabel>
+            <translation><!-- 7330300	TURISMO - GUIAS DE EXCURSIONES O ECOTURISTICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7430100	DEPORTE Y ESPARCIMIENTO - ANIMADORES RECREATIVOS</masterLabel>
+            <translation><!-- 7430100	DEPORTE Y ESPARCIMIENTO - ANIMADORES RECREATIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7430200	DEPORTE Y ESPARCIMIENTO - ATLETAS, ENTRENADORES O INSTRUCTORES EN DEPORTE Y RECREACION</masterLabel>
+            <translation><!-- 7430200	DEPORTE Y ESPARCIMIENTO - ATLETAS, ENTRENADORES O INSTRUCTORES EN DEPORTE Y RECREACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7430400	DEPORTE Y ESPARCIMIENTO - OFICIALES, JUECES Y ARBITROS DEPORTIVOS</masterLabel>
+            <translation><!-- 7430400	DEPORTE Y ESPARCIMIENTO - OFICIALES, JUECES Y ARBITROS DEPORTIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7530100	SERVICIOS PERSONALES - ESTILISTAS, ESTETICISTAS Y MASAJISTAS</masterLabel>
+            <translation><!-- 7530100	SERVICIOS PERSONALES - ESTILISTAS, ESTETICISTAS Y MASAJISTAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7540100	SERVICIOS PERSONALES - TRBAJADORES DE SERVICIOS FUNERARIOS O CEMENTERIOS</masterLabel>
+            <translation><!-- 7540100	SERVICIOS PERSONALES - TRBAJADORES DE SERVICIOS FUNERARIOS O CEMENTERIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7620100	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - CERRAJEROS</masterLabel>
+            <translation><!-- 7620100	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - CERRAJEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7620200	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE ARTICULOS DE HULE</masterLabel>
+            <translation><!-- 7620200	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE ARTICULOS DE HULE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7630100	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - RELOJEROS Y REPARADORES DE RELOJES</masterLabel>
+            <translation><!-- 7630100	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - RELOJEROS Y REPARADORES DE RELOJES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7630200	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE APARATOS ELECTRICOS</masterLabel>
+            <translation><!-- 7630200	REPARACION DE ARTICULOS DE USO DOMESTICO Y PERSONAL - REPARADORES DE APARATOS ELECTRICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7720100	LIMPIEZA - SERVICIOS DE CAMARISTAS Y ASEADORES</masterLabel>
+            <translation><!-- 7720100	LIMPIEZA - SERVICIOS DE CAMARISTAS Y ASEADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7720200	LIMPIEZA - TRABAJADORES DE TINTORERIA Y LAVANDERIA</masterLabel>
+            <translation><!-- 7720200	LIMPIEZA - TRABAJADORES DE TINTORERIA Y LAVANDERIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7720300	LIMPIEZA - FUMIGADORES DE PLAGAS</masterLabel>
+            <translation><!-- 7720300	LIMPIEZA - FUMIGADORES DE PLAGAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7810200	SERVICIO POSTAL Y MENSAJERIA - EMPLEADOS DE SERVICIOS DE MENSAJERIA</masterLabel>
+            <translation><!-- 7810200	SERVICIO POSTAL Y MENSAJERIA - EMPLEADOS DE SERVICIOS DE MENSAJERIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8100021	SERVICIOS DE REPARACION Y MANTENIMIENTO - EQUIPO INDUSTRIAL, COMERCIAL, SERVICIOS Y AUTOMOTRIZ</masterLabel>
+            <translation><!-- 8100021	SERVICIOS DE REPARACION Y MANTENIMIENTO - EQUIPO INDUSTRIAL, COMERCIAL, SERVICIOS Y AUTOMOTRIZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8120100	BOLSA, BANCA Y SEGUROS - GERENTES O TRABAJADORES DE SERVICIOS Y PRODUCTOS FINANCIEROS</masterLabel>
+            <translation><!-- 8120100	BOLSA, BANCA Y SEGUROS - GERENTES O TRABAJADORES DE SERVICIOS Y PRODUCTOS FINANCIEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8130500	BOLSA, BANCA Y SEGUROS - VALUADORES</masterLabel>
+            <translation><!-- 8130500	BOLSA, BANCA Y SEGUROS - VALUADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8140100	BOLSA, BANCA Y SEGUROS - AGENTES DE VALORES, PROMOTORES Y CORREDORES DE INVERSION</masterLabel>
+            <translation><!-- 8140100	BOLSA, BANCA Y SEGUROS - AGENTES DE VALORES, PROMOTORES Y CORREDORES DE INVERSION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8200022	SERVICIOS PERSONALES - LAVANDERIAS, SERVICIOS FUNERARIOS, BAÑOS PUBLICOS, SERVICIOS DE ESTACIONAMIENTO, REVELADO E IMPRESION DE FOTOGRAFIAS</masterLabel>
+            <translation><!-- 8200022	SERVICIOS PERSONALES - LAVANDERIAS, SERVICIOS FUNERARIOS, BAÑOS PUBLICOS, SERVICIOS DE ESTACIONAMIENTO, REVELADO E IMPRESION DE FOTOGRAFIAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8210100	ADMINISTRACION - TRABAJADORES DE ARCHIVO, ALMACEN DE INVENTARIOS</masterLabel>
+            <translation><!-- 8210100	ADMINISTRACION - TRABAJADORES DE ARCHIVO, ALMACEN DE INVENTARIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8220600	ADMINISTRACION - PAGADORES Y COBRADORES</masterLabel>
+            <translation><!-- 8220600	ADMINISTRACION - PAGADORES Y COBRADORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8230300	ADMINISTRACION - DIRECTORES, GERENTES  Y EMPLEADOS DE COMPRAS, FINANZAS, RECURSOS HUMANOS Y SERVICIOS ADMINISTRATIVOS</masterLabel>
+            <translation><!-- 8230300	ADMINISTRACION - DIRECTORES, GERENTES  Y EMPLEADOS DE COMPRAS, FINANZAS, RECURSOS HUMANOS Y SERVICIOS ADMINISTRATIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8240200	ADMINISTRACION - CONTADORES Y AUDITORES</masterLabel>
+            <translation><!-- 8240200	ADMINISTRACION - CONTADORES Y AUDITORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8240600	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE PRODUCCION</masterLabel>
+            <translation><!-- 8240600	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE PRODUCCION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8240700	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE SERVICIOS DE TRANSPORTE</masterLabel>
+            <translation><!-- 8240700	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE SERVICIOS DE TRANSPORTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8250100	ADMINISTRACION - CONSULTORES</masterLabel>
+            <translation><!-- 8250100	ADMINISTRACION - CONSULTORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8250200	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE COMERCIALIZACION</masterLabel>
+            <translation><!-- 8250200	ADMINISTRACION - DIRECTORES, GERENTES Y EMPLEADOS DE COMERCIALIZACION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8250800	ADMINISTRACION - DIRECTORES, GERENTES Y EMPELADOS ADMINISTRATIVOS</masterLabel>
+            <translation><!-- 8250800	ADMINISTRACION - DIRECTORES, GERENTES Y EMPELADOS ADMINISTRATIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8310023	ASOCIACIONES - ORGANIZACIONES Y CAMARAS DE PRODUCTORES, COMERCIANTES Y PRESTADORES DE SERVICIOS</masterLabel>
+            <translation><!-- 8310023	ASOCIACIONES - ORGANIZACIONES Y CAMARAS DE PRODUCTORES, COMERCIANTES Y PRESTADORES DE SERVICIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8320023	ASOCIACIONES - ORGANIZACIONES LABORALES Y SINDICALES</masterLabel>
+            <translation><!-- 8320023	ASOCIACIONES - ORGANIZACIONES LABORALES Y SINDICALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8330023	ASOCIACIONES - ORGANIZACIONES DE PROFESIONISTAS</masterLabel>
+            <translation><!-- 8330023	ASOCIACIONES - ORGANIZACIONES DE PROFESIONISTAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8340023	ASOCIACIONES - ORGANIZACIONES DE ACTIVIDADES RECREATIVAS</masterLabel>
+            <translation><!-- 8340023	ASOCIACIONES - ORGANIZACIONES DE ACTIVIDADES RECREATIVAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8340100	SERVICIOS LEGALES - ABOGADOS Y ASESORES LEGALES</masterLabel>
+            <translation><!-- 8340100	SERVICIOS LEGALES - ABOGADOS Y ASESORES LEGALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8340300	SERVICIOS LEGALES - NOTARIOS Y CORREDORES PUBLICOS</masterLabel>
+            <translation><!-- 8340300	SERVICIOS LEGALES - NOTARIOS Y CORREDORES PUBLICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8350023	ASOCIACIONES - ORGANIZACIONES RELIGIOSAS</masterLabel>
+            <translation><!-- 8350023	ASOCIACIONES - ORGANIZACIONES RELIGIOSAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8360023	ASOCIACIONES - ORGANIZACIONES POLITICAS</masterLabel>
+            <translation><!-- 8360023	ASOCIACIONES - ORGANIZACIONES POLITICAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8370023	ASOCIACIONES - ORGANIZACIONES CIVILES</masterLabel>
+            <translation><!-- 8370023	ASOCIACIONES - ORGANIZACIONES CIVILES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9100025	ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES</masterLabel>
+            <translation><!-- 9100025	ORGANISMOS INTERNACIONALES Y EXTRATERRITORIALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9120700	SERVICIOS MEDICOS - ENFERMERAS Y/O PARAMEDICOS</masterLabel>
+            <translation><!-- 9120700	SERVICIOS MEDICOS - ENFERMERAS Y/O PARAMEDICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9130300	SERVICIOS MEDICOS - DIETISTAS Y NUTRIOLOGOS</masterLabel>
+            <translation><!-- 9130300	SERVICIOS MEDICOS - DIETISTAS Y NUTRIOLOGOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9131200	SERVICIOS MEDICOS - TECNICOS DE LABORATORIO MEDICO</masterLabel>
+            <translation><!-- 9131200	SERVICIOS MEDICOS - TECNICOS DE LABORATORIO MEDICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9140200	SERVICIOS MEDICOS - DIRECTORES DE INSTITUCIONES EN EL CUIDADO DE LA SALUD</masterLabel>
+            <translation><!-- 9140200	SERVICIOS MEDICOS - DIRECTORES DE INSTITUCIONES EN EL CUIDADO DE LA SALUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9140400	SERVICIOS MEDICOS - FARMACEUTICOS</masterLabel>
+            <translation><!-- 9140400	SERVICIOS MEDICOS - FARMACEUTICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9140500	SERVICIOS MEDICOS - FISIOTERAPEUTAS Y QUIROPRACTICOS</masterLabel>
+            <translation><!-- 9140500	SERVICIOS MEDICOS - FISIOTERAPEUTAS Y QUIROPRACTICOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9140700	SERVICIOS MEDICOS - MEDICOS ESPECIALISTAS</masterLabel>
+            <translation><!-- 9140700	SERVICIOS MEDICOS - MEDICOS ESPECIALISTAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9140800	SERVICIOS MEDICOS - MEDICOS GENERALES Y FAMILIARES</masterLabel>
+            <translation><!-- 9140800	SERVICIOS MEDICOS - MEDICOS GENERALES Y FAMILIARES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9230100	INSPECCION - INSPECTORES DE SALUD AMBIENTAL, SANIDAD Y DEL TRABAJO</masterLabel>
+            <translation><!-- 9230100	INSPECCION - INSPECTORES DE SALUD AMBIENTAL, SANIDAD Y DEL TRABAJO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9230200	INSPECCION - INSPECTORES DE TRANSPORTE DE CARGA Y DE PASAJEROS</masterLabel>
+            <translation><!-- 9230200	INSPECCION - INSPECTORES DE TRANSPORTE DE CARGA Y DE PASAJEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9230300	INSPECCION - INSPECTORES FISCALES Y DE PRECIOS</masterLabel>
+            <translation><!-- 9230300	INSPECCION - INSPECTORES FISCALES Y DE PRECIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9230400	INSPECCION - INSPECTORES SANITARIOS Y DE CONTROL DE CALIDAD DE PRODUCTOS CARNICOS, PESQUEROS Y AGRICOLAS</masterLabel>
+            <translation><!-- 9230400	INSPECCION - INSPECTORES SANITARIOS Y DE CONTROL DE CALIDAD DE PRODUCTOS CARNICOS, PESQUEROS Y AGRICOLAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9330100	SEGURIDAD SOCIAL - CONSEJEROS DE EMPLEO</masterLabel>
+            <translation><!-- 9330100	SEGURIDAD SOCIAL - CONSEJEROS DE EMPLEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9330300	SEGURIDAD SOCIAL - TRABAJADORES DE SERVICIO SOCIAL Y DE LA COMUNIDAD</masterLabel>
+            <translation><!-- 9330300	SEGURIDAD SOCIAL - TRABAJADORES DE SERVICIO SOCIAL Y DE LA COMUNIDAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9420100	PROTECCION DE BIENES Y/O PERSONAS - BOMBEROS</masterLabel>
+            <translation><!-- 9420100	PROTECCION DE BIENES Y/O PERSONAS - BOMBEROS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9420300	PROTECCION DE BIENES Y/O PERSONAS - GUARDIAS DE SEGURIDAD</masterLabel>
+            <translation><!-- 9420300	PROTECCION DE BIENES Y/O PERSONAS - GUARDIAS DE SEGURIDAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9430100	PROTECCION DE BIENES Y/O PERSONAS - DETECTIVES PRIVADOS</masterLabel>
+            <translation><!-- 9430100	PROTECCION DE BIENES Y/O PERSONAS - DETECTIVES PRIVADOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9810024	SECTOR PUBLICO - PODER EJECUTIVO FEDERAL</masterLabel>
+            <translation><!-- 9810024	SECTOR PUBLICO - PODER EJECUTIVO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9820024	SECTOR PUBLICO - PODER EJECUTIVO ESTATAL Y DEL DISTRITO FEDERAL</masterLabel>
+            <translation><!-- 9820024	SECTOR PUBLICO - PODER EJECUTIVO ESTATAL Y DEL DISTRITO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9830024	SECTOR PUBLICO - PODER EJECUTIVO MUNICIPAL Y DELEGACIONAL</masterLabel>
+            <translation><!-- 9830024	SECTOR PUBLICO - PODER EJECUTIVO MUNICIPAL Y DELEGACIONAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9840024	SECTOR PUBLICO - PODER JUDICIAL FEDERAL</masterLabel>
+            <translation><!-- 9840024	SECTOR PUBLICO - PODER JUDICIAL FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9850024	SECTOR PUBLICO - PODER JUDICIAL ESTATAL Y DEL DISTRITO FEDERAL</masterLabel>
+            <translation><!-- 9850024	SECTOR PUBLICO - PODER JUDICIAL ESTATAL Y DEL DISTRITO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9860024	SECTOR PUBLICO - PODER LEGISLATIVO FEDERAL</masterLabel>
+            <translation><!-- 9860024	SECTOR PUBLICO - PODER LEGISLATIVO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9870024	SECTOR PUBLICO - PODER LEGISLATIVO ESTATAL Y DEL DISTRITO FEDERAL</masterLabel>
+            <translation><!-- 9870024	SECTOR PUBLICO - PODER LEGISLATIVO ESTATAL Y DEL DISTRITO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9880024	SECTOR PUBLICO - ORGANOS AUTONOMOS Y ENTIDADES PARAESTATALES</masterLabel>
+            <translation><!-- 9880024	SECTOR PUBLICO - ORGANOS AUTONOMOS Y ENTIDADES PARAESTATALES --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

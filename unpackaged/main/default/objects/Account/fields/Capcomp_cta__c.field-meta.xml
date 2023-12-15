@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Capcomp_cta__c</fullName>
+    <externalId>false</externalId>
+    <formula>Capcom_cta__c + Saldsub_cta__c +  Monaho_cta__c  +Montgast_cta__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>CapacidadCompra__c + SaldoSubCuenta__c + Monto Ahorro voluntario + MontoGastoTitulacionOperaci</inlineHelpText>
+    <label>Capacidad de compra total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Gerente CyD Oper GLD</name>
+    <queueMembers>
+        <users>
+            <user>ericksson.moran@wolkegroup.com</user>
+            <user>lmendez@javer.com.mx</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Aprobacion_Lista_de_Precios__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Plan_de_Venta__c</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Detalledebitacorade_entrega__c</fullName>
+    <externalId>false</externalId>
+    <label>Detalle de bitácora de entrega</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No visita</fullName>
+                <default>false</default>
+                <label>No visita</label>
+            </value>
+            <value>
+                <fullName>Estatus</fullName>
+                <default>false</default>
+                <label>Estatus</label>
+            </value>
+            <value>
+                <fullName>Fecha</fullName>
+                <default>false</default>
+                <label>Fecha</label>
+            </value>
+            <value>
+                <fullName>Hora</fullName>
+                <default>false</default>
+                <label>Hora</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

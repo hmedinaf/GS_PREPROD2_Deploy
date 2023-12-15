@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivos_Obligatorio_si_cambia_Prospectad</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(AND(ISCHANGED(Prospectador__c), NOT(ISCHANGED(Motivo_cambio_prospectador__c))), TRUE, FALSE)</errorConditionFormula>
+    <errorDisplayField>Motivo_cambio_prospectador__c</errorDisplayField>
+    <errorMessage>El Prospectador cambió, por favor indique los motivos del cambio</errorMessage>
+</ValidationRule>

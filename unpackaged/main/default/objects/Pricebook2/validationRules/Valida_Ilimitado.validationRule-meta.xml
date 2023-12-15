@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Ilimitado</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF( (ISCHANGED(Cantidad__c) || Cantidad__c &lt;&gt; 0) &amp;&amp; 
+	   Ilimitado__c, 
+	   TRUE, 
+	   FALSE
+	)</errorConditionFormula>
+    <errorDisplayField>Cantidad__c</errorDisplayField>
+    <errorMessage>La casilla de ilimitado esta marcada, por lo tanto, el campo de cantidad debe estar vacio. Favor de revisar.</errorMessage>
+</ValidationRule>

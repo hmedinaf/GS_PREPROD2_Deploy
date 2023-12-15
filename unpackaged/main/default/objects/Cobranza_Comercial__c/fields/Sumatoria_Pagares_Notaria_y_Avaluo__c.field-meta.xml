@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sumatoria_Pagares_Notaria_y_Avaluo__c</fullName>
+    <externalId>false</externalId>
+    <label>Sumatoria Pagarés Notaría y Avalúo</label>
+    <summarizedField>Documento__c.Importe__c</summarizedField>
+    <summaryFilterItems>
+        <field>Documento__c.Tipo__c</field>
+        <operation>equals</operation>
+        <value>PAGARÉ GASTO AVALÚO, PAGARÉ GASTO CRÉDITO DIRECTO, PAGARÉ GASTOS NOTARIALES</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Documento__c.Cobranza_Comercial__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

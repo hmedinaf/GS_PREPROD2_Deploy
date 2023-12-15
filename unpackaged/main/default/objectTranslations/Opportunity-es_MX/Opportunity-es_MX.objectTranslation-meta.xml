@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Proceso de Venta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Procesos de Ventas</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Proceso de Venta</layout>
+        <sections>
+            <label><!-- Datos Cliente --></label>
+            <section>Datos Cliente</section>
+        </sections>
+        <sections>
+            <label><!-- Motivos --></label>
+            <section>Motivos</section>
+        </sections>
+        <sections>
+            <label><!-- Proceso de Venta --></label>
+            <section>Proceso de Venta</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Nueva dictaminación --></label>
+        <name>Nueva_Dictaminacion</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dictaminación --></label>
+        <name>Nueva_Dictaminacion2</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nuevo Precio de Lista --></label>
+        <name>Nuevo_Precio_de_Lista</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reubicacion --></label>
+        <name>Reubicacion</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Proceso de Venta --></label>
+        <name>Proceso_de_Venta</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado --></errorMessage>
+        <name>Editable_Canal_de_Venta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado
+Para usuarios con perfil &quot;Administrador Colaborador Javer&quot; el estatus debe ser Reservado o Formalizado y/o permiso especial no corresponde al rol a editar --></errorMessage>
+        <name>Editable_Colaborador_Javer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Por Entregar  o Cancelado --></errorMessage>
+        <name>Editable_Financiera</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado
+Para usuarios con perfil &quot;Coordinador LP&quot; el estatus debe ser Reservado o Formalizado y/o permiso especial no corresponde al rol a editar --></errorMessage>
+        <name>Editable_Lead_Profiler</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado
+Para usuarios con perfil &quot;Jefe de Formalización&quot; el estatus debe ser Reservado o Formalizado y/o permiso especial no corresponde al rol a editar --></errorMessage>
+        <name>Editable_Prospectador</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado --></errorMessage>
+        <name>Editable_Sub_Canal_de_Venta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se requiere capturar la razón del motivo de cambio de asesor --></errorMessage>
+        <name>Motivo_cambio_Lead_Profiler</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se requiere capturar la razón del motivo de cambio de asesor --></errorMessage>
+        <name>Motivo_cambio_asesor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se requiere capturar la razón del motivo de cambio de asesor --></errorMessage>
+        <name>Motivo_cambio_canal_de_venta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se requiere capturar la razón del motivo de cambio de asesor --></errorMessage>
+        <name>Motivo_cambio_prospectador</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El Asesor cambió, por favor indique los motivos del cambio --></errorMessage>
+        <name>Motivos_Obligatorio_si_cambia_Asesor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El Colaborador cambió, por favor indique los motivos del cambio --></errorMessage>
+        <name>Motivos_Obligatorio_si_cambia_Colaborado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El Lead Profiler cambió, por favor indique los motivos del cambio --></errorMessage>
+        <name>Motivos_Obligatorio_si_cambia_LeadProf</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El Prospectador cambió, por favor indique los motivos del cambio --></errorMessage>
+        <name>Motivos_Obligatorio_si_cambia_Prospectad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El Tipo de Crédito requerido necesita tener el NSS en la Cuenta --></errorMessage>
+        <name>NSS_noEncontrado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede haber más de una vivienda por proceso de venta. --></errorMessage>
+        <name>No_Puede_Haber_Mas_de_Una_Vivienda</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La referencia del Proceso de Venta no se puede editar --></errorMessage>
+        <name>Nombre_del_Proceso_No_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado --></errorMessage>
+        <name>Pendiente_escriturar_por</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puedes cambiar el Tipo de Crédito con un Estatus: Escriturado, Entregado o Cancelado --></errorMessage>
+        <name>TipoDeCredito_cerrado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Favor de poner motivo de cambio de reubicación --></errorMessage>
+        <name>Valida_Cambio_Fraccionamiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede editar el Canal de Venta pues aún no ha sido aprobado --></errorMessage>
+        <name>Valida_Canal_Venta_Aprobado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede crear proceso de venta, ya que no está aprobado el Check Apellido --></errorMessage>
+        <name>Valida_Check_Apellido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se pueden crear procesos de venta a clientes que tienen estatus de BAJA o INCUBADORA. --></errorMessage>
+        <name>Valida_Estatus_Cliente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado. --></errorMessage>
+        <name>Valida_Financiera_Estatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe seleccionar la Financiera --></errorMessage>
+        <name>Valida_Financiera_Obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado. --></errorMessage>
+        <name>Valida_Fraccionamiento_Estatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado --></errorMessage>
+        <name>Valida_Inconsistencia_Estatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No es posible continuar con el proceso si el Estatus Lista Negra QEQ del cliente no esta como &quot;Validado&quot; --></errorMessage>
+        <name>Valida_Lista_Negra</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El NSS solo debe contener números y no más de 11 --></errorMessage>
+        <name>Valida_NSS_Formato</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe ingresar el NSS --></errorMessage>
+        <name>Valida_NSS_Obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado --></errorMessage>
+        <name>Valida_Plazo_del_Credito_Estatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado. --></errorMessage>
+        <name>Valida_Producto_financiero_Estatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado. --></errorMessage>
+        <name>Valida_Prototipo_Estatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado --></errorMessage>
+        <name>Valida_Regimen_P_M_Estatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado --></errorMessage>
+        <name>Valida_Segundo_Credito_Estatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede editar el Sub Canal de Venta pues aún no ha sido aprobado --></errorMessage>
+        <name>Valida_Sub_Canal_Venta_Aprobado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Editable, a excepción de procesos de venta con estatus Escriturado, Entregado o Cancelado. --></errorMessage>
+        <name>Valida_Tipo_de_Credito_Estatus</name>
+    </validationRules>
+</CustomObjectTranslation>

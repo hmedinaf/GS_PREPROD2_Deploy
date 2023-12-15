@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo --></label>
+        <name>Tipo__c</name>
+        <picklistValues>
+            <masterLabel>NC AHORRO VOLUNTARIO</masterLabel>
+            <translation><!-- NC AHORRO VOLUNTARIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC BONIFICACIÓN</masterLabel>
+            <translation><!-- NC BONIFICACIÓN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC CANCELACIÓN ESCRITURA</masterLabel>
+            <translation><!-- NC CANCELACIÓN ESCRITURA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC CANCELACIÓN PG N</masterLabel>
+            <translation><!-- NC CANCELACIÓN PG N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC DEVOLUCIÓN NO APLICA</masterLabel>
+            <translation><!-- NC DEVOLUCIÓN NO APLICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC GASTO AVALÚO</masterLabel>
+            <translation><!-- NC GASTO AVALÚO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC GASTO CRÉDITO DIRECTO</masterLabel>
+            <translation><!-- NC GASTO CRÉDITO DIRECTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC GASTOS NOTARIALES</masterLabel>
+            <translation><!-- NC GASTOS NOTARIALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC GASTOS OPERATIVOS</masterLabel>
+            <translation><!-- NC GASTOS OPERATIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC RECUPERACIÓN CARTERA</masterLabel>
+            <translation><!-- NC RECUPERACIÓN CARTERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC REEMBOLSO AHORRO VOLUNTARIO</masterLabel>
+            <translation><!-- NC REEMBOLSO AHORRO VOLUNTARIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC REEMBOLSO CANCELACIÓN</masterLabel>
+            <translation><!-- NC REEMBOLSO CANCELACIÓN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC REEMBOLSO POR ESCRITURA</masterLabel>
+            <translation><!-- NC REEMBOLSO POR ESCRITURA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC REESTRUCTURA FINANCIERA</masterLabel>
+            <translation><!-- NC REESTRUCTURA FINANCIERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC REESTRUCTURA POST VENTA</masterLabel>
+            <translation><!-- NC REESTRUCTURA POST VENTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ AHORRO VOLUNTARIO</masterLabel>
+            <translation><!-- PAGARÉ AHORRO VOLUNTARIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ CANCELACIÓN DE NC GN</masterLabel>
+            <translation><!-- PAGARÉ CANCELACIÓN DE NC GN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ DEVOLUCIÓN NO APLICA</masterLabel>
+            <translation><!-- PAGARÉ DEVOLUCIÓN NO APLICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ ENGANCHE</masterLabel>
+            <translation><!-- PAGARÉ ENGANCHE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ FINANCIERA</masterLabel>
+            <translation><!-- PAGARÉ FINANCIERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ FONDO DE GARANTÍA</masterLabel>
+            <translation><!-- PAGARÉ FONDO DE GARANTÍA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ GASTO AVALÚO</masterLabel>
+            <translation><!-- PAGARÉ GASTO AVALÚO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ GASTO CRÉDITO DIRECTO</masterLabel>
+            <translation><!-- PAGARÉ GASTO CRÉDITO DIRECTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ GASTOS NOTARIALES</masterLabel>
+            <translation><!-- PAGARÉ GASTOS NOTARIALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ GASTOS OPERATIVOS</masterLabel>
+            <translation><!-- PAGARÉ GASTOS OPERATIVOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ POSTVENTA</masterLabel>
+            <translation><!-- PAGARÉ POSTVENTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ POSTVENTA REESTRUCTURA FINANCIERA</masterLabel>
+            <translation><!-- PAGARÉ POSTVENTA REESTRUCTURA FINANCIERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ PREVENTA</masterLabel>
+            <translation><!-- PAGARÉ PREVENTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ REEMBOLSO CANCELACIÓN</masterLabel>
+            <translation><!-- PAGARÉ REEMBOLSO CANCELACIÓN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ REEMBOLSO ESCRITURA</masterLabel>
+            <translation><!-- PAGARÉ REEMBOLSO ESCRITURA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ REESTRUCTURA POST VENTA</masterLabel>
+            <translation><!-- PAGARÉ REESTRUCTURA POST VENTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ REVERSA BONIFICACIÓN</masterLabel>
+            <translation><!-- PAGARÉ REVERSA BONIFICACIÓN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ SEGURO FINANCIERA</masterLabel>
+            <translation><!-- PAGARÉ SEGURO FINANCIERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAGARÉ SUBSIDIO</masterLabel>
+            <translation><!-- PAGARÉ SUBSIDIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REEMBOLSO AHORRO VOLUNTARIO</masterLabel>
+            <translation><!-- REEMBOLSO AHORRO VOLUNTARIO --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

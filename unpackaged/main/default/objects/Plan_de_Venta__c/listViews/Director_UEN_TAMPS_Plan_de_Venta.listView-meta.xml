@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Director_UEN_TAMPS_Plan_de_Venta</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Director UEN TAMPS</label>
+    <queue>Director_UEN_TAMPS</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

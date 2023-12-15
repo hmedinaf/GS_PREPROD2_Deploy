@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AnteriorPagos</fullName>
+    <active>true</active>
+    <label>Anterior - Pagos</label>
+    <picklistValues>
+        <picklist>Area__c</picklist>
+        <values>
+            <fullName>UEN 1 %26 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UEN 3 %26 4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Compania__c</picklist>
+        <values>
+            <fullName>CASAS JAVER DE MEXICO SA DE CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CASAS JAVER DE QUERETARO SA DE CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CASAS JAVER SA DE CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HOGARES JAVER SA DE CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INMUEBLES PARA TI SA DE CV</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MesPresupuesto__c</picklist>
+        <values>
+            <fullName>Abril</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agosto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diciembr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Febrero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Julio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Junio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marzo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Noviembre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Octubre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Septiembre</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plaza__c</picklist>
+        <values>
+            <fullName>A0-NL 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B0-NL 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C0-Jalisco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D0-MEXICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E0-QUERETARO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F0-AGUASCALIENTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G0-REYNOSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>H0-CANCUN</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo__c</picklist>
+        <values>
+            <fullName>Adquisición</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anticipos a Terrenos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pagos Parciales a Terrenos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>UEN__c</picklist>
+        <values>
+            <fullName>Dirección de Negocios Aguascalientes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dirección de Negocios Estado de México</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dirección de Negocios Jalisco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dirección de Negocios MTY1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dirección de Negocios MTY2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dirección de Negocios Queretaro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dirección de Negocios Quintana Roo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dirección de Negocios Reynosa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

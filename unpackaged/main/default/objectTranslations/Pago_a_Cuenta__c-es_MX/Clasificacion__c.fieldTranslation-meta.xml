@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Clasificación --></label>
+        <name>Clasificacion__c</name>
+        <picklistValues>
+            <masterLabel>Anticipo</masterLabel>
+            <translation><!-- Anticipo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enganche</masterLabel>
+            <translation><!-- Enganche --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>recordSP_Buscar__c</fullName>
+    <externalId>false</externalId>
+    <label>recordSP</label>
+    <referenceTo>recordSP__c</referenceTo>
+    <relationshipLabel>fieldsSP</relationshipLabel>
+    <relationshipName>fieldsSP</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

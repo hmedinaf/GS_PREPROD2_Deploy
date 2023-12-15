@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Caja-ChoicePicklist --></label>
+        <name>ChoicePicklist__c</name>
+        <picklistValues>
+            <masterLabel>Cliente</masterLabel>
+            <translation><!-- Cliente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proceso de Venta</masterLabel>
+            <translation><!-- Proceso de Venta --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

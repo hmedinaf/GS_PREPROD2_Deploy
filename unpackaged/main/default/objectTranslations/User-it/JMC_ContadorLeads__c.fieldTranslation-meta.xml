@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Contador de Leads --></label>
+        <name>JMC_ContadorLeads__c</name>
+    </CustomFieldTranslation>

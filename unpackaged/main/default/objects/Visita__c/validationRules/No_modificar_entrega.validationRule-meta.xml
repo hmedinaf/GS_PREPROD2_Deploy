@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_modificar_entrega</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF($Profile.Id &lt;&gt; &quot;00eo0000000vwpl&quot;&amp;&amp; NOT(ISBLANK(   Entrega__c  )), (ISCHANGED(Entrega__c)) ,null)</errorConditionFormula>
+    <errorMessage>No es posible modificar la entrega asignada contacte a su administrador</errorMessage>
+</ValidationRule>

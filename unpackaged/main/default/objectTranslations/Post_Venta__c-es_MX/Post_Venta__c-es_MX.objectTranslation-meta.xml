@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Post Venta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Post Ventas</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Autorización Financiamiento PosVenta</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Detalle --></label>
+            <section>Detalle</section>
+        </sections>
+        <sections>
+            <label><!-- Información de Sistema --></label>
+            <section>Información de Sistema</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Bonificación Saldo Post Venta</layout>
+        <sections>
+            <label><!-- Detalle --></label>
+            <section>Detalle</section>
+        </sections>
+        <sections>
+            <label><!-- Unico / Fraccionamiento / UEN --></label>
+            <section>Unico / Fraccionamiento / UEN</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Finan PostVenta Col Javer</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Detalle --></label>
+            <section>Detalle</section>
+        </sections>
+        <sections>
+            <label><!-- Información de Sistema --></label>
+            <section>Información de Sistema</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Financiamiento Reestructura PV</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Garantia</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Post Venta</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Reestructuración Post Venta</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Subsidio</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Información de Sistema --></label>
+            <section>Información de Sistema</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Autorización Financiamiento PosVenta --></description>
+        <label><!-- Autorizacion Financiamiento PosVenta --></label>
+        <name>Autorizacion_Financiamiento_PosVenta</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Bonificación Saldo Post Venta --></description>
+        <label><!-- Bonificacion Saldo Post Venta --></label>
+        <name>Bonificacion_Saldo_Post_Venta</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Para RT de Post Venta &quot;Finan PostVenta Col Javer&quot; --></description>
+        <label><!-- Finan PostVenta Col Javer --></label>
+        <name>Finan_PostVenta_Col_Javer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Para RT de Post Venta &quot;Garantia&quot; --></description>
+        <label><!-- Garantia --></label>
+        <name>Garantia</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Reestructuración Post Venta --></description>
+        <label><!-- Reestructuracion Post Venta --></label>
+        <name>Reestructuracion_Post_Venta</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Subsidio --></description>
+        <label><!-- Subsidio --></label>
+        <name>Subsidio</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Reenviar_Respuesta --></label>
+        <name>Reenviar_Respuesta</name>
+    </webLinks>
+</CustomObjectTranslation>

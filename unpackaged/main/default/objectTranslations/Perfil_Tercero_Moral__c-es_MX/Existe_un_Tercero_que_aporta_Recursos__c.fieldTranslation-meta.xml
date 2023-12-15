@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- ¿Existe un Tercero que aporta Recursos? --></label>
+        <name>Existe_un_Tercero_que_aporta_Recursos__c</name>
+    </CustomFieldTranslation>

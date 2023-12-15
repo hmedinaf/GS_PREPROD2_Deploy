@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>ENTREGAS_ALL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Visualizar todos los estatus del proceso de Ventas</description>
+        <label>ENTREGAS_ALL</label>
+        <sharedTo>
+            <roleAndSubordinates>Corporativo_AUDITORIA</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Estatus__c</field>
+            <operation>equals</operation>
+            <value>Por entregar,No entregado,Entregado,Cancelado</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Entregas_sin_cancelaciones</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sistemas ATC no podrá ver las entregas canceladas</description>
+        <label>Entregas sin cancelaciones</label>
+        <sharedTo>
+            <roleAndSubordinates>SistemasATC</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Estatus__c</field>
+            <operation>equals</operation>
+            <value>Por entregar,No entregado,Entregado</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

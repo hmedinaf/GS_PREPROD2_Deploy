@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CheckListCompletado</fullName>
+    <active>true</active>
+    <description>no permite cerrar el checklist si no cumple con mas del 91 %</description>
+    <errorConditionFormula>AND( ISPICKVAL( Estatus__c ,&quot;Cerrado&quot;) , Completado__c  &lt; 0.91)</errorConditionFormula>
+    <errorMessage>No puedes cerrar este Checklist hasta cumplir con el 91%</errorMessage>
+</ValidationRule>

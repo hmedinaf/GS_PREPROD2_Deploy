@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fraccionamiento_cta__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Fraccionamiento</label>
+    <lookupFilter>
+        <active>false</active>
+        <booleanFilter>(1 OR 5 OR 2 OR 4 OR 6) AND 3</booleanFilter>
+        <filterItems>
+            <field>$User.Fraccionamiento_autorizado__c</field>
+            <operation>contains</operation>
+            <valueField>Fraccionamiento__c.Name</valueField>
+        </filterItems>
+        <filterItems>
+            <field>$Profile.Name</field>
+            <operation>equals</operation>
+            <value>Administrador del sistema</value>
+        </filterItems>
+        <filterItems>
+            <field>Fraccionamiento__c.Activo_frac__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>$User.Fraccionamiento_autorizado__c</field>
+            <operation>equals</operation>
+            <value>TODOS</value>
+        </filterItems>
+        <filterItems>
+            <field>$User.FraccionamientoAutorizados__c</field>
+            <operation>contains</operation>
+            <valueField>Fraccionamiento__c.Name</valueField>
+        </filterItems>
+        <filterItems>
+            <field>$User.Fraccionamiento_autorizado__c</field>
+            <operation>contains</operation>
+            <valueField>Fraccionamiento__c.Name</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Fraccionamiento__c</referenceTo>
+    <relationshipLabel>Cuentas</relationshipLabel>
+    <relationshipName>Cuentas</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

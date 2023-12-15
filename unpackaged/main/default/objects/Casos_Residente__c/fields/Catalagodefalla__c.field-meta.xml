@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Catalagodefalla__c</fullName>
+    <externalId>false</externalId>
+    <label>Catálogo de falla</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipo__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A1.1.Contactos</fullName>
+                <default>false</default>
+                <label>A1.1.Contactos</label>
+            </value>
+            <value>
+                <fullName>A1.2.Apagadores</fullName>
+                <default>false</default>
+                <label>A1.2.Apagadores</label>
+            </value>
+            <value>
+                <fullName>A1.3.Contacto TV-Cable</fullName>
+                <default>false</default>
+                <label>A1.3.Contacto TV-Cable</label>
+            </value>
+            <value>
+                <fullName>A1.4.Pastillas térmicas</fullName>
+                <default>false</default>
+                <label>A1.4.Pastillas térmicas</label>
+            </value>
+            <value>
+                <fullName>A1.5.Base de medición</fullName>
+                <default>false</default>
+                <label>A1.5.Base de medición</label>
+            </value>
+            <value>
+                <fullName>A1.6.Estractor</fullName>
+                <default>false</default>
+                <label>A1.6.Extractor</label>
+            </value>
+            <value>
+                <fullName>A1.7.Soquet</fullName>
+                <default>false</default>
+                <label>A1.7.Soquet</label>
+            </value>
+            <value>
+                <fullName>A1.8.Timbre</fullName>
+                <default>false</default>
+                <label>A1.8.Timbre</label>
+            </value>
+            <value>
+                <fullName>A1.9.Centro de carga</fullName>
+                <default>false</default>
+                <label>A1.9.Centro de carga</label>
+            </value>
+            <value>
+                <fullName>A1.10.Falta de cable del 8</fullName>
+                <default>false</default>
+                <label>A1.10.Falta de cable del 8</label>
+            </value>
+            <value>
+                <fullName>A1.11. Falta de cable 10</fullName>
+                <default>false</default>
+                <label>A1.11. Falta de cable 10</label>
+            </value>
+            <value>
+                <fullName>A1.12.Falta de cable del 12</fullName>
+                <default>false</default>
+                <label>A1.12.Falta de cable del 12</label>
+            </value>
+            <value>
+                <fullName>A1.13. Falta de cable del 14</fullName>
+                <default>false</default>
+                <label>A1.13. Falta de cable del 14</label>
+            </value>
+            <value>
+                <fullName>A1.14. Falta de cable del 16</fullName>
+                <default>false</default>
+                <label>A1.14. Falta de cable del 16</label>
+            </value>
+            <value>
+                <fullName>A1.15.Falta Quinta Terminal</fullName>
+                <default>false</default>
+                <label>A1.15.Falta Quinta Terminal</label>
+            </value>
+            <value>
+                <fullName>B1.1.Bajante sanitario</fullName>
+                <default>false</default>
+                <label>B1.1.Bajante sanitario</label>
+            </value>
+            <value>
+                <fullName>B1.2.Registro sanitario</fullName>
+                <default>false</default>
+                <label>B1.2.Registro sanitario</label>
+            </value>
+            <value>
+                <fullName>B1.3. Entronque</fullName>
+                <default>false</default>
+                <label>B1.3. Entronque</label>
+            </value>
+            <value>
+                <fullName>B1.4.Bajante de agua pluvial</fullName>
+                <default>false</default>
+                <label>B1.4.Bajante de agua pluvial</label>
+            </value>
+            <value>
+                <fullName>B1.5.Lavabo</fullName>
+                <default>false</default>
+                <label>B1.5.Lavabo</label>
+            </value>
+            <value>
+                <fullName>B1.6.Tarja</fullName>
+                <default>false</default>
+                <label>B1.6.Tarja</label>
+            </value>
+            <value>
+                <fullName>B1.7.WC</fullName>
+                <default>false</default>
+                <label>B1.7.WC</label>
+            </value>
+            <value>
+                <fullName>B1.8.Regadera</fullName>
+                <default>false</default>
+                <label>B1.8.Regadera</label>
+            </value>
+            <value>
+                <fullName>B1.9.Lavadero</fullName>
+                <default>false</default>
+                <label>B1.9.Lavadero</label>
+            </value>
+            <value>
+                <fullName>B1.10.Patio</fullName>
+                <default>false</default>
+                <label>B1.10.Patio</label>
+            </value>
+            <value>
+                <fullName>B1.11.Areneros</fullName>
+                <default>false</default>
+                <label>B1.11.Areneros</label>
+            </value>
+            <value>
+                <fullName>B1.12.Descarga</fullName>
+                <default>false</default>
+                <label>B1.12.Descarga</label>
+            </value>
+            <value>
+                <fullName>B1.14.Charola de baño</fullName>
+                <default>false</default>
+                <label>B1.14.Charola de baño</label>
+            </value>
+            <value>
+                <fullName>B1.16.Araña - Cuadro Principal</fullName>
+                <default>false</default>
+                <label>B1.16.Araña - Cuadro Principal</label>
+            </value>
+            <value>
+                <fullName>B1.17.Registros</fullName>
+                <default>false</default>
+                <label>B1.17.Registros</label>
+            </value>
+            <value>
+                <fullName>B1.18.Coladera</fullName>
+                <default>false</default>
+                <label>B1.18.Coladera</label>
+            </value>
+            <value>
+                <fullName>B1.19.Fisura en mueble sanitario</fullName>
+                <default>false</default>
+                <label>B1.19.Fisura en mueble sanitario</label>
+            </value>
+            <value>
+                <fullName>B1.20.Daño en herrajes</fullName>
+                <default>false</default>
+                <label>B1.20.Daño en herrajes</label>
+            </value>
+            <value>
+                <fullName>B1.21.Deficiencia en valvula-llave de paso</fullName>
+                <default>false</default>
+                <label>B1.21.Deficiencia en valvula-llave de paso</label>
+            </value>
+            <value>
+                <fullName>B1.22.Deficiencia en trampa o cuello</fullName>
+                <default>false</default>
+                <label>B1.22.Deficiencia en trampa o cuello</label>
+            </value>
+            <value>
+                <fullName>C1.1.Tarja</fullName>
+                <default>false</default>
+                <label>C1.1.Tarja</label>
+            </value>
+            <value>
+                <fullName>C1.2.WC</fullName>
+                <default>false</default>
+                <label>C1.2.WC</label>
+            </value>
+            <value>
+                <fullName>C1.3.Lavabo</fullName>
+                <default>false</default>
+                <label>C1.3.Lavabo</label>
+            </value>
+            <value>
+                <fullName>C1.4.Regadera</fullName>
+                <default>false</default>
+                <label>C1.4.Regadera</label>
+            </value>
+            <value>
+                <fullName>C1.5.Lavadero</fullName>
+                <default>false</default>
+                <label>C1.5.Lavadero</label>
+            </value>
+            <value>
+                <fullName>C1.6.Calentador de paso</fullName>
+                <default>false</default>
+                <label>C1.6.Calentador de paso</label>
+            </value>
+            <value>
+                <fullName>C1.7.Calentador solar</fullName>
+                <default>false</default>
+                <label>C1.7.Calentador solar</label>
+            </value>
+            <value>
+                <fullName>C1.8.Cuadro principal</fullName>
+                <default>false</default>
+                <label>C1.8.Cuadro principal</label>
+            </value>
+            <value>
+                <fullName>C1.9.Disparo principal</fullName>
+                <default>false</default>
+                <label>C1.9.Disparo principal</label>
+            </value>
+            <value>
+                <fullName>D1.1.Disparo principal</fullName>
+                <default>false</default>
+                <label>D1.1.Disparo principal</label>
+            </value>
+            <value>
+                <fullName>D1.2.Disparo en calentador de paso</fullName>
+                <default>false</default>
+                <label>D1.2.Disparo en calentador de paso</label>
+            </value>
+            <value>
+                <fullName>D1.3.Disparo estufa</fullName>
+                <default>false</default>
+                <label>D1.3.Disparo estufa</label>
+            </value>
+            <value>
+                <fullName>D1.4.Disparo tanque estacionario</fullName>
+                <default>false</default>
+                <label>D1.4.Disparo tanque estacionario</label>
+            </value>
+            <value>
+                <fullName>E1.1.Falta de colado</fullName>
+                <default>false</default>
+                <label>E1.1.Falta de colado</label>
+            </value>
+            <value>
+                <fullName>E1.2.Falta de varilla tec 60</fullName>
+                <default>false</default>
+                <label>E1.2.Falta de varilla tec 60</label>
+            </value>
+            <value>
+                <fullName>E1.3.Falta de dala u</fullName>
+                <default>false</default>
+                <label>E1.3.Falta de dala u</label>
+            </value>
+            <value>
+                <fullName>E1.4.Acuñar</fullName>
+                <default>false</default>
+                <label>E1.4.Acuñar</label>
+            </value>
+            <value>
+                <fullName>E1.5.Desplome</fullName>
+                <default>false</default>
+                <label>E1.5.Desplome</label>
+            </value>
+            <value>
+                <fullName>E1.6.Mal forjado</fullName>
+                <default>false</default>
+                <label>E1.6.Mal forjado</label>
+            </value>
+            <value>
+                <fullName>E1.7.Desprendiemiento</fullName>
+                <default>false</default>
+                <label>E1.7.Desprendiemiento</label>
+            </value>
+            <value>
+                <fullName>E1.8.Boquilla</fullName>
+                <default>false</default>
+                <label>E1.8.Boquilla</label>
+            </value>
+            <value>
+                <fullName>E1.9.Escaleras</fullName>
+                <default>false</default>
+                <label>E1.9.Escaleras</label>
+            </value>
+            <value>
+                <fullName>E1.10.Molduras</fullName>
+                <default>false</default>
+                <label>E1.10.Molduras</label>
+            </value>
+            <value>
+                <fullName>E1.11.Viga en Cimentacion</fullName>
+                <default>false</default>
+                <label>E1.11.Viga en Cimentacion</label>
+            </value>
+            <value>
+                <fullName>E1.12.Firme</fullName>
+                <default>false</default>
+                <label>E1.12.Firme</label>
+            </value>
+            <value>
+                <fullName>E.1.13.Losa de cimentacion</fullName>
+                <default>false</default>
+                <label>E.1.13.Losa de cimentacion</label>
+            </value>
+            <value>
+                <fullName>E.1.14.Muros</fullName>
+                <default>false</default>
+                <label>E.1.14.Muros</label>
+            </value>
+            <value>
+                <fullName>E1.16.Vigas en Muros</fullName>
+                <default>false</default>
+                <label>E1.16.Vigas en Muros</label>
+            </value>
+            <value>
+                <fullName>E1.17.Castillos</fullName>
+                <default>false</default>
+                <label>E1.17.Castillos</label>
+            </value>
+            <value>
+                <fullName>E1.18.Cerramientos</fullName>
+                <default>false</default>
+                <label>E1.18.Cerramientos</label>
+            </value>
+            <value>
+                <fullName>E1.9.Losa de entrepiso</fullName>
+                <default>false</default>
+                <label>E1.9.Losa de entrepiso</label>
+            </value>
+            <value>
+                <fullName>E1.20.Losa azotea</fullName>
+                <default>false</default>
+                <label>E1.20.Losa azotea</label>
+            </value>
+            <value>
+                <fullName>E1.21.Base de tinaco</fullName>
+                <default>false</default>
+                <label>E1.21.Base de tinaco</label>
+            </value>
+            <value>
+                <fullName>F1.1.Botada</fullName>
+                <default>false</default>
+                <label>F1.1.Botada</label>
+            </value>
+            <value>
+                <fullName>F1.2.Mal aplicada</fullName>
+                <default>false</default>
+                <label>F1.2.Mal aplicada</label>
+            </value>
+            <value>
+                <fullName>F1.3.Diferente color</fullName>
+                <default>false</default>
+                <label>F1.3.Diferente color</label>
+            </value>
+            <value>
+                <fullName>F1.7.Desplome</fullName>
+                <default>false</default>
+                <label>F1.7.Desplome</label>
+            </value>
+            <value>
+                <fullName>F1.9. Fisura por temperatura</fullName>
+                <default>false</default>
+                <label>F1.9. Fisura por temperatura</label>
+            </value>
+            <value>
+                <fullName>F1.10.Daño estructura</fullName>
+                <default>false</default>
+                <label>F1.10.Daño estructura</label>
+            </value>
+            <value>
+                <fullName>F1.11. Boquilla</fullName>
+                <default>false</default>
+                <label>F1.11. Boquilla</label>
+            </value>
+            <value>
+                <fullName>G1.1.Falta de colado</fullName>
+                <default>false</default>
+                <label>G1.1.Falta de colado</label>
+            </value>
+            <value>
+                <fullName>G1.2.Mala pendiente</fullName>
+                <default>false</default>
+                <label>G1.2.Mala pendiente</label>
+            </value>
+            <value>
+                <fullName>G1.3.Desprendimiento</fullName>
+                <default>false</default>
+                <label>G1.3.Desprendimiento</label>
+            </value>
+            <value>
+                <fullName>G1.4.Mal acabado</fullName>
+                <default>false</default>
+                <label>G1.4.Mal acabado</label>
+            </value>
+            <value>
+                <fullName>G1.5.Botado</fullName>
+                <default>false</default>
+                <label>G1.5.Botado</label>
+            </value>
+            <value>
+                <fullName>G1.6.Diferente Color</fullName>
+                <default>false</default>
+                <label>G1.6.Diferente Color</label>
+            </value>
+            <value>
+                <fullName>G1.7.Falta pintura</fullName>
+                <default>false</default>
+                <label>G1.7.Falta pintura</label>
+            </value>
+            <value>
+                <fullName>G1.8.Mal aplicada</fullName>
+                <default>false</default>
+                <label>G1.8.Mal aplicada</label>
+            </value>
+            <value>
+                <fullName>G1.9.Fisuras por temperatura</fullName>
+                <default>false</default>
+                <label>G1.9.Fisuras por temperatura</label>
+            </value>
+            <value>
+                <fullName>G1.10. Daño Estructural</fullName>
+                <default>false</default>
+                <label>G1.10. Daño Estructural</label>
+            </value>
+            <value>
+                <fullName>G1.11. Fisura en muro</fullName>
+                <default>false</default>
+                <label>G1.11. Fisura en muro</label>
+            </value>
+            <value>
+                <fullName>G1.12. Fisura en pretil</fullName>
+                <default>false</default>
+                <label>G1.12. Fisura en pretil</label>
+            </value>
+            <value>
+                <fullName>G1.13. Falta de Sello en conexiones</fullName>
+                <default>false</default>
+                <label>G1.13. Falta de Sello en conexiones</label>
+            </value>
+            <value>
+                <fullName>G1.14. Fisura en junta constructiva</fullName>
+                <default>false</default>
+                <label>G1.14. Fisura en junta constructiva</label>
+            </value>
+            <value>
+                <fullName>G1.15. Encharcamiento</fullName>
+                <default>false</default>
+                <label>G1.15. Encharcamiento</label>
+            </value>
+            <value>
+                <fullName>G1.16. Filtración por boquilla</fullName>
+                <default>false</default>
+                <label>G1.16. Filtración por boquilla</label>
+            </value>
+            <value>
+                <fullName>H1.1.Descuadradas</fullName>
+                <default>false</default>
+                <label>H1.1.Descuadradas</label>
+            </value>
+            <value>
+                <fullName>H1.2.Vidrio roto</fullName>
+                <default>false</default>
+                <label>H1.2.Vidrio roto</label>
+            </value>
+            <value>
+                <fullName>H1.3.Seguros</fullName>
+                <default>false</default>
+                <label>H1.3.Seguros</label>
+            </value>
+            <value>
+                <fullName>H1.4.Riel golpeado</fullName>
+                <default>false</default>
+                <label>H1.4.Riel golpeado</label>
+            </value>
+            <value>
+                <fullName>H1.5.Sello</fullName>
+                <default>false</default>
+                <label>H1.5.Sello</label>
+            </value>
+            <value>
+                <fullName>H1.5.Pijas</fullName>
+                <default>false</default>
+                <label>H1.5.Pijas</label>
+            </value>
+            <value>
+                <fullName>H1.7.Aluminio golpeado</fullName>
+                <default>false</default>
+                <label>H1.7.Aluminio golpeado</label>
+            </value>
+            <value>
+                <fullName>H1.10.Falla en corredizo</fullName>
+                <default>false</default>
+                <label>H1.10.Falla en corredizo</label>
+            </value>
+            <value>
+                <fullName>H1.11.Falla  riel</fullName>
+                <default>false</default>
+                <label>H1.11.Falla  riel</label>
+            </value>
+            <value>
+                <fullName>H1.12.Falla en manija / jaladera</fullName>
+                <default>false</default>
+                <label>H1.12.Falla en manija / jaladera</label>
+            </value>
+            <value>
+                <fullName>H1.13.Daño en mosquitero</fullName>
+                <default>false</default>
+                <label>H1.13.Daño en mosquitero</label>
+            </value>
+            <value>
+                <fullName>I1.1. Faltante</fullName>
+                <default>false</default>
+                <label>I1.1. Faltante</label>
+            </value>
+            <value>
+                <fullName>I1.2. Mal funcionamiento</fullName>
+                <default>false</default>
+                <label>I1.2. Mal funcionamiento</label>
+            </value>
+            <value>
+                <fullName>I1.3. Golpeada (o)</fullName>
+                <default>false</default>
+                <label>I1.3. Golpeada (o)</label>
+            </value>
+            <value>
+                <fullName>I1.4. Descuadrada (o)</fullName>
+                <default>false</default>
+                <label>I1.4. Descuadrada (o)</label>
+            </value>
+            <value>
+                <fullName>I1.5. Diferente Color</fullName>
+                <default>false</default>
+                <label>I1.5. Diferente Color</label>
+            </value>
+            <value>
+                <fullName>I1.6. Pijas</fullName>
+                <default>false</default>
+                <label>I1.6. Pijas</label>
+            </value>
+            <value>
+                <fullName>I1.7. Sello</fullName>
+                <default>false</default>
+                <label>I1.7. Sello</label>
+            </value>
+            <value>
+                <fullName>I1.8.Daño en puertas - acabado</fullName>
+                <default>false</default>
+                <label>I1.8.Daño en puertas - acabado</label>
+            </value>
+            <value>
+                <fullName>I1.11.Marco desplomado</fullName>
+                <default>false</default>
+                <label>I1.11.Marco desplomado</label>
+            </value>
+            <value>
+                <fullName>J1.1.Faltante</fullName>
+                <default>false</default>
+                <label>J1.1.Faltante</label>
+            </value>
+            <value>
+                <fullName>J1.2.Encharcamiento</fullName>
+                <default>false</default>
+                <label>J1.2.Encharcamiento</label>
+            </value>
+            <value>
+                <fullName>J1.3.Mal acabado</fullName>
+                <default>false</default>
+                <label>J1.3.Mal acabado</label>
+            </value>
+            <value>
+                <fullName>J1.4. Fisura en losa</fullName>
+                <default>false</default>
+                <label>J1.4. Fisura en losa</label>
+            </value>
+            <value>
+                <fullName>J1.5. Impermeabilizante Dañado</fullName>
+                <default>false</default>
+                <label>J1.5. Impermeabilizante Dañado</label>
+            </value>
+            <value>
+                <fullName>J1.6. Fisura en impermeabilización</fullName>
+                <default>false</default>
+                <label>J1.6. Fisura en impermeabilización</label>
+            </value>
+            <value>
+                <fullName>K1.1.Golpeado</fullName>
+                <default>false</default>
+                <label>K1.1.Golpeado</label>
+            </value>
+            <value>
+                <fullName>K1.2.Faltante</fullName>
+                <default>false</default>
+                <label>K1.2.Faltante</label>
+            </value>
+            <value>
+                <fullName>K1.3.Quebrado</fullName>
+                <default>false</default>
+                <label>K1.3.Quebrado</label>
+            </value>
+            <value>
+                <fullName>L1.1.Humedad losa - plafon</fullName>
+                <default>false</default>
+                <label>L1.1.Humedad losa - plafon</label>
+            </value>
+            <value>
+                <fullName>L1.2.Humedad muro</fullName>
+                <default>false</default>
+                <label>L1.2.Humedad muro</label>
+            </value>
+            <value>
+                <fullName>L1.3.Humedad volado</fullName>
+                <default>false</default>
+                <label>L1.3.Humedad volado</label>
+            </value>
+            <value>
+                <fullName>L1.5.Desprendimiento de membrana - malla</fullName>
+                <default>false</default>
+                <label>L1.5.Desprendimiento de membrana - malla</label>
+            </value>
+            <value>
+                <fullName>L1.6.Desprendimiento de prefabricado - chovatec</fullName>
+                <default>false</default>
+                <label>L1.6.Desprendimiento de prefabricado - chovatec</label>
+            </value>
+            <value>
+                <fullName>L1.7.Desgaste de acrilico - Impermeabilizacion</fullName>
+                <default>false</default>
+                <label>L1.7.Desgaste de acrilico - Impermeabilizacion</label>
+            </value>
+            <value>
+                <fullName>L1.8.Falta de colocacion de colocacion de sello en salidas</fullName>
+                <default>false</default>
+                <label>L1.8.Falta de colocacion de colocacion de sello en salidas</label>
+            </value>
+            <value>
+                <fullName>L1.9.Inexistencia de traslapes</fullName>
+                <default>false</default>
+                <label>L1.9.Inexistencia de traslapes</label>
+            </value>
+            <value>
+                <fullName>L1.10 Inexistencia de pendientes para desague</fullName>
+                <default>false</default>
+                <label>L1.10 Inexistencia de pendientes para desague</label>
+            </value>
+            <value>
+                <fullName>M1.1.Golpeado</fullName>
+                <default>false</default>
+                <label>M1.1.Golpeado</label>
+            </value>
+            <value>
+                <fullName>M1.2.Faltante</fullName>
+                <default>false</default>
+                <label>M1.2.Faltante</label>
+            </value>
+            <value>
+                <fullName>M1.3.Quebrado</fullName>
+                <default>false</default>
+                <label>M1.3.Quebrado</label>
+            </value>
+            <value>
+                <fullName>M1.4.Falta pintura</fullName>
+                <default>false</default>
+                <label>M1.4.Falta pintura</label>
+            </value>
+            <value>
+                <fullName>M1.5.Diferente color</fullName>
+                <default>false</default>
+                <label>M1.5.Diferente color</label>
+            </value>
+            <value>
+                <fullName>M1.6.Mal acabado</fullName>
+                <default>false</default>
+                <label>M1.6.Mal acabado</label>
+            </value>
+            <value>
+                <fullName>M1.7.Descuadradas</fullName>
+                <default>false</default>
+                <label>M1.7.Descuadradas</label>
+            </value>
+            <value>
+                <fullName>M1.8.Mal funcionamiento</fullName>
+                <default>false</default>
+                <label>M1.8.Mal funcionamiento</label>
+            </value>
+            <value>
+                <fullName>N1.1.Golpeado</fullName>
+                <default>false</default>
+                <label>N1.1.Golpeado</label>
+            </value>
+            <value>
+                <fullName>N1.2.Faltante</fullName>
+                <default>false</default>
+                <label>N1.2.Faltante</label>
+            </value>
+            <value>
+                <fullName>N1.3.Quebrado</fullName>
+                <default>false</default>
+                <label>N1.3.Quebrado</label>
+            </value>
+            <value>
+                <fullName>N1.4.Falta pintura</fullName>
+                <default>false</default>
+                <label>N1.4.Falta pintura</label>
+            </value>
+            <value>
+                <fullName>N1.5.Diferente color</fullName>
+                <default>false</default>
+                <label>N1.5.Diferente color</label>
+            </value>
+            <value>
+                <fullName>N1.6.Mal acabado</fullName>
+                <default>false</default>
+                <label>N1.6.Mal acabado</label>
+            </value>
+            <value>
+                <fullName>N1.7.Descuadradas / Desplomado</fullName>
+                <default>false</default>
+                <label>N1.7.Descuadradas / Desplomado</label>
+            </value>
+            <value>
+                <fullName>N1.8.Mal funcionamiento</fullName>
+                <default>false</default>
+                <label>N1.8.Mal funcionamiento</label>
+            </value>
+            <value>
+                <fullName>O.1.1.- No funciona</fullName>
+                <default>false</default>
+                <label>O.1.1.- No funciona</label>
+            </value>
+            <value>
+                <fullName>O.1.2.- No recolecion</fullName>
+                <default>false</default>
+                <label>O.1.2.- No recolecion</label>
+            </value>
+            <value>
+                <fullName>O.1.3.- Robo cable - accesorio</fullName>
+                <default>false</default>
+                <label>O.1.3.- Robo cable - accesorio</label>
+            </value>
+            <value>
+                <fullName>O.1.4.- Robo de fijos</fullName>
+                <default>false</default>
+                <label>O.1.4.- Robo de fijos</label>
+            </value>
+            <value>
+                <fullName>O.1.4.- Mal servicio</fullName>
+                <default>false</default>
+                <label>O.1.4.- Mal servicio</label>
+            </value>
+            <value>
+                <fullName>O.1.4.- Comision de agua</fullName>
+                <default>false</default>
+                <label>O.1.4.- Comision de agua</label>
+            </value>
+            <value>
+                <fullName>O.1.4.- Falla interna de agua</fullName>
+                <default>false</default>
+                <label>O.1.4.- Falla interna de agua</label>
+            </value>
+            <value>
+                <fullName>O.1.4.- Perros callejeros</fullName>
+                <default>false</default>
+                <label>O.1.4.- Perros callejeros</label>
+            </value>
+            <value>
+                <fullName>O.1.4.- Plagas</fullName>
+                <default>false</default>
+                <label>O.1.4.- Plagas</label>
+            </value>
+            <value>
+                <fullName>O.1.4.- Escombro clientes / vecinos</fullName>
+                <default>false</default>
+                <label>O.1.4.- Escombro clientes / vecinos</label>
+            </value>
+            <value>
+                <fullName>O.1.4.- Escombro servicios publicos</fullName>
+                <default>false</default>
+                <label>O.1.4.- Escombro servicios publicos</label>
+            </value>
+            <value>
+                <fullName>O.1.4.- Escombro construccion</fullName>
+                <default>false</default>
+                <label>O.1.4.- Escombro construccion</label>
+            </value>
+            <value>
+                <fullName>O.1.4.- Falla en sistema de riego</fullName>
+                <default>false</default>
+                <label>O.1.4.- Falla en sistema de riego</label>
+            </value>
+            <value>
+                <fullName>O.1.4.- Mantenimiento</fullName>
+                <default>false</default>
+                <label>O.1.4.- Mantenimiento</label>
+            </value>
+            <value>
+                <fullName>J1.10. Fisura en Muro</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>J1.10. Fisura en Muro</label>
+            </value>
+            <value>
+                <fullName>J1.12.Falta de Sello en Conexiones</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>J1.12.Falta de Sello en Conexiones</label>
+            </value>
+            <value>
+                <fullName>J1.14. No existente</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>J1.14. No existente</label>
+            </value>
+            <value>
+                <fullName>J1.2.Golpeado</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>J1.2.Golpeado</label>
+            </value>
+            <value>
+                <fullName>J1.3.Quebrado</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>J1.3.Quebrado</label>
+            </value>
+            <value>
+                <fullName>J1.4.Hundimientos</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>J1.4.Hundimientos</label>
+            </value>
+            <value>
+                <fullName>J1.6.Fisura</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>J1.6.Fisura</label>
+            </value>
+            <value>
+                <fullName>J1.8.Falta de acabado</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>J1.8.Falta de acabado</label>
+            </value>
+            <value>
+                <fullName>J1.9.Fisura en Pretil</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>J1.9.Fisura en Pretil</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>K. Herrería</controllingFieldValue>
+            <valueName>K1.1.Golpeado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>K. Herrería</controllingFieldValue>
+            <valueName>K1.2.Faltante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>K. Herrería</controllingFieldValue>
+            <valueName>K1.3.Quebrado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L1.1.Humedad losa - plafon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L1.2.Humedad muro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L1.3.Humedad volado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L1.5.Desprendimiento de membrana - malla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L1.6.Desprendimiento de prefabricado - chovatec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L1.7.Desgaste de acrilico - Impermeabilizacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L1.8.Falta de colocacion de colocacion de sello en salidas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L1.9.Inexistencia de traslapes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>L. Urbanización</controllingFieldValue>
+            <valueName>L1.10 Inexistencia de pendientes para desague</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M1.1.Golpeado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M1.2.Faltante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M1.3.Quebrado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M1.4.Falta pintura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M1.5.Diferente color</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M1.6.Mal acabado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M1.7.Descuadradas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>M. Infraestructura</controllingFieldValue>
+            <valueName>M1.8.Mal funcionamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N1.1.Golpeado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N1.2.Faltante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N1.3.Quebrado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N1.4.Falta pintura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N1.5.Diferente color</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N1.6.Mal acabado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N1.7.Descuadradas / Desplomado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>N. Accesorios</controllingFieldValue>
+            <valueName>N1.8.Mal funcionamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.1.- No funciona</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.2.- No recolecion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.3.- Robo cable - accesorio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.4.- Robo de fijos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.4.- Mal servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.4.- Comision de agua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.4.- Falla interna de agua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.4.- Perros callejeros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.4.- Plagas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.4.- Escombro clientes / vecinos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.4.- Escombro servicios publicos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.4.- Escombro construccion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.4.- Falla en sistema de riego</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>O. Servicios</controllingFieldValue>
+            <valueName>O.1.4.- Mantenimiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.1.Contactos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.2.Apagadores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.3.Contacto TV-Cable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.4.Pastillas térmicas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.5.Base de medición</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.6.Estractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.7.Soquet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.8.Timbre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.9.Centro de carga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.10.Falta de cable del 8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.11. Falta de cable 10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.12.Falta de cable del 12</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.13. Falta de cable del 14</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.14. Falta de cable del 16</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A. Instalación eléctrica</controllingFieldValue>
+            <valueName>A1.15.Falta Quinta Terminal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.1.Bajante sanitario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.2.Registro sanitario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.3. Entronque</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.4.Bajante de agua pluvial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.5.Lavabo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.6.Tarja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.7.WC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.8.Regadera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.9.Lavadero</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.10.Patio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.11.Areneros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.12.Descarga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.14.Charola de baño</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.16.Araña - Cuadro Principal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.17.Registros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.18.Coladera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.19.Fisura en mueble sanitario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.20.Daño en herrajes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.21.Deficiencia en valvula-llave de paso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B. Instalacion sanitaria</controllingFieldValue>
+            <valueName>B1.22.Deficiencia en trampa o cuello</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C1.1.Tarja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C1.2.WC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C1.3.Lavabo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C1.4.Regadera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C1.5.Lavadero</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C1.6.Calentador de paso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C1.7.Calentador solar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C1.8.Cuadro principal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>C. Instalacion hidráulica</controllingFieldValue>
+            <valueName>C1.9.Disparo principal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>D. Instalación gas</controllingFieldValue>
+            <valueName>D1.1.Disparo principal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>D. Instalación gas</controllingFieldValue>
+            <valueName>D1.2.Disparo en calentador de paso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>D. Instalación gas</controllingFieldValue>
+            <valueName>D1.3.Disparo estufa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>D. Instalación gas</controllingFieldValue>
+            <valueName>D1.4.Disparo tanque estacionario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.1.Falta de colado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.2.Falta de varilla tec 60</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.3.Falta de dala u</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.4.Acuñar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.5.Desplome</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.6.Mal forjado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.7.Desprendiemiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.8.Boquilla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.9.Escaleras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.10.Molduras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.11.Viga en Cimentacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.12.Firme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E.1.13.Losa de cimentacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E.1.14.Muros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.16.Vigas en Muros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.17.Castillos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.18.Cerramientos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.9.Losa de entrepiso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.20.Losa azotea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E. Albañilería</controllingFieldValue>
+            <valueName>E1.21.Base de tinaco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F1.1.Botada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F1.2.Mal aplicada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F1.3.Diferente color</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F1.7.Desplome</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F1.9. Fisura por temperatura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F1.10.Daño estructura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>F. Acabados Interior</controllingFieldValue>
+            <valueName>F1.11. Boquilla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.1.Falta de colado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.2.Mala pendiente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.3.Desprendimiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.4.Mal acabado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.5.Botado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.6.Diferente Color</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.7.Falta pintura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.8.Mal aplicada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.9.Fisuras por temperatura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.10. Daño Estructural</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.11. Fisura en muro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.12. Fisura en pretil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.13. Falta de Sello en conexiones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.14. Fisura en junta constructiva</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.15. Encharcamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>G. Acabado Exterior</controllingFieldValue>
+            <valueName>G1.16. Filtración por boquilla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H1.1.Descuadradas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H1.2.Vidrio roto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H1.3.Seguros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H1.4.Riel golpeado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H1.5.Sello</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H1.5.Pijas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H1.7.Aluminio golpeado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H1.10.Falla en corredizo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H1.11.Falla  riel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H1.12.Falla en manija / jaladera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>H. Aluminio</controllingFieldValue>
+            <valueName>H1.13.Daño en mosquitero</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I. Puertas</controllingFieldValue>
+            <valueName>I1.1. Faltante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I. Puertas</controllingFieldValue>
+            <valueName>I1.2. Mal funcionamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I. Puertas</controllingFieldValue>
+            <valueName>I1.3. Golpeada (o)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I. Puertas</controllingFieldValue>
+            <valueName>I1.4. Descuadrada (o)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I. Puertas</controllingFieldValue>
+            <valueName>I1.5. Diferente Color</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I. Puertas</controllingFieldValue>
+            <valueName>I1.6. Pijas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I. Puertas</controllingFieldValue>
+            <valueName>I1.7. Sello</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I. Puertas</controllingFieldValue>
+            <valueName>I1.8.Daño en puertas - acabado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I. Puertas</controllingFieldValue>
+            <valueName>I1.11.Marco desplomado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>J. Impermeabilización</controllingFieldValue>
+            <valueName>J1.1.Faltante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>J. Impermeabilización</controllingFieldValue>
+            <valueName>J1.2.Encharcamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>J. Impermeabilización</controllingFieldValue>
+            <valueName>J1.3.Mal acabado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>J. Impermeabilización</controllingFieldValue>
+            <valueName>J1.4. Fisura en losa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>J. Impermeabilización</controllingFieldValue>
+            <valueName>J1.5. Impermeabilizante Dañado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>J. Impermeabilización</controllingFieldValue>
+            <valueName>J1.6. Fisura en impermeabilización</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pais_cta__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Atención en los acentos, la información origen los manda con y sin acentos.
+México - Mexico</description>
+    <externalId>false</externalId>
+    <label>País</label>
+    <referenceTo>Pais__c</referenceTo>
+    <relationshipLabel>Cuentas</relationshipLabel>
+    <relationshipName>Cuentas</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

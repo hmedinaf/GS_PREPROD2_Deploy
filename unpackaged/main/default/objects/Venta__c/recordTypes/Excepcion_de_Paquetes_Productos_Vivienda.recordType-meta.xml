@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Excepcion_de_Paquetes_Productos_Vivienda</fullName>
+    <active>true</active>
+    <description>Excepción de Paquetes / Productos Vivienda</description>
+    <label>Excepcion de Paquetes / Productos Vivienda</label>
+</RecordType>

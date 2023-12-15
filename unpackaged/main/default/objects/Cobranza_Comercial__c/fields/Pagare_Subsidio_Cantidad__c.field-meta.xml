@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pagare_Subsidio_Cantidad__c</fullName>
+    <externalId>false</externalId>
+    <label>Pagaré Subsidio (Cantidad)</label>
+    <summaryFilterItems>
+        <field>Documento__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Pagaré</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Documento__c.Tipo__c</field>
+        <operation>equals</operation>
+        <value>PAGARÉ SUBSIDIO</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Documento__c.Cobranza_Comercial__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

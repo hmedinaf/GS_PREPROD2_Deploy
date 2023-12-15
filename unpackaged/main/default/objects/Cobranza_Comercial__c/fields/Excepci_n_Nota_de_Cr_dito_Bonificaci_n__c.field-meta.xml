@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Excepci_n_Nota_de_Cr_dito_Bonificaci_n__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Hay_NC_de_Bonificacion__c,
+			    IF( (Valor_Operacion__c - Sumatoria_Notas_Credito_Bonificacion__c) &lt;  Precio_Minimo_de_Venta__c, True,   False),
+			    False 
+			)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Excepción Nota de Crédito Bonificación</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

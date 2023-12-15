@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>valida_fechaestimada_vs_motivo_incuba</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(ISBLANK(Fechest_cta__c)) &amp;&amp; 
+ISPICKVAL(Motivoincub__c, &quot;&quot;)</errorConditionFormula>
+    <errorMessage>Debe seleccionar un motivo de incubación.</errorMessage>
+</ValidationRule>

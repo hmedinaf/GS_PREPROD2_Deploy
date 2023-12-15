@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cancelación Old</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cancelaciones_Old</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>CPPTS_Cancelacion</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cancelacion Formalizacion</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cancelacion de Escritura</layout>
+        <sections>
+            <label><!-- Detalles --></label>
+            <section>Detalles</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Cancelacion de Formalizacion</layout>
+        <sections>
+            <label><!-- Unico / Fraccionamiento / UEN --></label>
+            <section>Unico / Fraccionamiento / UEN</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Cancelacion de Gastos Admin</layout>
+        <sections>
+            <label><!-- Unico / Fraccionamiento / UEN --></label>
+            <section>Unico / Fraccionamiento / UEN</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Cancelación</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Gastos Admin</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Cancelacion Formalizacion --></description>
+        <label><!-- Cancelacion Formalizacion --></label>
+        <name>Cancelacion_Formalizacion</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Cancelacion de Escritura --></description>
+        <label><!-- Cancelacion de Escritura --></label>
+        <name>Cancelacion_de_Escritura</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Gastos Admin --></description>
+        <label><!-- Gastos Admin --></label>
+        <name>Gastos_Admin</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Reenviar_Respuesta --></label>
+        <name>Reenviar_Respuesta</name>
+    </webLinks>
+</CustomObjectTranslation>

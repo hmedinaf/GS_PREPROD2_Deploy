@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <decisions>
+        <description>Evalua el tipo de Dirección para actualizar el campo correcto</description>
+        <name>Evalua_el_Tipo_de_Direccion</name>
+        <label>Evalúa el Tipo de Dirección</label>
+        <locationX>446</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Direccion_Principal</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Tipo__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Dirección Principal</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Actualiza_Direccion_Principal_en_Dictaminacion</targetReference>
+            </connector>
+            <label>Dirección Principal</label>
+        </rules>
+        <rules>
+            <name>Direcci_n_Laboral</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Tipo__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Dirección Laboral</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Actualiza_Direccion_Laboral_en_Dictaminacion</targetReference>
+            </connector>
+            <label>Dirección Laboral</label>
+        </rules>
+        <rules>
+            <name>Direccion_Empresa</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Tipo__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Dirección Empresa</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Actualiza_Direccion_Empresaen_Dictaminacion</targetReference>
+            </connector>
+            <label>Dirección Empresa</label>
+        </rules>
+    </decisions>
+    <description>Actualiza Dirección Normalizada en Registro de Dictaminación</description>
+    <environments>Default</environments>
+    <interviewLabel>Actualiza Dirección Normalizada en Registro de Dictaminación {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Actualiza Dirección Normalizada en Registro de Dictaminación</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Actualiza la Dirección normalizada en la Dictaminación</description>
+        <name>Actualiza_Direccion_Empresaen_Dictaminacion</name>
+        <label>Actualiza Dirección Empresaen Dictaminación</label>
+        <locationX>578</locationX>
+        <locationY>431</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Contrato__r.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Direccion_Empresa__c</field>
+            <value>
+                <elementReference>$Record.Direccion__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ValidationBypassDateTime__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contract</object>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Actualiza la Dirección normalizada en la Dictaminación</description>
+        <name>Actualiza_Direccion_Laboral_en_Dictaminacion</name>
+        <label>Actualiza Dirección Laboral en Dictaminación</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Contrato__r.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Direccion_Laboral__c</field>
+            <value>
+                <elementReference>$Record.Direccion__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ValidationBypassDateTime__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contract</object>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Actualiza la Dirección normalizada en la Dictaminación</description>
+        <name>Actualiza_Direccion_Principal_en_Dictaminacion</name>
+        <label>Actualiza Dirección Principal en Dictaminación</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Contrato__r.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Direccion_Principal__c</field>
+            <value>
+                <elementReference>$Record.Direccion__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ValidationBypassDateTime__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contract</object>
+    </recordUpdates>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Evalua_el_Tipo_de_Direccion</targetReference>
+        </connector>
+        <object>Direcciones__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+</Flow>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asesor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Asesor</label>
+    <lookupFilter>
+        <active>false</active>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <filterItems>
+            <field>User.Title</field>
+            <operation>equals</operation>
+            <value>ASESOR</value>
+        </filterItems>
+        <filterItems>
+            <field>User.Title</field>
+            <operation>equals</operation>
+            <value>GENERICO</value>
+        </filterItems>
+        <filterItems>
+            <field>User.FraccionamientoAutorizados__c</field>
+            <operation>contains</operation>
+            <valueField>$Source.Nombre_Fraccionamiento__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Procesos_de_Ventas</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

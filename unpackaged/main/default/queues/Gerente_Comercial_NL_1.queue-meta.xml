@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Gerente Comercial NL 1</name>
+    <queueMembers>
+        <users>
+            <user>hector.medina@wolkegroup.com.jav</user>
+            <user>wolke@javer</user>
+            <user>ygonzalez@preprod.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Aprobacion_Lista_de_Precios__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>CPPT_Cancelacion__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Plan_de_Venta__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Planning__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Post_Venta__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Pre_Venta__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Venta__c</sobjectType>
+    </queueSobject>
+</Queue>

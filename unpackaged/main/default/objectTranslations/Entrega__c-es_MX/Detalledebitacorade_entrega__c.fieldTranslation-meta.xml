@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Detalle de bitácora de entrega --></label>
+        <name>Detalledebitacorade_entrega__c</name>
+        <picklistValues>
+            <masterLabel>Estatus</masterLabel>
+            <translation><!-- Estatus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fecha</masterLabel>
+            <translation><!-- Fecha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hora</masterLabel>
+            <translation><!-- Hora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No visita</masterLabel>
+            <translation><!-- No visita --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Estado_solo_en_Progreso_o_Aprobado</fullName>
+    <active>true</active>
+    <description>Este campo solo se puede modificar cuando el sub status del proceso es &quot;Aprobado&quot;o &quot;En progreso&quot;</description>
+    <errorConditionFormula>AND(isChanged(  Sub_Estado__c ),
+NOT  ISPICKVAL( Sub_Estatus_del_Proceso__c , &#39;Aprobado&#39;) ,
+ OR(NOT ISPICKVAL(Sub_Estatus_del_Proceso__c , &#39;En Progreso&#39;) ))</errorConditionFormula>
+    <errorDisplayField>Sub_Estado__c</errorDisplayField>
+    <errorMessage>Este campo solo se puede modificar cuando el sub status del proceso es &quot;Aprobado&quot;o &quot;En progreso&quot;</errorMessage>
+</ValidationRule>

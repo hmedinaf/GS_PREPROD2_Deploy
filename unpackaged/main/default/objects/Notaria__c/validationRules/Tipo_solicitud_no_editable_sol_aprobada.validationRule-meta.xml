@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_solicitud_no_editable_sol_aprobada</fullName>
+    <active>true</active>
+    <description>No puedes modificar el Tipo de Solicitud si la solicitud está aprobada</description>
+    <errorConditionFormula>AND(ISCHANGED( Tipo_de_solicitud__c ), 
+ISPICKVAL( Estatus_Solicitud__c , &#39;Aprobada&#39;))</errorConditionFormula>
+    <errorDisplayField>Tipo_de_solicitud__c</errorDisplayField>
+    <errorMessage>No puedes modificar el Tipo de Solicitud si la solicitud está aprobada</errorMessage>
+</ValidationRule>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JMC_Analisisinterno__c</fullName>
+    <description>Campo que detona las reglas en las etapas de prospección y el envío a MAS Comercial.</description>
+    <externalId>false</externalId>
+    <label>Análisis interno</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asesor externo</fullName>
+                <default>false</default>
+                <label>Asesor externo</label>
+            </value>
+            <value>
+                <fullName>Aumento de crédito</fullName>
+                <default>false</default>
+                <label>Aumento de crédito</label>
+            </value>
+            <value>
+                <fullName>Baja</fullName>
+                <default>false</default>
+                <label>Baja</label>
+            </value>
+            <value>
+                <fullName>Buscando opciones</fullName>
+                <default>false</default>
+                <label>Buscando opciones</label>
+            </value>
+            <value>
+                <fullName>Compra a largo plazo</fullName>
+                <default>false</default>
+                <label>Compra a largo plazo</label>
+            </value>
+            <value>
+                <fullName>En atención</fullName>
+                <default>false</default>
+                <label>En atención en fracc</label>
+            </value>
+            <value>
+                <fullName>Error registro</fullName>
+                <default>false</default>
+                <label>Error registro</label>
+            </value>
+            <value>
+                <fullName>Existe</fullName>
+                <default>false</default>
+                <label>Existe</label>
+            </value>
+            <value>
+                <fullName>Mailing WhatsApp</fullName>
+                <default>false</default>
+                <label>Mailing whatsapp</label>
+            </value>
+            <value>
+                <fullName>Mensaje error Infonavit</fullName>
+                <default>false</default>
+                <label>Mensaje error Infonavit</label>
+            </value>
+            <value>
+                <fullName>No contesta</fullName>
+                <default>false</default>
+                <label>No contesta</label>
+            </value>
+            <value>
+                <fullName>No lo conocen</fullName>
+                <default>false</default>
+                <label>No lo conocen</label>
+            </value>
+            <value>
+                <fullName>No validado</fullName>
+                <default>false</default>
+                <label>No validado</label>
+            </value>
+            <value>
+                <fullName>Numero invalido</fullName>
+                <default>false</default>
+                <label>Número inválido</label>
+            </value>
+            <value>
+                <fullName>Numero suspendido</fullName>
+                <default>false</default>
+                <label>Número suspendido</label>
+            </value>
+            <value>
+                <fullName>Perfilado</fullName>
+                <default>false</default>
+                <label>Perfilado</label>
+            </value>
+            <value>
+                <fullName>Personas mayores</fullName>
+                <default>false</default>
+                <label>Personas mayores</label>
+            </value>
+            <value>
+                <fullName>Producto</fullName>
+                <default>false</default>
+                <label>Producto</label>
+            </value>
+            <value>
+                <fullName>Puntos posteriores</fullName>
+                <default>false</default>
+                <label>Puntos posteriores</label>
+            </value>
+            <value>
+                <fullName>Referencias</fullName>
+                <default>false</default>
+                <label>Referencias</label>
+            </value>
+            <value>
+                <fullName>Registro renta</fullName>
+                <default>false</default>
+                <label>Registro renta</label>
+            </value>
+            <value>
+                <fullName>Sin capacidad de compra</fullName>
+                <default>false</default>
+                <label>Sin capacidad de compra</label>
+            </value>
+            <value>
+                <fullName>Sin confirmar</fullName>
+                <default>false</default>
+                <label>Sin confirmar</label>
+            </value>
+            <value>
+                <fullName>Sin oferta de vivienda</fullName>
+                <default>false</default>
+                <label>Sin oferta de vivienda</label>
+            </value>
+            <value>
+                <fullName>Sin validar</fullName>
+                <default>false</default>
+                <label>Sin validar</label>
+            </value>
+            <value>
+                <fullName>Tipo de crédito</fullName>
+                <default>false</default>
+                <label>Tipo de crédito</label>
+            </value>
+            <value>
+                <fullName>Ubicación</fullName>
+                <default>false</default>
+                <label>Ubicación</label>
+            </value>
+            <value>
+                <fullName>No existe</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No existe</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

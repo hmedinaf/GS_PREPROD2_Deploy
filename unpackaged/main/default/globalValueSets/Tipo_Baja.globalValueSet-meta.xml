@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ASESOR</fullName>
+        <default>false</default>
+        <label>ASESOR</label>
+    </customValue>
+    <customValue>
+        <fullName>ASESOR INACTIVO</fullName>
+        <default>false</default>
+        <label>ASESOR INACTIVO</label>
+    </customValue>
+    <customValue>
+        <fullName>CARGA INICIAL</fullName>
+        <default>false</default>
+        <label>CARGA INICIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>NO INTERESADO</fullName>
+        <default>false</default>
+        <label>NO INTERESADO</label>
+    </customValue>
+    <customValue>
+        <fullName>NO PUEDE COMPRAR</fullName>
+        <default>false</default>
+        <label>NO PUEDE COMPRAR</label>
+    </customValue>
+    <customValue>
+        <fullName>PROSPECTADOR</fullName>
+        <default>false</default>
+        <label>PROSPECTADOR</label>
+    </customValue>
+    <customValue>
+        <fullName>VENCIMIENTO</fullName>
+        <default>false</default>
+        <label>VENCIMIENTO</label>
+    </customValue>
+    <masterLabel>Tipo de Baja</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

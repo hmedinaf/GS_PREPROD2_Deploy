@@ -1,0 +1,36 @@
+<apex:page controller="CartaNoAdeudoController" renderAs="PDF">
+		<html>
+            <body>
+                <apex:outputPanel rendered="{!show}">
+                    <div style="padding-top: 5px;
+                          padding-right: 50px;
+                          padding-bottom: 50px;
+                          padding-left: 50px;">
+                        <!--Begin body of email. -->
+                         <p style="text-align: center;text-align: justify;margin:0px 24px 24px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">
+                             <apex:outputText value="{!todayDate}"></apex:outputText>
+                        </p>
+                        <br/><br/>
+                       <h1 style="text-align: center;font-size:24px;margin:0 0 20px 0;font-family:Arial,sans-serif;">CONSTANCIA LIBERTAD DE ADEUDO</h1>
+                        <p style="text-align: center;text-align: justify;margin:24px 24px 24px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">
+                            Por medio de la presente, manifestamos que nuestro cliente <apex:outputText value=" {!inventario.Cuenta__r.Numerodecliente__c} {!inventario.Cuenta__r.Name}"></apex:outputText>
+                            nos ha finiquitado en su totalidad el saldo que tenía pendiente por cubrir en la compra de la vivienda ubicada en la manzana 
+                            <apex:outputText value=" {!inventario.Manzana__c}, del lote {!inventario.Lote__c}, en interior {!inventario.Interior__c}, del fraccionamiento,  {!inventario.Fraccionamiento__c}, ubicado en {!inventario.Fracc__r.Muni_fracc__c}. De nuestra empresa CASAS JAVER S.A. DE C.V."></apex:outputText></p>
+                        <p style="text-align: center;text-align: justify;margin:24px 24px 24px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">En el caso que existieran algunos pagares o documentos firmados por el cliente, quedaran
+        				sin efecto de cobro.</p>
+                        <p style="text-align: center;text-align: justify;margin:24px 24px 24px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">Se extiende la presente al interesado, quedando a sus órdenes para cualquier duda o
+        				aclaración al respecto.</p></div>
+                <div style="text-align:center;">
+                    <br/>
+                <apex:image value="{!$Resource.CNA_Firma }" style=" width: 350px;text-align: center;"/>
+                    <br/> <br/> <br/>
+                    <br/> 
+                <apex:image value="{!$Resource.CNA_Footer }" style=" width: 650px;"/>
+				</div>
+                </apex:outputPanel>
+                <apex:outputPanel rendered="{!showError}">
+                    <h1 style="text-align: center;font-size:24px;margin:0 0 20px 0;font-family:Arial,sans-serif;">--- El proceso aun tiene saldo pendiente ---</h1>
+                </apex:outputPanel>
+                </body>
+        </html>
+</apex:page>

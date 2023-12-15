@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Telefonos</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+!IsVRBypassed__c,
+$User.is_Data_Migration_User__c = false,
+AND(
+    OR(
+        AND(ISBLANK(Phone), ISBLANK(TelefonoCelular__c)),
+        AND(ISBLANK(Phone), ISBLANK(Otro_Telefono__c)),
+        AND(ISBLANK(TelefonoCelular__c), ISBLANK(Otro_Telefono__c))
+    ),
+    OR(
+        ISBLANK(Phone),
+        ISBLANK(TelefonoCelular__c),
+        ISBLANK(Otro_Telefono__c)
+    )
+), 
+RecordType.Name != &#39;Javer Account&#39;, RecordType.Name != &#39;COMPAÑÍA JAVER&#39;)</errorConditionFormula>
+    <errorMessage>Debe capturar al menos 2 números telefónicos</errorMessage>
+</ValidationRule>

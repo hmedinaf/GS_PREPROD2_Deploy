@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CajaOpcionesMenuPrincipal__c</fullName>
+    <externalId>false</externalId>
+    <label>CajaOpcionesMenuPrincipal</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pagos</fullName>
+                <default>false</default>
+                <label>Pagos</label>
+            </value>
+            <value>
+                <fullName>Estado de Cuenta</fullName>
+                <default>false</default>
+                <label>Estado de Cuenta</label>
+            </value>
+            <value>
+                <fullName>Corte de Caja</fullName>
+                <default>false</default>
+                <label>Corte de Caja</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

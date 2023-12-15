@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restriccion_por_fraccionamiento</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+Pricebook2.Name != &quot;Standard Price Book&quot;,
+Tipo_Producto_Validacion__c != &#39;Productos Genéricos&#39;,
+OR(
+IF(CONTAINS(Plaza_Lista__c , Plaza_Producto__c) &amp;&amp; !CONTAINS(Fraccionamientos_Vencidos_Producto__c,&#39;N/A&#39;) &amp;&amp; CONTAINS(Fraccionamientos_Producto__c,&#39;N/A&#39;), false, IF(CONTAINS(Plaza_Lista__c , Plaza_Producto__c),IF(CONTAINS(Fraccionamientos_Vencidos_Producto__c , Fraccionamiento_Lista__c),true,IF(CONTAINS(Fraccionamientos_Producto__c , Fraccionamiento_Lista__c),false,true)),IF(CONTAINS(Plaza_S_F_Lista__c , Plaza_Producto__c),false,true))
+)
+)
+)</errorConditionFormula>
+    <errorMessage>Validar que la plaza corresponda al fraccionamiento de la lista y que el producto no esté relacionado a un Fraccionamiento con vigencia anterior al día de hoy.</errorMessage>
+</ValidationRule>

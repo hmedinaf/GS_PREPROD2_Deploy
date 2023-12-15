@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Aprobar Cancelación</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Membrete_Javer</letterhead>
+    <name>Aprobar Cancelación</name>
+    <style>formalLetter</style>
+    <subject>Responder Consulta de Proceso de Aprobación</subject>
+    <textOnly>Atención: {!Cancelacion__c.Aprobador_Buscar__c}
+Favor de responder a consulta de proceso de aprobación de la Cancelación # {!Cancelacion__c.Name}. Los detalles de la Cancelación son:
+
+Nombre: {!Cancelacion__c.Name}
+Fecha de Creación: {!Cancelacion__c.CreatedDate}
+Tipo de Cancelación: {!Cancelacion__c.RecordType}
+Nombre del solicitante: {!Cancelacion__c.Nombre_Solicitante__c}
+Periodo: {!Cancelacion__c.Periodo__c}
+Fraccionamiento: {!Cancelacion__c.Fraccionamiento__c}
+
+Enlace al registro de esta comisión aqui: {!Cancelacion__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

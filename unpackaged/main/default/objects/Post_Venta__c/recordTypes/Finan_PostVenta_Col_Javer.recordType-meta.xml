@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finan_PostVenta_Col_Javer</fullName>
+    <active>true</active>
+    <description>Para RT de Post Venta &quot;Finan PostVenta Col Javer&quot;</description>
+    <label>Finan PostVenta Col Javer</label>
+    <picklistValues>
+        <picklist>Estatus__c</picklist>
+        <values>
+            <fullName>Aprobada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Proceso de Aprobación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

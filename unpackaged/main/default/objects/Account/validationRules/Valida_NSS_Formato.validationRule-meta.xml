@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_NSS_Formato</fullName>
+    <active>true</active>
+    <description>El NSS debe ser solo númerico y de 11 caracteres</description>
+    <errorConditionFormula>$User.is_Data_Migration_User__c = false &amp;&amp;
+IF (ISBLANK(NSS__c), FALSE,
+		IF (LEN(NSS__c) &lt;&gt; 11, TRUE,
+						!REGEX(NSS__c, &quot;^[0-9]+$&quot;)
+		)
+)</errorConditionFormula>
+    <errorDisplayField>NSS__c</errorDisplayField>
+    <errorMessage>El NSS debe contener 11 caracteres numéricos.</errorMessage>
+</ValidationRule>

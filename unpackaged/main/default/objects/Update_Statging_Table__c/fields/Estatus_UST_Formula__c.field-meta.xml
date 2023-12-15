@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus_UST_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE( CASE( Estatus_UST__c,
+             &quot;Actualizado&quot;, &quot;/resource/DotIcon_Green?&quot;,
+             &quot;En Proceso&quot;, &quot;/resource/DotIcon_RoyalBlue?&quot;,
+             &quot;Falló&quot;, &quot;/resource/DotIcon_Red?&quot;,
+             &quot;/resource/1696535368000/DotIcon_Gray?&quot;), &quot;Estatus UST&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Estatus UST</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

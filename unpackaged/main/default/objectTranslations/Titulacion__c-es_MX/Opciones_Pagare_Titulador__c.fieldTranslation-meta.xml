@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Opciones Pagare Titulador --></label>
+        <name>Opciones_Pagare_Titulador__c</name>
+        <picklistValues>
+            <masterLabel>Financiera</masterLabel>
+            <translation><!-- Financiera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidio</masterLabel>
+            <translation><!-- Subsidio --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

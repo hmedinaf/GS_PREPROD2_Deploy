@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nombre_del_Cliente__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;/lightning/r/Account/&quot;&amp; Oportunidad__r.AccountId&amp; &quot;/view&quot;, 
+IF(OR(Oportunidad__r.Account.RecordType.Name = &quot;PROSPECTO PERSONA MORAL&quot;, 
+						Oportunidad__r.Account.RecordType.Name = &quot;AFLUENTE PERSONA MORAL&quot;,
+						Oportunidad__r.Account.RecordType.Name = &quot;CLIENTE PERSONA MORAL&quot;),
+	    	Oportunidad__r.Account.Name,
+	     Oportunidad__r.Account.Nombre__c  ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Nombre del Cliente</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

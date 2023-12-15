@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Check List Sub tipo Fiscal --></label>
+        <name>Check_List_Sub_tipo_Fiscal__c</name>
+        <picklistValues>
+            <masterLabel>Clave Única de Registro de Población</masterLabel>
+            <translation><!-- Clave Única de Registro de Población --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comprobante de Domicilio</masterLabel>
+            <translation><!-- Comprobante de Domicilio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comprobante de Domicilio de la persona moral</masterLabel>
+            <translation><!-- Comprobante de Domicilio de la persona moral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copia certificada que comprueba las facturas del servidor público</masterLabel>
+            <translation><!-- Copia certificada que comprueba las facturas del servidor público --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copia de su Identificación Oficial (IFE o Pasaporte)</masterLabel>
+            <translation><!-- Copia de su Identificación Oficial (IFE o Pasaporte) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cédula de Identificación Fiscal expedida por el SAT</masterLabel>
+            <translation><!-- Cédula de Identificación Fiscal expedida por el SAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escritura Pública o documento que sirva para acreditar su legal existencia</masterLabel>
+            <translation><!-- Escritura Pública o documento que sirva para acreditar su legal existencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INE del Representante Legal, para Extranjeros: el pasaporte o documento de migración que acredite su legal estancia en el país.</masterLabel>
+            <translation><!-- INE del Representante Legal, para Extranjeros: el pasaporte o documento de migración que acredite su legal estancia en el país. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R1: Alta en SHCP</masterLabel>
+            <translation><!-- R1: Alta en SHCP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recibos de Nómina de los últimos 3 meses</masterLabel>
+            <translation><!-- Recibos de Nómina de los últimos 3 meses --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

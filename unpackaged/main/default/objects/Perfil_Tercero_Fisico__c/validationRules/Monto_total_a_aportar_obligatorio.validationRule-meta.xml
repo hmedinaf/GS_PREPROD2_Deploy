@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monto_total_a_aportar_obligatorio</fullName>
+    <active>false</active>
+    <description>Si ¿Es usted el titular de recursos? = NO, será obligatorio el campo Monto total a aportar.</description>
+    <errorConditionFormula>AND
+(
+Es_usted_el_titular_de_recursos__c == &quot;NO&quot;,
+OR(
+ISNULL(Monto_Total_a_Aportar__c),
+ISBLANK(Monto_Total_a_Aportar__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Monto_Total_a_Aportar__c</errorDisplayField>
+    <errorMessage>El campo ¿Es usted el titular de recursos? = NO por lo que el campo monto total a aportar debe llenarse.</errorMessage>
+</ValidationRule>

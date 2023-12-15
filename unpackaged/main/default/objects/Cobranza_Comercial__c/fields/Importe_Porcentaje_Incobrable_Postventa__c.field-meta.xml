@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Importe_Porcentaje_Incobrable_Postventa__c</fullName>
+    <externalId>false</externalId>
+    <formula>(Sumatoria_Pagares_Postventa__c - Sumatoria_Notas_Credito_Bonificacion__c) * Porcentaje_Incobrable_Postventa__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Importe del % Incobrable Postventa</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

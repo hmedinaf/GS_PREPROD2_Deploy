@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Import Result --></label>
+        <name>Import_Result__c</name>
+        <picklistValues>
+            <masterLabel>Price Book Entry Ok</masterLabel>
+            <translation><!-- Price Book Entry Ok --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vivienda Ok</masterLabel>
+            <translation><!-- Vivienda Ok --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

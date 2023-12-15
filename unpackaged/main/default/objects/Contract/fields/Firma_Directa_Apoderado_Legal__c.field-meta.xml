@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Firma_Directa_Apoderado_Legal__c</fullName>
+    <externalId>false</externalId>
+    <label>Firma Directa Apoderado Legal</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Firma_Directa_Cliente__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SI</fullName>
+                <default>false</default>
+                <label>SI</label>
+            </value>
+            <value>
+                <fullName>NO</fullName>
+                <default>false</default>
+                <label>NO</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>SI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>NO</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

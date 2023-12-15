@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JMC_EstatusLead__c</fullName>
+    <description>Campo relacionado al análisis interno</description>
+    <externalId>false</externalId>
+    <label>Estatus Lead</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No validado</fullName>
+                <default>false</default>
+                <label>No validado</label>
+            </value>
+            <value>
+                <fullName>No Interesado</fullName>
+                <default>false</default>
+                <label>No Interesado</label>
+            </value>
+            <value>
+                <fullName>Incubadora</fullName>
+                <default>false</default>
+                <label>Incubadora</label>
+            </value>
+            <value>
+                <fullName>Ilocalizable</fullName>
+                <default>false</default>
+                <label>Ilocalizable</label>
+            </value>
+            <value>
+                <fullName>Perfilado</fullName>
+                <default>false</default>
+                <label>Perfilado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Obligatorio_Mensaje_error_Infonavit</fullName>
+    <active>true</active>
+    <description>Se solicita como obligatorio el picklist &#39;Mensaje error Infonavit&#39; cuando se asigne el análisis interno Mensaje error Infonavit. Se encuentra en información crediticia el campo.</description>
+    <errorConditionFormula>AND (
+ISPICKVAL(JMC_Analisisinterno__c  , &#39;Mensaje error Infonavit&#39;),
+ISBLANK(TEXT(Mensaje_error_Infonavit__c))
+)</errorConditionFormula>
+    <errorDisplayField>Mensaje_error_Infonavit__c</errorDisplayField>
+    <errorMessage>Se solicita como obligatorio el picklist &#39;Mensaje error Infonavit&#39;</errorMessage>
+</ValidationRule>

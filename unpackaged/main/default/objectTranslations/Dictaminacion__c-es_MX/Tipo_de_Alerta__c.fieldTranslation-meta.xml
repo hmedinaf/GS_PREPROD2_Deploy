@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo de Alerta --></label>
+        <name>Tipo_de_Alerta__c</name>
+        <picklistValues>
+            <masterLabel>100	Sin alerta.</masterLabel>
+            <translation><!-- 100	Sin alerta. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3101	El cliente se rehúsa a proporcionar documentos personales que lo identifiquen.</masterLabel>
+            <translation><!-- 3101	El cliente se rehúsa a proporcionar documentos personales que lo identifiquen. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3102	El pago por el inmueble es realizado por un tercero sin relación aparente con el cliente.</masterLabel>
+            <translation><!-- 3102	El pago por el inmueble es realizado por un tercero sin relación aparente con el cliente. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3103	El cliente o personas relacionadas con él realizan múltiples operaciones en un periodo muy corto sin razón aparente.</masterLabel>
+            <translation><!-- 3103	El cliente o personas relacionadas con él realizan múltiples operaciones en un periodo muy corto sin razón aparente. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3104	Al cliente parece no importarle pagar precios superiores a los del mercado con la finalidad de que la operación se realice fuera de los parámetros establecidos.</masterLabel>
+            <translation><!-- 3104	Al cliente parece no importarle pagar precios superiores a los del mercado con la finalidad de que la operación se realice fuera de los parámetros establecidos. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3105	De acuerdo con medios informativos u otras fuentes de información pública, se tiene conocimiento o sospecha de que el cliente, un familiar o persona relacionada, está vinculado con actividades ilícitas o se encuentra bajo proceso de investigación.</masterLabel>
+            <translation><!-- 3105	De acuerdo con medios informativos u otras fuentes de información pública, se tiene conocimiento o sospecha de que el cliente, un familiar o persona relacionada, está vinculado con actividades ilícitas o se encuentra bajo proceso de investigación. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3106	El cliente no quiere ser relacionado con la compra del inmueble.</masterLabel>
+            <translation><!-- 3106	El cliente no quiere ser relacionado con la compra del inmueble. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3107	La operación no es acorde con la actividad económica o giro mercantil declarado por el cliente.</masterLabel>
+            <translation><!-- 3107	La operación no es acorde con la actividad económica o giro mercantil declarado por el cliente. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3108	El cliente solicita que se realice la operación por medio de un contrato privado, donde no hay intención de registrarlo ante notario, o cuando esta intención se expresa, no se lleva a cabo finalmente.</masterLabel>
+            <translation><!-- 3108	El cliente solicita que se realice la operación por medio de un contrato privado, donde no hay intención de registrarlo ante notario, o cuando esta intención se expresa, no se lleva a cabo finalmente. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3109	Transacciones sucesivas de compra y venta de la misma propiedad en un periodo corto de tiempo, con cambios injustificados del valor de la misma</masterLabel>
+            <translation><!-- 3109	Transacciones sucesivas de compra y venta de la misma propiedad en un periodo corto de tiempo, con cambios injustificados del valor de la misma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3110	La operación se lleva acabo a un valor de venta o compra significativamente diferente (mucho mayor o mucho menor) a partir del valor real de la propiedad o a los valores de mercado.</masterLabel>
+            <translation><!-- 3110	La operación se lleva acabo a un valor de venta o compra significativamente diferente (mucho mayor o mucho menor) a partir del valor real de la propiedad o a los valores de mercado. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3111	Hay indicios, o certeza, que las partes no están actuando en nombre propio y están tratando de ocultar la identidad del cliente real.</masterLabel>
+            <translation><!-- 3111	Hay indicios, o certeza, que las partes no están actuando en nombre propio y están tratando de ocultar la identidad del cliente real. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3112	Uso de divisas en efectivo sin justificación alguna.</masterLabel>
+            <translation><!-- 3112	Uso de divisas en efectivo sin justificación alguna. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3113	El cliente liquida la operación por medio de una transferencia proveniente de un país extranjero.</masterLabel>
+            <translation><!-- 3113	El cliente liquida la operación por medio de una transferencia proveniente de un país extranjero. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3114	El cliente insiste en liquidar o pagar la operación en efectivo rebasando el umbral permitido en la Ley.</masterLabel>
+            <translation><!-- 3114	El cliente insiste en liquidar o pagar la operación en efectivo rebasando el umbral permitido en la Ley. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3115	El cliente intenta sobornar, extorsionar o amenaza al vendedor con el fin de realizar la operación fuera de los parámetros establecidos, o con la finalidad de evitar el envío del Aviso.</masterLabel>
+            <translation><!-- 3115	El cliente intenta sobornar, extorsionar o amenaza al vendedor con el fin de realizar la operación fuera de los parámetros establecidos, o con la finalidad de evitar el envío del Aviso. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3116	La información y documentación presentada por el cliente es inconsistente o de difícil verificación por parte del Sujeto Obligado.</masterLabel>
+            <translation><!-- 3116	La información y documentación presentada por el cliente es inconsistente o de difícil verificación por parte del Sujeto Obligado. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3117	Se tiene sospecha de que algunos intermediarios dentro del sistema financiero están coludidos con el cliente.</masterLabel>
+            <translation><!-- 3117	Se tiene sospecha de que algunos intermediarios dentro del sistema financiero están coludidos con el cliente. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3118	El cliente es un Fideicomiso y se niega a proporcionar información sobre el beneficiario controlador.</masterLabel>
+            <translation><!-- 3118	El cliente es un Fideicomiso y se niega a proporcionar información sobre el beneficiario controlador. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3119	El cliente opera en grupos sin que exista algún parentesco o relación entre ellos.</masterLabel>
+            <translation><!-- 3119	El cliente opera en grupos sin que exista algún parentesco o relación entre ellos. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3120	El cliente pretende pagar o liquidar la operación con monedas virtuales.</masterLabel>
+            <translation><!-- 3120	El cliente pretende pagar o liquidar la operación con monedas virtuales. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9999	Otra alerta.</masterLabel>
+            <translation><!-- 9999	Otra alerta. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

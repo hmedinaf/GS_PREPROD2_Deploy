@@ -1,0 +1,9 @@
+<apex:page controller="ApprovalRequestHandler" showHeader="false" sidebar="false" cache="false" action="{!doInit}">
+    <script>
+    window.onload = function(){
+        setTimeout(function(){
+            window.close();
+        },5000);
+    }
+    </script>
+</apex:page>

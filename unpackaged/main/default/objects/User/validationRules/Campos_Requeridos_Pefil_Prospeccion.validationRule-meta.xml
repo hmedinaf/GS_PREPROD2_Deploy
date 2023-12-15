@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campos_Requeridos_Pefil_Prospeccion</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(Profile.Name=&quot;Prospección&quot;, 
+OR(  
+ISBLANK(Fraccionamiento_autorizado__c),
+ISBLANK(User_Mas_Comercial__c),  
+ISBLANK(Id_Mas_Comercial__c ),
+ISBLANK(Manager.FirstName)), NULL)</errorConditionFormula>
+    <errorMessage>El perfil de Usuario es Prospección, debe completar los campos 
+User Mas Comercial, Id Mas Comercial, Fracc. Autorizados.
+y el campo Gestor</errorMessage>
+</ValidationRule>

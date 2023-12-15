@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Titular_check_list_tercero</fullName>
+    <active>false</active>
+    <description>Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo.</description>
+    <errorConditionFormula>AND
+(
+Es_usted_el_titular_de_recursos__c == &quot;NO&quot;,
+OR(
+ISNULL(Check_List_Sub_Tipo_Fiscal__c),
+ISBLANK(Check_List_Sub_Tipo_Fiscal__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Check_List_Sub_Tipo_Fiscal__c</errorDisplayField>
+    <errorMessage>Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo.</errorMessage>
+</ValidationRule>

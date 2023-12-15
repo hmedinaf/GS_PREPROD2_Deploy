@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Se_Puede_Cambiar_Fracc_y_Prot</fullName>
+    <active>true</active>
+    <description>Despues de creada la lista de precios no permite cambiar fraccionamiento y prototipo</description>
+    <errorConditionFormula>OR(ISCHANGED( Fraccionamiento__c ) , ISCHANGED(  Prototipo__c ))</errorConditionFormula>
+    <errorMessage>No es posible editar el Fraccionamiento y Prototipo despues de crear la Lista de Precios</errorMessage>
+</ValidationRule>

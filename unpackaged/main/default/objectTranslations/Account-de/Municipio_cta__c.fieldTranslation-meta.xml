@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Municipio --></label>
+        <name>Municipio_cta__c</name>
+        <picklistValues>
+            <masterLabel>Aguascalientes</masterLabel>
+            <translation><!-- Aguascalientes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anáhuac</masterLabel>
+            <translation><!-- Anáhuac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apodaca</masterLabel>
+            <translation><!-- Apodaca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benito Juárez</masterLabel>
+            <translation><!-- Benito Juárez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coacalco</masterLabel>
+            <translation><!-- Coacalco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cumbres</masterLabel>
+            <translation><!-- Cumbres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Marques</masterLabel>
+            <translation><!-- El Marques --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Salto</masterLabel>
+            <translation><!-- El Salto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>García</masterLabel>
+            <translation><!-- García --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Escobedo</masterLabel>
+            <translation><!-- General Escobedo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Juárez</masterLabel>
+            <translation><!-- Juárez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lerma de Villada</masterLabel>
+            <translation><!-- Lerma de Villada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NU</masterLabel>
+            <translation><!-- NU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Querétaro</masterLabel>
+            <translation><!-- Querétaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reynosa</masterLabel>
+            <translation><!-- Reynosa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Juan del Río</masterLabel>
+            <translation><!-- San Juan del Río --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Nicolas</masterLabel>
+            <translation><!-- San Nicolas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Catarina</masterLabel>
+            <translation><!-- Santa Catarina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tecamac</masterLabel>
+            <translation><!-- Tecamac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tlajomulco de Zuñiga</masterLabel>
+            <translation><!-- Tlajomulco de Zuñiga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tonalá</masterLabel>
+            <translation><!-- Tonalá --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zumpango</masterLabel>
+            <translation><!-- Zumpango --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

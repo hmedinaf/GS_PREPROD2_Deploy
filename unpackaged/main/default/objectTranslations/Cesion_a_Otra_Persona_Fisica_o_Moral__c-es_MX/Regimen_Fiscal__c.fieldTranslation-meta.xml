@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Régimen Fiscal Cesión --></label>
+        <name>Regimen_Fiscal__c</name>
+        <picklistValues>
+            <masterLabel>Actividades Agrícolas, Ganaderas, Silvícolas y Pesqueras</masterLabel>
+            <translation><!-- Actividades Agrícolas, Ganaderas, Silvícolas y Pesqueras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arrendamiento</masterLabel>
+            <translation><!-- Arrendamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coordinados</masterLabel>
+            <translation><!-- Coordinados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demás ingresos</masterLabel>
+            <translation><!-- Demás ingresos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General de Ley Personas Morales</masterLabel>
+            <translation><!-- General de Ley Personas Morales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorporación Fiscal</masterLabel>
+            <translation><!-- Incorporación Fiscal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingresos por Dividendos (socios y accionistas)</masterLabel>
+            <translation><!-- Ingresos por Dividendos (socios y accionistas) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingresos por intereses</masterLabel>
+            <translation><!-- Ingresos por intereses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opcional para Grupos de Sociedades</masterLabel>
+            <translation><!-- Opcional para Grupos de Sociedades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personas Físicas con Actividades Empresariales y Profesionales</masterLabel>
+            <translation><!-- Personas Físicas con Actividades Empresariales y Profesionales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personas Morales con Fines no Lucrativos</masterLabel>
+            <translation><!-- Personas Morales con Fines no Lucrativos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residentes en el Extranjero sin Establecimiento Permanente en México</masterLabel>
+            <translation><!-- Residentes en el Extranjero sin Establecimiento Permanente en México --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Régimen Simplificado de Confianza</masterLabel>
+            <translation><!-- Régimen Simplificado de Confianza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Régimen de Enajenación o Adquisición de Bienes</masterLabel>
+            <translation><!-- Régimen de Enajenación o Adquisición de Bienes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Régimen de las Actividades Empresariales con ingresos a través de Plataformas Tecnológicas</masterLabel>
+            <translation><!-- Régimen de las Actividades Empresariales con ingresos a través de Plataformas Tecnológicas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Régimen de los ingresos por obtención de premios</masterLabel>
+            <translation><!-- Régimen de los ingresos por obtención de premios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin obligaciones fiscales</masterLabel>
+            <translation><!-- Sin obligaciones fiscales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sociedades Cooperativas de Producción que optan por diferir sus ingresos</masterLabel>
+            <translation><!-- Sociedades Cooperativas de Producción que optan por diferir sus ingresos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sueldos y Salarios e Ingresos Asimilados a Salarios</masterLabel>
+            <translation><!-- Sueldos y Salarios e Ingresos Asimilados a Salarios --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

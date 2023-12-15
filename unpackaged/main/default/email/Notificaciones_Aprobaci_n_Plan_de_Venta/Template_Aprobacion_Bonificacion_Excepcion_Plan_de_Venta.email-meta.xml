@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template - Aprobación Bonificación  Excepción Plan de Venta</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Template - Aprobación Bonificación  Excepción Plan de Venta</name>
+    <style>none</style>
+    <subject>Solicitud de Aprobación de Bonificación Excepción Plan de Venta</subject>
+    <textOnly>Para el proceso &quot;&quot;, Se solicita su revisión y es su caso, la aprobación correspondiente:
+
+Solicitante:
+
+Fraccionamiento:
+
+Prototipo:
+
+Procedo de Venta:
+
+Precio Presupuesto:
+
+Precio Unitario:
+
+Precio Promoción de Venta:
+
+Tipo de Precio Mínimo de Venta:
+
+Valor Operación:
+
+Descuento Pre-autorizado:
+
+Descuento Empleado:
+
+Monto Desc Pre-Autorizado:
+
+Monto Descuento:
+
+Diferencia:
+
+HISTORIAL DE COMPRA
+
+Número de viviendas
+
+Fecha de Última Escritura
+
+DATOS EMPLEADO
+
+Nombre Emoleado:
+
+Antiguedad:
+
+Parentesco
+
+Favor de Responder este correo solo con la palabra:
+
+APROBADO  ó DENEGADO
+
+APPROVE REJECT</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

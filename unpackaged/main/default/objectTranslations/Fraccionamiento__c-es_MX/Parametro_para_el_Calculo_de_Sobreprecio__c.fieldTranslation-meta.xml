@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Parámetro para el Cálculo de Sobreprecio --></label>
+        <name>Parametro_para_el_Calculo_de_Sobreprecio__c</name>
+        <picklistValues>
+            <masterLabel>Precio Minimo Solicitado</masterLabel>
+            <translation><!-- Precio Minimo Solicitado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Mínimo de Venta</masterLabel>
+            <translation><!-- Precio Mínimo de Venta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Presupuesto</masterLabel>
+            <translation><!-- Precio Presupuesto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Unitario</masterLabel>
+            <translation><!-- Precio Unitario --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

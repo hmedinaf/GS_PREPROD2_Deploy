@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- % a Reestructurar --></label>
+        <name>Pct_a_Reestructura__c</name>
+    </CustomFieldTranslation>

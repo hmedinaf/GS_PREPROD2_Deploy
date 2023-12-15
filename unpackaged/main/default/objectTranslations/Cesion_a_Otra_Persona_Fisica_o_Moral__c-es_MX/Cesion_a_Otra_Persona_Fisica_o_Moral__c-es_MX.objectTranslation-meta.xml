@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cesión a Otra Persona Física o Moral</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cesiones a Otra Persona Física o Moral</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Persona Física</layout>
+        <sections>
+            <label><!-- Dirección --></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label><!-- Información Empresa --></label>
+            <section>Información Empresa</section>
+        </sections>
+        <sections>
+            <label><!-- Sección nombre pendiente --></label>
+            <section>Sección nombre pendiente</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Persona Moral</layout>
+        <sections>
+            <label><!-- Dirección --></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label><!-- Información Empresa --></label>
+            <section>Información Empresa</section>
+        </sections>
+        <sections>
+            <label><!-- Sección nombre pendiente --></label>
+            <section>Sección nombre pendiente</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Nueva información de representante legal --></label>
+        <name>Nueva_informacion_de_representante_legal</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Monitor --></label>
+        <name>Monitor</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dirección Laboral PF --></label>
+        <name>Nueva_Direccion_Laboral_PF</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dirección Laboral PM --></label>
+        <name>Nueva_Direccion_Laboral_PM</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dirección Principal PF --></label>
+        <name>Nueva_Direccion_Principal</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nueva Dirección Principal PM --></label>
+        <name>Nueva_Direccion_Principal_PM</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nuevo Representante Legal --></label>
+        <name>Nuevo_Representante_Legal</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Persona Física --></label>
+        <name>Persona_Fisica</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Persona Moral --></label>
+        <name>Persona_Moral</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo RFC debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_RFC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si escritura a favor de un tercero es igual a SI y sub tipo fiscal = persona moral debe llenarse el campo. --></errorMessage>
+        <name>Escritura_tercero_accionista_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo apellido materno debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_apellido_materno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo apellido paterno debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_apellido_paterno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo calle domicilio debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_calle_domicilio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo clave del país debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_clave_de_pais</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo código postal debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_codigo_postal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo colonia debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_colonia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo ¿Conoce a la persona? debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_conoce_a_la_persona</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo correo electrónico debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_correo_electronico</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo CURP debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_curp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si escritura a favor de un tercero es igual a SI y sub tipo fiscal = persona moral debe llenarse el campo. --></errorMessage>
+        <name>Escritura_tercero_director_general</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo estado debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_estado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo extensión debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_extension</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si escritura a favor de un tercero es igual a SI y sub tipo fiscal = persona moral debe llenarse el campo. --></errorMessage>
+        <name>Escritura_tercero_fecha_constitucion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo fecha de nacimiento debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_fecha_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si escritura a favor de un tercero es igual a SI y sub tipo fiscal = persona moral debe llenarse el campo. --></errorMessage>
+        <name>Escritura_tercero_miembro_del_consejo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si escritura a favor de un tercero es igual a SI y sub tipo fiscal = persona moral debe llenarse el campo. --></errorMessage>
+        <name>Escritura_tercero_no_escritura</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo sub tipo fiscal debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_nombre_obligatorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si escritura a favor de un tercero es igual a SI y sub tipo fiscal = persona moral debe llenarse el campo. --></errorMessage>
+        <name>Escritura_tercero_notaria</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo número exterior debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_numero_exterior</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo número interior debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_numero_interior</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo país debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_pais</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo país de nacimiento debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_pais_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo país de nacionalidad debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_pais_nacionalidad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si escritura a favor de un tercero es igual a SI y sub tipo fiscal = persona moral debe llenarse el campo. --></errorMessage>
+        <name>Escritura_tercero_porcentaje_accionista</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo sub tipo fiscal debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_sub_tipo_fiscal_obliga</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo tel. celular debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_tel_celular</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo tel. domicilio debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_tel_domicilio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo escritura a favor de un tercero = SI por lo que el campo tipo identificación debe llenarse. --></errorMessage>
+        <name>Escritura_tercero_tipo_identificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Por favor ingresar unicamente letras en los campos de Nombre, Apellido Paterno y Apellido Materno --></errorMessage>
+        <name>Solo_Aceptar_Letras</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Por favor ingresar unicamente letras en los campos de Director General, Accionista y Miembros del Consejo. --></errorMessage>
+        <name>Solo_Letras_en_Accionistas</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Telefono_Celular_REGEX</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Telefono_Celular_RepLegal_REGEX</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Telefono_Dom_Rep_Legal_REGEX</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito --></errorMessage>
+        <name>Telefono_Domicilio_REGEX</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si escritura a favor de un tercero es igual a SI y sub tipo fiscal = persona moral debe llenarse el campo. --></errorMessage>
+        <name>Tercero_municipio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si escritura a favor de un tercero es igual a SI y sub tipo fiscal = persona moral debe llenarse el campo. --></errorMessage>
+        <name>Tercero_no_identificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_check_list_sub_tipo_fiscal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede crear si la persona es menor de edad. --></errorMessage>
+        <name>Valida_mayor_de_edad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo CURP si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_CURP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo No escritura si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_No_escritura</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo No identificacion si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_No_identificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo RFC si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_RFC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo accionista si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_accionista</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Apellido Materno si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_apellido_materno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Apellido Paterno si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_apellido_paterno</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Autoridad Emite Identifiacion si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_autoridad_emite_iden</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Calle si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_calle</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Clave del Pais si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_clave_del_pais</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Código postal si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_codigo_postal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Colonia si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_colonia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo ¿Conoce a la persona a la cual se está solicitando la escritura del inmueble? si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_conoce_a_la_persona</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Correo electronico si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_correo_electronico</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Director General si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_director_general</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Estado si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_estado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Extension si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_extension</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Fecha de Constitucion si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_fecha_de_constitucio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Fecha de Nacimiento si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_fecha_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Miembros del Consejo si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_miembros_del_consejo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Nombre si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_nombre</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Notaria si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_notaria</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Núm Interior si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_num_Interior</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Núm Exterior si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_num_exterior</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Pais si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_pais</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Pais de Nacimiento si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_pais_de_nacimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Pais de Nacionalidad si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_pais_de_nacionalidad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Porcentaje Accionistas si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_porcentaje_accionist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo sub tipo fiscal rep si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_sub_tipo_fiscal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Tel Celular si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_tel_celular</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Tel Domicilio si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_tel_domicilio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Tipo Identificacion si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_modificacion_tipo_identificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el campo Municipio si el estatus del proceso de venta de la oportunidad es diferente a Validación, Reservado, Formalizado --></errorMessage>
+        <name>Valida_municipio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sólo se aceptan números y letras en el campo notaría. --></errorMessage>
+        <name>Valida_numeros_y_letras_notaria</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se aceptan números y letras en el campo CURP --></errorMessage>
+        <name>Validacion_numeros_y_letras_CURP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sólo se aceptan números y letras en el campo no. escritura. --></errorMessage>
+        <name>Validacion_numeros_y_letras_no_escritura</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solo se aceptan números y letras en el campo no. identificación. --></errorMessage>
+        <name>Validacion_numeros_y_letras_no_identific</name>
+    </validationRules>
+</CustomObjectTranslation>

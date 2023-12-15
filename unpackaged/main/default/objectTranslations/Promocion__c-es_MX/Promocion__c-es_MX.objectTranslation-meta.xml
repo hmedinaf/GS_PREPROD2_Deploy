@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Material de Apoyo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Materiales de Apoyo</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Nuevo Material de Apoyo</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Información de Control --></label>
+            <section>Información de Control</section>
+        </sections>
+        <sections>
+            <label><!-- Información del Material de Apoyo --></label>
+            <section>Información del Material de Apoyo</section>
+        </sections>
+        <sections>
+            <label><!-- Información del Sistema --></label>
+            <section>Información del Sistema</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Actualizar Imagen --></label>
+        <name>Actualizar_Imagen</name>
+    </quickActions>
+</CustomObjectTranslation>

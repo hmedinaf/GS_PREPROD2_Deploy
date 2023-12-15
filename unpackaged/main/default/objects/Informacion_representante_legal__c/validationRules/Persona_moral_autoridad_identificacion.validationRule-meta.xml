@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Persona_moral_autoridad_identificacion</fullName>
+    <active>true</active>
+    <description>Valida que si el sub tipo fiscal rep es igual a persona moral, se llene el campo autoridad identificación.</description>
+    <errorConditionFormula>AND
+(
+TEXT(Sub_Tipo_Fiscal_Rep__c) == &quot;Persona Moral&quot;,
+OR(
+ISNULL(TEXT(Autoridad_Identificacion__c)),
+ISBLANK(TEXT(Autoridad_Identificacion__c))
+)
+)</errorConditionFormula>
+    <errorDisplayField>Autoridad_Identificacion__c</errorDisplayField>
+    <errorMessage>Autoridad Identificación requerido</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Estatus_Cliente</fullName>
+    <active>true</active>
+    <description>Valida que el cliente no tenga el estatus Baja</description>
+    <errorConditionFormula>AND (ISNEW(),
+(TEXT(Account.Estatus_Cliente__c) = &#39;BAJA&#39; || TEXT(Account.Estatus_Cliente__c) = &#39;INCUBADORA&#39;))</errorConditionFormula>
+    <errorMessage>No se pueden crear procesos de venta a clientes que tienen estatus de BAJA o INCUBADORA.</errorMessage>
+</ValidationRule>

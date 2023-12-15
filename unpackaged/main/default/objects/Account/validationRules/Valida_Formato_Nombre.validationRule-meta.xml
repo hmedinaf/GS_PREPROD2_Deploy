@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Formato_Nombre</fullName>
+    <active>true</active>
+    <description>El nombre de una cuenta no puede llevar números</description>
+    <errorConditionFormula>AND
+(
+ $Profile.Name &lt;&gt; &#39;Administrador del sistema&#39;,
+ OR(
+  RecordType.DeveloperName = &#39;Prospecto_Persona_Fisica&#39;,
+  RecordType.DeveloperName = &#39;Afluente_Persona_Fisica&#39;,
+  RecordType.DeveloperName = &#39;Cliente_Persona_Fisica&#39;
+ ),
+ AND(
+  NOT(REGEX(FirstName, &quot;[a-zA-Z áéíóúÁÉÍÓÚüÜñÑ]+&quot;)),
+  NOT(ISBLANK(FirstName))
+ )
+)</errorConditionFormula>
+    <errorDisplayField>FirstName</errorDisplayField>
+    <errorMessage>Ingrese el nombre de la cuenta sin números ni caracteres especiales</errorMessage>
+</ValidationRule>

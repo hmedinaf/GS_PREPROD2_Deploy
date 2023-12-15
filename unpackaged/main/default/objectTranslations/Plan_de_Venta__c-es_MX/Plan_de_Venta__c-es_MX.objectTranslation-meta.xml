@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Plan de Venta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Plan de Venta</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Plan de Venta</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Aprobación Fondo de Garantía --></label>
+        <name>Aprobacion_Fondo_de_Garantia</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Aprobar Plan de Venta --></label>
+        <name>Aprobar_Plan_de_Venta</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Registrar Formalización --></label>
+        <name>Registrar_Formalizacion</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Agregar Promoción de Precio --></label>
+        <name>Agregar_Promocion_de_Precio</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Elimina Pagarés Pre Venta --></label>
+        <name>Elimina_Pagar_s_Pre_Venta</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Evalúa Rutas de Aprobación --></label>
+        <name>Evalua_Rutas_de_Aprobacion</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nuevo Pagaré Preventa --></label>
+        <name>Nuevo_Pagar_Preventa</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Sincronización de Datos --></label>
+        <name>Sincronizacion_de_Datos</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Los campos Ahorro voluntario solo son editables en el estatus de: Reservado o Plan de venta igual a En Progreso o Rechazado. --></errorMessage>
+        <name>Ahorro_Voluntario_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo de Anticipo solo es editable en el estatus: Reservado. --></errorMessage>
+        <name>Anticipo_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo Atribuible a Javer obligatorio en cambio de Fecha Proyección Escritura --></errorMessage>
+        <name>Atribuible_a_Javer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Los campos avalúo solo son editables en el estatus de: Reservado ó el Plan de venta igual a En progreso o Rechazado. --></errorMessage>
+        <name>Avaluo_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar Comentarios si el estatus del Proceso de venta es igual a Reservado, Exigible, Entregado, Escriturado, Cancelado ó el estatus de Plan de Venta es igual a Por Aprobar, Aprobado --></errorMessage>
+        <name>Comentarios</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se habilita solo si la bonificación seleccionada es de clase Monto. --></errorMessage>
+        <name>Descuento_Tipo_Monto</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se habilita solo si la bonificación seleccionada es de clase Porcentaje. --></errorMessage>
+        <name>Descuento_Tipo_Porcentaje</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El % descuento empleado Javer no se puede modificar si el Proceso de venta esta en estatus Entregado, Escriturado, Cancelado ó el Plan de Venta esta en estatus Por Aprobar o Aprobado. --></errorMessage>
+        <name>Descuento_empleado_Javer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El domicio Aval solo es editable cuando el proceso de venta se encuentra en:  Reserva, Formalización y Validación. --></errorMessage>
+        <name>Domiciolio_Aval_Obligatiorio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha de Inicio de Cobranza no puede ser superior a 15 días de la Fecha de Reserva. --></errorMessage>
+        <name>Fecha_Inicio_Cobranza_No_Mayor_a_15_Dias</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el Fecha Inicio Cobranza si estatus del Proceso de venta es igual a Formalizado, Validación, Entregado, Escriturado, Cancelado, el estatus del Plan de Venta es igual a Por Aprobar, Aprobado o es mayor a  días de la fecha de reserva. --></errorMessage>
+        <name>Fecha_de_inicio_de_cobranza</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el Fecha de vencimiento si el estatus del Proceso de venta es igual a Formalizado, Validación, Entregado, Escriturado, Cancelado ó el estatus del Plan de Venta es igual a Por Aprobar, Aprobado. --></errorMessage>
+        <name>Fecha_de_vencimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo Fondo de Garantía solo es editable en los estatus: Reservado, Validado y Formalizado ó el estatus del Plan de Venta es igual a: En Progreso, Rechazado --></errorMessage>
+        <name>Fondo_Garantia_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Los campos gastos de escritura solo son editables en el estatus de: Reservado ó Plan de Venta es igual a En Progreso o Rechazado --></errorMessage>
+        <name>Gastos_Escritura_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Los campos Gastos Orig Crédito solo son editables en el estatus de: Reservado ó Plan de venta igual a En Progreso, Rechazado. --></errorMessage>
+        <name>Gastos_Origen_Credito_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Los campos impuestos derechos solo son editables en el estatus de: Reservado ó Plan de venta igual a En progreso o Reservado. --></errorMessage>
+        <name>Impuestos_derechos_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El monto de crédito solo es editable en el estatus de: Reservado. --></errorMessage>
+        <name>Monto_Credito_Dos_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El Monto de Crédito solo es editable en el estatus de: Reservado ó Plan de venta: En Progreso, Rechazado. --></errorMessage>
+        <name>Monto_Credito_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El monto de crédito solo es editable en el estatus de: Reservado. --></errorMessage>
+        <name>Monto_Credito_Tres_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el monto de descuento cuando el proceso de venta esta en un estatus de Entregado / Escriturado ó el estatus del plan de venta esta en estatus de Por Aprobar / Aprobado. --></errorMessage>
+        <name>Monto_Descuento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe indicar el motivo de la reubicación. --></errorMessage>
+        <name>Motivo_de_Reubicacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No debe haber motivo de reubicación. --></errorMessage>
+        <name>Motivo_de_Reubicacion_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar el Plazo si el estatus del Proceso de venta es igual a Formalizado, Validación, Entregado, Escriturado, Cancelado ó el estatus del Plan de Venta es igual a Por Aprobar, Aprobado --></errorMessage>
+        <name>Plazo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si se llena Plazo, Frecuencia o Frecha de Inicio, se deben llenar el resto. --></errorMessage>
+        <name>Plazo_Frecuenca_y_Fecha_de_Inicio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El % descuento empleado Javer no se puede modificar si el Proceso de venta esta en estatus Entregado, Escriturado, Cancelado ó el Plan de Venta esta en estatus Por Aprobar o Aprobado. --></errorMessage>
+        <name>Porcentaje_Descuento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo Sub cuenta vivienda solo es editable en el estatus de: Reservado. --></errorMessage>
+        <name>SubCuenta_Vivienda_DOS_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo Sub cuenta vivienda solo es editable en el estatus de: Reservado ó Plan de venta En Progreso o Rechazado. --></errorMessage>
+        <name>SubCuenta_Vivienda_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo Sub cuenta vivienda solo es editable en el estatus de: Reservado. --></errorMessage>
+        <name>SubCuenta_Vivienda_TRES_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo de Subsidio solo es editable en el estatus: Reservado. --></errorMessage>
+        <name>Subsidio_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El valor de operación solo es editable en el estatus de: Reservado. --></errorMessage>
+        <name>Valor_de_Operacion_editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo Venta Anticipada solo es editable en los estatus: Reservado, Validado y Formalizado ó Plan de venta igual a: Por Aprobar, Rechazado --></errorMessage>
+        <name>Venta_Anticipada_Editable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar venta especial si el estatus del Proceso de venta es igual a Entregado, Escriturado, Cancelado ó el estatus del Plan de Venta es igual a Por Aprobar, Aprobado --></errorMessage>
+        <name>Venta_especial</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede cambiar el tipo de venta con una vivienda reservada. --></errorMessage>
+        <name>Vivienda_y_Venta_Anticipada</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Formato_Pagare_Preventa --></label>
+        <name>Formato_Pagare_Preventa</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Opciones_de_Pago --></label>
+        <name>Opciones_de_Pago</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Opciones_de_Pago_Cuenta_Extranjera --></label>
+        <name>Opciones_de_Pago_Cuenta_Extranjera</name>
+    </webLinks>
+</CustomObjectTranslation>

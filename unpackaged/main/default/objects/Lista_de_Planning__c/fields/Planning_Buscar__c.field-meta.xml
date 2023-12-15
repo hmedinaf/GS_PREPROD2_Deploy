@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Planning_Buscar__c</fullName>
+    <externalId>false</externalId>
+    <label>Planning</label>
+    <lookupFilter>
+        <active>false</active>
+        <booleanFilter>(1 AND 2) OR (3 AND 4) OR (5 AND 6)</booleanFilter>
+        <errorMessage>El tipo de lista seleccionado no es compatible con el tipo del Registro Master. Eliga el adecuado de acuerdo con los criterios de filtro en el objeto de la lista.</errorMessage>
+        <filterItems>
+            <field>Planning__c.RecordType.Name</field>
+            <operation>contains</operation>
+            <value>Precio</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Listas de Precios</value>
+        </filterItems>
+        <filterItems>
+            <field>Planning__c.RecordType.DeveloperName</field>
+            <operation>contains</operation>
+            <value>Bonifica</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Listas de Bonificaciones</value>
+        </filterItems>
+        <filterItems>
+            <field>Planning__c.RecordType.DeveloperName</field>
+            <operation>contains</operation>
+            <value>Financia</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Listas de Financiamiento</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Planning__c</referenceTo>
+    <relationshipLabel>Listas de Planning</relationshipLabel>
+    <relationshipName>Listas_de_Planning</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

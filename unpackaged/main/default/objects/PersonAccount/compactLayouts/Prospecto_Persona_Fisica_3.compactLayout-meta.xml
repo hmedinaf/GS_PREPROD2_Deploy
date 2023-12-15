@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospecto_Persona_Fisica_3</fullName>
+    <fields>Name</fields>
+    <fields>Nombre__c</fields>
+    <fields>Tipo_Formula__c</fields>
+    <fields>RFC_Completo__c</fields>
+    <fields>Asesor__c</fields>
+    <label>Prospecto Persona Fisica 3</label>
+</CompactLayout>

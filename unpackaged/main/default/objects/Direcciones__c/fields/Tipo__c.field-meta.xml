@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dirección Afluencia</fullName>
+                <default>false</default>
+                <label>Dirección Afluencia</label>
+            </value>
+            <value>
+                <fullName>Dirección Principal</fullName>
+                <default>false</default>
+                <label>Dirección Principal</label>
+            </value>
+            <value>
+                <fullName>Dirección Laboral</fullName>
+                <default>false</default>
+                <label>Dirección Laboral</label>
+            </value>
+            <value>
+                <fullName>Dirección Empresa</fullName>
+                <default>false</default>
+                <label>Dirección Empresa</label>
+            </value>
+            <value>
+                <fullName>Dirección Principal CO Acreditado</fullName>
+                <default>false</default>
+                <label>Dirección Principal CO Acreditado</label>
+            </value>
+            <value>
+                <fullName>Dirección Laboral CO Acreditado</fullName>
+                <default>false</default>
+                <label>Dirección Laboral CO Acreditado</label>
+            </value>
+            <value>
+                <fullName>Dirección Rep Legal Laboral</fullName>
+                <default>false</default>
+                <label>Dirección Rep Legal Laboral</label>
+            </value>
+            <value>
+                <fullName>Dirección Rep Legal / Apoderado</fullName>
+                <default>false</default>
+                <label>Dirección Rep Legal / Apoderado</label>
+            </value>
+            <value>
+                <fullName>Dirección Tercero Persona Física</fullName>
+                <default>false</default>
+                <label>Dirección Tercero Persona Física</label>
+            </value>
+            <value>
+                <fullName>Dirección Tercero Laboral Persona Física</fullName>
+                <default>false</default>
+                <label>Dirección Tercero Laboral Persona Física</label>
+            </value>
+            <value>
+                <fullName>Direccion_3ro_Moral_Principal</fullName>
+                <default>false</default>
+                <label>Dirección 3ro Moral Principal</label>
+            </value>
+            <value>
+                <fullName>Direccion_3ro_Domicilio_Moral</fullName>
+                <default>false</default>
+                <label>Dirección 3ro Domicilio Moral</label>
+            </value>
+            <value>
+                <fullName>Direccion_3ro_Laboral_Moral</fullName>
+                <default>false</default>
+                <label>Dirección 3ro Laboral Moral</label>
+            </value>
+            <value>
+                <fullName>Dirección Cesión Principal PF</fullName>
+                <default>false</default>
+                <label>Dirección Cesión Principal PF</label>
+            </value>
+            <value>
+                <fullName>Dirección Cesión Laboral PF</fullName>
+                <default>false</default>
+                <label>Dirección Cesión Laboral PF</label>
+            </value>
+            <value>
+                <fullName>Dirección Cesión Principal PM</fullName>
+                <default>false</default>
+                <label>Dirección Cesión Principal PM</label>
+            </value>
+            <value>
+                <fullName>Dirección Cesión Laboral PM</fullName>
+                <default>false</default>
+                <label>Dirección Cesión Laboral PM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

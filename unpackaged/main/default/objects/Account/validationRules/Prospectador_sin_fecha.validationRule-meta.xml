@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospectador_sin_fecha</fullName>
+    <active>true</active>
+    <description>No se puede guardar Prospectador sin fecha de Prospección</description>
+    <errorConditionFormula>$User.is_Data_Migration_User__c = false &amp;&amp;
+ISBLANK(Fecha_de_Prospeccion__c) &amp;&amp;
+(NOT ISBLANK(Prospectador__c))</errorConditionFormula>
+    <errorMessage>No se puede guardar Prospectador sin Fecha de Prospección</errorMessage>
+</ValidationRule>

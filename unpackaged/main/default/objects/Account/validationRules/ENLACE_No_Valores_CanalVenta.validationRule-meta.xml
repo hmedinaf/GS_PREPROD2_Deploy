@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ENLACE_No_Valores_CanalVenta</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    $RecordType.Name = &#39;PROSPECTO PERSONA FISICA&#39;,
+				ISPICKVAL(Canal_de_Venta__c , &#39;PROGRAMAS INSTITUCIONALES&#39;), 
+				OR($Profile.Name = &quot;Asesor&quot;,
+								$Profile.Name = &quot;Prospectador&quot;
+							)
+     			
+   )</errorConditionFormula>
+    <errorMessage>No se puede usar el valor de Programas Institucionales en Enlace, favor de cambiar la selección de la lisa.</errorMessage>
+</ValidationRule>

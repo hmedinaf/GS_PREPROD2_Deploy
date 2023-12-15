@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo --></label>
+        <name>Tipo__c</name>
+        <picklistValues>
+            <masterLabel>A. Instalación eléctrica</masterLabel>
+            <translation><!-- A. Instalación eléctrica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B. Instalacion sanitaria</masterLabel>
+            <translation><!-- B. Instalacion sanitaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C. Instalacion hidráulica</masterLabel>
+            <translation><!-- C. Instalacion hidráulica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D. Instalación gas</masterLabel>
+            <translation><!-- D. Instalación gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E. Albañilería</masterLabel>
+            <translation><!-- E. Albañilería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F. Acabados Interior</masterLabel>
+            <translation><!-- F. Acabados Interior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G. Acabado Exterior</masterLabel>
+            <translation><!-- G. Acabado Exterior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H. Aluminio</masterLabel>
+            <translation><!-- H. Aluminio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I. Puertas</masterLabel>
+            <translation><!-- I. Puertas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J. Impermeabilización</masterLabel>
+            <translation><!-- J. Impermeabilización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K. Herrería</masterLabel>
+            <translation><!-- K. Herrería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L. Urbanización</masterLabel>
+            <translation><!-- L. Urbanización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M. Infraestructura</masterLabel>
+            <translation><!-- M. Infraestructura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N. Accesorios</masterLabel>
+            <translation><!-- N. Accesorios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O. Servicios</masterLabel>
+            <translation><!-- O. Servicios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P. Organización Vecinal</masterLabel>
+            <translation><!-- P. Organización Vecinal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q. Ventas</masterLabel>
+            <translation><!-- Q. Ventas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R. Seguimiento de Ventas</masterLabel>
+            <translation><!-- R. Seguimiento de Ventas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S. Fechas</masterLabel>
+            <translation><!-- S. Fechas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T. Quejas</masterLabel>
+            <translation><!-- T. Quejas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U. Cobranza Post.Venta</masterLabel>
+            <translation><!-- U. Cobranza Post.Venta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V. Solicitudes</masterLabel>
+            <translation><!-- V. Solicitudes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W. Otros</masterLabel>
+            <translation><!-- W. Otros --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

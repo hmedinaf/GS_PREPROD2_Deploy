@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estatus UST --></label>
+        <name>Estatus_UST__c</name>
+        <picklistValues>
+            <masterLabel>Actualizado</masterLabel>
+            <translation><!-- Actualizado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En Proceso</masterLabel>
+            <translation><!-- En Proceso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falló</masterLabel>
+            <translation><!-- Falló --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevo</masterLabel>
+            <translation><!-- Nuevo --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style=""><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Estás recibiendo este correo electrónico como notificación de la Baja de la cuenta prospecto:&nbsp;</span><font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">{!Account.Name}&nbsp;</font><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">{!Account.Apellidomaterno_cta__c} asociada al fraccionamiento:&nbsp;</span><font face="arial">{!Account.Fraccionamiento_cta__c}</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial" style="font-size: 12pt;">Si deseas visualizar el registro de la cuenta haz clic en la siguiente liga:&nbsp;</font><font face="arial" style="font-size: medium;">{!Account.Link}</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Saludos.</div>]]></td>
+</tr>
+</table>

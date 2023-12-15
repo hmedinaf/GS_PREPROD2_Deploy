@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aphanumeric_Info</fullName>
+    <active>false</active>
+    <description>Requerir Informacion Alfanumerica para Campos</description>
+    <errorConditionFormula>NOT(REGEX( Extension__c ,&quot;^[a-z A-Z]*$&quot;)) || 
+NOT(REGEX( Accionista1__c ,&quot;^[a-z A-Z]*$&quot;)) ||   
+NOT(REGEX( Accionista_2__c ,&quot;^[a-z A-Z]*$&quot;)) ||  
+NOT(REGEX( Accionista_3__c ,&quot;^[a-z A-Z]*$&quot;)) ||  
+NOT(REGEX( Miembros_del_Consejo1__c  ,&quot;^[a-z A-Z]*$&quot;)) ||  
+NOT(REGEX( Miembros_del_Consejo_2__c  ,&quot;^[a-z A-Z]*$&quot;)) ||
+NOT(REGEX( Miembros_del_Consejo_3__c  ,&quot;^[a-z A-Z]*$&quot;))</errorConditionFormula>
+    <errorMessage>Los siguientes campos solamente pueden contener caracteres alfanumericos:
+
+Nombre
+Extension
+Accionista 1-3
+Miembros del Consejo 1-3
+
+Favor validar la informacion y tratar de nuevo.</errorMessage>
+</ValidationRule>

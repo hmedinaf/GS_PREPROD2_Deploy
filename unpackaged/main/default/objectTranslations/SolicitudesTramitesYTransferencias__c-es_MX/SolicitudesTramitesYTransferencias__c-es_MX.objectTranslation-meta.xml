@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Solicitudes de Trámites y Transferencias</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Solicitudes de Trámites y Transferencias</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Solicitudes de Trámites y Transferencias</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Transferencias</layout>
+        <sections>
+            <label><!-- Comentarios --></label>
+            <section>Comentarios</section>
+        </sections>
+        <sections>
+            <label><!-- Información de Aprobación --></label>
+            <section>Información de Aprobación</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Trámites</layout>
+        <sections>
+            <label><!-- Detalle de Trámite --></label>
+            <section>Detalle de Trámite</section>
+        </sections>
+        <sections>
+            <label><!-- IVA-Retenciones --></label>
+            <section>IVA-Retenciones</section>
+        </sections>
+        <sections>
+            <label><!-- Información de Aprobación --></label>
+            <section>Información de Aprobación</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Trámites --></label>
+        <name>Tramite</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Transferencias --></label>
+        <name>Transferencia</name>
+    </recordTypes>
+</CustomObjectTranslation>

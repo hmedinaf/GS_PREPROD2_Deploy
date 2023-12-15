@@ -1,0 +1,384 @@
+<apex:page controller="ActasPDFCtrl" renderAs="PDF">
+    <apex:image value="{!$Resource.casasJaverActasPDF}" style=" width: 120px; text-align: left;"/>
+    <p align="center" style="font-size: 15px;">
+        <strong><u>ACTA DE ENTREGA DE ECO-TECNOLOGÍAS, ACCESORIOS Y DOCUMENTOS</u></strong>
+    </p>
+    <p style="font-size: 14px;">
+        <strong>PROTOTIPO - FRACCIONAMIENTO:</strong>&nbsp;<apex:outputText value="{!ActaName}"></apex:outputText>
+    </p>
+    
+    <p style="font-size: 13px;">
+        El presente documento ampara la entrega oportuna de los siguientes
+        atributos extras que es acorde a la vivienda en lo siguiente según aplique:
+    </p>
+    <p>
+        <strong>I. </strong>
+        <strong>ENTREGA DE ECO-TECNOLOGÍAS</strong>
+    </p>
+    
+    <table border="0" cellspacing="0" cellpadding="0" style="font-size: 13px;">
+        <tbody>
+            <tr>
+                <td width="262" >
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.FocoAhorrador__c > 0, ECO.FocoAhorrador__c, 0)}  - Foco(s) Ahorrador(es)"></apex:outputText>
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.FocoAhorrador__c > 0, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="66" valign="center" >
+                    
+                </td>
+                <td width="198">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.LlaveTarja__c > 0, ECO.LlaveTarja__c, 0)}  - Llave(s) de control para tarja"></apex:outputText>
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.LlaveTarja__c > 0, 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td width="262">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.FocoLED__c > 0, ECO.FocoLED__c, 0)}  - Foco(s) LED"></apex:outputText>
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.FocoLED__c > 0, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="66" valign="top">
+                </td>
+                <td width="198">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.BoteBasura__c > 0, ECO.BoteBasura__c, 0)}  - Bote(s) de basura"></apex:outputText>
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.BoteBasura__c > 0, 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td width="262">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.FiltroAgua__c > 0, ECO.FiltroAgua__c, 0)}  - Filtro(s) Purificador de agua"></apex:outputText>
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.FiltroAgua__c > 0, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="66" valign="top">
+                </td>
+                <td width="198">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.CalentadorSolar__c > 0, ECO.CalentadorSolar__c, 0)}  - Calentador solar y de paso"></apex:outputText>
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.CalentadorSolar__c > 0, 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td width="262">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.LlaveChorro__c > 0, ECO.LlaveChorro__c, 0)}  - Llave(s) de chorro"></apex:outputText>
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.LlaveChorro__c > 0, 'X', '')}"></apex:outputText>
+                    
+                </td>
+                <td width="66" valign="top">
+                </td>
+                <td width="198">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.OtrosEcoNum__c > 0, ECO.OtrosEcoNum__c, 'Otros: ')} "></apex:outputText><apex:outputText style="font-style:bold" value="{!If(ECO.OtrosEco__c != '', '- ' + ECO.OtrosEco__c, '')} "></apex:outputText>
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.OtrosEco__c != '', 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="font-size: 12px;">
+        <em>
+            <apex:outputText style="font-style:bold" value="{!If(ECO.Observaciones__c != '', 'Observaciones: ' + ECO.Observaciones__c, 'Observaciones: ')} "></apex:outputText>
+        </em>
+    </p>
+    <p>
+        <strong>II. </strong>
+        <strong>ACCESORIOS (En caso de aplicar)</strong>
+    </p>
+    <div style="font-size: 13px;">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td width="258">
+                        
+                        <strong>Mosquiteros</strong>
+                        
+                    </td>
+                    <td width="37" style = "border: 1px solid black;">
+                        
+                    </td>
+                    <td width="55">
+                        
+                    </td>
+                    <td width="214">
+                        
+                        <strong>Artículos Baño</strong>
+                        
+                        
+                    </td>
+                    <td width="31" style = "border: 1px solid black;">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.Sala__c > 0, ECO.Sala__c, 0)}  - Sala"></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.Sala__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.TapaWC__c > 0, ECO.TapaWC__c, 0)}  - Tapa(s) de tanque WC"></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.TapaWC__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.Comedor__c > 0, ECO.Comedor__c, 0)}  - Comedor"></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.Comedor__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.AsientoWC__c > 0, ECO.AsientoWC__c, 0)}  - Asiento(s) WC"></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.AsientoWC__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.RecamaraPrincipal__c > 0, ECO.RecamaraPrincipal__c, 0)}  - Recámara Principal"></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.RecamaraPrincipal__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.AccesoriosBano__c > 0, ECO.AccesoriosBano__c, 0)}  - Juego(s) de Accesorios baño"></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.AccesoriosBano__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.RecamaraPosterior__c > 0, ECO.RecamaraPosterior__c, 0)}  - Recámara(s) Posterior(es)"></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.RecamaraPosterior__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.PortaRollos__c > 0, ECO.PortaRollos__c, 0)}  - Porta-rollo(s)"></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.PortaRollos__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.Bano__c > 0, ECO.Bano__c, 0)}  - Baño(s)"></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.Bano__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.Jabonera__c > 0, ECO.Jabonera__c, 0)}  - Jabonera(s)"></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.Jabonera__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.Cocina__c > 0, ECO.Cocina__c, 0)}  - Cocina"></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.Cocina__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.Toallero__c > 0, ECO.Toallero__c, 0)}  - Toallero(s)"></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.Toallero__c > 0, 'X', '')}"></apex:outputText></td>
+                </tr>
+                <tr>
+                    <td width="258">
+                            <strong>Accesorios Exteriores</strong>
+                    </td>
+                    <td width="37">
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                            <strong>Accesorios Interiores</strong>
+                    </td>
+                    <td width="31">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.ExterioresNum__c > 0, ECO.ExterioresNum__c, '_____ ')} "></apex:outputText><apex:outputText style="font-style:bold" value="{!If(ECO.Exteriores__c != '', '- ' + ECO.Exteriores__c, '________________________________')} "></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText value="{!If(ECO.Exteriores__c != '', 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.InterioresNum__c > 0, ECO.InterioresNum__c, '_____ ')} "></apex:outputText><apex:outputText style="font-style:bold" value="{!If(ECO.Interiores__c != '', '- ' + ECO.Interiores__c, '__________________________')} "></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText value="{!If(ECO.Interiores__c != '', 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>
+        <strong>III. </strong>
+        <strong>DOCUMENTOS </strong>
+    </p>
+    <table border="0" cellspacing="0" cellpadding="0" style="font-size: 13px;">
+        <tbody>
+            <tr>
+                <td width="262">
+                    Manual de Usuario
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.ManualUsuario__c, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="57" valign="top">
+                </td>
+                <td width="208">
+                    Inf de Contratación de Servicios
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.ContratacionServicios__c, 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td width="262">
+                    
+                    Reglamento Vecinal Javer
+                    
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.Reglamento__c, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="57" valign="top">
+                </td>
+                <td width="208">
+                    
+                    Carta de Servicios Digitales
+                    
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.ServiciosDigitales__c, 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td width="262">
+                    
+                    Plano Arquitectónico
+                    
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.Plano__c, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="57" valign="top">
+                </td>
+                <td width="208">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.OtrosDoc__c != '', 'Otro: ' + ECO.OtrosDoc__c, 'Otro: ')} "></apex:outputText>
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.OtrosDoc__c != '', 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td width="262">
+                    
+                    Carta de Servicios Públicos
+                    
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.ServiciosPublicos__c, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="57" valign="top">
+                </td>
+                <td width="208">
+                </td>
+                <td width="31" valign="top">
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <p>
+        <strong>IV. </strong>
+        <strong>
+            MEJORAS INSTALADAS A LA VIVIENDA /PAQUETES DE MUEBLES/ COMPLEMENTOS
+        </strong>
+    </p>
+    <div style="font-size: 13px;">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td width="258">
+                        <strong>Paquetes de Muebles</strong>
+                    </td>
+                    <td width="37" >
+                        
+                    </td>
+                    <td width="55">
+                        
+                    </td>
+                    <td width="214">
+                        <strong>Mejoras Instaladas</strong>
+                    </td>
+                    <td width="31" >
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.PaquetesNum__c > 0, ECO.PaquetesNum__c, '____')} "></apex:outputText><apex:outputText style="font-style:bold" value="{!If(ECO.Paquetes__c != '', '- ' + ECO.Paquetes__c, ' _________________')} "></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText value="{!If(ECO.Paquetes__c != '', 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.MejorasNum__c > 0, ECO.MejorasNum__c, '____')} "></apex:outputText><apex:outputText style="font-style:bold" value="{!If(ECO.Mejoras__c != '', '- ' + ECO.Mejoras__c, ' _________________')} "></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText value="{!If(ECO.Mejoras__c != '', 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div style="height: 32px;">
+        
+    </div>
+    <!--<div style="font-size: 11px;">
+        NOMBRE DEL TITULAR:<u>&nbsp;&nbsp;{!cuenta.Nombre_cta__c} {!cuenta.Apellidopaterno_cta__c} {!cuenta.ApellidoMaterno_cta__c}&nbsp;&nbsp;</u>
+    </div>-->
+    <div style="font-size: 11px;margin-top:10px">
+        FIRMA DE ACEPTACIÓN: ________________________________________________________________
+    </div>
+</apex:page>

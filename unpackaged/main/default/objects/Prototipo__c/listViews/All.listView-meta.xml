@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Id_Prototipo__c</columns>
+    <columns>Nombre_Prototipo__c</columns>
+    <columns>Prototipo_pro__c</columns>
+    <columns>Id_Mas_Comercial__c</columns>
+    <columns>Plantas__c</columns>
+    <columns>Activo_pro__c</columns>
+    <columns>Fraccionamiento__c</columns>
+    <columns>Precio_pro__c</columns>
+    <columns>Modelo__c</columns>
+    <columns>Pagweb_prot__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>Todos</label>
+</ListView>

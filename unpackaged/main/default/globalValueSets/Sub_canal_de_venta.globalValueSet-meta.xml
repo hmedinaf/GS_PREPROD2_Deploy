@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1-2GUPNA8</fullName>
+        <default>false</default>
+        <label>1-2GUPNA8</label>
+    </customValue>
+    <customValue>
+        <fullName>ACTIVACION/EVENTO</fullName>
+        <default>false</default>
+        <label>ACTIVACION/EVENTO</label>
+    </customValue>
+    <customValue>
+        <fullName>ACTIVACION/EVENTO/PERIFERIA</fullName>
+        <default>false</default>
+        <label>ACTIVACION/EVENTO/PERIFERIA</label>
+    </customValue>
+    <customValue>
+        <fullName>AGS FERIA CANADEVI</fullName>
+        <default>false</default>
+        <label>AGS FERIA CANADEVI</label>
+    </customValue>
+    <customValue>
+        <fullName>AGS MOCTEZUMA</fullName>
+        <default>false</default>
+        <label>AGS MOCTEZUMA</label>
+    </customValue>
+    <customValue>
+        <fullName>AGS SAN DIEGO</fullName>
+        <default>false</default>
+        <label>AGS SAN DIEGO</label>
+    </customValue>
+    <customValue>
+        <fullName>AGS VILLA ASUNCION</fullName>
+        <default>false</default>
+        <label>AGS VILLA ASUNCION</label>
+    </customValue>
+    <customValue>
+        <fullName>APP INVITADO</fullName>
+        <default>false</default>
+        <label>APP INVITADO</label>
+    </customValue>
+    <customValue>
+        <fullName>BLOGGER/TANIA RENDON</fullName>
+        <default>false</default>
+        <label>BLOGGER/TANIA RENDON</label>
+    </customValue>
+    <customValue>
+        <fullName>BUEN FIN</fullName>
+        <default>false</default>
+        <label>BUEN FIN</label>
+    </customValue>
+    <customValue>
+        <fullName>CALL CENTER/TELEMARKETING</fullName>
+        <default>false</default>
+        <label>CALL CENTER/TELEMARKETING</label>
+    </customValue>
+    <customValue>
+        <fullName>CAMBACEO</fullName>
+        <default>false</default>
+        <label>CAMBACEO</label>
+    </customValue>
+    <customValue>
+        <fullName>CARTELERA MOVIL</fullName>
+        <default>false</default>
+        <label>CARTELERA MOVIL</label>
+    </customValue>
+    <customValue>
+        <fullName>CARTELERA PV</fullName>
+        <default>false</default>
+        <label>CARTELERA PV</label>
+    </customValue>
+    <customValue>
+        <fullName>CARTERA DE CLIENTES</fullName>
+        <default>false</default>
+        <label>CARTERA DE CLIENTES</label>
+    </customValue>
+    <customValue>
+        <fullName>CARTERA PROPIA</fullName>
+        <default>false</default>
+        <label>CARTERA PROPIA</label>
+    </customValue>
+    <customValue>
+        <fullName>CITA ASESOR</fullName>
+        <default>false</default>
+        <label>CITA ASESOR</label>
+    </customValue>
+    <customValue>
+        <fullName>COLABORADOR JAVER</fullName>
+        <default>false</default>
+        <label>COLABORADOR JAVER</label>
+    </customValue>
+    <customValue>
+        <fullName>COMPAÑERO DE TRABAJO</fullName>
+        <default>false</default>
+        <label>COMPAÑERO DE TRABAJO</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENIO PABELLON M</fullName>
+        <default>false</default>
+        <label>CONVENIO PABELLON M</label>
+    </customValue>
+    <customValue>
+        <fullName>CORREO</fullName>
+        <default>false</default>
+        <label>CORREO</label>
+    </customValue>
+    <customValue>
+        <fullName>CORREO DIRECTO/CARTA</fullName>
+        <default>false</default>
+        <label>CORREO DIRECTO/CARTA</label>
+    </customValue>
+    <customValue>
+        <fullName>EDO MEX SAMARA</fullName>
+        <default>false</default>
+        <label>EDO MEX SAMARA</label>
+    </customValue>
+    <customValue>
+        <fullName>EN EMPRESA (VENTA EMPRESARIAL)</fullName>
+        <default>false</default>
+        <label>EN EMPRESA (VENTA EMPRESARIAL)</label>
+    </customValue>
+    <customValue>
+        <fullName>ESPECTACULAR/CARTELERA</fullName>
+        <default>false</default>
+        <label>ESPECTACULAR/CARTELERA</label>
+    </customValue>
+    <customValue>
+        <fullName>EVENTO (MACROVENTA, SUPERVTA)</fullName>
+        <default>false</default>
+        <label>EVENTO (MACROVENTA, SUPERVTA)</label>
+    </customValue>
+    <customValue>
+        <fullName>EXPO/FERIA</fullName>
+        <default>false</default>
+        <label>EXPO/FERIA</label>
+    </customValue>
+    <customValue>
+        <fullName>FACEBOOK</fullName>
+        <default>false</default>
+        <label>FACEBOOK</label>
+    </customValue>
+    <customValue>
+        <fullName>FACEBOOK INBOX</fullName>
+        <default>false</default>
+        <label>FACEBOOK INBOX</label>
+    </customValue>
+    <customValue>
+        <fullName>FAMILIAR</fullName>
+        <default>false</default>
+        <label>FAMILIAR</label>
+    </customValue>
+    <customValue>
+        <fullName>FB ASESOR ORGANICO</fullName>
+        <default>false</default>
+        <label>FB ASESOR ORGANICO</label>
+    </customValue>
+    <customValue>
+        <fullName>FB ASESOR PAGADO POR ASESOR</fullName>
+        <default>false</default>
+        <label>FB ASESOR PAGADO POR ASESOR</label>
+    </customValue>
+    <customValue>
+        <fullName>FB ASESOR PAGADO POR JAVER</fullName>
+        <default>false</default>
+        <label>FB ASESOR PAGADO POR JAVER</label>
+    </customValue>
+    <customValue>
+        <fullName>FERIA REVOLUCION CDMX</fullName>
+        <default>false</default>
+        <label>FERIA REVOLUCION CDMX</label>
+    </customValue>
+    <customValue>
+        <fullName>FERIA ZOCALO DF</fullName>
+        <default>false</default>
+        <label>FERIA ZOCALO DF</label>
+    </customValue>
+    <customValue>
+        <fullName>FLYER/VOLANTE</fullName>
+        <default>false</default>
+        <label>FLYER/VOLANTE</label>
+    </customValue>
+    <customValue>
+        <fullName>GOOGLE</fullName>
+        <default>false</default>
+        <label>GOOGLE</label>
+    </customValue>
+    <customValue>
+        <fullName>IMAGEN EN PV</fullName>
+        <default>false</default>
+        <label>IMAGEN EN PV</label>
+    </customValue>
+    <customValue>
+        <fullName>INBOUND</fullName>
+        <default>false</default>
+        <label>INBOUND</label>
+    </customValue>
+    <customValue>
+        <fullName>INSTAGRAM</fullName>
+        <default>false</default>
+        <label>INSTAGRAM</label>
+    </customValue>
+    <customValue>
+        <fullName>INTERNET</fullName>
+        <default>false</default>
+        <label>INTERNET</label>
+    </customValue>
+    <customValue>
+        <fullName>INTERNET/PAGINA WEB</fullName>
+        <default>false</default>
+        <label>INTERNET/PAGINA WEB</label>
+    </customValue>
+    <customValue>
+        <fullName>INVITACION DEL ASESOR</fullName>
+        <default>false</default>
+        <label>INVITACION DEL ASESOR</label>
+    </customValue>
+    <customValue>
+        <fullName>ISLA PASEO QUERETARO</fullName>
+        <default>false</default>
+        <label>ISLA PASEO QUERETARO</label>
+    </customValue>
+    <customValue>
+        <fullName>JAVERMOVIL</fullName>
+        <default>false</default>
+        <label>JAVERMOVIL</label>
+    </customValue>
+    <customValue>
+        <fullName>LINKEDIN</fullName>
+        <default>false</default>
+        <label>LINKEDIN</label>
+    </customValue>
+    <customValue>
+        <fullName>LLAMADA CALLCENTER</fullName>
+        <default>false</default>
+        <label>LLAMADA CALLCENTER</label>
+    </customValue>
+    <customValue>
+        <fullName>LONEROS</fullName>
+        <default>false</default>
+        <label>LONEROS</label>
+    </customValue>
+    <customValue>
+        <fullName>MACROVENTA ONLINE</fullName>
+        <default>false</default>
+        <label>MACROVENTA ONLINE</label>
+    </customValue>
+    <customValue>
+        <fullName>MAILING</fullName>
+        <default>false</default>
+        <label>MAILING</label>
+    </customValue>
+    <customValue>
+        <fullName>MARCACION CORTA</fullName>
+        <default>false</default>
+        <label>MARCACION CORTA</label>
+    </customValue>
+    <customValue>
+        <fullName>MICROSITIO ASESOR</fullName>
+        <default>false</default>
+        <label>MICROSITIO ASESOR</label>
+    </customValue>
+    <customValue>
+        <fullName>MICROSITIOS</fullName>
+        <default>false</default>
+        <label>MICROSITIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>MODULO EN PUNTO ESTRATEGICO</fullName>
+        <default>false</default>
+        <label>MODULO EN PUNTO ESTRATEGICO</label>
+    </customValue>
+    <customValue>
+        <fullName>MODULO PAGADO EN PUNTO ESTRATE</fullName>
+        <default>false</default>
+        <label>MODULO PAGADO EN PUNTO ESTRATE</label>
+    </customValue>
+    <customValue>
+        <fullName>MUNDO JAVER</fullName>
+        <default>false</default>
+        <label>MUNDO JAVER</label>
+    </customValue>
+    <customValue>
+        <fullName>OTROS CREDITOS</fullName>
+        <default>false</default>
+        <label>OTROS CREDITOS</label>
+    </customValue>
+    <customValue>
+        <fullName>P. INMOBLIARIOS-INMUEBLES 24</fullName>
+        <default>false</default>
+        <label>P. INMOBLIARIOS-INMUEBLES 24</label>
+    </customValue>
+    <customValue>
+        <fullName>PAGINA DE INTERNET</fullName>
+        <default>false</default>
+        <label>PAGINA DE INTERNET</label>
+    </customValue>
+    <customValue>
+        <fullName>PAGINA WEB JAVER</fullName>
+        <default>false</default>
+        <label>PAGINA WEB JAVER</label>
+    </customValue>
+    <customValue>
+        <fullName>PASABA POR AQUI</fullName>
+        <default>false</default>
+        <label>PASABA POR AQUI</label>
+    </customValue>
+    <customValue>
+        <fullName>PERIFERIA</fullName>
+        <default>false</default>
+        <label>PERIFERIA</label>
+    </customValue>
+    <customValue>
+        <fullName>PERIODICO</fullName>
+        <default>false</default>
+        <label>PERIODICO</label>
+    </customValue>
+    <customValue>
+        <fullName>P INMOBILIARIOS INMUEBLES 24</fullName>
+        <default>false</default>
+        <label>P INMOBILIARIOS INMUEBLES 24</label>
+    </customValue>
+    <customValue>
+        <fullName>PODCAST</fullName>
+        <default>false</default>
+        <label>PODCAST</label>
+    </customValue>
+    <customValue>
+        <fullName>PORT. INMOBILIARIO/TRATO DIREC</fullName>
+        <default>false</default>
+        <label>PORT. INMOBILIARIO/TRATO DIREC</label>
+    </customValue>
+    <customValue>
+        <fullName>PORTAL CASA PERFECTA</fullName>
+        <default>false</default>
+        <label>PORTAL CASA PERFECTA</label>
+    </customValue>
+    <customValue>
+        <fullName>PORTALES INMOBILIARIOS</fullName>
+        <default>false</default>
+        <label>PORTALES INMOBILIARIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>PORTAL INMOBILIARIO</fullName>
+        <default>false</default>
+        <label>PORTAL INMOBILIARIO</label>
+    </customValue>
+    <customValue>
+        <fullName>PORT INMOBILIARIO/TRATO DIREC</fullName>
+        <default>false</default>
+        <label>PORT INMOBILIARIO/TRATO DIREC</label>
+    </customValue>
+    <customValue>
+        <fullName>POSTER</fullName>
+        <default>false</default>
+        <label>POSTER</label>
+    </customValue>
+    <customValue>
+        <fullName>PRENSA</fullName>
+        <default>false</default>
+        <label>PRENSA</label>
+    </customValue>
+    <customValue>
+        <fullName>PRENSA/REVISTA</fullName>
+        <default>false</default>
+        <label>PRENSA/REVISTA</label>
+    </customValue>
+    <customValue>
+        <fullName>PRENSA / REVISTA</fullName>
+        <default>false</default>
+        <label>PRENSA / REVISTA</label>
+    </customValue>
+    <customValue>
+        <fullName>PROMOTOR EXT DIG/A.JLUNA</fullName>
+        <default>false</default>
+        <label>PROMOTOR EXT DIG/A.JLUNA</label>
+    </customValue>
+    <customValue>
+        <fullName>PROMOTOR EXT DIG/A.MAYO</fullName>
+        <default>false</default>
+        <label>PROMOTOR EXT DIG/A.MAYO</label>
+    </customValue>
+    <customValue>
+        <fullName>PROMOTOR EXT DIG/P.ICJASA</fullName>
+        <default>false</default>
+        <label>PROMOTOR EXT DIG/P.ICJASA</label>
+    </customValue>
+    <customValue>
+        <fullName>PROSPECCION</fullName>
+        <default>false</default>
+        <label>PROSPECCION</label>
+    </customValue>
+    <customValue>
+        <fullName>PROSPECCION DIGITAL</fullName>
+        <default>false</default>
+        <label>PROSPECCION DIGITAL</label>
+    </customValue>
+    <customValue>
+        <fullName>PROSPECTO ASESOR</fullName>
+        <default>false</default>
+        <label>PROSPECTO ASESOR</label>
+    </customValue>
+    <customValue>
+        <fullName>PUBLICIDAD EN AUTOBUSES</fullName>
+        <default>false</default>
+        <label>PUBLICIDAD EN AUTOBUSES</label>
+    </customValue>
+    <customValue>
+        <fullName>QIR TIANGUIS</fullName>
+        <default>false</default>
+        <label>QIR TIANGUIS</label>
+    </customValue>
+    <customValue>
+        <fullName>RADIO</fullName>
+        <default>false</default>
+        <label>RADIO</label>
+    </customValue>
+    <customValue>
+        <fullName>RECOMIENDA Y GANA</fullName>
+        <default>false</default>
+        <label>RECOMIENDA Y GANA</label>
+    </customValue>
+    <customValue>
+        <fullName>REFERIDO</fullName>
+        <default>false</default>
+        <label>REFERIDO</label>
+    </customValue>
+    <customValue>
+        <fullName>REFERIDO/RECOMENDACION</fullName>
+        <default>false</default>
+        <label>REFERIDO/RECOMENDACION</label>
+    </customValue>
+    <customValue>
+        <fullName>SEÑALIZACION</fullName>
+        <default>false</default>
+        <label>SEÑALIZACION</label>
+    </customValue>
+    <customValue>
+        <fullName>SEÑALIZACION HUMANA</fullName>
+        <default>false</default>
+        <label>SEÑALIZACION HUMANA</label>
+    </customValue>
+    <customValue>
+        <fullName>TELEMARKETING</fullName>
+        <default>false</default>
+        <label>TELEMARKETING</label>
+    </customValue>
+    <customValue>
+        <fullName>TELEVISION</fullName>
+        <default>false</default>
+        <label>TELEVISION</label>
+    </customValue>
+    <customValue>
+        <fullName>TIKTOK</fullName>
+        <default>false</default>
+        <label>TIKTOK</label>
+    </customValue>
+    <customValue>
+        <fullName>TWITTER</fullName>
+        <default>false</default>
+        <label>TWITTER</label>
+    </customValue>
+    <customValue>
+        <fullName>VECINO</fullName>
+        <default>false</default>
+        <label>VECINO</label>
+    </customValue>
+    <customValue>
+        <fullName>VENTA EMPRESARIAL</fullName>
+        <default>false</default>
+        <label>VENTA EMPRESARIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>VOLANTE</fullName>
+        <default>false</default>
+        <label>VOLANTE</label>
+    </customValue>
+    <customValue>
+        <fullName>WAZE</fullName>
+        <default>false</default>
+        <label>WAZE</label>
+    </customValue>
+    <customValue>
+        <fullName>WHATSAPP</fullName>
+        <default>false</default>
+        <label>WHATSAPP</label>
+    </customValue>
+    <customValue>
+        <fullName>Y01</fullName>
+        <default>false</default>
+        <label>Y01</label>
+    </customValue>
+    <customValue>
+        <fullName>YOUTUBE</fullName>
+        <default>false</default>
+        <label>YOUTUBE</label>
+    </customValue>
+    <customValue>
+        <fullName>CARGA INICIAL</fullName>
+        <default>false</default>
+        <label>CARGA INICIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>BLOGGER/TANIA RENDÓN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BLOGGER/TANIA RENDÓN</label>
+    </customValue>
+    <customValue>
+        <fullName>ACTIVACIÓN/EVENTO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACTIVACIÓN/EVENTO</label>
+    </customValue>
+    <customValue>
+        <fullName>AGS VILLA ASUNCIÓN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AGS VILLA ASUNCIÓN</label>
+    </customValue>
+    <customValue>
+        <fullName>ACTIVACIÓN/EVENTO/PERIFERIA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACTIVACIÓN/EVENTO/PERIFERIA</label>
+    </customValue>
+    <masterLabel>Sub canal de venta</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

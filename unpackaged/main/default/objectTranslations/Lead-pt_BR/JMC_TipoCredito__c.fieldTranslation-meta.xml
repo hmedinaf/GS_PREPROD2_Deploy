@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo de Crédito --></label>
+        <name>JMC_TipoCredito__c</name>
+        <picklistValues>
+            <masterLabel>BANJERCITO</masterLabel>
+            <translation><!-- BANJERCITO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BANSEFI</masterLabel>
+            <translation><!-- BANSEFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COFINAVIT</masterLabel>
+            <translation><!-- COFINAVIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONTADO</masterLabel>
+            <translation><!-- CONTADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOVISSSTE</masterLabel>
+            <translation><!-- FOVISSSTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INFONAVIT</masterLabel>
+            <translation><!-- INFONAVIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISSFAM</masterLabel>
+            <translation><!-- ISSFAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISSSTELEON</masterLabel>
+            <translation><!-- ISSSTELEON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PENSIONES</masterLabel>
+            <translation><!-- PENSIONES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHF/BANCO</masterLabel>
+            <translation><!-- SHF/BANCO --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

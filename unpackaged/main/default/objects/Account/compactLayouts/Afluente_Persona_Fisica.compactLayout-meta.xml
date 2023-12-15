@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Afluente_Persona_Fisica</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Asesor__c</fields>
+    <fields>Phone</fields>
+    <fields>RFC_Completo__c</fields>
+    <fields>BillingAddress</fields>
+    <fields>MANAGEAPPROVALS__Active__c</fields>
+    <label>Afluente Persona Fisica</label>
+</CompactLayout>

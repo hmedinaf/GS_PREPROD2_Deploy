@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Actaprob</fullName>
+        <description>Act Aprobado</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>Prospectador__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Notiaprospaut</template>
+    </alerts>
+    <alerts>
+        <fullName>Alerta_0_dias_antes</fullName>
+        <description>Alerta 0 dias antes</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Noticvigencia</template>
+    </alerts>
+    <alerts>
+        <fullName>Alerta_1_dias_antes</fullName>
+        <description>Alerta 1 dias antes</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Noticvigencia</template>
+    </alerts>
+    <alerts>
+        <fullName>Alerta_7_dias_antes</fullName>
+        <description>Alerta 7 dias antes</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Noticvigencia</template>
+    </alerts>
+    <alerts>
+        <fullName>Cuenta_Estatus_Baja</fullName>
+        <description>Cuenta Estatus Baja</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Colaborador_Javer__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Asesor__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Gerente_Ventas__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Lead_Profiler__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Prospectador__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Cuentas/Cuenta_Estatus_Baja</template>
+    </alerts>
+    <alerts>
+        <fullName>Cuenta_Estatus_Incubadora</fullName>
+        <description>Cuenta Estatus Incubadora</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Colaborador_Javer__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Asesor__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Gerente_Ventas__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Lead_Profiler__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Prospectador__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Cuentas/Cuenta_Estatus_Incubadora</template>
+    </alerts>
+    <alerts>
+        <fullName>Cuenta_Reactivada</fullName>
+        <description>Cuenta Reactivada</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Colaborador_Javer__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Asesor__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Gerente_Ventas__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Lead_Profiler__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Prospectador__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Cuentas/Cuenta_Reactivada</template>
+    </alerts>
+    <alerts>
+        <fullName>Notifica_Aprobador</fullName>
+        <description>Notifica Aprobador</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Correo_Admin_de_Owner__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Correo_Delegado_de_Owner__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Notiadminprosp</template>
+    </alerts>
+    <alerts>
+        <fullName>Notifica_a_Admin_de_Incubadora</fullName>
+        <description>Notifica a Admin de Incubadora</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Correo_Admin_de_Owner__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Notiestincuba</template>
+    </alerts>
+    <alerts>
+        <fullName>Notificaadminctaprosp</fullName>
+        <description>Notifica a Admin de Cta Prospecto</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Correo_Admin_de_Owner__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Notiadminprosctaexist</template>
+    </alerts>
+    <alerts>
+        <fullName>Notificacion_a_cliente_de_Cita_programada</fullName>
+        <description>Notificación a cliente de Cita programada</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Correlect_cta__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>CorreoElectronico__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Notiestincuba</template>
+    </alerts>
+    <alerts>
+        <fullName>Notificanvodueno</fullName>
+        <description>Notifica a nuevo dueño</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Correoduenact__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Noticambprop</template>
+    </alerts>
+    <alerts>
+        <fullName>Tipocontacto_aprobado</fullName>
+        <description>Tipo Contacto aprobado</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>Asesor__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Notiaprospaut</template>
+    </alerts>
+    <alerts>
+        <fullName>Tipocontacto_rechazado</fullName>
+        <description>Tipo Contacto rechazado</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <field>Prospectador__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>noreply.atc@javer.com.mx</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Notiaprosprech</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Act_Rechazado</fullName>
+        <field>Aprobcontact__c</field>
+        <literalValue>Rechazado</literalValue>
+        <name>Act Rechazado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Act_aprobado</fullName>
+        <field>Aprobcontact__c</field>
+        <literalValue>Aprobado</literalValue>
+        <name>Act aprobado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Act_en_Proceso</fullName>
+        <field>Aprobcontact__c</field>
+        <literalValue>En Proceso</literalValue>
+        <name>Act en Proceso</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Act_fecha_Prospectador</fullName>
+        <field>FechaProspeccion__c</field>
+        <formula>TODAY()</formula>
+        <name>Act Fecha de prospección</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Act_fecha_asesor</fullName>
+        <field>FechaAsignacion__c</field>
+        <formula>TODAY()</formula>
+        <name>Act fecha asesor</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Act_tipo_reg</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Contacto_solo_lectura</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Act tipo reg</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Act_tipo_reg_original</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Contacto</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Act tipo reg original</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_Aprobacion</fullName>
+        <field>Aprobo_Check_Apellido__c</field>
+        <literalValue>1</literalValue>
+        <name>Actualiza Aprobacion</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_a_tipoprosp</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Prospecto</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Actualiza a tipo Prospecto</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Concatena_Nombre</fullName>
+        <field>Name</field>
+        <formula>Nombre_cta__c + &quot; &quot; + Apellidopaterno_cta__c + &quot; &quot; + 
+Apellidomaterno_cta__c</formula>
+        <name>Concatena Nombre</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Desmarca_aprob</fullName>
+        <field>Aprobalguard__c</field>
+        <literalValue>0</literalValue>
+        <name>Desmarca aprob</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Extension_Vencimiento_Asesor</fullName>
+        <field>Extension_Vencimiento_Asesor__c</field>
+        <literalValue>1</literalValue>
+        <name>Extensión Vencimiento Asesor</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Motivovsporasignar</fullName>
+        <field>Estatus__c</field>
+        <literalValue>Por Reasignar</literalValue>
+        <name>Motivovsporasignar</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Nom_en_mayusculas</fullName>
+        <field>Name</field>
+        <formula>UPPER(Name)</formula>
+        <name>Nom en mayusculas</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Nombre_en_mayusculas</fullName>
+        <field>Nombre_cta__c</field>
+        <formula>UPPER(Nombre_cta__c)</formula>
+        <name>Nombre en mayusculas</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rechaza_Aprobacion</fullName>
+        <field>Check_Apellido__c</field>
+        <literalValue>0</literalValue>
+        <name>Rechaza Aprobacion</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>act_aflue_a_prosp</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Prospecto</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>act aflue a prosp</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>act_aincubadora</fullName>
+        <field>Estatus__c</field>
+        <literalValue>Incubadora</literalValue>
+        <name>act a incubadora</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>act_campo_Correo_dueno</fullName>
+        <field>Correoduenact__c</field>
+        <formula>Owner.Email</formula>
+        <name>act campo Correo dueño act</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>act_correo_Delegado_del_Owner</fullName>
+        <field>Correo_Delegado_de_Owner__c</field>
+        <name>act correo Delegado del Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>act_correo_admin_del_Owner</fullName>
+        <field>Correo_Admin_de_Owner__c</field>
+        <formula>Owner.Manager.Email</formula>
+        <name>act correo admin del Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>act_correodueanterior</fullName>
+        <field>Correodueante__c</field>
+        <formula>PRIORVALUE(Correoduenact__c)</formula>
+        <name>act correo dueño anterior</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>act_fecha_precalif</fullName>
+        <field>Fechprec_cta__c</field>
+        <formula>TODAY()</formula>
+        <name>act fecha precalif</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>apell1_en_mayusculas</fullName>
+        <field>Apellidopaterno_cta__c</field>
+        <formula>UPPER(Apellidopaterno_cta__c)</formula>
+        <name>apell1 en mayusculas</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>apell2_en_mayusculas</fullName>
+        <field>Apellidomaterno_cta__c</field>
+        <formula>UPPER(Apellidomaterno_cta__c)</formula>
+        <name>apell2 en mayusculas</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>asignado_por_asesor</fullName>
+        <field>Estatus__c</field>
+        <literalValue>Asignado</literalValue>
+        <name>asignado por asesor</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Act Correo Dueño actual</fullName>
+        <actions>
+            <name>act_campo_Correo_dueno</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>act_correo_Delegado_del_Owner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>act_correo_admin_del_Owner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>RecordType.Name &lt;&gt; &#39;Clientes ATC&#39; &amp;&amp;
+
+OR( 
+ISNEW(), 
+ISCHANGED (OwnerId))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Afluente a Prospecto</fullName>
+        <actions>
+            <name>act_aflue_a_prosp</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>RecordType.Name = &quot;Afluente&quot; &amp;&amp; 
+FechaAsignacion__c &lt; TODAY() &amp;&amp;
+OR(
+ISNEW(),
+ISCHANGED(Name),
+ISCHANGED(Nombre_cta__c),
+ISCHANGED(Apellidopaterno_cta__c),
+ISCHANGED(Apellidomaterno_cta__c),
+ISCHANGED(NSS__c), 
+ISCHANGED(Phone), 
+ISCHANGED(TelefonoCelular__c),
+ISCHANGED(Sexo__c),
+ISCHANGED(TipoCredito__c),
+ISCHANGED(SubCanalVenta__c),
+ISCHANGED(Fraccionamiento_cta__c)  
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Asignación Fecha Asesor</fullName>
+        <actions>
+            <name>Act_fecha_asesor</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Account.Asesor__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Clientes ATC</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Asignación Fecha Prospección</fullName>
+        <actions>
+            <name>Act_fecha_Prospectador</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.Prospectador__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Clientes ATC</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Captura de Asesor vs estatus</fullName>
+        <actions>
+            <name>asignado_por_asesor</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>$Profile.Id = &quot;00e1N000001a4KJ&quot;
+&amp;&amp;  RecordType.Name &lt;&gt; &#39;Clientes ATC&#39;</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Concatena Nombre</fullName>
+        <actions>
+            <name>Concatena_Nombre</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>OR( 
+ISNEW(), 
+ISCHANGED(Name), 
+ISCHANGED(Nombre_cta__c), 
+ISCHANGED(Apellidopaterno_cta__c), 
+ISCHANGED(Apellidomaterno_cta__c) 
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Contacto Actualiza a Incubadora</fullName>
+        <actions>
+            <name>Notifica_a_Admin_de_Incubadora</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>act_aincubadora</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <criteriaItems>
+            <field>Account.Motivo_Incubacion__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Fechest_cta__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Cliente</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Correo Nueva cta al Admin Prosp</fullName>
+        <actions>
+            <name>Notificaadminctaprosp</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Prospecto</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Estatus_Integracion__c</field>
+            <operation>equals</operation>
+            <value>Completada</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cuenta Estatus Baja</fullName>
+        <actions>
+            <name>Cuenta_Estatus_Baja</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Account.Estatus_Cliente__c</field>
+            <operation>equals</operation>
+            <value>BAJA</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cuenta Estatus Incubadora</fullName>
+        <actions>
+            <name>Cuenta_Estatus_Incubadora</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Account.Estatus_Cliente__c</field>
+            <operation>equals</operation>
+            <value>INCUBADORA</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Cuenta Reactivada</fullName>
+        <actions>
+            <name>Cuenta_Reactivada</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Account.Motivo_Reactivacion__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Fecha precalificacion vs capcidad</fullName>
+        <actions>
+            <name>act_fecha_precalif</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.Capcom_cta__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Clientes ATC</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Maysculas en Nombre</fullName>
+        <actions>
+            <name>Nom_en_mayusculas</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Nombre_en_mayusculas</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>apell1_en_mayusculas</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>apell2_en_mayusculas</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>OR(
+ISNEW(),
+ISCHANGED(Name),
+ISCHANGED(Nombre_cta__c),
+ISCHANGED(Apellidopaterno_cta__c),
+ISCHANGED(Apellidomaterno_cta__c)
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Motivo de reactivacion vs Porasignar</fullName>
+        <actions>
+            <name>Motivovsporasignar</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.Motivo_Reactivacion__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Clientes ATC</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notifica a dueño anterior</fullName>
+        <actions>
+            <name>Notificanvodueno</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>act_correodueanterior</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>ISCHANGED (OwnerId)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notifica cuenta aprobada</fullName>
+        <actions>
+            <name>Tipocontacto_aprobado</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Account.Estatus_Integracion__c</field>
+            <operation>equals</operation>
+            <value>Completada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Clientes ATC</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Valida fecha reactivacion</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.Fechest_cta__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Clientes ATC</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Alerta_7_dias_antes</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Account.Fechest_cta__c</offsetFromField>
+            <timeLength>-7</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Alerta_1_dias_antes</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Account.Fechest_cta__c</offsetFromField>
+            <timeLength>-1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Alerta_0_dias_antes</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Account.Fechest_cta__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

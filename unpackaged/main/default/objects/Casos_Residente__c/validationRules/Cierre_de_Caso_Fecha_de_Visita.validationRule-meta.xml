@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cierre_de_Caso_Fecha_de_Visita</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(ISCHANGED(Status__c) &amp;&amp; TEXT(Status__c) == &#39;Cerrado&#39; &amp;&amp;
+(ISBLANK(Fecha_Programada_de_Visita__c) || Fecha_Programada_de_Visita__c &gt; TODAY()), true, false)</errorConditionFormula>
+    <errorDisplayField>Fecha_Programada_de_Visita__c</errorDisplayField>
+    <errorMessage>No se puede cerrar el caso sin haber realizado la visita</errorMessage>
+</ValidationRule>

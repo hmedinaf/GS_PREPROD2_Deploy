@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>WhatsApp Javer</name>
+    <queueMembers>
+        <users>
+            <user>admin@javer.com</user>
+            <user>yazmin@capptus.dev</user>
+            <user>sf_javer@freewayconsulting.net</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>WhatsApp</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

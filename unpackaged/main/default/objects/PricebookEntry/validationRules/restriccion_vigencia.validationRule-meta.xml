@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>restriccion_vigencia</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(Fecha_Vigencia_Fraccinamiento__c &lt; TODAY(), true, false)</errorConditionFormula>
+    <errorMessage>Validar que la fecha del fraccionamiento relacionado sea vigente</errorMessage>
+</ValidationRule>

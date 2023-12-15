@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Confirmación de Recepción del Expediente --></label>
+        <name>Confirmacion_de_Recepcion_del_Expediente__c</name>
+    </CustomFieldTranslation>

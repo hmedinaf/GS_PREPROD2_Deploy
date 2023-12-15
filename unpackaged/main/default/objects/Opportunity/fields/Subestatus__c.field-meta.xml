@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subestatus__c</fullName>
+    <description>Es el estatus en que se encuentre el proceso de venta referente a su plan de ventas, está por aprobar, aprobado etc, o si dicho proceso ya está en firmas, firmado etc.</description>
+    <externalId>false</externalId>
+    <label>Subestatus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>En Progreso</fullName>
+                <default>false</default>
+                <label>En Progreso</label>
+            </value>
+            <value>
+                <fullName>Por Aprobar</fullName>
+                <default>false</default>
+                <label>Por Aprobar</label>
+            </value>
+            <value>
+                <fullName>Aprobado</fullName>
+                <default>false</default>
+                <label>Aprobado</label>
+            </value>
+            <value>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+                <label>Rechazado</label>
+            </value>
+            <value>
+                <fullName>En Firmas</fullName>
+                <default>false</default>
+                <label>En Firmas</label>
+            </value>
+            <value>
+                <fullName>Por Entregar</fullName>
+                <default>false</default>
+                <label>Por Entregar</label>
+            </value>
+            <value>
+                <fullName>Entregado</fullName>
+                <default>false</default>
+                <label>Entregado</label>
+            </value>
+            <value>
+                <fullName>Cancelado</fullName>
+                <default>false</default>
+                <label>Cancelado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

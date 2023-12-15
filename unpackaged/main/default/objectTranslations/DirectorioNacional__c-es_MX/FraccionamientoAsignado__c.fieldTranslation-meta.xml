@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fraccionamiento Asignado --></label>
+        <name>FraccionamientoAsignado__c</name>
+        <relationshipLabel><!-- Directorios Nacional --></relationshipLabel>
+    </CustomFieldTranslation>

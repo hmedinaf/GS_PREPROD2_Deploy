@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipificación nivel 1 --></label>
+        <name>Tipificacion_nivel_1__c</name>
+        <picklistValues>
+            <masterLabel>Cobranza</masterLabel>
+            <translation><!-- Cobranza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contactar a un Departamento</masterLabel>
+            <translation><!-- Contactar a un Departamento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entrega</masterLabel>
+            <translation><!-- Entrega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garantía</masterLabel>
+            <translation><!-- Garantía --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicio</masterLabel>
+            <translation><!-- Servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ventas</masterLabel>
+            <translation><!-- Ventas --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escritura_a_Favor_de_un_Tercero_Req</fullName>
+    <active>true</active>
+    <errorConditionFormula>!ISNEW() &amp;&amp;
+!SkipValidation__c &amp;&amp;
+TEXT(Firma_Directa_Cliente__c)=&#39;NO&#39; &amp;&amp;
+ISBLANK(TEXT(Escritura_a_favor_de_un_Tercero__c)) &amp;&amp;
+ISPICKVAL(Estatus_Dictaminacion__c, &quot;Validado&quot;)</errorConditionFormula>
+    <errorDisplayField>Escritura_a_favor_de_un_Tercero__c</errorDisplayField>
+    <errorMessage>&quot;Escritura a Favor de un Tercero&quot; requerido.</errorMessage>
+</ValidationRule>

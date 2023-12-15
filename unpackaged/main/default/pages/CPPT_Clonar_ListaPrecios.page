@@ -1,0 +1,34 @@
+<apex:page standardController="Pricebook2" extensions="CPPT_clonar_ListaPrecios" lightningStylesheets="true">
+    <apex:form >
+        <apex:inputHidden value="{!Pricebook2.Id}" id="idLista"/>
+        <apex:commandButton styleClass="buttonStyle" onclick="calculate('{!$Component.idLista}')" value="Clonar Lista" id="theButton" oncomplete="alerta()"/>
+        <apex:actionfunction action="{!crearListaNueva}" name="calAF" rerender="pgblck">
+            <apex:param assignto="{!idLista}" name="param1" value="" />
+        </apex:actionfunction>
+        <apex:pageMessages ></apex:pageMessages>
+    </apex:form>
+    <script>
+    function calculate(frst){
+        var Fname = document.getElementById(frst).value;
+        calAF(Fname);
+    }
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('input.btn').removeClass('btn');
+    });
+    </script>
+    <script>
+    function alerta()
+    {
+        alert('Se ha duplicado la lista de precios');    
+    }
+    </script>
+    <style>
+        .contentStyle { font-size:12px; }
+        .buttonStyle { width:20%; background-color:green; text-align:center; padding-top:4px; }
+        .activeTab {background-color: #B7A752; color:white; background-image:none}
+        .inactiveTab { background-color: #F3F3EC; color:black; background-image:none}
+        .NoRecord { font-size:11px;}
+    </style>
+</apex:page>

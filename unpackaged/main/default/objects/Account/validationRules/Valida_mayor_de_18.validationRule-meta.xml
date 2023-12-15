@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_mayor_de_18</fullName>
+    <active>true</active>
+    <errorConditionFormula>!IsVRBypassed__c &amp;&amp;
+$User.is_Data_Migration_User__c = False &amp;&amp;
+$User.ProfileId != &quot;00eo0000000vwpl&quot; &amp;&amp;
+Dias_fecha_nacimiento__c &lt; 18</errorConditionFormula>
+    <errorDisplayField>FechaNacimiento__c</errorDisplayField>
+    <errorMessage>Valide la Fecha, debe tener al menos 18 Años</errorMessage>
+</ValidationRule>

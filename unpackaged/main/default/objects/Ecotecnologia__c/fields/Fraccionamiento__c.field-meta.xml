@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fraccionamiento__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Fraccionamiento</label>
+    <referenceTo>Fraccionamiento__c</referenceTo>
+    <relationshipLabel>Histórico Actas de Ecotecnología</relationshipLabel>
+    <relationshipName>Hist_rico_Actas_de_Ecotecnolog_a</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

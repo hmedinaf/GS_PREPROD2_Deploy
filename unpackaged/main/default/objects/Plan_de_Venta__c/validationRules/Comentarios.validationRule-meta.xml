@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comentarios</fullName>
+    <active>true</active>
+    <description>Validación del campo comentarios  para que no pueda ser modificado dependiendo del estatus del proceso de venta o plan de venta</description>
+    <errorConditionFormula>ISCHANGED(Comentarios__c) &amp;&amp;
+(Estatus_Proceso_de_Venta__c != &#39;Validación&#39; &amp;&amp;
+Estatus_Proceso_de_Venta__c != &#39;Reservado&#39; &amp;&amp;
+Estatus_Proceso_de_Venta__c != &#39;Formalizado&#39;)</errorConditionFormula>
+    <errorMessage>No se puede modificar Comentarios si el estatus del Proceso de venta es igual a Reservado, Exigible, Entregado, Escriturado, Cancelado ó el estatus de Plan de Venta es igual a Por Aprobar, Aprobado</errorMessage>
+</ValidationRule>

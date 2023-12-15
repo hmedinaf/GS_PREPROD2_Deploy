@@ -1,0 +1,26 @@
+<apex:page standardController="Inventario__c" extensions="SemaforoInventario" lightningStylesheets="true">
+    <apex:includeScript value="{!URLFOR($Resource.JQuery)}"/>
+    <apex:pageMessages ></apex:pageMessages>
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Entrega Vivienda">
+            <apex:pageBlockTable style="width: 100%; font-family:Verdana; font-size: 15px;" value="{!inventario}" var="d">
+                <apex:column style="" value="{!d.DiasAntiguedad__c}" headerValue="Antigüedad"></apex:column>
+                <apex:column style="background-color: {!d.Cumplimiento__c} ; color: black;" value="{!d.Cumplimiento__c}" headerValue="Sem"></apex:column>
+                <apex:column style="color: black;" value="{!d.ConteoCitasEntrega__c}" headerValue="Citas"></apex:column>
+                <apex:column style="color: black;" value="{!d.ConteoVisitasCasos__c}" headerValue="Visitas"></apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Garantías Vigentes">
+            <apex:pageBlockTable style="width: 100%; font-family:Verdana; font-size: 15px;" value="{!listaDatos}" var="d">
+                
+                <apex:column style="" headerValue="Garantía">{!d.Name}</apex:column>
+                <apex:column style="background-color: {!d.UEN__c} ; color: black;" headerValue="Semáforo">{!d.Plaza__c}</apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    <script>
+    $(document).ready(function(){
+        
+    });
+    </script>
+</apex:page>

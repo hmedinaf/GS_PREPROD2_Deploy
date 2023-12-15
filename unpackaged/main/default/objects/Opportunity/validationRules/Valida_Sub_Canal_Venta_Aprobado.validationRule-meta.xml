@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Sub_Canal_Venta_Aprobado</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ ISCHANGED(Sub_Canal_de_Venta__c),
+ Canal_y_subcanal_de_venta_aprobado__c = false
+)</errorConditionFormula>
+    <errorDisplayField>Sub_Canal_de_Venta__c</errorDisplayField>
+    <errorMessage>No se puede editar el Sub Canal de Venta pues aún no ha sido aprobado</errorMessage>
+</ValidationRule>

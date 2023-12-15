@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Campo Master de Obj. en Proceso</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Campos Master de Objeto en Proceso</value>
+    </caseValues>
+    
+    
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

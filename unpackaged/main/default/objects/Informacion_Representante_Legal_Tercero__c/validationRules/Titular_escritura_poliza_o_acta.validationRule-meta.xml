@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Titular_escritura_poliza_o_acta</fullName>
+    <active>true</active>
+    <description>Si ¿Es usted el titular de recursos? = NO, será obligatorio llenar el campo.</description>
+    <errorConditionFormula>AND
+(
+Es_usted_el_titular_de_recursos__c == &quot;NO&quot;,
+OR(
+ISNULL(Escritura_poliza_o_acta__c),
+ISBLANK(Escritura_poliza_o_acta__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Escritura_poliza_o_acta__c</errorDisplayField>
+    <errorMessage>Escritura Póliza o Acta requerido</errorMessage>
+</ValidationRule>

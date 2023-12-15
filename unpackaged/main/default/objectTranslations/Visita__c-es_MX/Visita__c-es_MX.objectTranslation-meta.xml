@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cita/Visita</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Citas/Visitas</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Cita</layout>
+        <sections>
+            <label><!-- Detalles de calidad --></label>
+            <section>Detalles de calidad</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Visita</layout>
+        <sections>
+            <label><!-- Comentarios --></label>
+            <section>Comentarios</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Visita</layout>
+        <sections>
+            <label><!-- Comentarios --></label>
+            <section>Comentarios</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Cita --></label>
+        <name>Cita</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Visita --></label>
+        <name>Visita</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- No se permite la creación de una cita para un proceso con estatus de entregado --></errorMessage>
+        <name>Estatus_Citas</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Falta incluir el motivo de no entrega --></errorMessage>
+        <name>Motivo_de_No_Entrega</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede editar la fecha ni la hora, favor de generar una nueva programación --></errorMessage>
+        <name>No_Modificar_Fecha</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se permite reabrir visitas --></errorMessage>
+        <name>No_Reabrir_Visitas</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No es posible modificar el Inventario asignado contacte a su administrador --></errorMessage>
+        <name>No_modificar_Inventario</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No es posible modificar al cliente asignado contacte a su administrador --></errorMessage>
+        <name>No_modificar_cuenta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No es posible modificar la entrega asignada contacte a su administrador --></errorMessage>
+        <name>No_modificar_entrega</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se debe llenar el campo de Revisión de Vivienda en el inventario --></errorMessage>
+        <name>Revision_de_Vivienda</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No es posible crear Vistas para días anteriores --></errorMessage>
+        <name>Tiempo_de_Visita</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Nueva_Visita --></label>
+        <name>Nueva_Visita</name>
+    </webLinks>
+</CustomObjectTranslation>

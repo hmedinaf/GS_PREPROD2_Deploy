@@ -1,0 +1,110 @@
+<apex:page standardController="Visita__c" extensions="VisitaCitaController">
+    <apex:stylesheet value="{!URLFOR($Resource.CalendarJS,'fullcalendar-3.9.0/fullcalendar.css')}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.ScheduleJS,'fullcalendar-scheduler-1.9.4/scheduler.css')}"/>
+    
+    <apex:includeScript value="{!URLFOR($Resource.CalendarJS, 'fullcalendar-3.9.0/lib/moment.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.JQuery)}"/>
+    <apex:includeScript value="{!URLFOR($Resource.CalendarJS, 'fullcalendar-3.9.0/fullcalendar.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.ScheduleJS,'fullcalendar-scheduler-1.9.4/scheduler.js')}"/>
+    
+    <apex:sectionHeader title="Crear Visita/Cita"/>
+    
+    <apex:form >
+        <apex:pageBlock title="Visita">
+            <apex:pageMessages ></apex:pageMessages>
+            <apex:pageBlockButtons rendered="{!showButtons}"> 
+                <apex:commandButton action="{!guardar}" value="Guardar" />  
+                <apex:commandButton action="{!cancel}" value="Cancelar"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection title="Datos de visita" collapsible="false" columns="2" rendered="{!showButtons}">     
+                <apex:inputField rendered="false" value="{!visita.Asunto__c}"/>
+                <apex:outputField rendered="{!IF(visita.Caso__c != null,true, false)}" value="{!visita.Caso__c}"/>
+                <apex:outputField rendered="{!IF(visita.Entrega__c != null,true, false)}" value="{!visita.Entrega__c}"/>
+                <apex:inputField value="{!visita.Fechaprogramadadevisita__c}"/>
+                <apex:inputField value="{!visita.Horaprogramadadevisita__c}" styleClass="fechaI"/>
+                <apex:inputField value="{!visita.Estatus__c}"/>
+                <apex:inputField rendered="{!IF(visita.RecordTypeId == rtC.Id,false, false)}" value="{!visita.MotivoNoEntrega__c}"/>
+                <apex:inputField rendered="false" value="{!visita.Fechafindevisita__c}"/>
+                
+                <apex:inputField value="{!visita.Horafindevisita__c}" styleClass="fechaF"/>
+                
+                <apex:selectList label="Asignado" value="{!userElegido}" multiselect="false" size="1">
+                    <apex:selectOptions value="{!residentesSO}"/>
+                </apex:selectList>
+                <apex:inputField value="{!visita.Comentarios__c}"/>
+                <apex:outputField value="{!visita.FechaEntrega__c}"/>
+                <apex:selectcheckboxes label="Casos Relacionados" layout="pageDirection" value="{!casosElegidos}">                 
+                    <apex:selectoptions value="{!casosATC}" />        
+                </apex:selectcheckboxes>
+            </apex:pageBlockSection>
+            
+            <apex:repeat var="user" value="{!visitasUser}">
+                <apex:pageBlockSection collapsible="true" title="{!user.Name}" columns="1">
+                    <div style="" id="calendar{!user.Id}" class="calendarPadre"></div>
+                </apex:pageBlockSection>
+                <apex:repeat var="visita" value="{!visitasUser[user]}">
+                    <w class="calendar{!user.Id} hidden cc" color="{!visita.RecordType.Name}"  ff="{!IF(visita.Id != null, visita.Id, visita.Evento__c)}" title="{!visita.Inventario__r.MLI__c}" start="{!visita.FechaCalendar__c}" end="{!visita.FechaCalendarFin__c}"></w>
+                </apex:repeat>
+                
+            </apex:repeat>
+        </apex:pageBlock>
+    </apex:form>
+    <script>
+    $(document).ready(function(){
+        var calendarios = [];
+        $(".calendarPadre").each(function(){
+            var array = [];
+            $("w."+$(this).attr("id")).each(function(){
+                var json = {};
+                json.title = $(this).attr("title");
+                json.start = $(this).attr("start");
+                json.end = $(this).attr("end");
+                json.url = '/' + $(this).attr("ff");
+                if($(this).attr("color") == "Cita"){
+                    json.color = '#009900';
+                }else if($(this).attr("color") == "Visita"){
+                    json.color = '#0099FF';
+                }else{
+                    json.color = '#F97407';
+                }
+                array.push(json);
+            });
+            console.log(array);
+            $(this).fullCalendar({
+                defaultView: 'month',
+                schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
+                events: array
+            });
+        });
+        $('a.fc-day-grid-event').each(function(){
+            $(this).attr('target','_blank');
+        });
+        
+        $(".fechaI").keyup(function(){
+            var hora = 0;
+            hora = parseInt($(this).val().split(":")[0]);
+            if($(this).val().split(":")[1] != undefined){
+                $(".fechaF").val(""+(hora + 1)+":"+$(this).val().split(":")[1]);
+            }else{
+                $(".fechaF").val(""+(hora + 1)+":");
+                }
+        });
+    });
+    
+    function hashCode(str) {
+        var hash = 0;
+        for (var i = 0; i < str.length; i++) {
+            hash = str.charCodeAt(i) + ((hash << 5) - hash);
+        }
+        return hash;
+    } 
+    
+    function intToRGB(i){
+        var c = (i & 0x00FFFFFF)
+        .toString(16)
+        .toUpperCase();
+        
+        return "00000".substring(0, 6 - c.length) + c;
+    }
+    </script>
+</apex:page>

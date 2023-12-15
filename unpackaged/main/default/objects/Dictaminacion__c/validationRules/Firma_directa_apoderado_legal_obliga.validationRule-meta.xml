@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Firma_directa_apoderado_legal_obliga</fullName>
+    <active>true</active>
+    <description>Dato obligatorio si se contesta NO en Firma Directa Cliente.</description>
+    <errorConditionFormula>!ISNEW() &amp;&amp; !SkipValidation__c &amp;&amp;
+TEXT(Firma_Directa_Cliente__c) == &quot;NO&quot; &amp;&amp; 
+(
+				ISBLANK(TEXT(Firma_Directa_Apoderado_Legal__c)) ||
+				ISNULL(TEXT(Firma_Directa_Apoderado_Legal__c))
+)&amp;&amp;
+!ISCHANGED(C_dula_de_Identifiaci_n_Fiscal__c) &amp;&amp;
+!ISCHANGED(No_De_Fideicomiso__c) &amp;&amp;
+
+!ISCHANGED(Hijos__c) &amp;&amp;
+!ISCHANGED(Dependientes_economicos__c) &amp;&amp;
+!ISCHANGED(Ingresos_mensuales__c)</errorConditionFormula>
+    <errorDisplayField>Firma_Directa_Apoderado_Legal__c</errorDisplayField>
+    <errorMessage>Se seleccionó NO en el campo firma directa cliente por lo que debe llenarse el campo firma directa apoderado legal.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>IVR - Reminder</name>
+    <style>none</style>
+    <subject>Tarea por Vencer - Folio {!Task.Folio__c}</subject>
+    <textOnly>La tarea asignada a usted con folio {!Task.Folio__c} del fraccionamiento {!Task.Fraccionamiento__c} está próxima a vencer, favor de dar seguimiento a la misma.
+
+
+
+Cliente: {!Task.Client_Name__c}
+
+
+MLI: {!Task.MLI__c}
+
+
+Tipificación nivel 1: {!Task.Tipificacion_nivel_1__c}
+
+
+Tipificación nivel 2: {!Task.Tipificacion_nivel_2__c}
+
+
+VER TAREA</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

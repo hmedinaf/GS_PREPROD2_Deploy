@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_modificacion_pais_nacionalidad</fullName>
+    <active>true</active>
+    <description>Editable, únicamente en los estatus Validado, Reserva, Formalización.</description>
+    <errorConditionFormula>AND(
+
+ISCHANGED(Pais_de_Nacionalidad__c	),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Validación&#39;),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Reservado&#39;),
+NOT(Estatus_Proceso_de_Venta_Oportunidad__c == &#39;Formalizado&#39;)
+
+)</errorConditionFormula>
+    <errorDisplayField>Pais_de_Nacionalidad__c</errorDisplayField>
+    <errorMessage>Editable, únicamente en los estatus Validado, Reserva, Formalización.</errorMessage>
+</ValidationRule>

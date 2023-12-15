@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Estado__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Estado</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Completo por Integracion Infonavit</fullName>
+                <default>false</default>
+                <label>Completo por Integracion Infonavit</label>
+            </value>
+            <value>
+                <fullName>Desperfilado</fullName>
+                <default>false</default>
+                <label>Desperfilado</label>
+            </value>
+            <value>
+                <fullName>Emision</fullName>
+                <default>false</default>
+                <label>Emision</label>
+            </value>
+            <value>
+                <fullName>Escriturado</fullName>
+                <default>false</default>
+                <label>Escriturado</label>
+            </value>
+            <value>
+                <fullName>Instrucción Financiera</fullName>
+                <default>false</default>
+                <label>Instrucción Financiera</label>
+            </value>
+            <value>
+                <fullName>Notaria</fullName>
+                <default>false</default>
+                <label>Notaria</label>
+            </value>
+            <value>
+                <fullName>Oficina</fullName>
+                <default>false</default>
+                <label>Oficina</label>
+            </value>
+            <value>
+                <fullName>Puntos a Futuro</fullName>
+                <default>false</default>
+                <label>Puntos a Futuro</label>
+            </value>
+            <value>
+                <fullName>Subsidio</fullName>
+                <default>false</default>
+                <label>Subsidio</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,2621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proceso_de_Venta</fullName>
+    <active>true</active>
+    <businessProcess>Proceso de Ventas</businessProcess>
+    <compactLayoutAssignment>Encabezado_Proceso_de_Venta</compactLayoutAssignment>
+    <label>Proceso de Venta</label>
+    <picklistValues>
+        <picklist>Canal_de_venta__c</picklist>
+        <values>
+            <fullName>CARGA INICIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIGITAL ASESOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EVENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LLAMADA CALL CENTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MACROVENTA 2015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEDIO PUBLICITARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEDIOS DIGITALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROGRAMAS INSTITUCIONALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROMOTOR EXTERNO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROSPECCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROSPECTO ASESOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REFERIDOS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cr_dito_En__c</picklist>
+        <values>
+            <fullName>Pesos</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>VSM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estado_de_aprobacion__c</picklist>
+        <values>
+            <fullName>Aprobado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Proceso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recuperado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Etapa_de_Venta__c</picklist>
+        <values>
+            <fullName>Entregado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escrituración</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exigible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formalización</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reserva</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Financiera__c</picklist>
+        <values>
+            <fullName>ABC CAPITAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALRA DEL SUR ASESRORIA HIP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUTOFINCASA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANAMEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCA AFIRME SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCO AZTECA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCO BX%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCO DEL BAJIO SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCO INMOBILIARIO MEXICANO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCO SANTANDER SERFIN SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANJERCITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANORTE SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANREGIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANSEFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BBVA BANCOMER SA DE CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRADA HIPOTECARIA SA DE CV SOF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAJA BUENOS AIRES SC AP RLCV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAJA FLORENCIO ROSAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAJA POPULAR CRISTOBAL COLON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAJA POPULAR MEXICANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAJA POPULAR SAN RAFAEL S%2EC%2E D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAJA SAN NICOLAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARGA INICIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITY HOME DEL CENTRO SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSUMER %26 BUSINESS LOAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTINGENCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CREDITO PARA TI SA DE CV SOFOM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DAE HIPOTECARIA SA DE CV SOFOM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIRECCION PENSIONES ESTADO JAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOVISSSTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIPOTECARIA CASA MEXICANA SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIPOTECARIA CREA MAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIPOTECARIA CREDITO INMOBILIAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIPOTECARIA CREDITO Y CASA SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIPOTECARIA LI FINANCIERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIPOTECARIA NACIONAL SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIPOTECARIA VERTICE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIR CASA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIRCASA BIENES PROGRAMADOS SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSBC MEXICO SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFONAVIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ING HIPOTECARIA SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISSFAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISSSTELEON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>METROFINANCIERA SA DE CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI BANCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO APLICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PATRIMONIO SA DE CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEMEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCOTIABANK INVERLAT SA DE CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOC%2E FINANCIERA EQUIPATE SA CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOL%2E EMPRENDEDORAS DEL NORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TENMAS SA DE CV SOFOM ENR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Inconsistencia__c</picklist>
+        <values>
+            <fullName>Datos Laborales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problema con RFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin Acta de Nacimiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin Inconsistencia</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Afluencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colaborador JAVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contacto Telefónico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mercadotecnia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospección</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Prospecto Asesor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Nombre_Fraccionamiento__c</picklist>
+        <values>
+            <fullName>ACACIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACACIAS II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALBERI RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALBORETO RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALVENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMAIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARBOLADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARCOS 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARCOS DEL SOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARCOS DEL SOL SECTOR ELITE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARRAYANES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARRAYANES HABITAT II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BARRIO ALAMEDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BARRIO ESTRELLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BARRIO PARQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BELCANTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BELCANTO II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BELLA VISTA 2º SECTOR FOMERREY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BELLA VISTA 3ER SECTOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BELLATERRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BELLAVISTA 4TO%2E SECTOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BELLO AMANECER RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BORRAR D09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUE BOREAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUE DE LOS NOGALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUE REAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUES DE CASTILLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUES DE LERMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUES DE SAN JUAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUES DE SAN JUAN 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUES DE SAN JUAN 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUES DE SAN JUAN IV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUES DE SAN JUAN V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUES DEL NEVADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUES DEL NEVADO II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUES LA HUASTECA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUES RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BULGARIA 533 WELT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAMPANARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CANDILES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARANDAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARANDAY II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIMA SERENA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIMA SERENA II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIMA SERENA III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSORCIO INMOBILIARIO NUEVA CASTILLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CUMBRE ALTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CUMBRES ALLEGRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CUMBRES ALLEGRO DPTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CUMBRES ANDARA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CUMBRES BRITANIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CUMBRES PLATINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDUARDO LOARCA CASTILLO IV ETAPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EL MANANTIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTRELLA ELITE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRACCIONAMIENTO 1 PRUEBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRACCIONAMIENTO 2 PRUEBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUENTES DE BALVANERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENERICO IS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GENERICO RD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HACIENDA DEL BOSQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HACIENDA EL PALMAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HACIENDA MOMPANI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HACIENDA MONTEBELLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIMALAYA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JARDINES DE ALEJANDRIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JARDINES DE BUGAMBILIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JARDINES DE CASTALIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JARDINES DE GIRASOLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JARDINES DE GIRASOLES II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JARDINES DE LAS FUENTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JARDINES DE MAGNOLIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JARDINES DE MAGNOLIAS II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JARDINES DE MAGNOLIAS III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JOLLAS DE ANAHUAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JOLLAS DE ANAHUAC ELITE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA CONDESA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAS AGUILAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAS ARMAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAS ESTACIONES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAS HADAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAS LUCES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAS PLAZAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAS QUINTAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LINCON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOMA REAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOMBARDIA RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOS ABEDULES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOS ALAMOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOS CANTAROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOS CANTAROS MTY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOS CARACOLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOS COMETAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOS ENCINOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOS GACHUPINES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOS MOLINOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOS OLMOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAGNOLIAS III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAGNOLIAS IV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARQUÉS DEL RÍO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MASSARO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MASSARO RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MILA RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MILENIUM RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MIRACIELO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MIRAFLORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MIRASOL RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MISION DE LOS ANGELES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MISION DE LOS ANGELES 1ER SECTOR ARCANGELES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONTE BEISTEGUI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONTEIRO %28SAN CARLOS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MURIEL RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NATURA CANCÚN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NATURA PLAYA DEL CARMEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEXXUS CRISTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEXXUS DIAMANTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEXXUS DORADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEXXUS ESMERALDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEXXUS PLATINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEXXUS RUBI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEXXUS ZAFIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO USAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO USAR 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO USAR 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAQ 5 Y 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAQ%2E 5 Y 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASEO COTO TONALA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASEO DE GUADALUPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASEO DE LOS NOGALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASEO KUSAMIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASEO NIKTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASEO SAN JUNIPERO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASEOS DE LAS PALMAS 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASEOS DEL COUNTRY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASEOS DEL SUR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEDREGAL DEL RIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PINCELES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PIRAMIDES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORTAREAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORTO CUMBRES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORTO SECTOR FLORENCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORTOALTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIV CANADA SEC VANCOUVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIV%2E DE SANTA CATARINA SEC%2E ELITE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIV%2E STA CATARINA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADA ALTUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADA ALTUS II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADA BELTERRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADA CEREZO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADA LOS PRADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADA MONTEJO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADA RIVIERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADA SANTA ANITA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADA VIA SIETE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS BORNEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS CARANDAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS CUMBRES DIAMANTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DE ANAHUAC INGLÉS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DE ANAHUAC SEC%2E ESPAÑOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DE ANAHUAC SEC%2E FRANCES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DE ANAHUAC SEC%2E MEDITERRANEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DE ANAHUAC SECTOR IRLANDES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DE CASA BLANCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DE LA MONTAÑA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DE LA REYNA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DE LINCOLN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DE SAN MIGUEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DE SANTA FE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DEL ANGEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DEL CANADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DEL CONTRY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DEL PONIENTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS DIAMANTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS MASÁI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS OCANIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVADAS VIÑEDOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVALIA AMBIENTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROVISIONAL 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROVISIONAL 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROYECTO CIENEGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROYECTO SOPORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRUEBA E14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRUEBA MODIFICAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRUEBAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUNTA CASTILLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUNTA ESTRELLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUNTA MEZQUITE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUINTA VERSALLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REAL DE LA LOMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REAL DE PALMAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REAL DEL SOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REAL DEL SOL 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REAL DEL SOL ADJUDICADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESIDENCIAL APODACA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESIDENCIAL DE LA SIERRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESIDENCIAL ISLAZUL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESIDENCIAL PRIVADA LAS PLAZAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESIDENCIAL VALLE AZUL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESIDENZA III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESIDENZA IV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESIDENZA PRIVADAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RINCONADA DE SAN ANTONIO II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RINCONADA LAGO DE GUADALUPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RINCONADAS DEL SOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RUISEÑORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RUISEÑORES 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SALINAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN MIGUELITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN MIGUELITO 2º SECTOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN PABLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SANDARA RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TESALIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TORRE LUNA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TORRE LUNA 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TORRES DIAMANTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TREBOLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRES MANZANAS BAJA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE CONDESA SECTOR BRITANIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LA SILLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LINCOLN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LINCOLN 4TA ET 2DA Y 3A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LINCOLN ADJUDICADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LINCOLN SEC EL FRAILE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LINCOLN SEC ELITE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LINCOLN SEC SAN AGUSTIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LINCOLN SEC SAN JOSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LINCOLN SEC SANTA LUCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LINCOLN SECTOR EL FRAILE 2DA ETAPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LINCOLN SECTOR EL FRAILE 3RA ETAPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LINCOLN SECTOR MINAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LINCOLN SECTOR SAN JOSE 2DA ETAPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LOS ENCINOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LOS ENCINOS II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LOS ENCINOS PLUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LOS LIRIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE LOS MOLINOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE SAN BLAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE SANTA ELENA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE SANTA MARIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE SANTA MARIA ADJUDICADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE SANTA MARIA PACCSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE SANTA MARIA VATICANO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE SANTIAGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE SANTIAGO III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE SANTIAGO SECTOR II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE TEJEDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE TEJEDA II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE TEJEDA III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE TONANTZIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE TONANTZIN II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DE TONANTZIN III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DEL NORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DEL NORTE ADJUDICADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DEL NORTE SECTOR JARDIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DEL NORTE SECTOR MONTAÑA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DEL ROBLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE DEL SOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALLE SANTA ISABEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLA MONTAÑA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLA MONTAÑA ETAPA IV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLALTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLALTA MTY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLAS DE ANAHUAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLAS DE ANAHUAC ALPES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLAS DE LORETO II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLAS DE NUESTRA SEÑORA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLAS DEL JARAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLAS DEL PUERTECITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLAS DEL RIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLAS LA PIEDAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILLAS NATURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VISTA HERMOSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VISTA MAGNA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VISTA MONTAÑA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VISTA REINA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VITRALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIÑEDOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIÑEDOS 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIÑEDOS DEL SUR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pendiente_Escriturar__c</picklist>
+        <values>
+            <fullName>Decisión del Cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desperfilado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enganche</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hasta próximo Bimestre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otros Créditos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin Pendientes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tramitología</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venta sin DTU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ventas sin DTU Entregable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ventas sin DTU No Entregable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plazo_del_Credito__c</picklist>
+        <values>
+            <fullName>10 años</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 años</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20 años</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25 años</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 años</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 años</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Proceso_Cancelado_por_Resolicitud__c</picklist>
+        <values>
+            <fullName>Cancelado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelado por Resolicitud</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Producto_de_la_Financiera__c</picklist>
+        <values>
+            <fullName>NO APLICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO ABC CAPITAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO ALRA DEL SUR ASESRORIA HIP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO AUTOFINCASA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO BANAMEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO BANCA AFIRME SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO BANCO AZTECA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO BANCO BX%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO BANCO DEL BAJIO SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO BANCO INMOBILIARIO MEXICANO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO BANCO SANTANDER SERFIN SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO BANJERCITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO BANORTE SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO BANREGIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO BANSEFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO BBVA BANCOMER SA DE CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO BRADA HIPOTECARIA SA DE CV SOF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO CAJA BUENOS AIRES SC AP RLCV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO CAJA FLORENCIO ROSAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO CAJA POPULAR CRISTOBAL COLON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO CAJA POPULAR MEXICANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO CAJA POPULAR SAN RAFAEL S%2EC%2E D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO CAJA SAN NICOLAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO CFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO CITY HOME DEL CENTRO SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO CONSUMER %26 BUSINESS LOAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO CONTINGENCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO CREDITO PARA TI SA DE CV SOFOM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO DAE HIPOTECARIA SA DE CV SOFOM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO DIRECCION PENSIONES ESTADO JAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO FOVISSSTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO HIPOTECARIA CASA MEXICANA SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO HIPOTECARIA CREA MAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO HIPOTECARIA CREDITO INMOBILIAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO HIPOTECARIA CREDITO Y CASA SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO HIPOTECARIA LI FINANCIERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO HIPOTECARIA NACIONAL SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO HIPOTECARIA VERTICE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO HIR CASA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO HIRCASA BIENES PROGRAMADOS SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO HSBC MEXICO SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO IMSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO INFONAVIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO ING HIPOTECARIA SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO ISSFAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO ISSSTELEON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO METROFINANCIERA SA DE CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO MI BANCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO PATRIMONIO SA DE CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO PEMEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO SCOTIABANK INVERLAT SA DE CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO SOC%2E FINANCIERA EQUIPATE SA CV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO SOL%2E EMPRENDEDORAS DEL NORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRODUCTO TENMAS SA DE CV SOFOM ENR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Producto_financiero__c</picklist>
+        <values>
+            <fullName>ALIA2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUTOFIN CASA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAJOS INGRESOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAJOS INGRESOS C%2FSUBSIDIO 2%2E6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAJOS INGRESOS C%2FSUBSIDIO 5 VS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANJERCITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANJERCITO C%2FSUBSIDIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANSEFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANSEFI C%2FSUBSIDIO 2%2E6 VSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANSEFI C%2FSUBSIDIO 5 VSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAJA FLORENCIO ROSAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAJA POPULAR MEXICANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAJA POPULAR SAN PABLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAPREPOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARGA INICIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COFI INGRESOS ADICIONALES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COFIFOVISSSTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COFINAVIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COFINAVIT CONYUGAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CON BANSEFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CON SUBSIDIO 2%2E6 VSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CON SUBSIDIO 5 VSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONYUGAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONYUGAL C%2FSUBSIDIO 2%2E6 VSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONYUGAL C%2FSUBSIDIO 5 VSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECONOMICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECONOMICO C%2FSUBSIDIO 2%2E6 VSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECONOMICO C%2FSUBSIDIO 5 VSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FHSSTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FONDO DE GARANTIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOVISSSTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOVISSSTE PARA TODOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFONAVIT-FOVISSSTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISSFAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISSSSPEA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISSSTELEON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEMEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PENSIONA2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PENSIONES DEL ESTADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEGUNDO CREDITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOFOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOFOL C%2FSUBSIDIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUBSIDIO IVSOP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRADICIONAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNAMOS CREDITOS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>R_gimen_Patrimonial_Matrimonio__c</picklist>
+        <values>
+            <fullName>No Aplica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Separación de Bienes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sociedad Conyugal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sociedad Legal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segundo_Credito__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sí</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Canal_de_Venta__c</picklist>
+        <values>
+            <fullName>1-2GUPNA8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACTIVACION%2FEVENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACTIVACION%2FEVENTO%2FPERIFERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGS FERIA CANADEVI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGS MOCTEZUMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGS SAN DIEGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGS VILLA ASUNCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APP INVITADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BLOGGER%2FTANIA RENDON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BUEN FIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALL CENTER%2FTELEMARKETING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAMBACEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARGA INICIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARTELERA MOVIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARTELERA PV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARTERA DE CLIENTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARTERA PROPIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITA ASESOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COLABORADOR JAVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMPAÑERO DE TRABAJO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONVENIO PABELLON M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CORREO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CORREO DIRECTO%2FCARTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDO MEX SAMARA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EN EMPRESA %28VENTA EMPRESARIAL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESPECTACULAR%2FCARTELERA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EVENTO %28MACROVENTA%2C SUPERVTA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXPO%2FFERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FACEBOOK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FACEBOOK INBOX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAMILIAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FB ASESOR ORGANICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FB ASESOR PAGADO POR ASESOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FB ASESOR PAGADO POR JAVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FERIA REVOLUCION CDMX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FERIA ZOCALO DF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLYER%2FVOLANTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GOOGLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMAGEN EN PV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INBOUND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INSTAGRAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTERNET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTERNET%2FPAGINA WEB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INVITACION DEL ASESOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISLA PASEO QUERETARO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JAVERMOVIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LINKEDIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LLAMADA CALLCENTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LONEROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MACROVENTA ONLINE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAILING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARCACION CORTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MICROSITIO ASESOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MICROSITIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MODULO EN PUNTO ESTRATEGICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MODULO PAGADO EN PUNTO ESTRATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MUNDO JAVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTROS CREDITOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P INMOBILIARIOS INMUEBLES 24</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P%2E INMOBLIARIOS-INMUEBLES 24</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAGINA DE INTERNET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAGINA WEB JAVER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASABA POR AQUI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PERIFERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PERIODICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PODCAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORT INMOBILIARIO%2FTRATO DIREC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORT%2E INMOBILIARIO%2FTRATO DIREC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORTAL CASA PERFECTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORTAL INMOBILIARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORTALES INMOBILIARIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POSTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRENSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRENSA %2F REVISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRENSA%2FREVISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROMOTOR EXT DIG%2FA%2EJLUNA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROMOTOR EXT DIG%2FA%2EMAYO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROMOTOR EXT DIG%2FP%2EICJASA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROSPECCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROSPECCION DIGITAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROSPECTO ASESOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUBLICIDAD EN AUTOBUSES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QIR TIANGUIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RADIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RECOMIENDA Y GANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REFERIDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REFERIDO%2FRECOMENDACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEÑALIZACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEÑALIZACION HUMANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TELEMARKETING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TELEVISION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TIKTOK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TWITTER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VECINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VENTA EMPRESARIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VOLANTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WAZE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WHATSAPP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Y01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YOUTUBE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subestatus__c</picklist>
+        <values>
+            <fullName>Aprobado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Firmas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Progreso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entregado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Por Aprobar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Por Entregar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Asesor__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Credito__c</picklist>
+        <values>
+            <fullName>BANJERCITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANSEFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CARGA INICIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COFINAVIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOVISSSTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFONAVIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISSFAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISSSTELEON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PENSIONES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SHF%2FBANCO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Prospectador__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Tramite__c</picklist>
+        <values>
+            <fullName>CONYUGAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOVISSSTE PARA TODOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDIVIDUAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNAMOS CRÉDITOS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

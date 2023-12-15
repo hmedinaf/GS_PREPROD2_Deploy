@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Vigencia_Lead_Profiler</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND($User.is_Data_Migration_User__c = false,
+	PRIORVALUE(Lead_Profiler__c) &lt;&gt; &#39;&#39;,
+ ISCHANGED(Lead_Profiler__c),
+ Fecha_Vencimiento_LP__c &gt;= TODAY(),
+ Desasignacion_Auto_Lead_Profiler__c = false
+)</errorConditionFormula>
+    <errorDisplayField>Lead_Profiler__c</errorDisplayField>
+    <errorMessage>No se puede modificar el Lead Profiler pues aún no termina su periodo de vigencia.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Crear_Direccion_de_Afluencia_en_Dicta</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( TEXT(Tipo__c)= &quot;Dirección Afluencia&quot; &amp;&amp;  
+			 OR( Dictaminacion__c  &lt;&gt; &quot;&quot;,  Contrato__c  &lt;&gt; &quot;&quot;),
+			TRUE, FALSE	)</errorConditionFormula>
+    <errorDisplayField>Tipo__c</errorDisplayField>
+    <errorMessage>La dirección de Afluencia solo se puede utilizar para registros de Alfuentes o Clientes</errorMessage>
+</ValidationRule>

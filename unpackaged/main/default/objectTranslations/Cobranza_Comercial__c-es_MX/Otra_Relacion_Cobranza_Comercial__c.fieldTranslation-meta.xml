@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Otra Relación Cobranza Comercial --></label>
+        <name>Otra_Relacion_Cobranza_Comercial__c</name>
+        <relationshipLabel><!-- Cobranza Comercial --></relationshipLabel>
+    </CustomFieldTranslation>

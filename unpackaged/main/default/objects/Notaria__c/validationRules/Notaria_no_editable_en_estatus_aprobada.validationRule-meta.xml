@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notaria_no_editable_en_estatus_aprobada</fullName>
+    <active>true</active>
+    <description>No puedes modificar el Nombre de la Notaria si está aprobada</description>
+    <errorConditionFormula>AND(ISCHANGED( Name   ),
+ISPICKVAL( Estatus_Solicitud__c , &#39;Aprobada&#39;))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>No puedes modificar el Nombre de la Notaria si está aprobada</errorMessage>
+</ValidationRule>

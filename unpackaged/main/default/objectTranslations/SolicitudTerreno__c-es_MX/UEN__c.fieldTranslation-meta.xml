@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- UEN --></label>
+        <name>UEN__c</name>
+        <picklistValues>
+            <masterLabel>Dirección de Negocios Aguascalientes</masterLabel>
+            <translation><!-- Dirección de Negocios Aguascalientes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección de Negocios Estado de México</masterLabel>
+            <translation><!-- Dirección de Negocios Estado de México --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección de Negocios Jalisco</masterLabel>
+            <translation><!-- Dirección de Negocios Jalisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección de Negocios MTY1</masterLabel>
+            <translation><!-- Dirección de Negocios MTY1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección de Negocios MTY2</masterLabel>
+            <translation><!-- Dirección de Negocios MTY2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección de Negocios Queretaro</masterLabel>
+            <translation><!-- Dirección de Negocios Queretaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección de Negocios Quintana Roo</masterLabel>
+            <translation><!-- Dirección de Negocios Quintana Roo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección de Negocios Reynosa</masterLabel>
+            <translation><!-- Dirección de Negocios Reynosa --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

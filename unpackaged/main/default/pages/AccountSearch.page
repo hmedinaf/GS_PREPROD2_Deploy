@@ -1,0 +1,56 @@
+<apex:page Controller="AccountSearchController" lightningStylesheets="true">
+    <apex:form >
+        <apex:pageBlock title="Busqueda de Cuentas">
+            
+            <apex:inputText value="{!searchkey}" label="Valor de búsqueda" />
+            
+            <apex:selectList value="{!searchField}" size="1">
+                <apex:selectOption itemLabel="--Seleccione el campo de búsqueda--" itemValue=""/>
+                <apex:selectOption itemLabel="Nombre" itemValue="FirstName"/>
+                <apex:selectOption itemLabel="Apellido Paterno" itemValue="Apellidopaterno_cta__c"/>
+                <apex:selectOption itemLabel="Apellido Materno" itemValue="Apellidomaterno_cta__c"/>
+                <apex:selectOption itemLabel="Nombre Persona Moral" itemValue="Name"/>
+                <apex:selectOption itemLabel="Nombre Fraccionamiento" itemValue="Nombre_Fraccionamiento__c"/>
+                <apex:selectOption itemLabel="Fecha de Nacimiento" itemValue="FechaNacimiento_Formula__c"/>
+                <apex:selectOption itemLabel="Estatus Cliente" itemValue="Estatus_Cliente__c"/>
+                <apex:selectOption itemLabel="Tipo" itemValue="Tipo__c"/>
+                <apex:selectOption itemLabel="Fecha Asignación Asesor" itemValue="Fecha_Asignacion_Asesor_Formula__c"/>
+                <apex:selectOption itemLabel="NSS" itemValue="NSS__c"/>
+                <apex:selectOption itemLabel="Nombre del Asesor" itemValue="Nombre_del_Asesor__c"/>
+                <apex:selectOption itemLabel="Lead Profiler" itemValue="Lead_Profiler__c"/>
+                <apex:selectOption itemLabel="CURP" itemValue="CURP__c"/>
+                <apex:selectOption itemLabel="Origen" itemValue="Origen__c"/>
+                <apex:selectOption itemLabel="Canal de Venta" itemValue="Canal_de_Venta__c"/>
+                <apex:selectOption itemLabel="Sub canal de venta" itemValue="Sub_canal_de_venta__c"/>
+                <apex:selectOption itemLabel="Estatus Lista Negra QEQ" itemValue="Estatus_Lista_Negra_QEQ__c"/>
+                <apex:selectOption itemLabel="Número de cliente" itemValue="Numero_de_Cliente_AutoNum__c"/>
+                
+                <apex:actionSupport event="onchange" reRender="searchResults"/>
+            </apex:selectList>
+            
+            <apex:commandButton value="Buscar Cuentas" action="{!search}" rerender="searchResults"/>
+            <apex:commandButton value="Limpiar Registros" action="{!clear}" rerender="searchResults"/>
+        </apex:pageBlock>
+        <apex:pageBlock title="Resultados de la busqueda" id="searchResults">
+            <apex:outputPanel rendered="{!IF(acc.size == 0, true, false)}">
+            <h2>No se han encontrado registros, por favor comprueba la palabra y campo de busqueda e intenta nuevamente</h2>
+            </apex:outputPanel>
+            <apex:pageBlockTable value="{!acc}" var="a">
+                <apex:column headerValue="Tipo" value="{!a.RecordTypeName__c}"/>
+                <apex:column headerValue="Nombre de la Cuenta">
+                    <apex:outputLink value="/{!a.Id}">{!a.Name}</apex:outputLink>
+                </apex:column>
+                <apex:column headerValue="Apellido Paterno" value="{!a.Apellidopaterno_cta__c}"/>
+                <apex:column headerValue="Apellido Materno" value="{!a.Apellidomaterno_cta__c}"/>
+                <apex:column headerValue="Nombre" value="{!a.FirstName}"/>
+                <apex:column value="{!a.FechaNacimiento__c}"/>
+                <apex:column value="{!a.NSS__c}"/>
+                <apex:column headerValue="FRACCIONAMIENTO" value="{!a.Nombre_Fraccionamiento__c}"/>
+                <apex:column value="{!a.Asesor__c}"/>
+                <apex:column value="{!a.Estatus_Cliente__c}"/>
+                <apex:column headerValue="Estatus LN" value="{!a.Estatus_Lista_Negra_QEQ__c}"/>
+                <apex:column headerValue="No de Cliente" value="{!a.Numero_de_Cliente_AutoNum__c}"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

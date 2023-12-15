@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solicitud__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Solicitudes de Trámites y Transferencias</label>
+    <referenceTo>SolicitudesTramitesYTransferencias__c</referenceTo>
+    <relationshipLabel>Detalle de Trámite</relationshipLabel>
+    <relationshipName>Detalle_de_Tramite</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

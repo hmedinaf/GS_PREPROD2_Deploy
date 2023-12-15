@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_cliente_fideicomiso</fullName>
+    <active>true</active>
+    <description>Valida que si el campo cliente fideicomiso = true debe llenarse el número de fideicomiso.</description>
+    <errorConditionFormula>AND
+(
+ISCHANGED(Cliente_Fideicomiso__c),
+Cliente_Fideicomiso__c == true,
+OR(
+ISNULL(No_De_Fideicomiso__c),
+ISBLANK(No_De_Fideicomiso__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>No_De_Fideicomiso__c</errorDisplayField>
+    <errorMessage>Al seleccionar el check de Cliente Fideicomiso se debe llenar el campo No. de Fideicomiso</errorMessage>
+</ValidationRule>

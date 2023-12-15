@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AEC_Relacion_Producto_Fraccionamiento</fullName>
+    <filterScope>Queue</filterScope>
+    <label>AEC</label>
+    <queue>AEC</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

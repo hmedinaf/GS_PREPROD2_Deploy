@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_gasto_operativo</fullName>
+    <active>true</active>
+    <errorConditionFormula>CPPTS_Gastos_Operativos__c &gt;  CPPTS_Saldo_a_Cuenta__c</errorConditionFormula>
+    <errorMessage>El Gasto Operativo no puede ser mayor que Saldo a Cuenta</errorMessage>
+</ValidationRule>

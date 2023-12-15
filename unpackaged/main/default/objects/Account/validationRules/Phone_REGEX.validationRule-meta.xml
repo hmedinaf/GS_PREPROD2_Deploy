@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_REGEX</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+$User.is_Data_Migration_User__c = false,				
+IF(  NOT(ISBLANK(Phone )), 
+OR(
+NOT(IF(LEFT(Phone,3) =&#39;+52&#39;,true, IF(LEFT(Phone,2) =&#39;+1&#39;, true,false))),
+RIGHT(Phone , 10) == &#39;1111111111&#39;,
+RIGHT(Phone , 10) == &#39;2222222222&#39;,
+RIGHT(Phone , 10) == &#39;3333333333&#39;,
+RIGHT(Phone , 10) == &#39;4444444444&#39;,
+RIGHT(Phone , 10) == &#39;5555555555&#39;,
+RIGHT(Phone , 10) == &#39;6666666666&#39;,
+RIGHT(Phone , 10) == &#39;7777777777&#39;,
+RIGHT(Phone , 10) == &#39;8888888888&#39;,
+RIGHT(Phone , 10) == &#39;9999999999&#39;,
+RIGHT(Phone , 10) == &#39;0000000000&#39;,
+IF(LEFT(Phone,3) =&#39;+52&#39;,LEN(Phone)&lt;&gt;13, IF(LEFT(Phone,2) =&#39;+1&#39;, LEN(Phone)&lt;&gt;12,true)),
+IF(LEFT(Phone,3) =&#39;+52&#39;,NOT(REGEX(RIGHT(Phone , 12), &quot;^[0-9]*$&quot;)), IF(LEFT(Phone,2) =&#39;+1&#39;, NOT(REGEX(RIGHT(Phone , 11), &quot;^[0-9]*$&quot;)),true))
+),
+false
+))</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>Solo se permite el formato +52 y 10 dígitos sin que todos los números sean el mismo dígito</errorMessage>
+</ValidationRule>

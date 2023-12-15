@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jefe_de_RH_UEN_Plaza_Pre_Venta</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Jefe de RH UEN Plaza</label>
+    <queue>Jefe_de_RH_UEN_Plaza</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

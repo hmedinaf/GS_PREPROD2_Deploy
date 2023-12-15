@@ -1,0 +1,260 @@
+<messaging:emailTemplate recipientType="User" relatedToType="SolicitudesTramitesYTransferencias__c" subject="Aprobacion de Solicitud de Transferencia #{!relatedTo.Numero__c}" >
+    <messaging:htmlEmailBody >
+        <html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+            <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+            </head>
+            <body lang="ES-MX" link="blue" vlink="purple" style='tab-interval:35.4pt'>
+                <div class="WordSection1">
+                    <table class="MsoNormalTable" border="0" cellpadding="0" style='mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
+                        <tr style='mso-yfti-irow:1'>
+                            <td colspan="2" style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>
+                                        Se solicita la aprobacion de una solicitud de transferencia, la cual tiene las siguientes caracteristicas:<p></p>
+                                    </span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style='mso-yfti-irow:2'>
+                            <td colspan="2" style='padding:.75pt .75pt .75pt .75pt'></td>
+                        </tr>
+                        <tr style='mso-yfti-irow:3'>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>Numero Solicitud Transferencia: <p></p></span>
+                                </p>
+                            </td>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>{!relatedTo.Numero__c}<p></p></span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style='mso-yfti-irow:4'>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>UEN:<p></p></span>
+                                </p>
+                            </td>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>{!relatedTo.UnidaddeNegocios__c}<p></p></span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style='mso-yfti-irow:5'>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>Banco:<p></p></span>
+                                </p>
+                            </td>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>{!relatedTo.Banco__c}<p></p></span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style='mso-yfti-irow:6'>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>Sucursal:<p></p></span>
+                                </p>
+                            </td>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>{!relatedTo.Sucursal__c}<p></p></span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style='mso-yfti-irow:7'>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>Cuenta:<p></p></span>
+                                </p>
+                            </td>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>{!relatedTo.NombreCuenta__c}<p></p></span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style='mso-yfti-irow:8'>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>SubTotal:<p></p></span>
+                                </p>
+                            </td>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>$<apex:outputText value="{0,number,#,##0.00}">
+                                                                                 <apex:param value="{!relatedTo.Subtotal__c}" />
+                                                                                </apex:outputText><p></p></span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style='mso-yfti-irow:9'>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>IVA:<p></p></span>
+                                </p>
+                            </td>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>$<apex:outputText value="{0,number,#,##0.00}">
+                                                                                 <apex:param value="{!relatedTo.IVA__c}" />
+                                                                                </apex:outputText><p></p></span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style='mso-yfti-irow:10'>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>Retenciones:<p></p></span>
+                                </p>
+                            </td>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>$<apex:outputText value="{0,number,#,##0.00}">
+                                                                                 <apex:param value="{!relatedTo.Retenciones__c}" />
+                                                                                </apex:outputText><p></p></span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style='mso-yfti-irow:11'>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>Monto Total: <p></p></span>
+                                </p>
+                            </td>
+                            <td style='padding:.75pt .75pt .75pt .75pt'>
+                                <p class="MsoNormal">
+                                    <span style='mso-fareast-font-family:"Times New Roman"'>$<apex:outputText value="{0,number,#,##0.00}">
+                                                                                 <apex:param value="{!relatedTo.Total__c}" />
+                                                                                </apex:outputText><p></p></span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr style='mso-yfti-irow:12'>
+                            <td colspan="2" style='padding:.75pt .75pt .75pt .75pt'>
+                                <table class="MsoNormalTable" border="0" cellpadding="0" style='mso-cellspacing:1.5pt;mso-yfti-tbllook:1184'>
+                                    <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+                                        <td style='background:#F3F3F3;padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>NO. SOLICITUD<p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='background:#F3F3F3;padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>BENEFICIARIO<p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='background:#F3F3F3;padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>CONCEPTOS<p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='background:#F3F3F3;padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>FRACCIONAMIENTO<p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='background:#F3F3F3;padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>IMPORTE<p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='background:#F3F3F3;padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>IVA<p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='background:#F3F3F3;padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>RETENCION IVA<p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='background:#F3F3F3;padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>RETENCION ISR<p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='background:#F3F3F3;padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>TOTAL<p></p></span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <apex:repeat var="tx" value="{!relatedTo.Tramites__r}">
+                                    <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+                                        <td style='padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>{!tx.Name}<p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>{!tx.Beneficiario__c}<p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>{!tx.Concepto__c}<p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>{!tx.Fraccionamiento__c}<p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>$<apex:outputText value="{0,number,#,##0.00}">
+                                                                                 <apex:param value="{!tx.Importe__c}" />
+                                                                                </apex:outputText><p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>$<apex:outputText value="{0,number,#,##0.00}">
+                                                                                 <apex:param value="{!tx.IVA__c}" />
+                                                                                </apex:outputText><p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>$<apex:outputText value="{0,number,#,##0.00}">
+                                                                                 <apex:param value="{!tx.RetencionIVA__c}" />
+                                                                                </apex:outputText><p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>$<apex:outputText value="{0,number,#,##0.00}">
+                                                                                 <apex:param value="{!tx.RetencionISR__c}" />
+                                                                                </apex:outputText><p></p></span>
+                                            </p>
+                                        </td>
+                                        <td style='padding:.75pt .75pt .75pt .75pt'>
+                                            <p class="MsoNormal">
+                                                <span style='mso-fareast-font-family:"Times New Roman"'>$<apex:outputText value="{0,number,#,##0.00}">
+                                                                                 <apex:param value="{!tx.Total__c}" />
+                                                                                </apex:outputText><p></p></span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    </apex:repeat>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="MsoNormal"><span style='mso-fareast-font-family:"Times New Roman"'><p>&nbsp;</p></span></p>
+                </div>
+                <br />
+<br />
+Comentarios de aprobadores anteriores:
+<c:ApprovalComments ObjectId="{!relatedTo.Id}" StepStatusMes="Approved" />
+            </body>
+        </html>
+    </messaging:htmlEmailBody>    
+</messaging:emailTemplate>

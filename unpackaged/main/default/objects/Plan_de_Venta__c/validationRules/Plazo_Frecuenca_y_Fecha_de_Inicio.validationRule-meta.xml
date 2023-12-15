@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plazo_Frecuenca_y_Fecha_de_Inicio</fullName>
+    <active>false</active>
+    <description>Si se selecciona uno, se deben llenar todos.</description>
+    <errorConditionFormula>IF(
+
+OR(
+(IF(ISNULL(Plazo__c),0,1)+
+IF(ISNULL( Fecha_de_Inicio_de_Cobranza__c),0,1)+
+IF(ISPICKVAL( Frecuencia__c,&#39;&#39;),0,1)
+)==3,
+(IF(ISNULL(Plazo__c),0,1)+
+IF(ISNULL( Fecha_de_Inicio_de_Cobranza__c),0,1)+
+IF(ISPICKVAL( Frecuencia__c,&#39;&#39;),0,1)
+)==0)
+
+
+,FALSE,TRUE)</errorConditionFormula>
+    <errorMessage>Si se llena Plazo, Frecuencia o Frecha de Inicio, se deben llenar el resto.</errorMessage>
+</ValidationRule>

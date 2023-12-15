@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Producción</label>
+    <protected>false</protected>
+    <values>
+        <field>Fraccionamientos_Dias__c</field>
+        <value xsi:type="xsd:double">600.0</value>
+    </values>
+    <values>
+        <field>Fraccionamientos_Id_Fraccionamiento__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Servicio_Clientes__c</field>
+        <value xsi:type="xsd:string">/services/EBS/ClientesSfCRMtoERPReq/rest</value>
+    </values>
+    <values>
+        <field>Servicio_Extraer_Viviendas__c</field>
+        <value xsi:type="xsd:string">/services/ManageViviendas/rest/ExtractViviendas</value>
+    </values>
+    <values>
+        <field>Servicio_Facturas__c</field>
+        <value xsi:type="xsd:string">/services/EBS/FacturasSfCRMtoERPReq/rest</value>
+    </values>
+    <values>
+        <field>Servicio_Obtener_Fraccionamientos__c</field>
+        <value xsi:type="xsd:string">/services/ManageInfoFracc/rest/GetFraccionamientos</value>
+    </values>
+    <values>
+        <field>Servicio_Pagos__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>URL_base__c</field>
+        <value xsi:type="xsd:string">https://esb.javer.com.mx:11902</value>
+    </values>
+    <values>
+        <field>Viviendas_Dias__c</field>
+        <value xsi:type="xsd:double">60.0</value>
+    </values>
+    <values>
+        <field>Viviendas_Estatus__c</field>
+        <value xsi:type="xsd:string">17</value>
+    </values>
+    <values>
+        <field>Viviendas_Id_Vivienda__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

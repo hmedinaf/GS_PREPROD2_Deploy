@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- trCalc Precio por m2 exc --></label>
+        <name>trCalc_Precio_por_m2_exc__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Fecha_Visita</fullName>
+    <active>false</active>
+    <description>La fecha de visita debe ser igual o mayor a hoy</description>
+    <errorConditionFormula>IF (Fecha_Visita__c &gt;= TODAY(), FALSE, 
+  IF(Fecha_Visita__c &lt; TODAY()-4, FALSE, TRUE)
+  )</errorConditionFormula>
+    <errorDisplayField>Fecha_Visita__c</errorDisplayField>
+    <errorMessage>La fecha de visita debe ser igual a la fecha actual o máximo 4 dias anteriores.</errorMessage>
+</ValidationRule>

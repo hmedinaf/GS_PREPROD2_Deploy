@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estatus Pagaré --></label>
+        <name>Estatus_Pagare__c</name>
+        <picklistValues>
+            <masterLabel>Cancelado</masterLabel>
+            <translation><!-- Cancelado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emitido</masterLabel>
+            <translation><!-- Emitido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pagado</masterLabel>
+            <translation><!-- Pagado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vencido</masterLabel>
+            <translation><!-- Vencido --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

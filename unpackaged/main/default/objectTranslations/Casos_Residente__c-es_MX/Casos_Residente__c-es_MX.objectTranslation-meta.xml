@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Caso ATC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Casos ATC</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Faltantes</layout>
+        <sections>
+            <label><!-- Información de garantía --></label>
+            <section>Información de garantía</section>
+        </sections>
+        <sections>
+            <label><!-- Valoración --></label>
+            <section>Valoración</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Garantías</layout>
+        <sections>
+            <label><!-- Detalle de Reporte --></label>
+            <section>Detalle de Reporte</section>
+        </sections>
+        <sections>
+            <label><!-- Información de garantía --></label>
+            <section>Información de garantía</section>
+        </sections>
+        <sections>
+            <label><!-- Valoración --></label>
+            <section>Valoración</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Otros</layout>
+        <sections>
+            <label><!-- Información de garantía --></label>
+            <section>Información de garantía</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Peticiones</layout>
+        <sections>
+            <label><!-- Información de garantía --></label>
+            <section>Información de garantía</section>
+        </sections>
+        <sections>
+            <label><!-- Valoración --></label>
+            <section>Valoración</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Seguimiento proceso de venta</layout>
+        <sections>
+            <label><!-- Información de garantía --></label>
+            <section>Información de garantía</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Servicios</layout>
+        <sections>
+            <label><!-- Información de garantía --></label>
+            <section>Información de garantía</section>
+        </sections>
+        <sections>
+            <label><!-- Valoración --></label>
+            <section>Valoración</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Ventas</layout>
+        <sections>
+            <label><!-- Información de garantía --></label>
+            <section>Información de garantía</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Cobranza Post Venta --></label>
+        <name>Cobranza_PostVenta</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Faltantes --></label>
+        <name>Faltante</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Garantías --></label>
+        <name>Garantias</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Otros --></label>
+        <name>Otros</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Peticiones --></label>
+        <name>Peticiones</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Servicios --></label>
+        <name>Servicios</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Ventas --></label>
+        <name>Ventas</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Una vez cerrado el caso no puedes modificar sus campos, si requiere actualizar la información contacte al administrador. --></errorMessage>
+        <name>Cerrado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede cerrar el caso sin haber realizado la visita --></errorMessage>
+        <name>Cierre_de_Caso_Fecha_de_Visita</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puedes cerrar un caso si este se encuentra vencido
+Favor de mandar a aprobación --></errorMessage>
+        <name>No_cerrar_si_esta_vencida</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe capturar el catalogo de falla --></errorMessage>
+        <name>No_estar_vacio_al_cerrar</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe capturar el campo Atendido por --></errorMessage>
+        <name>No_estar_vacio_al_cerrar_atendido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe capturar la clasificación de la garantía --></errorMessage>
+        <name>No_estar_vacio_al_cerrar_clasificacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe capturar el origen de la garantía --></errorMessage>
+        <name>No_estar_vacio_al_cerrar_origen</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe capturar los comentarios de la garantia --></errorMessage>
+        <name>No_estar_vacio_los_comentarios</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Favor de seleccionar una opción --></errorMessage>
+        <name>Validar_Atendido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe agregar comentarios --></errorMessage>
+        <name>Validar_Comentarios</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Favor de agregar Origen de Garantia --></errorMessage>
+        <name>Validar_origen</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AgendarCita --></label>
+        <name>AgendarCita</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ReporteAtnClientes --></label>
+        <name>ReporteAtnClientes</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Viviendas_Alvento</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Fraccionamiento_Selected__c</columns>
+    <columns>Fraccionamientos__c</columns>
+    <columns>Plaza_Selected__c</columns>
+    <columns>Plazas__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.NAME</field>
+        <operation>startsWith</operation>
+        <value>20124301</value>
+    </filters>
+    <label>Viviendas Alvento</label>
+</ListView>

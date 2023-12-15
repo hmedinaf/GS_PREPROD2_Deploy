@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Carga_inicial_seguimiento</fullName>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.FIRST_NAME</columns>
+    <columns>LEAD.MIDDLE_NAME</columns>
+    <columns>LEAD.LAST_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>JMC_Analisisinterno__c</columns>
+    <columns>JMC_Fraccionamiento__c</columns>
+    <columns>JMC_TipoCredito__c</columns>
+    <columns>JMC_CapacidadCompra__c</columns>
+    <columns>JMC_CanalVenta__c</columns>
+    <columns>JMC_SubCanalVenta__c</columns>
+    <columns>JMC_AsesorAsignado__c</columns>
+    <columns>JMC_Genero__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>JCM_Carga_inicial__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Carga inicial</label>
+</ListView>

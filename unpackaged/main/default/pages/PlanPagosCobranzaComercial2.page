@@ -1,0 +1,16 @@
+<apex:page standardController="Cobranza_Comercial__c" extensions="PlanPagosCobranzaComercial2" id="PlanPagosCobranzaComercial2" lightningStyleSheets="true" showHeader="false">
+    <apex:form >
+            <h2>Plan de Pagos</h2>
+            <p>Se van a generar los Pagarés.</p>
+            <apex:commandButton value="Continuar" action="{!executeApexClass}" oncomplete="closeWindow()" />
+       
+        <!-- Other page content here -->
+    </apex:form>
+    <script>
+        function closeWindow() {
+            window.close(); // Close the window
+            // Or redirect to another page
+            // window.location.href = '/apex/AnotherPage';
+        }
+    </script>
+</apex:page>

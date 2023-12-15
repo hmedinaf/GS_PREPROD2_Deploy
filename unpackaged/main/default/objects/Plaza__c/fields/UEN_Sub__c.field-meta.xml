@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UEN_Sub__c</fullName>
+    <defaultValue>&quot;1&quot;</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Este campo se utiliza para las rutas de aprobacion en los casos en los que la plaza cuente con más de un grupo de aprobadores</inlineHelpText>
+    <label>UEN Sub</label>
+    <length>5</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,4 @@
+Reporte de Log :{!LogATC__c.Name} 
+Metodo: {!LogATC__c.Metodo__c} 
+Mensaje: {!LogATC__c.Mensaje__c} 
+Liga SF: {!LogATC__c.Link}

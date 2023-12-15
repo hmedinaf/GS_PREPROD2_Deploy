@@ -1,0 +1,2869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>ARRAYANES_HABITAT_II</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ARRAYANES HABITAT II</label>
+        <sharedTo>
+            <role>ARRAYANES_HABITAT_II</role>
+        </sharedTo>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ARRAYANES HABITAT II</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Alboreto_Residencial</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Alboreto Residencial</label>
+        <sharedTo>
+            <role>Alboreto_Residencial</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALBORETO RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DEL NEVADO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Alvento_Valle</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Alvento/Valle Santa Isabel</label>
+        <sharedTo>
+            <role>Alvento_Valle</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALVENTO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE SANTA ISABEL</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Arbolada_Privada_Altus_I_II</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Arbolada / Privada Altus I,II</label>
+        <sharedTo>
+            <role>Arbolada</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ARBOLADA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA ALTUS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA ALTUS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO KUSAMIL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PORTOALTO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Asesor_de_Cobranza</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Asesor de Cobranza</label>
+        <sharedTo>
+            <role>Asesor_de_Cobranza</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>notEqual</operation>
+            <value>0</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>BOSQUEBOREAL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>BOSQUE BOREAL</label>
+        <sharedTo>
+            <role>BOSQUEBOREAL</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUE BOREAL</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Belcanto</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Belcanto</label>
+        <sharedTo>
+            <role>Belcanto</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BELCANTO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS ENCINOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS ENCINOS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BELCANTO II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TEJEDA II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TEJEDA III</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Bosques_de_Castilla_Lombardia_Residencial</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Bosques de Castilla/Lombardia Residencial</label>
+        <sharedTo>
+            <role>Bosques_de_Castilla_Lombardia_Residencial</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE CASTILLA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOMBARDIA RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIV CANADA SEC VANCOUVER</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>TORRE LUNA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MURIEL RESIDENCIAL</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Bosques_de_Lerma_Sandara</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Bosques de Lerma/ Sandara</label>
+        <sharedTo>
+            <role>BosquesLermaSandara</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE LERMA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALBORETO RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>SANDARA RESIDENCIAL</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Bosques_del_Nevado</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Bosques del Nevado</label>
+        <sharedTo>
+            <roleAndSubordinates>Bosques_del_Navado</roleAndSubordinates>
+        </sharedTo>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DEL NEVADO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CASTILLA_VDSE_BDC</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CASTILLA/VDSE/BDC</label>
+        <sharedTo>
+            <role>CASTILLA_VDSE_BDC</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PUNTA CASTILLA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTA ELENA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE CASTILLA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>TORRE LUNA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CIMA_SERNA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CIMA SERNA</label>
+        <sharedTo>
+            <role>CimaSerena</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CIMA SERENA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CIMA SERENA II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS ENCINOS II</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Corporativo</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Corporativo</label>
+        <sharedTo>
+            <role>Corporativo</role>
+        </sharedTo>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Entregada__c</field>
+            <operation>notEqual</operation>
+            <value>Cancelado</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Cumbre_Alta</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Cumbre Alta</label>
+        <sharedTo>
+            <role>Cumbre_Alta</role>
+        </sharedTo>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRE ALTA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Cumbres_Andara_Cumbres_Britania</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Cumbres Andara / Cumbres Britania</label>
+        <sharedTo>
+            <role>CumbresAndara</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRES ANDARA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRES BRITANIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO DE LOS NOGALES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALVENTO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRES ALLEGRO DPTOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PORTO SECTOR FLORENCIA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>FUENTES_DE_BALVANERA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Fuentes de Balvanera</label>
+        <sharedTo>
+            <role>Fuentes_de_Balvanera</role>
+        </sharedTo>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>FUENTES DE BALVANERA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>JARDINESALEJANDRIA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>JARDINES DE ALEJANDRIA</label>
+        <sharedTo>
+            <role>JARDINESALEJANDRIA</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE ALEJANDRIA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Jardines_de_Bugambilias</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Jardines de Bugambilias</label>
+        <sharedTo>
+            <role>Jardines_de_Bugambilias</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE BUGAMBILIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE GIRASOLES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENZA III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS LIRIOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MAGNOLIAS IV</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DEL NEVADO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Jardines_de_Castalias</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Jardines de Castalias</label>
+        <sharedTo>
+            <role>JardinesCastalias</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE CASTALIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE BUGAMBILIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE GIRASOLES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS LIRIOS</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Jardines_de_Magnolias</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Jardines de Magnolias</label>
+        <sharedTo>
+            <role>JardinesMagnolias</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE BUGAMBILIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>QUINTA VERSALLES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE MAGNOLIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE MAGNOLIAS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MAGNOLIAS III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE GIRASOLES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS LIRIOS</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Jardines_de_alejandria_Villa_Monta_a</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Jardines de alejandria/Villa Montaña</label>
+        <sharedTo>
+            <role>JARDINES_DE_ALEJANDRIA_VILLA_MONTA_A</role>
+        </sharedTo>
+        <booleanFilter>1 or 2 or 3</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE ALEJANDRIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLA MONTAÑA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLA MONTAÑA ETAPA IV</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>LOMA_REAL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>LOMA REAL</label>
+        <sharedTo>
+            <role>LOMA_REAL</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOMA REAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO COTO TONALA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CIMA SERENA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CIMA SERENA III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VISTA REYNA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>LOMBARDIA_PC_VDSE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>LOMBARDIA/PC/VDSE</label>
+        <sharedTo>
+            <role>LOMBARDIA_PC_VDSE</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTA ELENA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOMBARDIA RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PUNTA CASTILLA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>LOS_CANTAROS_MTY</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>LOS CANTAROS MTY</label>
+        <sharedTo>
+            <role>LOS_CANTAROS_MTY</role>
+        </sharedTo>
+        <booleanFilter>1 or 2</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOS CANTAROS MTY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS MASÁI</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NIKTE_KUSAMIL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>NIKTE/KUSAMIL</label>
+        <sharedTo>
+            <role>NIKTE_KUSAMIL</role>
+        </sharedTo>
+        <booleanFilter>1 or 2 or 3</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO KUSAMIL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO NIKTE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA RIVIERA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PASEO_SAN_JUNIPERO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PASEO SAN JUNIPERO</label>
+        <sharedTo>
+            <role>Paseo_San_Junipero</role>
+        </sharedTo>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO SAN JUNIPERO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PIRAMIDES</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PIRAMIDES</label>
+        <sharedTo>
+            <role>PIRAMIDES</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PIRAMIDES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOS CARACOLES</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PRADOS_VSE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PRADOS/VSE</label>
+        <sharedTo>
+            <role>PRADOS_VSE</role>
+        </sharedTo>
+        <booleanFilter>1 or 2</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTA ELENA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA LOS PRADOS</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PRIVALIA_AMBIENTA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PRIVALIA AMBIENTA</label>
+        <sharedTo>
+            <role>PRIVALIA_AMBIENTA</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVALIA AMBIENTA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>EL MANANTIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO SAN JUNIPERO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Paseo_San_Junipero_Fuentes_de_Balvanera</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Paseo San Junipero / Fuentes de Balvanera</label>
+        <sharedTo>
+            <role>Paseo_San_Junipero_Fuentes_de_Balvanera</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO SAN JUNIPERO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>FUENTES DE BALVANERA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MASSARO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTIAGO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PEDREGAL DEL RIO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTIAGO III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTIAGO SECTOR II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLAS LA PIEDAD</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRE ALTA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Pedregal_del_Rio</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Pedregal del Rio</label>
+        <sharedTo>
+            <role>PEDREGAL_DEL_RIO</role>
+        </sharedTo>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PEDREGAL DEL RIO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Priv_Borneo</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Priv. Borneo</label>
+        <sharedTo>
+            <role>PrivBorneo</role>
+        </sharedTo>
+        <booleanFilter>1 or 2 or 3</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS BORNEO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE SANTA ISABEL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL VALLE AZUL</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Priv_Cerezo_Bosques_la_Huasteca</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Priv. Cerezo/Bosques la Huasteca</label>
+        <sharedTo>
+            <role>Residencial_Apodaca</role>
+        </sharedTo>
+        <booleanFilter>1 or 2</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL APODACA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALVENTO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Priv_Montejo</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Priv. Montejo</label>
+        <sharedTo>
+            <role>PrivMontejo</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA MONTEJO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PrivadaPrados</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Privada los Prados</label>
+        <sharedTo>
+            <role>PrivadaPrados</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA LOS PRADOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS DIAMANTE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTA ELENA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Privada_Borneo_Mirasol</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Privada Borneo/Mirasol</label>
+        <sharedTo>
+            <role>Borneo_Mirasol</role>
+        </sharedTo>
+        <booleanFilter>1 or 2 or 3 or 4</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS BORNEO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MIRASOL RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOS CANTAROS MTY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL PRIVADA LAS PLAZAS</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Privadas_Caranday</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Privadas Caranday</label>
+        <sharedTo>
+            <role>Privadas_Caranday</role>
+        </sharedTo>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS CARANDAY</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Privadas_Montejo_y_BLH</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Privadas_Montejo_y_BLH</label>
+        <sharedTo>
+            <role>Privadas_Montejo_y_Bosques_la_Huasteca</role>
+        </sharedTo>
+        <booleanFilter>1 or 2 or 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA MONTEJO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES LA HUASTECA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE SANTA ISABEL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS MASÁI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL VALLE AZUL</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Privadas_del_Canad</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Privadas del Canadá</label>
+        <sharedTo>
+            <role>PrivadasCanada</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS DEL CANADA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIV CANADA SEC VANCOUVER</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>HIMALAYA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL VALLE AZUL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL APODACA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Punta_Estrella</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Punta Estrella / Priv. Riviera</label>
+        <sharedTo>
+            <role>Punta_Estrella_Priv_Riviera</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PUNTA ESTRELLA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA RIVIERA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PORTOALTO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Quinta_Versalles</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Quinta Versalles</label>
+        <sharedTo>
+            <role>QuintaVersalles</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 7 OR 8 OR 9 OR 10</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>QUINTA VERSALLES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENZA III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENZA PRIVADAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE GIRASOLES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS LIRIOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE MAGNOLIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE MAGNOLIAS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MAGNOLIAS IV</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DEL NEVADO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MAGNOLIAS III</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ROBLE_BOREAL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ROBLE/BOREAL/MIRASOL</label>
+        <sharedTo>
+            <role>ROBLE_BOREAL</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DEL ROBLE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUE BOREAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BELLO AMANECER RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MIRASOL RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS MASÁI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE SANTA ISABEL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL VALLE AZUL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALVENTO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL APODACA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Residenza_Privadas</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Residenza Privadas</label>
+        <sharedTo>
+            <role>ResidenzaPrivadas</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11 OR 12 OR 13</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENZA PRIVADAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>HACIENDA MONTEBELLO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE BUGAMBILIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>HACIENDA DEL BOSQUE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>QUINTA VERSALLES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MAGNOLIAS III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE GIRASOLES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MAGNOLIAS IV</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DEL NEVADO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE MAGNOLIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE MAGNOLIAS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MAGNOLIAS IV</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DEL NEVADO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN1Coordinador</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Privadas de cerezo
+privada montejo
+valle de santa maria
+Valle de santa isabel
+Residencial Apodaca
+Privadas Masái
+Privadas Ocania
+Los Cantaros Mty
+Valle del Roble
+Alvento
+Residencial Valle Azul
+Residencial privada las plazas</description>
+        <label>UEN1Coordinador</label>
+        <sharedTo>
+            <role>CoordinadorEntrega</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11 OR 12</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA CEREZO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA MONTEJO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTA MARIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE SANTA ISABEL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL APODACA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALVENTO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL VALLE AZUL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DEL ROBLE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOS CANTAROS MTY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS MASÁI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS OCANIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL PRIVADA LAS PLAZAS</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN1_Auditoria</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN1-Auditoria</label>
+        <sharedTo>
+            <role>UEN1_AUDITORIA</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11 OR 12 OR 13 OR 14 OR 15 OR 16 OR 17 OR 18 OR 19 OR 20 OR 21 OR 22 OR 23 OR 24 OR 25</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUE BOREAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRES ALLEGRO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES LA HUASTECA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS BORNEO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA CEREZO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA MONTEJO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DEL ROBLE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE SANTA ISABEL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTA MARIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTA MARIA ADJUDICADO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL APODACA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOS CANTAROS MTY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALVENTO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BELLO AMANECER</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRES ANDARA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MIRASOL RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MOLINETE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO DE GUADALUPE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL VALLE AZUL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS OCANIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA VIA SIETE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLALTA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VIÑEDOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS CUMBRES DIAMANTE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS MASÁI</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN1_NL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN1-NL</label>
+        <sharedTo>
+            <role>UEN1_NL</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11 OR 12 OR 13 OR 14 OR 15 OR 16 OR 17</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUE BOREAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRES ALLEGRO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES LA HUASTECA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS BORNEO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA CEREZO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA MONTEJO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DEL ROBLE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE SANTA ISABEL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTA MARIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTA MARIA ADJUDICADO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL APODACA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOS CANTAROS MTY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALVENTO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL VALLE AZUL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MIRASOL RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS MASÁI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL PRIVADA LAS PLAZAS</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN2NL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN2-NL</label>
+        <sharedTo>
+            <role>UEN2_NL</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11 OR 12 OR 13 OR 14 OR 15 OR 16 OR 17 OR 18 OR 19 OR 20 OR  21 OR 22 OR 23 OR 24 OR 25</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE CASTILLA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOMBARDIA RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>startsWith</operation>
+            <value>CUMBRES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PORTO SECTOR FLORENCIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA LOS PRADOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIV CANADA SEC VANCOUVER</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>contains</operation>
+            <value>VALLE DE LINCOLN</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTA ELENA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO DE LOS NOGALES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PUNTA CASTILLA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALVENTO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUE BOREAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRES ALLEGRO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES LA HUASTECA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA CEREZO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DEL ROBLE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE SANTA ISABEL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>contains</operation>
+            <value>VALLE DE SANTA MARIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL APODACA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOS CANTAROS MTY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENCIAL VALLE AZUL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MIRASOL RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS MASÁI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRES ALLEGRO DPTOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>TORRE LUNA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN2_Auditoria</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN2-Auditoria</label>
+        <sharedTo>
+            <role>UEN2_AUDITORIA</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE CASTILLA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOMBARDIA RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRES ANDARA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRES BRITANIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA LOS PRADOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIV CANADA SEC VANCOUVER</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LINCOLN SECTOR MINAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LINCOLN</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTA ELENA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN3_Auditoria</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN3-Auditoria</label>
+        <sharedTo>
+            <role>UEN3_AUDITORIA</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11 OR 12 OR 13 OR 14 OR 15</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BELCANTO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BELCANTO II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BELLATERRA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CIMA SERENA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CIMA SERENA II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRES PLATINO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOMA REAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RINCONADA DE SAN ANTONIO II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS ENCINOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS ENCINOS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS MOLINOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TONANTZIN</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TONANTZIN II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DEL SOL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TEJEDA II</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN3_JALISCO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN3- JALISCO</label>
+        <sharedTo>
+            <role>UEN3_JALISCO</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11 OR 12 OR 13 OR 14 OR 15 OR 16 OR 17 OR 18 OR 19 OR 20 OR 21</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BELCANTO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BELCANTO II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TONANTZIN III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CIMA SERENA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CIMA SERENA II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ARRAYANES HABITAT II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOMA REAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RINCONADA DE SAN ANTONIO II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS ENCINOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS ENCINOS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS MOLINOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TONANTZIN</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TONANTZIN II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DEL SOL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TEJEDA II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA SANTA ANITA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TEJEDA III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO COTO TONALA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALBERI RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VISTA REINA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CIMA SERENA III</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN4_AGUASCALIENTES</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN4-AGUASCALIENTES</label>
+        <sharedTo>
+            <role>UEN4_AGUASCALIENTES</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE ALEJANDRIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLA MONTAÑA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VIÑEDOS DEL SUR</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VISTA MAGNA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUE REAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLA MONTAÑA ETAPA IV</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEOS DEL SUR</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS CARANDAY</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN4_Auditoria</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN4-Auditoria</label>
+        <sharedTo>
+            <role>UEN4_AGS_AUDITORIA</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE ALEJANDRIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLA MONTAÑA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VIÑEDOS DEL SUR</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VISTA MAGNA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUE REAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLA MONTAÑA ETAPA IV</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEOS DEL SUR</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS CARANDAY</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN4_QROO_AUDITORIA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN4 QROO - AUDITORIA</label>
+        <sharedTo>
+            <role>UEN_4_QROO_AUDITORIA</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO KUSAMIL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO NIKTE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA ALTUS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA ALTUS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA RIVIERA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PUNTA ESTRELLA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PORTOALTO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ARBOLADA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN4_QRO_Auditoria</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN4_QRO_Auditoria</label>
+        <sharedTo>
+            <role>UEN4_QRO_AUDITORIA</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11 OR 12 OR 13 OR 14 OR 15 OR 16</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE SAN JUAN</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE SAN JUAN 2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE SAN JUAN 3</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE SAN JUAN IV</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE SAN JUAN V</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>EL MANANTIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>EDUARDO LOARCA CASTILLO IV ETAPA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>HACIENDA MOMPANI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MILA RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO SAN JUNIPERO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLAS LA PIEDAD</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTIAGO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTIAGO III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTIAGO SECTOR II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>FUENTES DE BALVANERA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MASSARO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN4_QUERETARO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN4 - QUERETARO</label>
+        <sharedTo>
+            <role>UEN4_QUERRETARO</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11 OR 12 OR 13 OR 14 OR 15 OR 16 OR 17 OR 18 OR 19</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE SAN JUAN</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE SAN JUAN 2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE SAN JUAN 3</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE SAN JUAN IV</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE SAN JUAN V</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>EL MANANTIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>EDUARDO LOARCA CASTILLO IV ETAPA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>HACIENDA MOMPANI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MILA RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO SAN JUNIPERO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLAS LA PIEDAD</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTIAGO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTIAGO III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTIAGO SECTOR II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>FUENTES DE BALVANERA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MASSARO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>FUENTES DE BALVANERA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRE ALTA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PEDREGAL DEL RIO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN5_Auditoria</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN5-Auditoria</label>
+        <sharedTo>
+            <role>UEN5_AUDITORIA</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE LERMA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>SANDARA RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>HACIENDA DEL BOSQUE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MONTE BEISTEGUI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE CASTALIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE MAGNOLIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE MAGNOLIAS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>QUINTA VERSALLES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENZA PRIVADAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLAS DE LORETO II</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN5_MEXICO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN5-MEXICO</label>
+        <sharedTo>
+            <role>UEN5_MEXICO</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11 OR 12 OR 13 OR 14 OR 15 OR 16 OR 17</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE LERMA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>SANDARA RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>HACIENDA DEL BOSQUE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MONTE BEISTEGUI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE CASTALIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE MAGNOLIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE MAGNOLIAS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>QUINTA VERSALLES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENZA PRIVADAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLAS DE LORETO II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALBORETO RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>RESIDENZA III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE GIRASOLES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE BUGAMBILIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS LIRIOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MAGNOLIAS IV</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DEL NEVADO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN_4_Quintana_Roo</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>UEN 4 - Quintana Roo</label>
+        <sharedTo>
+            <role>UEN4_QUINTANAROO</role>
+        </sharedTo>
+        <booleanFilter>1 OR  2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO KUSAMIL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEO NIKTE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA ALTUS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA ALTUS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA RIVIERA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PUNTA ESTRELLA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ARBOLADA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PORTOALTO</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>UEN_NL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Se incluyen fraccionamientos de NL1 y NL2.</description>
+        <label>UEN-NL</label>
+        <sharedTo>
+            <role>UEN_NL</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Plaza__c</field>
+            <operation>equals</operation>
+            <value>UEN1 - NUEVO LEON</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Plaza__c</field>
+            <operation>equals</operation>
+            <value>UEN2 - NUEVO LEON</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>VDR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>VDR</label>
+        <sharedTo>
+            <role>Corporativo_AUDITORIA</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DEL ROBLE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE BUGAMBILIAS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PEDREGAL DEL RIO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRE ALTA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>JARDINES DE GIRASOLES</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Valle_de_Lincoln</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Valle de Lincoln</label>
+        <sharedTo>
+            <role>ValleLincoln</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LINCOLN SECTOR MINAS</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Valle_de_Santa_Elena</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Valle de Santa Elena</label>
+        <sharedTo>
+            <role>ValleSantaElena</role>
+        </sharedTo>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>contains</operation>
+            <value>VALLE DE SANTA ELENA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Valle_de_Santa_Isabel</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Valle Santa Isabel</label>
+        <sharedTo>
+            <role>ValleSantaIsabel</role>
+        </sharedTo>
+        <booleanFilter>1 or 2</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE SANTA ISABEL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS OCANIA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Valle_de_Santa_Maria</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Valle de Santa Maria</label>
+        <sharedTo>
+            <role>ValleRoble</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTA MARIA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Valle_de_Santiago_lll</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Valle de Santiago lll</label>
+        <sharedTo>
+            <role>ValleSantiagolll</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTIAGO III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>MILA RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVALIA AMBIENTA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRE ALTA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>FUENTES DE BALVANERA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Valle_de_los_Encinos</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Valle de los Encinos</label>
+        <sharedTo>
+            <role>ValleEncinos</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS ENCINOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS ENCINOS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CIMA SERENA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CIMA SERENA II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOS ABEDULES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALBERI RESIDENCIAL</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Valle_de_los_Encinos_II</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Valle de los Encinos II</label>
+        <sharedTo>
+            <role>Valle_de_los_Encinos_II</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS ENCINOS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TEJEDA II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TEJEDA III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS ENCINOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALBERI RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>,ARRAYANES HABITAT II</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Valle_del_Roble</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Valle del Roble</label>
+        <sharedTo>
+            <role>ValleRoble</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DEL ROBLE</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Valle_del_Sol</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Valle del Sol</label>
+        <sharedTo>
+            <role>ValleSol</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11 OR 12 OR 13</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DEL SOL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TEJEDA III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BELCANTO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS ENCINOS II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>ALBERI RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE LOS MOLINOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA SANTA ANITA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOMA REAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TEJEDA II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CIMA SERENA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CIMA SERENA II</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE TONANTZIN III</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BELCANTO II</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Vi_edos_del_Sur</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Viñedos del Sur</label>
+        <sharedTo>
+            <role>ViNedosSur</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VIÑEDOS DEL SUR</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PASEOS DEL SUR</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Villa_Monta_a</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Villa Montaña</label>
+        <sharedTo>
+            <role>VillaMontaNa</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLA MONTAÑA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLA MONTAÑA ETAPA IV</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>usuario_oer</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>usuario oer</label>
+        <sharedTo>
+            <role>Usuario_oer</role>
+        </sharedTo>
+        <booleanFilter>1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 or 9</booleanFilter>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRES BRITANIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>CUMBRES ANDARA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VALLE DE SANTA ELENA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>VILLAS DEL JARAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADA LOS PRADOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>LOMBARDIA RESIDENCIAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIV CANADA SEC VANCOUVER</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>PRIVADAS DEL CANADA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Fraccionamiento__c</field>
+            <operation>equals</operation>
+            <value>BOSQUES DE CASTILLA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seguimiento_Ilocalizables</fullName>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.FIRST_NAME</columns>
+    <columns>LEAD.MIDDLE_NAME</columns>
+    <columns>LEAD.LAST_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>JMC_ManeraPrefContact__c</columns>
+    <columns>JMC_Fraccionamiento__c</columns>
+    <columns>JMC_AsesorAsignado__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>JMC_Analisisinterno__c</columns>
+    <columns>JMC_ComentariosLead__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>JMC_EstatusLead__c</field>
+        <operation>equals</operation>
+        <value>Ilocalizable</value>
+    </filters>
+    <label>Seguimiento Ilocalizables</label>
+</ListView>

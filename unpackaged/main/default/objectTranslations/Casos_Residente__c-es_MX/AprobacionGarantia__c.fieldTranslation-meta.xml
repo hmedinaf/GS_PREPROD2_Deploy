@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Aprobación de Garantia --></label>
+        <name>AprobacionGarantia__c</name>
+        <picklistValues>
+            <masterLabel>Aprobado</masterLabel>
+            <translation><!-- Aprobado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En Aprobación</masterLabel>
+            <translation><!-- En Aprobación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rechazado</masterLabel>
+            <translation><!-- Rechazado --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

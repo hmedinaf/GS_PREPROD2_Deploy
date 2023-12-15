@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_se_puede_cambiar_Nombre</fullName>
+    <active>true</active>
+    <errorConditionFormula>!ISNew() &amp;&amp;
+IsChanged(Name) &amp;&amp;
+En_Plan_de_Venta__c</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>No se puede cambiar el nombre del Producto debido a que se encuentra en un Proceso de Venta</errorMessage>
+</ValidationRule>

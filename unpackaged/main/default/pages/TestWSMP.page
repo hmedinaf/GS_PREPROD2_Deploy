@@ -1,0 +1,105 @@
+<apex:page standardController="ConsultaWS__c" extensions="TestWSManageProspecto">
+    <apex:stylesheet value="{!URLFOR($Resource.OneStarter,'onestarter-master/icons.css')}"/>
+<apex:stylesheet value="{!URLFOR($Resource.OneStarter,'onestarter-master/styles.css')}"/>
+<apex:stylesheet value="{!URLFOR($Resource.OneStarter,'onestarter-master/OneStarter.css')}"/>
+
+<!-- JavaScript files -->
+<apex:includeScript value="{!URLFOR($Resource.JQuery)}"/>
+    <apex:includeScript value="{!URLFOR($Resource.TouchSwipe,'TouchSwipe-Jquery-Plugin-master/jquery.touchSwipe.min.js')}"/>
+<apex:includeScript value="{!URLFOR($Resource.OneStarter,'onestarter-master/jquery.onestarter.js')}"/>
+<apex:includeScript value="/canvas/sdk/js/publisher.js"/>
+<style>
+    </style>
+    <div id="{!muestro}" class="extraDiv">
+    <apex:form >
+        <apex:pageblock >
+            <div id="form">
+
+        <h1>Consulta de Cuentas</h1>
+            <section>
+                <label class="field-label">Nombre</label><apex:inputField value="{!requestObj.Nombre__c}"/>
+                <label class="field-label">Apellido Paterno</label><apex:inputField value="{!requestObj.Apellido_Paterno__c}"/>
+                <label class="field-label">Apellido Materno</label><apex:inputField value="{!requestObj.Apellido_Materno__c}"/>
+                <label class="field-label">Fecha de Nacimiento</label><apex:inputField value="{!requestObj.Fecha_Nacimiento__c}"/>
+                <label class="field-label">NSS</label><apex:inputField value="{!requestObj.NSS__c}" styleClass="_nss"/>
+                <label class="field-label">Fraccionamiento</label>
+                <apex:selectList value="{!requestObj.Fraccionamiento__c}" multiselect="false" size="1" label="Fraccionamiento">
+                    <apex:selectOptions value="{!fraccs}"/>
+        </apex:selectList>
+
+                <apex:commandButton value="Consultar" id="consultar"/>
+                <apex:pageMessages ></apex:pageMessages><br/> 
+                <apex:commandButton value="Crear nuevo registro" rendered="{!showB}" id="crear" />
+                <br/><br/><br/><br/><br/><br/><br/><br/>
+            </section>
+</div>
+        </apex:pageblock>
+    </apex:form>
+    </div>
+    <script>
+    var s1 = {};
+    
+    $(document).ready(function() {
+        s1 = $('div#one-app').oneStarter('record-action');
+        $('.errorM3').remove();
+        
+        $('._nss').keyup(function(){
+              $(this).val($(this).val().replace(/\D/, ''));
+         });
+        $('._nss').keydown(function(){
+              $(this).val($(this).val().replace(/\D/, ''));
+         });
+        $('.dateInput input').keyup(function(){
+            if($(this).val().length == 8 && $(this).val().indexOf('/') == -1){
+                   console.log('somos ocho');
+                    var parte1 = '';
+                    var parte2 = '';
+                    var parte3 = '';
+                    parte1 = $(this).val().substring(0,2);
+                    parte2 = $(this).val().substring(2,4);
+                    parte3 = $(this).val().substring(4,8);
+                    
+                $(this).val(parte1 + '/' + parte2+'/'+parte3);
+                }
+            });
+        
+        if($('div#one-app').length != 0){
+            $('input[type="text"]').css('height', '10px');
+            $('input[type="text"]').css('font-size', '12px');
+            /*
+            $('select').css('height', '27.97px;');
+            $('select').css('font-size', '18px');
+            $('select').css('padding', '0');
+            */
+            $('select').css('height', '27.97px;');
+            $('select').css('font-size', '12px');
+            $('select').css('padding', '4');
+            
+            $('.dateInput').css('display', 'inline-flex');
+            
+            $('.dateInput').children('input').attr('placeholder', 'DD/MM/AAAA');
+            $('.dateInput').children('input').css('width', '85%');
+            
+            $('.dateFormat').css('display', 'none');
+            
+            $('.datePicker').css('display', 'none');
+         }else{
+             $('div.extraDiv').oneStarter('record-action');
+             $('input[type="text"]').css('height', '10px');
+             $('input[type="text"]').css('width', '50%');
+            $('input[type="text"]').css('font-size', '12px');
+            $('.dateInput').children('input').css('width', '85%');
+             $('.dateFormat').css('display', 'none');
+
+             $('.dateInput').children('input').attr('placeholder', 'DD/MM/AAAA');
+             
+            $('select').css('width', '50%'); 
+            $('select').css('font-size', '12px');
+            $('select').css('padding', '0px !important;');
+             $('select').css('height', '27.97px !important;');
+             
+             $('.dateInput').css('display', 'inline-flex');
+             }   
+       });
+    </script>
+</apex:page>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- UEN - PLAZA --></label>
+        <name>UEN_PLAZA__c</name>
+        <picklistValues>
+            <masterLabel>UEN1 - NUEVO LEON</masterLabel>
+            <translation><!-- UEN1 - NUEVO LEON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UEN2 - NUEVO LEON</masterLabel>
+            <translation><!-- UEN2 - NUEVO LEON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UEN3 - JALISCO</masterLabel>
+            <translation><!-- UEN3 - JALISCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UEN4 - AGUASCALIENTES</masterLabel>
+            <translation><!-- UEN4 - AGUASCALIENTES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UEN4 - DISTRITO FEDERAL</masterLabel>
+            <translation><!-- UEN4 - DISTRITO FEDERAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UEN4 - ESTADO DE MEXICO</masterLabel>
+            <translation><!-- UEN4 - ESTADO DE MEXICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UEN4 - GUANAJUATO</masterLabel>
+            <translation><!-- UEN4 - GUANAJUATO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UEN4 - QUERETARO</masterLabel>
+            <translation><!-- UEN4 - QUERETARO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UEN4 - QUINTANA ROO</masterLabel>
+            <translation><!-- UEN4 - QUINTANA ROO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UEN4 - TAMAULIPAS</masterLabel>
+            <translation><!-- UEN4 - TAMAULIPAS --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

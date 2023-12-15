@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Chk Aprob-Prod Bonif Menor P Min Venta --></label>
+        <name>Chk_Aprob_Prod_Bonif_Menor_P_Min_Venta__c</name>
+    </CustomFieldTranslation>

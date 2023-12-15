@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asesores_Quintana_Roo</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>UEN_PLAZA__c</field>
+        <operation>equals</operation>
+        <value>UEN4 - QUINTANA ROO</value>
+    </filters>
+    <label>Asesores Quintana Roo</label>
+</ListView>

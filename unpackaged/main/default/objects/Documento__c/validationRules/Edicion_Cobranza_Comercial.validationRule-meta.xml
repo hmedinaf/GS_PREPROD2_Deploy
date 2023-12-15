@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edicion_Cobranza_Comercial</fullName>
+    <active>false</active>
+    <description>Usuario con permiso Cobranza Comercial solo podrá editar pagarés o notas de crédito mientras Estatus de Proceso de Venta = Formalizado y Sub Estatus del Proceso = En Progreso</description>
+    <errorConditionFormula>AND(
+     $Profile.Name = &#39;Cobranza Comercial&#39;,
+     TEXT(Cobranza_Comercial__r.Sub_Estatus_Proceso__c) &lt;&gt; &quot;EN_PROCESO&quot;,
+				 OR(  ISCHANGED(Fecha_Vencimiento__c),
+								  ISCHANGED(Tipo__c),
+								  ISCHANGED(Importe__c)
+								)
+ 
+   )</errorConditionFormula>
+    <errorMessage>Solo puede editar el documento cuando el SubEstatus del Proceso En Progreso</errorMessage>
+</ValidationRule>

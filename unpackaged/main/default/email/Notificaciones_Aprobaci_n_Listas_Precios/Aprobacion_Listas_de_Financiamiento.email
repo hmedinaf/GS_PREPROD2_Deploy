@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  font-color: white !important;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} 
+.button2 {background-color: red;} 
+</style>
+</head>
+<div style="width:100%;font-family:arial;">
+   <img src="https://javer--preprod.sandbox.my.salesforce.com/servlet/servlet.ImageServer?id=01523000001ZUVX&oid=00D2300000092X5" />
+
+<p style="margin-top:20px;font-size:12pt; ">Se solicita su aprobación para la siguiente lista de precios de financiamiento:</p>
+<div style="margin-top:20px;font-size:11pt">
+<p style="margin:0;">Nombre Objeto: {!Aprobacion_Lista_de_Precios__c.Name} </p>
+<p style="margin:0;">Solicitante: {!ApprovalRequest.Process_Approver}</p>{!Aprobacion_Lista_de_Precios__c.Lista_de_precios__c}</p>
+<p style="margin:0;">Fraccionamiento: {!Aprobacion_Lista_de_Precios__c.Fraccionamiento__c}</p>
+<p style="margin:0;">Periodo Inicio:{!Aprobacion_Lista_de_Precios__c.Periodo_Inicio__c} </p>
+<p style="margin:0;">Periodo Fin: {!Aprobacion_Lista_de_Precios__c.Periodo_Fin__c} </p>
+<p style="margin:0;">Vigente Desde: {!Aprobacion_Lista_de_Precios__c.Vigente_Desde__c}</p>
+<p style="margin:0;">Vigente Hasta: {!Aprobacion_Lista_de_Precios__c.Vigente_Hasta__c}</p>
+<p style="margin:0;">Prototipo: {!Aprobacion_Lista_de_Precios__c.Prototipo__c}</p>
+<p style="margin:0;">Tipo: {!Aprobacion_Lista_de_Precios__c.Tipo__c}</p>
+<p style="margin:0;">Clase de Financiamiento : {!Aprobacion_Lista_de_Precios__c.Clase_de_Financiamiento__c}</p>
+<p style="margin:0;">Monto / Porcentaje: {!Aprobacion_Lista_de_Precios__c.Monto_Porcentaje__c}</p>
+
+<p style="font-size:12pt">Selecciona tu respuesta utilizando los botones:</p>
+<p style="font-size:12pt">  </p>
+
+</div>
+<div style="margin-top:20px;">
+    <a class="button button1" style="color:white;border-radius:5px;" href="https://javer--preprod.sandbox.my.salesforce-sites.com/public/apex/ApproveRequestHandler?id={!Aprobacion_Lista_de_Precios__c.Id}&action=approve">Aprobar</a>
+<a class="button button2" style="color:white;border-radius:5px;" href="https://javer--preprod.sandbox.my.salesforce-sites.com/public/apex/ApproveRequestHandler?id={!Aprobacion_Lista_de_Precios__c.Id}&action=reject">Rechazar</a>
+</div>
+</div>
+</html>

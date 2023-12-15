@@ -1,0 +1,660 @@
+<apex:page controller="ActasInventarioController" renderAs="PDF">
+    <apex:image value="{!$Resource.casasJaverActasPDF}" style=" width: 120px; text-align: left;"/>
+    <head>
+        <title>{!filename}</title>
+    </head>
+    
+    <p align="right" style="font-size: 14px;">
+        FECHA: <strong><apex:outputText value="{0, date, dd'/'MM'/'yyyy}"><apex:param value="{!inv.FechaActas__c}" /></apex:outputText></strong>
+    </p>
+    <p align="center" style="font-size: 14px;">
+        <strong><u>ACTA DE RECEPCIÓN DE VIVIENDA Y COMPROMISO</u></strong>
+    </p>
+    <p style="font-size: 14px;">
+        <strong>FRACCIONAMIENTO:</strong>&nbsp;<apex:outputText value="{!inv.Fraccionamiento__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;<strong>CONDOMINIO:</strong>&nbsp;<apex:outputText value="{!inv.Condominio__c}"></apex:outputText>
+    </p>
+    <p style="font-size: 14px;">
+        <strong>NOMBRE DEL CLIENTE:</strong>&nbsp;<apex:outputText value="{!cuenta.Name}"></apex:outputText>
+    </p>
+    <p style="font-size: 14px;">
+        <strong>MANZANA:</strong>&nbsp;<apex:outputText value="{!inv.Manzana__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;<strong>LOTE:</strong>&nbsp;<apex:outputText value="{!inv.Lote__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;<strong>NO. INT.:</strong>&nbsp;<apex:outputText value="{!inv.Interior__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;<strong>U.P:</strong>&nbsp;<apex:outputText value="{!inv.Unidad_privativa__c}"></apex:outputText>
+    </p>
+    <p style="font-size: 14px;">
+        <strong>DIRECCIÓN OFICIAL:</strong>&nbsp;<apex:outputText value="{!inv.Direccionoficial__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>EMPRESA:</strong>&nbsp;<apex:outputText value="{!cuenta.Empresa__c}"></apex:outputText>
+    </p>
+    <p align="right" style="font-size: 15px;">
+        P R E S E N T E:
+    </p>
+    
+    <p style="font-size: 13px;">
+        Por medio de la presente, aceptamos a nuestra entera conformidad, salvo las
+        observaciones que aparecen al calce, la casa habitación a la que nos
+        referimos, misma que se apega a las especificaciones que nos fueron
+        ofrecidas.
+        <br/>
+        A su vez, los suscritos reconocemos que a partir de la entrega física o
+        transmisión jurídica del inmueble, lo que suceda primero, nos haremos cargo
+        de todos los derechos y obligaciones del inmueble que recibimos, exentando
+        a cualquier empresa de Javer de toda obligación.
+        <br/>
+        Por lo anterior y al firmar la presente, hacemos constar el formal recibo
+        de las llaves de la propiedad antes mencionada, siendo desde hoy nuestra
+        completa responsabilidad la custodia de la misma, así como el acceso de
+        cualquier persona y/o los prejuicios que se le pudieran causar.
+        <br/>
+        A la vez recibimos el Manual de Usuario y Acta de Garantía y Condiciones
+        que respalda el ofrecimiento inicial del bien inmueble antes descrito.
+        <br/>
+        Acepto que los recibos u otros cargos por concepto de impuesto predial o de
+        agua potable, a partir de la fecha de la escritura de la propiedad,
+        correrán por mi cuenta, aceptando también realizar la contratación “A mi
+        nombre” de los servicios de luz, agua, gas, teléfono o cualquier otro
+        servicio derivado del funcionamiento de esta vivienda.
+
+        El Cliente se encuentra de acuerdo con la fecha en que le es entregada su 
+        vivienda, no obstante la misma es posterior a la fecha estipulada en la 
+        escritura de compraventa correspondiente, recibiéndola de conformidad y a 
+        su entera satisfacción, sin reservarse acción de cualquier índole o materia, 
+        incluyendo materia administrativa (PROFECO).
+    </p>
+    <p style="font-size: 13px;">
+        Observaciones:
+    </p>
+    <p>
+        ___________________________________________________________________________________________
+    </p>
+    <p align="center" style="font-size: 15px;">
+        <strong><u>CARTA COMPROMISO</u></strong>
+    </p>
+    <p style="font-size: 13px;">
+        Por medio de la presente carta y en relación a la vivienda que recibo, me
+        permito manifestar que estoy enterado del reglamento vecinal del
+        fraccionamiento, así como de la escritura de formación de Asociación Civil
+        de Vecinos del fraccionamiento, de existir esta última; estando de acuerdo
+        y comprometiéndome a hacerlos valer en todo momento y a cumplir con todos
+        sus contenidos; también consiento desde la presente fecha a destinar dicha
+        vivienda única y exclusivamente para uso de suelo HABITACIONAL, por lo que
+        me obligo a no establecer ningún tipo de negocio y por consecuencia acepto
+        que queda prohibido colocar anuncios o propaganda en las fachadas de mi
+        vivienda.
+        <br/>
+        De la misma forma me comprometo a no dañar las bardas perimetrales que
+        delimitan al fraccionamiento, y/o los muros colindantes compartidos de mi
+        vivienda, obligándome a acceder a mi vivienda por la parte frontal donde se
+        ubica la calle y su número oficial.
+        <br/>
+        Ratifico estar de acuerdo en que la presente carta sea notificada a las
+        autoridades administrativas, sean estas Municipales, Estatales y/o
+        Federales.
+        <br/>
+        En caso del incumplimiento de las acciones descritas en la presente carta
+        acepto que seré acreedor a las sanciones que establezca el Municipio o
+        cualquier otra autoridad de acuerdo a las leyes, obligaciones y reglamentos
+        vigentes.
+        <br/>
+        c.c.p. Secretario de Desarrollo Urbano del Municipio.
+        <br/>
+        c.c.p. Secretario de Obras Públicas del Municipio.
+        <br/>
+        c.c.p. Tesorería Municipal y Permisos del Municipio.
+        <br/>
+        c.c.p. Protección Civil del Municipio.
+    </p>
+    
+    <p style="font-size: 11px;">
+        NOMBRE DEL TITULAR: <u>&nbsp;&nbsp;{!cuenta.Nombre_cta__c} {!cuenta.Apellidopaterno_cta__c} {!cuenta.ApellidoMaterno_cta__c}&nbsp;&nbsp;</u>
+    </p>
+    <div style="height: 12px;">
+        <p style="font-size: 11px;">
+            FIRMA DE ACEPTACIÓN: ________________________________________________________________
+        </p>
+    </div>
+    <p style="font-size: 13px;">
+        NOMBRE DEL RESIDENTE DE ENTREGA:<u style="text-transform: uppercase;"><apex:outputText value="{!residenteName}"></apex:outputText> 
+        </u><apex:outputText rendered="{!IF(residenteName == null, true, false)}" value="____________________"/>
+    </p>
+    
+    <apex:image value="{!$Resource.casasJaverActasPDF}" style=" width: 110px; text-align: left;"/>
+    <p align="right" style="font-size: 13px;">
+        FECHA: <strong><apex:outputText value="{0, date, dd'/'MM'/'yyyy}"><apex:param value="{!inv.FechaActas__c}" /></apex:outputText></strong>
+    </p>
+    <p align="center" style="font-size: 15px;">
+        <strong><u>ACTA DE GARANTÍA Y CONDICIONES</u></strong>
+    </p>
+    <p style="font-size: 13px;">
+        <strong>FRACCIONAMIENTO:</strong>&nbsp;<apex:outputText value="{!inv.Fraccionamiento__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;<strong>CONDOMINIO:</strong>&nbsp;<apex:outputText value="{!inv.Condominio__c}"></apex:outputText>
+    </p>
+    <p style="font-size: 13px;">
+        <strong>NOMBRE DEL CLIENTE:</strong>&nbsp;<apex:outputText value="{!cuenta.Name}"></apex:outputText>
+    </p>
+    <p style="font-size: 13px;">
+        <strong>MANZANA:</strong>&nbsp;<apex:outputText value="{!inv.Manzana__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;<strong>LOTE:</strong>&nbsp;<apex:outputText value="{!inv.Lote__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;<strong>NO. INT.:</strong>&nbsp;<apex:outputText value="{!inv.Interior__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;<strong>U.P:</strong>&nbsp;<apex:outputText value="{!inv.Unidad_privativa__c}"></apex:outputText>
+    </p>
+    <p style="font-size: 13px;">
+        <strong>DIRECCIÓN OFICIAL:</strong>&nbsp;<apex:outputText value="{!inv.Direccionoficial__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>EMPRESA:</strong>&nbsp;<apex:outputText value="{!cuenta.Empresa__c}"></apex:outputText>
+    </p>
+    
+    
+    <div style="font-size: 10px;">
+        
+        La presente ampara las garantías que oportunamente convenimos respecto
+        a su vivienda, la cual consiste en lo siguiente:
+        
+    </div>
+    <br clear="all"/>
+    
+    <div>
+        <table border="0" cellspacing="0" cellpadding="0" style="font-size: 10px;">
+            <tbody>
+                <tr>
+                    <td>
+                        
+                        <strong>1. </strong>
+                        <strong>
+                            Garantía de 1 Año
+                        </strong>
+                        <br/>        1.1 Puertas y Ventanas.
+                        <br/>        1.2 Instalación Eléctrica (únicamente problemas derivados del cableado). &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        <br/>        1.3 Instalación Hidráulica.
+                        <br/>        1.4 Instalación Sanitaria.
+                        <br/>        1.5 Instalación de Gas.
+                        <br/>        1.6 Acabados Interiores y Exteriores (Grietas importantes mayores a 
+                        <br/>        &nbsp;&nbsp;&nbsp;&nbsp; 0.41mm en acabado int. y ext. ocasionadas por el mal funcionamiento
+                        <br/>        &nbsp;&nbsp;&nbsp;&nbsp; de las estructuras).
+                    </td>
+                    <td valign="top">
+                        <br/>         <strong>2. </strong>
+                        <strong>Garantía hasta por 3 años:</strong>
+                        <br/>        2.1. Impermeabilización en azotea.
+                        <br/>        <strong>3. </strong>
+                        <strong>Garantía hasta por 5 años:</strong>
+                        <br/>        3.1. Cimentación.   
+                        <br/>        3.2. Muros de carga.         
+                        <br/>        3.3. Losas.        
+                        <br/>        3.4. Estructuras.     
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br clear="all"/>
+    <div style="font-size: 9px;">
+        <em>PUNTOS A CONSIDERAR</em>
+        <br/><em>
+            ·  Según especificaciones de acabados.
+        <br/>        
+            ·  Las fisuras que se presentan por los cambios de temperatura y se derivan del comportamiento natural de los materiales, no son estructurales por lo cual no entrarían en garantía como detalle estructural.
+        <br/>      
+            ·  El cliente debe suministrar e instalar las pastillas situadas en el centro de carga ubicado en el murete de la vivienda.
+        <br/>
+            ·  Se recomienda realizar la contratación de servicios una vez recibida la vivienda y dentro de los períodos de garantía que ofrece la empresa.
+        <br/>      
+            ·  Los guardias de vigilancia contratados por JAVER están para dar servicio al área de ventas y a las viviendas en proceso de construcción, mientras éstas son entregadas a cada propietario. La seguridad de las viviendas entregadas es responsabilidad de cada propietario.
+        <br/></em>
+        
+    </div>
+    <br/>
+    <div style="font-size: 11px;">
+        
+        <strong>CONDICIONES DE GARANTÍA:</strong>
+        
+        
+        <p style="font-size: 10px;">
+            1.    Estructural: No aplicara garantía alguna, cuando el cliente modifique o afecte 
+            la estructura original de la vivienda, liberando al otorgante de la responsabilidad de cualquier afectación.
+            <br/>
+            2.    Impermeabilizante: Esta póliza ampara detalles de impermeabilización y goteras que se presenten por mala aplicación; 
+            No aplicara garantía, cuando el daño se derive de instalación de antenas de televisión aérea, paneles solares, 
+            climas, tinacos o por obstrucción y falta de mantenimiento en descargas pluviales o salidas de agua
+            <br/>
+            3.    Acabados interiores: No aplicara garantía, cuando se trate de fisuras por temperatura menores a 0.41mm, 
+            o bien las fisuras o desprendimiento en acabado, sea derivado por trabajos de terceros realizados al interior de 
+            la vivienda, y estos provoquen vibración o deterioro en los acabados, ejemplo: colocación de persianas, cortineros, 
+            cuadros, adornos, protectores, etc.
+            <br/>
+            4.    Acabados exteriores: No aplicara garantía, cuando se trate de fisuras por temperatura menores a 0.41mm, 
+            juntas constructivas, o bien cuando las fisuras o desprendimiento en acabado, sea derivado por trabajos de terceros 
+            realizados al exterior de la vivienda, y estos provoquen vibración o deterioro en los acabados, ejemplo: colocación 
+            de protecciones, adornos, soportes, techos, etc.
+            <br/>
+            5.    Instalación hidráulica, sanitaria y de gas: No aplicara garantía, cuando los componentes hidráulicos y sanitarios,
+             sean manipulados, modificados o alterados por terceros.
+            <br/>
+            6.    Electricidad: No aplicara garantía, cuando los componentes eléctricos y/o instalación eléctrica, 
+            sea manipulada, modificada o alterada por terceros.
+            <br/>
+            7.    De acuerdo a su cobertura, sólo quedan garantizadas las partidas descritas en esta Acta de Garantías y 
+            Condiciones; cualquier reclamación que derive de desperfectos no señalados en la misma, se resolverán de acuerdo 
+            a la legislación aplicable; el otorgante de esta Acta de Garantías y Condiciones no se hace responsable por defectos
+             derivados del mal uso, falta de mantenimiento, modificaciones o ampliaciones a la estructura, a las instalaciones 
+             eléctricas, hidráulicas, sanitarias, de gas o en general a los acabados originales de la vivienda.
+            <br/>
+            8.    Para solicitar cualquier reparación al amparo de esta Acta de Garantías y Condiciones, el propietario 
+            deberá comunicarse al Depto. de Servicio a Clientes o presentarse en oficinas de la constructora para dar de alta 
+            su reporte; en ambos casos al momento de la cita en el fraccionamiento o en las oficinas de la constructora, 
+            se deberá mostrar esta carta de garantía y llenando un reporte de desperfectos por reparar.  Estas solo procederán 
+            cuando la reclamación se haga en el plazo correspondiente
+            <br/>
+            9.    El cliente se obliga a firmar de conformidad cuando los trabajos de reparación solicitadas sean efectuados. 
+            Para que el cliente pueda solicitar cualquier reparación al amparo de esta Acta de Garantías y Condiciones deberá 
+            estar al corriente en sus pagos con el banco acreditante y con el otorgante de esta Garantía.
+            <br/>
+            10.    Esta garantía no ampara desperfectos derivados de sismos, tormentas, o en general acontecimientos naturales; 
+            Tampoco comprenden problemas que resulten de vicios o problemas de medición, conexión o suministro por parte de las 
+            oficinas de Servicios Públicos.Si se llega a modificar el giro habitacional por el uso comercial o de cualquier otro 
+            tipo, también dejará sin efecto esta póliza de garantía.
+            <br/>
+            11.    Las bardas solamente son limitantes de terreno, por lo cual no se debe construir sobre estas, de hacerlo el
+            cliente deberá contratar un perito responsable.
+            <br/>
+            12.    Los plazos señalados en esta Acta de Garantías y Condiciones inician a partir de la fecha de recepción de la 
+            casa por parte del cliente. El hecho de no habitar la vivienda no exime el cumplimiento de la vigencia de esta póliza.
+        </p>
+        
+    </div>
+    <div style="font-size: 11px; display: inline">
+        <DIV>NOMBRE DEL TITULAR: <u>&nbsp;&nbsp;{!cuenta.Nombre_cta__c} {!cuenta.Apellidopaterno_cta__c} {!cuenta.ApellidoMaterno_cta__c}&nbsp;&nbsp;</u></DIV> 
+        <!--div align="right" style="margin-top: -12px;">FIRMA DE ACEPTACIÓN: ___________________ </div-->
+    </div>
+    
+    <div style="font-size: 11px;margin-top:10px">
+        FIRMA DE ACEPTACIÓN: ________________________________________________________________
+    </div><br/><br/><br/><br/>
+    
+    
+    <apex:image value="{!$Resource.casasJaverActasPDF}" style=" width: 120px; text-align: left;"/>
+    <p align="right" style="font-size: 14px;">
+        FECHA: <strong><apex:outputText value="{0, date, dd'/'MM'/'yyyy}"><apex:param value="{!inv.FechaActas__c}" /></apex:outputText></strong>
+    </p>
+    <p align="center" style="font-size: 15px;">
+        <strong><u>ACTA DE ENTREGA DE ECO-TECNOLOGÍAS, ACCESORIOS Y DOCUMENTOS</u></strong>
+    </p>
+    <p style="font-size: 14px;">
+        <strong>FRACCIONAMIENTO:</strong>&nbsp;<apex:outputText value="{!inv.Fraccionamiento__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;<strong>CONDOMINIO:</strong>&nbsp;<apex:outputText value="{!inv.Condominio__c}"></apex:outputText>
+    </p>
+    <p style="font-size: 14px;">
+        <strong>NOMBRE DEL CLIENTE:</strong>&nbsp;<apex:outputText value="{!cuenta.Name}"></apex:outputText>
+    </p>
+    <p style="font-size: 14px;">
+        <strong>MANZANA:</strong>&nbsp;<apex:outputText value="{!inv.Manzana__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;<strong>LOTE:</strong>&nbsp;<apex:outputText value="{!inv.Lote__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;<strong>NO. INT.:</strong>&nbsp;<apex:outputText value="{!inv.NumeroInterior__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;<strong>U.P:</strong>&nbsp;<apex:outputText value="{!inv.Unidad_privativa__c}"></apex:outputText>
+    </p>
+    <p style="font-size: 14px;">
+        <strong>DIRECCIÓN OFICIAL:</strong>&nbsp;<apex:outputText value="{!inv.Direccionoficial__c}"></apex:outputText> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>EMPRESA:</strong>&nbsp;<apex:outputText value="{!cuenta.Empresa__c}"></apex:outputText>
+    </p>
+    
+    <p style="font-size: 13px;">
+        El presente documento ampara la entrega oportuna de los siguientes
+        atributos extras que es acorde a la vivienda en lo siguiente según aplique:
+    </p>
+    <p>
+        <strong>I. </strong>
+        <strong>ENTREGA DE ECO-TECNOLOGÍAS</strong>
+    </p>
+    
+    <table border="0" cellspacing="0" cellpadding="0" style="font-size: 13px;">
+        <tbody>
+            <tr>
+                <td width="262" >
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.FocoAhorrador__c > 0, ECO.FocoAhorrador__c, 0)}  - Foco(s) Ahorrador(es)"></apex:outputText>
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.FocoAhorrador__c > 0, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="66" valign="center" >
+                    
+                </td>
+                <td width="198">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.LlaveTarja__c > 0, ECO.LlaveTarja__c, 0)}  - Llave(s) de control para tarja"></apex:outputText>
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.LlaveTarja__c > 0, 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td width="262">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.FocoLED__c > 0, ECO.FocoLED__c, 0)}  - Foco(s) LED"></apex:outputText>
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.FocoLED__c > 0, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="66" valign="top">
+                </td>
+                <td width="198">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.BoteBasura__c > 0, ECO.BoteBasura__c, 0)}  - Bote(s) de basura"></apex:outputText>
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.BoteBasura__c > 0, 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td width="262">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.FiltroAgua__c > 0, ECO.FiltroAgua__c, 0)}  - Filtro(s) Purificador de agua"></apex:outputText>
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.FiltroAgua__c > 0, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="66" valign="top">
+                </td>
+                <td width="198">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.CalentadorSolar__c > 0, ECO.CalentadorSolar__c, 0)}  - Calentador solar y de paso"></apex:outputText>
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.CalentadorSolar__c > 0, 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td width="262">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.LlaveChorro__c > 0, ECO.LlaveChorro__c, 0)}  - Llave(s) de chorro"></apex:outputText>
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.LlaveChorro__c > 0, 'X', '')}"></apex:outputText>
+                    
+                </td>
+                <td width="66" valign="top">
+                </td>
+                <td width="198">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.OtrosEcoNum__c > 0, ECO.OtrosEcoNum__c, 'Otros: ')} "></apex:outputText><apex:outputText style="font-style:bold" value="{!If(ECO.OtrosEco__c != '', '- ' + ECO.OtrosEco__c, '')} "></apex:outputText>
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.OtrosEco__c != '', 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="font-size: 12px;">
+        <em>
+            <apex:outputText style="font-style:bold" value="{!If(ECO.Observaciones__c != '', 'Observaciones: ' + ECO.Observaciones__c, 'Observaciones: ')} "></apex:outputText>
+        </em>
+    </p>
+    <p>
+        <strong>II. </strong>
+        <strong>ACCESORIOS (En caso de aplicar)</strong>
+    </p>
+    <div style="font-size: 13px;">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td width="258">
+                        
+                        <strong>Mosquiteros</strong>
+                        
+                    </td>
+                    <td width="37" style = "border: 1px solid black;">
+                        
+                    </td>
+                    <td width="55">
+                        
+                    </td>
+                    <td width="214">
+                        
+                        <strong>Artículos Baño</strong>
+                        
+                        
+                    </td>
+                    <td width="31" style = "border: 1px solid black;">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.Sala__c > 0, ECO.Sala__c, 0)}  - Sala"></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.Sala__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.TapaWC__c > 0, ECO.TapaWC__c, 0)}  - Tapa(s) de tanque WC"></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.TapaWC__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.Comedor__c > 0, ECO.Comedor__c, 0)}  - Comedor"></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.Comedor__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.AsientoWC__c > 0, ECO.AsientoWC__c, 0)}  - Asiento(s) WC"></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.AsientoWC__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.RecamaraPrincipal__c > 0, ECO.RecamaraPrincipal__c, 0)}  - Recámara Principal"></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.RecamaraPrincipal__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.AccesoriosBano__c > 0, ECO.AccesoriosBano__c, 0)}  - Juego(s) de Accesorios baño"></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.AccesoriosBano__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.RecamaraPosterior__c > 0, ECO.RecamaraPosterior__c, 0)}  - Recámara(s) Posterior(es)"></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.RecamaraPosterior__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.PortaRollos__c > 0, ECO.PortaRollos__c, 0)}  - Porta-rollo(s)"></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.PortaRollos__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.Bano__c > 0, ECO.Bano__c, 0)}  - Baño(s)"></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.Bano__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.Jabonera__c > 0, ECO.Jabonera__c, 0)}  - Jabonera(s)"></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.Jabonera__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.Cocina__c > 0, ECO.Cocina__c, 0)}  - Cocina"></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.Cocina__c > 0, 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.Toallero__c > 0, ECO.Toallero__c, 0)}  - Toallero(s)"></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText style="font-style:bold; text-align: center; vertical-align: middle;" value="{!If(ECO.Toallero__c > 0, 'X', '')}"></apex:outputText></td>
+                </tr>
+                <tr>
+                    <td width="258">
+                            <strong>Accesorios Exteriores</strong>
+                    </td>
+                    <td width="37">
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                            <strong>Accesorios Interiores</strong>
+                    </td>
+                    <td width="31">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.ExterioresNum__c > 0, ECO.ExterioresNum__c, '_____ ')} "></apex:outputText><apex:outputText style="font-style:bold" value="{!If(ECO.Exteriores__c != '', '- ' + ECO.Exteriores__c, '________________________________')} "></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText value="{!If(ECO.Exteriores__c != '', 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.InterioresNum__c > 0, ECO.InterioresNum__c, '_____ ')} "></apex:outputText><apex:outputText style="font-style:bold" value="{!If(ECO.Interiores__c != '', '- ' + ECO.Interiores__c, '__________________________')} "></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText value="{!If(ECO.Interiores__c != '', 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>
+        <strong>III. </strong>
+        <strong>DOCUMENTOS </strong>
+    </p>
+    <table border="0" cellspacing="0" cellpadding="0" style="font-size: 13px;">
+        <tbody>
+            <tr>
+                <td width="262">
+                    Manual de Usuario
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.ManualUsuario__c, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="57" valign="top">
+                </td>
+                <td width="208">
+                    Inf de Contratación de Servicios
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.ContratacionServicios__c, 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td width="262">
+                    
+                    Reglamento Vecinal Javer
+                    
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.Reglamento__c, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="57" valign="top">
+                </td>
+                <td width="208">
+                    
+                    Carta de Servicios Digitales
+                    
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.ServiciosDigitales__c, 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td width="262">
+                    
+                    Plano Arquitectónico
+                    
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.Plano__c, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="57" valign="top">
+                </td>
+                <td width="208">
+                    <apex:outputText style="font-style:bold" value="{!If(ECO.OtrosDoc__c != '', 'Otro: ' + ECO.OtrosDoc__c, 'Otro: ')} "></apex:outputText>
+                </td>
+                <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.OtrosDoc__c != '', 'X', '')}"></apex:outputText>
+                </td>
+            </tr>
+            <tr>
+                <td width="262">
+                    
+                    Carta de Servicios Públicos
+                    
+                </td>
+                <td width="38" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                    <apex:outputText value="{!If(ECO.ServiciosPublicos__c, 'X', '')}"></apex:outputText>
+                </td>
+                <td width="57" valign="top">
+                </td>
+                <td width="208">
+                </td>
+                <td width="31" valign="top">
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <p>
+        <strong>IV. </strong>
+        <strong>
+            MEJORAS INSTALADAS A LA VIVIENDA /PAQUETES DE MUEBLES/ COMPLEMENTOS
+        </strong>
+    </p>
+    <div style="font-size: 13px;">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td width="258">
+                        <strong>Paquetes de Muebles</strong>
+                    </td>
+                    <td width="37" >
+                        
+                    </td>
+                    <td width="55">
+                        
+                    </td>
+                    <td width="214">
+                        <strong>Mejoras Instaladas</strong>
+                    </td>
+                    <td width="31" >
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td width="258">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.PaquetesNum__c > 0, ECO.PaquetesNum__c, '____')} "></apex:outputText><apex:outputText style="font-style:bold" value="{!If(ECO.Paquetes__c != '', '- ' + ECO.Paquetes__c, ' _________________')} "></apex:outputText>
+                    </td>
+                    <td width="37" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText value="{!If(ECO.Paquetes__c != '', 'X', '')}"></apex:outputText>
+                    </td>
+                    <td width="55">
+                    </td>
+                    <td width="214">
+                        <apex:outputText style="font-style:bold" value="{!If(ECO.MejorasNum__c > 0, ECO.MejorasNum__c, '____')} "></apex:outputText><apex:outputText style="font-style:bold" value="{!If(ECO.Mejoras__c != '', '- ' + ECO.Mejoras__c, ' _________________')} "></apex:outputText>
+                    </td>
+                    <td width="31" style = "border: 1px solid black;text-align: center; vertical-align: middle;">
+                        <apex:outputText value="{!If(ECO.Mejoras__c != '', 'X', '')}"></apex:outputText>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div style="height: 32px;">
+        
+    </div>
+    <div style="font-size: 11px;">
+        NOMBRE DEL TITULAR:<u>&nbsp;&nbsp;{!cuenta.Nombre_cta__c} {!cuenta.Apellidopaterno_cta__c} {!cuenta.ApellidoMaterno_cta__c}&nbsp;&nbsp;</u>
+    </div>
+    <div style="font-size: 11px;margin-top:10px">
+        FIRMA DE ACEPTACIÓN: ________________________________________________________________
+    </div>
+    
+</apex:page>

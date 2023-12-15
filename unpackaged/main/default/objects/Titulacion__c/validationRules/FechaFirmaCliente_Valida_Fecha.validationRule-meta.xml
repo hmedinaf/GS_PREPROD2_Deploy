@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FechaFirmaCliente_Valida_Fecha</fullName>
+    <active>false</active>
+    <description>Se permite una fecha hasya 4 dias antes de la fecha actual.</description>
+    <errorConditionFormula>IF(OR(Fecha_Firma_Cliente__c &gt;= (TODAY() - 4),  ISBLANK(Fecha_Firma_Cliente__c)), FALSE, TRUE)</errorConditionFormula>
+    <errorDisplayField>Fecha_Firma_Cliente__c</errorDisplayField>
+    <errorMessage>La fecha de firma del clinete debe ser máximo, 4 dias anteriores a la fecha actual.</errorMessage>
+</ValidationRule>

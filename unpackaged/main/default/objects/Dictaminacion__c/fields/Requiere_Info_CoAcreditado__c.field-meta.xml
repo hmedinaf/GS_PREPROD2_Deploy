@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requiere_Info_CoAcreditado__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( OR(Tipo_de_Tramite__c =&quot;COFINAVIT CONYUGAL&quot;,
+       Tipo_de_Tramite__c =&quot;CONYUGAL&quot;,
+       Tipo_de_Tramite__c =&quot;CONYUGAL C/SUBSIDIO 2.6 VSM&quot;,
+       Tipo_de_Tramite__c =&quot;CONYUGAL C/SUBSIDIO 5 VSM&quot;,
+       Tipo_de_Tramite__c =&quot;FOVISSSTE PARA TODOS&quot;,
+       Tipo_de_Tramite__c =&quot;UNAMOS CREDITOS&quot;), TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Requiere Info CoAcreditado?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bajas</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>PC_LAST_NAME</columns>
+    <columns>Fraccionamiento_cta__c</columns>
+    <columns>PC_BIRTHDATE</columns>
+    <columns>NSS__c</columns>
+    <columns>Estatus_Cliente__c</columns>
+    <columns>Tipo_Baja__c</columns>
+    <columns>Motivo_Baja__c</columns>
+    <columns>Categoria__c</columns>
+    <columns>Fecha_Estatus__c</columns>
+    <columns>Asesor__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Estatus_Lista_Negra_QEQ__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Estatus_Cliente__c</field>
+        <operation>equals</operation>
+        <value>BAJA</value>
+    </filters>
+    <label>Bajas</label>
+</ListView>

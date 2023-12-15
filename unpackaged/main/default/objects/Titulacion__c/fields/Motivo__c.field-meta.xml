@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sub_Estado__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Folio</fullName>
+                <default>false</default>
+                <label>Folio</label>
+            </value>
+            <value>
+                <fullName>Por Capturar</fullName>
+                <default>false</default>
+                <label>Por Capturar</label>
+            </value>
+            <value>
+                <fullName>Bajo Monto</fullName>
+                <default>false</default>
+                <label>Bajo Monto</label>
+            </value>
+            <value>
+                <fullName>Fuera de Rango</fullName>
+                <default>false</default>
+                <label>Fuera de Rango</label>
+            </value>
+            <value>
+                <fullName>Sin Aportaciones</fullName>
+                <default>false</default>
+                <label>Sin Aportaciones</label>
+            </value>
+            <value>
+                <fullName>Sin Relación Laboral</fullName>
+                <default>false</default>
+                <label>Sin Relación Laboral</label>
+            </value>
+            <value>
+                <fullName>Análisis</fullName>
+                <default>false</default>
+                <label>Análisis</label>
+            </value>
+            <value>
+                <fullName>Autorizado</fullName>
+                <default>false</default>
+                <label>Autorizado</label>
+            </value>
+            <value>
+                <fullName>Condicionado</fullName>
+                <default>false</default>
+                <label>Condicionado</label>
+            </value>
+            <value>
+                <fullName>Inconsistencia</fullName>
+                <default>false</default>
+                <label>Inconsistencia</label>
+            </value>
+            <value>
+                <fullName>Sin Avalúo</fullName>
+                <default>false</default>
+                <label>Sin Avalúo</label>
+            </value>
+            <value>
+                <fullName>Sin DTU</fullName>
+                <default>false</default>
+                <label>Sin DTU</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Completo por Integracion Infonavit</controllingFieldValue>
+            <valueName>Folio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Completo por Integracion Infonavit</controllingFieldValue>
+            <valueName>Por Capturar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desperfilado</controllingFieldValue>
+            <valueName>Bajo Monto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desperfilado</controllingFieldValue>
+            <valueName>Fuera de Rango</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desperfilado</controllingFieldValue>
+            <valueName>Sin Aportaciones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desperfilado</controllingFieldValue>
+            <valueName>Sin Relación Laboral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrucción Financiera</controllingFieldValue>
+            <valueName>Análisis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrucción Financiera</controllingFieldValue>
+            <valueName>Autorizado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrucción Financiera</controllingFieldValue>
+            <valueName>Condicionado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instrucción Financiera</controllingFieldValue>
+            <valueName>Inconsistencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oficina</controllingFieldValue>
+            <valueName>Sin Avalúo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oficina</controllingFieldValue>
+            <valueName>Sin DTU</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

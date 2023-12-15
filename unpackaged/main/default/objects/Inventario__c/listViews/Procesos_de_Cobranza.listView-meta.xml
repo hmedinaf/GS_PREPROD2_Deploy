@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Procesos_de_Cobranza</fullName>
+    <columns>NAME</columns>
+    <columns>Saldo_Vencido_Pagares__c</columns>
+    <columns>Saldo_Pendiente__c</columns>
+    <columns>Vencimiento_Pagare__c</columns>
+    <columns>Asesor_de_Cobranza__c</columns>
+    <columns>Cuenta__c</columns>
+    <columns>Compania__c</columns>
+    <columns>Referencia_HSBC__c</columns>
+    <columns>Referencia_Santander__c</columns>
+    <columns>Referencia_Bancaria_Cliente__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Vencimiento_Pagare__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Procesos de Cobranza</label>
+</ListView>

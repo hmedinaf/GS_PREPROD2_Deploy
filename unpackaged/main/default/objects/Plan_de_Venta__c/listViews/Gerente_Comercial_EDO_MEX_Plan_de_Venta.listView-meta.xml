@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gerente_Comercial_EDO_MEX_Plan_de_Venta</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Gerente Comercial EDO MEX</label>
+    <queue>Gerente_Comercial_EDO_MEX</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

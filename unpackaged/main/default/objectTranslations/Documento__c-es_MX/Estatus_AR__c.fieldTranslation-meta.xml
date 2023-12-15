@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estatus AR --></label>
+        <name>Estatus_AR__c</name>
+        <picklistValues>
+            <masterLabel>FALLO AR</masterLabel>
+            <translation><!-- FALLO AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PENDIENTE</masterLabel>
+            <translation><!-- PENDIENTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ÉXITO AR</masterLabel>
+            <translation><!-- ÉXITO AR --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

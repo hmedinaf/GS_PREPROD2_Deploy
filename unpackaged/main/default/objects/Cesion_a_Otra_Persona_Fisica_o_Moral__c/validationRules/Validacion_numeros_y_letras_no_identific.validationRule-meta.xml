@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validacion_numeros_y_letras_no_identific</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(
+   OR(
+       REGEX(No_Identificacion__c, &quot;(\\D)+(\\d)+&quot;),          
+       REGEX(No_Identificacion__c,&quot;[^%$#@&amp;!*()^+_-]&quot;),
+       REGEX(No_Identificacion__c,&quot;[^=,&lt;.&gt;/?~`]&quot;)
+   )
+)</errorConditionFormula>
+    <errorDisplayField>No_Identificacion__c</errorDisplayField>
+    <errorMessage>Solo se aceptan números y letras en el campo no. identificación.</errorMessage>
+</ValidationRule>

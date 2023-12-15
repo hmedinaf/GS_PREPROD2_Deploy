@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ViviendaDTUDTI</fullName>
+    <columns>NAME</columns>
+    <columns>Entregada__c</columns>
+    <columns>Manzana__c</columns>
+    <columns>Lote__c</columns>
+    <columns>FechadeHabitabilidad__c</columns>
+    <columns>Fracc__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IsEntrega__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Entregada__c</field>
+        <operation>notEqual</operation>
+        <value>Por Entregar,Entregado,Agendada</value>
+    </filters>
+    <label>Vivienda DTU o DTI</label>
+</ListView>

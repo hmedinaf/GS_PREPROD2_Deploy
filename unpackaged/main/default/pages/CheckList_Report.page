@@ -1,0 +1,302 @@
+<apex:page controller="CheckListReportController" renderAs="pdf">
+    <apex:form >
+        <h2>Detalle del check list</h2>
+        <div>
+            <h3>
+                Informacion del Check List
+            </h3>
+            <table>
+                <tr>
+                    <td style=" width: 180px; text-align: left;">Nombre de CheckList</td>
+                    <td>{!cl.Name}</td>
+                </tr>
+                <tr>
+                    <td>Estatus</td>
+                    <td>{!cl.Estatus__c}</td>
+                </tr>
+                <tr>
+                    <td>Vivienda</td>
+                    <td>{!viv.NumeroInterior__c}</td>
+                </tr>
+                <tr>
+                    <td>MLI</td>
+                    <td>{!cl.MLI__c}</td>
+                </tr>
+                <tr>
+                    <td>Propietario</td>
+                    <td>{!prop.Name}</td>
+                </tr>
+                <tr>
+                    <td>% Completado</td>
+                    <td>{!cl.Completado__c}</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h3>
+                Exterior
+            </h3>
+            <table>
+                <tr>
+                    <td style=" width: 180px; text-align: left;"></td>
+                    <td></td>
+                    <td>Observaciones</td>
+                </tr>
+                <tr>
+                    <td >Acabado exterior y pintura</td>
+                    <td><apex:outputField value="{!cl.AcabadoExteriorPintura__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesExtPin__c}</td>
+                </tr>
+                <tr>
+                    <td>Accesorios eléctricos</td>
+                    <td><apex:outputField value="{!cl.AccesoriosElectricos__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesAccEl__c}</td>
+                </tr>
+                <tr>
+                    <td>Puertas ventanas chapas y marcos</td>
+                    <td><apex:outputField value="{!cl.PuertasVentanasChapasMarcos__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesPueVenChMar__c}</td>
+                </tr>
+                <tr>
+                    <td>Banquetas, bardas propias y medianeras</td>
+                    <td><apex:outputField value="{!cl.BanquetasBardasPropiasMedianeras__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesBanBaPrMe__c}</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h3>
+                Planta Baja
+            </h3>
+            <table>
+                <tr>
+                    <td style=" width: 180px; text-align: left;"></td>
+                    <td></td>
+                    <td>Observaciones</td>
+                </tr>
+                <tr>
+                    <td>Azulejos y pisos</td>
+                    <td><apex:outputField value="{!cl.AzulejosPisos__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesAzuPi__c}</td>
+                </tr>
+                <tr>
+                    <td>Acabo interior</td>
+                    <td><apex:outputField value="{!cl.AcaboInterior__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesAcInt__c}</td>
+                </tr>
+                <tr>
+                    <td>Marcos puertas ventanas chapas corrediza</td>
+                    <td><apex:outputField value="{!cl.MarcosPuertasVentanasChapasCorrediza__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesMaPuveChCo__c}</td>
+                </tr>
+                <tr>
+                    <td>Accesorios eléctricos y preparación</td>
+                    <td><apex:outputField value="{!cl.AccesoriosElectricosPreparacion__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesAccElePrep__c}</td>
+                </tr>
+                <tr>
+                    <td>Sanitarios lavabos accesorios de baño</td>
+                    <td><apex:outputField value="{!cl.SanitariosLavabosAccesoriosBano__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesSanLavAcc__c}</td>
+                </tr>
+            </table>
+        </div>
+        <apex:outputPanel rendered="{!isPlanta2}">
+            <div>
+                <h3>
+                    Planta alta
+                </h3>
+                <table>
+                    <tr>
+                        <td style=" width: 180px; text-align: left;"></td>
+                        <td></td>
+                        <td>Observaciones</td>
+                    </tr>
+                    <tr>
+                        <td>Azulejos y pisos PA</td>
+                        <td><apex:outputField value="{!cl.AzulejosPisosPlantaAlta__c}"/></td>
+                        <td style="text-align: justify;">{!cl.ObservacionesAzulejosPisosPlantaAlta__c}</td>
+                    </tr>
+                    <tr>
+                        <td>Acabado interior PA</td>
+                        <td><apex:outputField value="{!cl.AcabadoInteriorPlantaAlta__c}"/></td>
+                        <td style="text-align: justify;">{!cl.ObservacionesAcabadoInteriorPlantaAlta__c}</td>
+                    </tr>
+                    <tr>
+                        <td>Marcos, puertas, ventanas, chapas, PA</td>
+                        <td><apex:outputField value="{!cl.MarcosPuertasVentanasCHapasPA__c}"/></td>
+                        <td style="text-align: justify;">{!cl.ObservacionesMarcPuerVenPlantaAlta__c}</td>
+                    </tr>
+                    <tr>
+                        <td>Accesorios eléctricos y preparación PA</td>
+                        <td><apex:outputField value="{!cl.AccesoriosElectricosPrepPlantaAlta__c}"/></td>
+                        <td style="text-align: justify;">{!cl.ObservacionesAccElectricosPrepPlantaAlta__c}</td>
+                    </tr>
+                    <tr>
+                        <td>Sanitarios, lavabos, acc. de baño PA</td>
+                        <td><apex:outputField value="{!cl.SanitariosLavabosAccBanoPlantaAlta__c}"/></td>
+                        <td style="text-align: justify;">{!cl.ObservacionesSanitariosLavabosPlantaAlta__c}</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h3>
+                    Patio / Lavandería
+                </h3>
+                <table>
+                    <tr>
+                        <td style=" width: 180px; text-align: left;"></td>
+                        <td></td>
+                        <td>Observaciones</td>
+                    </tr>
+                    <tr>
+                        <td>Lavadero conexiones coladeras y registro</td>
+                        <td><apex:outputField value="{!cl.LavaderoConexionesColaderasRegistro__c}"/></td>
+                        <td style="text-align: justify;">{!cl.ObservacionesLavaderoConexiones__c}</td>
+                    </tr>
+                    <tr>
+                        <td>Calentador y válvula de alivio colocado</td>
+                        <td><apex:outputField value="{!cl.CalentadorValvulaAlivioColocado__c}"/></td>
+                        <td style="text-align: justify;">{!cl.ObservacionesCalentadorValvula__c}</td>
+                    </tr>
+                    <tr>
+                        <td>Piso cerámico y banqueta</td>
+                        <td><apex:outputField value="{!cl.PisoCeramicoBanqueta__c}"/></td>
+                        <td style="text-align: justify;">{!cl.ObservacionesPisoCeramicoBanqueta__c}</td>
+                    </tr>
+                </table>
+            </div>
+        </apex:outputPanel>
+        <apex:outputPanel rendered="{!isPlanta3}">
+	        <div>
+            <h3>
+                3 Nivel / sótano
+            </h3>
+            <table>
+                <tr>
+                    <td style=" width: 180px; text-align: left;"></td>
+                    <td></td>
+                    <td>Observaciones</td>
+                </tr>
+                <tr>
+                    <td>Acabado interior N3</td>
+                    <td><apex:outputField value="{!cl.AcabadoInteriorNivelTres__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesAcabadoInteriorNivelTres__c}</td>
+                </tr>
+                <tr>
+                    <td>Marcos, puertas, ventanas, chapas N3</td>
+                    <td><apex:outputField value="{!cl.MarcosPuertasVentanasChapasNivelTres__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesMarcPuerVenNivelTres__c}</td>
+                </tr>
+                <tr>
+                    <td>Azulejos, pisos y zoclo</td>
+                    <td><apex:outputField value="{!cl.AzulejosPisosZoclo__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesAzulejosPisosZoclo__c}</td>
+                </tr>
+                <tr>
+                    <td>Accesorios eléctricos y preparación N3</td>
+                    <td><apex:outputField value="{!cl.AccesoriosElctricosPrepNivelTres__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesAccElectricosPrepNivelTres__c}</td>
+                </tr>
+                <tr>
+                    <td>Sanitarios, lavabos, acc. de baño N3</td>
+                    <td><apex:outputField value="{!cl.SanitariosLavabosAccBanoNivelTres__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesSanitariosLavabosNivelTres__c}</td>
+                </tr>
+            </table>
+        </div>
+        </apex:outputPanel>
+        <div>
+            <h3>
+                Azotea
+            </h3>
+            <table>
+                <tr>
+                    <td style=" width: 180px; text-align: left;"></td>
+                    <td></td>
+                    <td>Observaciones</td>
+                </tr>
+                <tr>
+                    <td>Impermeabilización ventilas y poliductos</td>
+                    <td><apex:outputField value="{!cl.ImpermeabilizacionVentilasPoliductos__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesImpVen__c}</td>
+                </tr>
+                <tr>
+                    <td>Colocación de calentadores solares (S.A)</td>
+                    <td><apex:outputField value="{!cl.ColocacionCalentadoresSolares__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesColCalSol__c}</td>
+                </tr>
+                <tr>
+                    <td>Acabados en losa azotea</td>
+                    <td><apex:outputField value="{!cl.AcabadosLosaAzotea__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesAcLosAz__c}</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h3>
+                Pruebas de servicio
+            </h3>
+            <table>
+                <tr>
+                    <td style=" width: 180px; text-align: left;"></td>
+                    <td></td>
+                    <td>Observaciones</td>
+                </tr>
+                <tr>
+                    <td>Prueba eléctrica realizada</td>
+                    <td><apex:outputField value="{!cl.PruebaElectricaRealizada__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesPrEleRea__c}</td>
+                </tr>
+                <tr>
+                    <td>Prueba hidráulica realizada</td>
+                    <td><apex:outputField value="{!cl.PruebaHidraulicaRealizada__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesPruebaHidraulicaRealizada__c}</td>
+                </tr>
+                <tr>
+                    <td>Pruebas sanitarias realizadas</td>
+                    <td><apex:outputField value="{!cl.PruebasSanitariasRealizadas__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesPruebaSanitariaRealizada__c}</td>
+                </tr>
+                <tr>
+                    <td>Pruebas de gas realizada</td>
+                    <td><apex:outputField value="{!cl.PruebasGasRealizada__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesPruebasGasRealizada__c}</td>
+                </tr>
+                <tr>
+                    <td>Prueba del pluvial realizada</td>
+                    <td><apex:outputField value="{!cl.PruebaPluvialRealizada__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesPruebaPluvialRealizada__c}</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h3>
+                Kit ecológico
+            </h3>
+            <table>
+                <tr>
+                    <td style=" width: 180px; text-align: left;"></td>
+                    <td></td>
+                    <td>Observaciones</td>
+                </tr>
+                <tr>
+                    <td>Kit ecológico completo (si aplica)</td>
+                    <td><apex:outputField value="{!cl.KitEcologicoCompleto__c}"/></td>
+                    <td style="text-align: justify;">{!cl.ObservacionesKitEcologico__c}</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h3>
+                Observaciones
+            </h3>
+            <table>
+                <tr>
+                    <td style=" width: 180px; text-align: left;">Campo abierto</td>
+                    <td style="text-align: justify;">{!cl.CampoAbierto__c}</td>
+                </tr>
+            </table>
+        </div>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monto_de_credito_definitivo_Estatus_Form</fullName>
+    <active>true</active>
+    <description>Solo se puede modificar cuando esta en el estado &quot;Formalizado&quot;</description>
+    <errorConditionFormula>AND(isChanged(  Monto_de_Credito_Definitivo__c  ), NOT(ISPICKVAL(Estatus_Proceso__c , &#39;Formalizado&#39;)))</errorConditionFormula>
+    <errorDisplayField>Monto_de_Credito_Definitivo__c</errorDisplayField>
+    <errorMessage>Este campo solo se puede modificar cuando está en el estado &quot;Formalizado&quot;</errorMessage>
+</ValidationRule>

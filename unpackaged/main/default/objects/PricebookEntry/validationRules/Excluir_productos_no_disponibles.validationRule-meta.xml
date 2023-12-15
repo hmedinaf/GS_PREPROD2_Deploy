@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Excluir_productos_no_disponibles</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( Product2.Estatus_Vivienda__c != &#39;17&#39; &amp;&amp; Tipo_Producto_Validacion__c = &#39;Vivienda&#39;, true, false)</errorConditionFormula>
+    <errorMessage>Validar que la vivienda esté disponible</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>is_Data_Migration_User__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Permitir brincar reglas a los usuarios marcados como TRUE</description>
+    <externalId>false</externalId>
+    <label>Es Usuario de Migración de Datos</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

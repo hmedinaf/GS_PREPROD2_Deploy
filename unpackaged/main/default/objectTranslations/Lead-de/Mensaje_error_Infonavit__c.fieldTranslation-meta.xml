@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Mensaje error Infonavit --></label>
+        <name>Mensaje_error_Infonavit__c</name>
+        <picklistValues>
+            <masterLabel>Con pago y sin relación laboral</masterLabel>
+            <translation><!-- Con pago y sin relación laboral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crédito ejercido</masterLabel>
+            <translation><!-- Crédito ejercido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crédito vigente</masterLabel>
+            <translation><!-- Crédito vigente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESTE PRODUCTO NO CUMPLE LAS REGLAS DE FORTALECIMIENTO</masterLabel>
+            <translation><!-- ESTE PRODUCTO NO CUMPLE LAS REGLAS DE FORTALECIMIENTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Este producto de crédito, tiene como requisito realizar la consulta a tu historial crediticio</masterLabel>
+            <translation><!-- Este producto de crédito, tiene como requisito realizar la consulta a tu historial crediticio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inscrito al programa Crezcamos Juntos, consulta tus condiciones de ahorro y precalificación especial</masterLabel>
+            <translation><!-- Inscrito al programa Crezcamos Juntos, consulta tus condiciones de ahorro y precalificación especial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NECESITAS CUMPLIR 6 MESES DESPUES DE HABER TERMINADO DE PAGAR TU PRIMER CREDITO INFONAVIT</masterLabel>
+            <translation><!-- NECESITAS CUMPLIR 6 MESES DESPUES DE HABER TERMINADO DE PAGAR TU PRIMER CREDITO INFONAVIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSS no registrado en el Infonavit</masterLabel>
+            <translation><!-- NSS no registrado en el Infonavit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No cumples con las condiciones para obtener un segundo crédito porta</masterLabel>
+            <translation><!-- No cumples con las condiciones para obtener un segundo crédito porta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No cumples con los criterios mínimos para obtener un crédito</masterLabel>
+            <translation><!-- No cumples con los criterios mínimos para obtener un crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No encontramos tu NSS, favor de solicitarlo en tu empresa</masterLabel>
+            <translation><!-- No encontramos tu NSS, favor de solicitarlo en tu empresa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No es posible calcular tu puntuación debido a que no existe información de tu patrón al corte del bimestre 2 de 2021. Acude al área de Recursos Humanos de tu empresa.</masterLabel>
+            <translation><!-- No es posible calcular tu puntuación debido a que no existe información de tu patrón al corte del bimestre 2 de 2021. Acude al área de Recursos Humanos de tu empresa. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No se pudo sacar NSS</masterLabel>
+            <translation><!-- No se pudo sacar NSS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No tenemos correcto tu RFC, corrígeme en mi cuenta Infonavit o Cesi</masterLabel>
+            <translation><!-- No tenemos correcto tu RFC, corrígeme en mi cuenta Infonavit o Cesi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Por el momento no están disponibles las bases de datos de consulta</masterLabel>
+            <translation><!-- Por el momento no están disponibles las bases de datos de consulta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFC incorrecto</masterLabel>
+            <translation><!-- RFC incorrecto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saldo de subcuenta de vivienda no disponible para crédito</masterLabel>
+            <translation><!-- Saldo de subcuenta de vivienda no disponible para crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin relación laboral vigente</masterLabel>
+            <translation><!-- Sin relación laboral vigente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRABAJADOR CON PENSION DE FALLECIMIENTO (CAUSA DE VIDA)</masterLabel>
+            <translation><!-- TRABAJADOR CON PENSION DE FALLECIMIENTO (CAUSA DE VIDA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trabajador con pensión en proceso de retiro</masterLabel>
+            <translation><!-- Trabajador con pensión en proceso de retiro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trabajador con pensión por incapacidad permanente parcial menor o igual</masterLabel>
+            <translation><!-- Trabajador con pensión por incapacidad permanente parcial menor o igual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trabajador no tiene las últimas aportaciones registradas</masterLabel>
+            <translation><!-- Trabajador no tiene las últimas aportaciones registradas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trabajador tiene un trámite de crédito con apoyo Infonavit</masterLabel>
+            <translation><!-- Trabajador tiene un trámite de crédito con apoyo Infonavit --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo de Pagaré --></label>
+        <name>Tipo_Pagare__c</name>
+        <picklistValues>
+            <masterLabel>Pagaré Preventa</masterLabel>
+            <translation><!-- Pagaré Preventa --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

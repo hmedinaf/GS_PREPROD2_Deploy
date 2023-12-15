@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Valida Fecha Duplicados2 --></label>
+        <name>Valida_Fecha_Duplicados2__c</name>
+    </CustomFieldTranslation>

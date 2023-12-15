@@ -1,0 +1,5 @@
+<apex:page standardController="Product2" extensions="CPPT_Clonar_producto" action="{!clonarProducto}">
+    <apex:form >
+        <apex:inputHidden value="{!Product2.Id}"/>
+    </apex:form>
+</apex:page>

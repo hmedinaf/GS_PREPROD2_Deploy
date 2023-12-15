@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edicion_Ocupacion</fullName>
+    <active>true</active>
+    <description>La ocupación solo puede ser modificada cuando el estatus del cliente es por asignar, asignado o por reasignar</description>
+    <errorConditionFormula>AND($User.is_Data_Migration_User__c = false,
+	NOT(ISBLANK(TEXT(Ocupacion__c))),
+ ISCHANGED(Ocupacion__c),
+ NOT(ISPICKVAL(Estatus_Cliente__c, &#39;POR ASIGNAR&#39;)),
+ NOT(ISPICKVAL(Estatus_Cliente__c, &#39;ASIGNADO&#39;)),
+ NOT(ISPICKVAL(Estatus_Cliente__c, &#39;POR REASIGNAR&#39;))
+)</errorConditionFormula>
+    <errorDisplayField>Ocupacion__c</errorDisplayField>
+    <errorMessage>La Ocupación solo puede ser indicada cuando el estatus del cliente es POR ASIGNAR, ASIGNADO o POR REASIGNAR</errorMessage>
+</ValidationRule>

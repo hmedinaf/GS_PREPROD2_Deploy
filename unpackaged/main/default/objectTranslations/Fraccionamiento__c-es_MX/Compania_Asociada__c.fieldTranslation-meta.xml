@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Este campo se utiliza para ligar el fraccionamiento con una compañía de Javer y asi presentar el aviso de privacidad correspondiente --></help>
+        <label><!-- Compañía Javer Asociada --></label>
+        <name>Compania_Asociada__c</name>
+        <relationshipLabel><!-- Fraccionamientos --></relationshipLabel>
+    </CustomFieldTranslation>

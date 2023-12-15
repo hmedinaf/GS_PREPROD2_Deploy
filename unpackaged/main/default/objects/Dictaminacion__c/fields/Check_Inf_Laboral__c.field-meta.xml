@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Inf_Laboral__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (Tipo_Contribuyente_c__c=&#39;PERSONA FISICA&#39;,
+NOT(
+ISBLANK(Puesto__c) ||
+ISBLANK(TEXT(R_gimen_Fiscal__c)) ||
+ISNULL(Direccion_Laboral__c) ||
+ISBLANK(Telefono_Trabajo__c) ||
+ISBLANK(Extension__c) ||
+ISBLANK(A_os_Antig_edad__c)
+),
+!ISBLANK(TEXT(R_gimen_Fiscal__c))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Check Información Laboral</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

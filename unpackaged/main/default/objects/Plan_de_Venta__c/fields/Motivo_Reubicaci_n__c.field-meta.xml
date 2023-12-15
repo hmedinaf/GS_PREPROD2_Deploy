@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_Reubicaci_n__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo Reubicación</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Por DTU</fullName>
+                <default>false</default>
+                <label>Por DTU</label>
+            </value>
+            <value>
+                <fullName>Decisión del Cliente</fullName>
+                <default>false</default>
+                <label>Decisión del Cliente</label>
+            </value>
+            <value>
+                <fullName>Tramitología</fullName>
+                <default>false</default>
+                <label>Tramitología</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

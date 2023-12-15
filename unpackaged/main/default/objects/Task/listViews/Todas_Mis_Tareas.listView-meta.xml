@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Todas_Mis_Tareas</fullName>
+    <columns>SUBJECT</columns>
+    <columns>WHO_NAME</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>DUE_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>PRIORITY</columns>
+    <columns>STATUS</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>Completed,Cerrada</value>
+    </filters>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Mis Tareas Cerradas</label>
+</ListView>

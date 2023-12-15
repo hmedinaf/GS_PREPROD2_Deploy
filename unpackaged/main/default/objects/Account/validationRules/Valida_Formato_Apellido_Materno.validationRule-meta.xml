@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Formato_Apellido_Materno</fullName>
+    <active>true</active>
+    <description>El apellido materno de una cuenta no puede llevar números</description>
+    <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; &#39;Administrador del sistema&#39;,
+NOT(ISBLANK(Apellidomaterno_cta__c)),
+NOT(REGEX(Apellidomaterno_cta__c,&quot;[a-zA-Z áéíóúÁÉÍÓÚüÜñÑ]+&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Apellidomaterno_cta__c</errorDisplayField>
+    <errorMessage>Ingrese el apellido materno de la cuenta sin números ni caracteres especiales</errorMessage>
+</ValidationRule>

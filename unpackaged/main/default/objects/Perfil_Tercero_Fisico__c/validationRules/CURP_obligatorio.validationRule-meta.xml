@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CURP_obligatorio</fullName>
+    <active>false</active>
+    <description>Si ¿Es usted el titular de recursos? = NO, será obligatorio el campo CURP.</description>
+    <errorConditionFormula>AND
+(
+Es_usted_el_titular_de_recursos__c == &quot;NO&quot;,
+OR(
+ISNULL(CURP__c),
+ISBLANK(CURP__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>CURP__c</errorDisplayField>
+    <errorMessage>El campo ¿Es usted el titular de recursos? = NO por lo que el campo CURP debe llenarse.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Colaborador_Javer_Programa_Instituciona_Post_Venta</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Colaborador Javer (Programa Instituciona</label>
+    <queue>Colaborador_Javer_Programa_Instituciona</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

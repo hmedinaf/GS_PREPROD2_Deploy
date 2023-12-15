@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edicion_APC</fullName>
+    <active>true</active>
+    <description>Usuario con permiso APC solo podrá editar pagarés o notas de crédito mientras Estatus de Proceso de Venta = Escriturado o Entregado</description>
+    <errorConditionFormula>AND(
+ $Profile.Name = &#39;APC&#39;,
+ NOT(ISNEW()),
+ Cobranza_Comercial__r.Estatus_Proceso__c &lt;&gt; &#39;ESCRITURADO&#39;,
+ Cobranza_Comercial__r.Estatus_Proceso__c &lt;&gt; &#39;ENTREGADO&#39;
+)</errorConditionFormula>
+    <errorMessage>Solo puede editar el documento cuando el Estatus del Proceso de Venta es Escriturado o Entregado</errorMessage>
+</ValidationRule>
